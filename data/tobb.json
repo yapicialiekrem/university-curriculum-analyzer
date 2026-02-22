@@ -1,0 +1,3926 @@
+{
+  "university_name": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+  "department": "Bilgisayar Mühendisliği",
+  "faculty": "Mühendislik Fakültesi",
+  "language": "Türkçe",
+  "type": "özel",
+  "department_url": "https://www.etu.edu.tr/tr/bolum/bilgisayar-muhendisligi",
+  "program_outcomes": [
+    "Matematik, fen bilimleri ve ilgili mühendislik disiplinine özgü konularda yeterli bilgi birikimi; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanabilme becerisi.",
+    "Karmaşık mühendislik problemlerini saptama, tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz ve modelleme yöntemlerini seçme ve uygulama becerisi.",
+    "Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama becerisi.",
+    "Mühendislik uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirme, seçme ve kullanma becerisi; bilişim teknolojilerini etkin bir şekilde kullanma becerisi.",
+    "Karmaşık mühendislik problemlerinin veya disipline özgü araştırma konularının incelenmesi için deney tasarlama, deney yapma, veri toplama, sonuçları analiz etme ve yorumlama becerisi.",
+    "Disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi; bireysel çalışma becerisi.",
+    "Türkçe sözlü ve yazılı etkin iletişim kurma becerisi; en az bir yabancı dil bilgisi; etkin rapor yazma ve yazılı raporları anlama, tasarım ve üretim raporları hazırlayabilme, etkin sunum yapabilme, açık ve anlaşılır talimat verme ve alma becerisi.",
+    "Yaşam boyu öğrenmenin gerekliliği bilinci; bilgiye erişebilme, bilim ve teknolojideki gelişmeleri izleme ve kendini sürekli yenileme becerisi.",
+    "Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilinci; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi.",
+    "Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.",
+    "Mühendislik uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi; mühendislik çözümlerinin hukuksal sonuçları konusunda farkındalık."
+  ],
+  "academic_staff": {
+    "professor": 4,
+    "associate_professor": 1,
+    "assistant_professor": 8,
+    "lecturer": 0,
+    "research_assistant": 1,
+    "total": 14
+  },
+  "courses": [
+    {
+      "code": "BİL 113",
+      "name": "Bilgisayar Programlama I",
+      "ects": 8,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Java dilini kullanarak, programlama temel mantığını vermek. Yapısal programlamada kullanılan çeşitli yöntemleri ve algoritmaları anlatmak.",
+      "description": "Bu ders Java programlama dili özelinde bilgisayar programlamanın temel özelliklerini kapsar. Bu özellikler, programlamaya giriş, dilin temel elemanları, veri tipleri, değişkenler, atama deyimi, işleyiş akış kontrolleri, karar verme, döngü yapıları, sınıflar, metotlar, diziler, dizi listeleri ve özyineleme konularından oluşur.",
+      "learning_outcomes": [
+        "Programlama mantığını öğrenir ve uygular.",
+        "Veri tipleri, değişkenler, atama deyimlerini öğrenir.",
+        "İşleyiş akış kontrol, karar verme, ve döngü temellerini öğrenir.",
+        "Sınıf ve metot temellerini öğrenir.",
+        "Bir boyutlu ve çok boyutlu dizi ve dizi listeleri öğrenir.",
+        "Özyineleme temellerini öğrenir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Derleyici ve Yorumlayıcılar",
+        "Hafta 2: Temel veri türleri ve atama",
+        "Hafta 3: Dizgi (string), giriş/çıkış",
+        "Hafta 4: Akış kontrolü",
+        "Hafta 5: Döngüler",
+        "Hafta 6: Sınıf, Nesne",
+        "Hafta 7: Metotlar",
+        "Hafta 8: Diziler",
+        "Hafta 9: Diziler",
+        "Hafta 10: Dizi Listeleri",
+        "Hafta 11: Özyineleme",
+        "Hafta 12: Finale Hazırlık"
+      ],
+      "resources": [
+        "W. Savitch, Absolute Java, Pearson.",
+        "W. Savitch. Java: An introduction to problem solving and programming, Pearson"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L113"
+    },
+    {
+      "code": "YAP 191",
+      "name": "Eleştirel Düşünme",
+      "ects": 6,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Eleştirel Düşünme Dersi, Bilimsel Araştırma Etiği ve Eleştirel Düşünmenin temel bilgilerini tanıtır ve öğrencilerin sadece edindikleri düşünme becerilerini kullanmalarını değil, aynı zamanda problem çözme, karar verme, tartışma becerilerini geliştirmelerini ve etik kodları da içselleştirmelerini amaçlar.",
+      "description": "Bilimsel Araştırma Etiği, Bilimsel Dürüstlük, Eleştirel Düşünme prensipleri: Siz kimsiniz, eleştirel düşünme nedir, gerçek nedir, bilmek ne demektir, fikirleriniz ne kadar iyi, temel sorun \"benimki daha iyi\", değişime direnç, uyma, sabit fikirlilik, basmakalıplaştırma, aşırı basitleştirme, aceleci sonuçlar, temelsiz varsayımlar, mantıksal yanılgılar, sorunların kombinasyonu, kendini tanıma, gözlemci olma, konuları netleştirme, araştırma yapma, kanıtları yorumlama, bakış açılarını analiz etme, yargıda bulunma, önyargılar, yanılgılar, bilişsel önyargılar",
+      "learning_outcomes": [
+        "Bilimsel Araştırma Etiğin ve Bilimsel Dürüstlüğün öneminin kavranması.",
+        "Düşünceyi bir süreç olarak anlamak",
+        "İfadeleri, argümanları, inançları ve kanıtları tanımlama ve değerlendirme",
+        "Farklı veri türleri hakkında eleştirel düşünmek",
+        "Sorunları ele almak için eleştirel muhakemeyi kullanmak",
+        "Hem sözlü hem de yazılı olarak daha etkili iletişim kurmak"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Eleştirel düşünme prensipleri: gerçeğin doğası ve bilgi kavramı.",
+        "Hafta 2: Eleştirel düşünme prensipleri: gerçeğin doğası ve bilgi kavramı.",
+        "Hafta 3: Değişime direnç, uyumluluk, basmakalıplaştırma, aşırı basitleştirme, aceleci sonuçlar, temelsiz varsayımlar ve mantıksal safsatalar gibi yaygın bilişsel sorunlar.",
+        "Hafta 4: Değişime direnç, uyumluluk, basmakalıplaştırma, aşırı basitleştirme, aceleci sonuçlar, temelsiz varsayımlar ve mantıksal safsatalar gibi yaygın bilişsel sorunlar.",
+        "Hafta 5: Bilimsel etik prensiplerine uygun şekilde araştırmanın yürütülmesi.",
+        "Hafta 6: Bilimsel etik prensiplerine uygun şekilde araştırmanın yürütülmesi.",
+        "Hafta 7: Kendini tanıma, gözlem yapmanın, konuyu açıklığa kavuşturmanın, kapsamlı araştırmanın, kanıt yorumlamanın önemi.",
+        "Hafta 8: Kendini tanıma, gözlem yapmanın, konuyu açıklığa kavuşturmanın, kapsamlı araştırmanın, kanıt yorumlamanın önemi.",
+        "Hafta 9: Bakış açısı analizi ve bilgiye dayalı yargılarda bulunma.",
+        "Hafta 10: Bakış açısı analizi ve bilgiye dayalı yargılarda bulunma.",
+        "Hafta 11: Önyargıların, safsataların ve bilişsel önyargıların düşünme ve karar verme süreçlerimiz üzerindeki etkisi.",
+        "Hafta 12: Önyargıların, safsataların ve bilişsel önyargıların düşünme ve karar verme süreçlerimiz üzerindeki etkisi."
+      ],
+      "resources": [
+        "Beyond Feelings A Guide To Critical Thinking, Vincent Ryan Ruggiero, McGraw-Hill Education; 9 edition 2011 (Tükçe çevirsi: Eleştirel Düşünme İçin Bir Rehber, Vincent Ryan Ruggiero, Alfa Yayıncılık, 2016)",
+        "Aromatik Adam, Anooshirvan Miandji, Epistemik Roman, Bilgi Yayınevi, 2020"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=YAP191"
+    },
+    {
+      "code": "MAT 101",
+      "name": "Matematik I",
+      "ects": 7,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 4,
+      "hours_practice": 0,
+      "purpose": "Temel matematik bilgisi kazandırma; matematiksel düşünme ve modelleme tekniğini geliştirme, fonksiyonların limit, türev ve integralleri ile onların uygulamaları hakkında bilgiler verme.",
+      "description": "Fonksiyonlar ve grafikler, limit kavramı, limitin özellikleri, türev ve değişim hızları, türev alma kuralları, zincir kuralı, uygulamalı maksimum ve minimum problemleri, trigonometrik fonksiyonların türevleri, kapalı türevler, ortalama değer teoremi, basit eğri çizimi, yüksek mertebeden türevler ve konkavlık (bükeylik), eğri çizimi ve asimptotlar, integral ile basit alan hesabı, Riemann toplamları ve integral, Kalkülüsün temel teoremi, değişken değiştirme yöntemi ile integral alma, düzlemsel bölgelerin alanları, integral alma formülleri, integral alma teknikleri, trigonometrik integraller, kısmi integrasyon, basit kesirlere ayırma yöntemi, trigonometrik değişken değiştirme, has olmayan (genelleştirilmiş) integraller.",
+      "learning_outcomes": [
+        "Temel matematik bilgisi kazanır ve bu bilgeri farklı disiplinlere uygular.",
+        "Mühendislikte matematiksel modelleme için fonksiyonların, limitin ve sürekliliğin temel kavramlarını anlar ve uygular.",
+        "Değişim hızlarını analiz etmek, maksimum-minimum problemlerini çözmek ve mühendislikte optimizasyon tekniklerini kullanmak için türevi uygular.",
+        "Alan, hacim ve fiziksel büyüklükleri hesaplamak için integral tekniklerini uygular.",
+        "Diferansiyel ve integral hesaplarını kullanarak mühendislik sistemlerinin modellenmesine ve analizine katkı sağlar."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Reel sayılar kümesi, denklem, eşitsizlik, aralık, mutlak değer, fonksiyon, bileşke fonksiyon ve önemli bazı fonksiyonlar, basit grafikler (öteleme, kaydırma). Üstel ve logaritma fonksiyonları ve temel özellikleri",
+        "Hafta 2: Bir fonksiyonun limiti ve limit alma kuralları. Tek yanlı limitler, sonsuzda limit ve sonsuz limit",
+        "Hafta 3: Sürekli fonksiyonlar, özellikleri ve ilgili teoremler. Bir fonksiyonun türevi, geometrik yorumu",
+        "Hafta 4: Türev alma kuralları. Trigonometrik Fonksiyonların Türevi. Zincir Kuralı",
+        "Hafta 5: Kapalı fonksiyonların türevi, teğet ve normal denklemleri. Ters fonksiyonların türevleri, logaritma ve üstel fonksiyonların türevi. Ters trigonometrik fonksiyonların türevi. Hiperbolik ve ters hiperbolik fonksiyonlar ve türevleri",
+        "Hafta 6: Bağıl oranlar. Lineer yaklaşımlar ve diferansiyel. Türevin Uygulaması. Bir fonksiyonun maksimum ve minimum değerleri. Ortalama değer teoremi",
+        "Hafta 7: Birinci türev testi. Bükeylik, ikinci türev testi ve grafik çizimleri ((2.5) Simetri ve asimptot). Belirsiz haller ve L’Hospital kuralı, üstel belirsiz haller",
+        "Hafta 8: Uygulamalı maksimum ve minimum problemleri (optimizasyon). Newton metodu. Anti türevler (ters türevler, ilkeller)",
+        "Hafta 9: Toplam gösterimi ve bir toplamın limiti olarak alan. Belirli integral kavramı. İntegral hesabın temel teoremleri. Belirli integrallerde değişken değiştirme yöntemi ve iki eğri arasında kalan alan",
+        "Hafta 10: Logaritmanın integral yoluyla tanımı. İntegrasyon Teknikleri. Temel integral formülleri. Değişken değiştirme yöntemi ve kısmi integrasyon yöntemi",
+        "Hafta 11: Trigonometrik integraller ve trigonometrik değişken değiştirmeler. Rasyonel fonksiyonların integrali (basit kesirlere ayırma yöntemi)",
+        "Hafta 12: Has olmayan (genelleştirilmiş) integraller"
+      ],
+      "resources": [
+        "Thomas’ Calculus- Early Transcendentals (14th Ed.); Joel R. Hass, Maurice D. Weir, George B. Thomas; Pearson, 2019. ISBN: 978-0-13-443902-0",
+        "Kalkülüs Kavram ve Kapsam (2. Baskı); James Stewart, TÜBA (çeviri).",
+        "Calculus with Analytic Geometry, C. H. Edwards, D. E. Penney"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=MAT101"
+    },
+    {
+      "code": "FİZ 101",
+      "name": "Fizik I",
+      "ects": 6,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilere lisans eğitiminde gerekli olan temel mekanik, statik ve dinamik alt yapısının kazandırılması",
+      "description": "Fizik ve Ölçme, Tek Boyutta Hareket, Vektörler ve üç boyutta analizi, İki Boyutta Hareket, Hareket Kanunları, Dairesel Hareket, İş ve Kinetik Enerji, Potansiyel Enerji ve Enerjinin Korunumu, Doğrusal Momentum ve Çarpışmalar, Katı Cisimlerin sabit bir Eksen Etrafında Dönmesi, Yuvarlanma hareketi ve Açısal Momentum, Denge ve Esneklik, Titreşim Hareketi",
+      "learning_outcomes": [
+        "Ölçme ve temel birim sistemlerini açıklar.",
+        "Statik, kinematik ve dinamik süreçlerin analizini yapar.",
+        "Matematik Anabilim Dalına öğrenilenleri tatbik eder.",
+        "Statik, kinematik ve dinamik süreçlerle ilgili yapılara ve problemlere çözüm üretir.",
+        "Statik, kinematik ve dinamik süreçleri modeller ve bu modelleri çözümler."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Fizik ve Ölçme, Vektörler",
+        "Hafta 2: Tek boyutta hareket ve iki boyutta hareket",
+        "Hafta 3: Newtonun Hareket Yasaları",
+        "Hafta 4: Çembersel hareket ve hareket yasalarının diğer uygulamaları",
+        "Hafta 5: İş ve kinetik enerji",
+        "Hafta 6: Potansiyel Enerji ve Enerjinin Korunumu",
+        "Hafta 7: iİtme ve Doğrusal Momentum ve Doğrusal Momentumun Korunumu",
+        "Hafta 8: Katı Cismin Sabit Bir Eksen Etrafında Dönmesi",
+        "Hafta 9: Yuvarlanma Hareketi ve Açısal Momentum",
+        "Hafta 10: statik denge ve esneklik",
+        "Hafta 11: Titreşim Hareketleri",
+        "Hafta 12: Kütle Çekim Kanunu"
+      ],
+      "resources": [
+        "Serway, Beichner, Fen ve Mühendislik için Fizik 1, Palme Yayıncılık, Çeviri Editörü: Prof. Dr. Kemal Çolakoğlu, 2002, ISBN 975-8624-22-9.",
+        "Young and Freedman Üniversite Fiziği, Cilt 1, Perason",
+        "Fishbane, Gasiorowicz, Thornton, Temel Fizik, Arkadaş Yayınevi, 2003, ISBN 975-509-368-9",
+        "Giancoli, Physics Principles with Applications, Prentice Hall",
+        "Halliday, Resnick, Walker, Fundamentals of Physics, John Wiley & Sons"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z101"
+    },
+    {
+      "code": "FİZ 101L",
+      "name": "Fizik Laboratuvarı I",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 2,
+      "purpose": "Öğrencilere lisans eğitiminde gerekli olan temel mekanik, statik ve dinamik alt yapısının deneysel çalışma bilinci ile kavranması",
+      "description": "Fizikte ölçme ve hata, grafik çizimi, istatistiksel ve sistematik hata hesabı,Newton'un birinci yasası, düzgün doğrusal hareket,\nsabit ivme ile hareket, düzlemde hareket, Newton'un ikinci yasası, Atwood makinesi, çarpışmalar ve lineer momentumun korunumu, dönme hareketi, basit sarkaçi sarkaç periyodunun parametre bağlılığı, elastik yay ve harmonik salınımlar deneylerinin yapılması ve anlaşılması.",
+      "learning_outcomes": [
+        "Anlamlı rakam, hata hesabı ve grafik çizimi gibi deneysel çalışmalarda önem arz eden konuların kavranması",
+        "Deneysel çalışma bilincinin kazanılması",
+        "Deney sonuçlarını yorumlama becerisinin geliştirilmesi",
+        "Genel Fizik I dersinde işlenen konuların tatbik edilmesi",
+        "Sabit hız ve sabit ivme ile hareket kavramlarının anlaşılması",
+        "Atwood makinesi ve Newton'un ikinci yasasını içeren mekanizmaların çalışma prensibinin anlaşılması",
+        "Çarpışma türlerine göre lineer momentum ve enerjinin korunumu hakkında bilgi sahibi olma",
+        "Basit sarkaç ve elastik yay içeren mekanizmaların periyot bağlılıklarının anlaşılması",
+        "Genel Fizik I dersinde kullanılan teorinin, istatistiksel ve sistematik hata hesapları kapsamında deney sonuçları ile nasıl karşılaştırılacağının öğrenilmesi"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Fizikte ölçme, hata hesabı ve grafik çizimi",
+        "Hafta 2: Sabit hızla düzgün doğrusal hareket",
+        "Hafta 3: Sabit ivmeli hareket",
+        "Hafta 4: Yatay Atış ve Eğik Atış Hareketi",
+        "Hafta 5: Çarpışmalar ve lineer momentumun korunumu",
+        "Hafta 6: Atwood makinesi",
+        "Hafta 7: Dönme hareketi",
+        "Hafta 8: Basit sarkaç",
+        "Hafta 9: Elastik yay",
+        "Hafta 10: -",
+        "Hafta 11: -",
+        "Hafta 12: -"
+      ],
+      "resources": [
+        "Serway, Beichner, Fen ve Mühendislik için Fizik 2, Palme Yayıncılık, Çeviri Editörü: Prof. Dr. Kemal Çolakoğlu, 2002, ISBN 975-8624-22-9.",
+        "Young and Freedman Üniversite Fiziği, Cilt 2, Perason",
+        "Fishbane, Gasiorowicz, Thornton, Temel Fizik, Arkadaş Yayınevi, 2003, ISBN 975-509-368-9",
+        "Giancoli, Physics Principles with Applications, Prentice Hall",
+        "Halliday, Resnick, Walker, Fundamentals of Physics, John Wiley & Sons"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z101L"
+    },
+    {
+      "code": "TÜR 101",
+      "name": "Türk Dili I",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bir araştırma alanı olarak dili farklı açılardan incelemek\nBilimsel araştırma sürecini (kütüphane kullanımı, kaynaklara ulaşım) ve akademik yazı tekniklerini öğrenmek",
+      "description": "Bu dersin ilk 5 haftasında dilin bir araştırma alanı olarak hangi yönlerden incelenebileceği gösterilecektir. Dersin 5 haftadan oluşan ikinci bölümünde kütüphane kullanımı ve elektronik kaynaklara ulaşım hakkında bilgiler verildikten sonra bilimsel araştırma yöntemlerine dikkat edilerek yazı yazma teknikleri gösterilecektir.",
+      "learning_outcomes": [
+        "Dilin işleyişini ve dünya dilleri arasında Türkçenin yerini öğrenir.",
+        "Bilgi kaynaklarına ulaşmayı ve kütüphane, veritabanı gibi farklı platformları kullanmayı öğrenir.",
+        "Akademik yazım tekniklerini öğrenir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Dünyadaki Diller (video ders kaydı)",
+        "Hafta 2: Dilin Sonsuzluğu ve Gramer Kavramı (video ders kaydı)",
+        "Hafta 3: Dilin Matematiği (video ders kaydı)",
+        "Hafta 4: Dil Temasları ve Türkçenin Dünya Dilleri Arasındaki Yeri (video ders kaydı)",
+        "Hafta 5: Tehlikedeki Diller (PowerPoint sunumu)",
+        "Hafta 6: Vize Sınavı",
+        "Hafta 7: Bilgi Kaynaklarına Ulaşım ve Kütüphane Kullanımı I (video ders kaydı",
+        "Hafta 8: Bilgi Kaynaklarına Ulaşım ve Kütüphane Kullanımı II (video ders kaydı)",
+        "Hafta 9: Bilgi Kaynaklarına Ulaşım ve Kütüphane Kullanımı III (video ders kaydı)",
+        "Hafta 10: Bilimsel Araştırma ve Yazma Teknikleri I (video ders kaydı, Bilimsel Araştırma ve Yazma Teknikleri II (video ders kaydı)"
+      ],
+      "resources": [
+        "Uzak sisteminde paylaşılacak olan 10 haftayı kapsayan videolar ve powerpoint sunumları."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=T%C3%9CR101"
+    },
+    {
+      "code": "İNG 001",
+      "name": "İngilizce I",
+      "ects": 4,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "1. Anlamı bağlamdan çıkarma, terimleri tanımlama ve sözcük yapımı yöntemleriyle sözcük bilgilerini;\n2. Önokuma/dinleme, tahmin etme, hızlı okuma, tarama, ana fikri bulma, üslup ve tonu analiz etme, bilgi ve görüşü ayırt etme, bakış açısını ve değişmeceli dili anlama, okuma hızını artırma gibi çeşitli stratejiler aracılığıyla okuma ve dinleme becerilerini;\n3. Eleştirel düşünerek ve gerekli bilgi ve yorumları kullanıp kabul edilebilir denemeler yazarak yazma becerilerini;\n4. Çeşitli sözlü etkinlikler aracılığıyla konuşma becerilerini geliştirmektir",
+      "description": "İNG 001: Bölüm İngilizcesi I, öğrencilerin okuma, dinleme, konuşma ve yazma becerilerini akademik kullanım açısından geliştirmeyi hedefler. Bu beceriler ders saatlerine dahil edilmiştir. “Okuma” bölümü okuma metinlerinin çalışılmasından oluşur ve öğrencilerden; bu metinleri ana fikirleri ve detaylarını belirleme, metnin iç tutarlılığı ve anlam bütünlüğüyle ilişkili olarak amaçlarını anlama, soyut ve somut bilgilerin farkına varma, eleştirel düşünme becerilerini kullanarak çıkarımlarda bulunmaları istenmektedir. “Dinleme” bölümü akademik dersler ve kısa bilgilendirici konuşmaları içeren dinleme parçalarının çalışılmasından oluşur. Not alma teknikleri, öğrencilerin bilgiyi anlamalarına ve belirli bir konu üzerinde konuşmalarında kullanmalarına yardımcı olmak için öğretilir. Okuma bölümünde ele alınan beceriler bu bölümde de çalışılacaktır. “Konuşma” bölümü, eleştirel düşünme ve konuşma stratejilerini kullanarak, öğrenilen konular üzerine konuşma becerisi ve belirli konular üzerinde yorum yapmaya odaklanır. “Yazma” bölümü, öğrencilerin belirli bir konu için gerekli olan amacı, okuyucuyu ve metin türünü analizi etmelerini ister. Kabul edilebilir bir tez tümcesi, giriş ve gelişme paragrafları yazma, ve farklı kaynaklardan ve görüş ve bilgileri kullanma çalışılacaktır. Eleştirel düşünme bu bölümün odak noktası olacaktır",
+      "learning_outcomes": [
+        "Öğrenciler bağlamı kullanarak terimlerin ve kelimelerin anlamını bulabilir.",
+        "Öğrenciler okuma stratejilerini kullanarak akademik metinleri okuyabilir.",
+        "Öğrenciler, not alma becerileri de dahil olmak üzere dinleme stratejilerini kullanarak dersleri ve konuşmaları anlayabilir.",
+        "Öğrenciler kompozisyon yazabilir ve resmi açıklamalar yapabilir.",
+        "Öğrenciler günlük ve akademik bağlamlarda sözlü iletişim kurabilir.",
+        "Öğrenciler İNG 002 ve İNG003 derslerinin içeriğine hazır olacaklardır."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Ünite 1: Eğitim Konuşma, Okuma Sözlükleri: Metin 1 ve Metin 2",
+        "Hafta 2: Yazma: Deneme Başlıkları - Planlama ile Süreci Başlatma, Dinleme: Dinleme Dersleri (1), Ünite 2: Sistemler - Tartışma + Okuma Görevleri 1-8",
+        "Hafta 3: Ünite 2B: Yazma: Betimlemeler (1): Görsel bilginin dili. Görev 1-4, Yazma: Görev 5-8; Ek Materyal: Dil ve Formalite, Ekstra Malzeme: Formalite/Dil Aktarımı",
+        "Hafta 4: Ünite 2C: Dinleme: Dersler (2), Konuşma: Seminerler (2), Dil ve Formalite (tekrar), Kısa Sınav 1",
+        "Hafta 5: Ünite 3: İletişim Tartışma + Okuma 1-2, Ünite 3B: Yazma: Konu Cümleleri, Paragraflar Görev 1-4, Yazma Görevi 5-8",
+        "Hafta 6: Ünite 3C: Dinleme Dersleri (3) Görev 1-6, Ünite 4A: Okuma Görevi 1-7",
+        "Hafta 7: Ünite 4B: Deneme Girişi Yazma, Deneme Girişi Yazma, Deneme Girişi-Ekstra Materyal, Ünite 5B: Yazma: Gövde ve Sonuç",
+        "Hafta 8: Kompozisyon Sonuçlarını Yazma, Yazma Revizyonu: Sınıf İçi Yazma, Ünite 5D: Konuşma Görevi 1-4, Deneme Geri Bildirimi",
+        "Hafta 9: Kompozisyon Gözden Geçirme, Kısa Sınav/Quiz 2, Ünite 4C: Dinleme (Görev 1-3), Dinleme: Dersler (4) Görev 4-8",
+        "Hafta 10: Ünite 5: Zeka - Tartışma + Okuma: Ders Kitapları, Okuma Görevi 3-6, Ünite 5C: Dinleme: Dersler (5), Görev 6-7",
+        "Hafta 11: Ekstra Dinleme, Ünite 6C: Dinleme, Dersler, Kısa Sınav/Quiz 3",
+        "Hafta 12: Ünite 6B: Süreçleri Tanımlama Görev 2-3"
+      ],
+      "resources": [
+        "Oxford EAP 2nd edition",
+        "The Official Guide To The New TOEFL IBT.ETS.3rd Edition."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG001"
+    },
+    {
+      "code": "BİL 211",
+      "name": "Bilgisayar Programlama II",
+      "ects": 8,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Dersin amacı öğrencilere Java dilindeki kalıtım, çok tiplilik ve threadler gibi bazı ileri konuları öğretmektir.",
+      "description": "Bu ders Java programlama dilinin ileri bazı özelliklerini kapsar. Bu özellikler genel olarak nesnesel programlama dillerinin bir çoğunda bulunan özelliklerdir. Konular arasında soyut ve iç sınıflar, üreysel veri tipleri, nesne modeli ve grafiksel kullanıcı arayüzü gibi konular bulunur.",
+      "learning_outcomes": [
+        "Özyinelemeyi anlar ve uygular",
+        "Kalıtımın ve Çokbiçimliliğin temel özelliklerini öğrenir ve uygular.",
+        "Arayüz, soyut sınıflar, iç sınıfları ve anonim sınıfları öğrenir.",
+        "Aykırı durumların (Exceptions) kullanımını ve yeni aykırı durumları oluşturabilmeyi öğrenir.",
+        "Dosyalardan okuma ve yazmanın temellerini öğrenir.",
+        "Koleksiyon çerçevesinden temel sınıfları kullanır.",
+        "Üreysel veri tiplerinin kullanımını öğrenir.",
+        "Grafik arayüzü paketlerini kullanmak ve olay güdümlü programlamayı öğrenir.",
+        "Daha yeni Java sürümleri ile gelen lambda tanımları gibi Java'daki gelişmeleri öğrenir.",
+        "Birden fazla thread kullanan bir programın Java ile nasıl yazılacağını öğrenir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Özyineleme",
+        "Hafta 2: Kalıtım",
+        "Hafta 3: Çok tiplilik",
+        "Hafta 4: Arayüzler, soyut ve iç sınıflar.",
+        "Hafta 5: İstisnalar",
+        "Hafta 6: Dosya giriş/çıkış",
+        "Hafta 7: Üreysel veri tipleri",
+        "Hafta 8: Koleksiyon çerçevesi",
+        "Hafta 9: Koleksiyon çerçevesi",
+        "Hafta 10: Grafik arayüz programlama",
+        "Hafta 11: Çoklu iş parçacıkları",
+        "Hafta 12: Lambda ifadeleri"
+      ],
+      "resources": [
+        "W. Savitch, Absolute Java, Pearson."
+      ],
+      "prerequisites": [
+        "BİL 113"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L211"
+    },
+    {
+      "code": "BİL 132",
+      "name": "Bilgisayar Bilimleri İçin Ayrık Matematik",
+      "ects": 6,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "1. Mantık ve mantıksal çıkarım temellerini öğrenmek\n2. Kümeler ve fonksiyonlarla ilgili temelleri öğrenmek\n3. Matematiksel sebep-sonuç ilişkisi, tümevarım temellerini öğrenmek\n4. Algoritma ve zaman karmaşıklığı mantığını anlamak\n5. Sayma temellerini, permütasyon, kombinasyon teoremlerini öğrenmek\n6. Özyineli yapı temellerini öğrenmek\n7. İlişkiler ve özellikleri temellerini öğrenmek\n8. Sayma problemlerini incelemek\n9. Ayrık olasılık temellerini öğrenmek",
+      "description": "Bu ders bilgisayar mühendisliği lisans programı özelinde gerekli olan matematiksel altyapıyı öğrencilere vermeyi amaçlayan bir derstir. Ders kapsamında Mantık ve İspatlar, Kümeler, Tam Sayılar, Akıl Yürütme, Tümevarım, Özyineleme, Algoritma Temelleri, Sayma, Permütasyon, Kombinasyon, Ayrık Olasılık, İleri Sayma Teknikleri, Fonksiyonlar, İlişkiler ve özellikleri konularında temel bilgiler verilecektir.",
+      "learning_outcomes": [
+        "Matematiksel düşünceyi, sebep-sonuç ilişkisi oluşturmayı öğrenir",
+        "Sayma metotlarına bağlı olarak değişik sayılandırma problemlerinde analiz yapabilir ve çözüm bulabilir",
+        "Ayrık yapılar (kümeler, permütasyon, bağıntılar) hakkında bilgi sahibi olur",
+        "Ayrık matematik uygulamaları ve modellerini Bilgisayar Mühendisliği problemlerine nasıl uyarlandığını bilir"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Küme Teorisi",
+        "Hafta 2: Mantık temelleri, önermeli mantık",
+        "Hafta 3: Birinci derece mantık",
+        "Hafta 4: Mantıksal çıkarım",
+        "Hafta 5: İspat temelleri",
+        "Hafta 6: Fonksiyonlar",
+        "Hafta 7: Tümevarım ve özyineleme temelleri",
+        "Hafta 8: Sayılar teorisi",
+        "Hafta 9: Modüler aritmetik",
+        "Hafta 10: Kombinasyon ve permütasyonlar",
+        "Hafta 11: Ayrık Olasılık",
+        "Hafta 12: İlişkiler (bağıntılar)"
+      ],
+      "resources": [
+        "Ayrık Matematik ve Uygulamaları, Discrete Mathematics and its applications 7. Baskıdan çeviri.: Ömer Akın, Murat Özbayoğlu, Palme Yayıncılık, 2015",
+        "Discrete Mathematics and its applications, 5th, 6th veya 7th ed.: Kenneth H.Rosen, McGraw Hill, 2011"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L132"
+    },
+    {
+      "code": "MAT 102",
+      "name": "Matematik II",
+      "ects": 7,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 4,
+      "hours_practice": 0,
+      "purpose": "Temel matematik bilgisi kazandırma. İntegral yardımıyla hacim hesabını yapabilme. Dizi ve seri kavramlarını anlama ve yakınsaklıklarını araştırma. Çok değişkenli fonksiyonlarda limit, süreklilik, kısmi türev ve katlı integrasyon kavramlarını öğrenme",
+      "description": "Bu ders aşağıdaki içerikleri kapsar:\nDilimleme, disk ve kabuk yöntemleriyle dönel cisimlerin hacim ve yüzey alanlarının hesabı; integral ile eğri uzunluğu hesabı; kutupsal koordinat sistemi; kutupsal koordinatlarda grafik çizimi, alan ve eğri uzunluğu hesapları; sonsuz diziler ve seriler; çeşitli yakınsaklık testleri; fonksiyonların Taylor ve Maclaurin serileri; çok değişkenli fonksiyonlarda limit ve süreklilik; kısmi türevler ve zincir kuralı; yönlü türevler ve gradiyent vektörü; teğet düzlemler ve diferansiyel kavramı; çok değişkenli fonksiyonlarda ekstremum hesabı; Lagrange çarpanları yöntemi; iki katlı integraller; kutupsal koordinatlarda iki katlı integraller; üç katlı integraller; silindirik ve küresel koordinatlar.",
+      "learning_outcomes": [
+        "Temel matematik bilgisi kazanır ve bu bilgileri farklı disiplinlere uygular.",
+        "Dönel cisimlerin hacim ve yüzey alanı hesaplarını yaparak mühendislikte integralin uygulamalarını kavrar.",
+        "Sonsuz dizileri ve serileri analiz eder, yakınsaklık testlerini kullanarak serilerin davranışını belirler.",
+        "Kutupsal koordinatlar,limit, süreklilik, yönlü türevler ve gradyan kavramlarını kullanarak çok değişkenli fonksiyonları analiz eder.",
+        "Dikdörtgensel, kutupsal, silindirik ve küresel koordinatlarda katlı integralleri hesaplayarak mühendislik uygulamalarına yönelik alan ve hacim hesapları yapar."
+      ],
+      "weekly_topics": [
+        "Hafta 1: İntegralin Uygulamaları. Dik kesit yöntemi ile hacim hesabı. Silindirik kabuk yöntemi ile hacim hesabı",
+        "Hafta 2: Yay uzunluğu. Dönel cisimlerin yüzey alanı. Sonsuz Diziler ve Seriler. Diziler",
+        "Hafta 3: Sonsuz Seriler. İntegral testi. Karşılaştırma testi. Mutlak yakınsaklık; Oran ve kök testleri",
+        "Hafta 4: Alterne seriler, mutlak ve şartlı yakınsaklık. Kuvvet serileri (yakınsaklık yarıçapı ve yakınsaklık aralığı). Taylor ve Maclaurin serileri",
+        "Hafta 5: Taylor serilerinin yakınsaklığı. Taylor serilerinin uygulamaları",
+        "Hafta 6: Parametrik Denklemler ve Kutupsal Koordinatlar. Düzlemdeki eğrilerin parametrizasyonu. Parametrik eğrilerle kalkülüs. Kutupsal koordinatlar",
+        "Hafta 7: Kutupsal koordinatlarda grafikler. Kutupsal koordinatlarda alan ve yay uzunluğu. Kısmi Türevler. Çok değişkenli fonksiyon kavramı (seviye eğrisi ve seviye yüzeyi)",
+        "Hafta 8: Yüksek boyutlarda limit ve süreklilik. Kısmi türevler",
+        "Hafta 9: Zincir kuralı. Yöne göre türev ve gradyan vektörü. Teğet düzlemleri ve diferansiyeller",
+        "Hafta 10: Ekstremum değerleri ve eyer noktaları. Lagrange çarpanları yöntemi. Katlı İntegraller. Dikdörtgenler üzerinde iki katlı integraller",
+        "Hafta 11: Genel bölgelerde iki katlı integraller. İki katlı integrallerle alan. Kutupsal koordinatlarda iki katlı integraller",
+        "Hafta 12: Dik koordinatlarda üç katlı integraller. Silindirik ve küresel koordinatlarda üç katlı integraller"
+      ],
+      "resources": [
+        "Thomas’ Calculus- Early Transcendentals (14th Ed.); Joel R. Hass, Maurice D. Weir, George B. Thomas; Pearson, 2019. ISBN: 978-0-13-443902-0",
+        "Kalkülüs Kavram ve Kapsam (2. Baskı); James Stewart, TÜBA (çeviri).",
+        "Calculus with Analytic Geometry, C. H. Edwards, D. E. Penney"
+      ],
+      "prerequisites": [
+        "MAT 101"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=MAT102"
+    },
+    {
+      "code": "FİZ 102",
+      "name": "Fizik II",
+      "ects": 6,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilere lisans eğitiminde gerekli olan temel Elekrostatik, Elektrik Akımı ve Devre, Manyetizma alt yapısının kazandırılması.",
+      "description": "Elektriklenme, Elektriksel Kuvvetler ve Alan, Elektriksel iş, Potansiyel ve Elektriksel potansiyel enerji, Sığa ve Kondansatörler, Akım ve Direnç ve doğru akım devreleri, Manyetik alanda Kuvvetler, Manyetik Alan Kaynakları, Faraday Yasası, İndüksiyon, AC ve devreleri, elektromanyetik dalgalar",
+      "learning_outcomes": [
+        "Elektrik Yükü ve Elektriklenme olgularını kavrar.",
+        "Yüklerin birbiriyle etkileşimini ve yüklerin yarattığı etki alanlarının analizini yapar. Elektriksel Kuvvetlerin yaptığı iş ve potansiyel kavramlarını açıklar.",
+        "Elektriksel potansiyel enerjinin depolanması, Sığa ve dielektrik kavramlarını inceler.",
+        "Elektrik Akımı, Üreteçler, dirençlerin tanımını yapar ve elektrik devrelerinin kurulması ve analizi anlatılır.",
+        "Manyetik Alanda Akım Taşıyan tellere etki eden kuvvetler ve bunların uygulamaları anlatılır.",
+        "Manyetik Alanı oluşturan nedenler öğretilir.",
+        "Faraday yasası Lens yasası ve indüksiyon emk sının nasıl oluştuğu ve mekanik enerjinin elektrik enerjisine Nasıl çevrildiği öğretilir.",
+        "Etkilenme bunun sonucunda etkileçler ve teknolojide uygulamaları öğretilir.",
+        "AC devreleri",
+        "Elektromanyetik dalgaların oluşumu ve özellikleri anlatılır."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Elektrik Yükü ve Elektriksel Alan",
+        "Hafta 2: Gauss Yasası",
+        "Hafta 3: Elektriksel Potansiyel",
+        "Hafta 4: Sığa ve Dielektrikler",
+        "Hafta 5: Akım, Direnç ve Elektromotor Kuvvet",
+        "Hafta 6: Doğru Akım Devreleri",
+        "Hafta 7: Manyetik Alan ve Manyetik Kuvvetler",
+        "Hafta 8: Manyetik alan kaynakları",
+        "Hafta 9: Elektromanyetik Etkileme, Faraday Yasası",
+        "Hafta 10: Etkilenme ve Etkileçler",
+        "Hafta 11: Alternatif Akım",
+        "Hafta 12: Elektromanyetik dalgalar"
+      ],
+      "resources": [
+        "Serway, Beichner, Fen ve Mühendislik için Fizik 2, Palme Yayıncılık, Çeviri Editörü: Prof. Dr. Kemal Çolakoğlu, 2002, ISBN 975-8624-22-9.",
+        "Young and Freedman Üniversite Fiziği, Cilt 2, Perason",
+        "Fishbane, Gasiorowicz, Thornton, Temel Fizik, Arkadaş Yayınevi, 2003, ISBN 975-509-368-9",
+        "Giancoli, Physics Principles with Applications, Prentice Hall",
+        "Halliday, Resnick, Walker, Fundamentals of Physics, John Wiley & Sons"
+      ],
+      "prerequisites": [
+        "FİZ 101"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z102"
+    },
+    {
+      "code": "FİZ 102L",
+      "name": "Fizik Laboratuvarı II",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 2,
+      "purpose": "Öğrencilere lisans eğitiminde gerekli olan temel elekrostatik, elektrik akımı ve devre, manyetizma alt yapısının deneysel çalışma bilinci ile kazandırılması.",
+      "description": "Elektrostatik potansiyel, eş-potansiyel, elektrik alan, direnç renk kodları, OHM kanunu, eşdeğer direnç, bir kapasitörün yük depolaması, RC devreleri,\nmanyetik alan, manyetik kuvvet, manyetik kuvvetin bağımlı olduğu parametreler, Biot-Savart yasası, Faraday’ın indüksiyon kanunu, manyetik akı deneylerinin yapılması ve anlaşılması.",
+      "learning_outcomes": [
+        "Elektronik devre elemanlarını tanıma ve elektronik ölçüm aletlerini kullanma becerisi edinme",
+        "Potansiyel fark ve alan kavramlarının anlaşılması",
+        "Zaman bağımlı/bağımsız parametrelere sahip kaynak ve devre elemanları ile temel devrelerin kurulumunun öğrenilmesi",
+        "Bir manyetik alan içerisinde elektrik akımı taşıyan tele etkiyen / telin etkidiği kuvvetlerin anlaşılması",
+        "Bobinlerde meydana gelen manyetik alan hakkında bilgi sahibi olmak",
+        "Manyetik indüksiyon kavramının anlaşılması ve uygulama alanları hakkında genel bilgi sahibi olmak"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Eş Potansiyel ve Elektrik Alan Çizgileri",
+        "Hafta 2: Ohm Yasası, Dirençlerin Paralel ve Seri bağlanması",
+        "Hafta 3: Paralel Plakalı Kondansatör Ve Dielektrik Deneyi",
+        "Hafta 4: Kapasitörün Şarj/Deşarj Edilmesi",
+        "Hafta 5: Akım Geçiren Tele Etkiyen Kuvvetler: Akım terazisi",
+        "Hafta 6: Bir Bobinin Manyetik Alanı",
+        "Hafta 7: Manyetik İndüksiyon",
+        "Hafta 8: -",
+        "Hafta 9: -",
+        "Hafta 10: -",
+        "Hafta 11: -",
+        "Hafta 12: -"
+      ],
+      "resources": [
+        "Serway, Beichner, Fen ve Mühendislik için Fizik 2, Palme Yayıncılık, Çeviri Editörü: Prof. Dr. Kemal Çolakoğlu, 2002, ISBN 975-8624-22-9.",
+        "Young and Freedman Üniversite Fiziği, Cilt 2, Perason",
+        "Fishbane, Gasiorowicz, Thornton, Temel Fizik, Arkadaş Yayınevi, 2003, ISBN 975-509-368-9",
+        "Giancoli, Physics Principles with Applications, Prentice Hall",
+        "Halliday, Resnick, Walker, Fundamentals of Physics, John Wiley & Sons"
+      ],
+      "prerequisites": [
+        "FİZ 102"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z102L"
+    },
+    {
+      "code": "TÜR 102",
+      "name": "Türk Dili II",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Diksiyon ve sözlü anlatım türlerine dair bilgi sahibi olmak\nEleştirel düşünmeyi, not alma yöntemlerini ve rapor hazırlamayı öğrenmek\nMail, dilekçe, niyet mektubu vb. metinleri yazabilmek\nDil ve edebiyatın diğer bilim dallarıyla ilişkisini açıklamak",
+      "description": "Bu dersin ilk 5 haftası diksiyon ve sözlü anlatım, 21. yüzyıl becerileri, eleştirel düşünme ve not alma-rapor hazırlama üzerinedir. Dersin 5 haftadan oluşan ikinci bölümünde ilk olarak özgeçmiş ve niyet mektubu hazırlama, elektronik mail yazma teknikleri gösterilecektir. Son 3 haftada ise edebiyat ve dilin diğer disiplinler ile olan ilişkisine değinilecektir.",
+      "learning_outcomes": [
+        "Diksiyon kurallarına uygun konuşmayı ve sözlü anlatım türlerini öğrenir.",
+        "Eleştirel düşünme biçimleri ve not alma yöntemleri hakkında bilgi sahibi olur.",
+        "Mail, dilekçe vb. metinleri yazma becerisi kazanır.",
+        "Dil ve edebiyatın diğer bilimlerle interdisipliner ilişkilerini kavrar."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Diksiyon (video ders kaydı)",
+        "Hafta 2: Sözlü Anlatım Türleri (video ders kaydı)",
+        "Hafta 3: Eleştirel Düşünme (video ders kaydı + Sunum)",
+        "Hafta 4: 21. Yüzyılda Okuryazarlık (Sunum)",
+        "Hafta 5: Not Alma ve Rapor Hazırlama (Sunum)",
+        "Hafta 6: CV ve Niyet Mektubu Hazırlama (video ders kaydı)",
+        "Hafta 7: E-Mail ve Dilekçe Yazma (video ders kaydı)",
+        "Hafta 8: Etkili Yazım Teknikleri (video ders kaydı)",
+        "Hafta 9: Disiplinler Arası İlişkiler Bağlamında Edebiyat ve Dil I (video ders kaydı)",
+        "Hafta 10: Disiplinler Arası İlişkiler Bağlamında Edebiyat ve Dil II (video ders kaydı)"
+      ],
+      "resources": [
+        "Uzak sisteminde paylaşılacak olan 10 haftayı kapsayan videolar ve powerpoint sunumları."
+      ],
+      "prerequisites": [
+        "TÜR 101"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=T%C3%9CR102"
+    },
+    {
+      "code": "İNG 002",
+      "name": "İngilizce II",
+      "ects": 4,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Öğrencilerin; anlamı bağlamdan çıkarma, terimleri tanımlama ve sözcük yapımı yöntemleriyle sözcük bilgilerini; önokuma/dinleme, tahmin etme, hızlı okuma, tarama, ana fikri bulma, üslup ve tonu analiz etme, bilgi ve görüşü ayırt etme, bakış açısını ve değişmeceli dili anlama, okuma hızını artırma gibi çeşitli stratejiler aracılığıyla okuma ve dinleme becerilerini; rapor yazma ve akademik bağlamda özetleme becerilerini, kısa rapor sunumu ve grup tartışmalarını içeren çeşitli sözlü etkinlikler aracılığıyla konuşma becerilerini geliştirmektir",
+      "description": "Bölüm İngilizcesi II, öğrencilerin okuma, dinleme, konuşma ve yazma becerilerini akademik kullanım açısından geliştirmeyi hedefler. Bu beceriler ders saatlerine dahil edilmiştir. “Okuma” bölümü okuma metinlerinin çalışılmasından oluşur ve öğrencilerden; bu metinleri ana fikirleri ve detaylarını belirleme, metnin iç tutarlılığı ve anlam bütünlüğüyle ilişkili olarak amaçlarını anlama, soyut ve somut bilgilerin farkına varma, eleştirel düşünme becerilerini kullanarak çıkarımlarda bulunmaları istenmektedir. “Dinleme” bölümü akademik dersler ve kısa bilgilendirici konuşmaları içeren dinleme parçalarının çalışılmasından oluşur. Not alma teknikleri, öğrencilerin bilgiyi anlamalarına ve belirli bir konu üzerinde konuşmalarında kullanmalarına yardımcı olmak için öğretilir. Okuma bölümünde ele alınan beceriler bu bölümde de çalışılacaktır. “Konuşma” bölümü, farklı konularda rapor hazırlama ve sunma, uygun teknikleri kullanarak grup tartışması yürütme, ve öğrenilen konular üzerine eleştirel düşünme ve konuşma stratejilerini kullanarak konuşma ve yorum yapma becerilerine odaklanır. “Yazma” bölümü, öğrencilerin belirli bir konu için gerekli olan amacı, okuyucuyu ve metin türünü analizi etmelerini ister. Derslerin ve okuma metinlerinin belirli teknikler kullanarak uygun biçimde özetinin yazılması çalışılacaktır. Üslup ve biçemin analizi bu bölümün odak noktası olacaktır.",
+      "learning_outcomes": [
+        "Okuma ve dinleme materyallerinde karşılaştıkları bilinmeyen kelimelerin anlamını bağlamdan çıkarabilir. Akademik ve teknik terimleri tanımlayabilir ve ilgili bağlamlarda doğru şekilde kullanabilir",
+        "Ön okuma, hızlı okuma, tarama gibi stratejileri kullanarak metinleri daha etkili bir şekilde anlayabilir.",
+        "Okudukları veya dinledikleri metinlerin ana fikrini belirleyebilir ve destekleyici ayrıntıları ayırt edebilir ve bir metnin üslubunu ve tonunu analiz ederek yazarın amacı ve duygusal yönelimi hakkında çıkarımlarda bulunabilir.",
+        "Bilgi ve görüşü ayırt edebilir, bir metnin nesnel ve öznel yönlerini tanımlayabilir. Bir metindeki bakış açısını belirleyebilir ve dili yorumlayabilir.",
+        "Akademik bağlamda etkili özetleme tekniklerini kullanarak yazılı ve sözlü özetler oluşturabilir.",
+        "Verilen bir konu hakkında kısa bir rapor hazırlayarak akademik yazma becerilerini geliştirebilir ve raporlarını sunabilir ve sunum tekniklerini etkili bir şekilde kullanabilir.",
+        "Grup tartışmalarına aktif olarak katılarak fikirlerini akademik bir üslupla ifade edebilir ve tartışma stratejilerini uygulayabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Derse giriş, kurallar ve dersin tanımı, Ünite 7: Culture - Tartışma",
+        "Hafta 2: Okuma: Task 1-2, Task 3-4, Ünite 7C: Dinleme Task 1-2, Task 3-5 + Ekstra Dinleme: Ders Özeti Çıkarma",
+        "Hafta 3: Ünite 8: Interpretation Tartışma + Task 1, Task 2-5, Ünite 8C: Dinleme: Interviews Task 1-3 , Task 4-6 + Ekstra Dinleme: Ders Özeti Çıkarma",
+        "Hafta 4: Ünite 9D: Dinleme Task 1-3, Ekstra Dinleme: Ders Özeti Çıkarma, Rapor Sunumu & Konu Seçimi, Quiz 1 (%10) Ders Özeti Çıkarma",
+        "Hafta 5: Sınıf içi Çalışma 1(Rapor Sunumu), Sınıf içi Çalışma 1(Rapor Sunumu), Ünite 9A: Persuasion Task 1-4, Task 5-8",
+        "Hafta 6: Ünite 9C: Konuşma Task 1-3, Task 4-5, Sınıf içi Çalışma 2(Rapor Sunumu), Sınıf içi Çalışma 2(Rapor Sunumu)",
+        "Hafta 7: Ünite 10A: Connection Task 1, Task 2-5, Ünite 10C: Dinleme Lectures Task 1-3, Task 4-5",
+        "Hafta 8: Sınıf içi Çalışma 3(Rapor Sunumu), Sınıf içi Çalışma 3(Rapor Sunumu), Ünite 11D: Konuşma Presentations: Task 1-2, Ünite 11D: Task 3-5",
+        "Hafta 9: Quiz 2: Rapor Sunumu (%17,5), Ünit 11A: Technology Task 1-2, Task 3-5",
+        "Hafta 10: Ünite 12A: Dinleme (Task 1-3), Task 4, Ünite 12B: Okuma Task 1-3, Task 4-8",
+        "Hafta 11: Ekstra Materyal: Grup Tartışmaları, Ekstra Materyal: Grup Tartışmaları, Ekstra Materyal: Grup Tartışmaları – Pratik 1, Ekstra Materyal: Grup Tartışmaları – Pratik 2",
+        "Hafta 12: Quiz 3: Grup Tartışmaları (%12,5)"
+      ],
+      "resources": [
+        "Oxford EAP Upper-intermediate (B2),Edward de Chazal & Sam McCarter"
+      ],
+      "prerequisites": [
+        "İNG 001"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG002"
+    },
+    {
+      "code": "BİL 133",
+      "name": "Kombinatorik",
+      "ects": 6,
+      "semester": 3,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Önerme ve yüklem mantığında formal akıl yürütme\nTekrarlı düşünme ve matematiksel tümevarım kanıtları yapabilme\nÇeşitli tekrarlama çözme ve toplama değerlendirme tekniklerini öğrenme\nTemel algoritmalar tasarlama, zaman ve mekan karmaşıklığı analizi ve doğruluk kanıtları yapabilme",
+      "description": "Bu ders, öğrencilere bilgisayar biliminin matematiksel temellerini tanıtmayı amaçlamaktadır. Önermesel ve yüklemsel mantık dizilerine biçimsel kanıtlama teknikleri aracılığıyla tümdengelimli akıl yürütmeye felsefi ve teknik bir giriş sağlar. Öğrencilere yinelemeli düşünme, kesin yinelemeleri çözme ve toplamları değerlendirme konusunda eğitim verilir. Hesaplama teorisi ve algoritma analizine kısa bir giriş sağlanır.",
+      "learning_outcomes": [
+        "Doğal çıkarım kurallarını kullanarak önermesel mantık dizilerini kanıtlama",
+        "Doğal çıkarım kurallarını kullanarak yüklemsel mantık dizilerini kanıtlama",
+        "Tekrarlama ilişkilerini formüle etme ve çözme",
+        "Toplamları formüle etme ve çözme",
+        "Algoritmaların zaman ve uzay karmaşıklığı üzerinde asimptotik üst, alt ve sıkı sınırlar vermek için büyük O, omega ve teta gösterimini kullanma",
+        "Sıralama ve arama içeren problemleri çözme"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Önermesel mantık",
+        "Hafta 2: Önermesel mantık",
+        "Hafta 3: Önermesel mantık",
+        "Hafta 4: Yüklemsel mantık",
+        "Hafta 5: Yüklemsel mantık",
+        "Hafta 6: Algoritmalara ve zaman karmaşıklığı analizine giriş",
+        "Hafta 7: Asimptotik analiz, asimptotik yineleme ilişkilerini çözme",
+        "Hafta 8: Sıralama ve arama, yığın algoritmaları",
+        "Hafta 9: Ayrık matematik: Yinelemeleri çözme",
+        "Hafta 10: Yinelemeleri çözme",
+        "Hafta 11: Toplamları çözme",
+        "Hafta 12: Toplamları çözme"
+      ],
+      "resources": [
+        "Logic in Computer Science Modelling and Reasoning About Systems. By Michael R A Huth and Mark D Ryan. Cambridge University Press.",
+        "Concrete Mathematics a Foundation for Computer Science. By Graham, Knuth and Patashnik. Addison-Wesley Publishing Company.",
+        "Introduction to Algorithms. Third Edition. By Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. McGraw-Hill."
+      ],
+      "prerequisites": [
+        "BİL 132"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L133"
+    },
+    {
+      "code": "BİL 212",
+      "name": "Veri Yapıları",
+      "ects": 8,
+      "semester": 3,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Bu dersin amacı temel veri yapılarını ve bu yapıları manipule etmek için kullanılan algoritmaları öğretmektir.",
+      "description": "Temel veri yapıları, bu yapıları manipule etmek ve bilgiye erişmek için kullanılan algoritmalar ve bu algritmaları zaman ve yer karmaşıklığı yönünden analiz etme teknikleri.",
+      "learning_outcomes": [
+        "Soyut Veri Tipi ve gerçekleştirimi arasındaki farkı bilir, bir Soyut Veri Tipinin farklı gerçekleştirimlerini zaman ve bellek kullanımı bakımından karşılaştırır.",
+        "Liste, yığıt ve kuyruk veri yapılarının özelliklerini bilir ve uygulamalarında bu yapıları seçerek kullanır.",
+        "Öncelik kuyruklarının özelliklerini bilir ve uygulamalarında bu yapıları seçerek kullanır.",
+        "Çeşitli ağaç veri yapılarının özelliklerini bilir ve uygulamalarında bu yapıları seçerek kullanır.",
+        "Orta büyüklükte programları gerçekleştirebilir, hatalarını ayıklayabilir, ve test edebilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Bağlı Listeler",
+        "Hafta 2: Algoritma Analizi",
+        "Hafta 3: Özyineleme",
+        "Hafta 4: Yığıtlar, kuyruklar",
+        "Hafta 5: Liste soyut veri tipi ve iteratörler",
+        "Hafta 6: Ağaçların temelleri, ikili ağaçlar, ağaç dolaşma",
+        "Hafta 7: Öncelik kuyrukları, yığın yapısı",
+        "Hafta 8: Map soyut veri tipi, hash tabloları",
+        "Hafta 9: SortedMap soyut veri tipi, ikili arama ağaçları",
+        "Hafta 10: Dengeli arama ağaçları",
+        "Hafta 11: Dengeli arama ağaçları devam",
+        "Hafta 12: Çizgeler"
+      ],
+      "resources": [
+        "M.T. Goodrich, R. Tamassia, M.H. Goldwasser. Data Structures and Algorithms in Java. Wiley."
+      ],
+      "prerequisites": [
+        "BİL 211"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L212"
+    },
+    {
+      "code": "BİL 265",
+      "name": "Mantık Devresi Tasarımı ve Uygulamaları",
+      "ects": 8,
+      "semester": 3,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Temel bir donanım dersi olan sayısal sistem tasarımı dersini alıp başarıyla tamamlayan öğrenciler, bilgisayarın basit elektrik sinyallerinin basit elektrik devrelerinin akıllı ve hünerli bir şekilde kullanılarak işlenmesi ile oluşturulmuş son derece planlı ve de verimli bir mühendislik tasarımı olduğunu kavramaları ve kendileri de temel seviyede bilgisayar tasarlayacak bilgi ve kavrayış seviyesine gelmeleri bu dersin temel amacıdır.",
+      "description": "İkili Sistemler. Kodlar. Boolean Cebiri. Dijital Mantık Kapıları. Fonksiyonların Basitleştirilmesi. Kombinasyonel Mantık. Eşzamanlı Sıralı Mantık. Sayaçlar. Tasarım Problemleri. Entegre Devre Katalog Verilerini Okuma ve Laboratuvar Ekipmanlarını Tanıma. Mantık Kapıları Kullanarak Boolean Fonksiyonlarının Gerçeklenmesi ve Basitleştirilmesi. Kapılar ve Kombinasyonel Mantık Devreleri (Multiplexer ve Dekoderler) ile Fonksiyon Gerçekleme. Flip-Flop’lar, Kaydırma Kaydedicileri ve Sayaçlar.",
+      "learning_outcomes": [
+        "Sayı tabanları arası geçişlerin öğrenilmesi",
+        "Bileşik devrelerin tasarımı ve devre elemanlarının öğrenilmesi",
+        "Sıralı devrelerin tasarımı ve devre elemanlarının öğrenilmesi",
+        "Verilog Davranışsal ve Kapı Seviyesi modelleme kullanarak karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında,belirli gereksinimleri karşılayacak şekilde tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama becerisi kazanmak.",
+        "FPGA kartı üzerinde bulunan giriş ve çıkışların verilen problem doğrultusunda doğru bir şekilde kullanılması.",
+        "IP Core'ların proje içinde kullanımının öğrenilmesi.",
+        "Eşzamansız(saat girişsiz) devrelerin tasarlanarak Verilog ile gerçeklenmesi.",
+        "Eşzamanlı(saat girişli) devrelerin tasarlanarak Verilog ile gerçeklenmesi."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Dijital Sistemler ve İkili Sayılar",
+        "Hafta 2: Dijital Sistemler ve İkili Sayılar",
+        "Hafta 3: Boolean Cebiri ve Mantık Kapıları",
+        "Hafta 4: Boolean Cebiri ve Mantık Kapıları",
+        "Hafta 5: Kapı Seviyesi Minimizasyonu",
+        "Hafta 6: Kapı Seviyesi Minimizasyonu",
+        "Hafta 7: Bütünleşik Devreler",
+        "Hafta 8: Bütünleşik Devreler",
+        "Hafta 9: Senkron Sekansiyel Devreler",
+        "Hafta 10: Kaydediciler ve Sayaçlar",
+        "Hafta 11: Sonlu Durum Makineleri",
+        "Hafta 12: Ardışık İşlem (Pipeline) Yöntemi"
+      ],
+      "resources": [
+        "Digital Design: With an Introduction to the Verilog HDL, VHDL, and System Verilog - Morris Mano"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L265"
+    },
+    {
+      "code": "BİL 245",
+      "name": "Doğrusal Cebir ve Uygulamaları",
+      "ects": 8,
+      "semester": 3,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Vektörler ve matrislerin tanımlarından başlayarak matrisler üzerindeki işlemler, determinantlar, matrislerin özdeğerleri/özvektörleri ve doğrusal cebirin bilgisayar, veri ve yapay zeka mühendisliği gibi çeşitli alanlardaki uygulamalarını öğrenmek.",
+      "description": "Bu ders, doğrusal cebirin temel kavramlarını ve uygulamalarını sunmaktadır. Ele alınan konular arasında vektörler, doğrusal denklem sistemleri, graflar ve ağlar, lineer dönüşümler, vektör uzayları, diklik kavramı ve Gram-Schmidt süreci, determinantlar ve spektral doğrusal cebir bulunmaktadır. Ders, doğrusal cebirin fiziksel problemler ve bilgisayar bilimi üzerindeki uygulamalarına, özellikle PageRank ve tekil değer ayrışımı gibi konulara vurgu yapmaktadır.",
+      "learning_outcomes": [
+        "Doğrusal sistemleri nasıl çözeceğini öğrenmek",
+        "Vektörler ve matrisler hakkında bilgi edinmek",
+        "Dört temel alt uzayı, rütbe (rank), baz (basis) ve bağımsızlığı anlamak",
+        "Fiziksel problemleri modellemek ve çözmek için doğrusal cebiri kullanmak",
+        "Projeksiyonları ve en küçük kareler problemlerini nasıl çözeceğini anlamak",
+        "Özdeğerler, özvektörler, diyagonalizasyonu ve matris üstel fonksiyonunu kullanarak sıradan diferansiyel denklemleri nasıl çözeceğini öğrenmek",
+        "Tekil değer ayrışımı (SVD) ve PageRank hakkında bilgi edinmek"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Vektörler (Tanımlar, doğrusal birleşimler, uzunluk, nokta çarpımı, …)",
+        "Hafta 2: Matrisler (Tanımlar, matris aritmetiği)",
+        "Hafta 3: Matrisler (Tanımlar, matris aritmetiği)",
+        "Hafta 4: Doğrusal Denklem Sistemleri (doğrusal denklemlerin geometrisi, Gauss eleme yöntemi, matris çarpımı, …)",
+        "Hafta 5: Lineer Dönüşümler (dönmeler, genel dönüşümler)",
+        "Hafta 6: Vektör Uzayları (dört alt uzay, rütbe, indirgenmiş form, bazlar, …)",
+        "Hafta 7: Diklik (dört alt uzayın dikliği, projeksiyonlar, en küçük kareler yöntemi, …)",
+        "Hafta 8: Determinantlar (hacim, kofaktörler ve adjoint matris, Cramer kuralı, …)",
+        "Hafta 9: Özdeğerler ve özvektörler (matris diyagonalizasyonu, simetrik ve pozitif tanımlı matrisler, benzer matrisler, tekil değer ayrışımı)",
+        "Hafta 10: Uygulamalar: Grafikler ve ağlar; Markov zincirleri; Fonksiyonların doğrusal cebiri; Bilgisayar Grafikleri; Derin Öğrenme",
+        "Hafta 11: Uygulamalar: Grafikler ve ağlar; Markov zincirleri; Fonksiyonların doğrusal cebiri; Bilgisayar Grafikleri; Derin Öğrenme",
+        "Hafta 12: Uygulamalar: Grafikler ve ağlar; Markov zincirleri; Fonksiyonların doğrusal cebiri; Bilgisayar Grafikleri; Derin Öğrenme"
+      ],
+      "resources": [
+        "Gilbert Strang, Introduction to Linear Algebra, 5th Edition, Wellesley-Cambridge Press, (2016)",
+        "Shayle Searle and André Khuri, Matrix Algebra Useful for Statistics, 2nd Edition, John Whiley and Sons, 2017",
+        "David Lay, Steven Lay, and Judi McDonald, Linear Algebra and Its Applications, 5th Edition, Pearson, 2016",
+        "Howard Anton, Chris Rorres, and Anton Kaul, 12th Edition, John Wiley and Sons, 2019"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L245"
+    },
+    {
+      "code": "AİT 201",
+      "name": "Atatürk İlkeleri ve İnkılâp Tarihi I",
+      "ects": 2,
+      "semester": 3,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, Osmanlı yenileşme hareketlerinden başlayarak, çağdaşı Avrupa devletlerindeki gelişmeleri, sanayi Devrimi ve Fransız İhtilali’nin ekonomik ve siyasi gelişmelere katkılarını, Osmanlı’daki yansımalarını incelemek; I. Meşrutiyet, İttihat ve Terakki Cemiyeti, ve II. Meşrütiyet, Trablusgarp ve Balkan Savaşları ile I. Dünya Savaşı’nın etkileri, Milli Mücadele dönemi gelişmeleri dönemlerini ele almaktır.",
+      "description": "Osmanlı yenileşme hareketleri, I. Meşrutiyet, İttihat ve Terakki Cemiyeti, II. Meşrutiyet, Trablusgarp ve Balkan Savaşları, I. Dünya Savaşı ve Osmanlı, Milli Mücadele dönemi, Cumhuriyetin ilanı konuları ele alınacaktır.",
+      "learning_outcomes": [
+        "Bu derste Milli Mücadele’den Cumhuriyetin ilanına kadar tüm gelişmeler detaylı bir biçimde ele alınacak.",
+        "İmparatorluktan cumhuriyete değişim ve gelişim geniş bir perspektifte değerlendirilecektir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Kavramlar ve Osmanlı Yenileşmesi",
+        "Hafta 2: Avrupa Gelişmeleri, Sanayi Devrimi ve Fransız İhtilali",
+        "Hafta 3: Yeni Osmanlılar, Meşrutiyet, İttihat ve Terakki",
+        "Hafta 4: II. Meşrutiyet Dönemi, Trablusgarp ve Balkan Savaşları",
+        "Hafta 5: Birinci Dünya Savaşı’nın Sebepleri",
+        "Hafta 6: I. Dünya Savaşı, Osmanlı Devleti’nin Paylaşılması",
+        "Hafta 7: Milli Mücadele Hazırlık Dönemi",
+        "Hafta 8: Kongreler",
+        "Hafta 9: Sivas Kongresi, Son Osmanlı Mebusan Meclisi ve Misakı Milli",
+        "Hafta 10: TBMM Dönemi ve Cephelerin Oluşturulması",
+        "Hafta 11: Lozan Antlaşması",
+        "Hafta 12: Dış Politika"
+      ],
+      "resources": [
+        "AHMAD, Feroz; İttihat ve Terakki, Kaynak Yayınları, İstanbul, 1995.",
+        "Ali Cevat Bey, İkinci Meşrutiyet’in ilanı ve 31 Mart Hadissesi, ed. Faik Reşit Unat.",
+        "ATATÜRK, Mustafa Kemal(Yay. Haz. Zeynep Korkmaz); Nutuk 1919-1927, Atatürk Araştırma Merkezi Yayınları, Ankara, 2005.",
+        "AYBARS, Ergun; Türkiye Cumhuriyeti Tarihi I, Ege Üniversitesi Edebiyat Fakültesi Yayınları, İzmir, 1986.",
+        "BERKES, Niyazi; Türkiye’de Çağdaşlaşma, YKY, İstanbul, 2005."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=A%C4%B0T201"
+    },
+    {
+      "code": "İNG 003",
+      "name": "İngilizce Yazma Becerileri",
+      "ects": 4,
+      "semester": 3,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu ders akademik ve profesyonel yazımda sağlam bir teorik altyapı oluşturmayı amaçlar. Bu bağlamda, öğrencilerin dil, biçim, biçem ve üslup konularında bilgi edinmelerini sağlar. Böylelikle, akademik yaşamda akademik yazım için ve profesyonel yaşamda yazışmalar için gerekli temelleri oluşturur. Öğrenciler, sadece akademik yazımda kalmayarak, iş yazışmalarında da beceriler geliştirebilecek; veri ve istatistikî bilgileri etkin bir dile dönüştürerek ve harmanlayarak kendileri açık biçimde ifade edebileceklerdir.",
+      "description": "İNG 003 iki bölümden oluşmaktadır. Bunlardan ilki, akademik yazımı amaçlarıyla birlikte ele alan “Akademik Bölüm”dür. Bu bölümde, öğrenciler akademik yazı unsurlarına nasıl yaklaşacaklarını detaylı bir bakış açısıyla ve açımlama&özetleme, intihalden kaçınma gibi yazımın temel kurallarıyla öğrenirler. İkinci bölüm, e-posta, resmi mektup, özgeçmiş, niyet mektubu ve veri/grafik/çizelge yorumlama ve bunları raporlaştırma konularını ele alan “Profesyonel Bölüm”dür. Bu bölüm profesyonel yazışma ve iş durumlarıyla ilgili temel yazma uygulamalarını kapsar.",
+      "learning_outcomes": [
+        "Akademik ve profesyonel yazımın dil, format, üslup ve resmiyet derecesi gibi unsurlarını içeren teorik çerçeveyi sağlam bir şekilde kavrayabileceklerdir.",
+        "Akademik ve iş yazışmalarında uygun yazım kurallarını ve yapılarını uygulayabileceklerdir.",
+        "Profesyonel ve akademik standartlara uygun, iyi yapılandırılmış, tutarlı ve anlaşılır akademik ve iş yazıları oluşturabileceklerdir.",
+        "Akademik ve iş ortamlarında profesyonel yazışma becerilerini geliştirebileceklerdir.",
+        "E-posta, resmi mektup, rapor ve özgeçmiş yazabileceklerdir.",
+        "Akademik metinleri açımlayıp özetleyebileceklerdir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Giriş, Kurallar ve Dersin Tanımı, Giriş, Kurallar ve Dersin Tanımı, Akademik Yazıya Giriş",
+        "Hafta 2: Akademik Yazı/ Amaç, Akademik Yazı / Üslup & Biçem, Akademik Yazı / Üslup & Biçem, Akademik Yazı / Üslup & Biçem",
+        "Hafta 3: Akademik Yazı / Tekrar ve Laf Kalabalığı, Akademik Yazı / Eş Anlamlı Kelime Kullanımı, Akademik Yazı / Referans Kullanımı, Akademik Yazı / Alıştırmalar",
+        "Hafta 4: Akademik Yazı / Alıştırma Geri Dönütü, Quiz 1: Üslup & Biçem, Akademik Yazı / İntihal & Açımlama, Akademik Yazı / Açımlama",
+        "Hafta 5: Akademik Yazı / Açımlama, Akademik Yazı / Açımlama, Akademik Yazı / Özetleme, Akademik Yazı / Özetleme",
+        "Hafta 6: Akademik Yazı / Özetleme, Quiz 2: Açımlama & Özetleme, İş İngilizcesine Giriş / E-posta Yazma",
+        "Hafta 7: Quiz 3: E-posta Yazma",
+        "Hafta 8: İş Mektupları Yazma",
+        "Hafta 9: Quiz 4: İş Mektupları Yazma",
+        "Hafta 10: CV Yazma, Niyet Mektubu Yazma",
+        "Hafta 11: Rapor Yazma",
+        "Hafta 12: Quiz 5: Rapor Yazma"
+      ],
+      "resources": [
+        "Orijinal Bölüm Materyalleri"
+      ],
+      "prerequisites": [
+        "İNG 002"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG003"
+    },
+    {
+      "code": "BİL 214",
+      "name": "Sistem Programlama",
+      "ects": 8,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Bu dersin amacı öğrencilere Unix ortamında C programlama dili kullanarak programlama öğretmektir.",
+      "description": "Unix ortamında C programlama dili kullanarak programlamaya giriş. Unix çekirdeği, Unix kabuğu, dosya sistemi ve temel kabuk komutları. Kabuk kodları. C programlama (fonksiyonlar, diziler, dizgiler, işaretçiler, dinamik bellek kullanımı, bit operasyonları). Unix sistem çağrıları. İşlem kontrolü, sinyaller ve işlemler arası iletişim.",
+      "learning_outcomes": [
+        "Unix/Linux temel komutlarını ve yardımcı programlarını kullanabilir, Unix/Linux dosya sistemi temellerini anlar ve dosya sistemini yönetebilir.",
+        "Kabuk (shell) seviyesindeki programların faydasını anlar, kabuk kodları yazar.",
+        "C programlama dilinde programlama görevlerini gerçekleştirebilir.",
+        "C dilinde işaretçileri (pointers), dizileri, karakter dizilerini (strings) ve dosya girdi/çıktısını (file I/O) etkin şekilde kullanır.",
+        "C yapıları (structures) ve dinamik bellek tahsisi konusunda yetkinlik kazanır.",
+        "İşlem oluşturan (process creation) sistem çağrılarını (system calls) kullanarak programlar yazar.",
+        "İşlemler arası iletişim (IPC), sinyaller ve borular (pipe) gibi temel IPC konuları bilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Unix/Linux'a giriş (temel komutlar, dosya sistemi, dosya manipulasyonu, editörler)",
+        "Hafta 2: Linux devam (wildcardlar, düzenli ifadeler, filtreler, sinyaller, iş kontrolü)",
+        "Hafta 3: Kabuk, ortam değişkenleri, kabuk kurulum dosyaları, kabuk kodları",
+        "Hafta 4: Kabuk kodları devam",
+        "Hafta 5: C Programlama: temel veri tipleri, I/O, kontrol yapıları, fonksiyonlar",
+        "Hafta 6: C Programlama: diziler, işaretçiler, işaretçi aritmetiği",
+        "Hafta 7: C Programlama: işaretçiler devam.",
+        "Hafta 8: C Programlama: karakter ve dizgiler, dosya I/O",
+        "Hafta 9: C Programlama: yapılar, dinamik bellek memory kullanımı, bağlı listeler",
+        "Hafta 10: Kütüphane fonksiyonları ve sistem çağrıları, işlemler, işlem ortamı",
+        "Hafta 11: İşlemler devam: fork, exec, wait",
+        "Hafta 12: Sinyaller, borular"
+      ],
+      "resources": [
+        "Zorunlu kaynak: C How to Program, 6th or 7th Edition, by Deitel and Deitel. Prentice Hall.",
+        "Linux Pocket Guide, Daniel Barrett. O'Reilly.",
+        "Interprocess Communication in Linux, John S. Gray. Prentice Hall."
+      ],
+      "prerequisites": [
+        "BİL 212"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L214"
+    },
+    {
+      "code": "BİL 334",
+      "name": "Biçimsel Diller ve Otomata",
+      "ects": 6,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Hesaplamanın formal modellerine dair temel anlayış.\nDüzenli ifadeleri ve bağlam-bağımsız gramerleri anlama ve yazma.\nTM'leri, indirgeme kanıtlarını, ve hesaplamanın sınırlarını anlama.",
+      "description": "Bu ders, otomata teorisindeki temel kavramları ve kanıt tekniklerini sunar. İşlenen konular şunlardır: DFA, NFA, düzenli dillerin özellikleri, düzenli ifadeler, düzenli diller için pompalama lemması, bağlam-bağımsız gramerler, Chomsky normal formu, PDA, Turing makineleri, karar verilemezlik, NP-tamamlılık.",
+      "learning_outcomes": [
+        "DFA'ları ve NFA'ları tasarlamak ve anlamak",
+        "Düzenli ifadeler yazmak",
+        "Bir dilin düzenli olmadığını kanıtlamak",
+        "CFG'leri ve PDA'ları tasarlamak ve anlamak",
+        "Bir grameri CNF'ye basitleştirmek",
+        "Turing makinelerini ve indirgeme ispat tekniğini öğrenmek"
+      ],
+      "weekly_topics": [
+        "Hafta 1: DFA",
+        "Hafta 2: NFA",
+        "Hafta 3: Düzenli ifadeler",
+        "Hafta 4: Pompalama lemması",
+        "Hafta 5: Bağlam-bağımsız gramerler",
+        "Hafta 6: Bağlam-bağımsız gramerler",
+        "Hafta 7: Belirsiz gramerler, CNF",
+        "Hafta 8: PDA",
+        "Hafta 9: Turing makinaları",
+        "Hafta 10: Karar verilemeyen problemler",
+        "Hafta 11: Karmaşıklık kuramı",
+        "Hafta 12: NP-tam problemler"
+      ],
+      "resources": [
+        "Introduction to the Theory of Computation. By Michael Sipser."
+      ],
+      "prerequisites": [
+        "BİL 133"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L334"
+    },
+    {
+      "code": "BİL 361",
+      "name": "Bilgisayar Mimarisi ve Organizasyonu",
+      "ects": 6,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bilgisayarı oluşturan temel parçaların çalışma prensiplerinin anlaşılması, donanım tasarımında meydana gelebilecek olası sorunların tespiti ve çözümü, başarım (performans) ölçütleri ve başarımı iyileştirme yöntemleri, mantıksal devre elemanları ve donanım tanımlama dilleri kullanılarak bilgisayar parçalarının tasarımı.",
+      "description": "Bilgisayar sistemlerinde performans analizi, tek vuruşlu ve çok vuruşlu işlemci tasarımları, buyruk kümesi mimarisi, çevirici dilinde programlama, buyruk türleri, boru hattı yapıları, bilgisayar mimarisinde denetim sorunları ve bunların olası çözümleri, dallanma öngörücüleri, önbellek ve sanal bellek yapıları, bilgisayar sistemlerinde giriş çıkış.",
+      "learning_outcomes": [
+        "Başarımı etkileyen faktörlerin tespiti, Buyruk Başına Çevrim (BBÇ) kavramının ve başarım-yürütme zamanı ilişkisinin öğrenilmesi.",
+        "Tek vuruşluk bir işlemcinin, verilen gerek ve kısıtlara uyularak kağıt üzerinde ve donanım tanımlama dilleri yardımıyla tasarlanması, denetim tablosunun oluşturulması. Çok vuruşluk işlemciler hakkında genel bilgilerin öğrenilmesi ve başarım hesabı yapılması.",
+        "Denetim buyrukları bulunduran bir kod parçası üzerinde verilen dallanma öngörücüleri ile elde edilen başarımın hesaplanması, bu kod parçası üzerinde başarımı en yüksek dallanma öngörücüsünün tespiti.",
+        "Boru hattı kullanılan bir işlemcinin başarımının hesaplanması ve sorunların tespiti.",
+        "Verilen bir kod parçasının önbellek ve sanal bellek başarımlarının tespiti.",
+        "Verilen bir sistem üzerinde belirtilen bir giriş-çıkış protokolünün uygulanması."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Başarım (performans)",
+        "Hafta 2: Buyruk Kümesi Mimarisi",
+        "Hafta 3: Buyruk Kümesi Mimarisi",
+        "Hafta 4: Buyruk Kümesi Mimarisi",
+        "Hafta 5: Boru hattı",
+        "Hafta 6: Boru hattı",
+        "Hafta 7: Dallanma Öngörücüleri",
+        "Hafta 8: Önbellek",
+        "Hafta 9: Önbellek",
+        "Hafta 10: Önbellek",
+        "Hafta 11: Sanal Bellek",
+        "Hafta 12: Giriş Çıkış"
+      ],
+      "resources": [
+        "David A. Patterson, John L. Hennesy, Computer Organisation and Design, Fourth Edition: The Hardware/Software Interface (The Morgan Kaufmann Series in Computer Architecture and Design) ISBN-13: 978-0123744937"
+      ],
+      "prerequisites": [
+        "BİL 264",
+        "BİL 265"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L361"
+    },
+    {
+      "code": "İKT 105",
+      "name": "Ekonomiye Giriş",
+      "ects": 6,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilere ekonomi bilimini tanıtmak, makro ve mikro iktisat biliminin temel kavramlarını öğretmektir. Bu dersin diğer bir amacı, öğrencileri üst sınıflarda alacakları orta ve üst düzey ekonomi derslerine hazırlamaktır.",
+      "description": "Ekonomi bilimini tanıtan, makro ve mikro iktisat biliminin temel kavramlarını öğreten bir derstir.",
+      "learning_outcomes": [
+        "Ekonomi biliminin temel kavramları tanıtır.",
+        "Bireylerin, firmaların ve politika uygulayıcıların karar alma süreçlerini analiz edebilme yetisi kazandırır.",
+        "Öğrencilere güncel ekonomik gelişmeleri takip etme ve çözüm üretme becerisi verir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Ekonominin Temel Prensipleri",
+        "Hafta 2: Arz ve Talep, Piyasalar, Esneklik, Devlet Politikaları",
+        "Hafta 3: Tüketici ve Üretici Davranışı",
+        "Hafta 4: Üretim ve Rekabetçi Piyasalar",
+        "Hafta 5: Tam Rekabet, Monopol, Oligopol",
+        "Hafta 6: Bir Ülkenin Gelirini Ölçme",
+        "Hafta 7: Uzun Vadede Faiz Oranları, Para Ve Fiyatlar, Tasarruf, Yatırım Ve Finansal Sistem, Finansın Temel Araçları",
+        "Hafta 8: Parasal Sistem, Büyüme Ve Enflasyon",
+        "Hafta 9: Kısa Dönem Ekonomik Dalgalanmalar, İş Çevrimleri (Konjektürel Dalgalanma), Keynesyen İktisat Ve IS-LM Analizi",
+        "Hafta 10: Toplam Talep Ve Toplam Arz, Toplam Talep Üzerinde Para Ve Maliye Politikasının Etkisi",
+        "Hafta 11: Enflasyon Ve İşsizlik Arasındaki Kısa Dönemli Ödünleşim",
+        "Hafta 12: Arz Yönlü İktisat"
+      ],
+      "resources": [
+        "A. T. Yalta, A. Y. Yalta, Modern Mikroekonomiye Giriş, Adres Yayınları, 8. baskı, 2025",
+        "A. T. Yalta, A. Y. Yalta, Modern Makroekonomiye Giriş, Adres Yayınları, 7. baskı, 2025",
+        "N. Gregory Mankiw, Mark P. Taylor, Economics, Cengage Learning, 3. baskı, 2014"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0KT105"
+    },
+    {
+      "code": "OEG 101",
+      "name": "Ortak Eğitime Giriş",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı öğrencinin ortak eğitim sürecine ve iş yaşamına dahil olmadan teorik olarak ve pratik yaşamdan tecrübeler ile oryante edilmesidir.",
+      "description": "Bu ders, öğrenciyi ortak eğitim yapacağı firmalara göndermeden önce, Ortak Eğitim Modelinin Tanıtımı, Görgü Kuralları, Sosyal Davranış, Protokol Kuralları, Liderlik, İşçi Sağlığı ve İş Güvenliği, İşletme Yönetimi ve Girişimcilik, Özgeçmiş Hazırlama ve Toplumsal Cinsiyet - İş Yerinde Taciz gibi farklı konularda seminer derslerinden oluşur.",
+      "learning_outcomes": [
+        "Ortak Eğitim Modelinin temellerini ve uygulama süreçlerini öğrenir.",
+        "Ortak eğitim öncesi iş yerindeki sorumlulukları ve beklentileri anlar.",
+        "İş yerinde uygun davranış biçimlerini öğrenir ve profesyonel bir tutum geliştirebilir.",
+        "Toplumda ve iş yerinde doğru iletişim kurma, saygılı olma ve etik davranışları sergileme becerilerini kazanır.",
+        "Toplumsal cinsiyet eşitliği ve iş yerinde cinsel taciz konularına duyarlı olmayı öğrenir.",
+        "İşletme yönetimi ve girişimcilik konularında temel bilgiler edinir.",
+        "Profesyonel bir özgeçmiş (CV) hazırlama becerisi kazanır.",
+        "İş başvuruları için etkili ve stratejik kariyer planları oluşturabilir.",
+        "İş sağlığı ve güvenliği ile ilgili mevzuatlar hakkında bilgi sahibi olur",
+        "İş güvenliği konusunda farkındalık oluşturur ve güvenli bir çalışma ortamının önemini anlar."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Dersin Tanıtımı",
+        "Hafta 2: Ortak Eğitime Giriş ve Mevzuat",
+        "Hafta 3: Bilgi Çağında Liderlik ve Toplumsal Görgü Kuralları",
+        "Hafta 4: İş Yaşamında İletişim, Görgü ve Protokol Kuralları",
+        "Hafta 5: Toplumsal Cinsiyet ve İş Yerinde Cinsel Taciz",
+        "Hafta 6: Yönetim İşlevleri ve Girişimcilik",
+        "Hafta 7: CV Hazırlama - İş Sağlığı ve Güvenliği",
+        "Hafta 8: İş Sağlığı ve Güvenliği",
+        "Hafta 9: İş Sağlığı ve Güvenliği",
+        "Hafta 10: İş Sağlığı ve Güvenliği",
+        "Hafta 11: İş Sağlığı ve Güvenliği",
+        "Hafta 12: İş Sağlığı ve Güvenliği"
+      ],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG101"
+    },
+    {
+      "code": "AİT 202",
+      "name": "Atatürk İlkeleri ve İnkılâp Tarihi II",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, Cumhuriyet dönemi siyasi inkılâplardan (Saltanatın Kaldırılması, Cumhuriyetin İlanı, Halifeliğin Kaldırılması) başlayarak, Atatürk döneminde kurulan TBMM’de temsil edilen siyasi fırkalar ve siyasal olayların üzerinde durmak, Hukuk inkılabı ve ortaya konan yeni hukuk düzeninin toplumsal etkileri, eğitim, kültür ve ekonomi alanında gerçekleştirilen inkılapların meydana getirdiği değişim üzerinde durmak ve bunların Türk toplumunun çağdaşlaşmasına etkilerini değerlendirmektir.",
+      "description": "Atatürk Dönemi (1923-1938) iç ve dış gelişmeler, İnönü Dönemi (1938-1950) iç ve dış gelişmeler, Demokrat Parti Dönemi (1950-1960) iç ve dış gelişmeleri ele alınmaktadır.",
+      "learning_outcomes": [
+        "Öğrenciler bu derste Türkiye Cumhuriyetinin 1923-1938, 1938-1950, 1950-1960 dönemi iç ve dış politika gelişmeleri hakkında bilgi sahibi olacaklardır."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Siyasi İnkılâplar (Saltanatın Kaldırılması, Cumhuriyetin İlanı, Halifeliğin Kaldırılması)",
+        "Hafta 2: Atatürk Döneminde Kurulan TBMM’de Temsil Edilen Siyasi Fırkalar ve Siyasal Olaylar",
+        "Hafta 3: Cumhuriyet Dönemi Hukuk İnkılâbı ve Yeni Hukuk Düzeni",
+        "Hafta 4: Eğitim Alanındaki İnkılâplar",
+        "Hafta 5: Kültür ve Toplumsal Alanda Gerçekleştirilen İnkılâp Hareketleri",
+        "Hafta 6: Ekonomik Alanda İnkılâplar",
+        "Hafta 7: Atatürk Dönemi Türk Dış Politikası I (1923-1930)",
+        "Hafta 8: Atatürk Dönemi Türk Dış Politikası II (1930-1938)",
+        "Hafta 9: Atatürk İlkeleri I",
+        "Hafta 10: Atatürk İlkeleri II ve Bütünleyici İlkeler",
+        "Hafta 11: Atatürk Sonrası Türkiye (1938-1950)",
+        "Hafta 12: Atatürk Sonrası Türkiye (1950-1960)"
+      ],
+      "resources": [
+        "Türkiye Cumhuriyeti Tarihi II, Atatürk Araştırma Merkezi Yayını, s.99-114, Ankara, 2004.",
+        "Kültür Alanındaki Gelişmeler”, Türkiye Cumhuriyeti Tarihi II, Atatürk Araştırma Merkezi Yayını, s.189-205, Ankara, 2004. GÖNLÜBOL, Mehmet- SAR, Cem; Olaylarla Türk Dış Politikası (1919-1939), Siyasal Kitabevi, Ankara, 1995. BAĞCI, Hüseyin; Demokrat Parti Dönemi Dış Politikası, İmge Yayınevi, Ankara, 1990."
+      ],
+      "prerequisites": [
+        "AİT 201"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=A%C4%B0T202"
+    },
+    {
+      "code": "İNG 004",
+      "name": "İngilizce Sunum Teknikleri",
+      "ects": 4,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Öğrencileri profesyonel hayata hazırlamayı amaçlamaktadır. Ders, Etkili Sunumlar, Etkili İş Görüşmeleri ve Etkili Toplantılar olmak üzere üç modülden oluşmaktadır. Dersin sonunda öğrenciler, fikirlerini net bir şekilde ifade etme, profesyonel ilişkiler kurma ve farklı iş ortamlarında güçlü bir izlenim bırakma becerilerini geliştirmiş olacaklardır. Uygulamalı etkinlikler, rol yapma çalışmaları ve kişiselleştirilmiş geri bildirimler sayesinde, profesyonel dünyaya başarılı bir geçiş yapmaya hazır hale geleceklerdir.",
+      "description": "Bu ders, öğrencileri profesyonel ortamlarda başarılı olmaları için gerekli olan temel iletişim ve kişilerarası becerilerle donatmak amacıyla tasarlanmıştır. Etkili Sunumlar, Etkili İş Görüşmeleri ve Etkili Toplantılar olmak üzere üç kapsamlı modül aracılığıyla, öğrenciler etkili iletişim kurma, fikirlerini ikna edici bir şekilde sunma ve iş yerindeki etkileşimleri başarıyla yönetme konusunda güven ve uzmanlık kazanacaklardır.",
+      "learning_outcomes": [
+        "Etkin bir sunum hazırlayıp sunabilecekler.",
+        "Profesyonel iş görüşmelerinde kendilerini etkin bir şekilde sunup iletişim kurabilecekler.",
+        "Profesyonel iş toplantılarında etkili bir şekilde iletişim kurabilecekler."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Dersin Tanıtımı - Kurallar ve Yönetmelikler - Kendini Tanıtma - Sunumlara Giriş",
+        "Hafta 2: Başlangıç Yapma - Güçlü Bir Başlangıç Yapma - Bölümleri Bağlama - Doğru Türde Dil Kullanımı",
+        "Hafta 3: Beden Dili / Vurgulama - Konu Seçimi / İntihal - Görsel Araçlar",
+        "Hafta 4: Görsel Araçlar - Sınıf İçi Konu Tartışması - Bitiriş + Çekiliş - Soru Zamanı",
+        "Hafta 5: Tümünü Bir Araya Getirme - Sunumu Canlandırma - Değerlendirilen Sunumlar - Değerlendirilen Sunumlar",
+        "Hafta 6: Değerlendirilen Sunumlar",
+        "Hafta 7: İş Görüşmeleri: Giriş - İş Görüşmeleri: Video İçeriği - İş Görüşmeleri: Sorularla Başa Çıkma",
+        "Hafta 8: İş Görüşmeleri: Telefon Mülakatları - İş Görüşmeleri: İkili Çalışma Pratiği - Değerlendirilen İş Görüşmeleri",
+        "Hafta 9: Değerlendirilen İş Görüşmeleri",
+        "Hafta 10: Toplantılara Giriş - Neden Buradayız? - Nereden Başlamalıyız? - Nereye Gidiyoruz?",
+        "Hafta 11: Fikirleriniz Önemli - Konuya Bağlı Kalmak - Fikrin Nedir? - Simülasyon + Çekiliş",
+        "Hafta 12: Değerlendirilen Toplantılar"
+      ],
+      "resources": [
+        "Effective Presentations by Jeremy Comfort, Oxford 1996",
+        "Intelligent Business: Upper Intermediate Skills Book by Christine Johnson and Irene Barrall, Pearson Longman 2006",
+        "Successful Presentations by John Hughes and Andrew Mallett, Oxford 2012"
+      ],
+      "prerequisites": [
+        "İNG 003"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG004"
+    },
+    {
+      "code": "BİL 331",
+      "name": "Algoritma Analizi",
+      "ects": 6,
+      "semester": 5,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, temel algoritma tasarım paradigmalarını ve bu paradigmaları kullanan örnek problemleri öğretmektir. Derste, algoritmaların doğruluğunun kanıtlanması ve çalışma sürelerinin analiz edilmesi konularına özellikle vurgu yapılmaktadır.",
+      "description": "Bu ders verimli bilgisayar algoritmaları tasarlamak, bunların doğruluğunu kanıtlamak ve çalışma sürelerini analiz etmek için gerekli teknikleri kapsar.\nKonular arasında sıralama ve seçme algoritmaları, algoritma tasarım teknikleri: böl ve yönet, açgözlü algoritmalar, dinamik programlama, ve grafik algoritmaları (minimum kapsayan ağaçlar, en kısa yol) yer alır.",
+      "learning_outcomes": [
+        "Sıralama ve seçme içeren problemleri çözer.",
+        "Uygun bir problemi çözmek için böl ve yönet algoritması geliştirir.",
+        "Uygun bir problemi çözmek için açgözlü algoritma geliştirir.",
+        "Uygun bir problemi çözmek için dinamik programlama kullanarak algoritma geliştirir.",
+        "Tek kaynaklı ve tüm ikililer arası en kısa yollar, topolojik sıralama ve minimum kapsayan ağaç algoritmaları dahil olmak üzere temel grafik algoritmalarını kullanarak problemleri çözer."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Asimptotik analiz, toplamlar, özyinelemeli ilişkiler, Insertion Sort",
+        "Hafta 2: Böl ve fethet algoritmaları (Mergesort, Inversion Counting, Closest Pair)",
+        "Hafta 3: Quicksort, Randomized Quicksort analizi",
+        "Hafta 4: Seçme (Selection) algoritması ve analizi",
+        "Hafta 5: Lineer zamanlı sıralama, Counting Sort, Radix Sort",
+        "Hafta 6: Açgözlü algoritmalar (Exchange Argument, Interval Scheduling, Fractional Knapsack, Minimizing Maximum Lateness, Huffmann Coding)",
+        "Hafta 7: Çizge gösterimleri, temel çizge algoritmaları (DFS, BFS)",
+        "Hafta 8: DFS uygulamaları (Articulation Points and Bridges, Strongly Connected Components, Topological Sorting)",
+        "Hafta 9: En küçük kapsayan ağaç algoritmaları (Kruskal, Prim), Dijkstra'nın en kısa yol algoritması",
+        "Hafta 10: Dinamik Programlama I (Weighted Interval Sch., Memoization, Iteration over Subproblems, Longest Common Subsequnce, Matrix Chain Multiplication)",
+        "Hafta 11: Dinamik Programlama II (0-1 Knapsack, Floyd-Warshall’ın Tüm-ikililer En Kısa Yol Algoritması)",
+        "Hafta 12: NP-Completeness"
+      ],
+      "resources": [
+        "Introduction to Algorithms. Third Edition. By Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein. McGraw-Hill.",
+        "Algorithm Design. By Jon Kleinberg and Eva Tardos. Addison Wesley."
+      ],
+      "prerequisites": [
+        "BİL 133",
+        "BİL 212"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L331"
+    },
+    {
+      "code": "BİL 395",
+      "name": "Programlama Dilleri",
+      "ects": 6,
+      "semester": 5,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 2,
+      "purpose": "Tüm programlama dillerinin temelini oluşturan kavramları öğretmek. Programlama dillerinin ana paradigmalarını öğretmek. Öğrencilere, temel kavramların başlıca programlama dillerinde nasıl ele alındığını tanıtmak. Öğrencilerin, dil tasarımı ve uygulaması için dil işlemcilerini kullanabilmesini sağlamak.",
+      "description": "Bu ders, tüm programlama dillerinin temelini oluşturan kavramları sunmaktadır. Konular arasında dil kategorileri, dil tasarımı, programlama dillerinin evrimi, sözdizim (syntax), anlambilim (semantics), sözcüksel (lexical) ve sözdizimsel analizörler (syntax analyzers), isimler, bağlamalar (bindings), tür denetimi (type checking), kapsamlar (scoping), veri türleri, ifadeler, deyimler, deyim düzeyinde denetim yapıları, altprogramlar, soyut veri türleri, fonksiyonel programlama dilleri ve mantıksal programlama dilleri yer almaktadır.",
+      "learning_outcomes": [
+        "Çeşitli programlama dili özelliklerini tanımlamak ve değerlendirmek.",
+        "Sözcüksel ve sözdizimsel analiz (parsing) temel bilgisine sahip olmak.",
+        "Değişkenlerin isim, adres, değer, tür, yaşam süresi ve kapsam gibi niteliklerini anlamak.",
+        "İfade düzeyinde denetimi tanımlamak.",
+        "Deyim düzeyinde denetimi tanımlamak.",
+        "Altprogramların uygulanmasını anlamak.",
+        "Fonksiyonel ve mantıksal programlama dillerini ve kullanım alanlarını tanımak."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Giriş, Ön Bilgi ve Tarihçe",
+        "Hafta 2: Sözdizim ve Anlambilim",
+        "Hafta 3: Sözcüksel ve Sözdizimsel Analiz",
+        "Hafta 4: İsmler, Bağlamalar, Tür Denetimi ve Kapsam",
+        "Hafta 5: Veri Türleri",
+        "Hafta 6: İfadeler ve Atama Deyimleri",
+        "Hafta 7: Deyim Düzeyinde Denetim Yapıları",
+        "Hafta 8: Altprogramlar",
+        "Hafta 9: Altprogramların Uygulanması",
+        "Hafta 10: Devam",
+        "Hafta 11: Fonksiyonel Programlama Dilleri",
+        "Hafta 12: Mantıksal Programlama Dilleri"
+      ],
+      "resources": [
+        "Concepts of Programming Languages, 11th Edition, R. W. Sebesta, Pearson, 2016."
+      ],
+      "prerequisites": [
+        "BİL 214"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L395"
+    },
+    {
+      "code": "BİL 481",
+      "name": "Yazılım Mühendisliği",
+      "ects": 6,
+      "semester": 5,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilere, uzun ömürlü yazılım ürünlerini geliştirebilmeleri için gereken temel yetenekleri kazandırmaktır.",
+      "description": "Bu ders Bilgisayar Mühendisliği Bölümü öğrencilerini Yazılım Mühendisliği mesleği hakkında bilgi sahibi edindirecek, ve onları büyük yazılım ürünleri geliştirirken kullanılan çağdaş araç ve süreçlerden haberdar edecek konuları içerir.",
+      "learning_outcomes": [
+        "Yazılımların tasarlanması ve geliştirilmesi konularında bilgi edinmek.",
+        "Yazılım mühendisliği proje yönetimi araçlarının çağdaş durumu hakkında bilgi edinmek.",
+        "Açık kaynak kodlu yazılım geliştirme pratiklerini tanımak.",
+        "Var olan yazılımların kaynak kodlarını anlama; bu kodlara yeni özellikler ekleme ve hatalardan arındırma konularında tecrübe kazanmak.",
+        "Etkin sunum yapabilme becerisi kazanmak.",
+        "Mühendislik uygulamalarında kullanılan standartlar hakkında bilgi edinmek.",
+        "Mühendislik uygulamalarının sosyal, sağlık, çevre ve güvenlik üzerinde etkileri hakkında bilgi ve mühendislik çözümlerinin hukuksal sonuçları ile ilgili bilgi edinmek."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Versiyon Yönetimi, Test Otomasyonu ve Sürekli Entegrasyon Sistemleri",
+        "Hafta 2: Devam",
+        "Hafta 3: Program Analizi",
+        "Hafta 4: Devam",
+        "Hafta 5: Yazılım Platformları, Çerçeveleri, Hizmetleri, Kütüphaneleri İnşa Etmek",
+        "Hafta 6: Devam",
+        "Hafta 7: Mühendislik Uygulamalarında Kullanılan Standartlar, Mühendislik Uygulamalarının Çeşitli Etkileri",
+        "Hafta 8: Yazılım Geliştirme Süreçleri",
+        "Hafta 9: Test Etme, Sağlama Yapma, Ölçme, Takip Etme, Alarm Verme",
+        "Hafta 10: Mühendislik Çözümlerinin Hukuksal Sonuçları, Sağlam Yazılım Sistemleri Tasarlama ve Diğer Mühendislere İfade Etme",
+        "Hafta 11: Yazılım Karmaşıklık Ölçütleri, Kaliteli Yazılım ve Kod Okuma",
+        "Hafta 12: Yazılım Mühendisliği İş Mülakatları İçin Hazırlık"
+      ],
+      "resources": [
+        "Software Engineering: The Current Practice (Chapman & Hall/CRC Innovations in Software Engineering and Software Development Series) 1st Edition by Vaclav Rajlich"
+      ],
+      "prerequisites": [
+        "BİL 211"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L481"
+    },
+    {
+      "code": "BİL 345",
+      "name": "Olasılık Teorisi",
+      "ects": 6,
+      "semester": 5,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Olasılık teorisine ilişkin temel kavramların öğrenilmesi.\nBilgisayar mühendisliği alanında sıklıkla karşılaşılan problemlerin olasılık modellerinin oluşturulması ve bu bağlamda analizlerinin yapılabilmesi.\nDaha ileri çalışmalar yürütebilmek için gerekli temel yetkinliğin edinilmesi.",
+      "description": "Bu ders olasılık teorisinin öğretildiği giriş seviyesinde bir derstir. Dersin amacı öğrencilere olasılık teorisinin temel kavramlarını öğretmek ve bu kavramların bilgisayar mühendisliği alanında karşılaşılan çeşitli problemlerin çözümlerinde uygulanmasını göstermektir. Ders kapsamında olasılık uzayları, rassal değişkenler, dağılımlar, momentler, bağımsızlık, koşullu olasılık ve limit teoremleri içeren konular detaylı bir şekilde incelenmektedir.",
+      "learning_outcomes": [
+        "Saymanın temelleri ve kombinatorik analizin olasılıkla ilişkisinin kurulması",
+        "Olasılık aksiyomları, koşullu olasılık ve bağımsızlık kavramlarının öğrenilmesi",
+        "Ayrık rassal değişkenler ve türleri, beklenen değer, ve moment hesaplamalarının öğrenilmesi",
+        "Aynı kavramların sürekli rassal değişkenler için genişletilmesi ve limit teoremleri",
+        "İstatistiğe giriş kapsamında örnekleme, tahmin ve kestirme yöntemlerinin temel düzeyde öğrenilmesi"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Saymanın temelleri ve olasılık",
+        "Hafta 2: Olasılık aksiyomları",
+        "Hafta 3: Koşullu olasılık, ve bağımsızlık",
+        "Hafta 4: Rassal değişken, Beklenen değer ve momentler",
+        "Hafta 5: Temel ayrık rassal değişken türleri",
+        "Hafta 6: Sürekli rassal değişkenler ve momentler",
+        "Hafta 7: Birleşik dağılım",
+        "Hafta 8: Bağımsızlık, kovaryans, ve korelasyon",
+        "Hafta 9: Örnekleme ve bootstrapping",
+        "Hafta 10: Limit teoremleri",
+        "Hafta 11: Tahmin ve kestirim yöntemlerine giriş",
+        "Hafta 12: Tahmin ve kestirim yöntemlerine giriş"
+      ],
+      "resources": [
+        "Introduction to Probability, 2nd Edition, Dimitri P. Bertsekas and John N. Tsitsiklis, Athena Scientific, 2008.",
+        "A First Course in Probability, 8th Edition, Sheldon Ross.",
+        "3.https: //www.probabilitycourse.com/preface.php",
+        "4.Probability and Statistics for Computer Scientists. Micheal Baron. CRC Press",
+        "5.Probability and Computing: Randomization and Probabilistic Techniques in Algorithms and Data Analysis. M. Mitzenmacher and E. Upfal. Cambride University Press.",
+        "Probability and Statistics for Engineers and Scientists, 10th Edition, Walpole, R. E., Myers, R. H., Myers S. L., Ye, K."
+      ],
+      "prerequisites": [
+        "MAT 102"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L345"
+    },
+    {
+      "code": "UGİ 315",
+      "name": "Girişimcilik ve Liderlik",
+      "ects": 4,
+      "semester": 5,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin Girişimcilik bölümü kapsamında öğrencilere girişimcilik alanında gerekli olan temel bilgiler sağlanarak, inovasyon, yenilik, ar-ge kavramlarına, ar-ge’nin ticarileştirme süreçlerine ve yalın girişim konularına hakim olmaları, iş planı ve iş modeli hazırlama becerilerine sahip olmaları ve bu kapsamda iş fikrini projelendirebilmeleri hedeflenmektedir. Liderlik bölümü kapsamında ise UGİTALKS markası altında bu dersi alan öğrencileri alanında uzman başarılı isimlerle buluşturmak hedeflenmektedir. Bu sayede teorik bilgilere sahip olan öğrenciler, aynı zamanda davet edilen isimlerin girişimcilik ve başarı hikayelerini dinleme ve onlarla iletişim ağı (network) kurma imkanı sağlayacaklardır.",
+      "description": "Girişimcilik ve Liderlik dersi kapsamında İş Planı ve İş Modeli ile birlikte AR-GE, AR-GE’nin Ticarileştirilmesi, Yalın Girişim, Yeni Ürün Geliştirme ve Tasarım Odaklı Düşünme konuları anlatılacaktır. Bununla birlikte derse alanında uzman, girişimcilik hikayeleri olan kişiler davet edilerek başarı, başarısızlık, girişimcilik ve liderlik konuları üzerinde durulacaktır.",
+      "learning_outcomes": [
+        "Girişimcilik, inovasyon ve AR-GE süreçlerine ilişkin temel bilgileri öğrenir ve ticarileştirme süreçlerini analiz edebilir.",
+        "İş modeli ve iş planı hazırlama süreçlerini kavrar ve uygulayarak girişimcilik projeleri tasarlayabilir.",
+        "Yeni ürün geliştirme ve tasarım odaklı düşünme yaklaşımını sürdürülebilir iş fikirlerine entegre edebilir.",
+        "Projeleri planlayabilir, uygulayabilir ve yürütebilir.",
+        "Takım çalışması ve liderlik yetkinliklerini geliştirebilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Girişimcilik ve Girişimcilik Temelleri",
+        "Hafta 2: Ar-Ge’nin Ticarileştirilmesi",
+        "Hafta 3: Yalın Girişim, Müşteri Doğrulama",
+        "Hafta 4: İş Modeli, İş Planı Hazırlama",
+        "Hafta 5: Yeni Ürün Geliştirme ve Tasarım Odaklı Düşünme",
+        "Hafta 6: Misafir Konuşmacı, Tema: Girişimcilik ve Girişimcilik Finansmanı",
+        "Hafta 7: Misafir Konuşmacı, Tema: Yapay Zeka ve Girişimcilik",
+        "Hafta 8: Misafir Konuşmacı, Tema: Uluslararasılaşma ve Girişimcilik",
+        "Hafta 9: Misafir Konuşmacı, Tema: Sürdürülebilirlik ve Girişimcilik",
+        "Hafta 10: Misafir Konuşmacı, Tema: Yeşil Dönüşüm ve Girişimcilik",
+        "Hafta 11: Proje Sunumları",
+        "Hafta 12: Proje Sunumları"
+      ],
+      "resources": [
+        "KOSGEB İş Planı"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=UG%C4%B0315"
+    },
+    {
+      "code": "İYD 1",
+      "name": "İkinci Yabancı Dil I",
+      "ects": 5,
+      "semester": 5,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders, yabancı dil öğrenmeye yeni başlayan öğrencilerin temel iletişim becerilerini geliştirmelerine yardımcı olmayı amaçlamaktadır. Öğrenciler, günlük hayatta sık kullanılan kelime ve ifadeleri anlayabilir, temel düzeyde kendilerini ifade edebilir, basit metinleri okuyup anlayabilir ve kısa yazılı metinler oluşturabilirler. Aynı zamanda, öğrencilerin temel dilbilgisi kurallarını öğrenerek basit cümleler kurmaları teşvik edilir.",
+      "description": "Bu ders odağına dört temel dil becerisi ve sözcük bilgisini alarak öğrencileri ikinci yabancı dilde A1 seviyesine getiren bir derstir.",
+      "learning_outcomes": [
+        "Dinleme: Günlük konuşmalarda kullanılan temel ifadeleri ve sık karşılaşılan kelimeleri anlayabilir.",
+        "Konuşma: Kendini tanıtabilir, basit sorular sorabilir ve yanıt verebilir.",
+        "Okuma: Kısa ve basit metinleri anlayabilir (örneğin, broşürler, ilanlar, kısa e-postalar).",
+        "Yazma: Kısa kişisel notlar yazabilir (örneğin, kendini tanıtan bir metin).",
+        "Sözcük Bilgisi: Günlük hayatta sık kullanılan kelimeleri ve temel fiilleri öğrenebilir.",
+        "Dilbilgisi: Basit cümle yapıları, zamirler, geniş zaman ve temel fiil çekimleri kullanabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Kendini tanıtma, selamlaşma, sayılar",
+        "Hafta 2: Aile üyeleri, ilişkiler, meslekler",
+        "Hafta 3: Günlük aktiviteler, haftanın günleri, edatlarının kullanımı",
+        "Hafta 4: Ev odaları, eşyalar",
+        "Hafta 5: Alışveriş, fiyat sorma",
+        "Hafta 6: Yiyecek, içecek, restoran, menüyü okuma, sipariş verme",
+        "Hafta 7: Yol tarifi, toplu taşıma, soru sorma kalıplarının geliştirilmesi",
+        "Hafta 8: Hava durumu, mevsimler",
+        "Hafta 9: Saatler, günlük rutin",
+        "Hafta 10: Hobiler, boş zaman aktiviteleri",
+        "Hafta 11: Etkinlikler, davetler",
+        "Hafta 12: Genel tekrar ve değerlendirme"
+      ],
+      "resources": [
+        "STUDIO D A1 (ALM), ESPRESSO 1 (ITA),TENDANCES A1 (FRA), DEVELOPING CHINESE 1 (CIN), SİLSİLETUL LİSAN 1(ARP), TRY START NIHONGO HAJIMEMASHOU (JAP), NUEVO PRISMA A1(İSP), Дорога В Россию 1 (Rusya'ya yol)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD1"
+    },
+    {
+      "code": "OEG 200",
+      "name": "Ortak Eğitim I",
+      "ects": 8,
+      "semester": 6,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 0,
+      "purpose": "Okulda edinilen bilgi ve becerileri gerçek hayatta uygulama deneyiminin kazandırılması.",
+      "description": "Ortak eğitim, bir işyeri ortamında 3.5 ay süreyle tam zamanlı çalışarak gerçekleştirilir. Okulda edinilen bilgi ve beceriler, gerçek projelerdeki mühendislik problemlerinin çözümünde kullanılır.",
+      "learning_outcomes": [
+        "Okulda edinilen bilgi ve becerilerini kullanarak karmaşık mühendislik problemlerini çözer.",
+        "Yazılı ve sözlü olarak etkili bir şekilde iletişim kurar.",
+        "Etik ve profesyonel sorumlulukları bilir.",
+        "Gerektiğinde yeni bilgilere ulaşmayı bilir ve bu bilgileri uygulayabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Ortak Eğitim Uygulamasında",
+        "Hafta 2: Ortak Eğitim Uygulamasında",
+        "Hafta 3: Ortak Eğitim Uygulamasında",
+        "Hafta 4: Ortak Eğitim Uygulamasında",
+        "Hafta 5: Ortak Eğitim Uygulamasında",
+        "Hafta 6: Ortak Eğitim Uygulamasında",
+        "Hafta 7: Ortak Eğitim Uygulamasında",
+        "Hafta 8: Ortak Eğitim Uygulamasında",
+        "Hafta 9: Ortak Eğitim Uygulamasında",
+        "Hafta 10: Ortak Eğitim Uygulamasında",
+        "Hafta 11: Ortak Eğitim Uygulamasında",
+        "Hafta 12: Ortak Eğitim Uygulamasında"
+      ],
+      "resources": [],
+      "prerequisites": [
+        "OEG 101"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG200"
+    },
+    {
+      "code": "BİL 372",
+      "name": "Veritabanı Sistemleri",
+      "ects": 8,
+      "semester": 7,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Öğrencilere, etkili ve güvenilir veri yönetimi sistemleri tasarlayıp uygulayabilmeleri için veritabanı sistemlerinin temel kavramları, veri modelleme teknikleri, ilişkisel veritabanı yönetim sistemleri ve veri bütünlüğü sağlama yöntemleri hakkında kapsamlı bir anlayış kazandırmak.",
+      "description": "Veritabanı kavramları, ER ve EER ile veri modelleme, ilişkisel VTYS, dosya organizasyonu ve indeks yapıları. SQL, Veritabanı Tasarımı: Fonksiyonel Bağımlılık, Normalizasyon. VTYS yönetimi, veritabanı programlama, işlem işleme, eşzamanlılık kontrolü.",
+      "learning_outcomes": [
+        "ER ve EER diyagramları ile veri modelleme dahil temel veritabanı kavramlarını ve prensiplerini anlar.",
+        "Dosya organizasyonu ve indeks yapıları dahil ilişkisel veritabanı yönetim sistemlerinde (RDBMS) yetkinlik kazanır.",
+        "Fonksiyonel bağımlılık, normalizasyon teknikleri ve en iyi uygulamaları kullanarak veritabanları tasarlama becerisi geliştirir.",
+        "Verileri etkili bir şekilde almak, değiştirmek ve yönetmek için SQL sorguları yazmayı ve çalıştırmayı öğrenir.",
+        "Veritabanı yönetimi, işlem işleme ve eşzamanlılık kontrolü konularında beceri kazanmak.",
+        "Bir veritabanı uygulaması geliştirir ve sunar."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Veritabanı Sistem Kavramları",
+        "Hafta 2: Mini Dünya, ER/EER ve İlişkisel Eşleme",
+        "Hafta 3: İlişkisel Cebir",
+        "Hafta 4: Öbek İlişkisel Hesap ve Alan İlişkisel Hesap",
+        "Hafta 5: SQL",
+        "Hafta 6: Fonksiyonel Bağımlılık, Normal Formlar (1NF, 2NF, 3NF, 4NF, 5NF, BCNF)",
+        "Hafta 7: Minimal Fonksiyonel Bağımlılık ve FB Kapanımı",
+        "Hafta 8: Aday Anahtar Bulma ve FB Eşdeğerliliği",
+        "Hafta 9: Temel Dosya Yapısı ve İndeksleme (Tek Seviyeli, Çok Seviyeli, B++)",
+        "Hafta 10: İşlem İşleme Kavramları (Serileştirilebilirlik ve Kurtarılabilirlik)",
+        "Hafta 11: Eşzamanlılık Kontrolü için 2PL ve Zaman Damgası Tabanlı Sıralama",
+        "Hafta 12: Ertelenmiş Güncellemede No-Undo/Redo, Anında Güncellemede Kurtarma"
+      ],
+      "resources": [
+        "Fundamentals of Database Systems, 7th Edition Addition Wesley, Ramez Elmasri and Shamkant Navathe, ISBN-10: 0133970779 ISBN-13: 978-0133970777 - 7",
+        "Database System Concepts, 6th Edition, A. Silberschatz; H. Korth; S. Sudarshan McGraw- Hill, ISBN-13: 978-0073523323 ISBN-10: 0073523321."
+      ],
+      "prerequisites": [
+        "BİL 212"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L372"
+    },
+    {
+      "code": "BİL 461",
+      "name": "İşletim Sistemleri",
+      "ects": 6,
+      "semester": 7,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, temel işletim sistemleri kavramlarını öğretmek ve Unix-windows işletim sistemini kullanarak öğrenilen temel kavramların uygulamaları hakkında fikir sahibi olunmasını sağlamaktır.",
+      "description": "Bu derste işletim sistemlerinin temellerine yönelik olarak kavramlara (process, thread, process çizelgeleme, senkronizasyon, semaforlar, kilitlenme, hafıza yönetimi, dosya yönetimi, Girdi/Çıktı arabirim yönetimi, sistem koruma, sanallaştırma) ve bu kavramların modern işletim sistemlerinde nasıl ele alındığına yer verilir.",
+      "learning_outcomes": [
+        "Çok kullanıcılı işletim sistemleri kavramlarını öğrenir.",
+        "Process ve thread kavramları: çizelgeleme ve haberleşme yöntemlerini bilir.",
+        "Process senkronizasyon: Kritik bölge, semaforlar, monitor kavramlarını bilir.",
+        "Hafıza yönetimi ve sanal hafıza yönetimi kavramlarını bilir.",
+        "Dosya sistemlerini öğrenir.",
+        "Sistem koruma kavramlarını öğrenir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: İşletim Sistemleri tasarım ilkeleri.",
+        "Hafta 2: Çok kullanıcılı sistemler. Komut yorumlayıcı.",
+        "Hafta 3: Process ve thread kavramları.",
+        "Hafta 4: Process yönetimi ve çizelgeleme algoritmaları.",
+        "Hafta 5: Kritik bölge ve Semaforlar.",
+        "Hafta 6: Kilitlenme: kaçınma, önleme ve kurtarma yöntemleri.",
+        "Hafta 7: Bellek yönetimi: bölümlemeleme, sayfalama, kesimleme ve thrashing.",
+        "Hafta 8: Sanal bellek.",
+        "Hafta 9: Girdi/çıktı cihaz sürücüleri ve denetleyicileri.",
+        "Hafta 10: İkincil bellek yönetimi. Dosya sistemleri.",
+        "Hafta 11: Sistem koruma ve güvenlik.",
+        "Hafta 12: Unix ve Windows için sistem programlama uygulamaları."
+      ],
+      "resources": [
+        "Operating System Concepts by A. Silberschatz, P.B. Galvin, and G. Gagne. 8 th ed. 2010. Wiley."
+      ],
+      "prerequisites": [
+        "BİL 361",
+        "BİL 214"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L461"
+    },
+    {
+      "code": "YAP 470",
+      "name": "Yapay Öğrenme",
+      "ects": 6,
+      "semester": 7,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Dersin amacı öğrencilere yapay öğrenmenin temellerini öğretmek ve bazı uygulamaları göstermektir.",
+      "description": "Bu ders yapay öğrenmeye geniş bir giriş sunar. Konular arasında gözetimli öğrenme, gözetimsiz öğrenme, öğrenme teorisi ve takviye öğrenme bulunur. Bunlara ek olarak, bazı güncel uygulamalar da tartışılacaktır.",
+      "learning_outcomes": [
+        "Yapay öğrenme kavramı ve terminolojiyi öğrenmek",
+        "Bazı temel yapay öğrenme yöntemlerini tanımak.",
+        "Model seçimi ve düzenleştirmeyi öğrenmek.",
+        "Farklı problem türlerinde uygun yapay öğrenme modellerin seçimi ve probleme uyarlanmasını öğrenmek",
+        "Denetimli, denetimsiz, takviyeli öğrenme konularını öğrenmek",
+        "Bir veri kümesi üzerinde farklı yapay öğrenme modelleri kullanarak eğitim, test ve analiz yapabilmek"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Giriş, temel konular.",
+        "Hafta 2: Kavram öğrenme",
+        "Hafta 3: Doğrusal regresyon, sınıflandırma",
+        "Hafta 4: Tekrar örnekleme yöntemleri",
+        "Hafta 5: Doğrusal model seçimi ve düzenleştirme",
+        "Hafta 6: Karar ağaçları, destek vektör makineleri",
+        "Hafta 7: Olasılıksal modeller",
+        "Hafta 8: Sinir ağları",
+        "Hafta 9: Gözetimsiz öğrenme, topluluk yöntemleri",
+        "Hafta 10: Öğrenme teorisi",
+        "Hafta 11: Takviyeli öğrenme",
+        "Hafta 12: Yapay öğrenme uygulamaları"
+      ],
+      "resources": [
+        "G. James, D. Witten, T. Hastie, R. Tibshirani. Introduction to Statistical Learning, Springer, 2014.",
+        "T. Mitchell. Machine Learning. McGraw Hill, 1997."
+      ],
+      "prerequisites": [
+        "BİL 345"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=YAP470"
+    },
+    {
+      "code": "İYD 2",
+      "name": "İkinci Yabancı Dil II",
+      "ects": 5,
+      "semester": 7,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders, öğrencilerin A1 seviyesinde daha akıcı ve doğru iletişim kurmalarını sağlamayı hedefler. Öğrenciler, kişisel bilgileri ve günlük rutinleri hakkında konuşabilir ve daha uzun cümleler kurabilirler.",
+      "description": "Bu seviyede öğrenciler, günlük yaşamda karşılaşabilecekleri basit ifadeleri anlayabilir, basit cümleler kurarak kendilerini tanıtabilecek ve çevrelerinde basit iletişim kurabilecek seviyeye gelir.",
+      "learning_outcomes": [
+        "Dinleme: Günlük konuşmalarda geçen ifadeleri, talimatları ve basit yönergeleri anlayabilir.",
+        "Konuşma: Alışveriş, restoran, seyahat gibi günlük durumlarda temel diyalogları sürdürebilir.",
+        "Okuma: Kısa hikâyeleri, basit haber başlıklarını ve kişisel mektupları okuyabilir.",
+        "Yazma: Kendi günlük rutinini ve basit deneyimlerini anlatan kısa paragraflar yazabilir.",
+        "Sözcük Bilgisi: Günlük rutinler, yiyecek-içecek, ulaşım gibi konulara dair temel kelime bilgisini geliştirebilir.",
+        "Dilbilgisi: Şimdiki zaman, geçmiş zamanın temel kullanımları ve bağlaçlar ile cümleler kurabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Aile üyelerinin isimlerini ve ilişkilerini tanımlama. Aile bireyleri hakkında basit bilgiler verme.",
+        "Hafta 2: Evdeki odaları, eşyaları ve basit ev tanımlamaları. Ev hakkında kısa açıklamalar yapma",
+        "Hafta 3: Günlük aktiviteleri tanımlama Günün saatini ifade etme Haftalık programı anlatma",
+        "Hafta 4: Hava durumu hakkında konuşma. Hava tahminlerine ilişkin basit cümleler kurma.",
+        "Hafta 5: Alışveriş yapmak: fiyatları sorma, ürünleri tanımlama, ödeme yapma.Süpermarkette, pazarda temel alışveriş cümleleri kullanma.",
+        "Hafta 6: Yiyecekler ve içecekler hakkında konuşma.Bir restoranda sipariş verme ve yemek tariflerini sorma.Yemek alışkanlıkları hakkında basit sohbetler.",
+        "Hafta 7: Sağlık durumu ve rahatsızlıklar hakkında konuşma .Basit sağlık sorunları için doktor randevusu alma.Vücut bölümleri ve hastalıklarla ilgili temel kelimeler.",
+        "Hafta 8: Ulaşım araçları hakkında konuşma.Bir yere nasıl gideceğini sorma ve tarif alma.Seyahat etmekle ilgili temel ifadeler",
+        "Hafta 9: Tatil aktiviteleri hakkında konuşma.Sinemaya gitmek, konserlere katılmak, spora gitmek gibi eğlence aktivitelerini tanımlama.",
+        "Hafta 10: Hobiler hakkında konuşma .",
+        "Hafta 11: Kıyafetler, alışveriş, renkler",
+        "Hafta 12: Geçmişteki etkinlikleri anlatma. Geçmiş zamanda bir olayı basitçe anlatma."
+      ],
+      "resources": [
+        "STUDIO D A1 (ALM), ESPRESSO 1 (ITA),TENDANCES A1 (FRA), DEVELOPING CHINESE 1 (CIN), SİLSİLETUL LİSAN 1(ARP), TRY START NIHONGO HAJIMEMASHOU (JAP), NUEVO PRISMA A1(İSP), Дорога В Россию 1 ( Rusya'ya yol)"
+      ],
+      "prerequisites": [
+        "İYD 1"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD2"
+    },
+    {
+      "code": "OEG 300",
+      "name": "Ortak Eğitim II",
+      "ects": 8,
+      "semester": 8,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 0,
+      "purpose": "Okulda edinilen bilgi ve becerileri gerçek hayatta uygulama deneyiminin kazandırılması.",
+      "description": "Ortak eğitim, bir işyeri ortamında 3.5 ay süreyle tam zamanlı çalışarak gerçekleştirilir. Okulda edinilen bilgi ve beceriler, gerçek projelerdeki mühendislik problemlerinin çözümünde kullanılır.",
+      "learning_outcomes": [
+        "Okulda edinilen bilgi ve becerilerini kullanarak karmaşık mühendislik problemlerini çözer.",
+        "Yazılı ve sözlü olarak etkili bir şekilde iletişim kurar.",
+        "Etik ve profesyonel sorumlulukları bilir.",
+        "Gerektiğinde yeni bilgilere ulaşmayı bilir ve bu bilgileri uygulayabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Ortak Eğitim Uygulamasında",
+        "Hafta 2: Ortak Eğitim Uygulamasında",
+        "Hafta 3: Ortak Eğitim Uygulamasında",
+        "Hafta 4: Ortak Eğitim Uygulamasında",
+        "Hafta 5: Ortak Eğitim Uygulamasında",
+        "Hafta 6: Ortak Eğitim Uygulamasında",
+        "Hafta 7: Ortak Eğitim Uygulamasında",
+        "Hafta 8: Ortak Eğitim Uygulamasında",
+        "Hafta 9: Ortak Eğitim Uygulamasında",
+        "Hafta 10: Ortak Eğitim Uygulamasında",
+        "Hafta 11: Ortak Eğitim Uygulamasında",
+        "Hafta 12: Ortak Eğitim Uygulamasında"
+      ],
+      "resources": [],
+      "prerequisites": [
+        "OEG 200"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG300"
+    },
+    {
+      "code": "BİL 452",
+      "name": "Veri İletişimi ve Bilgisayar Ağları",
+      "ects": 6,
+      "semester": 9,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders Internet’in çalışma prensiplerini kavramsal ve pratik seviyede öğretmeyi ve soket programlama ve ağ verisini incelemeyi öğretmeyi amaçlar.",
+      "description": "Bilgisayar ağlarını konu alan genel bir girişten sonra sırasıyla uygulama katmanı, iletim katmanı, ağ katmanı ve link katmanları detaylı bir şekilde incelenir. Uygulama katmanı konuları istemci-sunucu ve P2P mimariler, DNS, HTTP ve popüler WEB uygulamalarını içerir. İletim katmanında ise çoğullama (multiplexing), UDP, güvenilir veri iletişim prensipleri, TCP, ve yığılma (congestion) kontrolünün temelleri işlenir. Ağ katmanı konuları esas olarak yönlendirme, yönlendirici mimarileri, IP protokolü ve OSPF ve BGP gibi sıklıkla kullanılan yönlendirme protokollerini kapsar. Link katmanı ise çoklu-erişim protokolleri, ALOHA, CSMA/CD, Ethernet, WiFi 802.11 haberleşmesi ve anahtarları (switch) konu alır. Ders kapsamında soket programlama, ağ uygulaması geliştirme ve ağ trafiği analizi konularından bahsedilecektir.",
+      "learning_outcomes": [
+        "Temel Bilgiler ve uygulama katmanı protokollerini öğrenir.",
+        "İletim katmanı protokollerini öğrenir.",
+        "Ağ katmanı protokollerini öğrenir.",
+        "Link katmanı protokollerini öğrenir.",
+        "Yönlendirme protokollerini öğrenir.",
+        "Ağ uygulamaları geliştirmeyi öğrenir.",
+        "Ağ verisi toplama ve analiz etmeyi öğrenir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Bilgisayar ağları ve internete giriş",
+        "Hafta 2: Bilgisayar ağları ve internete giriş",
+        "Hafta 3: Uygulama katmanı mimarileri ve sıklıkla kullanılan protokoller",
+        "Hafta 4: Uygulama katmanı mimarileri ve sıklıkla kullanılan protokoller",
+        "Hafta 5: İletim katmanı haberleşmesi ve protokolleri",
+        "Hafta 6: İletim katmanı haberleşmesi ve protokolleri",
+        "Hafta 7: Ağ katmanı haberleşmesi ve protokolleri",
+        "Hafta 8: Ağ katmanı haberleşmesi ve protokolleri",
+        "Hafta 9: Link katmanı haberleşmesi ve protokolleri",
+        "Hafta 10: Link katmanı haberleşmesi ve protokolleri",
+        "Hafta 11: Ağ güvenliğine giriş",
+        "Hafta 12: Ağ güvenliğine giriş"
+      ],
+      "resources": [
+        "Computer Networking: A Top-Down Approach 6th ed. J.F. Kurose and K.W. Ross"
+      ],
+      "prerequisites": [
+        "BİL 211"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L452"
+    },
+    {
+      "code": "BİL 495",
+      "name": "Yenilikçi Bilgisayar Uygulamaları",
+      "ects": 2,
+      "semester": 9,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 0,
+      "purpose": "Öğrencilerin bitirme projelerini daha etkin gerçekleştirebilmeleri için gerekli ön hazırlıkları yapmaları",
+      "description": "Bu ders öğrencilerin bir sonraki dönemde takımlar halinde yürütecekleri bitirme projesini tanımlamalarını ve projenin ilk aşamalarını (ihtiyaç analizi, kullanılacak teknolojilerin seçimi, kullanılacak veri setleri, araçlar, malzemeler vb. temini, genel sistem mimarisi, vb.) gerçekleştirmelerini hedeflemektedir.",
+      "learning_outcomes": [
+        "Takım halinde ihtiyaç analizi yapmak, yapılacak işleri tespit etmek, iş bölümünü gerçekleştirerek prototip bir ürünü geliştirmek ve geliştirilmiş ürünü sunmak",
+        "Güncel ihtiyaçların, teknolojik gelişmelerin ve eğilimlerin takibinin yapılabileceği kaynakları incelemek ve ortaya çıkan izlenimleri yazılı bir rapor halinde sunmak",
+        "Takım halinde yenilikçi bir fikir geliştirmek, bu fikri yazılı olarak sunmak ve fikrin kısa bir tanıtım videosunu hazırlamak",
+        "Önerilen yenilikçi fikrin hayata geçmesi için takım halinde yapılacak sistem geliştirme faaliyetlerini planlamak"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Çevik Proje Geliştirme Süreci",
+        "Hafta 2: Çevik Proje Geliştirme Süreci",
+        "Hafta 3: Versiyon Yönetimi, Özellik ve Mesele Takibi",
+        "Hafta 4: Versiyon Yönetimi, Özellik ve Mesele Takibi",
+        "Hafta 5: Bulut Bilişim Teknolojileri, Mobil Uygulamalar, Web Uygulamaları",
+        "Hafta 6: Bulut Bilişim Teknolojileri, Mobil Uygulamalar, Web Uygulamaları",
+        "Hafta 7: Kullanıcı Hikayeleri Tanımlama",
+        "Hafta 8: Kullanıcı Hikayeleri Tanımlama",
+        "Hafta 9: Uygulama Geliştirme Faaliyetleri",
+        "Hafta 10: Uygulama Geliştirme Faaliyetleri",
+        "Hafta 11: Proje Fikri Geliştirme Faaliyetleri",
+        "Hafta 12: Proje Fikri Geliştirme Faaliyetleri"
+      ],
+      "resources": [],
+      "prerequisites": [
+        "BİL 481",
+        "OEG 200",
+        "BİL 372"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L495"
+    },
+    {
+      "code": "İYD 3",
+      "name": "İkinci Yabancı Dil III",
+      "ects": 5,
+      "semester": 9,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders, öğrencilerin A2 seviyesinde temel seviyeden daha güçlü bir iletişim kurmalarına yardımcı olmayı amaçlar. Öğrenciler, geçmiş deneyimlerinden bahsedebilir ve daha karmaşık cümleler kurabilir.",
+      "description": "Bu seviyede, öğrenciler daha basit ve temel dilbilgisel yapıları kullanabilmekle birlikte, günlük konuşmalar için yeterli kelime bilgisine sahip olmaya başlarlar. A2.1, bir dilin temel yapılarını anlamaya ve küçük, basit iletişim ihtiyaçlarını karşılamaya yönelik bir seviyedir.",
+      "learning_outcomes": [
+        "Dinleme: Günlük yaşamda geçen basit hikâyeleri ve duyuruları anlayabilir.",
+        "Konuşma: Geçmiş deneyimler, planlar ve niyetler hakkında konuşabilir.",
+        "Okuma: Basit hikâyeleri, gazete haberlerini ve tarifleri anlayabilir.",
+        "Yazma: Günlük yaşamla ilgili kısa metinler, e-postalar ve davetiyeler yazabilir.",
+        "Sözcük Bilgisi: Hava durumu, hobiler, sağlık ve seyahat konularına dair kelime bilgisi kazanabilir.",
+        "Dilbilgisi: Geçmiş zaman kullanımı, kıyaslama cümleleri ve sebep-sonuç ilişkilerini kullanabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Mülkiyet sıfatları",
+        "Hafta 2: Aile üyeleri kelime bilgisi",
+        "Hafta 3: Dönüşlü fiillerin geçmiş zamanda kullanımı",
+        "Hafta 4: Hikaye zamanı",
+        "Hafta 5: Hikaye zamanda kullanılan zaman zarfları, geçmişteki alışkanlıklardan bahsetme,",
+        "Hafta 6: Hikaye zamanda kişi ve yer tasviri yapma",
+        "Hafta 7: Geçmişten ve çocukluk anılarından bahsetme",
+        "Hafta 8: Fiziksel özelliklerden bahsetmek, kelimelerin verilmesi",
+        "Hafta 9: Kişilerin karakter özellikleri ile ilgili konuşma",
+        "Hafta 10: Kıyafetler, kişler arasında karşılaştırma yapılması",
+        "Hafta 11: Davet etme- davete cevap verme kalıpları, randevulaşma",
+        "Hafta 12: Genel tekrar ve değerlendirme"
+      ],
+      "resources": [
+        "STUDIO D A2 (ALM), ESPRESSO 2 (ITA),TENDANCES A2 (FRA), DEVELOPING CHINESE 2 (CIN), SİLSİLETUL LİSAN 2(ARP), TRY N5 BUNPOU KARA NOBASU NIHONGO (JAP), NUEVO PRISMA A2(İSP), Дорога В Россию 2. ( Rusya'ya yol)"
+      ],
+      "prerequisites": [
+        "İYD 2"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD3"
+    },
+    {
+      "code": "OEG 400",
+      "name": "Ortak Eğitim III",
+      "ects": 8,
+      "semester": 10,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 0,
+      "purpose": "Okulda edinilen bilgi ve becerileri gerçek hayatta uygulama deneyiminin kazandırılması.",
+      "description": "Ortak eğitim, bir işyeri ortamında 3.5 ay süreyle tam zamanlı çalışarak gerçekleştirilir. Okulda edinilen bilgi ve beceriler, gerçek projelerdeki mühendislik problemlerinin çözümünde kullanılır.",
+      "learning_outcomes": [
+        "Okulda edinilen bilgi ve becerilerini kullanarak karmaşık mühendislik problemlerini çözer.",
+        "Yazılı ve sözlü olarak etkili bir şekilde iletişim kurar.",
+        "Etik ve profesyonel sorumlulukları bilir.",
+        "Gerektiğinde yeni bilgilere ulaşmayı bilir ve bu bilgileri uygulayabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Ortak Eğitim Uygulamasında",
+        "Hafta 2: Ortak Eğitim Uygulamasında",
+        "Hafta 3: Ortak Eğitim Uygulamasında",
+        "Hafta 4: Ortak Eğitim Uygulamasında",
+        "Hafta 5: Ortak Eğitim Uygulamasında",
+        "Hafta 6: Ortak Eğitim Uygulamasında",
+        "Hafta 7: Ortak Eğitim Uygulamasında",
+        "Hafta 8: Ortak Eğitim Uygulamasında",
+        "Hafta 9: Ortak Eğitim Uygulamasında",
+        "Hafta 10: Ortak Eğitim Uygulamasında",
+        "Hafta 11: Ortak Eğitim Uygulamasında",
+        "Hafta 12: Ortak Eğitim Uygulamasında"
+      ],
+      "resources": [],
+      "prerequisites": [
+        "OEG 300"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG400"
+    },
+    {
+      "code": "BİL 496",
+      "name": "Bitirme Projesi",
+      "ects": 7,
+      "semester": 11,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 4,
+      "purpose": "Öğrencilere büyük ve uzun ömürlü yazılım ürünlerini geliştirebilmeleri için gereken temel yetenekleri kazandırmaktır.",
+      "description": "Öğrencilerden takım olarak BİL495 dersi kapsamında geliştirdikleri proje fikirlerini bu ders kapsamında hayata geçirmeleri beklenir. Bunu yaparken takımlar halinde faaliyetlerini yaparlar. Çağdaş araç ve süreçlerden faydalanırlar.",
+      "learning_outcomes": [
+        "Takım halinde çalışma deneyimi kazanmak.",
+        "Takım halinde etkin çalışmak için kullanılabilecek güncel araçları deneyimlemek.",
+        "Bir bilişim sistemi geliştirmek.",
+        "Etkin sunum yapabilme becerisi kazanmak."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 2: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 3: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 4: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 5: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 6: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 7: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 8: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 9: Bitirme Projesi Geliştirme Faaliyetleri",
+        "Hafta 10: Periyodik Gösterimler",
+        "Hafta 11: Periyodik Gösterimler",
+        "Hafta 12: Proje Sergisi"
+      ],
+      "resources": [],
+      "prerequisites": [
+        "BİL 495"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L496"
+    },
+    {
+      "code": "İYD 4",
+      "name": "İkinci Yabancı Dil IV",
+      "ects": 5,
+      "semester": 11,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders, öğrencilerin A2 seviyesinde bağımsız bir şekilde iletişim kurmasını sağlamayı amaçlar. Öğrenciler, kişisel görüşlerini ifade edebilir ve daha ayrıntılı konuşmalar yapabilir.",
+      "description": "Bu seviyede öğrenciler tanıdık konularda konuşma ve yazma becerilerine sahiptir. Bu seviye, dilin temel kurallarına ve kelime bilgisine hakim olmayı, basit cümleler kurmayı ve anlaşılır bir şekilde ifade etmeyi içerir.",
+      "learning_outcomes": [
+        "Dinleme: Günlük yaşamla ilgili basit konuşmaları ve anlatıları daha ayrıntılı anlayabilir.",
+        "Konuşma: Kendi görüşlerini ifade edebilir, tercihler hakkında konuşabilir ve önerilerde bulunabilir.",
+        "Okuma: Kısa hikâyeleri, gazete makalelerini ve film özetlerini anlayabilir.",
+        "Yazma: Duygularını ve düşüncelerini anlatan basit metinler ve kısa hikâyeler yazabilir.",
+        "Sözcük Bilgisi: Duygular, iş hayatı, sosyal aktiviteler gibi konularla ilgili kelime dağarcığını genişletebilir.",
+        "Dilbilgisi: Dilek kipi, gelecek zaman kullanımı, dolaylı anlatım, sebep-sonuç cümleleri kullanabilir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Emir kipinin kullanımı.",
+        "Hafta 2: Sağlıkla ilgili konulardan bahsetme",
+        "Hafta 3: Olup bitenlerden haber verme, bir olayı anlatmak ve yorum yapmak. Olmuş olaylar hakkında anlatım, zıtlık kullanımı, dolaylı anlatım",
+        "Hafta 4: Farklı yaşam alanlarını anlatmak, dolaylı tümleçlerin kullanımı, yaşam alanlarını paylaşma.",
+        "Hafta 5: Şehir ve kırsal yaşam alanları hakkında karşılaştırma yapma",
+        "Hafta 6: Aktif-pasif cümle kullanımı, olumsuz cümle yapıları.",
+        "Hafta 7: İş ilanlarını inceleme, iş hakkında bilgi edinme. Küçük iş olanakları, arzu, istek ve dilek kipi kullanımı, iş ilanları hakkında görüşmeler.",
+        "Hafta 8: Zamirlerin kullanımı, masal anlatma. Arzu, istek ve pişmanlık ifadeleri, hikaye anlatma.",
+        "Hafta 9: Şart kipi kullanımı, istek, pişmanlık ve korku ifadeleri.",
+        "Hafta 10: Resmi mektuplar, gelişen olaylar karşısında yazılı iletişim. Gelecek zaman kullanımı, resmi yazışmalar.",
+        "Hafta 11: Resmi ve kişisel mektuplarda sitem, duygusal ifadeler.",
+        "Hafta 12: Genel tekrar ve değerlendirme"
+      ],
+      "resources": [
+        "STUDIO D A2 (ALM), ESPRESSO 2 (ITA),TENDANCES A2 (FRA), DEVELOPING CHINESE 2 (CIN), SİLSİLETUL LİSAN 2(ARP), TRY N5 BUNPOU KARA NOBASU NIHONGO (JAP), NUEVO PRISMA A2(İSP), Дорога В Россию 2 ( Rusya'ya yol)"
+      ],
+      "prerequisites": [
+        "İYD 3"
+      ],
+      "categories": [],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD4"
+    },
+    {
+      "code": "BİL 362",
+      "name": "Mikroişlemciler",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Mikroişlemcilere giriş. Adresleme kipleri. Makine kodları ve çevirici dili programlaması. Altıyordamlar, kesintiler ve temel giriş/çıkış. Seri ve paralel iletişim.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 265"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L362"
+    },
+    {
+      "code": "BİL 346",
+      "name": "Nümerik Metodlar",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Yaklaşık hesaplamalar. Kesme ve yuvarlama hataları. Cebirsel denklemlerin sayısal çözümü. Doğrusal denklem takımlarının çözüm yöntemleri. Gauss Eliminasyon yöntemi. LU-parçalama ve yineleme yöntemleri. Matris tersi hesaplama. İnterpolasyon: Lagrange, Newton ve Gauss formülleri. Sayısal integrasyon: Trapez, Simpson ve Romberg yöntemleri. Diferansiyel denklemlerin sayısal çözümü.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 245"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L346"
+    },
+    {
+      "code": "BİL 401",
+      "name": "Büyük Veriye Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Büyük veri için saklama, indeksleme, erişim ve işleme teknikleri. Map/Reduce algoritması ve ilgili teknolojiler. Büyük veri ekosisteminde veri analizi ve uygulamaları. Bu ders büyük veri işleme ve analiz konusunda temelleri içerir; aşağıdaki sorulara cevap verir: büyük veri nedir, diğer geleneksel veriden ve geleneksel veri işlemeden farkı nedir, nerede kullanılır, nasıl kullanılır.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 372"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L401"
+    },
+    {
+      "code": "BİL 403",
+      "name": "Sosyal Ağlar",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Bu ders kapsamında toplumdaki bireylerin ilişkilerini gösteren sosyal ağların temel özellikleri incelenecektir. Bu kapsamda ilk olarak çizge kuramı literatüründen ilgili konular hızlı bir şekilde tekrar edilip bazı ağ verisetleri tanıtılacaktır. Sonrasında sosyal ağların üçlü kapanma, güçlü bağlar, zayıf bağlar ve pasif kısıtlam gibi yerel özelliklere dayalı konseptleri büyük verisetlerinde yapılmış çalışmalar yardımıyla tanıtılacaktır.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 133",
+        "BİL 211"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L403"
+    },
+    {
+      "code": "BİL 404",
+      "name": "Algoritmik Oyun Kuramı",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Oyun kuramı literatüründeki bazı klasik oyunların tanımlanması ve temel çözüm yöntemleri. Eşzamanlı ve tek hamleli oyunların bilgisayar ağlarındaki uygulamaları. Nash dengesi, Vickrey İhalesi. İşbirliği yapılan oyunlarda çözüm yöntemleri.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 331"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L404"
+    },
+    {
+      "code": "BİL 411",
+      "name": "Derleyiciler",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Derleyici ve yorumlayıcılara genel bakış. Sözcüksel analiz. Sözdizim analizi. Anlam analizi. Kodun eniyileştirilmesi. Nesne kodu üretimi. Çalışma zamanı sistemleri.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 395"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L411"
+    },
+    {
+      "code": "BİL 414",
+      "name": "Gömülü Bilgisayar Sistemleri",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Gömülü sistem tanımı, donanım ve yazılım bileşenleri. Gömülü işlemciler. Gömülü yazılım geliştirme ortamı. Bellekler, kesintiler, zamancılar, analogdan dijitale çeviriciler, seri iletişim arayüzleri. Gerçek zamanlı işletim sistemleri.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 214"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L414"
+    },
+    {
+      "code": "BİL 431",
+      "name": "Kriptografiye Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Klasik şifreleme yöntemleri. Simetrik ve açık anahtarlı şifreleme. Blok şifreler, DES, AES. RSA, Diffie-Hellman. Mesaj özeti fonksiyonları, dijital imza. Anahtar yönetimi ve sertifikalar.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 133"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L431"
+    },
+    {
+      "code": "BİL 441",
+      "name": "Bilgisayar Grafikleri",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Bilgisayar grafiklerinin temellerine giriş. 2B ve 3B dönüşümler. Görüntüleme. Modelleme. Aydınlatma. Doku kaplama. Gölgeleme. Rasturlama.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 245"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L441"
+    },
+    {
+      "code": "BİL 471",
+      "name": "Doğal Dil İşleme",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Doğal dil işlemeye giriş. Biçimbilimsel ve sözdizimsel analiz. Anlam çıkarımı. Bilgi erişimi. Makine çevirisi. Metin sınıflandırma. Duygu analizi.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 470",
+        "YAP 470"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L471"
+    },
+    {
+      "code": "BİL 472",
+      "name": "Bilgi Erişim Sistemleri",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Bilgi Erişim Sistemlerine Giriş: İlgililik Kavramı. Vektör Uzay Modeli ve Sıralama Fonksiyonları. Dokümanların Arama İşlemlerinde Gösterimi. İndeksleme. Arama Sonuçlarının Doğruluğunun Değerlendirilmesi. Arama İşlemlerini Hızlandırma. İlgililik Geribeslemesi Yöntemi. Dil Modelleri. Sıralamak için Öğrenme Modelleri. Metin Sınıflandırma. Bilgi Erişim Sistemlerinde Derin Öğrenme. Yeni Bilgi Erişim Alanları: Sosyal Medya. Yeni Bilgi Erişim Alanları: Bilgi Doğrulama & Olay Tespiti.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 470",
+        "YAP 470"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L472"
+    },
+    {
+      "code": "BİL 473",
+      "name": "Biyoenformatik",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Temel moleküler biyoloji. Biyolojik veritabanları. Dizi hizalama, çoklu dizi hizalama, filogeni ve evrim. DNA, yeni jenerasyon sıralama. RNA, mikoarray ve RNA-seq veri analizi. Proteomik, protein yapısı. Protein yapı tahmini. Fonksiyonel genomik. Biyolojik ağlar, sistem biyolojisi.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 470",
+        "YAP 470"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L473"
+    },
+    {
+      "code": "BİL 476",
+      "name": "Veri Madenciliği",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Veri ambarı ve çevrimiçi analitik işleme. Zaman serileri analizi. Verinin ön işlemden geçirilmesi. Veri madenciliği görevlerinin analizi. Gruplama. Birliktelik ve kural çıkarımı. Sınıflandırma ve tahmin. Dizisel analiz. Veri madenciliği uygulamaları.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 470",
+        "YAP 470"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L476"
+    },
+    {
+      "code": "BİL 482",
+      "name": "Tasarım Örüntüleri",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Tasarım örüntülerine giriş. Tasarım örüntülerinin tanımı, faydaları ve kullanım alanları. Köprü, strateji, durum, dekoratör, ziyaretçi, yorumcu, gözlemci, arabulucu, komut, soyut fabrika, fabrika, prototip tasarım örüntüleri. Boru ve filtreler, katmanlı ve mimari örüntüleri. Tasarım örüntülerinin yazılım sorunlarına uygulanması.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 211"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L482"
+    },
+    {
+      "code": "BİL 483",
+      "name": "Yazılım Ürün Hatları",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Yazılım sistemlerinin kullanma sürelerinin artırılması, masrafların azaltılması ve istenilen yazılım kalitelerinin sağlanması amacıyla yazılım üreten firmalar giderek projeye-dayalı süreçlerden ürün-hattına dayalı süreçlere geçmektedirler. Bu dersin amacı, yazılım ürün hatları süreçlerini anlamak ve uygulamaktır.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 211"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L483"
+    },
+    {
+      "code": "BİL 486",
+      "name": "Robotiğe Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Robot nedir, ilk robotlardan günümüze robotu oluşturan bileşenler. Yapay zeka ve robot ilişkisi. Mekanizma formülleri ve değişik oluşturmaya örnekler. Robot hareketi.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "FİZ 101",
+        "BİL 211",
+        "BİL 245"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L486"
+    },
+    {
+      "code": "BİL 487",
+      "name": "Bilgisayar Güvenliği",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Bilgisayar güvenliğinin temelleri. Erişim kontrolü. Yazılım güvenliği. Kötücül yazılımlar. İşletim sistemi güvenliği. Ağ güvenliği. Web güvenliği. Veritabanı güvenliği.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 461"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L487"
+    },
+    {
+      "code": "BİL 488",
+      "name": "Derin Öğrenme",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Derin öğrenmeye giriş. İleri beslemeli ağlar. Evrişimsel sinir ağları. Yinelemeli sinir ağları. Üretici modeller. Derin pekiştirmeli öğrenme.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "BİL 470",
+        "YAP 470"
+      ],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L488"
+    },
+    {
+      "code": "ELE 362",
+      "name": "Mikrodenetleyiciler ve Uygulamaları",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 371",
+      "name": "Sinyaller ve Sistemler",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 422",
+      "name": "CMOS VLSI Tasarımı",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 472",
+      "name": "Bilişim Kuramı",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 473",
+      "name": "Görüntü İşleme",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 519",
+      "name": "Gömülü Sistemler",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "END 321",
+      "name": "Rassal Modeller",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Bilim Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "END 294",
+      "name": "Yöneylem Araştırması I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "END 395",
+      "name": "Yöneylem Araştırmaları II",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "END 507",
+      "name": "Sezgisel Arama Metotları",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MAT 421",
+      "name": "Şifreleme Bilimine Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bölüm Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "BMM 102",
+      "name": "Biyokimya",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "BMM 203",
+      "name": "Tıbbi Biyoloji",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 231",
+      "name": "Elektromanyetik Alan Teorisi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "END 214",
+      "name": "Olasılık ve İstatistik II",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "KİM 101",
+      "name": "Genel Kimya",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MAK 201",
+      "name": "Termodinamik",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MAT 202",
+      "name": "Diferansiyel Denklemler",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MBN 201",
+      "name": "Malzeme Bilimi I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Bilim Seçmeli",
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 201",
+      "name": "Devre Analizi I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "ELE 301",
+      "name": "Kontrol Sistemleri I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MAK 104",
+      "name": "Statik",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "BMM 202",
+      "name": "Hücre ve Moleküler Biyoloji",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "BMM 411",
+      "name": "Biyomedikal Görüntü İşleme",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "BMM 421",
+      "name": "Biyoenformatik",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Fakülte Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "EÜT 105",
+      "name": "Ürün Görselleştirme",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "EÜT 211",
+      "name": "Ürün Tasarımında Ergonomi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "GİT 103",
+      "name": "Desen I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "GİT 309",
+      "name": "3D Modelleme",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "GİT 319",
+      "name": "Kısa Film Yapımı",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "HUK 115",
+      "name": "Hukuka Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "HUK 216",
+      "name": "Uluslararası Hukuk",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "HUK 313",
+      "name": "Avrupa Birliği Hukuku",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "HUK 407",
+      "name": "İş Hukuku",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "HUK 439",
+      "name": "Fikri Haklar",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "HUK 441",
+      "name": "İş Sağlığı ve Güvenliği",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İÇT 109",
+      "name": "Serbest Çizim Teknikleri",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İÇT 112",
+      "name": "Mekan Kültürü",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İDE 101",
+      "name": "İngiliz Edebiyatına Genel Bakış I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İDE 105",
+      "name": "Kısa Hikaye",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İDE 108",
+      "name": "Klasik Mitoloji",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İKT 213",
+      "name": "Mikroekonomi Teorisi I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İKT 233",
+      "name": "Makroekonomi Teorisi I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İKT 351",
+      "name": "Ekonometri",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İKT 472",
+      "name": "Ekonomik Düşünceler Tarihi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İŞL 253",
+      "name": "Genel Muhasebe",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "İŞL 361",
+      "name": "Finansal Yönetim",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MAK 101",
+      "name": "Bilgisayar Destekli Teknik Resim",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "MİM 113",
+      "name": "Mimarlık Kültürü, Tarih ve Kuramları I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "PSİ 103",
+      "name": "Psikolojiye Giriş I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "PSİ 104",
+      "name": "Psikolojiye Giriş II",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "PSİ 337",
+      "name": "Psikolojinin Tarihsel Gelişimi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "PSİ 453",
+      "name": "Psikoloji Tarihi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SAT 205",
+      "name": "Fotoğraf I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 101",
+      "name": "Uygarlıklar Tarihi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 102",
+      "name": "Siyasi Tarih",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 105",
+      "name": "Siyaset Bilimine Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 108",
+      "name": "Sosyolojiye Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 114",
+      "name": "Küresel Siyasete Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 207",
+      "name": "Siyaset Teorisi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "SUİ 213",
+      "name": "Türk Dış Politikası",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TAR 113",
+      "name": "Eskiçağ Tarihi ve Medeniyeti",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TAR 131",
+      "name": "Türk Tarihi I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TAR 223",
+      "name": "İslam Tarihi ve Medeniyeti I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TAR 325",
+      "name": "Amerika Tarihi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TDE 111",
+      "name": "Osmanlı Türkçesi I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TDE 131",
+      "name": "Edebiyata Giriş",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TDE 132",
+      "name": "Türk Dil Tarihi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TDE 143",
+      "name": "Çağdaş Türk Edebiyatı I",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "YAP 192",
+      "name": "Bilim Tarihi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TDE 301",
+      "name": "Anlambilimi",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "TDE 310",
+      "name": "Dizimbilim",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    },
+    {
+      "code": "BLT 406",
+      "name": "Görsel Efekt Tasarımı",
+      "ects": 6,
+      "semester": null,
+      "year": null,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Üniversite Seçmeli"
+      ],
+      "source_url": null
+    }
+  ]
+}
