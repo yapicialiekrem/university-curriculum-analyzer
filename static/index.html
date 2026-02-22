@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniCurriculum — Müfredat Karşılaştırma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #0b0f1a;
+            --surface: #111827;
+            --surface-2: #1e293b;
+            --border: #1e293b;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --primary: #6366f1;
+            --primary-glow: rgba(99,102,241,0.15);
+            --accent: #22d3ee;
+            --accent-glow: rgba(34,211,238,0.12);
+            --green: #34d399;
+            --red: #f87171;
+            --yellow: #fbbf24;
+            --radius: 14px;
+        }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ── Background Effect ── */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 20%, rgba(99,102,241,0.06), transparent 50%),
+                        radial-gradient(ellipse at 70% 80%, rgba(34,211,238,0.04), transparent 50%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* ── Header ── */
+        header {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 48px 20px 24px;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #6366f1, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+        header p {
+            color: var(--text-muted);
+            margin-top: 8px;
+            font-size: 0.95rem;
+        }
+
+        /* ── Selector Card ── */
+        .selector-card {
+            position: relative;
+            z-index: 1;
+            max-width: 760px;
+            margin: 24px auto;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px 32px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        }
+        .selector-card .select-wrap {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .selector-card label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+        }
+        .selector-card select {
+            width: 100%;
+            padding: 12px 14px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 0.92rem;
+            font-weight: 500;
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2394a3b8' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6.5 6.5 6.5-6.5'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+            transition: border-color .2s, box-shadow .2s;
+        }
+        .selector-card select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px var(--primary-glow);
+        }
+        .selector-card select:disabled {
+            opacity: .4;
+            cursor: not-allowed;
+        }
+        .vs-badge {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.75rem;
+            color: #fff;
+            flex-shrink: 0;
+            margin-top: 18px;
+        }
+
+        /* ── Error message ── */
+        .error-msg {
+            text-align: center;
+            color: var(--red);
+            font-size: 0.85rem;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            display: none;
+        }
+        .error-msg.show { display: block; }
+
+        /* ── Metric Tabs ── */
+        .tabs-wrapper {
+            position: relative;
+            z-index: 1;
+            max-width: 1100px;
+            margin: 0 auto 16px;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+        }
+        .tab-btn {
+            padding: 8px 16px;
+            font-family: inherit;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            background: var(--surface);
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all .2s;
+            white-space: nowrap;
+        }
+        .tab-btn:hover { border-color: var(--primary); color: var(--text); }
+        .tab-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: #fff;
+            box-shadow: 0 0 16px var(--primary-glow);
+        }
+        .tab-btn:disabled {
+            opacity: .35;
+            cursor: not-allowed;
+        }
+
+        /* ── Results Area ── */
+        .results {
+            position: relative;
+            z-index: 1;
+            max-width: 1100px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+        .result-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px 32px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+            animation: fadeIn .3s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .result-card h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .result-card h2 .icon { font-size: 1.3rem; }
+
+        /* ── Tables ── */
+        .data-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 0.85rem;
+        }
+        .data-table th, .data-table td {
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .data-table th {
+            background: var(--surface-2);
+            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .data-table th:first-child { border-radius: 8px 0 0 0; }
+        .data-table th:last-child { border-radius: 0 8px 0 0; }
+        .data-table tr:last-child td { border-bottom: none; }
+        .data-table tr:hover td { background: var(--surface-2); }
+
+        /* ── Stat row ── */
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+        .stat-box {
+            background: var(--surface-2);
+            border-radius: 10px;
+            padding: 16px;
+            text-align: center;
+        }
+        .stat-box .value {
+            font-size: 1.6rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #6366f1, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .stat-box .label {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* ── Similarity Bar ── */
+        .sim-bar-wrap {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .sim-bar {
+            flex: 1;
+            height: 6px;
+            background: var(--surface-2);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .sim-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width .5s ease;
+        }
+        .sim-pct {
+            font-size: 0.8rem;
+            font-weight: 600;
+            min-width: 48px;
+            text-align: right;
+        }
+
+        /* ── Loading ── */
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        .loading .spinner {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin .8s linear infinite;
+            margin-bottom: 12px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .placeholder-msg {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 60px 20px;
+            font-size: 0.9rem;
+        }
+
+        /* ── Section title within results ── */
+        .section-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin: 20px 0 10px;
+        }
+
+        /* ── Diff indicator ── */
+        .diff-pos { color: var(--green); }
+        .diff-neg { color: var(--red); }
+        .diff-zero { color: var(--text-muted); }
+
+        /* ── Responsive ── */
+        @media (max-width: 640px) {
+            .selector-card { flex-direction: column; padding: 20px; }
+            .vs-badge { margin-top: 0; }
+            header h1 { font-size: 1.6rem; }
+            .stat-grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UniCurriculum</h1>
+    <p>Bilişim Müfredatları Karşılaştırma ve Değerlendirme Sistemi</p>
+</header>
+
+<!-- University Selectors -->
+<div class="selector-card" id="selectorCard">
+    <div class="select-wrap">
+        <label for="uni1">Üniversite 1</label>
+        <select id="uni1" disabled><option>Yükleniyor...</option></select>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="select-wrap">
+        <label for="uni2">Üniversite 2</label>
+        <select id="uni2" disabled><option>Yükleniyor...</option></select>
+    </div>
+</div>
+<p class="error-msg" id="errorMsg"></p>
+
+<!-- Metric Tabs -->
+<div class="tabs-wrapper" id="tabs"></div>
+
+<!-- Results -->
+<div class="results" id="results">
+    <div class="placeholder-msg" id="placeholder">
+        Yukarıdan iki farklı üniversite seçin ve bir karşılaştırma metriği tıklayın.
+    </div>
+</div>
+
+<script>
+const API = '';
+const METRICS = [
+    { id: 'courses', label: '📊 Ders Benzerliği', endpoint: '/api/compare/courses' },
+    { id: 'staff', label: '👥 Akademik Kadro', endpoint: '/api/compare/staff' },
+    { id: 'workload', label: '⚖️ İş Yükü', endpoint: '/api/compare/workload' },
+    { id: 'program-outcomes', label: '🎯 Program Çıktıları', endpoint: '/api/compare/program-outcomes' },
+    { id: 'curriculum-coverage', label: '📚 Müfredat Kapsamı', endpoint: '/api/compare/curriculum-coverage' },
+    { id: 'prerequisites', label: '🔗 Önkoşullar', endpoint: '/api/compare/prerequisites' },
+    { id: 'semester-distribution', label: '📅 Dönem Dağılımı', endpoint: '/api/compare/semester-distribution' },
+    { id: 'mandatory-elective', label: '📋 Zorunlu/Seçmeli', endpoint: '/api/compare/mandatory-elective' },
+    { id: 'language-distribution', label: '🌐 Eğitim Dili', endpoint: '/api/compare/language-distribution' },
+    { id: 'resources', label: '📖 Kaynak Örtüşmesi', endpoint: '/api/compare/resources' },
+];
+
+let universities = [];
+let activeMetric = null;
+
+// ── Init ──
+async function init() {
+    try {
+        const res = await fetch(`${API}/api/universities`);
+        universities = await res.json();
+        populateDropdowns();
+        buildTabs();
+    } catch (e) {
+        showError('API bağlantısı kurulamadı.');
+    }
+}
+
+function populateDropdowns() {
+    const s1 = document.getElementById('uni1');
+    const s2 = document.getElementById('uni2');
+    s1.innerHTML = '<option value="">Üniversite seçin</option>';
+    s2.innerHTML = '<option value="">Üniversite seçin</option>';
+    universities.forEach(u => {
+        s1.innerHTML += `<option value="${u.name}">${u.name}</option>`;
+        s2.innerHTML += `<option value="${u.name}">${u.name}</option>`;
+    });
+    s1.disabled = false;
+    s2.disabled = false;
+
+    s1.addEventListener('change', onSelectionChange);
+    s2.addEventListener('change', onSelectionChange);
+}
+
+function onSelectionChange() {
+    const s1 = document.getElementById('uni1');
+    const s2 = document.getElementById('uni2');
+    const v1 = s1.value;
+    const v2 = s2.value;
+
+    // Disable same-university option in the other dropdown
+    Array.from(s2.options).forEach(opt => {
+        opt.disabled = opt.value !== '' && opt.value === v1;
+    });
+    Array.from(s1.options).forEach(opt => {
+        opt.disabled = opt.value !== '' && opt.value === v2;
+    });
+
+    // If currently selected is same, reset
+    if (v1 && v2 && v1 === v2) {
+        s2.value = '';
+        showError('Aynı üniversiteyi iki tarafta da seçemezsiniz.');
+        return;
+    }
+
+    clearError();
+    updateTabState();
+
+    // Auto-reload active metric
+    if (v1 && v2 && activeMetric) {
+        loadMetric(activeMetric);
+    }
+}
+
+function buildTabs() {
+    const container = document.getElementById('tabs');
+    METRICS.forEach(m => {
+        const btn = document.createElement('button');
+        btn.className = 'tab-btn';
+        btn.textContent = m.label;
+        btn.dataset.id = m.id;
+        btn.disabled = true;
+        btn.addEventListener('click', () => {
+            if (!getSelection().valid) return;
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeMetric = m.id;
+            loadMetric(m.id);
+        });
+        container.appendChild(btn);
+    });
+}
+
+function updateTabState() {
+    const valid = getSelection().valid;
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.disabled = !valid;
+    });
+}
+
+function getSelection() {
+    const v1 = document.getElementById('uni1').value;
+    const v2 = document.getElementById('uni2').value;
+    return { uni1: v1, uni2: v2, valid: v1 && v2 && v1 !== v2 };
+}
+
+function showError(msg) {
+    const el = document.getElementById('errorMsg');
+    el.textContent = msg;
+    el.classList.add('show');
+}
+function clearError() {
+    document.getElementById('errorMsg').classList.remove('show');
+}
+
+// ── Load Metric ──
+async function loadMetric(id) {
+    const { uni1, uni2 } = getSelection();
+    const metric = METRICS.find(m => m.id === id);
+    const container = document.getElementById('results');
+    container.innerHTML = `<div class="loading"><div class="spinner"></div><p>Yükleniyor...</p></div>`;
+
+    try {
+        const params = new URLSearchParams({ uni1, uni2 });
+        if (['courses', 'program-outcomes', 'curriculum-coverage'].includes(id)) {
+            params.set('top_n', '15');
+        }
+        const res = await fetch(`${API}${metric.endpoint}?${params}`);
+        const data = await res.json();
+        container.innerHTML = '';
+        const card = document.createElement('div');
+        card.className = 'result-card';
+        card.innerHTML = renderers[id](data, uni1, uni2);
+        container.appendChild(card);
+    } catch (e) {
+        container.innerHTML = `<div class="placeholder-msg">Veri yüklenirken hata oluştu.</div>`;
+    }
+}
+
+// ── Helper ──
+function simColor(pct) {
+    if (pct >= 80) return 'var(--green)';
+    if (pct >= 50) return 'var(--yellow)';
+    return 'var(--red)';
+}
+function simBar(pct) {
+    return `<div class="sim-bar-wrap">
+        <div class="sim-bar"><div class="sim-bar-fill" style="width:${pct}%;background:${simColor(pct)}"></div></div>
+        <span class="sim-pct" style="color:${simColor(pct)}">${pct}%</span>
+    </div>`;
+}
+function diffSpan(val, suffix='') {
+    if (val > 0) return `<span class="diff-pos">+${val}${suffix}</span>`;
+    if (val < 0) return `<span class="diff-neg">${val}${suffix}</span>`;
+    return `<span class="diff-zero">0${suffix}</span>`;
+}
+function shortName(name) {
+    return name.replace(' Üniversitesi', '').replace(' Ekonomi ve Teknoloji', ' ETÜ');
+}
+
+// ── Renderers ──
+const renderers = {
+    // 1. Course Similarity
+    courses(data) {
+        const rows = (data.similar_courses || []).map((p,i) => `
+            <tr>
+                <td>${i+1}</td>
+                <td><strong>${p.course1_code}</strong> ${p.course1_name}</td>
+                <td><strong>${p.course2_code}</strong> ${p.course2_name}</td>
+                <td>${simBar(p.similarity_pct)}</td>
+            </tr>
+        `).join('');
+        return `<h2><span class="icon">📊</span>Ders Benzerliği (İçerik)</h2>
+            <table class="data-table">
+                <tr><th>#</th><th>${shortName(data.university1)}</th><th>${shortName(data.university2)}</th><th>Benzerlik</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 2. Staff
+    staff(data) {
+        const roles = { professor:'Profesör', associate_professor:'Doçent', assistant_professor:'Dr. Öğr. Üyesi', lecturer:'Öğr. Görevlisi', research_assistant:'Arş. Görevlisi', total:'Toplam' };
+        const s1 = data.university1?.staff || {};
+        const s2 = data.university2?.staff || {};
+        const rows = Object.entries(roles).map(([k,v]) => `
+            <tr><td>${v}</td><td>${s1[k]||0}</td><td>${s2[k]||0}</td><td>${diffSpan((s1[k]||0)-(s2[k]||0))}</td></tr>
+        `).join('');
+        return `<h2><span class="icon">👥</span>Akademik Kadro Karşılaştırması</h2>
+            <table class="data-table">
+                <tr><th>Unvan</th><th>${shortName(data.university1.name)}</th><th>${shortName(data.university2.name)}</th><th>Fark</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 3. Workload
+    workload(data) {
+        const w1 = data.university1, w2 = data.university2;
+        const metrics = [
+            ['Toplam Ders Sayısı', w1.course_count, w2.course_count],
+            ['Toplam AKTS', w1.total_ects, w2.total_ects],
+            ['Ort. AKTS', w1.avg_ects, w2.avg_ects],
+            ['Ort. Teori Saat', w1.avg_theory_hours, w2.avg_theory_hours],
+            ['Ort. Uygulama Saat', w1.avg_practice_hours, w2.avg_practice_hours],
+            ['Teori/Uygulama Oranı', w1.theory_practice_ratio, w2.theory_practice_ratio],
+        ];
+        const rows = metrics.map(([label,v1,v2]) => `
+            <tr><td>${label}</td><td>${v1}</td><td>${v2}</td><td>${diffSpan(Math.round((v1-v2)*100)/100)}</td></tr>
+        `).join('');
+        return `<h2><span class="icon">⚖️</span>İş Yükü Karşılaştırması</h2>
+            <table class="data-table">
+                <tr><th>Metrik</th><th>${shortName(w1.name)}</th><th>${shortName(w2.name)}</th><th>Fark</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 4. Program Outcomes
+    'program-outcomes'(data) {
+        const rows = (data.top_matches || []).map((m,i) => `
+            <tr>
+                <td style="max-width:300px">${m.outcome1_text}</td>
+                <td style="max-width:300px">${m.outcome2_text}</td>
+                <td>${simBar(m.similarity_pct)}</td>
+            </tr>
+        `).join('');
+        return `<h2><span class="icon">🎯</span>Program Çıktısı Benzerliği</h2>
+            <div class="stat-grid">
+                <div class="stat-box"><div class="value">${data.overall_similarity_pct}%</div><div class="label">Genel Benzerlik</div></div>
+                <div class="stat-box"><div class="value">${data.outcome_count1}</div><div class="label">${shortName(data.university1)} Çıktısı</div></div>
+                <div class="stat-box"><div class="value">${data.outcome_count2}</div><div class="label">${shortName(data.university2)} Çıktısı</div></div>
+            </div>
+            <table class="data-table">
+                <tr><th>${shortName(data.university1)} Çıktısı</th><th>${shortName(data.university2)} Eşleşmesi</th><th>Benzerlik</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 5. Curriculum Coverage
+    'curriculum-coverage'(data) {
+        const similarRows = (data.top_similar || []).map(p => `
+            <tr>
+                <td><strong>${p.course1_code}</strong> ${p.course1_name}</td>
+                <td><strong>${p.course2_code}</strong> ${p.course2_name}</td>
+                <td>${simBar(p.similarity_pct)}</td>
+            </tr>
+        `).join('');
+        const uniq1 = (data.unique_to_uni1 || []).map(c => `<tr><td>${c.code}</td><td>${c.name}</td><td>${c.best_match_similarity_pct}%</td></tr>`).join('');
+        const uniq2 = (data.unique_to_uni2 || []).map(c => `<tr><td>${c.code}</td><td>${c.name}</td><td>${c.best_match_similarity_pct}%</td></tr>`).join('');
+
+        return `<h2><span class="icon">📚</span>Müfredat Kapsama Analizi (Konu Bazlı)</h2>
+            <div class="stat-grid">
+                <div class="stat-box"><div class="value">${data.matched_courses||0}</div><div class="label">Eşleşen Dersler</div></div>
+                <div class="stat-box"><div class="value">${data.unique_to_uni1_count||0}</div><div class="label">${shortName(data.university1)}'e Özgü</div></div>
+                <div class="stat-box"><div class="value">${data.unique_to_uni2_count||0}</div><div class="label">${shortName(data.university2)}'e Özgü</div></div>
+            </div>
+            <div class="section-title">Benzer Konu Kapsayan Dersler</div>
+            <table class="data-table">
+                <tr><th>${shortName(data.university1)}</th><th>${shortName(data.university2)}</th><th>Benzerlik</th></tr>
+                ${similarRows || '<tr><td colspan="3">Eşleşen ders bulunamadı.</td></tr>'}
+            </table>
+            ${uniq1 ? `<div class="section-title">${shortName(data.university1)}'e Özgü Dersler</div>
+            <table class="data-table"><tr><th>Kod</th><th>Ders</th><th>En Yakın Eşleşme</th></tr>${uniq1}</table>` : ''}
+            ${uniq2 ? `<div class="section-title">${shortName(data.university2)}'e Özgü Dersler</div>
+            <table class="data-table"><tr><th>Kod</th><th>Ders</th><th>En Yakın Eşleşme</th></tr>${uniq2}</table>` : ''}`;
+    },
+
+    // 6. Prerequisites
+    prerequisites(data) {
+        const p1 = data.university1, p2 = data.university2;
+        const metrics = [
+            ['Toplam Ders', p1.total_courses, p2.total_courses],
+            ['Önkoşullu Ders', p1.courses_with_prerequisites, p2.courses_with_prerequisites],
+            ['Önkoşulsuz Ders', p1.courses_without_prerequisites, p2.courses_without_prerequisites],
+            ['Toplam Önkoşul Bağı', p1.total_prerequisite_links, p2.total_prerequisite_links],
+            ['Maks. Zincir Derinliği', p1.max_chain_depth, p2.max_chain_depth],
+            ['Ort. Zincir Derinliği', p1.avg_chain_depth, p2.avg_chain_depth],
+            ['Önkoşul Oranı (%)', p1.prerequisite_ratio_pct, p2.prerequisite_ratio_pct],
+        ];
+        const rows = metrics.map(([l,v1,v2]) => `
+            <tr><td>${l}</td><td>${v1}</td><td>${v2}</td><td>${diffSpan(Math.round((v1-v2)*100)/100)}</td></tr>
+        `).join('');
+        return `<h2><span class="icon">🔗</span>Önkoşul Karmaşıklığı</h2>
+            <div class="stat-grid">
+                <div class="stat-box"><div class="value">${p1.prerequisite_ratio_pct}%</div><div class="label">${shortName(p1.name)} Önkoşul Oranı</div></div>
+                <div class="stat-box"><div class="value">${p2.prerequisite_ratio_pct}%</div><div class="label">${shortName(p2.name)} Önkoşul Oranı</div></div>
+                <div class="stat-box"><div class="value">${p1.max_chain_depth} vs ${p2.max_chain_depth}</div><div class="label">Maks. Zincir Derinliği</div></div>
+            </div>
+            <table class="data-table">
+                <tr><th>Metrik</th><th>${shortName(p1.name)}</th><th>${shortName(p2.name)}</th><th>Fark</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 7. Semester Distribution
+    'semester-distribution'(data) {
+        const d1 = data.university1.distribution || [];
+        const d2 = data.university2.distribution || [];
+        const allKeys = new Set();
+        d1.forEach(d => allKeys.add(`${d.year}-${d.semester}`));
+        d2.forEach(d => allKeys.add(`${d.year}-${d.semester}`));
+        const sorted = [...allKeys].sort();
+
+        const rows = sorted.map(key => {
+            const [yr, sem] = key.split('-').map(Number);
+            const r1 = d1.find(d => d.year === yr && d.semester === sem) || {};
+            const r2 = d2.find(d => d.year === yr && d.semester === sem) || {};
+            return `<tr>
+                <td>${yr}. Yıl / ${sem}. Dönem</td>
+                <td>${r1.courses||'-'}</td><td>${r1.total_ects||'-'}</td><td>${r1.avg_ects||'-'}</td>
+                <td>${r2.courses||'-'}</td><td>${r2.total_ects||'-'}</td><td>${r2.avg_ects||'-'}</td>
+            </tr>`;
+        }).join('');
+
+        const n1 = shortName(data.university1.name), n2 = shortName(data.university2.name);
+        return `<h2><span class="icon">📅</span>Dönem Bazlı Dağılım</h2>
+            <table class="data-table">
+                <tr><th rowspan="2">Dönem</th><th colspan="3" style="text-align:center">${n1}</th><th colspan="3" style="text-align:center">${n2}</th></tr>
+                <tr><th>Ders</th><th>AKTS</th><th>Ort.</th><th>Ders</th><th>AKTS</th><th>Ort.</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 8. Mandatory/Elective
+    'mandatory-elective'(data) {
+        const m1 = data.university1, m2 = data.university2;
+        return `<h2><span class="icon">📋</span>Zorunlu / Seçmeli Dağılımı</h2>
+            <div class="stat-grid">
+                <div class="stat-box"><div class="value">${m1.mandatory_pct}%</div><div class="label">${shortName(m1.name)} Zorunlu</div></div>
+                <div class="stat-box"><div class="value">${m1.elective_pct}%</div><div class="label">${shortName(m1.name)} Seçmeli</div></div>
+                <div class="stat-box"><div class="value">${m2.mandatory_pct}%</div><div class="label">${shortName(m2.name)} Zorunlu</div></div>
+                <div class="stat-box"><div class="value">${m2.elective_pct}%</div><div class="label">${shortName(m2.name)} Seçmeli</div></div>
+            </div>
+            <table class="data-table">
+                <tr><th>Metrik</th><th>${shortName(m1.name)}</th><th>${shortName(m2.name)}</th><th>Fark</th></tr>
+                <tr><td>Toplam Ders</td><td>${m1.total_courses}</td><td>${m2.total_courses}</td><td>${diffSpan(m1.total_courses-m2.total_courses)}</td></tr>
+                <tr><td>Zorunlu</td><td>${m1.mandatory}</td><td>${m2.mandatory}</td><td>${diffSpan(m1.mandatory-m2.mandatory)}</td></tr>
+                <tr><td>Seçmeli</td><td>${m1.elective}</td><td>${m2.elective}</td><td>${diffSpan(m1.elective-m2.elective)}</td></tr>
+                <tr><td>Zorunlu %</td><td>${m1.mandatory_pct}%</td><td>${m2.mandatory_pct}%</td><td>${diffSpan(data.comparison.mandatory_pct_diff, '%')}</td></tr>
+                <tr><td>Seçmeli %</td><td>${m1.elective_pct}%</td><td>${m2.elective_pct}%</td><td>${diffSpan(data.comparison.elective_pct_diff, '%')}</td></tr>
+            </table>`;
+    },
+
+    // 9. Language Distribution
+    'language-distribution'(data) {
+        const l1 = data.university1, l2 = data.university2;
+        const allLangs = new Set();
+        (l1.languages||[]).forEach(l => allLangs.add(l.language));
+        (l2.languages||[]).forEach(l => allLangs.add(l.language));
+        const rows = [...allLangs].map(lang => {
+            const v1 = (l1.languages||[]).find(l => l.language === lang);
+            const v2 = (l2.languages||[]).find(l => l.language === lang);
+            return `<tr>
+                <td>${lang}</td>
+                <td>${v1 ? v1.count : 0} (${v1 ? v1.percentage : 0}%)</td>
+                <td>${v2 ? v2.count : 0} (${v2 ? v2.percentage : 0}%)</td>
+            </tr>`;
+        }).join('');
+        return `<h2><span class="icon">🌐</span>Eğitim Dili Dağılımı</h2>
+            <div class="stat-grid">
+                ${(l1.languages||[]).map(l => `<div class="stat-box"><div class="value">${l.percentage}%</div><div class="label">${shortName(l1.name)} ${l.language}</div></div>`).join('')}
+                ${(l2.languages||[]).map(l => `<div class="stat-box"><div class="value">${l.percentage}%</div><div class="label">${shortName(l2.name)} ${l.language}</div></div>`).join('')}
+            </div>
+            <table class="data-table">
+                <tr><th>Dil</th><th>${shortName(l1.name)}</th><th>${shortName(l2.name)}</th></tr>
+                ${rows}
+            </table>`;
+    },
+
+    // 10. Resources
+    resources(data) {
+        const shared = (data.shared_resources || []);
+        const rows = shared.map(s => `
+            <tr>
+                <td style="max-width:280px;font-size:0.8rem">${s.resource_uni1}</td>
+                <td>${s.courses_uni1.join(', ')}</td>
+                <td style="max-width:280px;font-size:0.8rem">${s.resource_uni2}</td>
+                <td>${s.courses_uni2.join(', ')}</td>
+                <td><strong>${s.overlap_score}%</strong></td>
+            </tr>
+        `).join('');
+        return `<h2><span class="icon">📖</span>Kaynak Kitap Örtüşme Analizi</h2>
+            <div class="stat-grid">
+                <div class="stat-box"><div class="value">${data.university1.unique_resources}</div><div class="label">${shortName(data.university1.name)} Kaynak</div></div>
+                <div class="stat-box"><div class="value">${data.university2.unique_resources}</div><div class="label">${shortName(data.university2.name)} Kaynak</div></div>
+                <div class="stat-box"><div class="value">${data.shared_count}</div><div class="label">Ortak Kaynak</div></div>
+            </div>
+            ${shared.length ? `<table class="data-table">
+                <tr><th>${shortName(data.university1.name)} Kaynağı</th><th>Dersler</th><th>${shortName(data.university2.name)} Kaynağı</th><th>Dersler</th><th>Örtüşme</th></tr>
+                ${rows}
+            </table>` : '<p style="color:var(--text-muted);text-align:center;margin-top:20px">Ortak kaynak bulunamadı.</p>'}`;
+    },
+};
+
+init();
+</script>
+</body>
+</html>
