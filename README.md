@@ -6,20 +6,21 @@ AI-destekli üniversite müfredat karşılaştırma sistemi. Türkiye'deki bilgi
 
 ```
 university-curriculum-analyzer/
-├── data/                  # Üniversite müfredat verileri (JSON)
-│   ├── tobb_etu.json
-│   ├── ozyegin.json
-│   └── selcuk.json
+├── src/                       # Backend kaynak kodu
+│   ├── config.py              # Neo4j bağlantı ayarları
+│   ├── ingest.py              # JSON → Neo4j veri yükleme
+│   ├── comparison.py          # 11 karşılaştırma metriği
+│   └── main.py                # FastAPI REST sunucu
 ├── static/
-│   └── index.html         # Web arayüzü
-├── config.py              # Neo4j bağlantı ayarları
-├── ingest.py              # JSON → Neo4j veri yükleme
-├── comparison.py          # 11 karşılaştırma metriği
-├── main.py                # FastAPI REST sunucu
-├── requirements.txt       # Python bağımlılıkları
-├── docker-compose.yml     # Neo4j için Docker kurulumu
-├── .env.example           # Ortam değişkeni şablonu
-└── CLAUDE.md              # Veri toplama rehberi
+│   └── index.html             # Web arayüzü
+├── data/                      # Üniversite müfredat verileri (JSON)
+│   └── *.json
+├── docs/
+│   └── UniCurriculum_Veri_Toplama_Rehberi.pdf
+├── requirements.txt           # Python bağımlılıkları
+├── docker-compose.yml         # Neo4j için Docker kurulumu
+├── .env.example               # Ortam değişkeni şablonu
+└── CLAUDE.md                  # Veri toplama rehberi
 ```
 
 ## Kurulum
@@ -55,7 +56,7 @@ cp .env.example .env
 ### 4. Verileri yükle
 
 ```bash
-python ingest.py
+python -m src.ingest
 ```
 
 `data/` klasöründeki tüm JSON dosyalarını Neo4j'ye yükler.
@@ -63,7 +64,7 @@ python ingest.py
 ### 5. Sunucuyu başlat
 
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 - Web arayüzü: http://localhost:8000
@@ -89,7 +90,7 @@ uvicorn main:app --reload
 
 1. `CLAUDE.md` dosyasındaki formata uygun bir JSON dosyası oluştur
 2. Dosyayı `data/` klasörüne koy
-3. `python ingest.py` ile Neo4j'ye yükle
+3. `python -m src.ingest` ile Neo4j'ye yükle
 
 ## Teknolojiler
 
