@@ -16,7 +16,7 @@ from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
-from comparison import ComparisonEngine
+from .comparison import ComparisonEngine
 
 app = FastAPI(
     title="UniCurriculum — Curriculum Comparison API",

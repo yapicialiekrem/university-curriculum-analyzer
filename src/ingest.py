@@ -23,7 +23,7 @@ from typing import Optional
 from neo4j import GraphDatabase
 from sentence_transformers import SentenceTransformer
 
-from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, EMBEDDING_MODEL
+from .config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, EMBEDDING_MODEL
 
 # ---------------------------------------------------------------------------
 # Logging
