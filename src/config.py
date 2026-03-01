@@ -25,3 +25,6 @@ NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
 
 # Sentence-Transformers model for generating embeddings
 EMBEDDING_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
+
+# Groq API key for chatbot (https://console.groq.com)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
