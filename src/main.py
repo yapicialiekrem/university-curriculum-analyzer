@@ -16,7 +16,8 @@ from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
-from .comparison import ComparisonEngine
+from pydantic import BaseModel
+from comparison import ComparisonEngine
 
 app = FastAPI(
     title="UniCurriculum — Curriculum Comparison API",
@@ -40,6 +41,11 @@ app.add_middleware(
 
 # Shared comparison engine instance
 engine = ComparisonEngine()
+
+
+# Chat request model
+class ChatRequest(BaseModel):
+    message: str
 
 
 @app.on_event("shutdown")
@@ -67,6 +73,56 @@ def list_courses(university_name: str):
             detail=f"No courses found for '{university_name}'.",
         )
     return courses
+
+
+# ---------------------------------------------------------------------------
+# Dashboard Endpoints
+# ---------------------------------------------------------------------------
+
+@app.get("/api/dashboard/stats", tags=["Dashboard"])
+def dashboard_stats():
+    """Get aggregate statistics for the knowledge graph dashboard."""
+    return engine.get_dashboard_stats()
+
+
+@app.get("/api/dashboard/charts/{university_name}", tags=["Dashboard"])
+def dashboard_charts(university_name: str):
+    """Get chart-ready data for a specific university."""
+    data = engine.get_university_chart_data(university_name)
+    if "error" in data:
+        raise HTTPException(status_code=404, detail=data["error"])
+    return data
+
+
+@app.get("/api/dashboard/heatmap", tags=["Dashboard"])
+def dashboard_heatmap():
+    """Get university similarity heatmap matrix."""
+    return engine.get_heatmap_data()
+
+
+@app.get("/api/dashboard/radar", tags=["Dashboard"])
+def dashboard_radar():
+    """Get radar chart data for multi-axis university comparison."""
+    return engine.get_radar_data()
+
+
+@app.get("/api/dashboard/kg-stats", tags=["Dashboard"])
+def dashboard_kg_stats():
+    """Get knowledge graph meta-statistics (total nodes, relationships)."""
+    return engine.get_kg_meta_stats()
+
+
+# ---------------------------------------------------------------------------
+# Chatbot Endpoint
+# ---------------------------------------------------------------------------
+
+@app.post("/api/chat", tags=["Chatbot"])
+def chat(req: ChatRequest):
+    """AI-powered chatbot using Groq API (Llama 3.3) with Neo4j knowledge graph context."""
+    if not req.message.strip():
+        raise HTTPException(status_code=400, detail="Message cannot be empty.")
+    answer = engine.answer_question(req.message)
+    return {"question": req.message, "answer": answer}
 
 
 # ---------------------------------------------------------------------------
@@ -185,6 +241,15 @@ def compare_resources(
 ):
     """1️⃣1️⃣ Resource Overlap — Find shared textbooks/resources between departments."""
     return engine.compare_resources(uni1, uni2)
+
+
+@app.get("/api/compare/composite", tags=["Comparison — New"])
+def compare_composite(
+    uni1: str = Query(..., description="First university name"),
+    uni2: str = Query(..., description="Second university name"),
+):
+    """🏆 Composite Score — Weighted overall similarity from all metrics."""
+    return engine.get_composite_score(uni1, uni2)
 
 
 # ---------------------------------------------------------------------------

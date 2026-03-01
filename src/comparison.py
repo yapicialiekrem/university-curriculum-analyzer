@@ -30,7 +30,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from neo4j import GraphDatabase
 
-from .config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
 
 logger = logging.getLogger(__name__)
 
@@ -777,6 +777,472 @@ class ComparisonEngine:
                 QUERY_COURSES_BY_UNIVERSITY,
                 university_name=university_name,
             ).data()
+
+    # ------------------------------------------------------------------
+    # Dashboard Methods
+    # ------------------------------------------------------------------
+
+    def get_dashboard_stats(self) -> dict:
+        """Get aggregate statistics for the dashboard."""
+        with self.driver.session() as session:
+            # Total universities
+            uni_count = session.run(
+                "MATCH (u:University) RETURN count(u) AS count"
+            ).single()["count"]
+
+            # Total courses
+            course_count = session.run(
+                "MATCH (c:Course) RETURN count(c) AS count"
+            ).single()["count"]
+
+            # Total ECTS
+            total_ects = session.run(
+                "MATCH (c:Course) RETURN sum(c.ects) AS total"
+            ).single()["total"] or 0
+
+            # Total program outcomes
+            po_count = session.run(
+                "MATCH (po:ProgramOutcome) RETURN count(po) AS count"
+            ).single()["count"]
+
+            # Total learning outcomes
+            lo_count = session.run(
+                "MATCH (lo:LearningOutcome) RETURN count(lo) AS count"
+            ).single()["count"]
+
+            # Average ECTS
+            avg_ects = session.run(
+                "MATCH (c:Course) RETURN round(avg(c.ects) * 100) / 100 AS avg"
+            ).single()["avg"] or 0
+
+            # Total categories
+            cat_count = session.run(
+                "MATCH (cat:Category) RETURN count(cat) AS count"
+            ).single()["count"]
+
+        return {
+            "university_count": uni_count,
+            "course_count": course_count,
+            "total_ects": total_ects,
+            "avg_ects": avg_ects,
+            "program_outcome_count": po_count,
+            "learning_outcome_count": lo_count,
+            "category_count": cat_count,
+        }
+
+    def get_university_chart_data(self, university_name: str) -> dict:
+        """Get chart-ready data for a specific university."""
+        with self.driver.session() as session:
+            courses = session.run(
+                QUERY_COURSE_DETAILS, university_name=university_name
+            ).data()
+
+        if not courses:
+            return {"university": university_name, "error": "No courses found."}
+
+        # Course type distribution (for doughnut chart)
+        type_counts = Counter(
+            (c.get("type") or "Belirtilmemiş") for c in courses
+        )
+        type_distribution = [
+            {"label": k, "value": v} for k, v in type_counts.most_common()
+        ]
+
+        # Semester ECTS distribution (for bar chart)
+        semester_data = {}
+        for c in courses:
+            yr = c.get("year", 0) or 0
+            sem = c.get("semester", 0) or 0
+            key = f"{yr}. Yıl / {sem}. Dönem"
+            if key not in semester_data:
+                semester_data[key] = {"label": key, "ects": 0, "count": 0, "sort": yr * 10 + sem}
+            semester_data[key]["ects"] += (c.get("ects", 0) or 0)
+            semester_data[key]["count"] += 1
+
+        semester_distribution = sorted(semester_data.values(), key=lambda x: x["sort"])
+
+        # Language distribution (for pie chart)
+        lang_counts = Counter(
+            (c.get("language") or "Belirtilmemiş").strip() for c in courses
+        )
+        language_distribution = [
+            {"label": k, "value": v} for k, v in lang_counts.most_common()
+        ]
+
+        # ECTS histogram
+        ects_counts = Counter(c.get("ects", 0) or 0 for c in courses)
+        ects_histogram = sorted(
+            [{"ects": k, "count": v} for k, v in ects_counts.items()],
+            key=lambda x: x["ects"]
+        )
+
+        return {
+            "university": university_name,
+            "total_courses": len(courses),
+            "type_distribution": type_distribution,
+            "semester_distribution": semester_distribution,
+            "language_distribution": language_distribution,
+            "ects_histogram": ects_histogram,
+        }
+
+    # ------------------------------------------------------------------
+    # Chatbot Methods
+    # ------------------------------------------------------------------
+
+    def get_chatbot_context(self, question: str) -> str:
+        """Build context from the knowledge graph for the chatbot."""
+        with self.driver.session() as session:
+            # Get university list
+            universities = session.run(QUERY_ALL_UNIVERSITIES).data()
+            uni_names = [u["name"] for u in universities]
+
+            # Get faculty, department, and staff info per university
+            uni_details = {}
+            for uni in uni_names:
+                # Faculty and department structure
+                faculty_dept = session.run("""
+                    MATCH (u:University {name: $uni})-[:HAS_FACULTY]->(f)-[:HAS_DEPARTMENT]->(d)
+                    RETURN f.name AS faculty, d.name AS department
+                """, uni=uni).data()
+
+                # Staff info (stored as count properties on a single node per dept)
+                staff_info = session.run("""
+                    MATCH (u:University {name: $uni})-[:HAS_FACULTY]->()-[:HAS_DEPARTMENT]->(d)-[:HAS_STAFF]->(s:AcademicStaff)
+                    RETURN d.name AS department,
+                           s.professor AS professor,
+                           s.associate_professor AS associate_professor,
+                           s.assistant_professor AS assistant_professor,
+                           s.lecturer AS lecturer,
+                           s.research_assistant AS research_assistant,
+                           s.total AS total
+                """, uni=uni).data()
+
+                uni_details[uni] = {
+                    "faculties": faculty_dept,
+                    "staff": staff_info,
+                }
+
+            # Get course counts per university
+            uni_stats = []
+            for uni in uni_names:
+                courses = session.run(
+                    QUERY_COURSE_DETAILS, university_name=uni
+                ).data()
+                total_ects = sum(c.get("ects", 0) or 0 for c in courses)
+                types = Counter((c.get("type") or "bilinmiyor") for c in courses)
+                langs = Counter((c.get("language") or "Belirtilmemiş").strip() for c in courses)
+
+                # Collect course names for richer context
+                course_list = [
+                    f"{c.get('code', '?')} - {c.get('name', '?')} ({c.get('ects', '?')} AKTS, {c.get('type', '?')})"
+                    for c in courses[:30]  # Limit to avoid token overflow
+                ]
+
+                uni_stats.append({
+                    "name": uni,
+                    "course_count": len(courses),
+                    "total_ects": total_ects,
+                    "avg_ects": round(total_ects / max(len(courses), 1), 2),
+                    "types": dict(types),
+                    "languages": dict(langs),
+                    "course_list": course_list,
+                })
+
+            # Get program outcomes
+            all_outcomes = {}
+            for uni in uni_names:
+                outcomes = session.run(
+                    QUERY_PROGRAM_OUTCOMES, university_name=uni
+                ).data()
+                all_outcomes[uni] = [o["text"][:100] for o in outcomes[:5]]
+
+        # Build context string
+        context_parts = ["=== Bilgi Grafiği Veritabanı Bilgileri ===\n"]
+        context_parts.append(f"Toplam {len(uni_names)} üniversite bulunmaktadır: {', '.join(uni_names)}\n")
+
+        for stat in uni_stats:
+            uni = stat['name']
+            context_parts.append(f"\n--- {uni} ---")
+
+            # Faculty and department info
+            details = uni_details.get(uni, {})
+            faculties = details.get("faculties", [])
+            if faculties:
+                faculty_groups = {}
+                for fd in faculties:
+                    fname = fd.get("faculty", "Bilinmiyor")
+                    dname = fd.get("department", "Bilinmiyor")
+                    faculty_groups.setdefault(fname, []).append(dname)
+                for fname, depts in faculty_groups.items():
+                    context_parts.append(f"Fakülte: {fname}")
+                    context_parts.append(f"  Bölümler: {', '.join(depts)}")
+
+            # Staff info
+            staff_list = details.get("staff", [])
+            if staff_list:
+                for s in staff_list:
+                    dept = s.get("department", "Bilinmiyor")
+                    total = s.get("total", 0) or 0
+                    parts = []
+                    for key, label in [
+                        ("professor", "Profesör"),
+                        ("associate_professor", "Doçent"),
+                        ("assistant_professor", "Dr. Öğr. Üyesi"),
+                        ("lecturer", "Öğretim Görevlisi"),
+                        ("research_assistant", "Araştırma Görevlisi"),
+                    ]:
+                        val = s.get(key, 0) or 0
+                        if val > 0:
+                            parts.append(f"{val} {label}")
+                    staff_str = ", ".join(parts) if parts else "Bilgi yok"
+                    context_parts.append(f"  Akademik kadro ({dept}): Toplam {total} kişi — {staff_str}")
+
+            context_parts.append(f"Ders sayısı: {stat['course_count']}")
+            context_parts.append(f"Toplam AKTS: {stat['total_ects']}, Ortalama AKTS: {stat['avg_ects']}")
+            context_parts.append(f"Ders türleri: {stat['types']}")
+            context_parts.append(f"Eğitim dilleri: {stat['languages']}")
+
+            # Course list
+            if stat['course_list']:
+                context_parts.append(f"Dersler (ilk 30): {'; '.join(stat['course_list'])}")
+
+            if uni in all_outcomes and all_outcomes[uni]:
+                context_parts.append(f"Program çıktıları (ilk 5): {all_outcomes[uni]}")
+
+        return "\n".join(context_parts)
+
+    def answer_question(self, question: str) -> str:
+        """Answer a question using Groq API with Neo4j context."""
+        from groq import Groq
+        from config import GROQ_API_KEY
+
+        if not GROQ_API_KEY:
+            return "Groq API anahtarı yapılandırılmamış. Lütfen .env dosyasına GROQ_API_KEY ekleyin."
+
+        # Get context from knowledge graph
+        context = self.get_chatbot_context(question)
+
+        # Configure Groq client
+        client = Groq(api_key=GROQ_API_KEY)
+
+        system_prompt = """Sen UniCurriculum adlı bilişim müfredatları karşılaştırma sisteminin yapay zeka asistanısın.
+Aşağıda Neo4j bilgi grafiğinden çekilen veriler var. Kullanıcının sorusunu bu verilere dayanarak Türkçe olarak yanıtla.
+Cevaplarını kısa, net ve bilgilendirici tut. Veri yoksa veya emin değilsen bunu belirt."""
+
+        user_message = f"""{context}
+
+Kullanıcı sorusu: {question}"""
+
+        try:
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_message},
+                ],
+                temperature=0.4,
+                max_tokens=1024,
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            return f"Üzgünüm, yanıt oluşturulurken bir hata oluştu: {str(e)}"
+
+    # ------------------------------------------------------------------
+    # Heatmap: University Similarity Matrix
+    # ------------------------------------------------------------------
+
+    def get_heatmap_data(self) -> dict:
+        """Compute average course similarity for all university pairs."""
+        universities = self.list_universities()
+        uni_names = [u["name"] for u in universities]
+
+        # Pre-load embeddings for all universities
+        embeddings = {}
+        with self.driver.session() as session:
+            for uni in uni_names:
+                data = session.run(
+                    QUERY_COURSES_WITH_EMBEDDINGS, university_name=uni
+                ).data()
+                if data:
+                    embeddings[uni] = np.array([r["embedding"] for r in data])
+
+        n = len(uni_names)
+        matrix = [[0.0] * n for _ in range(n)]
+
+        for i in range(n):
+            matrix[i][i] = 100.0  # self-similarity
+            for j in range(i + 1, n):
+                if uni_names[i] in embeddings and uni_names[j] in embeddings:
+                    sim = cosine_similarity(
+                        embeddings[uni_names[i]], embeddings[uni_names[j]]
+                    )
+                    # Average of best matches from both directions
+                    avg_i = float(np.mean(np.max(sim, axis=1)))
+                    avg_j = float(np.mean(np.max(sim, axis=0)))
+                    score = round((avg_i + avg_j) / 2 * 100, 1)
+                else:
+                    score = 0.0
+                matrix[i][j] = score
+                matrix[j][i] = score
+
+        return {
+            "universities": uni_names,
+            "matrix": matrix,
+        }
+
+    # ------------------------------------------------------------------
+    # Radar Chart Data
+    # ------------------------------------------------------------------
+
+    def get_radar_data(self) -> dict:
+        """Get normalized multi-axis data for radar chart comparison."""
+        universities = self.list_universities()
+        uni_names = [u["name"] for u in universities]
+
+        raw_data = []
+        with self.driver.session() as session:
+            for uni in uni_names:
+                courses = session.run(
+                    QUERY_COURSE_DETAILS, university_name=uni
+                ).data()
+                staff_data = session.run(
+                    QUERY_ACADEMIC_STAFF, university_name=uni
+                ).data()
+                prereq_data = session.run(
+                    QUERY_PREREQUISITES, university_name=uni
+                ).data()
+                po_data = session.run(
+                    QUERY_PROGRAM_OUTCOMES, university_name=uni
+                ).data()
+
+                total_ects = sum(c.get("ects", 0) or 0 for c in courses)
+                total_staff = sum(s.get("total", 0) or 0 for s in staff_data)
+                types = Counter((c.get("type") or "bilinmiyor") for c in courses)
+                elective = types.get("seçmeli", 0) + types.get("secmeli", 0)
+                elective_pct = round(elective / max(len(courses), 1) * 100, 1)
+                prereq_courses = len([p for p in prereq_data if p.get("prerequisites")])
+                prereq_pct = round(prereq_courses / max(len(prereq_data), 1) * 100, 1)
+
+                raw_data.append({
+                    "name": uni,
+                    "course_count": len(courses),
+                    "avg_ects": round(total_ects / max(len(courses), 1), 2),
+                    "staff_count": total_staff,
+                    "elective_pct": elective_pct,
+                    "prereq_pct": prereq_pct,
+                    "program_outcomes": len(po_data),
+                })
+
+        # Normalize each axis to 0-100
+        axes = ["course_count", "avg_ects", "staff_count", "elective_pct", "prereq_pct", "program_outcomes"]
+        axis_labels = ["Ders Sayısı", "Ort. AKTS", "Akademik Kadro", "Seçmeli %", "Önkoşul %", "Program Çıktısı"]
+
+        max_vals = {}
+        for ax in axes:
+            max_vals[ax] = max((d[ax] for d in raw_data), default=1) or 1
+
+        datasets = []
+        for d in raw_data:
+            values = [round(d[ax] / max_vals[ax] * 100, 1) for ax in axes]
+            datasets.append({"name": d["name"], "values": values, "raw": {ax: d[ax] for ax in axes}})
+
+        return {"labels": axis_labels, "datasets": datasets}
+
+    # ------------------------------------------------------------------
+    # Knowledge Graph Meta-Stats
+    # ------------------------------------------------------------------
+
+    def get_kg_meta_stats(self) -> dict:
+        """Get total node and relationship counts in the knowledge graph."""
+        with self.driver.session() as session:
+            node_count = session.run(
+                "MATCH (n) RETURN count(n) AS count"
+            ).single()["count"]
+            rel_count = session.run(
+                "MATCH ()-[r]->() RETURN count(r) AS count"
+            ).single()["count"]
+            label_counts = session.run(
+                "MATCH (n) RETURN labels(n)[0] AS label, count(n) AS count ORDER BY count DESC"
+            ).data()
+            rel_types = session.run(
+                "MATCH ()-[r]->() RETURN type(r) AS type, count(r) AS count ORDER BY count DESC"
+            ).data()
+
+        return {
+            "total_nodes": node_count,
+            "total_relationships": rel_count,
+            "node_labels": label_counts,
+            "relationship_types": rel_types,
+        }
+
+    # ------------------------------------------------------------------
+    # Composite Similarity Score
+    # ------------------------------------------------------------------
+
+    def get_composite_score(self, university1: str, university2: str) -> dict:
+        """Calculate a weighted composite similarity score from multiple metrics."""
+        scores = {}
+
+        # 1. Course similarity (weight: 30%)
+        try:
+            similar = self.find_similar_courses(university1, university2, top_n=100)
+            if similar:
+                avg_sim = round(float(np.mean([s["similarity_pct"] for s in similar])), 2)
+            else:
+                avg_sim = 0
+            scores["course_similarity"] = {"value": avg_sim, "weight": 30, "label": "Ders Benzerliği"}
+        except Exception:
+            scores["course_similarity"] = {"value": 0, "weight": 30, "label": "Ders Benzerliği"}
+
+        # 2. Program outcome similarity (weight: 25%)
+        try:
+            po = self.compare_program_outcomes(university1, university2)
+            scores["program_outcomes"] = {"value": po.get("overall_similarity_pct", 0), "weight": 25, "label": "Program Çıktıları"}
+        except Exception:
+            scores["program_outcomes"] = {"value": 0, "weight": 25, "label": "Program Çıktıları"}
+
+        # 3. Workload similarity (weight: 15%)
+        try:
+            wl = self.compare_workload(university1, university2)
+            w1, w2 = wl["university1"], wl["university2"]
+            ects_diff = abs(w1["avg_ects"] - w2["avg_ects"])
+            wl_score = max(0, round(100 - ects_diff * 10, 1))
+            scores["workload"] = {"value": wl_score, "weight": 15, "label": "İş Yükü Uyumu"}
+        except Exception:
+            scores["workload"] = {"value": 0, "weight": 15, "label": "İş Yükü Uyumu"}
+
+        # 4. Mandatory/elective ratio similarity (weight: 15%)
+        try:
+            me = self.compare_mandatory_elective(university1, university2)
+            pct_diff = abs(me["comparison"]["mandatory_pct_diff"])
+            me_score = max(0, round(100 - pct_diff * 2, 1))
+            scores["mandatory_elective"] = {"value": me_score, "weight": 15, "label": "Zorunlu/Seçmeli Uyumu"}
+        except Exception:
+            scores["mandatory_elective"] = {"value": 0, "weight": 15, "label": "Zorunlu/Seçmeli Uyumu"}
+
+        # 5. Curriculum coverage (weight: 15%)
+        try:
+            cc = self.compare_curriculum_coverage(university1, university2)
+            total = cc.get("matched_courses", 0) + cc.get("unique_to_uni1_count", 0) + cc.get("unique_to_uni2_count", 0)
+            if total > 0:
+                cc_score = round(cc.get("matched_courses", 0) / total * 100, 1)
+            else:
+                cc_score = 0
+            scores["curriculum_coverage"] = {"value": cc_score, "weight": 15, "label": "Müfredat Kapsamı"}
+        except Exception:
+            scores["curriculum_coverage"] = {"value": 0, "weight": 15, "label": "Müfredat Kapsamı"}
+
+        # Weighted composite
+        composite = round(
+            sum(s["value"] * s["weight"] / 100 for s in scores.values()), 1
+        )
+
+        return {
+            "university1": university1,
+            "university2": university2,
+            "composite_score": composite,
+            "breakdown": scores,
+        }
 
 
 # ---------------------------------------------------------------------------
