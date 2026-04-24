@@ -1,5 +1,5 @@
 {
-  "uni_name": "Karadeniz Teknik Üniversitesi",
+  "university_name": "Karadeniz Teknik Üniversitesi",
   "department": "Bilgisayar Mühendisliği",
   "faculty": "Mühendislik Fakültesi",
   "language": "İngilizce",
@@ -68,7 +68,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660467"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660467",
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:36.488844+00:00"
+      }
     },
     {
       "code": "AITB1003",
@@ -115,7 +140,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660466"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660466",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:38.844922+00:00"
+      }
     },
     {
       "code": "BIL1011",
@@ -161,7 +211,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660471"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660471",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:41.296107+00:00"
+      }
     },
     {
       "code": "COM1003",
@@ -204,7 +279,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660470"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660470",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:43.760134+00:00"
+      }
     },
     {
       "code": "FIZ1001",
@@ -253,7 +355,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660469"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660469",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:46.319964+00:00"
+      }
     },
     {
       "code": "MAT1011",
@@ -300,7 +427,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660463"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660463",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:48.775605+00:00"
+      }
     },
     {
       "code": "TDB1005",
@@ -349,7 +502,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660464"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660464",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:51.197693+00:00"
+      }
     },
     {
       "code": "COM1001",
@@ -396,7 +574,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660468"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660468",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:53.691284+00:00"
+      }
     },
     {
       "code": "YDI1007",
@@ -440,7 +644,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660490"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660490",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:56.003943+00:00"
+      }
     },
     {
       "code": "BIL1008",
@@ -485,7 +714,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660613"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660613",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.2,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:53:58.504317+00:00"
+      }
     },
     {
       "code": "AITB1004",
@@ -530,7 +785,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660616"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660616",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:00.968113+00:00"
+      }
     },
     {
       "code": "BIL1012",
@@ -572,7 +852,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660618"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660618",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:03.419728+00:00"
+      }
     },
     {
       "code": "COM1002",
@@ -619,7 +924,35 @@
         "COM1003-Programming - I dersinden DC notu almış olmalı"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660617"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660617",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "turbo c"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:05.877215+00:00"
+      }
     },
     {
       "code": "FIZ1002",
@@ -663,7 +996,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660615"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660615",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:08.129657+00:00"
+      }
     },
     {
       "code": "BIL1010",
@@ -707,7 +1066,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660614"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660614",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:10.510474+00:00"
+      }
     },
     {
       "code": "MAT1008",
@@ -757,7 +1142,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660610"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660610",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:13.146520+00:00"
+      }
     },
     {
       "code": "TDB1004",
@@ -798,7 +1209,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660611"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660611",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:15.536287+00:00"
+      }
     },
     {
       "code": "YDI1008",
@@ -841,7 +1277,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660636"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660636",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:18.062937+00:00"
+      }
     },
     {
       "code": "BIL2021",
@@ -885,7 +1346,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660520"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660520",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "transformer"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:20.418287+00:00"
+      }
     },
     {
       "code": "BIL2015",
@@ -932,7 +1422,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655266"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655266",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:22.977709+00:00"
+      }
     },
     {
       "code": "COM2005",
@@ -977,7 +1493,34 @@
         "COM1002-Programming - II / COM1000-Introduction to Computer Programming"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660492"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660492",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:25.710429+00:00"
+      }
     },
     {
       "code": "COM2007",
@@ -1024,7 +1567,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660493"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660493",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:28.210987+00:00"
+      }
     },
     {
       "code": "COM2009",
@@ -1071,7 +1640,33 @@
         "COM1002-Programming - II dersinden DC notu almış olmalı"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660494"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660494",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:30.659159+00:00"
+      }
     },
     {
       "code": "BIL2017",
@@ -1116,7 +1711,33 @@
         "BIL1010-Electric circuits"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660496"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660496",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:33.219023+00:00"
+      }
     },
     {
       "code": "BIL2014",
@@ -1163,7 +1784,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660641"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660641",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:35.675227+00:00"
+      }
     },
     {
       "code": "MAT2031",
@@ -1209,7 +1857,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660495"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660495",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:38.237113+00:00"
+      }
     },
     {
       "code": "BIL2016",
@@ -1254,7 +1928,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655816"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655816",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:40.594045+00:00"
+      }
     },
     {
       "code": "COM2004",
@@ -1297,7 +1997,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660638"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660638",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:42.886925+00:00"
+      }
     },
     {
       "code": "COM2010",
@@ -1348,7 +2075,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660640"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660640",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "git"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:45.609386+00:00"
+      }
     },
     {
       "code": "COM2012",
@@ -1393,7 +2149,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660642"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660642",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:48.140085+00:00"
+      }
     },
     {
       "code": "COM2014",
@@ -1440,7 +2222,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660663"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660663",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:51.036055+00:00"
+      }
     },
     {
       "code": "BIL2018",
@@ -1486,7 +2295,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660643"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660643",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:53.906034+00:00"
+      }
     },
     {
       "code": "BIL3023",
@@ -1529,7 +2364,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660524"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660524",
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:56.258288+00:00"
+      }
     },
     {
       "code": "BIL3021",
@@ -1575,7 +2437,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655533"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655533",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:54:58.613951+00:00"
+      }
     },
     {
       "code": "BIL3025",
@@ -1620,7 +2508,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660525"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660525",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:00.968239+00:00"
+      }
     },
     {
       "code": "COM3023",
@@ -1667,7 +2580,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660523"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660523",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:03.325005+00:00"
+      }
     },
     {
       "code": "COM3021",
@@ -1713,7 +2653,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660522"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660522",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:05.986126+00:00"
+      }
     },
     {
       "code": "COM3025",
@@ -1762,7 +2729,33 @@
         "COM1001-Computer Fundamentals"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655534"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655534",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:08.445947+00:00"
+      }
     },
     {
       "code": "BIL3009",
@@ -1810,7 +2803,33 @@
       "categories": [
         "Teknik Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660546"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660546",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:11.412598+00:00"
+      }
     },
     {
       "code": "BIL3027",
@@ -1856,7 +2875,34 @@
       "categories": [
         "Teknik Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660547"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660547",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:13.842287+00:00"
+      }
     },
     {
       "code": "MTH3041",
@@ -1877,7 +2923,32 @@
       "categories": [
         "Teknik Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=676146"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=676146",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:15.989089+00:00"
+      }
     },
     {
       "code": "BIL3017",
@@ -1923,7 +2994,33 @@
       "categories": [
         "Teknik Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660548"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660548",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:18.275186+00:00"
+      }
     },
     {
       "code": "BIL3031",
@@ -1971,7 +3068,36 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660550"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660550",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "graphics_vision"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "gis"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:20.732024+00:00"
+      }
     },
     {
       "code": "BIL3033",
@@ -2016,7 +3142,33 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660551"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660551",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:22.989650+00:00"
+      }
     },
     {
       "code": "BIL3026",
@@ -2062,7 +3214,37 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660670"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660670",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "directx 12",
+          "maya"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:25.444789+00:00"
+      }
     },
     {
       "code": "BIL3029",
@@ -2110,7 +3292,36 @@
       "categories": [
         "Teknik Seçmeli - I"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660549"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660549",
+      "_enriched": {
+        "categories": [
+          "math",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "gis"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:27.654370+00:00"
+      }
     },
     {
       "code": "COM3006",
@@ -2154,7 +3365,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660667"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660667",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:29.961572+00:00"
+      }
     },
     {
       "code": "COM3000",
@@ -2206,7 +3443,34 @@
         "COM1000-Introduction to Computer Programming / COM2001-Object Oriented Programming"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660668"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660668",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:32.303971+00:00"
+      }
     },
     {
       "code": "COM3010",
@@ -2251,7 +3515,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660669"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660669",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:34.707028+00:00"
+      }
     },
     {
       "code": "BIL3002",
@@ -2297,7 +3588,42 @@
       "categories": [
         "Teknik Seçmeli - II"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660681"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660681",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "ajax",
+          "dom",
+          "javascript",
+          "php",
+          "mysql",
+          "xml",
+          "rss"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:37.034458+00:00"
+      }
     },
     {
       "code": "BIL3012",
@@ -2344,7 +3670,34 @@
       "categories": [
         "Teknik Seçmeli - II"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660682"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660682",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:39.676045+00:00"
+      }
     },
     {
       "code": "COM3012",
@@ -2388,7 +3741,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660671"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660671",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:42.030931+00:00"
+      }
     },
     {
       "code": "BIL3004",
@@ -2436,7 +3816,34 @@
       "categories": [
         "Teknik Seçmeli - II"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660683"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660683",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:44.489079+00:00"
+      }
     },
     {
       "code": "BIL3020",
@@ -2483,7 +3890,34 @@
       "categories": [
         "Teknik Seçmeli - II"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660684"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660684",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:46.846458+00:00"
+      }
     },
     {
       "code": "BIL3028",
@@ -2528,7 +3962,33 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli - II"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660685"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660685",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:49.019381+00:00"
+      }
     },
     {
       "code": "BIL4035",
@@ -2562,7 +4022,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660566"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660566",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:51.344837+00:00"
+      }
     },
     {
       "code": "BIL4037",
@@ -2603,7 +4088,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660567"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660567",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:54.067453+00:00"
+      }
     },
     {
       "code": "MHN4001",
@@ -2646,7 +4157,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655044"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=655044",
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:56.367670+00:00"
+      }
     },
     {
       "code": "BIL3030",
@@ -2691,7 +4227,33 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli - II"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660686"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660686",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:55:58.621932+00:00"
+      }
     },
     {
       "code": "BIL4013",
@@ -2738,7 +4300,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660580"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660580",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:01.078574+00:00"
+      }
     },
     {
       "code": "BIL4023",
@@ -2788,7 +4377,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660581"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660581",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:03.544003+00:00"
+      }
     },
     {
       "code": "BIL4005",
@@ -2836,7 +4452,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660582"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660582",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:05.991457+00:00"
+      }
     },
     {
       "code": "BIL4011",
@@ -2882,7 +4525,41 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660598"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660598",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "graphics_vision",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "win32 api",
+          "mfc",
+          "gdi",
+          "directdraw",
+          "direct3d",
+          "visual c++"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:08.451028+00:00"
+      }
     },
     {
       "code": "BIL4003",
@@ -2927,7 +4604,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660596"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660596",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:10.601115+00:00"
+      }
     },
     {
       "code": "BIL4015",
@@ -2973,7 +4677,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660599"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660599",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.28,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:13.673955+00:00"
+      }
     },
     {
       "code": "BIL4017",
@@ -3018,7 +4749,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660600"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660600",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:16.027659+00:00"
+      }
     },
     {
       "code": "BIL4029",
@@ -3063,7 +4821,33 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660606"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660606",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:18.385260+00:00"
+      }
     },
     {
       "code": "BIL4033",
@@ -3106,7 +4890,33 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660608"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660608",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:20.739188+00:00"
+      }
     },
     {
       "code": "BIL4032",
@@ -3140,7 +4950,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660697"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660697",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:23.785926+00:00"
+      }
     },
     {
       "code": "BIL4034",
@@ -3185,7 +5020,34 @@
         "BIL4037-Mühendislik Tasarımı dersinden devam koşulunu sağlamış olmalı"
       ],
       "categories": [],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660698"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660698",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:26.368905+00:00"
+      }
     },
     {
       "code": "BIL4007",
@@ -3230,7 +5092,34 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660597"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660597",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:29.034470+00:00"
+      }
     },
     {
       "code": "BIL4026",
@@ -3275,7 +5164,33 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660706"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660706",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:31.387749+00:00"
+      }
     },
     {
       "code": "BIL4016",
@@ -3324,7 +5239,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660707"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660707",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:33.948032+00:00"
+      }
     },
     {
       "code": "BIL4010",
@@ -3368,7 +5310,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660709"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660709",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:36.506663+00:00"
+      }
     },
     {
       "code": "BIL4018",
@@ -3415,7 +5384,34 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660719"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660719",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "web_mobile",
+          "distributed"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.45,
+          "analyze": 0.18,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:38.968171+00:00"
+      }
     },
     {
       "code": "BIL4008",
@@ -3460,7 +5456,34 @@
       "categories": [
         "Teknik(bölüm) Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660718"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660718",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:41.729957+00:00"
+      }
     },
     {
       "code": "BIL4020",
@@ -3509,7 +5532,145 @@
       "categories": [
         "Bilgisayar Lab. Seçmeli"
       ],
-      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660720"
+      "source_url": "https://katalog.ktu.edu.tr/dersbilgipaketi/course.aspx?pid=9&lang=1&dbid=660720",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:56:44.187811+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 77,
+    "enriched_courses": 77,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T19:56:44.696564+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 21,
+        "total_ects": 92,
+        "required_ects": 60
+      },
+      "programming": {
+        "courses": 24,
+        "total_ects": 112,
+        "required_ects": 62
+      },
+      "systems": {
+        "courses": 30,
+        "total_ects": 123,
+        "required_ects": 77
+      },
+      "ai_ml": {
+        "courses": 7,
+        "total_ects": 28,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 3,
+        "total_ects": 12,
+        "required_ects": 4
+      },
+      "security": {
+        "courses": 5,
+        "total_ects": 21,
+        "required_ects": 9
+      },
+      "web_mobile": {
+        "courses": 2,
+        "total_ects": 8,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 20,
+        "total_ects": 98,
+        "required_ects": 66
+      },
+      "graphics_vision": {
+        "courses": 6,
+        "total_ects": 23,
+        "required_ects": 5
+      },
+      "distributed": {
+        "courses": 6,
+        "total_ects": 28,
+        "required_ects": 16
+      },
+      "theory": {
+        "courses": 28,
+        "total_ects": 120,
+        "required_ects": 92
+      },
+      "info_systems": {
+        "courses": 4,
+        "total_ects": 13,
+        "required_ects": 7
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 7,
+        "total": 7
+      },
+      "data_science": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      },
+      "distributed": {
+        "required": 3,
+        "elective": 3,
+        "total": 6
+      },
+      "graphics_vision": {
+        "required": 1,
+        "elective": 5,
+        "total": 6
+      },
+      "security": {
+        "required": 2,
+        "elective": 3,
+        "total": 5
+      },
+      "software_eng": {
+        "required": 12,
+        "elective": 8,
+        "total": 20
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      }
+    },
+    "earliest_technical_elective_semester": 2,
+    "project_heavy_course_count": 22,
+    "total_project_ects": 88,
+    "english_resources_ratio": 0.7
+  }
 }

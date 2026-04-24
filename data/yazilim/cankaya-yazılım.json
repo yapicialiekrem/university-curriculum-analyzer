@@ -67,7 +67,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:44.370841+00:00"
+      }
     },
     {
       "code": "TURK 101",
@@ -110,7 +136,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:46.620611+00:00"
+      }
     },
     {
       "code": "ENG 121",
@@ -158,7 +209,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:49.138071+00:00"
+      }
     },
     {
       "code": "MATH 157",
@@ -200,7 +276,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:51.849444+00:00"
+      }
     },
     {
       "code": "BIO 101",
@@ -245,7 +346,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "data_science"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:54.301010+00:00"
+      }
     },
     {
       "code": "ESR 103",
@@ -293,7 +420,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:56.655342+00:00"
+      }
     },
     {
       "code": "SENG 101",
@@ -339,7 +491,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:59.227473+00:00"
+      }
     },
     {
       "code": "PHYS 132",
@@ -381,7 +559,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:01.468716+00:00"
+      }
     },
     {
       "code": "TURK 102",
@@ -423,7 +627,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:03.823074+00:00"
+      }
     },
     {
       "code": "ENG 122",
@@ -471,7 +700,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:06.384381+00:00"
+      }
     },
     {
       "code": "MATH 158",
@@ -520,7 +774,33 @@
         "MATH 157"
       ],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:08.843068+00:00"
+      }
     },
     {
       "code": "SENG 102",
@@ -566,7 +846,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:11.235162+00:00"
+      }
     },
     {
       "code": "SENG 106",
@@ -609,7 +915,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:13.551438+00:00"
+      }
     },
     {
       "code": "SENG 201",
@@ -654,7 +986,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:16.111934+00:00"
+      }
     },
     {
       "code": "SENG 203",
@@ -697,7 +1056,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:18.497866+00:00"
+      }
     },
     {
       "code": "SENG 206",
@@ -735,7 +1121,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:20.921397+00:00"
+      }
     },
     {
       "code": "SENG 271",
@@ -779,7 +1191,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:23.279023+00:00"
+      }
     },
     {
       "code": "HIST 201",
@@ -826,7 +1265,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:25.633457+00:00"
+      }
     },
     {
       "code": "MATH 223",
@@ -868,7 +1332,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:27.992396+00:00"
+      }
     },
     {
       "code": "ELEC 1",
@@ -887,7 +1377,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:30.113266+00:00"
+      }
     },
     {
       "code": "HIST 202",
@@ -929,7 +1444,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.4,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:32.392986+00:00"
+      }
     },
     {
       "code": "MATH 205",
@@ -976,7 +1516,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:34.748793+00:00"
+      }
     },
     {
       "code": "CENG 383",
@@ -1018,7 +1584,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:37.252950+00:00"
+      }
     },
     {
       "code": "SENG 205",
@@ -1066,7 +1658,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:39.869567+00:00"
+      }
     },
     {
       "code": "MATH 254",
@@ -1113,7 +1731,33 @@
         "MATH 157"
       ],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:42.462784+00:00"
+      }
     },
     {
       "code": "SENG 272",
@@ -1156,7 +1800,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:44.784754+00:00"
+      }
     },
     {
       "code": "ELEC 4",
@@ -1175,7 +1845,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:46.966355+00:00"
+      }
     },
     {
       "code": "SENG 301",
@@ -1219,7 +1914,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:49.412413+00:00"
+      }
     },
     {
       "code": "SENG 303",
@@ -1264,7 +1985,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:52.773682+00:00"
+      }
     },
     {
       "code": "SENG 315",
@@ -1310,7 +2058,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:55.330749+00:00"
+      }
     },
     {
       "code": "SENG 383",
@@ -1348,7 +2122,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:51:57.789684+00:00"
+      }
     },
     {
       "code": "SENG 200",
@@ -1377,7 +2178,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:00.043145+00:00"
+      }
     },
     {
       "code": "ELEC 3",
@@ -1396,7 +2222,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:02.498779+00:00"
+      }
     },
     {
       "code": "ELEC 5",
@@ -1415,7 +2266,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:04.956578+00:00"
+      }
     },
     {
       "code": "SENG 306",
@@ -1459,7 +2335,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:07.516468+00:00"
+      }
     },
     {
       "code": "SENG 326",
@@ -1500,7 +2403,37 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "microservice",
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:10.280824+00:00"
+      }
     },
     {
       "code": "SENG 384",
@@ -1542,7 +2475,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:12.845513+00:00"
+      }
     },
     {
       "code": "SENG 352",
@@ -1594,7 +2554,34 @@
         "MATH 223"
       ],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:15.748103+00:00"
+      }
     },
     {
       "code": "ELEC 7",
@@ -1613,7 +2600,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:18.547740+00:00"
+      }
     },
     {
       "code": "ELEC 6",
@@ -1632,7 +2644,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.4,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:20.701300+00:00"
+      }
     },
     {
       "code": "ELEC 8",
@@ -1651,7 +2688,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:23.492208+00:00"
+      }
     },
     {
       "code": "ELEC 11",
@@ -1670,7 +2732,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:25.813397+00:00"
+      }
     },
     {
       "code": "SENG 491",
@@ -1710,7 +2797,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:28.146583+00:00"
+      }
     },
     {
       "code": "SENG 300",
@@ -1741,7 +2854,34 @@
         "SENG 200"
       ],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:30.659301+00:00"
+      }
     },
     {
       "code": "ELEC 12",
@@ -1760,7 +2900,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:32.911748+00:00"
+      }
     },
     {
       "code": "ELEC 13",
@@ -1779,7 +2944,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:35.258667+00:00"
+      }
     },
     {
       "code": "ELEC 9",
@@ -1798,7 +2988,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:37.520752+00:00"
+      }
     },
     {
       "code": "ELEC 10",
@@ -1817,7 +3032,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:39.746944+00:00"
+      }
     },
     {
       "code": "ELEC 6",
@@ -1836,7 +3076,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:42.177838+00:00"
+      }
     },
     {
       "code": "SENG 492",
@@ -1876,7 +3142,144 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering"
+      "source_url": "https://bilgipaketi.cankaya.edu.tr/program-detay/404203?n=Yazılım+Mühendisliği&ne=Software+Engineering",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:44.327058+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 50,
+    "enriched_courses": 50,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T21:52:44.834111+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 9,
+        "total_ects": 47,
+        "required_ects": 47
+      },
+      "programming": {
+        "courses": 11,
+        "total_ects": 61,
+        "required_ects": 57
+      },
+      "systems": {
+        "courses": 10,
+        "total_ects": 51,
+        "required_ects": 51
+      },
+      "ai_ml": {
+        "courses": 1,
+        "total_ects": 6,
+        "required_ects": 6
+      },
+      "data_science": {
+        "courses": 3,
+        "total_ects": 17,
+        "required_ects": 17
+      },
+      "security": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 19,
+        "total_ects": 101,
+        "required_ects": 97
+      },
+      "graphics_vision": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 1,
+        "total_ects": 5,
+        "required_ects": 5
+      },
+      "theory": {
+        "courses": 8,
+        "total_ects": 42,
+        "required_ects": 42
+      },
+      "info_systems": {
+        "courses": 4,
+        "total_ects": 21,
+        "required_ects": 21
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 0,
+        "total": 1
+      },
+      "data_science": {
+        "required": 3,
+        "elective": 0,
+        "total": 3
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 0,
+        "total": 1
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "security": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "software_eng": {
+        "required": 18,
+        "elective": 1,
+        "total": 19
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      }
+    },
+    "earliest_technical_elective_semester": 8,
+    "project_heavy_course_count": 10,
+    "total_project_ects": 53,
+    "english_resources_ratio": 0.59
+  }
 }

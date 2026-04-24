@@ -77,7 +77,32 @@
         "PHYS 101"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029085601"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029085601",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:22.182649+00:00"
+      }
     },
     {
       "code": "ENG 102",
@@ -119,7 +144,32 @@
         "ENG 101"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029081476"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029081476",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:24.539950+00:00"
+      }
     },
     {
       "code": "TRL 102",
@@ -159,7 +209,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029091694"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029091694",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:27.006379+00:00"
+      }
     },
     {
       "code": "MATH 104",
@@ -205,7 +280,33 @@
         "MATH103"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029074779"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029074779",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:29.556246+00:00"
+      }
     },
     {
       "code": "CS 102",
@@ -250,7 +351,33 @@
         "CS 103"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028951173"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028951173",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:32.013517+00:00"
+      }
     },
     {
       "code": "TLL 102",
@@ -295,7 +422,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979442"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979442",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.2,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:34.573306+00:00"
+      }
     },
     {
       "code": "CS 101",
@@ -337,7 +489,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028995674"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028995674",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:36.861859+00:00"
+      }
     },
     {
       "code": "PHYS 101",
@@ -380,7 +558,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029091995"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029091995",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:39.284513+00:00"
+      }
     },
     {
       "code": "ENG 101",
@@ -420,7 +623,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029082436"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029082436",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.2,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:41.600278+00:00"
+      }
     },
     {
       "code": "MATH 103",
@@ -463,7 +691,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029060371"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029060371",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:43.892479+00:00"
+      }
     },
     {
       "code": "TLL 101",
@@ -508,7 +761,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979432"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979432",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:46.193236+00:00"
+      }
     },
     {
       "code": "TRL 101",
@@ -550,7 +828,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029089961"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029089961",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:48.615309+00:00"
+      }
     },
     {
       "code": "HIST 202",
@@ -595,7 +898,32 @@
         "HIST 201"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029054977"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029054977",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.4,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:51.079706+00:00"
+      }
     },
     {
       "code": "CS 240",
@@ -639,7 +967,34 @@
         "EE 203"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029093741"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029093741",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:53.416189+00:00"
+      }
     },
     {
       "code": "MATH 212",
@@ -684,7 +1039,33 @@
         "MATH 104"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029798843"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029798843",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:55.771755+00:00"
+      }
     },
     {
       "code": "ECON 210",
@@ -709,7 +1090,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029131093"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029131093",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:58.122637+00:00"
+      }
     },
     {
       "code": "TRL 202",
@@ -746,7 +1152,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029074149"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029074149",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:00.685569+00:00"
+      }
     },
     {
       "code": "CS 201",
@@ -792,7 +1223,34 @@
         "MATH 112"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979683"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979683",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:03.143097+00:00"
+      }
     },
     {
       "code": "HIST 201",
@@ -835,7 +1293,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029032786"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029032786",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:05.655671+00:00"
+      }
     },
     {
       "code": "CS 112",
@@ -881,7 +1364,34 @@
         "CS 104"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028953452"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028953452",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:08.057912+00:00"
+      }
     },
     {
       "code": "MATH 211",
@@ -925,7 +1435,33 @@
         "MATH 103"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029824960"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029824960",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:10.620386+00:00"
+      }
     },
     {
       "code": "MATH 217",
@@ -971,7 +1507,34 @@
         "MATH 103"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029114154"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029114154",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:13.226662+00:00"
+      }
     },
     {
       "code": "EE 203",
@@ -1015,7 +1578,37 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029047463"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029047463",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "verilog",
+          "fpga"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:15.732278+00:00"
+      }
     },
     {
       "code": "SEC 201",
@@ -1056,7 +1649,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029115548"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029115548",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:18.195833+00:00"
+      }
     },
     {
       "code": "CS 333",
@@ -1100,7 +1718,33 @@
         "CS 201"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979722"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028979722",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:20.448918+00:00"
+      }
     },
     {
       "code": "CS 447",
@@ -1145,7 +1789,34 @@
         "CS 201"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028975100"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028975100",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:22.757770+00:00"
+      }
     },
     {
       "code": "CSC 394",
@@ -1171,7 +1842,33 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:24.956573+00:00"
+      }
     },
     {
       "code": "CSC 395",
@@ -1197,7 +1894,34 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:27.412252+00:00"
+      }
     },
     {
       "code": "CSC 397",
@@ -1223,7 +1947,36 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:29.809467+00:00"
+      }
     },
     {
       "code": "CSC 399",
@@ -1251,7 +2004,32 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "security"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.02,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:32.225201+00:00"
+      }
     },
     {
       "code": "CSC 392",
@@ -1277,7 +2055,33 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:34.838847+00:00"
+      }
     },
     {
       "code": "AIC 390",
@@ -1306,7 +2110,33 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:37.244084+00:00"
+      }
     },
     {
       "code": "CSC 396",
@@ -1332,7 +2162,32 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "security"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:39.392687+00:00"
+      }
     },
     {
       "code": "CSC 393",
@@ -1358,7 +2213,35 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "spring framework"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:41.649429+00:00"
+      }
     },
     {
       "code": "CSC 391",
@@ -1384,7 +2267,33 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029070995"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029070995",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:43.894671+00:00"
+      }
     },
     {
       "code": "CSC 390",
@@ -1408,7 +2317,33 @@
         "FE Sertifika Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:46.151621+00:00"
+      }
     },
     {
       "code": "FE 301",
@@ -1443,7 +2378,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029553660"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029553660",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:48.496846+00:00"
+      }
     },
     {
       "code": "CS 410",
@@ -1490,7 +2450,32 @@
         "CS 112"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029603816"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029603816",
+      "_enriched": {
+        "categories": [
+          "theory"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:50.964971+00:00"
+      }
     },
     {
       "code": "CS 320",
@@ -1535,7 +2520,33 @@
         "CS 202"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028951513"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028951513",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:53.319636+00:00"
+      }
     },
     {
       "code": "CS 350",
@@ -1563,7 +2574,33 @@
         "CS 201"
       ],
       "categories": [],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:55.678159+00:00"
+      }
     },
     {
       "code": "BUS 101",
@@ -1602,7 +2639,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029091005"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029091005",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:14:58.029625+00:00"
+      }
     },
     {
       "code": "CS 321",
@@ -1629,7 +2693,34 @@
         "CS 201"
       ],
       "categories": [],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:00.369939+00:00"
+      }
     },
     {
       "code": "CS 300",
@@ -1653,7 +2744,32 @@
         "SEC 201"
       ],
       "categories": [],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:02.535121+00:00"
+      }
     },
     {
       "code": "ENG 303",
@@ -1697,7 +2813,32 @@
         "ENG106"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029082045"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029082045",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:04.892413+00:00"
+      }
     },
     {
       "code": "CS 202",
@@ -1740,7 +2881,34 @@
         "CS 201"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029458594"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029458594",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:07.245806+00:00"
+      }
     },
     {
       "code": "CS 418",
@@ -1788,7 +2956,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028965306"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028965306",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:10.014558+00:00"
+      }
     },
     {
       "code": "CS 468",
@@ -1819,7 +3014,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:12.570933+00:00"
+      }
     },
     {
       "code": "CS 460",
@@ -1850,7 +3072,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:15.028287+00:00"
+      }
     },
     {
       "code": "CS 442",
@@ -1881,7 +3130,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:17.372362+00:00"
+      }
     },
     {
       "code": "CS 490",
@@ -1908,7 +3184,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "data_science"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:20.253028+00:00"
+      }
     },
     {
       "code": "CS 422",
@@ -1941,7 +3244,36 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "opengl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:22.811505+00:00"
+      }
     },
     {
       "code": "CS 423",
@@ -1997,7 +3329,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029444878"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029444878",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:25.268554+00:00"
+      }
     },
     {
       "code": "CS 412",
@@ -2026,7 +3385,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:27.740341+00:00"
+      }
     },
     {
       "code": "CS 456",
@@ -2059,7 +3445,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "distributed"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:30.492928+00:00"
+      }
     },
     {
       "code": "CS 476",
@@ -2106,7 +3519,36 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029318018"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029318018",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "waterfall"
+        ],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:32.949291+00:00"
+      }
     },
     {
       "code": "CS 435",
@@ -2135,7 +3577,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:35.442264+00:00"
+      }
     },
     {
       "code": "CS 462",
@@ -2171,7 +3640,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "distributed"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:37.871418+00:00"
+      }
     },
     {
       "code": "CS 427",
@@ -2202,7 +3698,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:40.321094+00:00"
+      }
     },
     {
       "code": "CS 450",
@@ -2256,7 +3779,39 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029165743"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029165743",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "security"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "docker",
+          "kubernetes",
+          "blockchain",
+          "microservice"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:42.898456+00:00"
+      }
     },
     {
       "code": "CS 413",
@@ -2280,7 +3835,33 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:45.339994+00:00"
+      }
     },
     {
       "code": "CS 466",
@@ -2330,7 +3911,36 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028953473"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000028953473",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "transformer"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:47.929271+00:00"
+      }
     },
     {
       "code": "CS 444",
@@ -2359,7 +3969,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:50.333612+00:00"
+      }
     },
     {
       "code": "CS 449",
@@ -2408,7 +4045,37 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029026029"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029026029",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "transformer",
+          "llm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:53.123352+00:00"
+      }
     },
     {
       "code": "CS 440",
@@ -2446,7 +4113,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:57.012638+00:00"
+      }
     },
     {
       "code": "CS 409",
@@ -2490,7 +4184,41 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029079651"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029079651",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "c++17",
+          "ranges",
+          "coroutines",
+          "templates",
+          "lambdas",
+          "stl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:15:59.674893+00:00"
+      }
     },
     {
       "code": "CS 458",
@@ -2522,7 +4250,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.1
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:02.207046+00:00"
+      }
     },
     {
       "code": "CS 443",
@@ -2552,7 +4307,33 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:04.503355+00:00"
+      }
     },
     {
       "code": "CS 480",
@@ -2584,7 +4365,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "security"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:06.843482+00:00"
+      }
     },
     {
       "code": "CS 110",
@@ -2616,7 +4424,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:09.300989+00:00"
+      }
     },
     {
       "code": "CS 446",
@@ -2669,7 +4504,38 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029118026"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029118026",
+      "_enriched": {
+        "categories": [
+          "security",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "software defined networking",
+          "peer to peer networks"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:12.577500+00:00"
+      }
     },
     {
       "code": "CS 428",
@@ -2695,7 +4561,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "graphics_vision",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:15.548010+00:00"
+      }
     },
     {
       "code": "CS 426",
@@ -2724,7 +4617,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:18.004806+00:00"
+      }
     },
     {
       "code": "CS 419",
@@ -2754,7 +4674,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:20.257436+00:00"
+      }
     },
     {
       "code": "CS 445",
@@ -2806,7 +4753,36 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029073972"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029073972",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "pytorch"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.18,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:22.817924+00:00"
+      }
     },
     {
       "code": "CS 222",
@@ -2836,7 +4812,33 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:25.009366+00:00"
+      }
     },
     {
       "code": "CS 452",
@@ -2866,7 +4868,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:27.182060+00:00"
+      }
     },
     {
       "code": "CS 471",
@@ -2897,7 +4926,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:29.373327+00:00"
+      }
     },
     {
       "code": "CS 441",
@@ -2922,7 +4978,33 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:31.668979+00:00"
+      }
     },
     {
       "code": "CS 454",
@@ -2955,7 +5037,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:33.980564+00:00"
+      }
     },
     {
       "code": "CS 451",
@@ -3007,7 +5116,34 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029424166"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029424166",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:36.440958+00:00"
+      }
     },
     {
       "code": "CS 434",
@@ -3036,7 +5172,33 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:38.796639+00:00"
+      }
     },
     {
       "code": "CS 475",
@@ -3066,7 +5228,33 @@
         "BSCS Program İçi Seçmeli",
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:41.899899+00:00"
+      }
     },
     {
       "code": "CS 402",
@@ -3107,7 +5295,34 @@
         "CS 401"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029079922"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029079922",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.02,
+          "understand": 0.08,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.4
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:44.221335+00:00"
+      }
     },
     {
       "code": "AI 350",
@@ -3130,7 +5345,34 @@
       "categories": [
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:47.264600+00:00"
+      }
     },
     {
       "code": "AI 425",
@@ -3162,7 +5404,39 @@
       "categories": [
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "llm",
+          "transformer",
+          "lora",
+          "reinforcement learning"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:49.732312+00:00"
+      }
     },
     {
       "code": "AI 202",
@@ -3195,7 +5469,34 @@
       "categories": [
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:52.310359+00:00"
+      }
     },
     {
       "code": "AI 444",
@@ -3219,7 +5520,32 @@
       "categories": [
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:54.767806+00:00"
+      }
     },
     {
       "code": "AI 201",
@@ -3252,7 +5578,34 @@
       "categories": [
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029026026"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029026026",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:57.121934+00:00"
+      }
     },
     {
       "code": "AI 303",
@@ -3276,7 +5629,32 @@
       "categories": [
         "FE Serbest Seçmeli"
       ],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "ai_ml"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:16:59.581141+00:00"
+      }
     },
     {
       "code": "CS 401",
@@ -3324,7 +5702,34 @@
         "CS350"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029079898"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029079898",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "ai_ml"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:17:01.937457+00:00"
+      }
     },
     {
       "code": "BUS 102",
@@ -3370,7 +5775,33 @@
         "BUS 100"
       ],
       "categories": [],
-      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029062811"
+      "source_url": "https://sis.ozyegin.edu.tr/OZU_GWT/WEB/OpenDocumentUI?locale=tr&plm=1&docID=8490000029062811",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:17:04.292283+00:00"
+      }
     },
     {
       "code": "CS 400",
@@ -3394,7 +5825,144 @@
         "SEC 201"
       ],
       "categories": [],
-      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri"
+      "source_url": "https://cs.ozyegin.edu.tr/tr/lisans-programi/ders-icerikleri",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:17:06.541451+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 92,
+    "enriched_courses": 92,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T20:17:07.052462+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 18,
+        "total_ects": 110,
+        "required_ects": 50
+      },
+      "programming": {
+        "courses": 29,
+        "total_ects": 166,
+        "required_ects": 62
+      },
+      "systems": {
+        "courses": 28,
+        "total_ects": 160,
+        "required_ects": 40
+      },
+      "ai_ml": {
+        "courses": 21,
+        "total_ects": 124,
+        "required_ects": 4
+      },
+      "data_science": {
+        "courses": 11,
+        "total_ects": 64,
+        "required_ects": 10
+      },
+      "security": {
+        "courses": 9,
+        "total_ects": 50,
+        "required_ects": 6
+      },
+      "web_mobile": {
+        "courses": 4,
+        "total_ects": 16,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 25,
+        "total_ects": 134,
+        "required_ects": 42
+      },
+      "graphics_vision": {
+        "courses": 4,
+        "total_ects": 24,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 11,
+        "total_ects": 62,
+        "required_ects": 6
+      },
+      "theory": {
+        "courses": 25,
+        "total_ects": 152,
+        "required_ects": 68
+      },
+      "info_systems": {
+        "courses": 8,
+        "total_ects": 38,
+        "required_ects": 18
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 20,
+        "total": 21
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 9,
+        "total": 11
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 10,
+        "total": 11
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 4,
+        "total": 4
+      },
+      "security": {
+        "required": 1,
+        "elective": 8,
+        "total": 9
+      },
+      "software_eng": {
+        "required": 8,
+        "elective": 17,
+        "total": 25
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 4,
+        "total": 4
+      }
+    },
+    "earliest_technical_elective_semester": 6,
+    "project_heavy_course_count": 22,
+    "total_project_ects": 112,
+    "english_resources_ratio": 0.3
+  }
 }

@@ -50,7 +50,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=pZXcOnGni0KEOWzI4d%7CBxTw9RAStmU4a%7Cw8IvZ2wGwoVt6q6fMUsT3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=pZXcOnGni0KEOWzI4d%7CBxTw9RAStmU4a%7Cw8IvZ2wGwoVt6q6fMUsT3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:37.073366+00:00"
+      }
     },
     {
       "code": "TDL1110400",
@@ -86,7 +111,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=qAdr9pXqxTyHxeUyKZQpDcX_7dB0GKPigHniKJ10V_2iW9itZ%7Cz3O3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=qAdr9pXqxTyHxeUyKZQpDcX_7dB0GKPigHniKJ10V_2iW9itZ%7Cz3O3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:39.398233+00:00"
+      }
     },
     {
       "code": "COE1110745",
@@ -112,7 +162,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ZMoTODeXmirQ24WY8P9bLV1FQ0NDTzl3mr1_yav6guByHp_vmVj_7HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ZMoTODeXmirQ24WY8P9bLV1FQ0NDTzl3mr1_yav6guByHp_vmVj_7HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:41.578246+00:00"
+      }
     },
     {
       "code": "COE1110746",
@@ -137,7 +212,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=t80Wf1OexPJPNRmmP5%7Cpwp3m6aI2gSFIpbxfkEYbCqTkt3ZfM7YDHXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=t80Wf1OexPJPNRmmP5%7Cpwp3m6aI2gSFIpbxfkEYbCqTkt3ZfM7YDHXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "math"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:43.736704+00:00"
+      }
     },
     {
       "code": "COE1110747",
@@ -156,7 +257,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=sMJXbed20cosjCghc0oPBIXLVdSKUbwrU%7ClIUv%7CsXIqiW9itZ%7Cz3O3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=sMJXbed20cosjCghc0oPBIXLVdSKUbwrU%7ClIUv%7CsXIqiW9itZ%7Cz3O3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:45.985100+00:00"
+      }
     },
     {
       "code": "COE1110748",
@@ -181,7 +307,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=MLGPgGcsfhun0vzxA4rCIg0FyM1jvnEiZo4uhfR794yAIS_PpMf6N3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=MLGPgGcsfhun0vzxA4rCIg0FyM1jvnEiZo4uhfR794yAIS_PpMf6N3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "ai_ml"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:48.224865+00:00"
+      }
     },
     {
       "code": "COE1110749",
@@ -206,7 +359,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=FE5LyUQlJ16HD854QMY4pvEeaY_CeaAhVyH7A5D5moJmO82q3EhxVnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=FE5LyUQlJ16HD854QMY4pvEeaY_CeaAhVyH7A5D5moJmO82q3EhxVnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:50.578920+00:00"
+      }
     },
     {
       "code": "COE1116666",
@@ -232,7 +410,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=BIhtPfxYNnjN7ZU4keIJKnG%7CJZsigWFajbW6Ke%7Cm4gjZBP%7Cj5aEKi3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnY"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=BIhtPfxYNnjN7ZU4keIJKnG%7CJZsigWFajbW6Ke%7Cm4gjZBP%7Cj5aEKi3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnY",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:52.945272+00:00"
+      }
     },
     {
       "code": "COE1110751",
@@ -261,7 +464,33 @@
         "MATEMATİK HAZIRLIK"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=0_oy5vcCU%7CoMmxA2yiOzPGNIiXLy8cYRyRSYCrsdnT7wuHf1JUe5w3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=0_oy5vcCU%7CoMmxA2yiOzPGNIiXLy8cYRyRSYCrsdnT7wuHf1JUe5w3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:55.403841+00:00"
+      }
     },
     {
       "code": "COE1113180",
@@ -287,7 +516,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ekAyIQU9K9pKvSP5U9VX8EziOH4rUfN6AaEWiROAuTYAKpp0Sn72N3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ekAyIQU9K9pKvSP5U9VX8EziOH4rUfN6AaEWiROAuTYAKpp0Sn72N3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:04:57.576507+00:00"
+      }
     },
     {
       "code": "COE1110781",
@@ -314,7 +569,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=0d59t6N749z7Xk%7Cuq2yDcPP5c8yu83P73zsy3RInwqn849QHGn5penRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=0d59t6N749z7Xk%7Cuq2yDcPP5c8yu83P73zsy3RInwqn849QHGn5penRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:00.019011+00:00"
+      }
     },
     {
       "code": "COE1110757",
@@ -345,7 +625,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=EbNQGuYTuzgS0ZsoyPdrPQEQmRfJ3AtWkg54QYOGxq4ucrzEyzzUhHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=EbNQGuYTuzgS0ZsoyPdrPQEQmRfJ3AtWkg54QYOGxq4ucrzEyzzUhHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:02.469917+00:00"
+      }
     },
     {
       "code": "ATA1210500",
@@ -371,7 +676,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=hSjEZzljWdUpqGw39ZKReP4Shv7ceEPxpr8TXhd_KfTnSZUBOCiSmHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=hSjEZzljWdUpqGw39ZKReP4Shv7ceEPxpr8TXhd_KfTnSZUBOCiSmHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:04.619580+00:00"
+      }
     },
     {
       "code": "TDL1210600",
@@ -403,7 +733,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=QEy3y6hc9JIA6r47U1kmf6XyAlECNLKkUpqtwbonekTc%7CMzl%7CT7qd3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=QEy3y6hc9JIA6r47U1kmf6XyAlECNLKkUpqtwbonekTc%7CMzl%7CT7qd3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:06.893210+00:00"
+      }
     },
     {
       "code": "COE1210745",
@@ -429,7 +784,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=3SDzdesovNSpaR7JYpTPsc1gbnZ5shq6NYvYx9XjNGOFitArn8X3oHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=3SDzdesovNSpaR7JYpTPsc1gbnZ5shq6NYvYx9XjNGOFitArn8X3oHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:09.226468+00:00"
+      }
     },
     {
       "code": "COE1216666",
@@ -470,7 +850,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=DuA7rfvsPpS2XcHwu3hMvFPcrU1zB1ZnHgHda_LbuYXFzoN6BxHB83Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=DuA7rfvsPpS2XcHwu3hMvFPcrU1zB1ZnHgHda_LbuYXFzoN6BxHB83Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:11.889805+00:00"
+      }
     },
     {
       "code": "COE1210751",
@@ -499,7 +904,32 @@
         "MATEMATİK HAZIRLIK"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=IWBUkDhTxIbO78MTEoWQlTaO3sLImqQVX67nZvarK_2EQRCQHGDOA3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=IWBUkDhTxIbO78MTEoWQlTaO3sLImqQVX67nZvarK_2EQRCQHGDOA3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:14.250753+00:00"
+      }
     },
     {
       "code": "COE1210752",
@@ -526,7 +956,33 @@
         "MATEMATİK I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=F131wkV7CBwWph29xWLiUf6ubjQJOr3jAfmQCsjweJSuhrD_N9eh8XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=F131wkV7CBwWph29xWLiUf6ubjQJOr3jAfmQCsjweJSuhrD_N9eh8XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:16.600468+00:00"
+      }
     },
     {
       "code": "COE1210753",
@@ -553,7 +1009,32 @@
         "MATEMATİK I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bbJFiOJ15Q7lXYnAz3UNQZLZWdBn5HuopaeNHIVb%7CyDad681PgWJhnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bbJFiOJ15Q7lXYnAz3UNQZLZWdBn5HuopaeNHIVb%7CyDad681PgWJhnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:19.056852+00:00"
+      }
     },
     {
       "code": "COE1210755",
@@ -578,7 +1059,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=CaKJH8U6HwjuKxjDlblJ8Rb8fwqBvfmIPuSfXOI9p051MevXC6kt_3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=CaKJH8U6HwjuKxjDlblJ8Rb8fwqBvfmIPuSfXOI9p051MevXC6kt_3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:21.414636+00:00"
+      }
     },
     {
       "code": "COE1212508",
@@ -608,7 +1114,39 @@
         "PROGRAMLAMAYA GİRİŞ"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=nVr2RKrRwc3wSJtPVdTQ0f4clmj%7CHBNzfPMtkcFlWjmNi6Hc8iFUCHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=nVr2RKrRwc3wSJtPVdTQ0f4clmj%7CHBNzfPMtkcFlWjmNi6Hc8iFUCHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "numpy",
+          "scipy",
+          "pandas",
+          "json"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:23.876058+00:00"
+      }
     },
     {
       "code": "COE1213180",
@@ -634,7 +1172,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Jkky_xg3up%7CcipavPvgtNXIP1fmgXX3H53WFn9G0vfCVryLuV9qFy3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Jkky_xg3up%7CcipavPvgtNXIP1fmgXX3H53WFn9G0vfCVryLuV9qFy3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:26.330000+00:00"
+      }
     },
     {
       "code": "COE1210757",
@@ -665,7 +1229,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=mmaK8pIj%7CrfBMPI2FyNA99REHmTJ82nUyHz0tP_Le8UAji1bCb_jinRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=mmaK8pIj%7CrfBMPI2FyNA99REHmTJ82nUyHz0tP_Le8UAji1bCb_jinRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:28.683244+00:00"
+      }
     },
     {
       "code": "COE1213240",
@@ -692,7 +1281,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=%7CYl7rroCiZgX4z3a2B8KhwQbjGT_QMdMWxkaB82JNqAMqZ2fynPf6XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=%7CYl7rroCiZgX4z3a2B8KhwQbjGT_QMdMWxkaB82JNqAMqZ2fynPf6XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:31.038116+00:00"
+      }
     },
     {
       "code": "COE2112504",
@@ -718,7 +1332,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=VgMgDEm_e9GpTgrP4QUj3aKVWWz8Byc6Gedq6KXiOz02IfByG4jIrHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=VgMgDEm_e9GpTgrP4QUj3aKVWWz8Byc6Gedq6KXiOz02IfByG4jIrHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:33.292228+00:00"
+      }
     },
     {
       "code": "COE2114258",
@@ -745,7 +1386,33 @@
         "MATEMATİK II"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=6QfZhP7r0zVxQ6O4%7ChlfgEEjwJJ6avArsIfu9ONRn8_WJotMWE0G53Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=6QfZhP7r0zVxQ6O4%7ChlfgEEjwJJ6avArsIfu9ONRn8_WJotMWE0G53Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:35.646409+00:00"
+      }
     },
     {
       "code": "COE2110759",
@@ -772,7 +1439,33 @@
         "PROGRAMLAMAYA GİRİŞ"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=LVOoFKhjdSXyOSqXgsE_1inPh3xrgKX9dINnPpKGwUTED5Ean0o14HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=LVOoFKhjdSXyOSqXgsE_1inPh3xrgKX9dINnPpKGwUTED5Ean0o14HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:38.104189+00:00"
+      }
     },
     {
       "code": "COE2119550",
@@ -799,7 +1492,33 @@
         "MATEMATİK I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=m5zrTwJvgVYNgdYE2nutSeXe7BKl5VczRamMgCm7IWCrI3aRAQ7AYnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=m5zrTwJvgVYNgdYE2nutSeXe7BKl5VczRamMgCm7IWCrI3aRAQ7AYnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:40.666966+00:00"
+      }
     },
     {
       "code": "COE2113250",
@@ -841,7 +1560,33 @@
         "PROGRAMLAMAYA GİRİŞ"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Rm4v2wo18OyAtBi5QFFVk9quHRJIhO02a1PqNwVk%7CaCUOq5yxOmVT3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Rm4v2wo18OyAtBi5QFFVk9quHRJIhO02a1PqNwVk%7CaCUOq5yxOmVT3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:43.095359+00:00"
+      }
     },
     {
       "code": "COE2149080",
@@ -868,7 +1613,33 @@
         "MATEMATİK II"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=dWBC9xgFIK_OReE_LiUEZ983aMXwWi%7CMagm7AKB50kPWioj2MR0e1XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=dWBC9xgFIK_OReE_LiUEZ983aMXwWi%7CMagm7AKB50kPWioj2MR0e1XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:46.296203+00:00"
+      }
     },
     {
       "code": "COE2218970",
@@ -894,7 +1665,33 @@
         "MATEMATİK I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ndZ44I6TnpNjCgMxpoYjTm5C3IjGlo98xir9GmFtgupUaKq2yKFMDXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ndZ44I6TnpNjCgMxpoYjTm5C3IjGlo98xir9GmFtgupUaKq2yKFMDXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:48.539294+00:00"
+      }
     },
     {
       "code": "COE2233850",
@@ -923,7 +1720,34 @@
         "PROGRAMLAMAYA GİRİŞ"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=rGUXBDxzLYcr%7CG9VrsDTth3IKvqugXPoB3AqYcxYnM4Z7JjSB2JKt3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=rGUXBDxzLYcr%7CG9VrsDTth3IKvqugXPoB3AqYcxYnM4Z7JjSB2JKt3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:50.905428+00:00"
+      }
     },
     {
       "code": "COE2233880",
@@ -949,7 +1773,34 @@
         "SAYISAL MANTIK TASARIMI"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=d9CPUYbK7SjK5kmqKg6kwntyqs9bb4Edjy8d51i8VCJmx_R86dGKmXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=d9CPUYbK7SjK5kmqKg6kwntyqs9bb4Edjy8d51i8VCJmx_R86dGKmXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:53.611027+00:00"
+      }
     },
     {
       "code": "COE2210759",
@@ -976,7 +1827,33 @@
         "PROGRAMLAMAYA GİRİŞ"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=c00eTFP8XCeSn537NiO9kk59hUZ0pbEG6Q7afNbaPioEiSUMoKzJIXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=c00eTFP8XCeSn537NiO9kk59hUZ0pbEG6Q7afNbaPioEiSUMoKzJIXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:56.126660+00:00"
+      }
     },
     {
       "code": "COE2219550",
@@ -1003,7 +1880,33 @@
         "MATEMATİK I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=0jlC%7CkhNMqXCdpgeMy5V7zuWQim0UizVA2_6rrDX1VM1PqTeiWe62HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=0jlC%7CkhNMqXCdpgeMy5V7zuWQim0UizVA2_6rrDX1VM1PqTeiWe62HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:05:58.686375+00:00"
+      }
     },
     {
       "code": "COE2213250",
@@ -1045,7 +1948,33 @@
         "PROGRAMLAMAYA GİRİŞ"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=GXOp6THbeUKLuO5gpn6D1aRRUlJ%7CE4w6hQsqukkiKB8BI6R1H4aFonRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=GXOp6THbeUKLuO5gpn6D1aRRUlJ%7CE4w6hQsqukkiKB8BI6R1H4aFonRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:01.166508+00:00"
+      }
     },
     {
       "code": "COE2249080",
@@ -1072,7 +2001,33 @@
         "MATEMATİK II"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=xL0Zk2chY377ma6KtfCJwzpqPbLkEiuHxRwM1ZEeddUWGqCPxTFABXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=xL0Zk2chY377ma6KtfCJwzpqPbLkEiuHxRwM1ZEeddUWGqCPxTFABXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:03.603001+00:00"
+      }
     },
     {
       "code": "COE3113191",
@@ -1094,7 +2049,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=At6DpQz74QwG3Flk4B2VIujWa0rcyVll19JbLAlo3Pl6z2mZ1gyeVXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=At6DpQz74QwG3Flk4B2VIujWa0rcyVll19JbLAlo3Pl6z2mZ1gyeVXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:05.994337+00:00"
+      }
     },
     {
       "code": "COE3110758",
@@ -1123,7 +2104,34 @@
         "VERİ YAPILARI"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=q5hI6IctVgxE09y_WvogDRs3jUt5FZ36ZL0OX43jj79_JzmZs59YGnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=q5hI6IctVgxE09y_WvogDRs3jUt5FZ36ZL0OX43jj79_JzmZs59YGnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:08.517077+00:00"
+      }
     },
     {
       "code": "COE3115963",
@@ -1154,7 +2162,33 @@
         "Programming for Engineers"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=nphqIU5QU0p9aILlf0amfdzoIiOltwOoCOAGJNueSrrYYee_yTXBgXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=nphqIU5QU0p9aILlf0amfdzoIiOltwOoCOAGJNueSrrYYee_yTXBgXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:11.055481+00:00"
+      }
     },
     {
       "code": "COE3149640",
@@ -1183,7 +2217,34 @@
         "Introduction to Programming"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bY09HsrslqaF3SOjNwiLRnooEvOENdK05teO4gB2e5kthFjrW6N8l3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bY09HsrslqaF3SOjNwiLRnooEvOENdK05teO4gB2e5kthFjrW6N8l3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJX",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:13.457398+00:00"
+      }
     },
     {
       "code": "COE3167930",
@@ -1211,7 +2272,34 @@
         "NESNE TABANLI PROGRAMLAMA"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=d4bXXDGkrTq74aRLp1uKGPJs1pGJqgjq_xJhmJhKjGwf1JoAE%7CUN8HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=d4bXXDGkrTq74aRLp1uKGPJs1pGJqgjq_xJhmJhKjGwf1JoAE%7CUN8HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:15.889341+00:00"
+      }
     },
     {
       "code": "COE3120530",
@@ -1238,7 +2326,33 @@
         "MÜHENDİSLER İÇİN PROGRAMLAMA"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=NFooVA%7CIN_Wq_BfbVa5KJNl0_U9KFxax15YUh5jKhR9IFVOF6DGcH3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=NFooVA%7CIN_Wq_BfbVa5KJNl0_U9KFxax15YUh5jKhR9IFVOF6DGcH3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:18.347776+00:00"
+      }
     },
     {
       "code": "COE3149190",
@@ -1266,7 +2380,34 @@
         "AKADEMİK İLETİŞİM BECERİLERİ I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=HQdbVmjlyRhhUb_RMqMC5BdsWmkgUloNk8f9c0ZvynZium4m%7CC1LTHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=HQdbVmjlyRhhUb_RMqMC5BdsWmkgUloNk8f9c0ZvynZium4m%7CC1LTHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:20.703029+00:00"
+      }
     },
     {
       "code": "COE3146020",
@@ -1311,7 +2452,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=F9EZXUrcc61mhsicH6iUMODM8ZzEW0XQHVd5m7c3m8gKaprl12xuI3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=F9EZXUrcc61mhsicH6iUMODM8ZzEW0XQHVd5m7c3m8gKaprl12xuI3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:22.956701+00:00"
+      }
     },
     {
       "code": "COE3114266",
@@ -1344,7 +2511,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=x8rJJIfdf6_zJep7ZWYzAkWf4_BTVzkRIOtLIpq%7CLyAjiW36vNtupnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbX"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=x8rJJIfdf6_zJep7ZWYzAkWf4_BTVzkRIOtLIpq%7CLyAjiW36vNtupnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbX",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:25.304937+00:00"
+      }
     },
     {
       "code": "COE3168050",
@@ -1375,7 +2569,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=rQfHp9_OnxIH%7Cav_9a27u6vQ8YrAxMcgZdVaTAa639nMCfn3F2EVznRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=rQfHp9_OnxIH%7Cav_9a27u6vQ8YrAxMcgZdVaTAa639nMCfn3F2EVznRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:27.529746+00:00"
+      }
     },
     {
       "code": "COE3115964",
@@ -1405,7 +2626,38 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=iSeibuYk530LNTtDuqTiSespo2TAHVWRtgf68707n5XnVURWvGapVXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=iSeibuYk530LNTtDuqTiSespo2TAHVWRtgf68707n5XnVURWvGapVXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "devops",
+          "docker",
+          "kubernetes"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:29.919816+00:00"
+      }
     },
     {
       "code": "COE3116731",
@@ -1429,7 +2681,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=3eqXrT6%7CBxcHxgtcxnHfqX3KD6opUJvy4%7CKHRy1C9J1GJqpaT5uFZXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=3eqXrT6%7CBxcHxgtcxnHfqX3KD6opUJvy4%7CKHRy1C9J1GJqpaT5uFZXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:32.687183+00:00"
+      }
     },
     {
       "code": "COE3167980",
@@ -1457,7 +2736,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=QW9mXdyb0kvWMxRLUu7Dvt_hWBnW5Tm9luDDiAqB%7C%7CVbP5TJmXKuEHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=QW9mXdyb0kvWMxRLUu7Dvt_hWBnW5Tm9luDDiAqB%7C%7CVbP5TJmXKuEHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:35.140731+00:00"
+      }
     },
     {
       "code": "COE3133980",
@@ -1487,7 +2793,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=coazldyHfsUzq_GZxuejRtRh_X%7CqLto1oxks_vewZrslDdBXs6V0jHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=coazldyHfsUzq_GZxuejRtRh_X%7CqLto1oxks_vewZrslDdBXs6V0jHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:37.292248+00:00"
+      }
     },
     {
       "code": "COE3133990",
@@ -1518,7 +2850,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=YmU1_SnOt87UcSkEn%7CiTWyh62od9c%7C4IrbPqfkhPRICkqf4mrBGGSnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=YmU1_SnOt87UcSkEn%7CiTWyh62od9c%7C4IrbPqfkhPRICkqf4mrBGGSnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.32,
+          "apply": 0.28,
+          "analyze": 0.22,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:39.851975+00:00"
+      }
     },
     {
       "code": "COE3147020",
@@ -1546,7 +2905,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=KO6QLEgZUWtuXUko5vM_roe4rIGOEmVcaoaGpIdz%7Ckh3xe4igL4hZnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=KO6QLEgZUWtuXUko5vM_roe4rIGOEmVcaoaGpIdz%7Ckh3xe4igL4hZnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:42.178647+00:00"
+      }
     },
     {
       "code": "COE3168130",
@@ -1574,7 +2960,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=9BSE_psIOMRXGnTfXuoFoISX48OjtjLr8KNJ1CUz6np54HG9X6n_fXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=9BSE_psIOMRXGnTfXuoFoISX48OjtjLr8KNJ1CUz6np54HG9X6n_fXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:44.562581+00:00"
+      }
     },
     {
       "code": "COE3233890",
@@ -1616,7 +3029,34 @@
         "OLASILIK VE RASSAL DEĞİŞKENLER"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=6ECsGiT0rK3pOVnyx5gBP9L236crrSKDTeeXsXPoPAxS0Lhfq3hvmnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=6ECsGiT0rK3pOVnyx5gBP9L236crrSKDTeeXsXPoPAxS0Lhfq3hvmnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:47.236612+00:00"
+      }
     },
     {
       "code": "COE3249650",
@@ -1642,7 +3082,34 @@
         "VERİ YAPILARI"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=3lekBJ73xc971%7Cd8GJKcoOiLuLM67YuIyhxD1xKvMdgDeloNHiUV8nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=3lekBJ73xc971%7Cd8GJKcoOiLuLM67YuIyhxD1xKvMdgDeloNHiUV8nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:49.693125+00:00"
+      }
     },
     {
       "code": "COE3220530",
@@ -1669,7 +3136,33 @@
         "MÜHENDİSLER İÇİN PROGRAMLAMA"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=2CJVTx2yAzgwqnqd1DE11DGfRgJ4A2waNmHmjfMwxbXwsl8IYFjnb3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=2CJVTx2yAzgwqnqd1DE11DGfRgJ4A2waNmHmjfMwxbXwsl8IYFjnb3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:51.937598+00:00"
+      }
     },
     {
       "code": "COE3210763",
@@ -1698,7 +3191,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=XiTRDdct1LKFEh2a%7C1KL1OZESLh9Gl7XJp8ZdV7KP29XOLk7PL%7Ct%7CHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnY"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=XiTRDdct1LKFEh2a%7C1KL1OZESLh9Gl7XJp8ZdV7KP29XOLk7PL%7Ct%7CHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnY",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:54.292366+00:00"
+      }
     },
     {
       "code": "COE3215372",
@@ -1727,7 +3247,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=mtPRMLO4Xhyrq4pnFMsOESuYDXLIjBwQ0s%7CNBevE36vg4cSin7nIznRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=mtPRMLO4Xhyrq4pnFMsOESuYDXLIjBwQ0s%7CNBevE36vg4cSin7nIznRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.38,
+          "analyze": 0.22,
+          "evaluate": 0.07,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:56.545239+00:00"
+      }
     },
     {
       "code": "COE3215965",
@@ -1757,7 +3304,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=PgUdRF6Nf_ezSXXz2F1YTrvSqPe8Cqoc5AHaSmNu9_OQcpm7X8c2Y3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=PgUdRF6Nf_ezSXXz2F1YTrvSqPe8Cqoc5AHaSmNu9_OQcpm7X8c2Y3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:06:58.999907+00:00"
+      }
     },
     {
       "code": "COE3268010",
@@ -1787,7 +3360,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Y%7C0trq6MpRxTx_UgMan4eaLQwxKpqh7OMo96qqaekhuN%7Cq47c5lTu3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Y%7C0trq6MpRxTx_UgMan4eaLQwxKpqh7OMo96qqaekhuN%7Cq47c5lTu3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "graphics_vision",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:01.147578+00:00"
+      }
     },
     {
       "code": "COE3234070",
@@ -1818,7 +3418,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=qqbwJGnme8AF%7C9mOGha8t4ahznnFB9fDrN6R9ZWPUZi2otwhALoCoXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=qqbwJGnme8AF%7C9mOGha8t4ahznnFB9fDrN6R9ZWPUZi2otwhALoCoXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:03.410495+00:00"
+      }
     },
     {
       "code": "COE3234090",
@@ -1848,7 +3474,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=4z_YNy5nc9Mm1N0h8VxI1V0eha569jGagh7LhRxXUffB%7CT1jim0a63Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=4z_YNy5nc9Mm1N0h8VxI1V0eha569jGagh7LhRxXUffB%7CT1jim0a63Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:05.861388+00:00"
+      }
     },
     {
       "code": "COE3249050",
@@ -1878,7 +3530,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=CGMPAP9j5ydEL%7CtTcDNNl95JpzzuAJop79H481Y%7CDEf81AX_FCv88HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=CGMPAP9j5ydEL%7CtTcDNNl95JpzzuAJop79H481Y%7CDEf81AX_FCv88HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:08.115419+00:00"
+      }
     },
     {
       "code": "COE3249070",
@@ -1908,7 +3586,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=cKsZ6poQ6IQEsMJM15ISHpUriUjQsk%7CMzCPfGfh%7CExW7VcvhQrSw8nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=cKsZ6poQ6IQEsMJM15ISHpUriUjQsk%7CMzCPfGfh%7CExW7VcvhQrSw8nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:10.337955+00:00"
+      }
     },
     {
       "code": "COE3268130",
@@ -1936,7 +3640,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=pegzfsRt4gXvvFQqTJqBrNroolVNQkh3B0VcSlCj6Rc50GdXw1QNJXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=pegzfsRt4gXvvFQqTJqBrNroolVNQkh3B0VcSlCj6Rc50GdXw1QNJXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:12.722722+00:00"
+      }
     },
     {
       "code": "COE4113192",
@@ -1958,7 +3688,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=vjutv9ySHkAmEomi%7Cch%7CE8%7CAwNKU%7C2tqV4iH2u0UnZlD8qR_gk6tMHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMp"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=vjutv9ySHkAmEomi%7Cch%7CE8%7CAwNKU%7C2tqV4iH2u0UnZlD8qR_gk6tMHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMp",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:15.281946+00:00"
+      }
     },
     {
       "code": "İGV4111400",
@@ -1986,7 +3741,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=H0kBlSS%7CuwW%7Csm%7CgCAuBpXP8wErA0f9NIBDjBi42m1uCfffIQ9SahXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnY"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=H0kBlSS%7CuwW%7Csm%7CgCAuBpXP8wErA0f9NIBDjBi42m1uCfffIQ9SahXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnY",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:17.685163+00:00"
+      }
     },
     {
       "code": "COE4167890",
@@ -2013,7 +3793,33 @@
         "Introduction to Programming"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=LOZzIgfVPZzKl6t3dkJ8RKwzNlwBtItwBiyKrCZAwJzvgrzCet4MFnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=LOZzIgfVPZzKl6t3dkJ8RKwzNlwBtItwBiyKrCZAwJzvgrzCet4MFnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:19.994199+00:00"
+      }
     },
     {
       "code": "COE4110764",
@@ -2048,7 +3854,34 @@
         "AKADEMİK İLETİŞİM BECERİLERİ II"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=9Xyyf%7CDdGLj9UGcLJYoZJXfKb%7Cp0tz__nNtnO05otioal5oVIQ6H4nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=9Xyyf%7CDdGLj9UGcLJYoZJXfKb%7Cp0tz__nNtnO05otioal5oVIQ6H4nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:22.349260+00:00"
+      }
     },
     {
       "code": "COE4115373",
@@ -2090,7 +3923,34 @@
         "VERİ YAPILARI"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=_u6JVvyEJUZJ15P8NSWitJ51Wyz5uq_PYkqgLlnOEnOf83sZ5df473Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=_u6JVvyEJUZJ15P8NSWitJ51Wyz5uq_PYkqgLlnOEnOf83sZ5df473Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJXJ",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:24.681507+00:00"
+      }
     },
     {
       "code": "COE4110766",
@@ -2117,7 +3977,34 @@
         "MÜHENDİSLİK PROJESİ I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=2EbBpfuMArSdzQGkfNutpVrkw7mig4xqQeLK5QHdiKbesKd_7cIyjHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=2EbBpfuMArSdzQGkfNutpVrkw7mig4xqQeLK5QHdiKbesKd_7cIyjHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:27.172396+00:00"
+      }
     },
     {
       "code": "COE4149160",
@@ -2144,7 +4031,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bBtm%7CwcmhUXuGA%7Cse9QnBG9jFr1xeUi9hhTsTItAWAxrfF3PZCXd9XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bBtm%7CwcmhUXuGA%7Cse9QnBG9jFr1xeUi9hhTsTItAWAxrfF3PZCXd9XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGl",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.04,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:29.413625+00:00"
+      }
     },
     {
       "code": "COE4110345",
@@ -2174,7 +4086,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=KNnCPQ10bhBIz6IM1yR2EkXMFE5cpAuCPE2FWLHYjJZQ4iLQqPmRBHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=KNnCPQ10bhBIz6IM1yR2EkXMFE5cpAuCPE2FWLHYjJZQ4iLQqPmRBHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJ",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:31.683498+00:00"
+      }
     },
     {
       "code": "COE4111487",
@@ -2204,7 +4143,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=h7AAAKlSOCw1Qef3JYOJQLo%7CvUIyUpHTWqnvoqQLYC7YDQlo5wVo2XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=h7AAAKlSOCw1Qef3JYOJQLo%7CvUIyUpHTWqnvoqQLYC7YDQlo5wVo2XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:34.123947+00:00"
+      }
     },
     {
       "code": "COE4115374",
@@ -2234,7 +4200,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=xpUSRSy4aLf9iemJ4yu0TqqGNJY25aB38W5pIAq4hEbOcnXzjTVZenRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=xpUSRSy4aLf9iemJ4yu0TqqGNJY25aB38W5pIAq4hEbOcnXzjTVZenRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:36.379433+00:00"
+      }
     },
     {
       "code": "COE4116054",
@@ -2257,7 +4249,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=qvhIfUcEyR8Be0ULsM3DcrQ5SxxAXJZThOYz8flWPA_BI9qK7Rf%7CaXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=qvhIfUcEyR8Be0ULsM3DcrQ5SxxAXJZThOYz8flWPA_BI9qK7Rf%7CaXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "security",
+          "ai_ml"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:38.529672+00:00"
+      }
     },
     {
       "code": "COE4116665",
@@ -2278,7 +4296,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=TlXSiKE__vYPN%7CZZW5JD3QGi5xk6QQqPFPMM_PAYft_W85eize2KNXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=TlXSiKE__vYPN%7CZZW5JD3QGi5xk6QQqPFPMM_PAYft_W85eize2KNXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:40.881844+00:00"
+      }
     },
     {
       "code": "COE4113564",
@@ -2306,7 +4349,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=CSIK4LeEj_OJ6UyD9RtvVVLQ5uO9L4kYrwPeb1HnhadO1ifsJRzC9HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=CSIK4LeEj_OJ6UyD9RtvVVLQ5uO9L4kYrwPeb1HnhadO1ifsJRzC9HRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "graphics_vision"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:43.135082+00:00"
+      }
     },
     {
       "code": "COE4213191",
@@ -2328,7 +4398,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Ij93YEPFrMgZK7wnIMDM%7C6oEuTGvGLCiv8fz3O7mLXHp5klF4ZVDInRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=Ij93YEPFrMgZK7wnIMDM%7C6oEuTGvGLCiv8fz3O7mLXHp5klF4ZVDInRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:45.577888+00:00"
+      }
     },
     {
       "code": "COE4213192",
@@ -2350,7 +4445,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=vn6mk3T7oNRwbt1W4PY8gd0zs1sJkgHAA4A8skUIfMybtk5D%7CnxTwnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=vn6mk3T7oNRwbt1W4PY8gd0zs1sJkgHAA4A8skUIfMybtk5D%7CnxTwnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:47.767687+00:00"
+      }
     },
     {
       "code": "İGV4211500",
@@ -2378,7 +4498,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=37IuPmIDjWAcoslx4DGHlDVAu26NBY9cXORjbyk_U089Zqv6nGIna3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=37IuPmIDjWAcoslx4DGHlDVAu26NBY9cXORjbyk_U089Zqv6nGIna3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:50.201652+00:00"
+      }
     },
     {
       "code": "COE4210764",
@@ -2413,7 +4558,33 @@
         "AKADEMİK İLETİŞİM BECERİLERİ II"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=983Iu4vk9oRF8JFsWjhxoY88ioHELO00r7Jh3H8NkSXtXhUz3Vcn%7CXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=983Iu4vk9oRF8JFsWjhxoY88ioHELO00r7Jh3H8NkSXtXhUz3Vcn%7CXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:52.657752+00:00"
+      }
     },
     {
       "code": "COE4210766",
@@ -2440,7 +4611,34 @@
         "MÜHENDİSLİK PROJESİ I"
       ],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=FDJzFfgvfxv1wSFqYbalw4cIpRp6y8yG3Il44raCeKIH%7C4rTG3pd4nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=FDJzFfgvfxv1wSFqYbalw4cIpRp6y8yG3Il44raCeKIH%7C4rTG3pd4nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:55.834121+00:00"
+      }
     },
     {
       "code": "COE4210767",
@@ -2469,7 +4667,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=oPoPq9etHf91tkCqBSyDOp7X3_iUhMInlqoCRjuwPR9G8vjSqCPdQ3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=oPoPq9etHf91tkCqBSyDOp7X3_iUhMInlqoCRjuwPR9G8vjSqCPdQ3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:07:58.274489+00:00"
+      }
     },
     {
       "code": "COE4234050",
@@ -2499,7 +4722,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=FTVnber4S1RD90fDPQqAsUypryQpe94TEpPY%7CIconx8xrLK3VL1djHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=FTVnber4S1RD90fDPQqAsUypryQpe94TEpPY%7CIconx8xrLK3VL1djHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:00.338020+00:00"
+      }
     },
     {
       "code": "COE4234060",
@@ -2529,7 +4778,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bp8e_P54x874y2fsiGI1mzZSkS4aTSXdF1MFT1IzfKpVjryRH_WY4XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=bp8e_P54x874y2fsiGI1mzZSkS4aTSXdF1MFT1IzfKpVjryRH_WY4XRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "math",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:03.103504+00:00"
+      }
     },
     {
       "code": "COE4267950",
@@ -2557,7 +4833,37 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=l3hCNZVLCV3pAK9N8jGsX%7CmeTgzrLODhM%7CKvntnKdFlDeEDYbjAK_nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=l3hCNZVLCV3pAK9N8jGsX%7CmeTgzrLODhM%7CKvntnKdFlDeEDYbjAK_nRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "flutter",
+          "dart",
+          "firebase"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:05.459118+00:00"
+      }
     },
     {
       "code": "COE4210344",
@@ -2586,7 +4892,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=91ODtqzNPGvTWfRCL4D_x04aATih4h8Uy2YjuJQEifpKlKam0osswnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=91ODtqzNPGvTWfRCL4D_x04aATih4h8Uy2YjuJQEifpKlKam0osswnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:07.711766+00:00"
+      }
     },
     {
       "code": "COE4210768",
@@ -2615,7 +4948,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=kcI3KlgM%7C8SQQGASGUkoEdl2wBNqwXyOwzy0QZD4rP7eBMw0Z_NIYXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=kcI3KlgM%7C8SQQGASGUkoEdl2wBNqwXyOwzy0QZD4rP7eBMw0Z_NIYXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:10.066061+00:00"
+      }
     },
     {
       "code": "COE4212804",
@@ -2644,7 +5004,37 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=EI7g1yQubYVVzc20mkKMqsJriPoKhWBt9jnPbuVGqHXz5FnX08wKqnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=EI7g1yQubYVVzc20mkKMqsJriPoKhWBt9jnPbuVGqHXz5FnX08wKqnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "transformer",
+          "llm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:12.462438+00:00"
+      }
     },
     {
       "code": "COE4213193",
@@ -2671,7 +5061,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=1atJPaShX7MmJ2ZKkuX3FhnmTWbrc0AX11HFriTi43XBBQuvLVwFTXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=1atJPaShX7MmJ2ZKkuX3FhnmTWbrc0AX11HFriTi43XBBQuvLVwFTXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "web_mobile",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:14.878173+00:00"
+      }
     },
     {
       "code": "COE4215331",
@@ -2694,7 +5111,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=kkDmHW4jl3Xrr2c1hdpY%7CsFebwTC2nPEVIMSri%7CVoFe0iJSARPacaXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=kkDmHW4jl3Xrr2c1hdpY%7CsFebwTC2nPEVIMSri%7CVoFe0iJSARPacaXRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:18.156316+00:00"
+      }
     },
     {
       "code": "COE4215378",
@@ -2720,7 +5163,40 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=BKfItfUN8Niicp%7CVrG2O9Nf1rmXYMGstR05tQk31eydeHMxT87wLHnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=BKfItfUN8Niicp%7CVrG2O9Nf1rmXYMGstR05tQk31eydeHMxT87wLHnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNb",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "graphics_vision",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "nvidia jetson",
+          "opencv dnn",
+          "tensorrt",
+          "mediapipe",
+          "tesseract"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:20.805530+00:00"
+      }
     },
     {
       "code": "COE4215966",
@@ -2750,7 +5226,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=4u4LUfykoSa4KKBEKSbQIousCKm9owZNAJpffc4ST_edBxAV7O4nWnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=4u4LUfykoSa4KKBEKSbQIousCKm9owZNAJpffc4ST_edBxAV7O4nWnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:23.173356+00:00"
+      }
     },
     {
       "code": "COE4216263",
@@ -2773,7 +5274,32 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=xMkr8SZ7eMORoKWq4zjUaQQ6MINpGBYMjckzW9fgGWsdkJNQ8IbUCHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce&lang=tr"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=xMkr8SZ7eMORoKWq4zjUaQQ6MINpGBYMjckzW9fgGWsdkJNQ8IbUCHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:25.380128+00:00"
+      }
     },
     {
       "code": "COE4216264",
@@ -2818,7 +5344,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=fk9Z_THLvGrzYETXpf390dHnMXbeXdkLL%7CqIO82cS5C9BEbXMWVaInRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=fk9Z_THLvGrzYETXpf390dHnMXbeXdkLL%7CqIO82cS5C9BEbXMWVaInRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:27.788090+00:00"
+      }
     },
     {
       "code": "COE4216935",
@@ -2841,7 +5394,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=sAC0jpP6_3UOWPiXCtHGJ0U1Yzgm5lkMggWXJjBbYe8VtRpwTAqxU3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=sAC0jpP6_3UOWPiXCtHGJ0U1Yzgm5lkMggWXJjBbYe8VtRpwTAqxU3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "ai_ml"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "llm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:30.241850+00:00"
+      }
     },
     {
       "code": "COE4216936",
@@ -2865,7 +5445,33 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ceHvVhNN1Ui7ZbKz3skZXxV2IuweDEN02Vq1pjR%7CytCcj_JdXgHjSHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce&lang=tr"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=ceHvVhNN1Ui7ZbKz3skZXxV2IuweDEN02Vq1pjR%7CytCcj_JdXgHjSHRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:32.492483+00:00"
+      }
     },
     {
       "code": "COE4216939",
@@ -2888,7 +5494,34 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=o9mTqomNp4xwbyLxngQsI7XPnxRNbf2VqJ68pYLy%7CvOkhwi9dRT1NnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=o9mTqomNp4xwbyLxngQsI7XPnxRNbf2VqJ68pYLy%7CvOkhwi9dRT1NnRu%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:34.950578+00:00"
+      }
     },
     {
       "code": "COE4268020",
@@ -2917,7 +5550,145 @@
       "categories": [
         "Programa Bağlı Seçmeli Dersler"
       ],
-      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=aTI3W0ANsH_IABGsBJpINHwzFxHXvVVITetpiSs61cSz7o95w%7C17m3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce"
+      "source_url": "https://mebis.medipol.edu.tr/DersBilgi?pDonemBolumDersOID=aTI3W0ANsH_IABGsBJpINHwzFxHXvVVITetpiSs61cSz7o95w%7C17m3Ru%7CSfDOaXWFebbiwh9CtxBHwHDoLFjkA%3D%3D&pBolumOID=lJWMYQLyFIN7_55L3fv76UCEEhPMpnYGlNbXJfCOf1P_jyHIobfT2cCnAr4I26ce",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:37.226986+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 101,
+    "enriched_courses": 101,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T20:08:37.738599+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 29,
+        "total_ects": 171,
+        "required_ects": 91
+      },
+      "programming": {
+        "courses": 21,
+        "total_ects": 137,
+        "required_ects": 91
+      },
+      "systems": {
+        "courses": 25,
+        "total_ects": 178,
+        "required_ects": 80
+      },
+      "ai_ml": {
+        "courses": 16,
+        "total_ects": 93,
+        "required_ects": 9
+      },
+      "data_science": {
+        "courses": 8,
+        "total_ects": 47,
+        "required_ects": 5
+      },
+      "security": {
+        "courses": 4,
+        "total_ects": 26,
+        "required_ects": 8
+      },
+      "web_mobile": {
+        "courses": 3,
+        "total_ects": 18,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 33,
+        "total_ects": 199,
+        "required_ects": 119
+      },
+      "graphics_vision": {
+        "courses": 6,
+        "total_ects": 36,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 3,
+        "total_ects": 22,
+        "required_ects": 16
+      },
+      "theory": {
+        "courses": 26,
+        "total_ects": 166,
+        "required_ects": 90
+      },
+      "info_systems": {
+        "courses": 10,
+        "total_ects": 60,
+        "required_ects": 16
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 14,
+        "total": 16
+      },
+      "data_science": {
+        "required": 1,
+        "elective": 7,
+        "total": 8
+      },
+      "distributed": {
+        "required": 2,
+        "elective": 1,
+        "total": 3
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 6,
+        "total": 6
+      },
+      "security": {
+        "required": 1,
+        "elective": 3,
+        "total": 4
+      },
+      "software_eng": {
+        "required": 20,
+        "elective": 13,
+        "total": 33
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 3,
+        "total": 3
+      }
+    },
+    "earliest_technical_elective_semester": 5,
+    "project_heavy_course_count": 28,
+    "total_project_ects": 171,
+    "english_resources_ratio": 0.01
+  }
 }

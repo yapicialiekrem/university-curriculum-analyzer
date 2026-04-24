@@ -1,5 +1,5 @@
 {
-  "uni_name": "Erciyes Üniversitesi",
+  "university_name": "Erciyes Üniversitesi",
   "department": "Bilgisayar Mühendisliği",
   "faculty": "Mühendislik Fakültesi",
   "language": "İngilizce",
@@ -73,7 +73,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=Mtx8BL4lIQk=&da=X1IN2M8KmeE=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=Mtx8BL4lIQk=&da=X1IN2M8KmeE=&yy=1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:26.136317+00:00"
+      }
     },
     {
       "code": "BZ 105",
@@ -125,7 +150,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=c2/Fw7G3J4c=&da=3W9TlAhDumE=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=c2/Fw7G3J4c=&da=3W9TlAhDumE=&yy=1",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:28.773302+00:00"
+      }
     },
     {
       "code": "BZ 101",
@@ -169,7 +220,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=TPT15tVYzA4=&da=3ZkB29JL3wE=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=TPT15tVYzA4=&da=3ZkB29JL3wE=&yy=1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:31.023506+00:00"
+      }
     },
     {
       "code": "BZ 113",
@@ -218,7 +294,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=cdEhL5JgGgI=&da=QfqBhpnYavs=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=cdEhL5JgGgI=&da=QfqBhpnYavs=&yy=1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:33.360167+00:00"
+      }
     },
     {
       "code": "MAT 111",
@@ -263,7 +364,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=dIXXMFc/1EY=&da=zyscu7TLbKM=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=dIXXMFc/1EY=&da=zyscu7TLbKM=&yy=1",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:35.887427+00:00"
+      }
     },
     {
       "code": "FİZ 117",
@@ -312,7 +439,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=n8zXcPxhCuM=&da=Ow|GBHBogeo=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=n8zXcPxhCuM=&da=Ow|GBHBogeo=&yy=1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:38.604056+00:00"
+      }
     },
     {
       "code": "BZ 111",
@@ -354,7 +506,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=zChNQCWUPMo=&da=Qf/ORw/sII0=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=zChNQCWUPMo=&da=Qf/ORw/sII0=&yy=1",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:41.195957+00:00"
+      }
     },
     {
       "code": "TD 101",
@@ -422,7 +600,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=3Em6yfvW2gg=&da=eynKwLZla48=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=3Em6yfvW2gg=&da=eynKwLZla48=&yy=1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:43.755433+00:00"
+      }
     },
     {
       "code": "YD 101",
@@ -463,7 +666,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=YDCMsRR3Wbc=&da=|zqUhgk2H3w=&yy=1"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=YDCMsRR3Wbc=&da=|zqUhgk2H3w=&yy=1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:46.445806+00:00"
+      }
     },
     {
       "code": "BZ 112",
@@ -497,7 +725,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=IUbbpj|ItfU=&da=/9VH9fOHK4c=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=IUbbpj|ItfU=&da=/9VH9fOHK4c=&yy=2",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:48.674286+00:00"
+      }
     },
     {
       "code": "BZ 102",
@@ -544,7 +797,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=sFhopZdSiTM=&da=K54p0DTfu5Q=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=sFhopZdSiTM=&da=K54p0DTfu5Q=&yy=2",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:51.129335+00:00"
+      }
     },
     {
       "code": "Aİ 102",
@@ -588,7 +868,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=3YurFzKgigY=&da=CfuCE4ufMYA=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=3YurFzKgigY=&da=CfuCE4ufMYA=&yy=2",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:53.421296+00:00"
+      }
     },
     {
       "code": "FİZ 118",
@@ -622,7 +927,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=pC5AEZiJ420=&da=SZYH/IWsBHw=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=pC5AEZiJ420=&da=SZYH/IWsBHw=&yy=2",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:55.737053+00:00"
+      }
     },
     {
       "code": "MAT 112",
@@ -667,7 +997,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=2qSWAEjZuoQ=&da=KuW9/I1PiQ0=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=2qSWAEjZuoQ=&da=KuW9/I1PiQ0=&yy=2",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:55:57.989564+00:00"
+      }
     },
     {
       "code": "BZ 106",
@@ -715,7 +1070,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=B0YByCGD444=&da=Gc0L482Lgns=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=B0YByCGD444=&da=Gc0L482Lgns=&yy=2",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:00.551238+00:00"
+      }
     },
     {
       "code": "TD 102",
@@ -780,7 +1162,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=8TprYvToy80=&da=lIWMf7OC2fU=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=8TprYvToy80=&da=lIWMf7OC2fU=&yy=2",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:03.008766+00:00"
+      }
     },
     {
       "code": "YD 102",
@@ -826,7 +1233,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=cHjX1WSDgxk=&da=g2HtNMk4ZLQ=&yy=2"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=cHjX1WSDgxk=&da=g2HtNMk4ZLQ=&yy=2",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:05.363300+00:00"
+      }
     },
     {
       "code": "BZ 203",
@@ -867,7 +1299,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=5vA4al2skWU=&da=|6r7ZqmQ6qY=&yy=3"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=5vA4al2skWU=&da=|6r7ZqmQ6qY=&yy=3",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:07.820292+00:00"
+      }
     },
     {
       "code": "BZ 205",
@@ -911,7 +1369,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=h4eX13pI7Y4=&da=qVaNG8Jga1U=&yy=3"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=h4eX13pI7Y4=&da=qVaNG8Jga1U=&yy=3",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:10.279427+00:00"
+      }
     },
     {
       "code": "BZ 211",
@@ -954,7 +1438,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=Os7PY6bUkXk=&da=D9Z/3dsPE|Q=&yy=3"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=Os7PY6bUkXk=&da=D9Z/3dsPE|Q=&yy=3",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:12.632924+00:00"
+      }
     },
     {
       "code": "BZ 209",
@@ -998,7 +1507,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=NMAcdqKjcMo=&da=HhaZzdJw3k4=&yy=3"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=NMAcdqKjcMo=&da=HhaZzdJw3k4=&yy=3",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:14.989650+00:00"
+      }
     },
     {
       "code": "MAT 221",
@@ -1049,7 +1585,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=3KnrUI0WPzM=&da=7BgGRfTw8M0=&yy=3"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=3KnrUI0WPzM=&da=7BgGRfTw8M0=&yy=3",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:17.652694+00:00"
+      }
     },
     {
       "code": "BZ 202",
@@ -1095,7 +1657,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=oi9FXotOyfA=&da=y6eLI9JMPcQ=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=oi9FXotOyfA=&da=y6eLI9JMPcQ=&yy=4",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:20.110280+00:00"
+      }
     },
     {
       "code": "BZ 207",
@@ -1144,7 +1732,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=PHRNEJenfjg=&da=DTXOhIt0KxQ=&yy=3"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=PHRNEJenfjg=&da=DTXOhIt0KxQ=&yy=3",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:22.651841+00:00"
+      }
     },
     {
       "code": "BZ 204",
@@ -1189,7 +1803,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=6riHzRPp8Wk=&da=UUlpnKB8L5A=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=6riHzRPp8Wk=&da=UUlpnKB8L5A=&yy=4",
+      "_enriched": {
+        "categories": [
+          "math",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:25.232224+00:00"
+      }
     },
     {
       "code": "BZ 210",
@@ -1232,7 +1873,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=rjWNYy2NOtU=&da=t7Kuu5FDKjo=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=rjWNYy2NOtU=&da=t7Kuu5FDKjo=&yy=4",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:27.714329+00:00"
+      }
     },
     {
       "code": "BZ 206",
@@ -1287,7 +1954,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=VMMJrKVhwZQ=&da=NjFXdamwCNU=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=VMMJrKVhwZQ=&da=NjFXdamwCNU=&yy=4",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:30.193568+00:00"
+      }
     },
     {
       "code": "BZ 214",
@@ -1337,7 +2030,42 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=L3pzeXjDu1E=&da=0pX|s5mTkbs=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=L3pzeXjDu1E=&da=0pX|s5mTkbs=&yy=4",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "javafx",
+          "junit",
+          "jdbc",
+          "jsf",
+          "intellij idea",
+          "netbeans",
+          "eclipse"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:33.007178+00:00"
+      }
     },
     {
       "code": "BZ 216",
@@ -1387,7 +2115,39 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=yMn4nWSWRhg=&da=1UNcGxcdRa0=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=yMn4nWSWRhg=&da=1UNcGxcdRa0=&yy=4",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "javafx",
+          "jdbc",
+          "junit",
+          "jsf"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:35.570482+00:00"
+      }
     },
     {
       "code": "BZ 301",
@@ -1431,7 +2191,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=OZjjZtJlKDA=&da=NdAawGn8OU8=&yy=5"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=OZjjZtJlKDA=&da=NdAawGn8OU8=&yy=5",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:38.028753+00:00"
+      }
     },
     {
       "code": "BZ 303",
@@ -1476,7 +2263,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=xzDPYf3m6c8=&da=UFoAckLo7UY=&yy=5"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=xzDPYf3m6c8=&da=UFoAckLo7UY=&yy=5",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "opengl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:40.489995+00:00"
+      }
     },
     {
       "code": "BZ 212",
@@ -1519,7 +2335,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=ONJCQnwEcDE=&da=vzJFHUupnDk=&yy=4"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=ONJCQnwEcDE=&da=vzJFHUupnDk=&yy=4",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:42.839353+00:00"
+      }
     },
     {
       "code": "BZ 309",
@@ -1565,7 +2407,39 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=7wundgnAXuQ=&da=XKs5zm0Pxs0=&yy=5"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=7wundgnAXuQ=&da=XKs5zm0Pxs0=&yy=5",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "assembly",
+          "8086",
+          "pic16f84",
+          "arduino"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:45.513179+00:00"
+      }
     },
     {
       "code": "BZ 311",
@@ -1609,7 +2483,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=fEvfmgASybM=&da=KKHeNl54Qyo=&yy=5"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=fEvfmgASybM=&da=KKHeNl54Qyo=&yy=5",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:47.829100+00:00"
+      }
     },
     {
       "code": "BZ 313",
@@ -1652,7 +2552,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=oHGOgJ9zwwE=&da=qopOZIIMbUA=&yy=5"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=oHGOgJ9zwwE=&da=qopOZIIMbUA=&yy=5",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "waterfall"
+        ],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:50.627819+00:00"
+      }
     },
     {
       "code": "BZ 302",
@@ -1702,7 +2631,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=MQTFD4Su|U8=&da=jAuO5lS12zk=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=MQTFD4Su|U8=&da=jAuO5lS12zk=&yy=6",
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:53.081077+00:00"
+      }
     },
     {
       "code": "BZ 304",
@@ -1746,7 +2700,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=hmziixfTjEo=&da=jVTOIwRGmyI=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=hmziixfTjEo=&da=jVTOIwRGmyI=&yy=6",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:55.537429+00:00"
+      }
     },
     {
       "code": "BZ 306",
@@ -1797,7 +2778,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=jlyeCLfU0hE=&da=v7J4iXx8O|E=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=jlyeCLfU0hE=&da=v7J4iXx8O|E=&yy=6",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:56:57.911671+00:00"
+      }
     },
     {
       "code": "BZ 310",
@@ -1842,7 +2850,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=VABQccSCPQ4=&da=9V8fuf8yqVU=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=VABQccSCPQ4=&da=9V8fuf8yqVU=&yy=6",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:00.249021+00:00"
+      }
     },
     {
       "code": "BZ 315",
@@ -1886,7 +2921,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=DfMN3BZ2dtQ=&da=Tv0yMzbwFmY=&yy=5"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=DfMN3BZ2dtQ=&da=Tv0yMzbwFmY=&yy=5",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:02.673524+00:00"
+      }
     },
     {
       "code": "BZ 316",
@@ -1930,7 +2991,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=WnL1/rvGRo4=&da=8p6U6E6ulAg=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=WnL1/rvGRo4=&da=8p6U6E6ulAg=&yy=6",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:05.114595+00:00"
+      }
     },
     {
       "code": "BZ 318",
@@ -1973,7 +3060,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=cOW/xbmXiy4=&da=ADN5MYa9mpg=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=cOW/xbmXiy4=&da=ADN5MYa9mpg=&yy=6",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:07.621305+00:00"
+      }
     },
     {
       "code": "BZ 320",
@@ -2023,7 +3137,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=gF5s2E708p0=&da=oaeR|i8xVmI=&yy=6"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=gF5s2E708p0=&da=oaeR|i8xVmI=&yy=6",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:09.875355+00:00"
+      }
     },
     {
       "code": "BZ 411",
@@ -2069,7 +3208,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=g/OvUf7HRhM=&da=tQKICfgzTXM=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=g/OvUf7HRhM=&da=tQKICfgzTXM=&yy=7",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.35
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:12.275366+00:00"
+      }
     },
     {
       "code": "BZ 412",
@@ -2115,7 +3281,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=JJBaBSRb0eE=&da=o4ZHkwWwPOw=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=JJBaBSRb0eE=&da=o4ZHkwWwPOw=&yy=7",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:14.690243+00:00"
+      }
     },
     {
       "code": "BZ 413",
@@ -2162,7 +3354,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=NT1ziTFBiGU=&da=2witTfLom8I=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=NT1ziTFBiGU=&da=2witTfLom8I=&yy=7",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:17.042780+00:00"
+      }
     },
     {
       "code": "BZ 403",
@@ -2206,7 +3423,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=BygYjVpbZxE=&da=OAxVeEcTEWI=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=BygYjVpbZxE=&da=OAxVeEcTEWI=&yy=7",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:19.807792+00:00"
+      }
     },
     {
       "code": "BZ 415",
@@ -2256,7 +3499,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=x8mJ1f/QBPo=&da=2Ukc1J5Y/JI=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=x8mJ1f/QBPo=&da=2Ukc1J5Y/JI=&yy=7",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:22.146068+00:00"
+      }
     },
     {
       "code": "BS 413",
@@ -2298,7 +3566,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=8Yp0yB9WHVA=&da=Dd/F9i73eMk=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=8Yp0yB9WHVA=&da=Dd/F9i73eMk=&yy=7",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:25.237779+00:00"
+      }
     },
     {
       "code": "BS 416",
@@ -2341,7 +3636,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=c0sJZCTvxFU=&da=c7ipKOheMlM=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=c0sJZCTvxFU=&da=c7ipKOheMlM=&yy=7",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:27.795178+00:00"
+      }
     },
     {
       "code": "BS 419",
@@ -2383,7 +3703,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=ApzhbzoKzt8=&da=clY0OMUDWWs=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=ApzhbzoKzt8=&da=clY0OMUDWWs=&yy=7",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:30.354717+00:00"
+      }
     },
     {
       "code": "BS 423",
@@ -2427,7 +3774,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=KC/k6gCz5ZA=&da=ny4DTgbjjPE=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=KC/k6gCz5ZA=&da=ny4DTgbjjPE=&yy=7",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.12,
+          "evaluate": 0.05,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:32.789380+00:00"
+      }
     },
     {
       "code": "BS 433",
@@ -2471,7 +3843,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=UDvkXw/qJ0c=&da=My6VsEu2EJ4=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=UDvkXw/qJ0c=&da=My6VsEu2EJ4=&yy=7",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:35.288702+00:00"
+      }
     },
     {
       "code": "BS 435",
@@ -2512,7 +3910,42 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=FAsp07X/PDE=&da=B9quYl4/Kic=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=FAsp07X/PDE=&da=B9quYl4/Kic=&yy=7",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "docker",
+          "spring boot",
+          "spring",
+          "jee",
+          "junit",
+          "selenium",
+          "ci"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:38.034211+00:00"
+      }
     },
     {
       "code": "BS 434",
@@ -2574,7 +4007,34 @@
         "Görüntü işleme"
       ],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=Fm8cIOJIY5E=&da=vueBiV397hA=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=Fm8cIOJIY5E=&da=vueBiV397hA=&yy=7",
+      "_enriched": {
+        "categories": [
+          "security",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:40.825200+00:00"
+      }
     },
     {
       "code": "BS 420",
@@ -2630,7 +4090,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=y/o/G//gxAc=&da=GVSG6yvRq4A=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=y/o/G//gxAc=&da=GVSG6yvRq4A=&yy=7",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:43.567380+00:00"
+      }
     },
     {
       "code": "BS 436",
@@ -2675,7 +4162,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=iD8hLhU|YK4=&da=5Rn1wCVoAGs=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=iD8hLhU|YK4=&da=5Rn1wCVoAGs=&yy=7",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:46.033249+00:00"
+      }
     },
     {
       "code": "BS 438",
@@ -2717,7 +4231,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=PadWJzJu|So=&da=b5ySsVmrN4M=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=PadWJzJu|So=&da=b5ySsVmrN4M=&yy=7",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:48.513479+00:00"
+      }
     },
     {
       "code": "BS 444",
@@ -2760,7 +4301,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=bvqjTKm94/c=&da=nm/UfsW0TWU=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=bvqjTKm94/c=&da=nm/UfsW0TWU=&yy=7",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:50.877054+00:00"
+      }
     },
     {
       "code": "BS 439",
@@ -2800,7 +4367,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=8bqdx8AmcPQ=&da=f7KjPQOtGNU=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=8bqdx8AmcPQ=&da=f7KjPQOtGNU=&yy=7",
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:54.316944+00:00"
+      }
     },
     {
       "code": "BS 448",
@@ -2819,7 +4413,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=7U3|zyYAUPo=&da=439iAaS5dto=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=7U3|zyYAUPo=&da=439iAaS5dto=&yy=7",
+      "_enriched": {
+        "categories": [
+          "security",
+          "software_eng"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:56.671444+00:00"
+      }
     },
     {
       "code": "BS 450",
@@ -2838,7 +4458,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=h2xpYmwj85c=&da=EmD177daW4E=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=h2xpYmwj85c=&da=EmD177daW4E=&yy=7",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:57:59.024575+00:00"
+      }
     },
     {
       "code": "BS 454",
@@ -2857,7 +4502,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=fGWiKR0JzmY=&da=rwoDrQ9jkkU=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=fGWiKR0JzmY=&da=rwoDrQ9jkkU=&yy=7",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:58:01.286261+00:00"
+      }
     },
     {
       "code": "BS 443",
@@ -2909,7 +4580,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=tkn91u7cEGU=&da=rqSaso3y57o=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=tkn91u7cEGU=&da=rqSaso3y57o=&yy=7",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "data_science",
+          "graphics_vision"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:58:04.042141+00:00"
+      }
     },
     {
       "code": "BS 455",
@@ -2928,7 +4626,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=IDRdcqQfMkE=&da=olf8lMLC6Vs=&yy=7"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=IDRdcqQfMkE=&da=olf8lMLC6Vs=&yy=7",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:58:06.296247+00:00"
+      }
     },
     {
       "code": "BZ 410",
@@ -2968,7 +4691,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=gbJbp7gson8=&da=lP9gcIuU4Q0=&yy=8"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=gbJbp7gson8=&da=lP9gcIuU4Q0=&yy=8",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:58:08.762666+00:00"
+      }
     },
     {
       "code": "BZ 414",
@@ -3015,7 +4765,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=rUqVRTcYEns=&da=Au/hN9ekejw=&yy=8"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=rUqVRTcYEns=&da=Au/hN9ekejw=&yy=8",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:58:11.416773+00:00"
+      }
     },
     {
       "code": "BZ 416",
@@ -3059,7 +4834,143 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=tP0nw9dzd54=&da=brPFERPLMWg=&yy=8"
+      "source_url": "https://dbp.erciyes.edu.tr/Courses/Course.aspx?Course=tP0nw9dzd54=&da=brPFERPLMWg=&yy=8",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:58:13.774888+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 68,
+    "enriched_courses": 68,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T18:58:14.279377+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 12,
+        "total_ects": 58,
+        "required_ects": 55
+      },
+      "programming": {
+        "courses": 16,
+        "total_ects": 72,
+        "required_ects": 60
+      },
+      "systems": {
+        "courses": 22,
+        "total_ects": 96,
+        "required_ects": 84
+      },
+      "ai_ml": {
+        "courses": 6,
+        "total_ects": 19,
+        "required_ects": 4
+      },
+      "data_science": {
+        "courses": 2,
+        "total_ects": 6,
+        "required_ects": 0
+      },
+      "security": {
+        "courses": 3,
+        "total_ects": 9,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 6,
+        "total_ects": 20,
+        "required_ects": 8
+      },
+      "software_eng": {
+        "courses": 19,
+        "total_ects": 81,
+        "required_ects": 63
+      },
+      "graphics_vision": {
+        "courses": 3,
+        "total_ects": 12,
+        "required_ects": 6
+      },
+      "distributed": {
+        "courses": 1,
+        "total_ects": 3,
+        "required_ects": 0
+      },
+      "theory": {
+        "courses": 19,
+        "total_ects": 86,
+        "required_ects": 80
+      },
+      "info_systems": {
+        "courses": 8,
+        "total_ects": 37,
+        "required_ects": 31
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 5,
+        "total": 6
+      },
+      "data_science": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "distributed": {
+        "required": 0,
+        "elective": 1,
+        "total": 1
+      },
+      "graphics_vision": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      },
+      "security": {
+        "required": 0,
+        "elective": 3,
+        "total": 3
+      },
+      "software_eng": {
+        "required": 13,
+        "elective": 6,
+        "total": 19
+      },
+      "web_mobile": {
+        "required": 2,
+        "elective": 4,
+        "total": 6
+      }
+    },
+    "earliest_technical_elective_semester": 7,
+    "project_heavy_course_count": 20,
+    "total_project_ects": 80,
+    "english_resources_ratio": 0.46
+  }
 }

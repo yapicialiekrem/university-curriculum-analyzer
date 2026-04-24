@@ -74,7 +74,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254213&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254213&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:11.582865+00:00"
+      }
     },
     {
       "code": "CENG 111",
@@ -121,7 +146,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254230&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254230&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:13.751439+00:00"
+      }
     },
     {
       "code": "CHEM 101",
@@ -166,7 +217,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254231&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254231&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:15.978950+00:00"
+      }
     },
     {
       "code": "ENG 113",
@@ -210,7 +286,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254222&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254222&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:18.334425+00:00"
+      }
     },
     {
       "code": "MAT 123",
@@ -253,7 +354,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254192&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254192&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:20.689357+00:00"
+      }
     },
     {
       "code": "PHY 101",
@@ -296,7 +423,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254206&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254206&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "math"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:23.911981+00:00"
+      }
     },
     {
       "code": "TUR 105",
@@ -363,7 +516,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254214&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254214&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:27.037452+00:00"
+      }
     },
     {
       "code": "ATA 104",
@@ -418,7 +596,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254193&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254193&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:29.292415+00:00"
+      }
     },
     {
       "code": "CENG 112",
@@ -462,7 +665,33 @@
         "CENG 111"
       ],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254249&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254249&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:31.440055+00:00"
+      }
     },
     {
       "code": "ENG 114",
@@ -508,7 +737,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254223&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254223&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:33.594662+00:00"
+      }
     },
     {
       "code": "MAT 124",
@@ -550,7 +804,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254215&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254215&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:35.893765+00:00"
+      }
     },
     {
       "code": "PHY 102",
@@ -599,7 +879,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254183&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254183&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:38.406709+00:00"
+      }
     },
     {
       "code": "SENG 102",
@@ -643,7 +948,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254248&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254248&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:40.661988+00:00"
+      }
     },
     {
       "code": "SOC 138",
@@ -676,7 +1007,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254247&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254247&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:42.677493+00:00"
+      }
     },
     {
       "code": "TUR 106",
@@ -728,7 +1084,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254184&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254184&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:44.958713+00:00"
+      }
     },
     {
       "code": "CENG 201",
@@ -776,7 +1157,34 @@
         "CENG 112"
       ],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254177&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254177&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:47.212358+00:00"
+      }
     },
     {
       "code": "MAT 201",
@@ -822,7 +1230,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254200&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254200&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:49.414918+00:00"
+      }
     },
     {
       "code": "MAT 221",
@@ -866,7 +1300,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254176&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254176&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:51.717530+00:00"
+      }
     },
     {
       "code": "SENG 211",
@@ -915,7 +1375,34 @@
         "CENG 112"
       ],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254209&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254209&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:54.068746+00:00"
+      }
     },
     {
       "code": "SENG 213",
@@ -959,7 +1446,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254188&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254188&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "web_mobile",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.27,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:56.527160+00:00"
+      }
     },
     {
       "code": "CENG 223",
@@ -1004,7 +1518,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254224&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254224&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:58.881978+00:00"
+      }
     },
     {
       "code": "MAT 224",
@@ -1045,7 +1586,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254208&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254208&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:01.236299+00:00"
+      }
     },
     {
       "code": "SENG 200",
@@ -1075,7 +1642,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254240&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254240&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:03.490641+00:00"
+      }
     },
     {
       "code": "SENG 224",
@@ -1114,7 +1707,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254198&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254198&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:05.991993+00:00"
+      }
     },
     {
       "code": "SENG 226",
@@ -1159,7 +1778,34 @@
         "CENG 201"
       ],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254199&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254199&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.35,
+          "evaluate": 0.08,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:08.302083+00:00"
+      }
     },
     {
       "code": "ELEC 1",
@@ -1180,7 +1826,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:10.760358+00:00"
+      }
     },
     {
       "code": "AEE 493",
@@ -1210,7 +1881,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289060&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289060&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:13.013262+00:00"
+      }
     },
     {
       "code": "AEE 495",
@@ -1256,7 +1952,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289054&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289054&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:15.367674+00:00"
+      }
     },
     {
       "code": "AEE 497",
@@ -1302,7 +2024,39 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289043&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289043&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "numpy",
+          "matplotlib",
+          "scipy",
+          "tensorflow"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:17.620123+00:00"
+      }
     },
     {
       "code": "AEE 498",
@@ -1349,7 +2103,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289048&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289048&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:19.829649+00:00"
+      }
     },
     {
       "code": "AST 474",
@@ -1406,7 +2185,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289066&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289066&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "graphics_vision",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:22.229786+00:00"
+      }
     },
     {
       "code": "AST 482",
@@ -1452,7 +2258,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289072&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289072&lang=tr",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:24.525375+00:00"
+      }
     },
     {
       "code": "AST 483",
@@ -1499,7 +2332,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289079&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289079&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:26.847811+00:00"
+      }
     },
     {
       "code": "AST 491",
@@ -1546,7 +2406,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289084&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289084&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:29.159457+00:00"
+      }
     },
     {
       "code": "CENG 401",
@@ -1592,7 +2477,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254186&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254186&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:31.547560+00:00"
+      }
     },
     {
       "code": "CENG 402",
@@ -1640,7 +2552,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=271034&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=271034&lang=tr",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.38,
+          "apply": 0.28,
+          "analyze": 0.15,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:33.952131+00:00"
+      }
     },
     {
       "code": "CENG 405",
@@ -1661,7 +2600,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255021&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255021&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:36.257325+00:00"
+      }
     },
     {
       "code": "CENG 417",
@@ -1708,7 +2672,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254187&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254187&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:39.050148+00:00"
+      }
     },
     {
       "code": "CENG 418",
@@ -1756,7 +2747,36 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254191&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254191&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "matlab"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.42,
+          "analyze": 0.2,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:41.684396+00:00"
+      }
     },
     {
       "code": "CENG 434",
@@ -1803,7 +2823,43 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254194&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254194&lang=tr",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "ajax",
+          "dom",
+          "javascript",
+          "php",
+          "xml",
+          "html",
+          "css",
+          "sql"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:44.119343+00:00"
+      }
     },
     {
       "code": "CENG 436",
@@ -1852,7 +2908,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254195&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254195&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:47.012531+00:00"
+      }
     },
     {
       "code": "CENG 441",
@@ -1898,7 +2980,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254201&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254201&lang=tr",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:49.199881+00:00"
+      }
     },
     {
       "code": "CENG 442",
@@ -1948,7 +3057,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254203&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254203&lang=tr",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:51.413663+00:00"
+      }
     },
     {
       "code": "CENG 443",
@@ -1998,7 +3134,39 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288020&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288020&lang=tr",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "security"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "docker",
+          "kubernetes",
+          "devops",
+          "microservice"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:53.871843+00:00"
+      }
     },
     {
       "code": "CENG 445",
@@ -2045,7 +3213,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=286180&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=286180&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:56.199065+00:00"
+      }
     },
     {
       "code": "CENG 452",
@@ -2095,7 +3290,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254211&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254211&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:19:58.433734+00:00"
+      }
     },
     {
       "code": "CENG 453",
@@ -2142,7 +3364,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254232&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254232&lang=tr",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:00.626856+00:00"
+      }
     },
     {
       "code": "CENG 454",
@@ -2195,7 +3444,37 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254228&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254228&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "unity3d",
+          "c#"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:02.698757+00:00"
+      }
     },
     {
       "code": "CENG 461",
@@ -2241,7 +3520,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254233&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254233&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:04.878947+00:00"
+      }
     },
     {
       "code": "CENG 463",
@@ -2287,7 +3593,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254234&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254234&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:07.476511+00:00"
+      }
     },
     {
       "code": "CENG 465",
@@ -2332,7 +3664,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254235&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254235&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:09.741768+00:00"
+      }
     },
     {
       "code": "CENG 471",
@@ -2378,7 +3736,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254236&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254236&lang=tr",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:12.042664+00:00"
+      }
     },
     {
       "code": "CENG 473",
@@ -2424,7 +3809,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254237&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254237&lang=tr",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:14.248291+00:00"
+      }
     },
     {
       "code": "CENG 474",
@@ -2473,7 +3885,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254238&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254238&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:16.809530+00:00"
+      }
     },
     {
       "code": "CENG 475",
@@ -2519,7 +3958,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254239&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254239&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:19.137030+00:00"
+      }
     },
     {
       "code": "CENG 476",
@@ -2565,7 +4031,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254243&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254243&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:21.516785+00:00"
+      }
     },
     {
       "code": "CENG 477",
@@ -2611,7 +4104,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254244&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254244&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:24.077735+00:00"
+      }
     },
     {
       "code": "CENG 478",
@@ -2664,7 +4184,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254245&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254245&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:26.739751+00:00"
+      }
     },
     {
       "code": "CENG 480",
@@ -2709,7 +4256,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254246&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254246&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:28.946555+00:00"
+      }
     },
     {
       "code": "CENG 481",
@@ -2751,7 +4325,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=271028&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=271028&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:31.143924+00:00"
+      }
     },
     {
       "code": "ME 420",
@@ -2794,7 +4395,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289115&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289115&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:33.592391+00:00"
+      }
     },
     {
       "code": "ME 431",
@@ -2841,7 +4468,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289037&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289037&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:36.058264+00:00"
+      }
     },
     {
       "code": "ME 439",
@@ -2888,7 +4542,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289031&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289031&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:38.413245+00:00"
+      }
     },
     {
       "code": "ME 453",
@@ -2938,7 +4618,35 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289025&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289025&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "arduino"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:40.667034+00:00"
+      }
     },
     {
       "code": "SENG 450",
@@ -2981,7 +4689,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254171&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254171&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:42.921215+00:00"
+      }
     },
     {
       "code": "SENG 451",
@@ -3025,7 +4760,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254170&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254170&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:45.298784+00:00"
+      }
     },
     {
       "code": "SENG 452",
@@ -3074,7 +4836,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254172&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254172&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:48.382059+00:00"
+      }
     },
     {
       "code": "SENG 453",
@@ -3120,7 +4909,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254225&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254225&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:50.815944+00:00"
+      }
     },
     {
       "code": "SENG 454",
@@ -3168,7 +4984,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254226&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254226&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:53.085647+00:00"
+      }
     },
     {
       "code": "SENG 455",
@@ -3214,7 +5057,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254227&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254227&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:55.414582+00:00"
+      }
     },
     {
       "code": "SENG 456",
@@ -3259,7 +5128,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254173&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254173&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:20:57.766889+00:00"
+      }
     },
     {
       "code": "SENG 457",
@@ -3309,7 +5205,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254174&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254174&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:00.021297+00:00"
+      }
     },
     {
       "code": "SENG 459",
@@ -3358,7 +5280,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255018&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255018&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:02.340052+00:00"
+      }
     },
     {
       "code": "SENG 460",
@@ -3404,7 +5353,38 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255019&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255019&lang=tr",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "smart contracts",
+          "decentralized applications"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:04.629439+00:00"
+      }
     },
     {
       "code": "SENG 461",
@@ -3451,7 +5431,41 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255020&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=255020&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "blockchain",
+          "cloud computing",
+          "edge computing",
+          "fog computing",
+          "smart systems",
+          "industry 4.0"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:06.982856+00:00"
+      }
     },
     {
       "code": "SENG 462",
@@ -3499,7 +5513,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=256029&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=256029&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:09.203660+00:00"
+      }
     },
     {
       "code": "CENG 301",
@@ -3545,7 +5586,34 @@
         "CENG 112"
       ],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254185&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254185&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:11.488285+00:00"
+      }
     },
     {
       "code": "CENG 305",
@@ -3590,7 +5658,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254216&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254216&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:13.628651+00:00"
+      }
     },
     {
       "code": "STAT 301",
@@ -3637,7 +5732,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254241&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254241&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:16.301317+00:00"
+      }
     },
     {
       "code": "ELEC 2",
@@ -3658,7 +5780,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:19.066308+00:00"
+      }
     },
     {
       "code": "CENG 483",
@@ -3709,7 +5856,38 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288032&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288032&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "ai_ml",
+          "graphics_vision"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "matlab",
+          "simulink",
+          "python"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:21.523903+00:00"
+      }
     },
     {
       "code": "IE 372",
@@ -3754,7 +5932,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288049&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288049&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:23.879453+00:00"
+      }
     },
     {
       "code": "IE 412",
@@ -3801,7 +6006,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288055&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288055&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:26.206243+00:00"
+      }
     },
     {
       "code": "IE 454",
@@ -3850,7 +6082,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288061&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288061&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:28.641219+00:00"
+      }
     },
     {
       "code": "IE 456",
@@ -3899,7 +6158,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288067&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=288067&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.34,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:30.890517+00:00"
+      }
     },
     {
       "code": "IE 459",
@@ -3950,7 +6236,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289019&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289019&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.24,
+          "evaluate": 0.12,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:33.302142+00:00"
+      }
     },
     {
       "code": "SENG 300",
@@ -3980,7 +6293,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254178&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254178&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:35.556705+00:00"
+      }
     },
     {
       "code": "SENG 322",
@@ -4024,7 +6364,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254205&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254205&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:38.086003+00:00"
+      }
     },
     {
       "code": "SENG 324",
@@ -4069,7 +6436,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254217&lang=tr"
+      "source_url": "https://sis.thk.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=254217&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:40.264192+00:00"
+      }
     },
     {
       "code": "ELEC 4",
@@ -4090,7 +6484,143 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:21:43.114835+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 90,
+    "enriched_courses": 90,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:21:43.620221+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 29,
+        "total_ects": 174,
+        "required_ects": 54
+      },
+      "programming": {
+        "courses": 21,
+        "total_ects": 127,
+        "required_ects": 37
+      },
+      "systems": {
+        "courses": 36,
+        "total_ects": 212,
+        "required_ects": 26
+      },
+      "ai_ml": {
+        "courses": 14,
+        "total_ects": 85,
+        "required_ects": 7
+      },
+      "data_science": {
+        "courses": 7,
+        "total_ects": 43,
+        "required_ects": 13
+      },
+      "security": {
+        "courses": 8,
+        "total_ects": 48,
+        "required_ects": 6
+      },
+      "web_mobile": {
+        "courses": 3,
+        "total_ects": 18,
+        "required_ects": 6
+      },
+      "software_eng": {
+        "courses": 26,
+        "total_ects": 150,
+        "required_ects": 60
+      },
+      "graphics_vision": {
+        "courses": 6,
+        "total_ects": 36,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 7,
+        "total_ects": 42,
+        "required_ects": 0
+      },
+      "theory": {
+        "courses": 25,
+        "total_ects": 150,
+        "required_ects": 54
+      },
+      "info_systems": {
+        "courses": 13,
+        "total_ects": 72,
+        "required_ects": 24
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 13,
+        "total": 14
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 5,
+        "total": 7
+      },
+      "distributed": {
+        "required": 0,
+        "elective": 7,
+        "total": 7
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 6,
+        "total": 6
+      },
+      "security": {
+        "required": 1,
+        "elective": 7,
+        "total": 8
+      },
+      "software_eng": {
+        "required": 11,
+        "elective": 15,
+        "total": 26
+      },
+      "web_mobile": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      }
+    },
+    "earliest_technical_elective_semester": 4,
+    "project_heavy_course_count": 19,
+    "total_project_ects": 113,
+    "english_resources_ratio": 0.84
+  }
 }

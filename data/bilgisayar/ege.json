@@ -82,7 +82,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291041/778019/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291041/778019/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:59.990585+00:00"
+      }
     },
     {
       "code": "501001022022",
@@ -157,7 +182,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291591/778020/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291591/778020/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:02.548366+00:00"
+      }
     },
     {
       "code": "501001052022",
@@ -197,7 +247,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291044/778022/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291044/778022/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:04.769407+00:00"
+      }
     },
     {
       "code": "501001072023",
@@ -243,7 +318,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294856/785348/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294856/785348/1/2025",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:07.158038+00:00"
+      }
     },
     {
       "code": "501001232022",
@@ -289,7 +390,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291049/778026/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291049/778026/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:09.476672+00:00"
+      }
     },
     {
       "code": "501001272023",
@@ -337,7 +463,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294857/785349/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294857/785349/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:12.379861+00:00"
+      }
     },
     {
       "code": "CAL1032023",
@@ -356,7 +509,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293305/785346/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293305/785346/1/2025",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:14.635827+00:00"
+      }
     },
     {
       "code": "CHA002",
@@ -375,7 +553,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/296482/787842/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/296482/787842/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:16.887353+00:00"
+      }
     },
     {
       "code": "501000922022",
@@ -424,7 +627,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291039/778027/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291039/778027/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:19.287577+00:00"
+      }
     },
     {
       "code": "501000942022",
@@ -471,7 +699,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291040/778028/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291040/778028/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:21.698734+00:00"
+      }
     },
     {
       "code": "501001102022",
@@ -510,7 +763,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291045/778040/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291045/778040/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "math",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:24.202843+00:00"
+      }
     },
     {
       "code": "501001112022",
@@ -553,7 +833,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291050/778041/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291050/778041/1/2025",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:26.613722+00:00"
+      }
     },
     {
       "code": "501001122023",
@@ -602,7 +909,35 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294858/785350/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294858/785350/1/2025",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "java"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:29.133433+00:00"
+      }
     },
     {
       "code": "501001182023",
@@ -621,7 +956,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294859/785351/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294859/785351/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:31.323860+00:00"
+      }
     },
     {
       "code": "CAL1042023",
@@ -640,7 +1000,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293306/785347/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293306/785347/1/2025",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:33.452626+00:00"
+      }
     },
     {
       "code": "501002032023",
@@ -688,7 +1073,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294860/785355/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294860/785355/1/2025",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:36.138330+00:00"
+      }
     },
     {
       "code": "501002042010",
@@ -742,7 +1153,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/121997/777174/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/121997/777174/1/2025",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:38.594776+00:00"
+      }
     },
     {
       "code": "501002102023",
@@ -776,7 +1214,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294861/785356/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294861/785356/1/2025",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:40.971961+00:00"
+      }
     },
     {
       "code": "501002232023",
@@ -819,7 +1284,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294862/785357/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294862/785357/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:43.341862+00:00"
+      }
     },
     {
       "code": "501002252010",
@@ -876,7 +1367,33 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/122031/777177/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/122031/777177/1/2025",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:45.665068+00:00"
+      }
     },
     {
       "code": "LAG2052023",
@@ -912,7 +1429,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293359/785353/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293359/785353/1/2025",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:48.021939+00:00"
+      }
     },
     {
       "code": "10520101T12022",
@@ -958,7 +1501,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291055/778048/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291055/778048/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:50.371108+00:00"
+      }
     },
     {
       "code": "501002191998",
@@ -1001,7 +1569,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/122022/777181/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/122022/777181/1/2025",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:53.034146+00:00"
+      }
     },
     {
       "code": "501002242010",
@@ -1048,7 +1643,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/122029/777182/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/122029/777182/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:55.695902+00:00"
+      }
     },
     {
       "code": "501002262023",
@@ -1067,7 +1688,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294863/785360/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294863/785360/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.0,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:48:58.055503+00:00"
+      }
     },
     {
       "code": "501002302023",
@@ -1120,7 +1766,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294882/785359/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294882/785359/1/2025",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:00.493067+00:00"
+      }
     },
     {
       "code": "DIF2222023",
@@ -1139,7 +1812,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293307/785358/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/293307/785358/1/2025",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:02.864541+00:00"
+      }
     },
     {
       "code": "501003222023",
@@ -1186,7 +1885,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294866/785367/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294866/785367/1/2025",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:05.424819+00:00"
+      }
     },
     {
       "code": "501003242023",
@@ -1234,7 +1960,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294867/785366/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294867/785366/1/2025",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:07.882792+00:00"
+      }
     },
     {
       "code": "501003312022",
@@ -1282,7 +2035,33 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291059/778051/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291059/778051/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:10.543688+00:00"
+      }
     },
     {
       "code": "501003412023",
@@ -1328,7 +2107,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294865/785365/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294865/785365/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:13.158140+00:00"
+      }
     },
     {
       "code": "501003452022",
@@ -1376,7 +2182,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291061/778052/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291061/778052/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:15.664452+00:00"
+      }
     },
     {
       "code": "501003172022",
@@ -1410,7 +2243,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291063/778057/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291063/778057/1/2025",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:18.163560+00:00"
+      }
     },
     {
       "code": "501003362023",
@@ -1461,7 +2321,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294869/785372/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294869/785372/1/2025",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:20.970669+00:00"
+      }
     },
     {
       "code": "501003402023",
@@ -1508,7 +2395,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294873/785373/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294873/785373/1/2025",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:23.549215+00:00"
+      }
     },
     {
       "code": "501003522015",
@@ -1559,7 +2473,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/259057/777194/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/259057/777194/1/2025",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:26.314275+00:00"
+      }
     },
     {
       "code": "501003602022",
@@ -1606,7 +2547,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291064/778059/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291064/778059/1/2025",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:30.972063+00:00"
+      }
     },
     {
       "code": "501004652022",
@@ -1651,7 +2619,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291067/778064/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291067/778064/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:33.530209+00:00"
+      }
     },
     {
       "code": "501004752022",
@@ -1693,7 +2686,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291976/778194/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291976/778194/1/2025",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:36.040928+00:00"
+      }
     },
     {
       "code": "501004772022",
@@ -1735,7 +2755,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291978/778195/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291978/778195/1/2025",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:38.397667+00:00"
+      }
     },
     {
       "code": "501004602022",
@@ -1780,7 +2827,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291070/778065/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291070/778065/1/2025",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "security",
+          "systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:40.852648+00:00"
+      }
     },
     {
       "code": "501004742022",
@@ -1822,7 +2896,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291979/778197/1/2025"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/291979/778197/1/2025",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:43.250595+00:00"
+      }
     },
     {
       "code": "HEM305GHFA",
@@ -1843,7 +2944,32 @@
       "categories": [
         "UNIVERSITY ELECTIVE COURSE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/289463/778068/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/289463/778068/1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:45.659878+00:00"
+      }
     },
     {
       "code": "İİB307IGP",
@@ -1885,7 +3011,32 @@
       "categories": [
         "UNIVERSITY ELECTIVE COURSE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/301974/778068/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/301974/778068/1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:48.086885+00:00"
+      }
     },
     {
       "code": "501003682024",
@@ -1932,7 +3083,34 @@
       "categories": [
         "TECHNICAL ELECTIVE"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/298788/791100/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/298788/791100/1",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:50.890549+00:00"
+      }
     },
     {
       "code": "İİB308IGG",
@@ -1972,7 +3150,32 @@
       "categories": [
         "UNIVERSITY ELECTIVE COURSE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/302638/778187/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/302638/778187/1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:53.322298+00:00"
+      }
     },
     {
       "code": "501004012023",
@@ -2019,7 +3222,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294974/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294974/785276/1",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.32,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:55.815053+00:00"
+      }
     },
     {
       "code": "501004232023",
@@ -2068,7 +3298,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294973/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294973/785276/1",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:49:58.286454+00:00"
+      }
     },
     {
       "code": "501004852023",
@@ -2114,7 +3371,42 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294969/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294969/785276/1",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "html5",
+          "css3",
+          "javascript",
+          "react",
+          "spa",
+          "bootstrap",
+          "ajax"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:00.826324+00:00"
+      }
     },
     {
       "code": "501004872023",
@@ -2164,7 +3456,36 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294970/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294970/785276/1",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "opengl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:03.381771+00:00"
+      }
     },
     {
       "code": "501004892023",
@@ -2219,7 +3540,36 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294971/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294971/785276/1",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "mpi"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:05.941800+00:00"
+      }
     },
     {
       "code": "501004912023",
@@ -2255,7 +3605,33 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294972/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294972/785276/1",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:08.399740+00:00"
+      }
     },
     {
       "code": "501004932023",
@@ -2305,7 +3681,33 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295075/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295075/785276/1",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:10.781648+00:00"
+      }
     },
     {
       "code": "501004952023",
@@ -2350,7 +3752,38 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295079/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295079/785276/1",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "android",
+          "kotlin",
+          "jetpack compose"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:13.259643+00:00"
+      }
     },
     {
       "code": "501004972023",
@@ -2398,7 +3831,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295080/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295080/785276/1",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:15.670281+00:00"
+      }
     },
     {
       "code": "501004992025",
@@ -2447,7 +3907,41 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/300947/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/300947/785276/1",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 82,
+        "modern_tech_tags": [
+          "hadoop",
+          "spark",
+          "kafka",
+          "flink",
+          "airflow",
+          "ozie"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:18.332816+00:00"
+      }
     },
     {
       "code": "501008012023",
@@ -2492,7 +3986,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295350/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295350/785276/1",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "ai_ml",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:20.872819+00:00"
+      }
     },
     {
       "code": "501008032023",
@@ -2539,7 +4060,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-I"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295351/785276/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295351/785276/1",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:23.338357+00:00"
+      }
     },
     {
       "code": "501004162023",
@@ -2585,7 +4133,41 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294986/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294986/785277/1",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "spring",
+          "spring boot",
+          "rest api",
+          "microservice",
+          "jpa",
+          "j2ee"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:25.909337+00:00"
+      }
     },
     {
       "code": "501004182023",
@@ -2634,7 +4216,42 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294988/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294988/785277/1",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "cloud computing",
+          "aws",
+          "azure",
+          "google app engine",
+          "iaas",
+          "paas",
+          "saas"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:28.581575+00:00"
+      }
     },
     {
       "code": "501004442023",
@@ -2680,7 +4297,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294994/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294994/785277/1",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.24,
+          "apply": 0.34,
+          "analyze": 0.18,
+          "evaluate": 0.08,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:30.998608+00:00"
+      }
     },
     {
       "code": "501004682023",
@@ -2730,7 +4374,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294995/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/294995/785277/1",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:34.002978+00:00"
+      }
     },
     {
       "code": "501004842023",
@@ -2778,7 +4449,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295086/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295086/785277/1",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:36.560235+00:00"
+      }
     },
     {
       "code": "501004902023",
@@ -2825,7 +4523,41 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295089/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295089/785277/1",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "asp.net core",
+          "mvc",
+          "microservice",
+          "entity framework",
+          "web services",
+          "cloud"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:39.255006+00:00"
+      }
     },
     {
       "code": "501008022023",
@@ -2872,7 +4604,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295345/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295345/785277/1",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:41.782287+00:00"
+      }
     },
     {
       "code": "501008042023",
@@ -2915,7 +4674,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295346/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295346/785277/1",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:44.341788+00:00"
+      }
     },
     {
       "code": "501008062023",
@@ -2963,7 +4749,34 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295347/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295347/785277/1",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:46.903324+00:00"
+      }
     },
     {
       "code": "501008082023",
@@ -3007,7 +4820,39 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295348/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/295348/785277/1",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "microservice",
+          "docker",
+          "kubernetes",
+          "spring boot"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.06,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:49.672408+00:00"
+      }
     },
     {
       "code": "501008122025",
@@ -3050,7 +4895,151 @@
       "categories": [
         "TECHNICAL ELECTIVE-II"
       ],
-      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/300935/785277/1"
+      "source_url": "https://ebp.ege.edu.tr/DereceProgramlari/Ders/1/8354/300935/785277/1",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "akka",
+          "kafka",
+          "rxjava",
+          "go",
+          "microservice"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:50:52.445616+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 69,
+    "enriched_courses": 69,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T18:50:52.952330+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 13,
+        "total_ects": 44,
+        "required_ects": 29
+      },
+      "programming": {
+        "courses": 23,
+        "total_ects": 119,
+        "required_ects": 65
+      },
+      "systems": {
+        "courses": 27,
+        "total_ects": 135,
+        "required_ects": 75
+      },
+      "ai_ml": {
+        "courses": 5,
+        "total_ects": 23,
+        "required_ects": 4
+      },
+      "data_science": {
+        "courses": 3,
+        "total_ects": 9,
+        "required_ects": 0
+      },
+      "security": {
+        "courses": 3,
+        "total_ects": 12,
+        "required_ects": 7
+      },
+      "web_mobile": {
+        "courses": 5,
+        "total_ects": 25,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 29,
+        "total_ects": 149,
+        "required_ects": 64
+      },
+      "graphics_vision": {
+        "courses": 1,
+        "total_ects": 5,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 10,
+        "total_ects": 50,
+        "required_ects": 10
+      },
+      "theory": {
+        "courses": 20,
+        "total_ects": 89,
+        "required_ects": 69
+      },
+      "info_systems": {
+        "courses": 8,
+        "total_ects": 42,
+        "required_ects": 32
+      }
+    },
+    "modernity_score": 52,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 4,
+        "total": 5
+      },
+      "data_science": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      },
+      "distributed": {
+        "required": 2,
+        "elective": 8,
+        "total": 10
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 1,
+        "total": 1
+      },
+      "security": {
+        "required": 2,
+        "elective": 1,
+        "total": 3
+      },
+      "software_eng": {
+        "required": 12,
+        "elective": 17,
+        "total": 29
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      }
+    },
+    "earliest_technical_elective_semester": 6,
+    "project_heavy_course_count": 27,
+    "total_project_ects": 133,
+    "english_resources_ratio": 0.27
+  }
 }
