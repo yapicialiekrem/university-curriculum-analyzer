@@ -58,7 +58,32 @@
         "high school algebra and trigonometry"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300126?unique=d610e77cb9f96505056ef56718a85a7969fdf707&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300126?unique=d610e77cb9f96505056ef56718a85a7969fdf707&download=true",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:23.290180+00:00"
+      }
     },
     {
       "code": "PHYS 101",
@@ -103,7 +128,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/299481?unique=65a8e42035607b8e9b0f150dbceaba9ec0d88120&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/299481?unique=65a8e42035607b8e9b0f150dbceaba9ec0d88120&download=true",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:25.578359+00:00"
+      }
     },
     {
       "code": "CENG 109",
@@ -151,7 +202,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/265910?unique=5fd86002a2290b7d2895430c0e326b64b993a888&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/265910?unique=5fd86002a2290b7d2895430c0e326b64b993a888&download=true",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.12,
+          "evaluate": 0.03,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:28.434666+00:00"
+      }
     },
     {
       "code": "ENG101",
@@ -200,7 +278,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300580?unique=6df6a228b14d5e61ad783817da9f9fc22363a062&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300580?unique=6df6a228b14d5e61ad783817da9f9fc22363a062&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:30.581705+00:00"
+      }
     },
     {
       "code": "IUL 151",
@@ -262,7 +365,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/305752?unique=c2103a405538a78536a36be3f34842d7761cdf2d&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/305752?unique=c2103a405538a78536a36be3f34842d7761cdf2d&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:32.848637+00:00"
+      }
     },
     {
       "code": "TUR 101",
@@ -329,7 +459,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/248781?unique=64bc7b22dfef3cc7235370550be61ad3866282fa&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/248781?unique=64bc7b22dfef3cc7235370550be61ad3866282fa&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:35.715038+00:00"
+      }
     },
     {
       "code": "MATH 201",
@@ -377,7 +532,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300128?unique=a1f55d8bf067b98d8fa3f28e9a88b4f4b9fa335f&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300128?unique=a1f55d8bf067b98d8fa3f28e9a88b4f4b9fa335f&download=true",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:38.173789+00:00"
+      }
     },
     {
       "code": "ATA 101",
@@ -426,7 +607,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250013?unique=25042ba43f4f50dbc0631d2333c0cdfaa58ee6b8&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250013?unique=25042ba43f4f50dbc0631d2333c0cdfaa58ee6b8&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:40.425887+00:00"
+      }
     },
     {
       "code": "EPR 121",
@@ -477,7 +683,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/93806?unique=e6c5ee130c1d81b518e8e692fbe92d6fafb72fdb&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/93806?unique=e6c5ee130c1d81b518e8e692fbe92d6fafb72fdb&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:42.888665+00:00"
+      }
     },
     {
       "code": "MATH 102",
@@ -525,7 +757,33 @@
         "MATH 101"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300127?unique=be3b7d160e1cbbe0a98cfdc82a6d49458668ec2d&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300127?unique=be3b7d160e1cbbe0a98cfdc82a6d49458668ec2d&download=true",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:45.065720+00:00"
+      }
     },
     {
       "code": "PHYS 102",
@@ -571,7 +829,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/299485?unique=9cae088d23cc2b1d98e5221be93b00e32c614c84&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/299485?unique=9cae088d23cc2b1d98e5221be93b00e32c614c84&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:47.697399+00:00"
+      }
     },
     {
       "code": "CENG 110",
@@ -619,7 +902,33 @@
         "CENG 109"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/251453?unique=0d95f60efcfb9e2a2dcb826666fcd5703c43841e&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/251453?unique=0d95f60efcfb9e2a2dcb826666fcd5703c43841e&download=true",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:49.927260+00:00"
+      }
     },
     {
       "code": "ENG 102",
@@ -668,7 +977,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303437?unique=f7340f2fe9dd7020a0a3786b07108d50c6dd276e&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303437?unique=f7340f2fe9dd7020a0a3786b07108d50c6dd276e&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:52.304564+00:00"
+      }
     },
     {
       "code": "WED 128",
@@ -715,7 +1049,32 @@
         "Must be a 1st-year student and have successfully completed all courses from the first semester."
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303407?unique=60d2766865105af6cc27d7dec74ba7fd5f08b217&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303407?unique=60d2766865105af6cc27d7dec74ba7fd5f08b217&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:54.456149+00:00"
+      }
     },
     {
       "code": "SENG 116",
@@ -758,7 +1117,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250350?unique=77804b4895c83577277c203106fe6117d667356c&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250350?unique=77804b4895c83577277c203106fe6117d667356c&download=true",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:56.673167+00:00"
+      }
     },
     {
       "code": "IUL 152",
@@ -806,7 +1191,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/313566?unique=dbae3361a9d42d57e1d271d2caa4ead186e25bdd&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/313566?unique=dbae3361a9d42d57e1d271d2caa4ead186e25bdd&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:59.049966+00:00"
+      }
     },
     {
       "code": "EPR 122",
@@ -852,7 +1262,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250018?unique=188f141e8df292f845e4a8b64e10fdb63565bb63&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250018?unique=188f141e8df292f845e4a8b64e10fdb63565bb63&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:01.419488+00:00"
+      }
     },
     {
       "code": "MATH 202",
@@ -900,7 +1336,33 @@
         "MATH 101"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300129?unique=7b5d6220977095c005eb32096168d89533430b54&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300129?unique=7b5d6220977095c005eb32096168d89533430b54&download=true",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:03.876117+00:00"
+      }
     },
     {
       "code": "CENG 213",
@@ -950,7 +1412,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266769?unique=4be1685ff41a966713d6c2d7aa02a61a3b6a38d2&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266769?unique=4be1685ff41a966713d6c2d7aa02a61a3b6a38d2&download=true",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:06.093020+00:00"
+      }
     },
     {
       "code": "SENG 207",
@@ -995,7 +1483,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266778?unique=00395504bc80b7c6fb7b25451a45480530acc595&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266778?unique=00395504bc80b7c6fb7b25451a45480530acc595&download=true",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:08.690174+00:00"
+      }
     },
     {
       "code": "WAP 227",
@@ -1046,7 +1561,33 @@
         "Corequisites (Workplace Education) and all first-year courses"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303418?unique=6747679346f7dfe7a48fb5e484acf0033f7a3ea7&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303418?unique=6747679346f7dfe7a48fb5e484acf0033f7a3ea7&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:11.409016+00:00"
+      }
     },
     {
       "code": "FRL 211",
@@ -1065,7 +1606,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:13.564242+00:00"
+      }
     },
     {
       "code": "CENG 205",
@@ -1116,7 +1682,33 @@
         "CENG 110"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266768?unique=1ae7c9b8a80a7a8c0346dc4dfd475315c9d03b6b&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266768?unique=1ae7c9b8a80a7a8c0346dc4dfd475315c9d03b6b&download=true",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:15.857292+00:00"
+      }
     },
     {
       "code": "SENG 305",
@@ -1167,7 +1759,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250023?unique=0d5ea785316236ccf2e9bda2f140035e5c176451&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250023?unique=0d5ea785316236ccf2e9bda2f140035e5c176451&download=true",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:18.211023+00:00"
+      }
     },
     {
       "code": "SENG 202",
@@ -1216,7 +1834,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250024?unique=c7fadb8575b5dbcbf91584c2c633be4d21c87009&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250024?unique=c7fadb8575b5dbcbf91584c2c633be4d21c87009&download=true",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:20.566688+00:00"
+      }
     },
     {
       "code": "SENG 204",
@@ -1260,7 +1905,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250035?unique=8425215bd3a8124f5881813e39b01fab0e370bf2&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250035?unique=8425215bd3a8124f5881813e39b01fab0e370bf2&download=true",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:22.667230+00:00"
+      }
     },
     {
       "code": "WAP 228",
@@ -1308,7 +1980,34 @@
         "Workplace Application I"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303422?unique=5a01a6172d542223f6895aa1856fc5f70a334fe0&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303422?unique=5a01a6172d542223f6895aa1856fc5f70a334fe0&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:25.018109+00:00"
+      }
     },
     {
       "code": "FRL 212",
@@ -1327,7 +2026,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:27.000268+00:00"
+      }
     },
     {
       "code": "CENG 303",
@@ -1372,7 +2096,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250028?unique=f990fb3c749619bc6fa688f88d33ec11daa83e49&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250028?unique=f990fb3c749619bc6fa688f88d33ec11daa83e49&download=true",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:29.475740+00:00"
+      }
     },
     {
       "code": "SENG 312",
@@ -1420,7 +2171,34 @@
         "Database Management Systems"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266782?unique=fe64c42494c6a2ffbef0f460c73718951cc965ae&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/266782?unique=fe64c42494c6a2ffbef0f460c73718951cc965ae&download=true",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:31.846722+00:00"
+      }
     },
     {
       "code": "WAP 327",
@@ -1468,7 +2246,34 @@
         "Workplace Application II"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303425?unique=00b0bc5ebbd821c8a623b317abdfb19aa645d6e6&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303425?unique=00b0bc5ebbd821c8a623b317abdfb19aa645d6e6&download=true",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:34.099693+00:00"
+      }
     },
     {
       "code": "LCE 301",
@@ -1523,7 +2328,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300132?unique=db46f4b999e793cee87c8e67a708b2613f5ab530&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/300132?unique=db46f4b999e793cee87c8e67a708b2613f5ab530&download=true",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:37.155969+00:00"
+      }
     },
     {
       "code": "WEX 328",
@@ -1571,7 +2401,34 @@
         "Corequisites (Workplace Application III) and all second-year courses."
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303429?unique=148c60c4e23d5d73af0f28122cbbbdcb757dd0ef&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303429?unique=148c60c4e23d5d73af0f28122cbbbdcb757dd0ef&download=true",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:40.105498+00:00"
+      }
     },
     {
       "code": "WEX 427",
@@ -1619,7 +2476,34 @@
         "Corequisites (Workplace Application I) and all third-year courses"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303432?unique=cb4faea4b86e0c35aeb18b1fd4869c3e7c0d9759&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303432?unique=cb4faea4b86e0c35aeb18b1fd4869c3e7c0d9759&download=true",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:42.379360+00:00"
+      }
     },
     {
       "code": "WEX 428",
@@ -1671,7 +2555,34 @@
         "Corequisites (Workplace Experience II) and all other preceding workplace education courses"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303434?unique=f109f8dc2ed96eebfe36a7ab51ee142fa7fcf62c&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/303434?unique=f109f8dc2ed96eebfe36a7ab51ee142fa7fcf62c&download=true",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.03,
+          "understand": 0.12,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:44.733086+00:00"
+      }
     },
     {
       "code": "ATA 102",
@@ -1690,7 +2601,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:46.891786+00:00"
+      }
     },
     {
       "code": "TUR 102",
@@ -1709,7 +2645,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:49.131737+00:00"
+      }
     },
     {
       "code": "MATH 204",
@@ -1757,7 +2718,33 @@
         "Math"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/299495?unique=48cf0157fccbb8e19bca09a18404fa315f153a50&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/299495?unique=48cf0157fccbb8e19bca09a18404fa315f153a50&download=true",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:51.358405+00:00"
+      }
     },
     {
       "code": "SENG 320",
@@ -1805,7 +2792,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/325812?unique=7f3570e9d70e8a8eb8232e1be90336e4d28b4e44&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/325812?unique=7f3570e9d70e8a8eb8232e1be90336e4d28b4e44&download=true",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:53.640721+00:00"
+      }
     },
     {
       "code": "SENG 323",
@@ -1866,7 +2879,44 @@
         "SENG 312 Data Mining"
       ],
       "categories": [],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250034?unique=f08fc80eb8a11022781e78db413e917488745b86&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/250034?unique=f08fc80eb8a11022781e78db413e917488745b86&download=true",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "distributed",
+          "ai_ml"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 82,
+        "modern_tech_tags": [
+          "ai",
+          "machine learning",
+          "cloud computing",
+          "microservice",
+          "devops",
+          "ci/cd",
+          "blockchain",
+          "serverless computing",
+          "devsecops"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:55.999751+00:00"
+      }
     },
     {
       "code": "SENG 314",
@@ -1885,7 +2935,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:15:58.057865+00:00"
+      }
     },
     {
       "code": "CENG 401",
@@ -1904,7 +2980,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.1,
+          "create": 0.5
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:00.154545+00:00"
+      }
     },
     {
       "code": "CENG 402",
@@ -1923,7 +3024,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:02.302552+00:00"
+      }
     },
     {
       "code": "SENG 356",
@@ -1950,7 +3077,33 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.4,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:04.500641+00:00"
+      }
     },
     {
       "code": "SENG 340",
@@ -1971,7 +3124,37 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "ai_ml"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "unity",
+          "unreal engine"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:06.830633+00:00"
+      }
     },
     {
       "code": "SENG 342",
@@ -1998,7 +3181,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "programming",
+          "math",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:09.717696+00:00"
+      }
     },
     {
       "code": "SENG 344",
@@ -2019,7 +3229,39 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "flutter",
+          "react",
+          "kotlin",
+          "swift"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:11.822128+00:00"
+      }
     },
     {
       "code": "SENG 346",
@@ -2040,7 +3282,37 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "pytorch",
+          "tensorflow"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:14.006995+00:00"
+      }
     },
     {
       "code": "SENG 348",
@@ -2061,7 +3333,38 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "arduino",
+          "raspberry pi",
+          "ros"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:16.274026+00:00"
+      }
     },
     {
       "code": "SENG 350",
@@ -2082,7 +3385,39 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "programming",
+          "web_mobile",
+          "data_science"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "pandas",
+          "numpy",
+          "flask",
+          "django"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:18.575652+00:00"
+      }
     },
     {
       "code": "SENG 352",
@@ -2103,7 +3438,33 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:20.784121+00:00"
+      }
     },
     {
       "code": "SENG 354",
@@ -2130,7 +3491,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:22.889749+00:00"
+      }
     },
     {
       "code": "SENG 358",
@@ -2151,7 +3539,46 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "html5",
+          "css3",
+          "javascript",
+          "node.js",
+          "django",
+          "express",
+          "restful api",
+          "cloud",
+          "version control",
+          "testing",
+          "agile"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:25.491520+00:00"
+      }
     },
     {
       "code": "SENG 360",
@@ -2172,7 +3599,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:28.211993+00:00"
+      }
     },
     {
       "code": "SENG 364",
@@ -2223,7 +3677,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/306215?unique=193e9dead7e869bfdc1fc4aa525b56d94c9e7eb6&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/306215?unique=193e9dead7e869bfdc1fc4aa525b56d94c9e7eb6&download=true",
+      "_enriched": {
+        "categories": [
+          "security",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:30.506263+00:00"
+      }
     },
     {
       "code": "SENG 366",
@@ -2244,7 +3725,37 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "transformer",
+          "llm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:32.658490+00:00"
+      }
     },
     {
       "code": "SENG 368",
@@ -2265,7 +3776,39 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "graphics_vision",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "tableau",
+          "matplotlib",
+          "seaborn",
+          "d3.js"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:35.306195+00:00"
+      }
     },
     {
       "code": "SENG 370",
@@ -2286,7 +3829,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:37.460188+00:00"
+      }
     },
     {
       "code": "SENG 372",
@@ -2307,7 +3877,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:39.611783+00:00"
+      }
     },
     {
       "code": "SENG 374",
@@ -2355,7 +3952,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/306213?unique=5069ab6e5b70fdccafe686131168ed927439b5c2&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/306213?unique=5069ab6e5b70fdccafe686131168ed927439b5c2&download=true",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "systems",
+          "security"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:42.486589+00:00"
+      }
     },
     {
       "code": "SENG 469",
@@ -2376,7 +4000,40 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "grpc",
+          "kafka",
+          "cloud",
+          "microservice",
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:44.752907+00:00"
+      }
     },
     {
       "code": "SENG 483",
@@ -2397,7 +4054,34 @@
       "categories": [
         "ELEC 1 - TEKNİK SEÇMELİ I"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:46.891808+00:00"
+      }
     },
     {
       "code": "SENG 413",
@@ -2418,7 +4102,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:49.139278+00:00"
+      }
     },
     {
       "code": "SENG 415",
@@ -2439,7 +4150,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:51.293619+00:00"
+      }
     },
     {
       "code": "SENG 417",
@@ -2460,7 +4198,33 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:53.547290+00:00"
+      }
     },
     {
       "code": "SENG 419",
@@ -2481,7 +4245,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:55.797104+00:00"
+      }
     },
     {
       "code": "SENG 421",
@@ -2502,7 +4293,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:16:57.950792+00:00"
+      }
     },
     {
       "code": "SENG 423",
@@ -2528,7 +4346,33 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:00.301429+00:00"
+      }
     },
     {
       "code": "SENG 425",
@@ -2575,7 +4419,39 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/306208?unique=6a4fa8358188360821843fec03ac3bdb0a658559&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/306208?unique=6a4fa8358188360821843fec03ac3bdb0a658559&download=true",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "smart contracts",
+          "ethereum",
+          "hyperledger"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:02.526621+00:00"
+      }
     },
     {
       "code": "SENG 427",
@@ -2596,7 +4472,38 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "opencv",
+          "tensorflow",
+          "cnn"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:04.809590+00:00"
+      }
     },
     {
       "code": "SENG 429",
@@ -2617,7 +4524,39 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "devops",
+          "ci/cd",
+          "selenium",
+          "junit",
+          "tdd"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.42,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:07.113963+00:00"
+      }
     },
     {
       "code": "SENG 431",
@@ -2643,7 +4582,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:09.264576+00:00"
+      }
     },
     {
       "code": "SENG 433",
@@ -2664,7 +4630,36 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:11.429871+00:00"
+      }
     },
     {
       "code": "SENG 435",
@@ -2685,7 +4680,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:13.601852+00:00"
+      }
     },
     {
       "code": "SENG 437",
@@ -2706,7 +4728,40 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "docker",
+          "kubernetes",
+          "aws",
+          "azure",
+          "google cloud"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:15.845296+00:00"
+      }
     },
     {
       "code": "SENG 441",
@@ -2727,7 +4782,34 @@
       "categories": [
         "ELEC 4- TEKNİK SEÇMELİ IV"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:18.226553+00:00"
+      }
     },
     {
       "code": "SENG 443",
@@ -2748,7 +4830,38 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "python",
+          "tensorflow",
+          "openai gym"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:20.376769+00:00"
+      }
     },
     {
       "code": "SENG 445",
@@ -2769,7 +4882,43 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "microservice",
+          "oauth",
+          "jwt",
+          "rest",
+          "soap",
+          "spring boot",
+          "flask",
+          "node.js"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:23.185292+00:00"
+      }
     },
     {
       "code": "SENG 447",
@@ -2790,7 +4939,41 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "flutter",
+          "react",
+          "kotlin",
+          "swift",
+          "mvvm",
+          "mvc"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:25.599510+00:00"
+      }
     },
     {
       "code": "SENG 449",
@@ -2811,7 +4994,36 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "docker",
+          "devops"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:27.953866+00:00"
+      }
     },
     {
       "code": "SENG 451",
@@ -2832,7 +5044,37 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "elasticsearch",
+          "apache lucene"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:30.094224+00:00"
+      }
     },
     {
       "code": "SENG 453",
@@ -2853,7 +5095,33 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:32.235593+00:00"
+      }
     },
     {
       "code": "SENG 455",
@@ -2903,7 +5171,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/350797?unique=503f869852ceb248691fbb4057ee188f8864eaf2&download=true"
+      "source_url": "https://mfsoftware.ostimteknik.edu.tr/web/content/350797?unique=503f869852ceb248691fbb4057ee188f8864eaf2&download=true",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.04,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:34.630840+00:00"
+      }
     },
     {
       "code": "SENG 457",
@@ -2924,7 +5219,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:37.408471+00:00"
+      }
     },
     {
       "code": "SENG 459",
@@ -2945,7 +5267,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:39.639533+00:00"
+      }
     },
     {
       "code": "SENG 461",
@@ -2966,7 +5315,37 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "ros",
+          "gazebo"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.16,
+          "evaluate": 0.06,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:41.801131+00:00"
+      }
     },
     {
       "code": "SENG 463",
@@ -2987,7 +5366,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:44.642337+00:00"
+      }
     },
     {
       "code": "SENG 465",
@@ -3008,7 +5414,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "web_mobile"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:46.897361+00:00"
+      }
     },
     {
       "code": "SENG 467",
@@ -3029,7 +5462,33 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:49.084623+00:00"
+      }
     },
     {
       "code": "SENG 471",
@@ -3050,7 +5509,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:51.267359+00:00"
+      }
     },
     {
       "code": "SENG 473",
@@ -3092,7 +5578,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:53.552463+00:00"
+      }
     },
     {
       "code": "SENG 475",
@@ -3113,7 +5626,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:55.726161+00:00"
+      }
     },
     {
       "code": "SENG 477",
@@ -3138,7 +5678,32 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:17:57.835214+00:00"
+      }
     },
     {
       "code": "SENG 479",
@@ -3159,7 +5724,33 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:00.209203+00:00"
+      }
     },
     {
       "code": "SENG 481",
@@ -3180,7 +5771,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "systems",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:02.466637+00:00"
+      }
     },
     {
       "code": "SENG 485",
@@ -3201,7 +5819,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:04.694652+00:00"
+      }
     },
     {
       "code": "SENG 487",
@@ -3222,7 +5867,34 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.07,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:06.864199+00:00"
+      }
     },
     {
       "code": "SENG 439",
@@ -3243,7 +5915,148 @@
       "categories": [
         "ELEC 5-11- TEKNİK SEÇMELİ IV-XI"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "pytorch",
+          "tensorflow"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:18:09.220137+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 98,
+    "enriched_courses": 98,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:18:09.725257+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 16,
+        "total_ects": 56,
+        "required_ects": 46
+      },
+      "programming": {
+        "courses": 31,
+        "total_ects": 30,
+        "required_ects": 30
+      },
+      "systems": {
+        "courses": 32,
+        "total_ects": 69,
+        "required_ects": 60
+      },
+      "ai_ml": {
+        "courses": 17,
+        "total_ects": 17,
+        "required_ects": 12
+      },
+      "data_science": {
+        "courses": 10,
+        "total_ects": 22,
+        "required_ects": 17
+      },
+      "security": {
+        "courses": 11,
+        "total_ects": 9,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 9,
+        "total_ects": 4,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 43,
+        "total_ects": 106,
+        "required_ects": 92
+      },
+      "graphics_vision": {
+        "courses": 6,
+        "total_ects": 4,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 11,
+        "total_ects": 25,
+        "required_ects": 20
+      },
+      "theory": {
+        "courses": 12,
+        "total_ects": 41,
+        "required_ects": 41
+      },
+      "info_systems": {
+        "courses": 22,
+        "total_ects": 61,
+        "required_ects": 57
+      }
+    },
+    "modernity_score": 53,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 15,
+        "total": 17
+      },
+      "data_science": {
+        "required": 3,
+        "elective": 7,
+        "total": 10
+      },
+      "distributed": {
+        "required": 3,
+        "elective": 8,
+        "total": 11
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 6,
+        "total": 6
+      },
+      "security": {
+        "required": 0,
+        "elective": 11,
+        "total": 11
+      },
+      "software_eng": {
+        "required": 16,
+        "elective": 27,
+        "total": 43
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 9,
+        "total": 9
+      }
+    },
+    "earliest_technical_elective_semester": 1,
+    "project_heavy_course_count": 59,
+    "total_project_ects": 83,
+    "english_resources_ratio": 0.36
+  }
 }

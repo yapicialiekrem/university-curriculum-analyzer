@@ -44,7 +44,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math141/"
+      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math141/",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:15.259767+00:00"
+      }
     },
     {
       "code": "CENG 111",
@@ -94,7 +119,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-111/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-111/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:17.820047+00:00"
+      }
     },
     {
       "code": "ENG 101",
@@ -113,7 +165,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ydyo.iyte.edu.tr/akademik/modern-diller-bolumu/fakulte-dersleri-koordinatorlugu/"
+      "source_url": "http://ydyo.iyte.edu.tr/akademik/modern-diller-bolumu/fakulte-dersleri-koordinatorlugu/",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:20.074137+00:00"
+      }
     },
     {
       "code": "CENG 113",
@@ -161,7 +238,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-113/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-113/",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:22.358626+00:00"
+      }
     },
     {
       "code": "MATH 142",
@@ -180,7 +283,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math142/"
+      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math142/",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:24.490377+00:00"
+      }
     },
     {
       "code": "MATH 144",
@@ -199,7 +327,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math144/"
+      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math144/",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:26.719511+00:00"
+      }
     },
     {
       "code": "CENG 112",
@@ -243,7 +396,34 @@
         "CENG 113"
       ],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-112/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-112/",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:28.984733+00:00"
+      }
     },
     {
       "code": "CENG 115",
@@ -285,7 +465,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-115/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-115/",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:31.300563+00:00"
+      }
     },
     {
       "code": "ENG 102",
@@ -304,7 +510,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ydyo.iyte.edu.tr/en/akademik/modern-diller-bolumu/fakulte-dersleri-koordinatorlugu"
+      "source_url": "http://ydyo.iyte.edu.tr/en/akademik/modern-diller-bolumu/fakulte-dersleri-koordinatorlugu",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.6,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:33.591178+00:00"
+      }
     },
     {
       "code": "CENG 211",
@@ -350,7 +581,33 @@
         "CENG 113"
       ],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-211/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-211/",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.18,
+          "evaluate": 0.06,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:35.946941+00:00"
+      }
     },
     {
       "code": "CENG 213",
@@ -392,7 +649,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-213/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-213/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.18,
+          "analyze": 0.32,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:38.401859+00:00"
+      }
     },
     {
       "code": "MATH 255",
@@ -411,7 +694,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://math.iyte.edu.tr/courses/ugcourses/math255/"
+      "source_url": "http://math.iyte.edu.tr/courses/ugcourses/math255/",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:40.589408+00:00"
+      }
     },
     {
       "code": "CENG 212",
@@ -453,7 +761,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-212/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-212/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:43.009936+00:00"
+      }
     },
     {
       "code": "CENG 214",
@@ -495,7 +829,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-214/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-214/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:45.261614+00:00"
+      }
     },
     {
       "code": "CENG 216",
@@ -539,7 +899,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-216/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-216/",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:47.464288+00:00"
+      }
     },
     {
       "code": "CENG 215",
@@ -580,7 +966,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-215/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-215/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:49.874055+00:00"
+      }
     },
     {
       "code": "CENG 218",
@@ -620,7 +1032,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-218/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-218/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.4,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:52.226206+00:00"
+      }
     },
     {
       "code": "CENG 222",
@@ -666,7 +1105,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-222/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-222/",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:54.888966+00:00"
+      }
     },
     {
       "code": "CENG 311",
@@ -708,7 +1174,33 @@
         "CENG 214"
       ],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-311/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-311/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:57.141456+00:00"
+      }
     },
     {
       "code": "CENG 312",
@@ -748,7 +1240,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-312/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-312/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.28,
+          "apply": 0.24,
+          "analyze": 0.26,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:43:59.595694+00:00"
+      }
     },
     {
       "code": "CENG 316",
@@ -795,7 +1314,34 @@
         "CENG323"
       ],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-316/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-316/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:02.056887+00:00"
+      }
     },
     {
       "code": "CENG 318",
@@ -839,7 +1385,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-318/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-318/",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:04.928343+00:00"
+      }
     },
     {
       "code": "CENG 322",
@@ -878,7 +1451,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-322/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-322/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:07.381448+00:00"
+      }
     },
     {
       "code": "CENG 315",
@@ -923,7 +1522,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-315/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-315/",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:09.737015+00:00"
+      }
     },
     {
       "code": "PHYS 121",
@@ -942,7 +1568,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:12.000470+00:00"
+      }
     },
     {
       "code": "PHYS 122",
@@ -961,7 +1612,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:14.494094+00:00"
+      }
     },
     {
       "code": "ECON 106",
@@ -980,7 +1656,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:16.906764+00:00"
+      }
     },
     {
       "code": "GCC 101",
@@ -999,7 +1700,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:19.164203+00:00"
+      }
     },
     {
       "code": "CENG 411",
@@ -1041,7 +1767,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-411/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-411/",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:21.716712+00:00"
+      }
     },
     {
       "code": "CENG 415",
@@ -1086,7 +1839,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-415/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-415/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:24.381317+00:00"
+      }
     },
     {
       "code": "CENG 400",
@@ -1119,7 +1899,34 @@
         "It is recommended that students complete all coursework up to the end of the third year."
       ],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-400/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-400/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:26.798403+00:00"
+      }
     },
     {
       "code": "CENG 416",
@@ -1162,7 +1969,34 @@
         "CENG 415"
       ],
       "categories": [],
-      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-416/"
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-416/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:29.254529+00:00"
+      }
     },
     {
       "code": "HIST 201",
@@ -1181,7 +2015,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:31.535661+00:00"
+      }
     },
     {
       "code": "TURK 201",
@@ -1200,7 +2059,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:33.801984+00:00"
+      }
     },
     {
       "code": "HIST 203",
@@ -1219,7 +2103,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.2,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:36.054222+00:00"
+      }
     },
     {
       "code": "TURK 203",
@@ -1238,7 +2147,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:38.260625+00:00"
+      }
     },
     {
       "code": "HIST 202",
@@ -1257,7 +2191,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:40.560112+00:00"
+      }
     },
     {
       "code": "TURK 202",
@@ -1276,7 +2235,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:42.916427+00:00"
+      }
     },
     {
       "code": "HIST 204",
@@ -1295,7 +2279,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:45.270125+00:00"
+      }
     },
     {
       "code": "TURK 204",
@@ -1314,7 +2323,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:47.627476+00:00"
+      }
     },
     {
       "code": "CENG 323",
@@ -1363,7 +2397,33 @@
       "categories": [
         "Restricted Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-323/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-323/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:49.884039+00:00"
+      }
     },
     {
       "code": "CENG 418",
@@ -1405,7 +2465,34 @@
       "categories": [
         "Restricted Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-418/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-418/",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:52.490915+00:00"
+      }
     },
     {
       "code": "CENG 424",
@@ -1451,7 +2538,34 @@
       "categories": [
         "Restricted Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-424/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-424/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:55.000271+00:00"
+      }
     },
     {
       "code": "CENG 381",
@@ -1495,7 +2609,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-381/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-381/",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:57.438963+00:00"
+      }
     },
     {
       "code": "CENG 382",
@@ -1543,7 +2684,33 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-382/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-382/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:44:59.811595+00:00"
+      }
     },
     {
       "code": "CENG 383",
@@ -1587,7 +2754,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-383/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-383/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:02.276038+00:00"
+      }
     },
     {
       "code": "CENG 384",
@@ -1630,7 +2824,33 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-384/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-384/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:04.669556+00:00"
+      }
     },
     {
       "code": "CENG 370",
@@ -1679,7 +2899,41 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-370/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-370/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 38,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "cobol",
+          "rexx",
+          "jcl",
+          "vm/sp",
+          "hercules",
+          "mainframe"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:07.182838+00:00"
+      }
     },
     {
       "code": "CENG 385",
@@ -1726,7 +2980,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-385/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-385/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "ai_ml"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.25,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.07
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:09.420188+00:00"
+      }
     },
     {
       "code": "CENG 386",
@@ -1771,7 +3052,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-386/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-386/",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:11.898522+00:00"
+      }
     },
     {
       "code": "CENG 388",
@@ -1816,7 +3124,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-388/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-388/",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:14.251118+00:00"
+      }
     },
     {
       "code": "CENG 391",
@@ -1859,7 +3194,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-391/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-391/",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:16.610350+00:00"
+      }
     },
     {
       "code": "CENG 390",
@@ -1904,7 +3266,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-390/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-390/",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:19.166172+00:00"
+      }
     },
     {
       "code": "CENG 421",
@@ -1946,7 +3335,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-421/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-421/",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "web_mobile",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:21.569070+00:00"
+      }
     },
     {
       "code": "CENG 422",
@@ -1991,7 +3407,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-422/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-422/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:24.027979+00:00"
+      }
     },
     {
       "code": "CENG 389",
@@ -2034,7 +3477,40 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-389/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-389/",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "android",
+          "gps",
+          "bluetooth",
+          "wifi",
+          "web services"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:26.642542+00:00"
+      }
     },
     {
       "code": "CENG 431",
@@ -2081,7 +3557,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-431/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-431/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:29.714015+00:00"
+      }
     },
     {
       "code": "CENG 432",
@@ -2120,7 +3623,38 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-432/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-432/",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "sap",
+          "s4hana",
+          "abap"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:32.076828+00:00"
+      }
     },
     {
       "code": "CENG 433",
@@ -2171,7 +3705,38 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-433/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-433/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "web_mobile",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "play framework",
+          "hadoop",
+          "mysql"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:34.730421+00:00"
+      }
     },
     {
       "code": "CENG 435",
@@ -2217,7 +3782,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-435/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-435/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:37.291311+00:00"
+      }
     },
     {
       "code": "CENG 436",
@@ -2263,7 +3855,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-436/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-436/",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:40.055238+00:00"
+      }
     },
     {
       "code": "CENG 437",
@@ -2308,7 +3927,33 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-437/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-437/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:42.396893+00:00"
+      }
     },
     {
       "code": "CENG 441",
@@ -2352,7 +3997,38 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-441/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-441/",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "openmp",
+          "mpi",
+          "ms-mpi"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.32,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:45.175253+00:00"
+      }
     },
     {
       "code": "CENG 434",
@@ -2397,7 +4073,39 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-434/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-434/",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "web services",
+          "enterprise service bus",
+          "workflow",
+          "orchestration"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:48.117700+00:00"
+      }
     },
     {
       "code": "CENG 442",
@@ -2442,7 +4150,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-442/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-442/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:50.809705+00:00"
+      }
     },
     {
       "code": "CENG 443",
@@ -2484,7 +4219,38 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-443/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-443/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "cuda",
+          "gpu",
+          "jetson nano"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:53.573540+00:00"
+      }
     },
     {
       "code": "CENG 444",
@@ -2527,7 +4293,38 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-444/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-444/",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "openmp",
+          "multicore",
+          "parallel programming"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:56.072009+00:00"
+      }
     },
     {
       "code": "CENG 452",
@@ -2572,7 +4369,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-452/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-452/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:45:58.696019+00:00"
+      }
     },
     {
       "code": "CENG 461",
@@ -2616,7 +4440,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-461/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-461/",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:01.169200+00:00"
+      }
     },
     {
       "code": "CENG 462",
@@ -2666,7 +4517,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-462/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-462/",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:03.608340+00:00"
+      }
     },
     {
       "code": "CENG 463",
@@ -2712,7 +4590,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-463/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-463/",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:06.167858+00:00"
+      }
     },
     {
       "code": "CENG 451",
@@ -2756,7 +4661,39 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-451/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-451/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "fpga",
+          "asic",
+          "vhdl",
+          "eda"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:08.730855+00:00"
+      }
     },
     {
       "code": "CENG 464",
@@ -2802,7 +4739,37 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-464/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-464/",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "python",
+          "nltk"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:11.258941+00:00"
+      }
     },
     {
       "code": "CENG 465",
@@ -2848,7 +4815,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-465/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-465/",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.14,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:13.953824+00:00"
+      }
     },
     {
       "code": "CENG 467",
@@ -2891,7 +4885,39 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-467/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-467/",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "transformer",
+          "llm",
+          "retrieval-augmented generation",
+          "rlhf"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.34,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:16.734377+00:00"
+      }
     },
     {
       "code": "CENG 472",
@@ -2935,7 +4961,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-472/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-472/",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:19.892588+00:00"
+      }
     },
     {
       "code": "CENG 473",
@@ -2978,7 +5031,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-473/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-473/",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:22.564692+00:00"
+      }
     },
     {
       "code": "CENG 481",
@@ -3021,7 +5101,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-481/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-481/",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "ai_ml"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:25.113247+00:00"
+      }
     },
     {
       "code": "CENG 482",
@@ -3066,7 +5173,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-482/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-482/",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:27.505101+00:00"
+      }
     },
     {
       "code": "CENG 471",
@@ -3113,7 +5247,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-471/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-471/",
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:29.925577+00:00"
+      }
     },
     {
       "code": "CENG 483",
@@ -3163,7 +5324,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-483/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-483/",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "ai_ml",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:32.383928+00:00"
+      }
     },
     {
       "code": "CENG 484",
@@ -3208,7 +5396,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-484/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-484/",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:34.433522+00:00"
+      }
     },
     {
       "code": "CENG 485",
@@ -3253,7 +5468,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-485/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-485/",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:36.990947+00:00"
+      }
     },
     {
       "code": "CENG 487",
@@ -3296,7 +5538,36 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-487/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-487/",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "opengl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:39.346289+00:00"
+      }
     },
     {
       "code": "CENG 488",
@@ -3339,7 +5610,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-488/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-488/",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "math",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:41.740751+00:00"
+      }
     },
     {
       "code": "CENG 491",
@@ -3360,7 +5658,33 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-491/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-491/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:44.364388+00:00"
+      }
     },
     {
       "code": "CENG 499",
@@ -3389,7 +5713,34 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-499/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-499/",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:47.233503+00:00"
+      }
     },
     {
       "code": "CENG 486",
@@ -3435,7 +5786,145 @@
       "categories": [
         "Technical Elective"
       ],
-      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-486/"
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-486/",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "distributed",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:46:49.810104+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 88,
+    "enriched_courses": 88,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T19:46:50.314375+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 22,
+        "total_ects": 125,
+        "required_ects": 59
+      },
+      "programming": {
+        "courses": 30,
+        "total_ects": 179,
+        "required_ects": 53
+      },
+      "systems": {
+        "courses": 37,
+        "total_ects": 227,
+        "required_ects": 71
+      },
+      "ai_ml": {
+        "courses": 12,
+        "total_ects": 72,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 7,
+        "total_ects": 41,
+        "required_ects": 11
+      },
+      "security": {
+        "courses": 6,
+        "total_ects": 36,
+        "required_ects": 6
+      },
+      "web_mobile": {
+        "courses": 5,
+        "total_ects": 30,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 32,
+        "total_ects": 187,
+        "required_ects": 64
+      },
+      "graphics_vision": {
+        "courses": 3,
+        "total_ects": 18,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 12,
+        "total_ects": 72,
+        "required_ects": 6
+      },
+      "theory": {
+        "courses": 15,
+        "total_ects": 84,
+        "required_ects": 36
+      },
+      "info_systems": {
+        "courses": 15,
+        "total_ects": 89,
+        "required_ects": 38
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 12,
+        "total": 12
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 5,
+        "total": 7
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 11,
+        "total": 12
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 3,
+        "total": 3
+      },
+      "security": {
+        "required": 1,
+        "elective": 5,
+        "total": 6
+      },
+      "software_eng": {
+        "required": 11,
+        "elective": 21,
+        "total": 32
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      }
+    },
+    "earliest_technical_elective_semester": null,
+    "project_heavy_course_count": 33,
+    "total_project_ects": 199,
+    "english_resources_ratio": 0.71
+  }
 }

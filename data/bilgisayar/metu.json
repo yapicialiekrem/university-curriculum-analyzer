@@ -48,7 +48,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2300105"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2300105",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:39.766859+00:00"
+      }
     },
     {
       "code": "BIOL109",
@@ -67,7 +93,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2380109"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2380109",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:42.220763+00:00"
+      }
     },
     {
       "code": "MATH119",
@@ -88,7 +139,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360119"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360119",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:44.679407+00:00"
+      }
     },
     {
       "code": "CENG100",
@@ -112,7 +188,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710100"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710100",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:47.034974+00:00"
+      }
     },
     {
       "code": "CENG111",
@@ -141,7 +243,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710111"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710111",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:49.419395+00:00"
+      }
     },
     {
       "code": "ENG101",
@@ -162,7 +291,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6390101"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6390101",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:53.179320+00:00"
+      }
     },
     {
       "code": "OHS101",
@@ -181,7 +335,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=567&course_code=8770101"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=567&course_code=8770101",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:55.531871+00:00"
+      }
     },
     {
       "code": "IS100",
@@ -224,7 +403,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=9010100"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=9010100",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:08:57.989690+00:00"
+      }
     },
     {
       "code": "PHYS106",
@@ -250,7 +454,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2300106"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2300106",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:00.242312+00:00"
+      }
     },
     {
       "code": "MATH120",
@@ -276,7 +505,33 @@
         "MATH119"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360120"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360120",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:02.598736+00:00"
+      }
     },
     {
       "code": "BA100",
@@ -295,7 +550,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=3120100"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=3120100",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:04.749483+00:00"
+      }
     },
     {
       "code": "MATH260",
@@ -316,7 +596,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360260"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360260",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:07.102840+00:00"
+      }
     },
     {
       "code": "CENG140",
@@ -349,7 +655,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710140"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710140",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:09.356156+00:00"
+      }
     },
     {
       "code": "ENG102",
@@ -372,7 +704,32 @@
         "ENG101"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6390102"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6390102",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:11.612736+00:00"
+      }
     },
     {
       "code": "MATH219",
@@ -395,7 +752,33 @@
         "MATH120"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360219"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2360219",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:13.966122+00:00"
+      }
     },
     {
       "code": "EE281",
@@ -420,7 +803,34 @@
         "MATH120"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5670281"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5670281",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:16.731008+00:00"
+      }
     },
     {
       "code": "CENG213",
@@ -448,7 +858,34 @@
         "CENG140"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710213"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710213",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:19.084967+00:00"
+      }
     },
     {
       "code": "CENG223",
@@ -467,7 +904,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710223"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710223",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:21.342992+00:00"
+      }
     },
     {
       "code": "ENG211",
@@ -491,7 +954,32 @@
         "ENG102"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6390211"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6390211",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:23.999139+00:00"
+      }
     },
     {
       "code": "HIST2201",
@@ -526,7 +1014,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402201"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402201",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:26.251942+00:00"
+      }
     },
     {
       "code": "HIST2205",
@@ -557,7 +1070,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402205"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402205",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:28.424876+00:00"
+      }
     },
     {
       "code": "CENG222",
@@ -580,7 +1118,34 @@
         "MATH120"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710222"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710222",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:30.857287+00:00"
+      }
     },
     {
       "code": "CENG232",
@@ -602,7 +1167,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710232"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710232",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:33.273528+00:00"
+      }
     },
     {
       "code": "CENG242",
@@ -636,7 +1228,34 @@
         "CENG213"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710242"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710242",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:35.775382+00:00"
+      }
     },
     {
       "code": "CENG280",
@@ -661,7 +1280,34 @@
         "CENG223"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710280"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710280",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.24,
+          "analyze": 0.24,
+          "evaluate": 0.08,
+          "create": 0.14
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:38.234972+00:00"
+      }
     },
     {
       "code": "HIST2202",
@@ -698,7 +1344,32 @@
         "HIST2201"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402202"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402202",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:40.556714+00:00"
+      }
     },
     {
       "code": "HIST2206",
@@ -731,7 +1402,32 @@
         "HIST2205"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402206"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=2402206",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:43.045585+00:00"
+      }
     },
     {
       "code": "CENG300",
@@ -752,7 +1448,34 @@
         "OHS101"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710300"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710300",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:45.280983+00:00"
+      }
     },
     {
       "code": "CENG315",
@@ -785,7 +1508,33 @@
         "CENG213"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710315"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710315",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:47.739584+00:00"
+      }
     },
     {
       "code": "CENG331",
@@ -808,7 +1557,33 @@
         "CENG232"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710331"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710331",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:50.009921+00:00"
+      }
     },
     {
       "code": "CENG351",
@@ -835,7 +1610,34 @@
         "CENG213"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710351"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710351",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:52.276803+00:00"
+      }
     },
     {
       "code": "OHS301",
@@ -856,7 +1658,32 @@
         "OHS101"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=877&course_code=8770301"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=877&course_code=8770301",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:54.821682+00:00"
+      }
     },
     {
       "code": "TURK105",
@@ -881,7 +1708,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420105"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420105",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:57.279776+00:00"
+      }
     },
     {
       "code": "TURK201",
@@ -902,7 +1754,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420201"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420201",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:09:59.839929+00:00"
+      }
     },
     {
       "code": "TURK303",
@@ -923,7 +1800,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420303"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420303",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:02.298148+00:00"
+      }
     },
     {
       "code": "CENG334",
@@ -953,7 +1855,34 @@
         "CENG331"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710334"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710334",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:04.959426+00:00"
+      }
     },
     {
       "code": "CENG336",
@@ -976,7 +1905,33 @@
         "CENG232"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710336"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710336",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:07.519580+00:00"
+      }
     },
     {
       "code": "CENG350",
@@ -1001,7 +1956,34 @@
         "CENG213"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710350"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710350",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.32,
+          "apply": 0.22,
+          "analyze": 0.24,
+          "evaluate": 0.1,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:10.079313+00:00"
+      }
     },
     {
       "code": "CENG384",
@@ -1029,7 +2011,33 @@
         "MATH260"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710384"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710384",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:12.536965+00:00"
+      }
     },
     {
       "code": "TURK106",
@@ -1051,7 +2059,32 @@
         "TURK201"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420106"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420106",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:14.791520+00:00"
+      }
     },
     {
       "code": "TURK202",
@@ -1073,7 +2106,32 @@
         "TURK105"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420202"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420202",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:17.042742+00:00"
+      }
     },
     {
       "code": "TURK304",
@@ -1097,7 +2155,32 @@
         "TURK303"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420304"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=6420304",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:19.295315+00:00"
+      }
     },
     {
       "code": "CENG400",
@@ -1118,7 +2201,34 @@
         "OHS301"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710400"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710400",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:21.651409+00:00"
+      }
     },
     {
       "code": "CENG477",
@@ -1149,7 +2259,36 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710477"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710477",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "opengl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.27,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:23.903429+00:00"
+      }
     },
     {
       "code": "CENG491",
@@ -1173,7 +2312,34 @@
         "CENG350"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710491"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710491",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:26.463858+00:00"
+      }
     },
     {
       "code": "CENG492",
@@ -1203,7 +2369,34 @@
         "CENG491"
       ],
       "categories": [],
-      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710492"
+      "source_url": "https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710492",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:28.922989+00:00"
+      }
     },
     {
       "code": "CENG316",
@@ -1224,7 +2417,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:31.174457+00:00"
+      }
     },
     {
       "code": "CENG340",
@@ -1245,7 +2464,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "web_mobile",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:33.426871+00:00"
+      }
     },
     {
       "code": "CENG352",
@@ -1266,7 +2512,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:35.659127+00:00"
+      }
     },
     {
       "code": "CENG371",
@@ -1287,7 +2558,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:37.861660+00:00"
+      }
     },
     {
       "code": "CENG382",
@@ -1308,7 +2604,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:40.082599+00:00"
+      }
     },
     {
       "code": "CENG403",
@@ -1329,7 +2651,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "ai_ml"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:42.336829+00:00"
+      }
     },
     {
       "code": "CENG414",
@@ -1350,7 +2697,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:44.588695+00:00"
+      }
     },
     {
       "code": "CENG424",
@@ -1371,7 +2744,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:46.843531+00:00"
+      }
     },
     {
       "code": "CENG435",
@@ -1392,7 +2791,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:49.105265+00:00"
+      }
     },
     {
       "code": "CENG443",
@@ -1413,7 +2839,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:51.553094+00:00"
+      }
     },
     {
       "code": "CENG444",
@@ -1434,7 +2887,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:53.907989+00:00"
+      }
     },
     {
       "code": "CENG445",
@@ -1455,7 +2935,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:56.262202+00:00"
+      }
     },
     {
       "code": "CENG451",
@@ -1476,7 +2982,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:10:58.515816+00:00"
+      }
     },
     {
       "code": "CENG453",
@@ -1497,7 +3029,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:00.755731+00:00"
+      }
     },
     {
       "code": "CENG454",
@@ -1518,7 +3075,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:03.125262+00:00"
+      }
     },
     {
       "code": "CENG460",
@@ -1539,7 +3121,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "ai_ml",
+          "graphics_vision"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:05.581492+00:00"
+      }
     },
     {
       "code": "CENG462",
@@ -1560,7 +3169,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "ai_ml"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:07.945010+00:00"
+      }
     },
     {
       "code": "CENG463",
@@ -1581,7 +3215,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:10.188850+00:00"
+      }
     },
     {
       "code": "CENG465",
@@ -1602,7 +3263,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:12.647964+00:00"
+      }
     },
     {
       "code": "CENG466",
@@ -1623,7 +3311,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "graphics_vision"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:15.103600+00:00"
+      }
     },
     {
       "code": "CENG469",
@@ -1644,7 +3357,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "graphics_vision"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:17.565211+00:00"
+      }
     },
     {
       "code": "CENG476",
@@ -1665,7 +3403,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:20.121347+00:00"
+      }
     },
     {
       "code": "CENG478",
@@ -1686,7 +3450,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:22.390061+00:00"
+      }
     },
     {
       "code": "CENG483",
@@ -1707,7 +3498,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:25.651447+00:00"
+      }
     },
     {
       "code": "CENG486",
@@ -1728,7 +3545,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:28.929164+00:00"
+      }
     },
     {
       "code": "CENG487",
@@ -1749,7 +3592,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:31.283039+00:00"
+      }
     },
     {
       "code": "CENG488",
@@ -1770,7 +3639,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:33.639445+00:00"
+      }
     },
     {
       "code": "CENG489",
@@ -1791,7 +3685,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "security"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:35.995757+00:00"
+      }
     },
     {
       "code": "CENG493",
@@ -1812,7 +3731,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:38.349811+00:00"
+      }
     },
     {
       "code": "CENG495",
@@ -1833,7 +3778,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:40.806603+00:00"
+      }
     },
     {
       "code": "CENG496",
@@ -1854,7 +3826,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:43.265048+00:00"
+      }
     },
     {
       "code": "CENG497",
@@ -1875,7 +3874,32 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:45.748175+00:00"
+      }
     },
     {
       "code": "CENG498",
@@ -1896,7 +3920,33 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:48.049233+00:00"
+      }
     },
     {
       "code": "CENG499",
@@ -1917,7 +3967,34 @@
       "categories": [
         "1. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:50.433146+00:00"
+      }
     },
     {
       "code": "IS533",
@@ -1938,7 +4015,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:52.787672+00:00"
+      }
     },
     {
       "code": "IS536",
@@ -1959,7 +4062,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:54.967386+00:00"
+      }
     },
     {
       "code": "IS551",
@@ -1980,7 +4108,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:57.419427+00:00"
+      }
     },
     {
       "code": "IS572",
@@ -2001,7 +4155,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:11:59.648323+00:00"
+      }
     },
     {
       "code": "IS573",
@@ -2022,7 +4201,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:02.413309+00:00"
+      }
     },
     {
       "code": "IS532",
@@ -2043,7 +4248,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:04.870772+00:00"
+      }
     },
     {
       "code": "CE413",
@@ -2064,7 +4294,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:07.123789+00:00"
+      }
     },
     {
       "code": "EE212",
@@ -2085,7 +4340,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:09.376386+00:00"
+      }
     },
     {
       "code": "EE312",
@@ -2106,7 +4387,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:11.868941+00:00"
+      }
     },
     {
       "code": "MATH301",
@@ -2127,7 +4433,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:14.803370+00:00"
+      }
     },
     {
       "code": "MATH341",
@@ -2148,7 +4480,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:17.399595+00:00"
+      }
     },
     {
       "code": "MATH353",
@@ -2169,7 +4527,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:19.874238+00:00"
+      }
     },
     {
       "code": "MATH365",
@@ -2190,7 +4573,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:22.177047+00:00"
+      }
     },
     {
       "code": "MATH390",
@@ -2211,7 +4620,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:24.635357+00:00"
+      }
     },
     {
       "code": "MATH401",
@@ -2232,7 +4667,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:27.296440+00:00"
+      }
     },
     {
       "code": "MATH402",
@@ -2253,7 +4714,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:29.755317+00:00"
+      }
     },
     {
       "code": "MATH407",
@@ -2274,7 +4761,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:32.212460+00:00"
+      }
     },
     {
       "code": "MATH478",
@@ -2295,7 +4808,34 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "security"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:34.482719+00:00"
+      }
     },
     {
       "code": "MATH489",
@@ -2316,7 +4856,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:36.923486+00:00"
+      }
     },
     {
       "code": "MATH490",
@@ -2337,7 +4903,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:39.277640+00:00"
+      }
     },
     {
       "code": "IE407",
@@ -2358,7 +4950,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:41.534072+00:00"
+      }
     },
     {
       "code": "IE451",
@@ -2379,7 +4997,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:43.815464+00:00"
+      }
     },
     {
       "code": "IE455",
@@ -2400,7 +5044,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:46.138971+00:00"
+      }
     },
     {
       "code": "BIN504",
@@ -2421,7 +5091,34 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:48.264340+00:00"
+      }
     },
     {
       "code": "IAM501",
@@ -2442,7 +5139,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:51.564606+00:00"
+      }
     },
     {
       "code": "GATE541",
@@ -2463,7 +5186,34 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "math",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:54.125306+00:00"
+      }
     },
     {
       "code": "STAT464",
@@ -2484,7 +5234,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:56.479396+00:00"
+      }
     },
     {
       "code": "STAT465",
@@ -2505,7 +5280,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.4,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:12:59.655263+00:00"
+      }
     },
     {
       "code": "STAT479",
@@ -2526,7 +5327,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:02.214781+00:00"
+      }
     },
     {
       "code": "STAT497",
@@ -2547,7 +5374,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:04.468202+00:00"
+      }
     },
     {
       "code": "MIN703",
@@ -2568,7 +5421,32 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:06.822275+00:00"
+      }
     },
     {
       "code": "MIN704",
@@ -2589,7 +5467,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:09.076552+00:00"
+      }
     },
     {
       "code": "MIN711",
@@ -2610,7 +5514,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:11.253354+00:00"
+      }
     },
     {
       "code": "CSEC507",
@@ -2631,7 +5561,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:14.220450+00:00"
+      }
     },
     {
       "code": "CSEC513",
@@ -2652,7 +5608,33 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:17.123281+00:00"
+      }
     },
     {
       "code": "CSEC519",
@@ -2673,7 +5655,148 @@
       "categories": [
         "2. Kategori Teknik Seçmeli"
       ],
-      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler"
+      "source_url": "https://ceng.metu.edu.tr/tr/teknik-secmeli-dersler",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "cryptocurrency"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:13:19.669440+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 116,
+    "enriched_courses": 116,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T20:13:20.180607+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 37,
+        "total_ects": 147,
+        "required_ects": 66
+      },
+      "programming": {
+        "courses": 20,
+        "total_ects": 89,
+        "required_ects": 59
+      },
+      "systems": {
+        "courses": 29,
+        "total_ects": 123,
+        "required_ects": 75
+      },
+      "ai_ml": {
+        "courses": 10,
+        "total_ects": 30,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 9,
+        "total_ects": 34,
+        "required_ects": 11
+      },
+      "security": {
+        "courses": 8,
+        "total_ects": 24,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 2,
+        "total_ects": 6,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 21,
+        "total_ects": 90,
+        "required_ects": 60
+      },
+      "graphics_vision": {
+        "courses": 7,
+        "total_ects": 24,
+        "required_ects": 6
+      },
+      "distributed": {
+        "courses": 7,
+        "total_ects": 23,
+        "required_ects": 5
+      },
+      "theory": {
+        "courses": 35,
+        "total_ects": 141,
+        "required_ects": 72
+      },
+      "info_systems": {
+        "courses": 16,
+        "total_ects": 55,
+        "required_ects": 22
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 10,
+        "total": 10
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 7,
+        "total": 9
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "graphics_vision": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "security": {
+        "required": 0,
+        "elective": 8,
+        "total": 8
+      },
+      "software_eng": {
+        "required": 11,
+        "elective": 10,
+        "total": 21
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      }
+    },
+    "earliest_technical_elective_semester": null,
+    "project_heavy_course_count": 6,
+    "total_project_ects": 37,
+    "english_resources_ratio": 0.03
+  }
 }

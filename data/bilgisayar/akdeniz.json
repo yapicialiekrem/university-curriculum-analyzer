@@ -55,7 +55,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581885&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581885&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:24.334938+00:00"
+      }
     },
     {
       "code": "CSE 101T",
@@ -97,7 +123,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581850&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581850&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:26.867393+00:00"
+      }
     },
     {
       "code": "CSE 105",
@@ -142,7 +194,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581883&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581883&lang=en",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:29.333256+00:00"
+      }
     },
     {
       "code": "CSE 181",
@@ -182,7 +261,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581849&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581849&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:31.605352+00:00"
+      }
     },
     {
       "code": "FİZ 173",
@@ -235,7 +339,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581848&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581848&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:34.047193+00:00"
+      }
     },
     {
       "code": "FİZ 175",
@@ -281,7 +411,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581905&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581905&lang=en",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:36.407407+00:00"
+      }
     },
     {
       "code": "MAT 151",
@@ -324,7 +480,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581846&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581846&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:38.918722+00:00"
+      }
     },
     {
       "code": "TDB 101",
@@ -376,7 +558,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581845&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581845&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:41.373119+00:00"
+      }
     },
     {
       "code": "CSE 102L",
@@ -420,7 +627,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581890&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581890&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:43.908975+00:00"
+      }
     },
     {
       "code": "CSE 102T",
@@ -464,7 +697,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581856&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581856&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:46.291157+00:00"
+      }
     },
     {
       "code": "CSE 122",
@@ -506,7 +766,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581855&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581855&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "matlab"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:49.027181+00:00"
+      }
     },
     {
       "code": "FİZ 174",
@@ -551,7 +840,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581852&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581852&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:51.661087+00:00"
+      }
     },
     {
       "code": "FİZ 176",
@@ -597,7 +912,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581902&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581902&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:54.323701+00:00"
+      }
     },
     {
       "code": "KPD 102",
@@ -639,7 +979,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581862&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581862&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:56.690744+00:00"
+      }
     },
     {
       "code": "MAT 152",
@@ -681,7 +1046,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581853&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581853&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:35:58.932073+00:00"
+      }
     },
     {
       "code": "TDB 102",
@@ -734,7 +1125,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581851&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581851&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:01.326118+00:00"
+      }
     },
     {
       "code": "ATA 101",
@@ -787,7 +1203,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581847&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581847&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:03.743663+00:00"
+      }
     },
     {
       "code": "CSE 201",
@@ -832,7 +1273,34 @@
         "CSE 102T"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581876&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581876&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:05.943838+00:00"
+      }
     },
     {
       "code": "CSE 203",
@@ -877,7 +1345,33 @@
         "CSE 102T"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581904&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581904&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.22,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:08.354127+00:00"
+      }
     },
     {
       "code": "CSE 211",
@@ -921,7 +1415,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581874&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581874&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "verilog",
+          "hdl",
+          "arduino"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:10.702991+00:00"
+      }
     },
     {
       "code": "CSE 213",
@@ -962,7 +1487,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581875&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581875&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:13.064061+00:00"
+      }
     },
     {
       "code": "CSE 221",
@@ -1007,7 +1558,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581873&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581873&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:15.930958+00:00"
+      }
     },
     {
       "code": "Formasyon Seç 2 Güz",
@@ -1028,7 +1605,32 @@
       "categories": [
         "Formasyon Seç 2 Güz"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:18.040320+00:00"
+      }
     },
     {
       "code": "PFE 201",
@@ -1069,7 +1671,32 @@
       "categories": [
         "Formasyon Seç 2 Güz"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581916&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581916&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:20.231935+00:00"
+      }
     },
     {
       "code": "PFE 203",
@@ -1126,7 +1753,32 @@
       "categories": [
         "Formasyon Seç 2 Güz"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581915&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581915&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:22.859457+00:00"
+      }
     },
     {
       "code": "ATA 102",
@@ -1177,7 +1829,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581854&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581854&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:25.248923+00:00"
+      }
     },
     {
       "code": "CSE 204",
@@ -1219,7 +1896,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581841&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581841&lang=en",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:27.712637+00:00"
+      }
     },
     {
       "code": "CSE 206",
@@ -1266,7 +1970,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581843&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581843&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:30.167182+00:00"
+      }
     },
     {
       "code": "CSE 214",
@@ -1316,7 +2046,40 @@
         "CSE 102T"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581922&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581922&lang=en",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "spring mvc",
+          "spring boot",
+          "spring data jpa",
+          "restful web services",
+          "ajax"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:32.546569+00:00"
+      }
     },
     {
       "code": "CSE 222",
@@ -1361,7 +2124,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581860&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581860&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:34.924750+00:00"
+      }
     },
     {
       "code": "MAT 222",
@@ -1406,7 +2195,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581842&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581842&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:37.334490+00:00"
+      }
     },
     {
       "code": "Formasyon Seç 2 Bah",
@@ -1427,7 +2242,32 @@
       "categories": [
         "Formasyon Seç 2 Bah"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:40.082663+00:00"
+      }
     },
     {
       "code": "PFE 202",
@@ -1482,7 +2322,32 @@
       "categories": [
         "Formasyon Seç 2 Bah"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581919&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581919&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:42.840253+00:00"
+      }
     },
     {
       "code": "PFE 204",
@@ -1538,7 +2403,34 @@
       "categories": [
         "Formasyon Seç 2 Bah"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581920&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581920&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:45.454465+00:00"
+      }
     },
     {
       "code": "CSE 301",
@@ -1581,7 +2473,34 @@
         "CSE 201"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581840&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581840&lang=en",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:47.742131+00:00"
+      }
     },
     {
       "code": "CSE 303",
@@ -1629,7 +2548,34 @@
         "CSE 206"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581839&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581839&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:50.341081+00:00"
+      }
     },
     {
       "code": "CSE 321",
@@ -1674,7 +2620,33 @@
         "CSE 122"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581925&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581925&lang=en",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:52.847529+00:00"
+      }
     },
     {
       "code": "Formasyon Seç 3 Güz",
@@ -1695,7 +2667,32 @@
       "categories": [
         "Formasyon Seç 3 Güz"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:55.254533+00:00"
+      }
     },
     {
       "code": "PFE 301",
@@ -1743,7 +2740,32 @@
       "categories": [
         "Formasyon Seç 3 Güz"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581921&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581921&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:57.607004+00:00"
+      }
     },
     {
       "code": "PFE 303",
@@ -1768,7 +2790,32 @@
       "categories": [
         "Formasyon Seç 3 Güz"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581908&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581908&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:36:59.819675+00:00"
+      }
     },
     {
       "code": "TEC 31",
@@ -1789,7 +2836,32 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:02.318729+00:00"
+      }
     },
     {
       "code": "CSE 331",
@@ -1810,7 +2882,32 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581929&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581929&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:05.083537+00:00"
+      }
     },
     {
       "code": "CSE 335",
@@ -1850,7 +2947,42 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581927&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581927&lang=en",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "html5",
+          "css",
+          "javascript",
+          "php",
+          "jdbc"
+        ],
+        "legacy_tech_tags": [
+          "codeignator"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:08.564513+00:00"
+      }
     },
     {
       "code": "CSE 341",
@@ -1889,7 +3021,38 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581830&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581830&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "virtualization",
+          "cloud",
+          "active directory"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:11.140423+00:00"
+      }
     },
     {
       "code": "CSE 351",
@@ -1935,7 +3098,33 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581928&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581928&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:13.377554+00:00"
+      }
     },
     {
       "code": "CSE 377",
@@ -1980,7 +3169,36 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581888&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581888&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "graphics_vision"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "unity"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:15.838865+00:00"
+      }
     },
     {
       "code": "CSE 381",
@@ -2025,7 +3243,34 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581857&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581857&lang=en",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:18.128812+00:00"
+      }
     },
     {
       "code": "CSE 409",
@@ -2069,7 +3314,43 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581892&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581892&lang=en",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "spacy",
+          "nltk",
+          "scikit-learn",
+          "deep learning",
+          "word2vec",
+          "lstm",
+          "seq2seq",
+          "attention"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:20.593960+00:00"
+      }
     },
     {
       "code": "CSE 415",
@@ -2104,7 +3385,34 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581834&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581834&lang=en",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:22.841764+00:00"
+      }
     },
     {
       "code": "CSE 425",
@@ -2152,7 +3460,34 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581901&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581901&lang=en",
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:25.254633+00:00"
+      }
     },
     {
       "code": "CSE 433",
@@ -2199,7 +3534,34 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581923&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581923&lang=en",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:28.125401+00:00"
+      }
     },
     {
       "code": "CSE 443",
@@ -2247,7 +3609,34 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581867&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581867&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:30.789502+00:00"
+      }
     },
     {
       "code": "CSE 445",
@@ -2287,7 +3676,34 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581835&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581835&lang=en",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:33.037556+00:00"
+      }
     },
     {
       "code": "CSE 469",
@@ -2335,7 +3751,37 @@
       "categories": [
         "TEC 31"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581887&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581887&lang=en",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "unity3d",
+          "google cardboard"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:35.381990+00:00"
+      }
     },
     {
       "code": "CSE 320",
@@ -2379,7 +3825,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581896&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581896&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:37.776890+00:00"
+      }
     },
     {
       "code": "CSE 332",
@@ -2425,7 +3898,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581870&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581870&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "web_mobile"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:40.170995+00:00"
+      }
     },
     {
       "code": "CSE 382",
@@ -2469,7 +3969,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581877&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581877&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:42.356342+00:00"
+      }
     },
     {
       "code": "CSE 392",
@@ -2511,7 +4038,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581872&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581872&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:44.608288+00:00"
+      }
     },
     {
       "code": "TDP 304",
@@ -2552,7 +4105,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581895&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581895&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:46.964418+00:00"
+      }
     },
     {
       "code": "Formasyon Seç 3 Bah",
@@ -2573,7 +4151,32 @@
       "categories": [
         "Formasyon Seç 3 Bah"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:49.585040+00:00"
+      }
     },
     {
       "code": "PFE 302",
@@ -2629,7 +4232,32 @@
       "categories": [
         "Formasyon Seç 3 Bah"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581911&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581911&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:51.981131+00:00"
+      }
     },
     {
       "code": "PFE 304",
@@ -2680,7 +4308,32 @@
       "categories": [
         "Formasyon Seç 3 Bah"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581910&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581910&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:54.454491+00:00"
+      }
     },
     {
       "code": "TEC 32",
@@ -2701,7 +4354,32 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:56.826281+00:00"
+      }
     },
     {
       "code": "CSE 308",
@@ -2746,7 +4424,38 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581891&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581891&lang=en",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "android studio",
+          "kotlin",
+          "android"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:37:59.149551+00:00"
+      }
     },
     {
       "code": "CSE 328",
@@ -2791,7 +4500,40 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581868&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581868&lang=en",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "iot",
+          "mqtt",
+          "coap",
+          "http/https",
+          "arduino esp32"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:01.616207+00:00"
+      }
     },
     {
       "code": "CSE 336",
@@ -2833,7 +4575,38 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581844&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581844&lang=en",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "angular",
+          "typescript",
+          "spring boot"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:03.998441+00:00"
+      }
     },
     {
       "code": "CSE 348",
@@ -2875,7 +4648,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581866&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581866&lang=en",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:06.384319+00:00"
+      }
     },
     {
       "code": "CSE 358",
@@ -2918,7 +4718,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581871&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581871&lang=en",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:09.185362+00:00"
+      }
     },
     {
       "code": "CSE 364",
@@ -2965,7 +4792,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581926&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581926&lang=en",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:11.751586+00:00"
+      }
     },
     {
       "code": "CSE 378",
@@ -2999,7 +4853,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581894&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581894&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:13.918422+00:00"
+      }
     },
     {
       "code": "CSE 408",
@@ -3043,7 +4924,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581880&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581880&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "math",
+          "data_science"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:16.297746+00:00"
+      }
     },
     {
       "code": "CSE 424",
@@ -3090,7 +4998,37 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581893&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581893&lang=en",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "smart contracts"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:18.839500+00:00"
+      }
     },
     {
       "code": "CSE 434",
@@ -3137,7 +5075,37 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581869&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581869&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "lex",
+          "yacc"
+        ],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:21.398259+00:00"
+      }
     },
     {
       "code": "CSE 438",
@@ -3181,7 +5149,38 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581906&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581906&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "microservice",
+          "docker",
+          "kubernetes"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.06,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:24.036323+00:00"
+      }
     },
     {
       "code": "CSE 440",
@@ -3232,7 +5231,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581836&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581836&lang=en",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:26.593567+00:00"
+      }
     },
     {
       "code": "CSE 444",
@@ -3272,7 +5298,36 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581838&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581838&lang=en",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "spark"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:28.933423+00:00"
+      }
     },
     {
       "code": "CSE 460",
@@ -3293,7 +5348,32 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581924&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581924&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:31.223803+00:00"
+      }
     },
     {
       "code": "CSE 472",
@@ -3339,7 +5419,34 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581879&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581879&lang=en",
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:33.762562+00:00"
+      }
     },
     {
       "code": "CSE 474",
@@ -3389,7 +5496,33 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581859&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581859&lang=en",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "info_systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:36.420920+00:00"
+      }
     },
     {
       "code": "CSE 476",
@@ -3434,7 +5567,44 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581903&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581903&lang=en",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "llm",
+          "transformer",
+          "pytorch",
+          "langchain",
+          "vector stores",
+          "retrieval augmentation",
+          "rlhf",
+          "prompt engineering",
+          "instruction tuning"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:38.828726+00:00"
+      }
     },
     {
       "code": "CSE 478",
@@ -3478,7 +5648,38 @@
       "categories": [
         "TEC 32"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581884&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581884&lang=en",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "machine learning",
+          "deep learning",
+          "data mining"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.24,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:41.179505+00:00"
+      }
     },
     {
       "code": "CSE 435",
@@ -3525,7 +5726,33 @@
         "CSE 222"
       ],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581863&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581863&lang=en",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:43.784175+00:00"
+      }
     },
     {
       "code": "Formasyon Seç 4 Güz",
@@ -3546,7 +5773,32 @@
       "categories": [
         "Formasyon Seç 4 Güz"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:46.153072+00:00"
+      }
     },
     {
       "code": "PFE 401",
@@ -3593,7 +5845,32 @@
       "categories": [
         "Formasyon Seç 4 Güz"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581913&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581913&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:48.712898+00:00"
+      }
     },
     {
       "code": "SDP 41",
@@ -3614,7 +5891,32 @@
       "categories": [
         "SDP 41"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.35
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:51.100537+00:00"
+      }
     },
     {
       "code": "CSE 491",
@@ -3660,7 +5962,34 @@
       "categories": [
         "SDP 41"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581897&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581897&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:53.525776+00:00"
+      }
     },
     {
       "code": "CSE 492",
@@ -3709,7 +6038,33 @@
       "categories": [
         "SDP 41"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581898&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581898&lang=en",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:55.882577+00:00"
+      }
     },
     {
       "code": "SEC 41",
@@ -3730,7 +6085,32 @@
       "categories": [
         "SEC 41"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:38:58.448374+00:00"
+      }
     },
     {
       "code": "CSE 481",
@@ -3780,7 +6160,33 @@
       "categories": [
         "SEC 41"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581832&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581832&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:00.893812+00:00"
+      }
     },
     {
       "code": "CSE 483",
@@ -3822,7 +6228,33 @@
       "categories": [
         "SEC 41"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581881&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581881&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:03.459198+00:00"
+      }
     },
     {
       "code": "GNC 485",
@@ -3877,7 +6309,32 @@
       "categories": [
         "SEC 41"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581889&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581889&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.12,
+          "evaluate": 0.05,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:06.122319+00:00"
+      }
     },
     {
       "code": "TEC 41",
@@ -3898,7 +6355,32 @@
       "categories": [
         "TEC 41"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:08.478689+00:00"
+      }
     },
     {
       "code": "MTH 459",
@@ -3949,7 +6431,36 @@
       "categories": [
         "TEC 41"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581900&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581900&lang=en",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "graphics_vision",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "transformer"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:10.936402+00:00"
+      }
     },
     {
       "code": "CSE 490",
@@ -3982,7 +6493,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581837&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581837&lang=en",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:13.597997+00:00"
+      }
     },
     {
       "code": "Formasyon Seç 4 Bah",
@@ -4003,7 +6541,32 @@
       "categories": [
         "Formasyon Seç 4 Bah"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:16.064627+00:00"
+      }
     },
     {
       "code": "SDP 42",
@@ -4024,7 +6587,33 @@
       "categories": [
         "SDP 42"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.35
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:18.452353+00:00"
+      }
     },
     {
       "code": "TEC 42",
@@ -4045,7 +6634,32 @@
       "categories": [
         "TEC 42"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:20.837407+00:00"
+      }
     },
     {
       "code": "MTH 476",
@@ -4094,7 +6708,145 @@
       "categories": [
         "TEC 42"
       ],
-      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581858&lang=en"
+      "source_url": "https://obs.akdeniz.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=2581858&lang=en",
+      "_enriched": {
+        "categories": [
+          "security",
+          "ai_ml",
+          "data_science"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T17:39:23.218783+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 98,
+    "enriched_courses": 98,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T17:39:23.721416+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 15,
+        "total_ects": 85,
+        "required_ects": 61
+      },
+      "programming": {
+        "courses": 30,
+        "total_ects": 170,
+        "required_ects": 68
+      },
+      "systems": {
+        "courses": 18,
+        "total_ects": 101,
+        "required_ects": 47
+      },
+      "ai_ml": {
+        "courses": 9,
+        "total_ects": 54,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 7,
+        "total_ects": 42,
+        "required_ects": 6
+      },
+      "security": {
+        "courses": 7,
+        "total_ects": 38,
+        "required_ects": 8
+      },
+      "web_mobile": {
+        "courses": 7,
+        "total_ects": 42,
+        "required_ects": 12
+      },
+      "software_eng": {
+        "courses": 33,
+        "total_ects": 178,
+        "required_ects": 55
+      },
+      "graphics_vision": {
+        "courses": 5,
+        "total_ects": 30,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 8,
+        "total_ects": 48,
+        "required_ects": 12
+      },
+      "theory": {
+        "courses": 21,
+        "total_ects": 110,
+        "required_ects": 68
+      },
+      "info_systems": {
+        "courses": 9,
+        "total_ects": 40,
+        "required_ects": 7
+      }
+    },
+    "modernity_score": 52,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 9,
+        "total": 9
+      },
+      "data_science": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "distributed": {
+        "required": 2,
+        "elective": 6,
+        "total": 8
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      },
+      "security": {
+        "required": 2,
+        "elective": 5,
+        "total": 7
+      },
+      "software_eng": {
+        "required": 12,
+        "elective": 21,
+        "total": 33
+      },
+      "web_mobile": {
+        "required": 2,
+        "elective": 5,
+        "total": 7
+      }
+    },
+    "earliest_technical_elective_semester": 4,
+    "project_heavy_course_count": 35,
+    "total_project_ects": 184,
+    "english_resources_ratio": 0.62
+  }
 }

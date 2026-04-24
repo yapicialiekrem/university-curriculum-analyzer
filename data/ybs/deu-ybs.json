@@ -65,7 +65,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_131_9752_2.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_131_9752_2.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:52.883893+00:00"
+      }
     },
     {
       "code": "IBF 1001",
@@ -106,7 +131,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_1.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_1.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:55.225682+00:00"
+      }
     },
     {
       "code": "IBF 1005",
@@ -148,7 +198,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_3.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_3.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:57.478822+00:00"
+      }
     },
     {
       "code": "IKT 1011",
@@ -188,7 +264,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1175_9752_4225.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1175_9752_4225.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:59.835396+00:00"
+      }
     },
     {
       "code": "ISL 1055",
@@ -230,7 +331,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4135.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4135.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:02.086102+00:00"
+      }
     },
     {
       "code": "KPD 1000",
@@ -274,7 +401,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_10126_9752_1.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_10126_9752_1.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:04.441553+00:00"
+      }
     },
     {
       "code": "TDL 1001",
@@ -316,7 +468,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_2.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_2.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:06.799227+00:00"
+      }
     },
     {
       "code": "YBS 1001",
@@ -355,7 +532,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_45.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_45.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:09.153608+00:00"
+      }
     },
     {
       "code": "YBS 1003",
@@ -393,7 +597,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_44.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_44.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:12.087593+00:00"
+      }
     },
     {
       "code": "YDİ 1009",
@@ -435,7 +665,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9377_9752_10.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9377_9752_10.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:14.476446+00:00"
+      }
     },
     {
       "code": "BDE 1001",
@@ -480,7 +735,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_6.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_6.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:16.911926+00:00"
+      }
     },
     {
       "code": "GSM 1001",
@@ -525,7 +805,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_18.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_18.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:19.493951+00:00"
+      }
     },
     {
       "code": "GSR 1001",
@@ -569,7 +874,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_14.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_14.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:22.159364+00:00"
+      }
     },
     {
       "code": "ATA 1002",
@@ -609,7 +939,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_131_9752_3.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_131_9752_3.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:24.615052+00:00"
+      }
     },
     {
       "code": "EMT 1004",
@@ -651,7 +1006,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_305.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_305.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:27.277495+00:00"
+      }
     },
     {
       "code": "IBF 1006",
@@ -693,7 +1074,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_4.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_4.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:29.483781+00:00"
+      }
     },
     {
       "code": "IKT 1002",
@@ -712,7 +1119,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1175_9752_17.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1175_9752_17.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:32.991680+00:00"
+      }
     },
     {
       "code": "ISL 1004",
@@ -752,7 +1184,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_96.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_96.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:35.266505+00:00"
+      }
     },
     {
       "code": "TDL 1002",
@@ -794,7 +1252,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_3.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_3.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:37.618395+00:00"
+      }
     },
     {
       "code": "YBS 1004",
@@ -833,7 +1316,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_46.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_46.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:39.851287+00:00"
+      }
     },
     {
       "code": "YBS 1006",
@@ -873,7 +1383,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_47.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_47.html",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "data_science"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:42.226903+00:00"
+      }
     },
     {
       "code": "YDİ 1008",
@@ -914,7 +1451,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9377_9752_9.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9377_9752_9.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:44.583525+00:00"
+      }
     },
     {
       "code": "BDE 1002",
@@ -959,7 +1521,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_7.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_7.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:46.936641+00:00"
+      }
     },
     {
       "code": "GSM 1002",
@@ -1004,7 +1591,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_19.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_19.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:49.216971+00:00"
+      }
     },
     {
       "code": "GSR 1002",
@@ -1046,7 +1658,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_15.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_15.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:51.735040+00:00"
+      }
     },
     {
       "code": "IBF 1007",
@@ -1090,7 +1727,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_5.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_5.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:54.208578+00:00"
+      }
     },
     {
       "code": "ISL 1003",
@@ -1130,7 +1793,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4122.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4122.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:56.448642+00:00"
+      }
     },
     {
       "code": "YBS 2007",
@@ -1173,7 +1861,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_70.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_70.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:41:58.813417+00:00"
+      }
     },
     {
       "code": "YBS 2009",
@@ -1213,7 +1928,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_71.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_71.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:01.069513+00:00"
+      }
     },
     {
       "code": "YBS 2011",
@@ -1251,7 +1993,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_72.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_72.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:03.525553+00:00"
+      }
     },
     {
       "code": "YBS 2013",
@@ -1293,7 +2062,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_48.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_48.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:06.291746+00:00"
+      }
     },
     {
       "code": "YBS 2015",
@@ -1335,7 +2130,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_49.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_49.html",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "python",
+          "pandas",
+          "qt"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:08.851767+00:00"
+      }
     },
     {
       "code": "CEK 3021",
@@ -1375,7 +2201,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1177_9752_4063.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1177_9752_4063.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:11.103313+00:00"
+      }
     },
     {
       "code": "ERA 2701",
@@ -1414,7 +2265,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_42.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_42.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:13.458619+00:00"
+      }
     },
     {
       "code": "GÇD 1000",
@@ -1455,7 +2333,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_27.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9634_9752_27.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:15.814865+00:00"
+      }
     },
     {
       "code": "IBF 2001",
@@ -1497,7 +2400,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_8.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_8.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:18.073432+00:00"
+      }
     },
     {
       "code": "ISL 1012",
@@ -1539,7 +2467,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4097.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4097.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:20.618256+00:00"
+      }
     },
     {
       "code": "ISL 3004",
@@ -1579,7 +2532,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_112.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_112.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:23.185939+00:00"
+      }
     },
     {
       "code": "ISL 3031",
@@ -1621,7 +2600,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4095.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4095.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:26.134315+00:00"
+      }
     },
     {
       "code": "YBS 2005",
@@ -1663,7 +2669,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_4.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_4.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:28.371803+00:00"
+      }
     },
     {
       "code": "IBF 1008",
@@ -1705,7 +2738,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_6.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_114_9752_6.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:30.661609+00:00"
+      }
     },
     {
       "code": "ISL 2014",
@@ -1745,7 +2805,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4121.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4121.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:32.935250+00:00"
+      }
     },
     {
       "code": "YBS 2004",
@@ -1785,7 +2871,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_8.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_8.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:35.199767+00:00"
+      }
     },
     {
       "code": "YBS 2014",
@@ -1825,7 +2938,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_50.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_50.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:37.524065+00:00"
+      }
     },
     {
       "code": "YBS 2016",
@@ -1866,7 +3006,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_51.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_51.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:40.492389+00:00"
+      }
     },
     {
       "code": "YBS 2020",
@@ -1906,7 +3072,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_73.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_73.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:42.634433+00:00"
+      }
     },
     {
       "code": "YBS 2022",
@@ -1945,7 +3138,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_74.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_74.html",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.03,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:45.140410+00:00"
+      }
     },
     {
       "code": "CEK 3030",
@@ -1986,7 +3206,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1177_9752_4101.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1177_9752_4101.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:47.325022+00:00"
+      }
     },
     {
       "code": "ERA 2702",
@@ -2026,7 +3271,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_43.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_43.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:49.723764+00:00"
+      }
     },
     {
       "code": "ISL 3028",
@@ -2067,7 +3339,36 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4090.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4090.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "erp"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:52.474168+00:00"
+      }
     },
     {
       "code": "MLY 2013",
@@ -2108,7 +3409,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1180_9752_4089.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1180_9752_4089.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:55.034142+00:00"
+      }
     },
     {
       "code": "YBS 2018",
@@ -2147,7 +3473,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_52.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_52.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:42:58.002190+00:00"
+      }
     },
     {
       "code": "EMT 3011",
@@ -2190,7 +3543,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_331.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_331.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:00.300878+00:00"
+      }
     },
     {
       "code": "ISL 4046",
@@ -2232,7 +3611,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4131.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4131.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "security"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:02.698389+00:00"
+      }
     },
     {
       "code": "YBS 3007",
@@ -2272,7 +3678,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_23.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_23.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:05.195502+00:00"
+      }
     },
     {
       "code": "YBS 3009",
@@ -2311,7 +3744,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_54.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_54.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:07.731408+00:00"
+      }
     },
     {
       "code": "YBS 3015",
@@ -2352,7 +3812,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_56.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_56.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:09.983463+00:00"
+      }
     },
     {
       "code": "YBS 3019",
@@ -2394,7 +3881,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_55.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_55.html",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:12.235794+00:00"
+      }
     },
     {
       "code": "ERA 3701",
@@ -2434,7 +3948,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_41.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_41.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "distributed"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:14.699032+00:00"
+      }
     },
     {
       "code": "ISL 3021",
@@ -2474,7 +4015,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_215.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_215.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:17.021344+00:00"
+      }
     },
     {
       "code": "ISL 3037",
@@ -2516,7 +4083,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4088.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_4088.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:19.301512+00:00"
+      }
     },
     {
       "code": "YBS 3017",
@@ -2556,7 +4150,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_57.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_57.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:21.971202+00:00"
+      }
     },
     {
       "code": "EMT 3006",
@@ -2598,7 +4218,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_314.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_314.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:24.319075+00:00"
+      }
     },
     {
       "code": "YBS 3018",
@@ -2640,7 +4287,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_60.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_60.html",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:26.468982+00:00"
+      }
     },
     {
       "code": "YBS 3020",
@@ -2679,7 +4353,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_61.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_61.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:28.824741+00:00"
+      }
     },
     {
       "code": "YBS 3022",
@@ -2718,7 +4419,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_62.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_62.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:31.078943+00:00"
+      }
     },
     {
       "code": "YBS 3026",
@@ -2758,7 +4486,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_58.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_58.html",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:33.318560+00:00"
+      }
     },
     {
       "code": "YBS 3028",
@@ -2798,7 +4553,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_59.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_59.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:35.685285+00:00"
+      }
     },
     {
       "code": "ISL 4026",
@@ -2840,7 +4621,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_257.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1176_9752_257.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:37.939690+00:00"
+      }
     },
     {
       "code": "MLY 4001",
@@ -2881,7 +4688,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1180_9752_4117.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1180_9752_4117.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:40.327228+00:00"
+      }
     },
     {
       "code": "YBS 3024",
@@ -2919,7 +4751,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_63.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_63.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:42.699830+00:00"
+      }
     },
     {
       "code": "EMT 4009",
@@ -2965,7 +4823,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_4116.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1178_9752_4116.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:44.889066+00:00"
+      }
     },
     {
       "code": "YBS 4003",
@@ -3005,7 +4890,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_38.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_38.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:47.358953+00:00"
+      }
     },
     {
       "code": "YBS 4007",
@@ -3044,7 +4956,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_33.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_33.html",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:49.759621+00:00"
+      }
     },
     {
       "code": "YBS 4017",
@@ -3084,7 +5023,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_64.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_64.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:52.068921+00:00"
+      }
     },
     {
       "code": "YBS 4019",
@@ -3123,7 +5088,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_65.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_65.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:54.324024+00:00"
+      }
     },
     {
       "code": "CEK 4033",
@@ -3164,7 +5155,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1177_9752_4145.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_1177_9752_4145.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:56.574481+00:00"
+      }
     },
     {
       "code": "YBS 4009",
@@ -3204,7 +5220,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_31.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_31.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:43:58.830515+00:00"
+      }
     },
     {
       "code": "YBS 4015",
@@ -3244,7 +5287,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_24.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_24.html",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:01.287104+00:00"
+      }
     },
     {
       "code": "YBS 4021",
@@ -3284,7 +5354,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_66.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_66.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "graphics_vision"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:04.460018+00:00"
+      }
     },
     {
       "code": "YBS 4023",
@@ -3325,7 +5422,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_76.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_76.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:06.815915+00:00"
+      }
     },
     {
       "code": "YBS 4002",
@@ -3366,7 +5490,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_15.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_15.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:09.170468+00:00"
+      }
     },
     {
       "code": "YBS 4004",
@@ -3407,7 +5558,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_17.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_17.html",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:11.628184+00:00"
+      }
     },
     {
       "code": "YBS 4008",
@@ -3447,7 +5625,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_20.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_20.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:14.085142+00:00"
+      }
     },
     {
       "code": "YBS 4010",
@@ -3486,7 +5691,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_22.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_22.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:16.646498+00:00"
+      }
     },
     {
       "code": "YBS 4022",
@@ -3527,7 +5758,41 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_67.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_67.html",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "android",
+          "xml",
+          "json",
+          "web services"
+        ],
+        "legacy_tech_tags": [
+          "eclipse sdk"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:19.309152+00:00"
+      }
     },
     {
       "code": "YBS 4012",
@@ -3566,7 +5831,40 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_14.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_14.html",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "postgis",
+          "geoserver",
+          "javascript",
+          "php",
+          "apache"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:21.663937+00:00"
+      }
     },
     {
       "code": "YBS 4020",
@@ -3604,7 +5902,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_5.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_5.html",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:23.936640+00:00"
+      }
     },
     {
       "code": "YBS 4024",
@@ -3644,7 +5968,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_69.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_69.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:26.273653+00:00"
+      }
     },
     {
       "code": "YBS 4028",
@@ -3682,7 +6033,145 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_75.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2020-2021/tr/tr_9752_9752_75.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:28.529350+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 90,
+    "enriched_courses": 90,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:44:29.037179+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 9,
+        "total_ects": 41,
+        "required_ects": 0
+      },
+      "programming": {
+        "courses": 5,
+        "total_ects": 20,
+        "required_ects": 4
+      },
+      "systems": {
+        "courses": 26,
+        "total_ects": 101,
+        "required_ects": 3
+      },
+      "ai_ml": {
+        "courses": 5,
+        "total_ects": 21,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 17,
+        "total_ects": 72,
+        "required_ects": 4
+      },
+      "security": {
+        "courses": 4,
+        "total_ects": 15,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 9,
+        "total_ects": 37,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 18,
+        "total_ects": 73,
+        "required_ects": 7
+      },
+      "graphics_vision": {
+        "courses": 2,
+        "total_ects": 8,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 2,
+        "total_ects": 9,
+        "required_ects": 0
+      },
+      "theory": {
+        "courses": 5,
+        "total_ects": 19,
+        "required_ects": 0
+      },
+      "info_systems": {
+        "courses": 54,
+        "total_ects": 214,
+        "required_ects": 3
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      },
+      "data_science": {
+        "required": 1,
+        "elective": 16,
+        "total": 17
+      },
+      "distributed": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "security": {
+        "required": 0,
+        "elective": 4,
+        "total": 4
+      },
+      "software_eng": {
+        "required": 2,
+        "elective": 16,
+        "total": 18
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 9,
+        "total": 9
+      }
+    },
+    "earliest_technical_elective_semester": 1,
+    "project_heavy_course_count": 18,
+    "total_project_ects": 74,
+    "english_resources_ratio": 0.01
+  }
 }
