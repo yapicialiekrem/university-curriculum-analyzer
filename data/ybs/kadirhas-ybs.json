@@ -71,7 +71,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004222/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004222/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:03:47.170193+00:00"
+      }
     },
     {
       "code": "ECON 101",
@@ -117,7 +143,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004213/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004213/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:03:49.330937+00:00"
+      }
     },
     {
       "code": "KHAS103",
@@ -160,7 +211,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001950/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001950/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:03:51.689061+00:00"
+      }
     },
     {
       "code": "KHAS 105",
@@ -206,7 +282,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001951/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001951/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.25,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:03:53.879070+00:00"
+      }
     },
     {
       "code": "TLL 101",
@@ -257,7 +358,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002117/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002117/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:03:56.050821+00:00"
+      }
     },
     {
       "code": "Alan Seçmeli",
@@ -278,7 +404,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:03:58.242563+00:00"
+      }
     },
     {
       "code": "BUS 331",
@@ -319,7 +470,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002795/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002795/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:00.459240+00:00"
+      }
     },
     {
       "code": "KHAS 110",
@@ -358,7 +534,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001956/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001956/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:02.766222+00:00"
+      }
     },
     {
       "code": "MAT122",
@@ -399,7 +600,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004219/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004219/program/50335989",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:05.001949+00:00"
+      }
     },
     {
       "code": "MIS 106",
@@ -441,7 +668,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002827/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002827/program/50335989",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:07.665980+00:00"
+      }
     },
     {
       "code": "TLL102",
@@ -488,7 +741,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002118/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002118/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.1
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:10.632893+00:00"
+      }
     },
     {
       "code": "Serbest Seçmeli",
@@ -509,7 +787,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:12.785854+00:00"
+      }
     },
     {
       "code": "BUS 215",
@@ -554,7 +857,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002793/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002793/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:15.050739+00:00"
+      }
     },
     {
       "code": "HST101",
@@ -597,7 +926,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002144/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002144/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:17.383684+00:00"
+      }
     },
     {
       "code": "MAN 201",
@@ -639,7 +993,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002661/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002661/program/50335989",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:19.637671+00:00"
+      }
     },
     {
       "code": "MAT 123",
@@ -683,7 +1064,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004223/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004223/program/50335989",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:22.203957+00:00"
+      }
     },
     {
       "code": "MIS 201",
@@ -729,7 +1136,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000026/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000026/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:24.550871+00:00"
+      }
     },
     {
       "code": "HST 102",
@@ -773,7 +1207,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002145/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002145/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:26.915815+00:00"
+      }
     },
     {
       "code": "MAN 202",
@@ -818,7 +1277,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002828/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002828/program/50335989",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:29.372337+00:00"
+      }
     },
     {
       "code": "MIS 210",
@@ -860,7 +1345,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002829/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002829/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:31.542373+00:00"
+      }
     },
     {
       "code": "MIS 220",
@@ -903,7 +1415,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002812/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002812/program/50335989",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:33.979274+00:00"
+      }
     },
     {
       "code": "IT 321",
@@ -947,7 +1486,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/50003006/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/50003006/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.24,
+          "apply": 0.22,
+          "analyze": 0.26,
+          "evaluate": 0.14,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:36.437778+00:00"
+      }
     },
     {
       "code": "MIS 311",
@@ -993,7 +1559,34 @@
         "MIS103"
       ],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001625/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001625/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:39.202480+00:00"
+      }
     },
     {
       "code": "MIS 325",
@@ -1037,7 +1630,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002830/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002830/program/50335989",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:41.762624+00:00"
+      }
     },
     {
       "code": "IT 304",
@@ -1080,7 +1700,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/50003000/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/50003000/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:44.017039+00:00"
+      }
     },
     {
       "code": "IT 306",
@@ -1127,7 +1774,34 @@
         "IT 201"
       ],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000120/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000120/program/50335989",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:48.203060+00:00"
+      }
     },
     {
       "code": "MIS 310",
@@ -1169,7 +1843,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002831/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002831/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:51.183527+00:00"
+      }
     },
     {
       "code": "MIS 326",
@@ -1213,7 +1913,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002836/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002836/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:53.321905+00:00"
+      }
     },
     {
       "code": "MIS 403",
@@ -1256,7 +1983,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/50003027/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/50003027/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:55.688658+00:00"
+      }
     },
     {
       "code": "MIS 411",
@@ -1299,7 +2052,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001627/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001627/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:04:58.007408+00:00"
+      }
     },
     {
       "code": "MIS 400",
@@ -1339,7 +2119,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000555/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000555/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:00.296835+00:00"
+      }
     },
     {
       "code": "MIS 414",
@@ -1383,7 +2190,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000564/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000564/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:02.754828+00:00"
+      }
     },
     {
       "code": "MIS 418",
@@ -1427,7 +2261,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000554/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000554/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:05.109813+00:00"
+      }
     },
     {
       "code": "BUS 302",
@@ -1473,7 +2334,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002802/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002802/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:07.392275+00:00"
+      }
     },
     {
       "code": "BUS 402",
@@ -1518,7 +2404,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002800/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002800/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:09.811198+00:00"
+      }
     },
     {
       "code": "ITF 202",
@@ -1563,7 +2474,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002683/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002683/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:12.080034+00:00"
+      }
     },
     {
       "code": "MIS 111",
@@ -1607,7 +2543,37 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004460/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004460/program/50335989",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "llm",
+          "transformer"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:14.428146+00:00"
+      }
     },
     {
       "code": "MIS203",
@@ -1652,7 +2618,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002834/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002834/program/50335989",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.12,
+          "evaluate": 0.03,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:16.680795+00:00"
+      }
     },
     {
       "code": "MIS 204",
@@ -1701,7 +2694,37 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001629/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001629/program/50335989",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "matlab",
+          "ms excel"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:19.036566+00:00"
+      }
     },
     {
       "code": "MIS 222",
@@ -1750,7 +2773,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002835/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002835/program/50335989",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:21.393954+00:00"
+      }
     },
     {
       "code": "MIS 323",
@@ -1796,7 +2846,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001129/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001129/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:24.465611+00:00"
+      }
     },
     {
       "code": "MIS 327",
@@ -1844,7 +2921,41 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004618/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004618/program/50335989",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "html",
+          "css",
+          "javascript",
+          "jquery",
+          "php",
+          "mysql"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:26.758786+00:00"
+      }
     },
     {
       "code": "MIS 328",
@@ -1891,7 +3002,40 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004656/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004656/program/50335989",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "kali linux",
+          "burp suite",
+          "wireshark",
+          "metasploit",
+          "owasp"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:29.378526+00:00"
+      }
     },
     {
       "code": "MIS 401",
@@ -1936,7 +3080,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001628/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001628/program/50335989",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:31.734127+00:00"
+      }
     },
     {
       "code": "MIS 404",
@@ -1981,7 +3152,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/50003028/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/50003028/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:34.089086+00:00"
+      }
     },
     {
       "code": "MIS 406",
@@ -2025,7 +3223,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000072/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000072/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:36.342124+00:00"
+      }
     },
     {
       "code": "MIS 407",
@@ -2066,7 +3290,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/50003030/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/50003030/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:38.594662+00:00"
+      }
     },
     {
       "code": "MIS408",
@@ -2109,7 +3360,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000669/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000669/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:41.154679+00:00"
+      }
     },
     {
       "code": "MIS 419",
@@ -2152,7 +3430,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30000950/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30000950/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:44.123996+00:00"
+      }
     },
     {
       "code": "MIS 422",
@@ -2197,7 +3502,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30001647/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30001647/program/50335989",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:46.377224+00:00"
+      }
     },
     {
       "code": "MIS 451",
@@ -2238,7 +3570,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002837/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002837/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:48.815151+00:00"
+      }
     },
     {
       "code": "MIS 452",
@@ -2279,7 +3638,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002838/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002838/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:51.240237+00:00"
+      }
     },
     {
       "code": "MIS 453",
@@ -2320,7 +3706,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30002839/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30002839/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:53.545314+00:00"
+      }
     },
     {
       "code": "MIS 454",
@@ -2367,7 +3780,36 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30003301/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30003301/program/50335989",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "distributed",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:56.044487+00:00"
+      }
     },
     {
       "code": "MIS 456",
@@ -2410,7 +3852,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30003302/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30003302/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:05:58.376775+00:00"
+      }
     },
     {
       "code": "MIS 458",
@@ -2456,7 +3925,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004107/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004107/program/50335989",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:01.225908+00:00"
+      }
     },
     {
       "code": "ADV 101",
@@ -2498,7 +3994,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004513/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004513/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:03.477820+00:00"
+      }
     },
     {
       "code": "ADV 102",
@@ -2540,7 +4061,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004514/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004514/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:05.730372+00:00"
+      }
     },
     {
       "code": "ADV 103",
@@ -2582,7 +4129,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004178/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004178/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:08.290662+00:00"
+      }
     },
     {
       "code": "ADV 114",
@@ -2633,7 +4205,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004180/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004180/program/50335989",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:10.646344+00:00"
+      }
     },
     {
       "code": "ADV 202",
@@ -2676,7 +4274,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004515/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004515/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:13.103237+00:00"
+      }
     },
     {
       "code": "ADV 203",
@@ -2721,7 +4344,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004516/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004516/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:15.371382+00:00"
+      }
     },
     {
       "code": "ADV 204",
@@ -2767,7 +4415,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004517/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004517/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:17.612539+00:00"
+      }
     },
     {
       "code": "ADV 205",
@@ -2812,7 +4485,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004183/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004183/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:19.861686+00:00"
+      }
     },
     {
       "code": "ADV 206",
@@ -2855,7 +4554,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004518/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004518/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:22.097668+00:00"
+      }
     },
     {
       "code": "ADV 207",
@@ -2899,7 +4623,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004519/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004519/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:24.289548+00:00"
+      }
     },
     {
       "code": "ADV 208",
@@ -2947,7 +4696,34 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004520/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004520/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:26.697289+00:00"
+      }
     },
     {
       "code": "ADV 209",
@@ -2989,7 +4765,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004182/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004182/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:28.977637+00:00"
+      }
     },
     {
       "code": "ADV 210",
@@ -3039,7 +4841,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004521/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004521/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:31.688672+00:00"
+      }
     },
     {
       "code": "ADV 211",
@@ -3082,7 +4909,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004522/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004522/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:34.097562+00:00"
+      }
     },
     {
       "code": "ADV 212",
@@ -3124,7 +4976,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004523/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004523/program/50335989",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:36.553049+00:00"
+      }
     },
     {
       "code": "ADV 213",
@@ -3167,7 +5045,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004181/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004181/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:38.706599+00:00"
+      }
     },
     {
       "code": "ADV 301",
@@ -3211,7 +5114,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004524/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004524/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:40.955817+00:00"
+      }
     },
     {
       "code": "ADV 302",
@@ -3258,7 +5187,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004525/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004525/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:43.299866+00:00"
+      }
     },
     {
       "code": "ADV 303",
@@ -3300,7 +5255,34 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004526/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004526/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:45.667389+00:00"
+      }
     },
     {
       "code": "ADV 304",
@@ -3349,7 +5331,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004527/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004527/program/50335989",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:48.013240+00:00"
+      }
     },
     {
       "code": "ADV 305",
@@ -3394,7 +5402,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004528/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004528/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:50.412835+00:00"
+      }
     },
     {
       "code": "ADV 306",
@@ -3437,7 +5470,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004529/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004529/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:52.865489+00:00"
+      }
     },
     {
       "code": "ADV 307",
@@ -3479,7 +5537,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004530/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004530/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:55.143356+00:00"
+      }
     },
     {
       "code": "ADV 308",
@@ -3529,7 +5612,33 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004531/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004531/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:57.336293+00:00"
+      }
     },
     {
       "code": "ADV 309",
@@ -3574,7 +5683,34 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004532/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004532/program/50335989",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:06:59.592583+00:00"
+      }
     },
     {
       "code": "ADV 311",
@@ -3617,7 +5753,34 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004533/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004533/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "web_mobile"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:01.956219+00:00"
+      }
     },
     {
       "code": "ADV 312",
@@ -3659,7 +5822,32 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004534/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004534/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:04.099199+00:00"
+      }
     },
     {
       "code": "ADV 313",
@@ -3709,7 +5897,34 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004535/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004535/program/50335989",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:06.453422+00:00"
+      }
     },
     {
       "code": "ADV 315",
@@ -3756,7 +5971,37 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004536/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004536/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "web 3.0",
+          "nft"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:09.014819+00:00"
+      }
     },
     {
       "code": "ADV 401",
@@ -3813,7 +6058,143 @@
       "categories": [
         "Serbest Seçmeli"
       ],
-      "source_url": "https://bologna.khas.edu.tr/ders/30004537/program/50335989"
+      "source_url": "https://bologna.khas.edu.tr/ders/30004537/program/50335989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:11.369291+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 86,
+    "enriched_courses": 86,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T23:07:11.873843+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 6,
+        "total_ects": 34,
+        "required_ects": 22
+      },
+      "programming": {
+        "courses": 9,
+        "total_ects": 51,
+        "required_ects": 18
+      },
+      "systems": {
+        "courses": 20,
+        "total_ects": 111,
+        "required_ects": 47
+      },
+      "ai_ml": {
+        "courses": 3,
+        "total_ects": 17,
+        "required_ects": 7
+      },
+      "data_science": {
+        "courses": 9,
+        "total_ects": 52,
+        "required_ects": 30
+      },
+      "security": {
+        "courses": 7,
+        "total_ects": 39,
+        "required_ects": 6
+      },
+      "web_mobile": {
+        "courses": 8,
+        "total_ects": 46,
+        "required_ects": 19
+      },
+      "software_eng": {
+        "courses": 13,
+        "total_ects": 71,
+        "required_ects": 30
+      },
+      "graphics_vision": {
+        "courses": 2,
+        "total_ects": 12,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 3,
+        "total_ects": 18,
+        "required_ects": 6
+      },
+      "theory": {
+        "courses": 7,
+        "total_ects": 41,
+        "required_ects": 5
+      },
+      "info_systems": {
+        "courses": 42,
+        "total_ects": 236,
+        "required_ects": 89
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      },
+      "data_science": {
+        "required": 5,
+        "elective": 4,
+        "total": 9
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "security": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "software_eng": {
+        "required": 6,
+        "elective": 7,
+        "total": 13
+      },
+      "web_mobile": {
+        "required": 3,
+        "elective": 5,
+        "total": 8
+      }
+    },
+    "earliest_technical_elective_semester": 1,
+    "project_heavy_course_count": 35,
+    "total_project_ects": 193,
+    "english_resources_ratio": 0.65
+  }
 }

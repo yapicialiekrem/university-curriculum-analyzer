@@ -73,7 +73,32 @@
         "BUS 101 / CDM 204 / HM 118 / LBUS 179 / PUB 205 / THM 103 / VOC 101"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741686"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741686",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:15.239058+00:00"
+      }
     },
     {
       "code": "EC 101",
@@ -119,7 +144,32 @@
         "EC 149 / LEC 101 / PUB 252 / PUB 253 / VEC 111 / VOC 205"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741595"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741595",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:17.346540+00:00"
+      }
     },
     {
       "code": "BUS/E 179",
@@ -162,7 +212,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24745214"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24745214",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:19.889739+00:00"
+      }
     },
     {
       "code": "CMPE 130",
@@ -212,7 +287,36 @@
         "CMPE 101 / CMPE 170 / COMP 112 / COMP 150 / COMP 180 / FM 150"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24746558"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24746558",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "python",
+          "numpy"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.23,
+          "apply": 0.38,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.07
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:22.246089+00:00"
+      }
     },
     {
       "code": "MATH 175",
@@ -260,7 +364,33 @@
         "EC 175 / MATH 169"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744426"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744426",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:25.626784+00:00"
+      }
     },
     {
       "code": "TK 103",
@@ -316,7 +446,32 @@
         "TK 111 / TK 112 / TK 113"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24742692"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24742692",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:27.776544+00:00"
+      }
     },
     {
       "code": "MIS 102",
@@ -369,7 +524,33 @@
         "CMPE 100 / CMPE 130 / CMPE 169 / FM 149"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744124"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744124",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:29.925366+00:00"
+      }
     },
     {
       "code": "BUS 120",
@@ -416,7 +597,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741723"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741723",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:32.137893+00:00"
+      }
     },
     {
       "code": "BUS 180",
@@ -465,7 +671,33 @@
         "BUS 101 / CDM 204 / HM 118 / LBUS 180 / PUB 205 / THM 103 / VOC 101"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741689"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741689",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:34.328880+00:00"
+      }
     },
     {
       "code": "EC 102",
@@ -510,7 +742,32 @@
         "EC 150 / LEC 102 / PUB 252 / PUB 254 / VEC 112 / VOC 206"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741596"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741596",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:36.479643+00:00"
+      }
     },
     {
       "code": "BUS/E 180",
@@ -553,7 +810,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24745253"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24745253",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:38.629905+00:00"
+      }
     },
     {
       "code": "MATH 176",
@@ -601,7 +883,33 @@
         "EC 176 / MATH 170"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744410"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744410",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:40.745415+00:00"
+      }
     },
     {
       "code": "TK 104",
@@ -659,7 +967,32 @@
         "TK 111 / TK 112 / TK 113"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24742696"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24742696",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:43.035203+00:00"
+      }
     },
     {
       "code": "MIS 202",
@@ -709,7 +1042,34 @@
         "BUS 202"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744108"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744108",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:45.593023+00:00"
+      }
     },
     {
       "code": "BUS 211",
@@ -757,7 +1117,33 @@
         "BKS 101 / BUS 105 / CUL 310 / HEC 241 / HM 111 / MUG 101 / SHU 102 / THM 207 / VOC 221"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741704"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741704",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:47.850908+00:00"
+      }
     },
     {
       "code": "BUS 273",
@@ -807,7 +1193,33 @@
         "EC 176 / MATH 106 / MATH 108 / MATH 110 / MATH 150 / MATH 156 / MATH 162 / MATH 169 / MATH 176"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741748"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741748",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:50.142424+00:00"
+      }
     },
     {
       "code": "HTR 111",
@@ -856,7 +1268,32 @@
         "HTR 100 / HTR 101 / HTR 211 / VHTR 111"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744364"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744364",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:52.376538+00:00"
+      }
     },
     {
       "code": "GE Quantitative Reasoning & Critical Thinking List I",
@@ -877,7 +1314,32 @@
       "categories": [
         "GE Quantitative Reasoning & Critical Thinking List I"
       ],
-      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193154"
+      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193154",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:54.628351+00:00"
+      }
     },
     {
       "code": "GE Social Science List I",
@@ -898,7 +1360,32 @@
       "categories": [
         "GE Social Science List I"
       ],
-      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193153"
+      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193153",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:56.961525+00:00"
+      }
     },
     {
       "code": "BUS 274",
@@ -947,7 +1434,34 @@
         "BUS 273 / EC 271 / HEC 213 / IE 231 / IR 213 / LEC 213 / MATH 303 / PSY 213 / SOC 213 / VOC 188"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741695"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741695",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:39:59.417082+00:00"
+      }
     },
     {
       "code": "MATH 235",
@@ -994,7 +1508,34 @@
         "EC 176 / LMATH 170 / MATH 110 / MATH 156 / MATH 162 / MATH 170 / MATH 176"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744411"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744411",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:01.698463+00:00"
+      }
     },
     {
       "code": "HTR 112",
@@ -1043,7 +1584,32 @@
         "HTR 111 / HTR 211 / VHTR 111"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744367"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744367",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:03.940667+00:00"
+      }
     },
     {
       "code": "GE Awareness and Social Responsibility List I",
@@ -1064,7 +1630,32 @@
       "categories": [
         "GE Awareness and Social Responsibility List I"
       ],
-      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193151"
+      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193151",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:06.589040+00:00"
+      }
     },
     {
       "code": "Full List",
@@ -1085,7 +1676,32 @@
       "categories": [
         "Full List"
       ],
-      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=192983"
+      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=192983",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:08.821123+00:00"
+      }
     },
     {
       "code": "MIS 300",
@@ -1135,7 +1751,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744138"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744138",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:11.297200+00:00"
+      }
     },
     {
       "code": "MIS 302",
@@ -1196,7 +1838,34 @@
         "CMPE 100 / CMPE 101 / CMPE 102 / CMPE 130 / COMP 112 / COMP 150 / COMP 152 / COMP 180"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744115"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744115",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:13.958174+00:00"
+      }
     },
     {
       "code": "MIS 303",
@@ -1247,7 +1916,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744113"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744113",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.22,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:16.252963+00:00"
+      }
     },
     {
       "code": "MIS 311",
@@ -1299,7 +1995,34 @@
         "MIS 301"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744135"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744135",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:18.464433+00:00"
+      }
     },
     {
       "code": "MIS List",
@@ -1320,7 +2043,32 @@
       "categories": [
         "MIS List"
       ],
-      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193012"
+      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=193012",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:20.720229+00:00"
+      }
     },
     {
       "code": "MIS 306",
@@ -1375,7 +2123,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744107"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744107",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:22.956983+00:00"
+      }
     },
     {
       "code": "MIS 312",
@@ -1426,7 +2201,34 @@
         "MIS 301 / MIS 311"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744136"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744136",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:25.323840+00:00"
+      }
     },
     {
       "code": "BUS 314",
@@ -1478,7 +2280,33 @@
         "MATH 235"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741714"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741714",
+      "_enriched": {
+        "categories": [
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:28.191364+00:00"
+      }
     },
     {
       "code": "CMPE 372",
@@ -1523,7 +2351,41 @@
         "CMPE 101 / CMPE 102 / CMPE 130 / CMPE 132 / MIS 102"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24746637"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24746637",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "html",
+          "css",
+          "javascript",
+          "figma",
+          "spa",
+          "api"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.16,
+          "evaluate": 0.06,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:30.655610+00:00"
+      }
     },
     {
       "code": "BUS List",
@@ -1544,7 +2406,32 @@
       "categories": [
         "BUS List"
       ],
-      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=192989"
+      "source_url": "https://ects.bilgi.edu.tr/Elective/Detail?catalog_electiveId=192989",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:32.811642+00:00"
+      }
     },
     {
       "code": "MIS 400",
@@ -1597,7 +2484,34 @@
         "MIS 300"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744140"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744140",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:35.256904+00:00"
+      }
     },
     {
       "code": "MIS 401",
@@ -1651,7 +2565,34 @@
         "CMPE 351 / MIS 302"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744118"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744118",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:37.921598+00:00"
+      }
     },
     {
       "code": "MIS 461",
@@ -1711,7 +2652,34 @@
         "BUS 202 / MIS 202"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744127"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744127",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:40.378671+00:00"
+      }
     },
     {
       "code": "MIS 497",
@@ -1760,7 +2728,34 @@
         "CMPE 351 / MIS 302"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744121"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744121",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:42.631756+00:00"
+      }
     },
     {
       "code": "MIS 402",
@@ -1814,7 +2809,34 @@
         "CMPE 351 / MIS 302"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744131"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744131",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "ai_ml",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:44.985830+00:00"
+      }
     },
     {
       "code": "MIS 498",
@@ -1864,7 +2886,33 @@
         "MIS 497"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744123"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24744123",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:47.523761+00:00"
+      }
     },
     {
       "code": "BUS 462",
@@ -1916,7 +2964,145 @@
         "MTH 420"
       ],
       "categories": [],
-      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741681"
+      "source_url": "https://ects.bilgi.edu.tr/Course/Detail?catalog_courseId=24741681",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:40:49.980201+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 41,
+    "enriched_courses": 41,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:40:50.486577+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 7,
+        "total_ects": 43,
+        "required_ects": 12
+      },
+      "programming": {
+        "courses": 2,
+        "total_ects": 11,
+        "required_ects": 5
+      },
+      "systems": {
+        "courses": 10,
+        "total_ects": 53,
+        "required_ects": 53
+      },
+      "ai_ml": {
+        "courses": 2,
+        "total_ects": 11,
+        "required_ects": 11
+      },
+      "data_science": {
+        "courses": 5,
+        "total_ects": 29,
+        "required_ects": 29
+      },
+      "security": {
+        "courses": 2,
+        "total_ects": 12,
+        "required_ects": 12
+      },
+      "web_mobile": {
+        "courses": 2,
+        "total_ects": 12,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 9,
+        "total_ects": 49,
+        "required_ects": 37
+      },
+      "graphics_vision": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "theory": {
+        "courses": 1,
+        "total_ects": 7,
+        "required_ects": 0
+      },
+      "info_systems": {
+        "courses": 21,
+        "total_ects": 111,
+        "required_ects": 89
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 0,
+        "total": 2
+      },
+      "data_science": {
+        "required": 5,
+        "elective": 0,
+        "total": 5
+      },
+      "distributed": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "security": {
+        "required": 2,
+        "elective": 0,
+        "total": 2
+      },
+      "software_eng": {
+        "required": 7,
+        "elective": 2,
+        "total": 9
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      }
+    },
+    "earliest_technical_elective_semester": 1,
+    "project_heavy_course_count": 9,
+    "total_project_ects": 41,
+    "english_resources_ratio": 0.66
+  }
 }

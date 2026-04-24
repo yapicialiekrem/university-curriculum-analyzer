@@ -66,7 +66,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17110"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17110",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:06.483288+00:00"
+      }
     },
     {
       "code": "ING116-A",
@@ -85,7 +111,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17273"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17273",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:08.989809+00:00"
+      }
     },
     {
       "code": "ING116-B",
@@ -104,7 +156,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17274"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17274",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:11.445621+00:00"
+      }
     },
     {
       "code": "ING111",
@@ -123,7 +201,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17112"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17112",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:14.006148+00:00"
+      }
     },
     {
       "code": "INF112-A",
@@ -168,7 +271,35 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17271"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17271",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "c"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:16.567302+00:00"
+      }
     },
     {
       "code": "INF112-B",
@@ -213,7 +344,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17272"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17272",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:19.126551+00:00"
+      }
     },
     {
       "code": "INF113",
@@ -256,7 +413,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17114"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17114",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:21.891828+00:00"
+      }
     },
     {
       "code": "FLF101",
@@ -294,7 +478,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17117"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17117",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:24.270185+00:00"
+      }
     },
     {
       "code": "ING107",
@@ -341,7 +550,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17118"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17118",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:26.678367+00:00"
+      }
     },
     {
       "code": "ING117-A",
@@ -369,7 +604,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18058"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18058",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:29.060743+00:00"
+      }
     },
     {
       "code": "ING117-B",
@@ -388,7 +649,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18059"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18059",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:31.413746+00:00"
+      }
     },
     {
       "code": "INF114-B",
@@ -432,7 +718,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18061"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18061",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:33.973874+00:00"
+      }
     },
     {
       "code": "INF114-A",
@@ -476,7 +789,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18060"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18060",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:37.236874+00:00"
+      }
     },
     {
       "code": "INF116",
@@ -521,7 +861,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17121"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17121",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:39.654433+00:00"
+      }
     },
     {
       "code": "CNT120",
@@ -566,7 +933,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17774"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17774",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:42.151395+00:00"
+      }
     },
     {
       "code": "FLF201",
@@ -585,7 +979,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17125"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17125",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:45.136436+00:00"
+      }
     },
     {
       "code": "ING251",
@@ -631,7 +1050,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17126"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17126",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:47.491675+00:00"
+      }
     },
     {
       "code": "ING207",
@@ -678,7 +1122,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17127"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17127",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:49.931778+00:00"
+      }
     },
     {
       "code": "INF256",
@@ -721,7 +1191,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17128"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17128",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:52.225214+00:00"
+      }
     },
     {
       "code": "ING229-A",
@@ -749,7 +1245,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17275"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17275",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:54.661250+00:00"
+      }
     },
     {
       "code": "ING229-B",
@@ -768,7 +1290,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17276"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17276",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:57.299053+00:00"
+      }
     },
     {
       "code": "INF224-A",
@@ -815,7 +1363,34 @@
         "INF112 / INF114"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17277"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17277",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:00.041798+00:00"
+      }
     },
     {
       "code": "INF224-B",
@@ -862,7 +1437,34 @@
         "INF112 / INF114"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17278"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17278",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "math"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:02.544767+00:00"
+      }
     },
     {
       "code": "ING252",
@@ -906,7 +1508,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17132"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17132",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:05.001426+00:00"
+      }
     },
     {
       "code": "ING208",
@@ -948,7 +1575,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17133"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17133",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:07.358303+00:00"
+      }
     },
     {
       "code": "INF257",
@@ -995,7 +1648,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17134"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17134",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "r"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.38,
+          "analyze": 0.22,
+          "evaluate": 0.07,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:09.918085+00:00"
+      }
     },
     {
       "code": "ING220-A",
@@ -1036,7 +1718,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18062"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18062",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:12.272392+00:00"
+      }
     },
     {
       "code": "ING220-B",
@@ -1077,7 +1785,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18063"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18063",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:14.832056+00:00"
+      }
     },
     {
       "code": "INF243-A",
@@ -1123,7 +1857,34 @@
         "INF114"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18064"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18064",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:17.392017+00:00"
+      }
     },
     {
       "code": "INF243-B",
@@ -1169,7 +1930,34 @@
         "INF114"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18065"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18065",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:19.810752+00:00"
+      }
     },
     {
       "code": "INF291",
@@ -1197,7 +1985,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17138"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17138",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:22.409706+00:00"
+      }
     },
     {
       "code": "INF356",
@@ -1246,7 +2060,34 @@
         "IND211 / INF256 / INF257 / INF211"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17139"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17139",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:25.072999+00:00"
+      }
     },
     {
       "code": "INF324",
@@ -1296,7 +2137,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17140"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17140",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:27.736130+00:00"
+      }
     },
     {
       "code": "INF315",
@@ -1337,7 +2205,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17141"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17141",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:30.397552+00:00"
+      }
     },
     {
       "code": "INF345",
@@ -1380,7 +2275,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17142"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17142",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:32.706436+00:00"
+      }
     },
     {
       "code": "CNT250",
@@ -1399,7 +2321,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17143"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17143",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:35.414645+00:00"
+      }
     },
     {
       "code": "INF320",
@@ -1442,7 +2390,34 @@
         "ING220"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17144"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17144",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:37.874211+00:00"
+      }
     },
     {
       "code": "INF353",
@@ -1476,7 +2451,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17145"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17145",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:40.825705+00:00"
+      }
     },
     {
       "code": "INF354",
@@ -1517,7 +2519,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17146"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17146",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.22,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:43.401892+00:00"
+      }
     },
     {
       "code": "INF454",
@@ -1561,7 +2589,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17775"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17775",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:45.961943+00:00"
+      }
     },
     {
       "code": "INF323",
@@ -1603,7 +2658,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17148"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17148",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:48.497608+00:00"
+      }
     },
     {
       "code": "INF333-A",
@@ -1649,7 +2730,34 @@
         "INF116"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18066"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18066",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:51.020379+00:00"
+      }
     },
     {
       "code": "INF333-B",
@@ -1695,7 +2803,33 @@
         "INF116"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18067"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18067",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:53.947895+00:00"
+      }
     },
     {
       "code": "INF325",
@@ -1740,7 +2874,33 @@
         "ING207"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17150"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17150",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:56.354164+00:00"
+      }
     },
     {
       "code": "INF340-A",
@@ -1781,7 +2941,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18068"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18068",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:26:59.379130+00:00"
+      }
     },
     {
       "code": "INF340-B",
@@ -1822,7 +3008,35 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18069"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/18069",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "8085"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:02.660894+00:00"
+      }
     },
     {
       "code": "INF334",
@@ -1870,7 +3084,34 @@
         "IND211 / INF256 / INF257 / INF211"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17152"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17152",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:05.214647+00:00"
+      }
     },
     {
       "code": "INF330",
@@ -1915,7 +3156,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17153"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17153",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:07.568937+00:00"
+      }
     },
     {
       "code": "INF360",
@@ -1963,7 +3231,37 @@
         "INF324"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17154"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17154",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "devops",
+          "nosql"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:09.821682+00:00"
+      }
     },
     {
       "code": "INF365",
@@ -2005,7 +3303,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17155"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17155",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.3,
+          "evaluate": 0.12,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:12.030548+00:00"
+      }
     },
     {
       "code": "INF366",
@@ -2024,7 +3349,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17156"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17156",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:14.429537+00:00"
+      }
     },
     {
       "code": "INF399",
@@ -2064,7 +3416,32 @@
         "INF291"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17157"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17157",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:16.785302+00:00"
+      }
     },
     {
       "code": "INF443",
@@ -2109,7 +3486,34 @@
         "INF114 / INF243"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17267"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17267",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:19.241922+00:00"
+      }
     },
     {
       "code": "INF402",
@@ -2148,7 +3552,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17159"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17159",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:21.906502+00:00"
+      }
     },
     {
       "code": "INF444",
@@ -2191,7 +3622,34 @@
         "INF224"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17160"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17160",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:24.259606+00:00"
+      }
     },
     {
       "code": "INF493",
@@ -2238,7 +3696,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17268"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17268",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:26.922603+00:00"
+      }
     },
     {
       "code": "INF471-A",
@@ -2283,7 +3767,34 @@
         "INF334"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17162"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17162",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:29.789226+00:00"
+      }
     },
     {
       "code": "INF471-B",
@@ -2328,7 +3839,34 @@
         "INF334"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17163"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17163",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:32.451446+00:00"
+      }
     },
     {
       "code": "INF400",
@@ -2371,7 +3909,37 @@
         "INF114"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17164"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17164",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "webassembly",
+          "browser wasm runtime"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:35.182647+00:00"
+      }
     },
     {
       "code": "INF438",
@@ -2424,7 +3992,41 @@
         "INF324"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17165"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17165",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "distributed",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "kafka",
+          "spark",
+          "hadoop",
+          "hdfs",
+          "yarn",
+          "mapreduce"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.38,
+          "analyze": 0.22,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:38.025032+00:00"
+      }
     },
     {
       "code": "INF410",
@@ -2470,7 +4072,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17166"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17166",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "ai_ml"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:41.022831+00:00"
+      }
     },
     {
       "code": "INF432",
@@ -2514,7 +4143,41 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17167"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17167",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "opengl",
+          "webgl",
+          "opengles",
+          "glsl",
+          "javascript",
+          "game engine"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:43.462101+00:00"
+      }
     },
     {
       "code": "INF481",
@@ -2556,7 +4219,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17170"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17170",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:45.835277+00:00"
+      }
     },
     {
       "code": "INF482",
@@ -2598,7 +4287,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17171"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17171",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:48.252039+00:00"
+      }
     },
     {
       "code": "INF494",
@@ -2644,7 +4360,33 @@
         "INF493"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17172"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17172",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:50.883650+00:00"
+      }
     },
     {
       "code": "IND471",
@@ -2691,7 +4433,33 @@
         "ING207"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17173"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17173",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:53.390842+00:00"
+      }
     },
     {
       "code": "IND472",
@@ -2719,7 +4487,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17174"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17174",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:55.799352+00:00"
+      }
     },
     {
       "code": "INF472",
@@ -2768,7 +4561,43 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17175"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17175",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "virtualization",
+          "containerization",
+          "microservices",
+          "kubernetes",
+          "devops",
+          "infrastructure as code",
+          "serverless",
+          "edge computing"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:27:58.257140+00:00"
+      }
     },
     {
       "code": "INF473",
@@ -2809,7 +4638,41 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17177"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17177",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "transformer",
+          "llm",
+          "rlhf",
+          "rag",
+          "prompt engineering",
+          "agentic systems"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.24,
+          "analyze": 0.24,
+          "evaluate": 0.14,
+          "create": 0.08
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:01.105997+00:00"
+      }
     },
     {
       "code": "INF474",
@@ -2854,7 +4717,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17178"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17178",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:03.685710+00:00"
+      }
     },
     {
       "code": "INF475",
@@ -2873,7 +4763,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17179"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17179",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:06.141375+00:00"
+      }
     },
     {
       "code": "CNT416",
@@ -2915,7 +4832,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17777"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17777",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "data_science"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:08.807637+00:00"
+      }
     },
     {
       "code": "CNT414",
@@ -2934,7 +4878,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17861"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17861",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:11.262043+00:00"
+      }
     },
     {
       "code": "INF483",
@@ -2984,7 +4953,34 @@
         "IND211 / INF256 / INF257 / INF211"
       ],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17863"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17863",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:13.925969+00:00"
+      }
     },
     {
       "code": "CC301",
@@ -3003,7 +4999,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17725"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17725",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.6,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:17.406230+00:00"
+      }
     },
     {
       "code": "CC303",
@@ -3022,7 +5043,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17726"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17726",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:19.935094+00:00"
+      }
     },
     {
       "code": "CC304",
@@ -3041,7 +5087,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17727"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17727",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:22.348761+00:00"
+      }
     },
     {
       "code": "CC305",
@@ -3060,7 +5131,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17728"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17728",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:24.630134+00:00"
+      }
     },
     {
       "code": "CC307",
@@ -3079,7 +5175,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17729"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17729",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:26.894188+00:00"
+      }
     },
     {
       "code": "CC309",
@@ -3098,7 +5219,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17730"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17730",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:29.286110+00:00"
+      }
     },
     {
       "code": "CC311",
@@ -3117,7 +5263,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17731"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17731",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:31.640472+00:00"
+      }
     },
     {
       "code": "CC314",
@@ -3136,7 +5307,143 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17732"
+      "source_url": "https://ects.gsu.edu.tr/en/program/coursedetails/17732",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:28:33.995414+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 82,
+    "enriched_courses": 82,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T19:28:34.498073+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 26,
+        "total_ects": 130,
+        "required_ects": 106
+      },
+      "programming": {
+        "courses": 25,
+        "total_ects": 119,
+        "required_ects": 99
+      },
+      "systems": {
+        "courses": 32,
+        "total_ects": 154,
+        "required_ects": 120
+      },
+      "ai_ml": {
+        "courses": 5,
+        "total_ects": 25,
+        "required_ects": 5
+      },
+      "data_science": {
+        "courses": 5,
+        "total_ects": 21,
+        "required_ects": 9
+      },
+      "security": {
+        "courses": 6,
+        "total_ects": 25,
+        "required_ects": 15
+      },
+      "web_mobile": {
+        "courses": 2,
+        "total_ects": 10,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 23,
+        "total_ects": 102,
+        "required_ects": 67
+      },
+      "graphics_vision": {
+        "courses": 2,
+        "total_ects": 10,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 6,
+        "total_ects": 27,
+        "required_ects": 7
+      },
+      "theory": {
+        "courses": 21,
+        "total_ects": 105,
+        "required_ects": 95
+      },
+      "info_systems": {
+        "courses": 11,
+        "total_ects": 44,
+        "required_ects": 22
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 4,
+        "total": 5
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 3,
+        "total": 5
+      },
+      "distributed": {
+        "required": 2,
+        "elective": 4,
+        "total": 6
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "security": {
+        "required": 4,
+        "elective": 2,
+        "total": 6
+      },
+      "software_eng": {
+        "required": 16,
+        "elective": 7,
+        "total": 23
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      }
+    },
+    "earliest_technical_elective_semester": 5,
+    "project_heavy_course_count": 23,
+    "total_project_ects": 105,
+    "english_resources_ratio": 0.55
+  }
 }

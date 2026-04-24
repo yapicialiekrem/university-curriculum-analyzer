@@ -83,7 +83,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289328&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289328&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:42.200815+00:00"
+      }
     },
     {
       "code": "CSE107",
@@ -102,7 +129,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289319&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289319&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:44.693926+00:00"
+      }
     },
     {
       "code": "ENG151",
@@ -145,7 +197,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289303&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289303&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:47.149639+00:00"
+      }
     },
     {
       "code": "HIS101",
@@ -197,7 +274,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289302&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289302&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:49.508718+00:00"
+      }
     },
     {
       "code": "MATH101",
@@ -216,7 +318,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289354&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289354&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:51.860174+00:00"
+      }
     },
     {
       "code": "PHYS121",
@@ -235,7 +362,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289365&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289365&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:54.159299+00:00"
+      }
     },
     {
       "code": "PHYS151",
@@ -254,7 +407,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289349&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289349&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.2,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:56.429957+00:00"
+      }
     },
     {
       "code": "TUR101",
@@ -299,7 +477,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289350&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289350&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:20:59.338029+00:00"
+      }
     },
     {
       "code": "CSE102",
@@ -341,7 +544,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl17$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl17$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:01.586494+00:00"
+      }
     },
     {
       "code": "CSE108",
@@ -382,7 +611,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl18$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl18$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:03.913012+00:00"
+      }
     },
     {
       "code": "ENG152",
@@ -423,7 +678,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289374&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289374&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:06.401028+00:00"
+      }
     },
     {
       "code": "HIS102",
@@ -480,7 +760,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289307&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289307&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:08.860063+00:00"
+      }
     },
     {
       "code": "MATH102",
@@ -499,7 +804,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289326&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289326&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:11.317293+00:00"
+      }
     },
     {
       "code": "PHYS122",
@@ -518,7 +848,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289316&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289316&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:13.671895+00:00"
+      }
     },
     {
       "code": "PHYS152",
@@ -537,7 +892,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289368&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289368&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.2,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:15.908438+00:00"
+      }
     },
     {
       "code": "TUR102",
@@ -592,7 +972,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289308&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289308&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:18.280201+00:00"
+      }
     },
     {
       "code": "CSE211",
@@ -635,7 +1040,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289297&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289297&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:20.726597+00:00"
+      }
     },
     {
       "code": "CSE231",
@@ -680,7 +1111,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289352&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289352&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:23.193744+00:00"
+      }
     },
     {
       "code": "CSE233",
@@ -725,7 +1182,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289359&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289359&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:25.961381+00:00"
+      }
     },
     {
       "code": "CSE241",
@@ -767,7 +1250,33 @@
         "CSE102"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289353&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289353&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:28.418379+00:00"
+      }
     },
     {
       "code": "ENGL111",
@@ -786,7 +1295,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289298&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289298&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:30.771649+00:00"
+      }
     },
     {
       "code": "NonTElec3",
@@ -805,7 +1339,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:33.024219+00:00"
+      }
     },
     {
       "code": "BUS204",
@@ -824,7 +1383,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl431$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl431$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.02,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:35.586771+00:00"
+      }
     },
     {
       "code": "BUS441",
@@ -843,7 +1427,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl432$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl432$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:37.881751+00:00"
+      }
     },
     {
       "code": "BUS451",
@@ -862,7 +1471,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl433$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl433$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:40.356826+00:00"
+      }
     },
     {
       "code": "BUS453",
@@ -881,7 +1515,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl434$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl434$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:43.060947+00:00"
+      }
     },
     {
       "code": "ENG460",
@@ -900,7 +1559,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl435$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl435$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:46.284409+00:00"
+      }
     },
     {
       "code": "YDB481",
@@ -919,7 +1603,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl436$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl436$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:48.705852+00:00"
+      }
     },
     {
       "code": "ARCHF266",
@@ -938,7 +1647,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl437$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl437$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:50.842705+00:00"
+      }
     },
     {
       "code": "ARCHF436",
@@ -957,7 +1691,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl438$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl438$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:53.199235+00:00"
+      }
     },
     {
       "code": "ARCH126",
@@ -976,7 +1735,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl439$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl439$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:55.655174+00:00"
+      }
     },
     {
       "code": "BUS102",
@@ -995,7 +1779,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl440$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl440$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:21:58.215032+00:00"
+      }
     },
     {
       "code": "BUS104",
@@ -1014,7 +1824,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl441$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl441$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:00.444507+00:00"
+      }
     },
     {
       "code": "BUS106",
@@ -1033,7 +1868,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl442$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl442$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:02.783222+00:00"
+      }
     },
     {
       "code": "BUS263",
@@ -1052,7 +1912,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl443$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl443$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:05.179003+00:00"
+      }
     },
     {
       "code": "BUS302",
@@ -1071,7 +1956,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl444$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl444$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:07.537540+00:00"
+      }
     },
     {
       "code": "BUS306",
@@ -1090,7 +2000,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl445$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl445$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:09.889655+00:00"
+      }
     },
     {
       "code": "BUS324",
@@ -1109,7 +2044,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl446$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl446$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:12.246108+00:00"
+      }
     },
     {
       "code": "BUS363",
@@ -1128,7 +2088,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl447$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl447$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:14.701470+00:00"
+      }
     },
     {
       "code": "BUS366",
@@ -1147,7 +2133,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl448$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl448$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:17.061176+00:00"
+      }
     },
     {
       "code": "BUS403",
@@ -1166,7 +2178,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl449$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl449$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:19.407742+00:00"
+      }
     },
     {
       "code": "BUS417",
@@ -1185,7 +2222,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl450$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl450$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:21.914965+00:00"
+      }
     },
     {
       "code": "BUS452",
@@ -1204,7 +2266,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl451$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl451$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:24.330284+00:00"
+      }
     },
     {
       "code": "BUS454",
@@ -1223,7 +2310,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl452$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl452$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:26.582907+00:00"
+      }
     },
     {
       "code": "CHEM427",
@@ -1242,7 +2354,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl453$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl453$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:28.937317+00:00"
+      }
     },
     {
       "code": "CHEM428",
@@ -1261,7 +2398,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl454$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl454$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:31.345891+00:00"
+      }
     },
     {
       "code": "CHEM438",
@@ -1280,7 +2442,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl455$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl455$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:33.544496+00:00"
+      }
     },
     {
       "code": "ENG250",
@@ -1299,7 +2486,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl456$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl456$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:35.728314+00:00"
+      }
     },
     {
       "code": "ENG255",
@@ -1318,7 +2530,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl457$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl457$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:37.975088+00:00"
+      }
     },
     {
       "code": "ENG262",
@@ -1337,7 +2574,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl458$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl458$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:40.266933+00:00"
+      }
     },
     {
       "code": "ENG266",
@@ -1356,7 +2618,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl459$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl459$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:42.657098+00:00"
+      }
     },
     {
       "code": "ENG302",
@@ -1375,7 +2662,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl460$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl460$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:45.065732+00:00"
+      }
     },
     {
       "code": "ENG311",
@@ -1394,7 +2706,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl461$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl461$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.6,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:47.897447+00:00"
+      }
     },
     {
       "code": "ENG352",
@@ -1413,7 +2750,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl464$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl464$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:50.234753+00:00"
+      }
     },
     {
       "code": "ENG353",
@@ -1432,7 +2794,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl465$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl465$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:53.101990+00:00"
+      }
     },
     {
       "code": "ENG354",
@@ -1451,7 +2838,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl466$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl466$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:55.662229+00:00"
+      }
     },
     {
       "code": "ENG450",
@@ -1470,7 +2882,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl467$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl467$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:22:58.325079+00:00"
+      }
     },
     {
       "code": "ENG451",
@@ -1489,7 +2926,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl468$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl468$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:00.784049+00:00"
+      }
     },
     {
       "code": "GTU101",
@@ -1508,7 +2970,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl469$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl469$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:03.576652+00:00"
+      }
     },
     {
       "code": "GTU110",
@@ -1527,7 +3014,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl470$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl470$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:06.004752+00:00"
+      }
     },
     {
       "code": "GTU111",
@@ -1546,7 +3058,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl73$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl73$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:08.360027+00:00"
+      }
     },
     {
       "code": "İŞL443",
@@ -1565,7 +3102,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl471$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl471$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:10.715427+00:00"
+      }
     },
     {
       "code": "MATH218",
@@ -1584,7 +3146,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl472$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl472$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:12.968860+00:00"
+      }
     },
     {
       "code": "MATH407",
@@ -1603,7 +3191,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl473$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl473$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:15.323542+00:00"
+      }
     },
     {
       "code": "MATH419",
@@ -1622,7 +3235,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl474$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl474$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:17.680531+00:00"
+      }
     },
     {
       "code": "MATH446",
@@ -1641,7 +3280,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl475$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl475$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:19.914940+00:00"
+      }
     },
     {
       "code": "MATH450",
@@ -1660,7 +3324,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl476$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl476$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:22.150011+00:00"
+      }
     },
     {
       "code": "MATH452",
@@ -1679,7 +3368,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl477$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl477$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:24.538074+00:00"
+      }
     },
     {
       "code": "MBG101",
@@ -1698,7 +3412,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl478$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl478$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:26.834018+00:00"
+      }
     },
     {
       "code": "MBG222",
@@ -1717,7 +3456,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl479$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl479$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:29.064479+00:00"
+      }
     },
     {
       "code": "MBG338",
@@ -1736,7 +3500,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl480$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl480$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:31.502451+00:00"
+      }
     },
     {
       "code": "PES140",
@@ -1755,7 +3544,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl481$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl481$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:33.724907+00:00"
+      }
     },
     {
       "code": "PHYS112",
@@ -1774,7 +3588,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl85$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl85$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:36.016554+00:00"
+      }
     },
     {
       "code": "PHYS207",
@@ -1793,7 +3632,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl482$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl482$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:38.670246+00:00"
+      }
     },
     {
       "code": "PHYS435",
@@ -1812,7 +3676,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl483$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl483$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:41.032980+00:00"
+      }
     },
     {
       "code": "PHYS439",
@@ -1831,7 +3720,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl484$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl484$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:43.349990+00:00"
+      }
     },
     {
       "code": "PHYS445",
@@ -1850,7 +3764,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl485$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl485$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:46.147109+00:00"
+      }
     },
     {
       "code": "YDB482",
@@ -1869,7 +3808,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl486$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl486$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:49.014004+00:00"
+      }
     },
     {
       "code": "CSE222",
@@ -1912,7 +3876,34 @@
         "CSE241"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289309&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289309&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:51.560019+00:00"
+      }
     },
     {
       "code": "CSE232",
@@ -1939,7 +3930,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289311&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289311&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:53.928235+00:00"
+      }
     },
     {
       "code": "CSE234",
@@ -1966,7 +3984,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289312&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289312&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:56.488912+00:00"
+      }
     },
     {
       "code": "ENGL112",
@@ -1985,7 +4029,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289329&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289329&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:23:58.844023+00:00"
+      }
     },
     {
       "code": "MATH116",
@@ -2029,7 +4098,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=389634&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=389634&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:01.150002+00:00"
+      }
     },
     {
       "code": "FElec4",
@@ -2048,7 +4144,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:03.730986+00:00"
+      }
     },
     {
       "code": "ENG362",
@@ -2067,7 +4188,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl101$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl101$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:05.908596+00:00"
+      }
     },
     {
       "code": "ENG391",
@@ -2086,7 +4232,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl186$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl186$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.2,
+          "create": 0.4
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:08.368290+00:00"
+      }
     },
     {
       "code": "ENG392",
@@ -2105,7 +4276,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl187$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl187$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.6,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:10.609843+00:00"
+      }
     },
     {
       "code": "ENG393",
@@ -2124,7 +4320,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl188$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl188$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:13.488136+00:00"
+      }
     },
     {
       "code": "FElec6.",
@@ -2143,7 +4364,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:15.816934+00:00"
+      }
     },
     {
       "code": "CSE321",
@@ -2188,7 +4434,34 @@
         "CSE211"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289334&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289334&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:18.094962+00:00"
+      }
     },
     {
       "code": "CSE331",
@@ -2231,7 +4504,34 @@
         "CSE232"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289333&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289333&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:21.270836+00:00"
+      }
     },
     {
       "code": "CSE341",
@@ -2273,7 +4573,33 @@
         "CSE102"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289332&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289332&lang=tr",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:23.626330+00:00"
+      }
     },
     {
       "code": "CSE343",
@@ -2322,7 +4648,38 @@
         "CSE241"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289330&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289330&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "agile",
+          "devops",
+          "git"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.18,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:26.696396+00:00"
+      }
     },
     {
       "code": "ENG300",
@@ -2354,7 +4711,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289335&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289335&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:29.051470+00:00"
+      }
     },
     {
       "code": "MATH215",
@@ -2397,7 +4779,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=389636&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=389636&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:31.292944+00:00"
+      }
     },
     {
       "code": "NonTElec5",
@@ -2416,7 +4824,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:33.557135+00:00"
+      }
     },
     {
       "code": "MÜH250",
@@ -2435,7 +4868,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl122$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl122$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:35.846359+00:00"
+      }
     },
     {
       "code": "ENG314",
@@ -2454,7 +4912,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl463$btnDersKod','')"
+      "source_url": "javascript:__doPostBack('grdBolognaDersler$ctl463$btnDersKod','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:38.679094+00:00"
+      }
     },
     {
       "code": "CSE312",
@@ -2498,7 +4981,34 @@
         "CSE331"
       ],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289286&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289286&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:41.346900+00:00"
+      }
     },
     {
       "code": "CSE344",
@@ -2517,7 +5027,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289289&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289289&lang=tr",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:43.600532+00:00"
+      }
     },
     {
       "code": "CSE351",
@@ -2536,7 +5071,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289290&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289290&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:45.948138+00:00"
+      }
     },
     {
       "code": "CSE355",
@@ -2577,7 +5137,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=392660&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=392660&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming",
+          "ai_ml"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:48.342684+00:00"
+      }
     },
     {
       "code": "CSE396",
@@ -2596,7 +5183,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289331&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289331&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:51.068455+00:00"
+      }
     },
     {
       "code": "MATH118",
@@ -2636,7 +5248,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289288&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=289288&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:53.433152+00:00"
+      }
     },
     {
       "code": "MATH214",
@@ -2655,7 +5293,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=389635&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=389635&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:55.883209+00:00"
+      }
     },
     {
       "code": "ENG394",
@@ -2710,7 +5375,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=306272&lang=tr"
+      "source_url": "https://obs.gtu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=306272&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:24:59.055519+00:00"
+      }
     },
     {
       "code": "MultiElec6",
@@ -2729,7 +5421,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:01.511743+00:00"
+      }
     },
     {
       "code": "TElec6",
@@ -2748,7 +5465,143 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T19:25:04.072784+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 108,
+    "enriched_courses": 108,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T19:25:04.576061+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 16,
+        "total_ects": 93,
+        "required_ects": 64
+      },
+      "programming": {
+        "courses": 7,
+        "total_ects": 48,
+        "required_ects": 48
+      },
+      "systems": {
+        "courses": 10,
+        "total_ects": 54,
+        "required_ects": 51
+      },
+      "ai_ml": {
+        "courses": 2,
+        "total_ects": 14,
+        "required_ects": 14
+      },
+      "data_science": {
+        "courses": 3,
+        "total_ects": 17,
+        "required_ects": 17
+      },
+      "security": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 1,
+        "total_ects": 4,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 10,
+        "total_ects": 64,
+        "required_ects": 64
+      },
+      "graphics_vision": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 1,
+        "total_ects": 6,
+        "required_ects": 6
+      },
+      "theory": {
+        "courses": 12,
+        "total_ects": 69,
+        "required_ects": 59
+      },
+      "info_systems": {
+        "courses": 7,
+        "total_ects": 34,
+        "required_ects": 14
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 0,
+        "total": 2
+      },
+      "data_science": {
+        "required": 3,
+        "elective": 0,
+        "total": 3
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 0,
+        "total": 1
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "security": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "software_eng": {
+        "required": 10,
+        "elective": 0,
+        "total": 10
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 1,
+        "total": 1
+      }
+    },
+    "earliest_technical_elective_semester": 3,
+    "project_heavy_course_count": 8,
+    "total_project_ects": 34,
+    "english_resources_ratio": 0.21
+  }
 }

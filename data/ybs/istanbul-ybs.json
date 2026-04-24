@@ -43,7 +43,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876465&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876465&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:30.695101+00:00"
+      }
     },
     {
       "code": "ODAI0001",
@@ -64,7 +91,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876460&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876460&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.04,
+          "evaluate": 0.01,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:32.853370+00:00"
+      }
     },
     {
       "code": "ODGS0001",
@@ -86,7 +138,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876461&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876461&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:35.002101+00:00"
+      }
     },
     {
       "code": "YBSB1007",
@@ -107,7 +184,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876467&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876467&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:37.151807+00:00"
+      }
     },
     {
       "code": "YBSB1001",
@@ -129,7 +232,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876464&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876464&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:39.505182+00:00"
+      }
     },
     {
       "code": "YBSB1005",
@@ -150,7 +278,35 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876466&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876466&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:41.606582+00:00"
+      }
     },
     {
       "code": "YBSB1009",
@@ -176,7 +332,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876468&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876468&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:44.420363+00:00"
+      }
     },
     {
       "code": "YBSB1011",
@@ -197,7 +379,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876469&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876469&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:46.726151+00:00"
+      }
     },
     {
       "code": "ODTD0001",
@@ -222,7 +429,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876462&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876462&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:48.838277+00:00"
+      }
     },
     {
       "code": "ODYD0001",
@@ -241,7 +473,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:51.077160+00:00"
+      }
     },
     {
       "code": "YBSB1013",
@@ -262,7 +519,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876470&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876470&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:53.228979+00:00"
+      }
     },
     {
       "code": "YBSB1015",
@@ -284,7 +566,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876471&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876471&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:55.563044+00:00"
+      }
     },
     {
       "code": "ODAI0002",
@@ -305,7 +612,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879270&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879270&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.5,
+          "understand": 0.35,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:57.836110+00:00"
+      }
     },
     {
       "code": "YBSB1010",
@@ -326,7 +658,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879255&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879255&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:00.086457+00:00"
+      }
     },
     {
       "code": "YBSB1014",
@@ -350,7 +708,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879268&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879268&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:02.280168+00:00"
+      }
     },
     {
       "code": "YBSB1008",
@@ -372,7 +755,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879254&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879254&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "data_science"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:04.492913+00:00"
+      }
     },
     {
       "code": "ODGS0002",
@@ -401,7 +811,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879249&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879249&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:06.844979+00:00"
+      }
     },
     {
       "code": "YBSB1002",
@@ -422,7 +857,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879251&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879251&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:09.110231+00:00"
+      }
     },
     {
       "code": "YBSB1006",
@@ -443,7 +903,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879253&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879253&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:11.304652+00:00"
+      }
     },
     {
       "code": "YBSB1004",
@@ -464,7 +950,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879252&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879252&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:13.606078+00:00"
+      }
     },
     {
       "code": "ODTD0002",
@@ -486,7 +998,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879250&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879250&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:15.860123+00:00"
+      }
     },
     {
       "code": "ODYD0002",
@@ -508,7 +1045,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879269&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879269&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:18.530495+00:00"
+      }
     },
     {
       "code": "YBSB1016",
@@ -529,7 +1091,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879267&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879267&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.55,
+          "understand": 0.35,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:20.668483+00:00"
+      }
     },
     {
       "code": "YBSB1018",
@@ -551,7 +1138,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879256&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879256&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:22.923608+00:00"
+      }
     },
     {
       "code": "YBSB2013",
@@ -570,7 +1182,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:25.161503+00:00"
+      }
     },
     {
       "code": "YBSB2015",
@@ -591,7 +1229,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876458&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876458&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "docker",
+          "devops",
+          "ci/cd"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:27.534223+00:00"
+      }
     },
     {
       "code": "YBSB2007",
@@ -614,7 +1283,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876454&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876454&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:29.784893+00:00"
+      }
     },
     {
       "code": "YBSB2001",
@@ -635,7 +1329,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876451&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876451&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.4,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:31.935389+00:00"
+      }
     },
     {
       "code": "YBSB2011",
@@ -656,7 +1376,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876456&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876456&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:34.043139+00:00"
+      }
     },
     {
       "code": "YBSB2009",
@@ -679,7 +1425,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876455&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876455&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:36.233563+00:00"
+      }
     },
     {
       "code": "YBSB2003",
@@ -701,7 +1473,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876452&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876452&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:38.592798+00:00"
+      }
     },
     {
       "code": "YBSB2019",
@@ -722,7 +1521,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876472&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876472&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:40.844875+00:00"
+      }
     },
     {
       "code": "YBSB2005",
@@ -744,7 +1569,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876453&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876453&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:43.082466+00:00"
+      }
     },
     {
       "code": "YBSB2017",
@@ -770,7 +1622,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876459&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876459&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:45.453638+00:00"
+      }
     },
     {
       "code": "YBSB2010",
@@ -791,7 +1668,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879245&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879245&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:47.602750+00:00"
+      }
     },
     {
       "code": "YBSB2018",
@@ -814,7 +1718,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879272&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879272&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.0
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:49.813028+00:00"
+      }
     },
     {
       "code": "YBSB2012",
@@ -833,7 +1763,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.4,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:52.620019+00:00"
+      }
     },
     {
       "code": "YBSB2016",
@@ -856,7 +1813,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879248&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879248&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:54.871388+00:00"
+      }
     },
     {
       "code": "YBSB2002",
@@ -877,7 +1861,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879242&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879242&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:57.433651+00:00"
+      }
     },
     {
       "code": "YBSB2006",
@@ -901,7 +1910,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879243&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879243&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:49:59.685440+00:00"
+      }
     },
     {
       "code": "YBSB2020",
@@ -920,7 +1955,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:01.834055+00:00"
+      }
     },
     {
       "code": "YBSB2014",
@@ -939,7 +1999,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:04.192452+00:00"
+      }
     },
     {
       "code": "YBSB2004",
@@ -960,7 +2046,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879273&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879273&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:06.518895+00:00"
+      }
     },
     {
       "code": "YBSB2008",
@@ -986,7 +2099,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879244&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879244&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:08.799177+00:00"
+      }
     },
     {
       "code": "YBSB3005",
@@ -1007,7 +2147,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876475&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876475&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:11.020140+00:00"
+      }
     },
     {
       "code": "YBSB3009",
@@ -1028,7 +2194,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876477&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876477&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:13.510480+00:00"
+      }
     },
     {
       "code": "YBSB3011",
@@ -1047,7 +2240,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:15.675991+00:00"
+      }
     },
     {
       "code": "YBSB3007",
@@ -1068,7 +2286,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876476&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876476&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:18.013920+00:00"
+      }
     },
     {
       "code": "YBSB3013",
@@ -1087,7 +2332,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:20.369342+00:00"
+      }
     },
     {
       "code": "YBSB3015",
@@ -1106,7 +2377,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876480&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876480&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:22.621652+00:00"
+      }
     },
     {
       "code": "YBSB3003",
@@ -1139,7 +2437,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876474&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876474&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:24.876854+00:00"
+      }
     },
     {
       "code": "YBSB3017",
@@ -1160,7 +2485,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876481&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876481&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "julia"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:27.026761+00:00"
+      }
     },
     {
       "code": "YBSB3019",
@@ -1179,7 +2533,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:29.094935+00:00"
+      }
     },
     {
       "code": "YBSB3001",
@@ -1202,7 +2581,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876473&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876473&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:31.225575+00:00"
+      }
     },
     {
       "code": "YBSB3004",
@@ -1229,7 +2635,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879258&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879258&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:33.374714+00:00"
+      }
     },
     {
       "code": "YBSB3012",
@@ -1248,7 +2681,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:35.547825+00:00"
+      }
     },
     {
       "code": "YBSB3014",
@@ -1269,7 +2728,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879261&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879261&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "programming"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.23,
+          "apply": 0.35,
+          "analyze": 0.18,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:37.693668+00:00"
+      }
     },
     {
       "code": "YBSB3016",
@@ -1288,7 +2776,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:39.927202+00:00"
+      }
     },
     {
       "code": "YBSB3018",
@@ -1311,7 +2825,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879263&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879263&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "math",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:42.086793+00:00"
+      }
     },
     {
       "code": "YBSB3020",
@@ -1330,7 +2871,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:44.228429+00:00"
+      }
     },
     {
       "code": "YBSB3006",
@@ -1349,7 +2915,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:46.482331+00:00"
+      }
     },
     {
       "code": "YBSB3008",
@@ -1368,7 +2959,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:48.631823+00:00"
+      }
     },
     {
       "code": "YBSB3002",
@@ -1391,7 +3008,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879257&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=879257&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.5,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:50.986097+00:00"
+      }
     },
     {
       "code": "YBSB3010",
@@ -1410,7 +3054,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:53.210719+00:00"
+      }
     },
     {
       "code": "YBSB4009",
@@ -1436,7 +3105,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876487&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876487&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:55.283943+00:00"
+      }
     },
     {
       "code": "FOYD0003",
@@ -1455,7 +3151,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:50:57.568268+00:00"
+      }
     },
     {
       "code": "ODED0003",
@@ -1474,7 +3195,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.2,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:00.409396+00:00"
+      }
     },
     {
       "code": "YBSB4011",
@@ -1493,7 +3239,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:02.532692+00:00"
+      }
     },
     {
       "code": "YBSB4001",
@@ -1512,7 +3283,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:04.709613+00:00"
+      }
     },
     {
       "code": "YBSB4007",
@@ -1536,7 +3332,42 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876486&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)"
+      "source_url": "https://ebs.istanbul.edu.tr/home/izlence/?id=876486&bid=21591&birim=yonetim_bilisim_sistemleri_(ingilizce)__lisans_programi__(orgun_ogretim)",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "cnn",
+          "rnn",
+          "gan",
+          "vae",
+          "transformer",
+          "tensorflow",
+          "pytorch"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:07.063678+00:00"
+      }
     },
     {
       "code": "FOYD0007",
@@ -1555,7 +3386,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:09.150466+00:00"
+      }
     },
     {
       "code": "YBSB4005",
@@ -1574,7 +3430,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.15,
+          "create": 0.4
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:11.892253+00:00"
+      }
     },
     {
       "code": "YBSB4015",
@@ -1593,7 +3475,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.6,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:14.233017+00:00"
+      }
     },
     {
       "code": "YBSB4013",
@@ -1612,7 +3519,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:16.510211+00:00"
+      }
     },
     {
       "code": "FOYD0013",
@@ -1631,7 +3565,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:18.736572+00:00"
+      }
     },
     {
       "code": "YBSB4003",
@@ -1650,7 +3609,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:21.398781+00:00"
+      }
     },
     {
       "code": "FOYD0004",
@@ -1669,7 +3653,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:24.088674+00:00"
+      }
     },
     {
       "code": "YBSB4012",
@@ -1688,7 +3697,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:26.316832+00:00"
+      }
     },
     {
       "code": "YBSB4008",
@@ -1707,7 +3741,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:28.482210+00:00"
+      }
     },
     {
       "code": "YBSB4004",
@@ -1726,7 +3786,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:30.695526+00:00"
+      }
     },
     {
       "code": "FOYD0008",
@@ -1745,7 +3831,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:32.775517+00:00"
+      }
     },
     {
       "code": "YBSB4006",
@@ -1764,7 +3875,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.15,
+          "create": 0.4
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:34.813424+00:00"
+      }
     },
     {
       "code": "YBSB4002",
@@ -1783,7 +3920,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:36.963457+00:00"
+      }
     },
     {
       "code": "FOYD0014",
@@ -1802,7 +3965,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.2,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:39.216193+00:00"
+      }
     },
     {
       "code": "YBSB4016",
@@ -1821,7 +4009,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.4,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:41.664575+00:00"
+      }
     },
     {
       "code": "YBSB4010",
@@ -1840,7 +4055,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "graphics_vision"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:43.824522+00:00"
+      }
     },
     {
       "code": "YBSB4014",
@@ -1859,7 +4101,145 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:51:46.179747+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 87,
+    "enriched_courses": 87,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:51:46.685931+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 11,
+        "total_ects": 47,
+        "required_ects": 31
+      },
+      "programming": {
+        "courses": 15,
+        "total_ects": 69,
+        "required_ects": 33
+      },
+      "systems": {
+        "courses": 7,
+        "total_ects": 32,
+        "required_ects": 14
+      },
+      "ai_ml": {
+        "courses": 5,
+        "total_ects": 22,
+        "required_ects": 8
+      },
+      "data_science": {
+        "courses": 11,
+        "total_ects": 48,
+        "required_ects": 30
+      },
+      "security": {
+        "courses": 4,
+        "total_ects": 16,
+        "required_ects": 4
+      },
+      "web_mobile": {
+        "courses": 5,
+        "total_ects": 23,
+        "required_ects": 14
+      },
+      "software_eng": {
+        "courses": 18,
+        "total_ects": 103,
+        "required_ects": 73
+      },
+      "graphics_vision": {
+        "courses": 1,
+        "total_ects": 5,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 2,
+        "total_ects": 9,
+        "required_ects": 0
+      },
+      "theory": {
+        "courses": 7,
+        "total_ects": 28,
+        "required_ects": 12
+      },
+      "info_systems": {
+        "courses": 34,
+        "total_ects": 167,
+        "required_ects": 88
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 3,
+        "total": 5
+      },
+      "data_science": {
+        "required": 7,
+        "elective": 4,
+        "total": 11
+      },
+      "distributed": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 1,
+        "total": 1
+      },
+      "security": {
+        "required": 1,
+        "elective": 3,
+        "total": 4
+      },
+      "software_eng": {
+        "required": 11,
+        "elective": 7,
+        "total": 18
+      },
+      "web_mobile": {
+        "required": 3,
+        "elective": 2,
+        "total": 5
+      }
+    },
+    "earliest_technical_elective_semester": 3,
+    "project_heavy_course_count": 10,
+    "total_project_ects": 66,
+    "english_resources_ratio": 0.36
+  }
 }
