@@ -1,0 +1,2352 @@
+{
+  "university_name": "İstanbul Üniversitesi",
+  "department": "Bilgisayar Mühendisliği",
+  "faculty": "Mühendislik Fakültesi",
+  "language": "Türkçe",
+  "type": "devlet",
+  "department_url": "https://bilgisayarmuhendislik.iuc.edu.tr/tr/_",
+  "program_outcomes": [
+    "Matematik, fen bilimleri ve bilgisayar mühendisliğine özgü konularda yeterli bilgi birikimi; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinin modellenmesi ve çözümünde kullanabilme becerisi.",
+    "Karmaşık problemleri bilgisayar mühendisliği yöntemleriyle tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz ve modelleme tekniğini seçme ve uygulama becerisi.",
+    "Yazılım ve/veya donanım tabanlı karmaşık bir sistemi, süreci veya teknolojik cihazı gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama yeteneği.",
+    "Bilgisayar mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirme, seçme ve kullanma becerisi; bilişim teknolojilerini etkin bir şekilde kullanma becerisi.",
+    "Karmaşık bilgisayar mühendisliği problemlerinin veya disipline özgü araştırma konularının incelenmesi için modelleme, çözüm algoritmaları üretme, deney tasarlama ve yapma, veri toplama, sonuçları analiz etme ve yorumlama becerisi.",
+    "Disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi, bireysel çalışma becerisi.",
+    "Türkçe sözlü ve yazılı etkin iletişim kurma becerisi; en az bir yabancı dil bilgisi; etkin rapor yazma ve yazılı raporları anlama, yazılım ve donanım alanlarında tasarım ve üretim raporları hazırlayabilme, etkin sunum yapabilme, açık ve anlaşılır talimat verme ve alma becerisi.",
+    "Yaşam boyu öğrenmenin gerekliliği konusunda farkındalık; bilgiye erişebilme ve çeşitli veri tabanları üzerinden kaynak araştırması yapabilme, bilim ve teknolojideki gelişmeleri izleme ve kendini sürekli yenileme becerisi.",
+    "Mesleki etik ilkelerine uygun davranma, mesleki sorumluluk bilinci; mühendislik uygulamalarında kullanılan standartlar, bilişim hukuku ve bilişim etiği konularında bilgi ve farkındalık.",
+    "Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.",
+    "Bilgisayar mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi."
+  ],
+  "academic_staff": {
+    "professor": 6,
+    "associate_professor": 6,
+    "assistant_professor": 7,
+    "lecturer": 1,
+    "research_assistant": 10,
+    "total": 30
+  },
+  "courses": [
+    {
+      "code": "ODAI0001",
+      "name": "ATATÜRK İLKELERİ VE İNKILAP TARİHİ I",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Dersin öncelikli amacı Osmanlı Devletinin klasik döneminin bitişinden Türkiye Cumhuriyetinin kuruluşuna ve günümüze kadar olan dört asırlık süreçte Türk milletinin daima çağdaşlaşma çabası içinde olduğunu göstermektir. Dünya değişirken Türk devleti ve milleti de çağı yakalamak, idaresi altında yaşayan insanlara refah ve mutluluk getirmeyi amaçlamıştır. Dersimiz bu çabayı belgelere ve ilmi değerlendirmelere dayanarak izah etmektedir.",
+      "description": "Osmanlı Devleti'nin çöküş süreci ve modernleşme çabaları. Birinci Dünya Savaşı süreci, Ermeni Meselesinin ortaya çıkışı, Mondros Mütarekesi ve sonrasında yaşanan gelişmeler. Mustafa Kemal Paşa'nın Anadolu'ya geçişi ve Milli Mücadele süreci. TBMM'nin faaliyetleri, Lozan Antlaşması ve Türkiye Cumhuriyetinin ilanı.",
+      "learning_outcomes": [
+        "Avrupa'da yaşanan devrimler ile Osmanlı modernleşme çabalarını karşılaştırmalı olarak analiz edebilmek, Birinci Dünya Savaşı'nın cepheleri ve Ermeni Meselesi hakkında bilgi sahibi olmak, Milli Mücadele sürecindeki gelişmeleri kavramak, Sevr ve Lozan'ı mukayese etmek, Cumhuriyetin ilanının hangi şartlarda yapıldığını analiz etmek."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Atatürk İlkeleri ve İnkılap Tarihi I Ders Kitabı"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=T0WN6k1hwGU%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1058",
+      "name": "BİLGİSAYAR MÜHENDİSLİĞİNE GİRİŞ",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Dersin amacı, öğrenciye bilgisayar mühendisliği çalışma alanları hakkında genel bilgi vermek, ileride alacağı derslere basit bir giriş yaparak bu alan derslerini tanıtmaktır.",
+      "description": "Bilgisayarın tarihçesi, genel yapısı, bilgisayar mühendisliği kavramı, kapsadığı alanlar, matematiksel temeller, bilgi işleme ve veri madenciliği kavramları, sayı sistemleri, merkezi işlem ünitesi ve ana bellek, yardımcı bellek, giriş ve çıkış üniteleri, boole cebri, mikroişlemciler, algoritma analizi, yazılım mühendisliği, bilgisayar ağları ve internet, veri yapıları ve modelleri, sistem modelleme ve simulasyon, işletim sistemleri.",
+      "learning_outcomes": [
+        "Bilgisayar Mühendisliği ile ilgili temel kavramları öğrenir",
+        "Sayı sistemleri, bilgisayar lojiği ve mikroişlemciler konularını giriş seviyesinde öğrenir",
+        "Kodlama konusunda temel bilgi, işletim sistemleri,programlama dilleri hakkında temel kavramları öğrenir.",
+        "Üst sınıflarda göreceği tüm ana dersler ile ilgili giriş kavramları hakkında fikir sahibi olur"
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Schaum's Outline of Introduction to Computer Science, Pauline Cushman, Ramon Mata-Toledo",
+        "Computer Science: An Overview 10th Edition, J. Glenn Brookshear, Addison-Wesley, 2009",
+        "Invitation to Computer Science, by G. Schneider and J. Gersting, West",
+        "Bilgisayar Mühendisliğine Giriş, Dr. Fırat Çölkesen (Papatya Yayıncılık)",
+        "Bilgisayar Bilimi ve Mühendisliğine Giriş, Prof. Dr. Mithat Uysal(Beta Yayıncılık)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=dUBE5%2b5%2bevQ%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1051",
+      "name": "CALCULUS I",
+      "ects": 6,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Öğrencilere Bilgisayar Mühendisliği ile ilgili konularda yeterli matematik altyapısına sahip olma; bu alanlardaki kuramsal ve uygulamalı bilgileri analitik yöntemler ile mühendislik çözümleri için beraber kullanabilme becerisi kazandırmaktır.",
+      "description": "Temel bilgiler, limit ve süreklilik, türev ve türev alma kuralları, türev uygulamaları, integral ve integral uygulamaları.",
+      "learning_outcomes": [
+        "Türev ve integral uygulamalarının altyapısına hakim olunması.",
+        "Calculus 2 dersine temel oluşturacak bilgilere sahip olunması."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Temel bilgiler",
+        "Hafta 2: Limit & Süreklilik",
+        "Hafta 3: Türev ve Türev alma kuralları",
+        "Hafta 4: Türev Uygulamaları",
+        "Hafta 5: İntegral",
+        "Hafta 6: İntegral Uygulamaları"
+      ],
+      "resources": [
+        "Thomas Calculus"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=nxjq4RZsBQc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1017",
+      "name": "DISCRETE MATHEMATICS",
+      "ects": 5,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bilgisayar mühendisliği alanında kullanılan matematik konuları hakkında ön bilgi vermek.",
+      "description": "Temel kavramlar, lojik, kümeler; Boole cebri, boole fonksiyonları, lojik kapılar; Fonksiyonlar, algoritmalar; Bağıntılar, özellikleri, bağıntıların temsili; Tamsayılar, matrisler; İspat yöntemleri, tümevarım, rekürsif algoritmalar; Sayma prensipleri, permütasyon, kombinasyon, olasılık; İleri sayma teknikleri, yinelemeli fonksiyonlar (homojen olan ve olmayan); Yinelemeli fonksiyonlar (devam), çözüm yöntemleri; Graf teorisi, genel graf kavramları, izomorfizm; Problemler (en kısa yol, Euler, Hamilton yol problemleri, gezgin satıcı problemleri, dört renk problemi); Ağaçlar, genel kavramlar, sıralama ağaçları; Modelleme, sonlu durum makineleri, Turing makinesi.",
+      "learning_outcomes": [
+        "Mantık, matris, vektör, kümeler, permütasyon gibi çeşitli kavramları öğrenir.",
+        "Problemlerin matematiksel olarak nasıl modelleneceğini anlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Kenneth Rosen, Discrete Mathematics and Its Applications, Fifth Ed., McGraw-Hill, 2003",
+        "Ders Notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=xaZTzr4WGQo%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1900",
+      "name": "Fizik I",
+      "ects": 6,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Öğrencilere temel fizik kavram ve prensiplerini kavrama, mühendislik çalışmalarında temel fizik problemlerini matematiksel teknik ve analizlerle çözebilme becerileri kazandırmaktır.",
+      "description": "Fizik ve ölçme, vektörler, bir ve iki boyutu hareketler, hareket kanunları, çembersel hareket ve dinamik yasalarının uygulamaları, iş ve enerji, enerjinin korunumu, lineer momentum ve çarpışma, dönme hareketi, açısal momentum, denge, evrensel gravitasyon.",
+      "learning_outcomes": [
+        "Öğrenci ölçme yapar, verileri analiz eder, sonuçları rapor halinde sunar",
+        "Sabit ivmeli hareket, Newton’un hareket yasaları, momentum ve enerji, dönme ve yuvarlanma hareketleri, statik denge, salınım hareketi, evrensel çekim yasası kavramları tanımlar ve bu konuları içeren problemleri veya durumları analiz etmede uygun yöntemleri kullanabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Fen Bilimcileri & Mühendisler İçin Fizik – Douglas C. Giancoli",
+        "Fen ve Mühendislik İçin Fizik – Raymond A. Serway & Robert A. Beichner",
+        "Üniversite Fiziği – Sears & Zemansky"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=AIXuXh3WfnQ%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "ODGS0001",
+      "name": "GÜZEL SANATLAR I",
+      "ects": 1,
+      "semester": 1,
+      "year": 1,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 0,
+      "purpose": "Bu ders, öğrencilerin sanat ve güzel sanatları kavrayarak sanat ve sanat tarihi hakkında genel bilgiler edinmelerini amaçlar. Ayrıca estetik beğerileri gelişmiş, duyarlı ve toplumsal gerçekliklerin farkında olan bireyler yetiştirmeyi hedefler.",
+      "description": "Sanatın tarihsel gelişimi, sanat kavramı ile güzel sanatlar kavramı, güzel sanat dalları ve geleneksel sanatlarımızın bazı dalları ele alınmaktadır. Ders kapsamında sanat tarihinin başlıca dönemleri ve temel sanat anlayışları aktarılmaktadır.",
+      "learning_outcomes": [
+        "Bu derste kültürel tarih, sanatsal değerler ve kültürel mirasın tüm yönleri kavranır, öğrenciler farklı görüşlere hoşgörü göstermeyi düşünür. Temel sanat kuramlarını anlatabilir ve sanat eserlerini sınıflayan genel anlayışları aktarabilir.",
+        "Sanat ve zanaat kavramları arasındaki farklılıkları öğrenerek, konu hakkında yorum geliştirme kabiliyetine hakim olur, geçmişten günümüze sanat anlayışları hakkında bilgi sahibi olur. İnsanın oluşturduğu sanatsal değerleri kültürel geçmişleriyle bir bütün olarak tüm boyutlarıyla kavrar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "E. H. Gombrich, Sanatın Öyküsü, (Çev. B. Cömert), İstanbul 1980.",
+        "S. Mülayim, Sanat Tarihi Metodu, İstanbul 1983.",
+        "Oktay Aslanapa, Anadolu’da İlk Türk Mimarisi, Başlangıcı ve Gelişmesi, Ankara 1991.",
+        "Z. Ahunbay, Tarihi Çevre Koruma ve Restorasyon, İstanbul 1999.",
+        "C. Erder, Tarihi Çevre Bilinci, Ankara 1975.",
+        "Y. Çoruhlu, Türk İslam sanatının ABC’si, İstanbul 2000.",
+        "E. Diez, O. Aslanapa, Türk Sanatı, İstanbul 1955.",
+        "O. Aslanapa, Yüzyıllar Boyunca Türk Sanatı, Ankara 1977.",
+        "C. E. Arseven, Türk Sanatı, İstanbul 1984.",
+        "S. K. Yetkin, İslam Ülkelerinde Sanat, İstanbul 1984.",
+        "Z. Sönmez, Sanatçılar, 1995.",
+        "M. Cezar, Anadolu Öncesi Türklerde Şehir ve Mimarlık, İst. 1977.",
+        "D. Kuban, Anadolu-Türk Mimarisinin Kaynak ve Sorunları, İst. 1965.",
+        "S. Mülayim, Anadolu-Türk Mimarisinde Geometrik Süslemeler, Ankara 1982.",
+        "B. Ögel, Anadolu Selçuklularının Taş Tezyinatı, Ankara 1987.",
+        "T.C. Anadolu Üniversitesi Yayını No: 3646 Açıköğretim Fakültesi Yayını No: 2474 Güzel Sanatlar"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=QVQivjqEyLo%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1052",
+      "name": "INTRODUCTION TO ALGORITHMS",
+      "ects": 6,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Algoritma, program ve programlama kavramlarının öğrenciye kavratılması ve C++ dilinde temel kod yazma becerisinin kazandırılması amaçlanmaktadır. Öğrencilerin bir probleme yönelik çözüm yolu üretebilmesi ve bu çözümü C++ programlama dili ile uygulayabilmesi hedeflenmektedir.",
+      "description": "Algoritma kavramı, iş akış şemaları, programlamanın temel kavramları ve C++'a giriş konuları işlenmektedir. Veri ve nesne türleri, bildirim ve tanımlama, sabitler, fonksiyonlar, operatörler, if deyimi, tür dönüşümleri, döngüler, switch deyimi, koşul operatörü, diziler ve stringler ele alınmaktadır.",
+      "learning_outcomes": [
+        "Algoritma, program ve programlama temel kavramlarını öğrenir.",
+        "Bir problem çözüm yolu oluşturur.",
+        "C++ programlama dilini kullanarak algoritma tasarlayabilir.",
+        "Temel seviyede C++ programları yazabilir.",
+        "Veri ve nesne türlerini tanır, farklı türlerle işlem yapabilir.",
+        "Döngüler ve koşullu ifadeleri kullanarak algoritma geliştirebilir, problem çözebilir.",
+        "Hazır kütüphane fonksiyonlarını kullanmayı öğrenir, kendi fonksiyonlarını tanımlayabilir.",
+        "Dizilerle işlem yapabilir.",
+        "Stringler ile işlem yapabilir.",
+        "Nesneye yönelik programlama ile ilgili temel kavramları öğrenir. Nesnelerin faaliyet alanları ve ömürleri ile ilgili bilgi edinir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Behrouz A. Forouzan, Richard Gilberg - C++ Programming: An Object-Oriented Approach - McGraw-Hill Education (2019)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=0LGVyUMu30Y%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "ODTD0001",
+      "name": "TÜRK DİLİ I",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Dilin iletişimdeki önemini kavramak, Türkçeyi anlamsal ve biçimsel olarak doğru kullanabilmek.",
+      "description": "Dil, iletişim, kültür ve toplum ilişkisi, dil türleri, Türkçenin dünya dilleri arasındaki yeri ve tarihsel gelişimi, Türkçede ses olayları, sözcük bilgisi (sözcük türleri, yapım ve çekim ekleri, kökler), tümcenin öğeleri ve tümce türleri, sözcüklerde anlam olayları, yazım kuralları ve noktalama imleri.",
+      "learning_outcomes": [
+        "Öğrenciler dilin bir ulusun yaşamındaki önemini kavrarlar.",
+        "Dil-kültür ilişkileri sorgulayıp kavrarlar.",
+        "Türkçenin dünya dilleri arasındaki yeri fark ederler.",
+        "Türkçe dilbilgisini kavrarlar.",
+        "Türkçeyi doğru bir şekilde kullanabilirler.",
+        "Yazım kurallarını ve noktalama imlerini doğru kullanırlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Üniversiteler İçin Türk Dili- Muharrem ERGİN, Boğaziçi Yayınları.",
+        "Yükseköğretimde Türk Dili – Yazılı ve Sözlü Anlatım – Mustafa ÖZKAN, Filiz Kitabevi",
+        "Uygulamalı Türk Dili (2 Cilt) – Yusuf ÇOTUKSÖKEN, Papatya Yayıncılık.",
+        "Dil-Kültür Bağlantısı – Bedia AKARSU, İnkılap Kitapevi",
+        "Anlamdan Anlatıma Türkçemiz – Muhittin BİLGİN, Anı Yayıncılık.",
+        "Türkçede Söz Dizimi - Leyla KARAHAN, Akçağ Yayınları.",
+        "Türk Dili - Hülya PİLANCI, Anadolu Üniversitesi Yayını,.",
+        "Yazılı ve Sözlü Anlatım – Cahit KAVCAR, Ferhan OĞUZKAN, Özlem AKSOY, Anı Yayıncılık."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=mEDJiFiYvos%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "YUAI0001",
+      "name": "Yabancı Öğrenciler İçin Atatürk İlkeleri ve İnkılap Tarihi I",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, Osmanlı Devleti'nin klasik döneminin bitişinden Türkiye Cumhuriyeti'nin kuruluşuna ve günümüze kadar uzanan süreçte Türk milletinin çağdaşlaşma çabalarını göstermektir. Dünya değişirken Türk devletinin ve milletinin bu değişime nasıl uyum sağlamaya çalıştığı, belgeler ve bilimsel değerlendirmelerle açıklanır.",
+      "description": "Osmanlı Devleti'nin çöküş süreci ve modernleşme çabaları; Birinci Dünya Savaşı süreci, Ermeni Meselesinin ortaya çıkışı, Mondros Mütarekesi ve sonrasında yaşanan gelişmeler; Mustafa Kemal Paşa'nın Anadolu'ya geçişi ve Milli Mücadele süreci; TBMM'nin faaliyetleri, Lozan Antlaşması ve Türkiye Cumhuriyeti'nin ilanı.",
+      "learning_outcomes": [
+        "Avrupa'da yaşanan devrimler ile Osmanlı modernleşme çabalarını karşılaştırmalı olarak analiz edebilmek.",
+        "Birinci Dünya Savaşı'nın cepheleri ve Ermeni Meselesi hakkında bilgi sahibi olmak.",
+        "Milli Mücadele sürecindeki gelişmeleri kavramak.",
+        "Sevr ve Lozan'ı mukayese etmek.",
+        "Cumhuriyetin ilanının hangi şartlarda yapıldığını analiz etmek."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Atatürk İlkeleri ve İnkılap Tarihi I Ders Kitabı, Editör: Prof. Dr. Cezmi Erarslan"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=OeSGeKCVg4Q%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "YUTD0001",
+      "name": "Yabancı Öğrenciler İçin Türk Dili I",
+      "ects": 2,
+      "semester": 1,
+      "year": 1,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Dilin iletişimdeki önemini kavramak, Türkçeyi anlamsal ve biçimsel olarak doğru kullanabilmek.",
+      "description": "Dil, iletişim, kültür ve toplum ilişkisi, dil türleri, Türkçenin dünya dilleri arasındaki yeri ve tarihsel gelişimi, Türkçede ses olayları, sözcük bilgisi (sözcük türleri, yapım ve çekim ekleri, kökler), tümcenin öğeleri ve tümce türleri, sözcüklerde anlam olayları, yazım kuralları ve noktalama imleri.",
+      "learning_outcomes": [
+        "Öğrenciler dilin bir ulusun yaşamındaki önemini kavrarlar.",
+        "Dil-kültür ilişkileri sorgulayıp kavrarlar.",
+        "Türkçenin dünya dilleri arasındaki yeri fark ederler.",
+        "Türkçe dilbilgisini kavrarlar.",
+        "Türkçeyi doğru bir şekilde kullanabilirler.",
+        "Yazım kurallarını ve noktalama imlerini doğru kullanırlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Üniversiteler İçin Türk Dili- Muharrem ERGİN, Boğaziçi Yayınları.",
+        "Yükseköğretimde Türk Dili – Yazılı ve Sözlü Anlatım – Mustafa ÖZKAN, Filiz Kitabevi",
+        "Uygulamalı Türk Dili (2 Cilt) – Yusuf ÇOTUKSÖKEN, Papatya Yayıncılık.",
+        "Dil-Kültür Bağlantısı – Bedia AKARSU, İnkılap Kitapevi",
+        "Anlamdan Anlatıma Türkçemiz – Muhittin BİLGİN, Anı Yayıncılık.",
+        "Türkçede Söz Dizimi - Leyla KARAHAN, Akçağ Yayınları.",
+        "Türk Dili - Hülya PİLANCI, Anadolu Üniversitesi Yayını,.",
+        "Yazılı ve Sözlü Anlatım – Cahit KAVCAR, Ferhan OĞUZKAN, Özlem AKSOY, Anı Yayıncılık."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=PRg3Gg7CfeI%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "ODAI0002",
+      "name": "ATATÜRK İLKELERİ VE İNKILAP TARİHİ II",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Dersin öncelikli amacı Osmanlı Devletinin klasik döneminin bitişinden Türkiye Cumhuriyetinin kuruluşuna ve günümüze kadar olan dört asırlık süreçte Türk milletinin daima çağdaşlaşma çabası içinde olduğunu göstermektir. Dünya değişirken Türk devleti ve milleti de çağı yakalamak, idaresi altında yaşayan insanlara refah ve mutluluk getirmeyi amaçlamıştır. Dersimiz bu çabayı belgelere ve ilmi değerlendirmelere dayanarak izah etmektedir.",
+      "description": "Osmanlı Devleti'nin çöküş süreci ve modernleşme çabaları. Birinci Dünya Savaşı süreci, Ermeni Meselesinin ortaya çıkışı, Mondros Mütarekesi ve sonrasında yaşanan gelişmeler. Mustafa Kemal Paşa'nın Anadolu'ya geçişi ve Milli Mücadele süreci. TBMM'nin faaliyetleri, Lozan Antlaşması ve Türkiye Cumhuriyetinin ilanı.",
+      "learning_outcomes": [
+        "Türkiye Cumhuriyetinin kuruluş yıllarında yaşadığı problemleri, sağlanan gelişmeleri ve yapılanma problemlerini doğru bir şekilde kavrar.",
+        "Atatürk ilkelerinin oluşum süreci ve özelliklerini analiz eder.",
+        "İkinci Dünya Savaşı'na kadar olan iç ve dış politik gelişmeleri kavrar.",
+        "Sosyal ve kültürel politikaları etkileyen şartları mukayese eder.",
+        "İkinci Dünya Savaşı'nın sonuçlarının Türkiye'ye etkilerini kavrar.",
+        "Son dönemin sosyal ve kültürel gelişmelerini analiz eder."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Atatürk İlkeleri ve İnkılap Tarihi I Ders Kitabı"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=ya02LCqvdTw%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1057",
+      "name": "BİLİŞİM ETİĞİ VE HUKUKU",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Ders günümüzde oldukça popüler konu olan bilişim etiği ve hukuku konusunda öğrencilerin bilgi sahibi ve farkındalık sahibi olmasını amaçlar. Bilişim suçu kavramını öğretmeyi, öğrencilerin bilişimi donanım ve yazılım olarak kullanırken dikkat etmeleri gereken hususları öğretmeyi amaçlar.",
+      "description": "Etik kavramı, etik kavramının tarihçesi, meslekî etik, bilişim etiği, elektronik haberleşme etiği, internet etiği, intihal kavramı, hukuk kavramı, meslekî hukuk kavramı, bilişim hukuku kavramı, bilgi güvenliği, adlî bilişim, bilişim suçları ve yasalar",
+      "learning_outcomes": [
+        "Bilişim etiği ve hukuku kavramlarını ve aralarındaki farkları öğrenir.",
+        "Bilişim suçları hakkında bilgi edinir.",
+        "Günümüzde bilişim konusunda oluşabilecek problemleri ve bunların çözüm yollarını inceler.",
+        "Yayın etiği ve intihal konusunu ele alır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Prof. Dr. B. Zakir AVŞAR, Prof. Dr. Gürsel ÖNGÖREN, Bilişim Hukuku, Türkiye Bankalar Birliği Yayın No : 270, İstanbul 2010",
+        "Anayasa",
+        "Internet"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=GWfxEK3p4b4%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1054",
+      "name": "CALCULUS II",
+      "ects": 6,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilere Bilgisayar Mühendisliği ile ilgili konularda yeterli matematik altyapısına sahip olma; bu alanlardaki kuramsal ve uygulamalı bilgileri analitik yöntemler ile mühendislik çözümleri için beraber kullanabilme becerisi kazandırmaktır.",
+      "description": "Genelleştirilmiş integraller, sonsuz diziler ve seriler, kuvvet serileri, Taylor ve Maclaurin serileri, çok değişkenli fonksiyonlar, iki katlı integraller ve uygulamaları.",
+      "learning_outcomes": [
+        "Çok değişkenli fonksiyonların ve katlı integralin öğrenilmesi",
+        "Differential Equations dersine temel oluşturulması"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Genelleştirilmiş integraller",
+        "Hafta 2: Sonsuz diziler ve seriler",
+        "Hafta 3: Kuvvet serileri, Taylor ve Maclaurin serileri",
+        "Hafta 4: Çok değişkenli fonksiyonlar",
+        "Hafta 5: İki katlı integraller ve uygulamaları"
+      ],
+      "resources": [
+        "Thomas Calculus"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=yLDHA5VEXR4%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1901",
+      "name": "FİZİK II",
+      "ects": 6,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Öğrencilere temel fizik kavram ve prensiplerini kavrama, mühendislik çalışmalarında temel fizik problemlerini matematiksel teknik ve analizlerle çözebilme becerileri kazandırmaktır.",
+      "description": "Elektromanyetik kavramların temel prensip ve kuramları: Elektrik yükü ve Coulomb yasası, Elektrik alanı, Gauss yasası, Elektrik potansiyeli, Dielektrik ve Sığalar; DC Elektrik devreleri; Manyetik alan, Manyetik alan kaynakları; Ampere yasası, Faraday yasası; Maddenin manyetik özelikleri; AC devreleri; Maxwell denklemlerinin sunumu, Elektromanyetik dalga kavramı.",
+      "learning_outcomes": [
+        "Elektrik ve Manyetizma Kavramları İle Bunun Temelini Oluşturan Yasaları Öğrenir, Uygun matematiksel teknik ve kavramları kullanarak bu yasaları yorumlar.",
+        "Deneysel çalışmalar ile temel fizik problemlerini günlük hayatla ilişkisini somutlaştırır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Fen Bilimcileri & Mühendisler İçin Fizik – Douglas C. GIANCOLI",
+        "Fen ve Mühendislik İçin Fizik – Raymond A. SERWAY & Robert J. BEICHNER",
+        "Üniversite Fiziği – Sears & Zemansky"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=P52nsWYWJp0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "ODGS0002",
+      "name": "GÜZEL SANATLAR II",
+      "ects": 1,
+      "semester": 2,
+      "year": 1,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 0,
+      "purpose": "Bu ders, öğrencilerin sanat ile beraber güzel sanatlar ve dallarını kavrayarak, sanat ve sanat tarihi hakkında genel bilgiler edinmelerini, estetik beğenileri gelişmiş, duyarlılıkları olan toplumsal gerçekliklerin farkında olan bireyler yetiştirmeyi amaçlar.",
+      "description": "Sanatın binlerce yıl öncesinden günümüze değin uzanan sanat tarihinin belli başlı dönemleri, sanat kavramı ile birlikte güzel sanatlar kavramı, güzel sanat dalları ve geleneksel sanatlarımızın bazı dalları bir arada aktarılmaktadır.",
+      "learning_outcomes": [
+        "Güzel Sanatlar II dersi, öğrencilere Geleneksel Türk Sanatları başta olmak üzere çeşitli sanat disiplinleri hakkında derinlemesine bilgi sağlamayı amaçlar. Bu ders kapsamında, öğrenciler Kitap Sanatı, Hat, Tezhip, Minyatür, Ebru, Cilt, Çini, Halı ve Kilim, Seramik ve Maden Sanatları gibi alanların temel özelliklerini, tekniklerini ve tarihçesini öğrenirler. Aynı zamanda, Osmanlı Sanatının Erken, Klasik ve Geç Dönemlerini ayırt edebilme ve bu dönemlerin sanatsal özelliklerini anlama becerisi kazanırlar. Ders, ayrıca öğrencilere estetik ve tasarım ilkelerini kavratırken, sanat eserlerinin analizinde bu ilkeleri uygulama yeteneği de verir.",
+        "Öğrenciler, Maniyerizm, Barok ve Çağdaş Sanat gibi akımlar üzerinden çağdaş sanat kavramlarını ve yöntemlerini öğrenirler. Bu çerçevede, dersin öğrenme çıktıları arasında sanatsal eleştiri ve yorumlama yeteneği, yaratıcı düşünme ve ifade becerileri de bulunmaktadır. Öğrenciler, sanatın farklı formlarını kullanarak kendi yaratıcı projelerini planlayıp uygulayabilir hale gelirler. Böylece, ders, öğrencilere hem tarihsel ve kültürel bir perspektif sunar hem de eleştirel düşünme, estetik değerlendirme ve yaratıcı ifade gibi becerilerini geliştirmelerine yardımcı olur."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "E. H. Gombrich, Sanatın Öyküsü, (Çev. B. Cömert), İstanbul 1980.",
+        "S. Mülayim, Sanat Tarihi Metodu, İstanbul 1983.",
+        "Oktay Aslanapa, Anadolu’da İlk Türk Mimarisi, Başlangıcı ve Gelişmesi, Ankara 1991.",
+        "Z. Ahunbay, Tarihi Çevre Koruma ve Restorasyon, İstanbul 1999.",
+        "C. Erder, Tarihi Çevre Bilinci, Ankara 1975.",
+        "Y. Çoruhlu, Türk İslam sanatının ABC’si, İstanbul 2000.",
+        "E.Diez, O. Aslanapa, Türk Sanatı,İstanbul 1955.",
+        "O. Aslanapa, Yüzyıllar Boyunca Türk Sanatı, Ankara 1977.",
+        "C.E.Arseven, Türk Sanatı, İstanbul 1984.",
+        "S.K.Yetkin, İslam Ülkelerinde Sanat, İstanbul 1984.",
+        "Z. Sönmez, Sanatçılar, 1995.",
+        "M. Cezar, Anadolu Öncesi Türklerde Şehir ve Mimarlık, İst. 1977.",
+        "D. Kuban, Anadolu-Türk Mimarisinin Kaynak ve Sorunları, İst.1965.",
+        "S. Mülayim, Anadolu-Türk Mimarisinde Geometrik Süslemeler, Ankara 1982.",
+        "B. Ögel, Anadolu Selçuklularının Taş Tezyinatı, Ankara 1987.",
+        "T.C. ANADOLU ÜNİVERSİTESİ YAYINI NO: 3646 AÇIKÖĞRETİM FAKÜLTESİ YAYINI NO: 2474 GÜZEL SANATLAR"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=4di1tyTR9XI%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1055",
+      "name": "INTRODUCTION TO PROGRAMMING",
+      "ects": 6,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Öğrencilerin kompleks problemleri rahatça çözebilir hale gelmesini sağlamak. İleri C ve temel C++ programlama yeteneğinin kazandırılması.",
+      "description": "Arama ve sıralama algoritmaları, sıralı ve rastgele erişimli dosyalar, stringler, rekürsif fonksiyonlar, kullanıcı tanımlı yapı tipleri, kişisel kütüphaneler, depolama sınıfları, dinamik bellek yönetimi, basit veri yapıları (bağlı listeler, yığınlar, kuyruklar ve ağaçlar), C++ giriş, C++ sınıflar ve veri soyutlama, operatör aşırı yükleme, C++ kalıtım, sanal fonksiyonlar ve polimorfizm, şablonlar ve kural dışı durum işleme.",
+      "learning_outcomes": [
+        "Kompleks problemleri yazılım geliştirme adımlarını kullanarak çözer.",
+        "Problem çözmede fonksiyonları ve rekürsif yaklaşımları kullanabilir.",
+        "Pointer kavramını bellek yönetimi ve veri yapıları işlemlerinde kullanabilir.",
+        "C++ dilinin sentaksını ve özelliklerini öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Behrouz A. Forouzan, Richard Gilberg - C++ Programming: An Object-Oriented Approach - McGraw-Hill Education (2019)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=z0UCIIzzIXo%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU1015",
+      "name": "LINEAR ALGEBRA",
+      "ects": 5,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Lisans ve yüksek lisans öğrenimi boyunca öğrencinin gereksinim duyacağı lineer cebir ile ilgili temel bilgileri vermek. Karşılaşacağı problemlerin çözümünde nasıl bir yol izleyeceğini kavratmak ve verileri doğru bir şekilde yorumlayıp çözüm üretme becerisi kazandırmak.",
+      "description": "Lineer denklem sistemleri ve çözüm yöntemleri; vektörler ve vektör işlemleri, nokta çarpım; matrisler ve matris işlemleri; özel tip matrisler ve matrisler teorisi; lineer sistemlerin vektör ve matris eşitlikleri; determinant, minor, cofactor; ters matris, rank, Cramer kuralı; N-boyutlu vektör uzayı; lineer bağımlılık ve lineer bağımsızlık; özdeğer ve özvektör; vektör ve matris normları ve özellikleri; lineer dönüşümler; matris sınıfları.",
+      "learning_outcomes": [
+        "Analitik düşünme ve yorum yapma yeteneği gelişir.",
+        "Matematikle ilgili temel bilgileri kazanır.",
+        "Mantıksal muhakeme ve ispat yapabilme becerileri gelişir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Lineer Denklem Sistemleri",
+        "Hafta 2: Lineer Denklem Sistemlerinin Çözülme Yöntemleri",
+        "Hafta 3: Vektörler ve Vektör işlemleri, Nokta Çarpım",
+        "Hafta 4: Matrisler ve Matris işlemleri",
+        "Hafta 5: Özel Tip Matrisler, Matrisler Teorisi",
+        "Hafta 6: Lineer Sistemlerin Vektör ve Matris Eşitlikleri",
+        "Hafta 7: Determinant, Minor, Cofactor",
+        "Hafta 8: Ters matris, Rank, Cramer Kuralı",
+        "Hafta 9: N-boyutlu vektör uzayı",
+        "Hafta 10: Lineer bağımlılık, Lineer bağımsızlık",
+        "Hafta 11: Özdeğer, Özvektör",
+        "Hafta 12: Vektör ve Matris Normları, Özellikleri",
+        "Hafta 13: Lineer Dönüşümler",
+        "Hafta 14: Matris Sınıfları"
+      ],
+      "resources": [
+        "Ders Notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=e7TL8%2fkcZ2k%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "ODTD0002",
+      "name": "TÜRK DİLİ II",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı öğrencilere yazılı ve sözlü anlatım türlerini tanıtma, çözümleme ve üretebilme becerisi kazandırma; bilgilendirici ve edebiyat metinleri konusunda bilgi vererek farkındalık yaratma ve akademik yazma konusunda öğrencilerin bilgi becerilerini geliştirmektir.",
+      "description": "Yazılı ve sözlü anlatımın temel ilkeleri ve türlerini tanıtmak ve öğrencilerin yazılı sözlü anlatım becerilerini geliştirmek. Edebiyat metinlerini okumanın özel durumlarını tartışmak ve eleştirel okuma konusunda çözümleme örnekleri göstererek, öğrencilerin yazınsal duyarlığını geliştirmek. Akademik yazmanın temelleri ve bilimsel rapor oluşturmanın ilke ve yöntemlerini tanıtmak.",
+      "learning_outcomes": [
+        "Öğrenciler anlatım biçimlerini ayırt ederler.",
+        "Öğrenciler yazılı ve sözlü anlatımın özelliklerini, türlerini ve farklarını bilirler.",
+        "Öğrenciler yazılı anlatımda plan yapmayı ve düşünce geliştirmeyi öğrenirler.",
+        "Öğrenciler edebiyat metinlerini eleştirel okuma konusunda bilgi ve beceri sahibi olurlar.",
+        "Öğrenciler akademik yazmanın ve rapor oluşturmanın aşamalarını, yöntemlerini ve kaynak göstermenin temel kurallarını bilir ve uygulayabilirler."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Adalı O. (2003). Anlamak ve Anlatmak. İstanbul: Pan Yayıncılık.",
+        "Broukal M. (2004). Weaving It Together Connecting Reading and Writing. USA: Heinle.",
+        "Byrne, D. (1988). Teaching Writing Skills. Hong Kong: Longman.",
+        "Çotuksöken Y. (2008). Yüksekokullar ve Meslek Yüksekokulları İçin Türk Dili Dersleri. İstanbul: Papatya Yayıncılık.",
+        "Günay D. (2003). Metin Bilgisi. İstanbul: Multilingual Yayınları.",
+        "Harmer J. (2004). How to Teach Writing. Longman.",
+        "Kavcar C. vd. (2007). Yazılı ve Sözlü Anlatım. 6.Baskı. Ankara: Anı Yayıncılık.",
+        "Keçik İ., Uzun L. (2003). Türkçe Sözlü ve Yazılı Anlatım. C. İleri (Ed.). Eskişehir: Anadolu Üniversitesi Yayınları.",
+        "Beyreli L., Çetindağ Z., Çelepoğlu A. (2005). Yazılı ve Sözlü Anlatım. Ankara: Pegema Yayıncılık.",
+        "Özkan M. vd. (2001). Yüksek Öğretimde Türk Dili, Yazılı ve Sözlü Anlatım. İstanbul: Filiz Kitabevi.",
+        "Özdemir E. Sözlü Yazılı Anlatım Tekniği İstanbul: Remzi Kitabevi.",
+        "Özdemir E., Binyazar A. Yazma Öğretimi Yazma Sanatı. İstanbul: Papirüs.",
+        "Karasar, N. (1982). Bilimsel Araştırma Yöntemi-Kavramlar, İlkeler, Teknikler, Ankara.",
+        "Büyüköztürk, Şener ve diğ. (2009), Bilimsel Araştırma Yöntemleri,3. Baskı. Pegem Akademi."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=HxUOllj3VoU%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "YUAI0002",
+      "name": "Yabancı Öğrenciler İçin Atatürk İlkeleri ve İnkılap Tarihi II",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Atatürk ilke ve İnkılâplarını öğretmek ve Türkiye Cumhuriyeti'nin kuruluş sürecini tahlil etmektir.",
+      "description": "Bu ders, Atatürk ilke ve İnkılâplarını ve Türkiye Cumhuriyeti'nin kuruluş sürecini içermektedir.",
+      "learning_outcomes": [
+        "Türkiye Cumhuriyetinin kuruluş yıllarında yaşadığı problemleri, sağlanan gelişmeleri ve yapılanma problemlerini doğru bir şekilde kavrar.",
+        "Atatürk ilkelerinin oluşum süreci ve özelliklerini analiz eder.",
+        "İkinci Dünya Savaşı'na kadar olan iç ve dış politik gelişmeleri kavrar.",
+        "Sosyal ve kültürel politikaları etkileyen şartları mukayese eder.",
+        "İkinci Dünya Savaşı'nın sonuçlarının Türkiye'ye etkilerini kavrar.",
+        "Son dönemin sosyal ve kültürel gelişmelerini analiz eder."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "e-Ders Kitabı",
+        "e-Ders Sunumu",
+        "Ders Videosu"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=vefLDIRyHN8%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "YUTD0002",
+      "name": "Yabancı Öğrenciler İçin Türk Dili II",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı öğrencilere yazılı ve sözlü anlatım türlerini tanıtma, çözümleme ve üretebilme becerisi kazandırma; bilgilendirici ve edebiyat metinleri konusunda bilgi vererek farkındalık yaratma ve akademik yazma konusunda öğrencilerin bilgi becerilerini geliştirmektir.",
+      "description": "Yazılı ve sözlü anlatımın temel ilkeleri ve türlerini tanıtmak ve öğrencilerin yazılı sözlü anlatım becerilerini geliştirmek. Edebiyat metinlerini okumanın özel durumlarını tartışmak ve eleştirel okuma konusunda çözümleme örnekleri göstererek, öğrencilerin yazınsal duyarlığını geliştirmek. Akademik yazmanın temelleri ve bilimsel rapor oluşturmanın ilke ve yöntemlerini tanıtmak.",
+      "learning_outcomes": [
+        "Öğrenciler anlatım biçimlerini ayırt ederler.",
+        "Yazılı ve sözlü anlatımın özelliklerini, türlerini ve farklarını bilirler.",
+        "Öğrenciler yazılı anlatımda plan yapmayı ve düşünce geliştirmeyi öğrenirler.",
+        "Edebiyat metinlerini eleştirel okuma konusunda bilgi ve beceri sahibi olurlar.",
+        "Öğrenciler akademik yazmanın ve rapor oluşturmanın aşamalarını, yöntemlerini ve kaynak göstermenin temel kurallarını bilir ve uygulayabilirler."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Adalı O. (2003). Anlamak ve Anlatmak. İstanbul: Pan Yayıncılık.",
+        "Broukal M. (2004). Weaving It Together Connecting Reading and Writing. USA: Heinle.",
+        "Byrne, D. (1988). Teaching Writing Skills. Hong Kong: Longman.",
+        "Çotuksöken Y. (2008). Yüksekokullar ve Meslek Yüksekokulları İçin Türk Dili Dersleri. İstanbul: Papatya Yayıncılık.",
+        "Günay D. (2003). Metin Bilgisi. İstanbul: Multilingual Yayınları.",
+        "Harmer J. (2004). How to Teach Writing. Longman.",
+        "Kavcar C. vd. (2007). Yazılı ve Sözlü Anlatım. 6.Baskı. Ankara: Anı Yayıncılık.",
+        "Keçik İ., Uzun L. (2003). Türkçe Sözlü ve Yazılı Anlatım. C. İleri (Ed.). Eskişehir: Anadolu Üniversitesi Yayınları.",
+        "Beyreli L., Çetindağ Z., Çelepoğlu A. (2005). Yazılı ve Sözlü Anlatım. Ankara: Pegema Yayıncılık.",
+        "Özkan M. vd. (2001). Yüksek Öğretimde Türk Dili, Yazılı ve Sözlü Anlatım. İstanbul: Filiz Kitabevi.",
+        "Özdemir E. Sözlü Yazılı Anlatım Tekniği İstanbul: Remzi Kitabevi.",
+        "Özdemir E., Binyazar A. Yazma Öğretimi Yazma Sanatı. İstanbul: Papirüs.",
+        "Karasar, N. (1982). Bilimsel Araştırma Yöntemi-Kavramlar, İlkeler, Teknikler, Ankara.",
+        "Büyüköztürk, Şener ve diğ. (2009), Bilimsel Araştırma Yöntemleri,3. Baskı. Pegem Akademi."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=eKOPQPTuZZk%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2058",
+      "name": "DEVRELER VE SİSTEMLER",
+      "ects": 6,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Bu dersin amacı öğrencilere devre elemanları, bu elemanların matematiksel modelleri, sistemler, devre çözüm yöntemleri hakkında ve elektronik devrelere giriş seviyesinde temel bilgi vermektir.",
+      "description": "Bu derste elektriksel/elektronik sistemler, fiziksel devrelerde akım ve gerilim ölçülmesi ve modellenmesi, Kirchhoff yasaları, ideal devre elemanları ve devre çözüm yöntemleri öğretilmekte ve elektronik devrelerle ilgili giriş seviyesinde bilgi verilmektedir. Fiziksel sistemler, sistemlerin matematiksel modeli, elektriksel ve elektronik sistemler, birimler, yük-akım-gerilim-güç ilişkileri, temel devre tipleri ve devre elemanları, Ohm yasası, Kirchhoff'un akım ve gerilim yasaları, seri-paralel bağlama, düğüm gerilimleri ve çevre akımları analizi, doğrusalık ve toplamsallık teoremleri, kaynak dönüşümü, Thévenin ve Norton teoremleri, maksimum güç teoremi, işlemsel kuvvetlendiriciler, endüktans ve kapasite, RL ve RC devreleri, birim basamak fonksiyonu, anahtarlama, yarıiletkenler, diyotlar, BJT ve MOSFET'ler ele alınır.",
+      "learning_outcomes": [
+        "Temel devre elemanlarını biliyor olmak.",
+        "Çeşitli devre çözüm yöntemlerini ve devre teoremlerini kullanarak çok karmaşık olmayan devreleri çözümleyebilmek.",
+        "Devre elemanlarının matematiksel modellerini öğrenmiş olmak.",
+        "Sistemler hakkında bilgi sahibi olmak.",
+        "Elektronik devrelere giriş seviyesinde bilgi edinmiş olmak."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Engineering Circuit Analysis, William H. Hayt,Jr.,Jack E. Kemmerly ve Steven H. Durbin, 8. baskı, McGraw Hill, 2012.",
+        "Electronic Devices and Circuit Theory, Robert Boylestad ve Louis Nashelsky, 10. baskı, Pearson/Prentice-Hall, 2008.",
+        "Electric Circuits, James W. Nilsson ve Susan Riedel, 9. baskı, Prentice-Hall, 2010.",
+        "Electronics: A Systems Approach, Neil Storey, 3. baskı, Pearson/Prentice-Hall, 2006."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=UGqQxibfzeA%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2059",
+      "name": "DIFFERENTIAL EQUATIONS",
+      "ects": 3,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu ders, birinci ve yüksek mertebeden adi diferansiyel denklemlerin çözümü için gerekli temel kavramları ve yöntemleri öğretmeyi amaçlar. Ayrıca diferansiyel denklem sistemleri ile kuvvet serisi ve Laplace dönüşümleri yöntemlerini kullanarak çözüm elde etme becerisi kazandırır. Öğrencilerin diferansiyel denklemleri mühendislik problemlerine uygulayabilmesini hedefler.",
+      "description": "Temel tanımlar ve diferansiyel denklemlerin sınıflandırılması. Birinci ve yüksek mertebeden diferansiyel denklemler. Yüksek mertebeden lineer diferansiyel denklemlerin kuvvet serileri yardımıyla çözümü.",
+      "learning_outcomes": [
+        "Öğrenciler diferansiyel denklemleri tanımlamayı, sınıflandırmayı ve çözüm yöntemlerini öğrenirler.",
+        "Öğrenciler diferansiyel denklemler için başlangıç ve sınır-değer problemlerini çözme becerisi kazanırlar.",
+        "Öğrenciler birinci mertebeden diferansiyel denklemler ve uygulamalarını öğrenirler.",
+        "Öğrenciler yüksek mertebeden diferansiyel denklemleri öğrenirler.",
+        "Öğrenciler diferansiyel denklem problemleri çözebilme alışkanlığını geliştirirler.",
+        "Öğrenciler diferansiyel denklemlerin uygulamasını yapabilirler.",
+        "Öğrenciler mühendislik olayların diferansiyel denklemlerle matematiksel modelini kurabilme becerilerini kazanırlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ordinary Differential Equations (I. G. Petrovski)",
+        "An Introduction to Ordinary Differential Equations (Earl A. Coddington)",
+        "Differential Equations (S. L. Ross)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=0yhUTFTaNmc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0003",
+      "name": "Eğitim Psikolojisi [PF]",
+      "ects": 4,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Psikoloji ve eğitim psikolojisinin tanımını, çalışma alanlarını ve gelişimle ilgili temel kavramları açıklamak; gelişimin ilkeleri ve kuramları ile öğrenme ve öğretim kuramlarını tanıtarak öğrenmeyi etkileyen faktörleri kavratmak.",
+      "description": "Psikoloji ve eğitim psikolojisinin tanım ve işlevleri, çocuk ve ergen gelişimi, fiziksel, sosyal, bilişsel, duygusal ve ahlaki gelişim; öğrenme, öğrenmeyi etkileyen faktörler, günümüzdeki öğrenme kuramları (davranışçı, bilişsel kuramlar, özellikle yapılandırmacı öğrenme kuramları vb.), etkili öğretim ve etkili öğretimi etkileyen faktörler; motivasyon, bireysel farklılıklar ve öğrencilerin grup içindeki davranışları.",
+      "learning_outcomes": [
+        "Eğitim ve öğrenme psikolojisi ile ilgili temel kavramları, kuramları ve ilkeleri açıklar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Eğitim Psikolojisi (Binnur Yeşilyaprak, eds.) Pegem"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=CNjMyW1wGiE%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0001",
+      "name": "Eğitime Giriş [PF]",
+      "ects": 4,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu derste, eğitim bilimlerinin kuramsal temellerine ilişkin bilgi ve beceri kazandırarak daha sonra öğrenilecek eğitim konuları için bir altyapı oluşturmak amaçlanmaktadır.",
+      "description": "Eğitim ve öğretimle ilgili temel kavramlar; eğitimin amaçları ve işlevleri; eğitimin diğer alanlarla ve bilimlerle ilişkisi; eğitimin hukuki, sosyal, kültürel, tarihî, politik, ekonomik, felsefi ve psikolojik temelleri; eğitim bilimlerinde yöntem; bir eğitim ve öğrenme ortamı olarak okul ve sınıf; öğretmenlik mesleği ve öğretmen yetiştirmede güncel gelişmeler; yirmi birinci yüzyılda eğitimle ilgili yönelimler.",
+      "learning_outcomes": [
+        "Eğitim kavramını açıklar.",
+        "Eğitimin sosyal, politik ve ekonomik temellerini açıklar.",
+        "Eğitimin bazı alanlarla (psikoloji, felsefe, hukuk, ekonomi) ilişkilerini yorumlar.",
+        "Türk eğitim sisteminin yapısı ve genel işleyişini örnekler."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Erdoğan, İ., Mete, A. Y. ve Serin H. (2018). Çağdaş eğitim Bilimleri. Ankara: Murat Yayınları.",
+        "Erdoğan, İ. (2016) Gelenekten Geleceğe Eğitim Bilimi. İstanbul: Sümer Kitapevi.",
+        "Arslan A. (2017) Eğitim Bilimine Giriş. Ankara: Nobel Yayınları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=YmMiWZsyDsc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2005",
+      "name": "LOJİK DEVRE TASARIMI",
+      "ects": 5,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı temel lojik devreleri detaylarıyla öğretmek, kombinezonsal ve ardışıl devreleri tasarlamayı, analiz etmeyi ve gerçeklemeyi sağlamaktır.",
+      "description": "Sayısal işaret ve sistemlerine giriş, sayı sistemleri ve dönüşümleri, Boolean cebiri, Boolean fonksiyonları ve özellikleri, sadeleştirme yöntemleri (Karnaugh haritası ve tablo yöntemi), sayısal mantık kapıları, belleksiz mantık (kombinezonsal) devre tasarımı, toplayıcılar, çoğullayıcılar, kodçözücüler, kodlayıcılar, programlanabilir mantık devreleri (PAL, PLA, PROM, EPROM, EEPROM), saatli bellekli mantık (ardışıl) devrelerinin analizi, durum graf ve tablolarının elde edilmesi, durum tabloları ve durum kodlamaları, bellekli mantık (ardışıl) devre tasarımı, tutucular, flip-floplar, yazaçlar ve sayıcılar.",
+      "learning_outcomes": [
+        "Sayısal işaretler ve sistemler ile ilgili temel kavramları tanımlar.",
+        "Sayısal devre elemanlarını tanır, fonksiyonlarını anlar.",
+        "Sayısal devre tasarımı ile ilgili kuramsal temelleri kavrar.",
+        "Sayısal devre modüllerinin analizini yapmayı öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ciletti, M. D., & Mano, M. M. (2007). Digital design. Prentice-Hall.",
+        "Wakerly, J. F. (2008). Digital Design: Principles And Practices, 4/E. Pearson Education India."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=AlpzpbY8IQI%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2007",
+      "name": "NESNEYE YÖNELİK PROGRAMLAMA",
+      "ects": 5,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Nesneye yönelik olarak Java programlama dilinin temellerinin ve yazılım geliştirme yöntemlerinin öğrenilmesi. Gerçek dünya nesneleri ile nesne modellemesi arasındaki ilişkinin kavranması ve nesne yönelimli bir ortamda düşünme, analiz etme, tasarlama ve kodlama becerilerinin geliştirilmesi.",
+      "description": "Nesne nedir, nesne yönelimli uygulamaların avantajları, tasarım kalıpları ve bu kalıpların ne zaman kullanılacağı ele alınır. Kalıtım, çok biçimlilik, interface ve soyut sınıf kavramları işlenir. JSwing paketi ile grafik arayüz tasarımı ve MVC, Struts, JSF framework ortamları tanıtılır.",
+      "learning_outcomes": [
+        "Nesne-sınıf, dinamik bellek yapısı, garbage collector gibi kavramları öğrenir.",
+        "Nesneye yönelik programlamada kalıtımı (inheritance) kullanır.",
+        "Nesneye yönelik programlamada çok biçimlilik (polymorphism) kavramını öğrenir.",
+        "Soyut sınıf, interface yapılarının işlevini kavrar.",
+        "Dosya okuma, yazma işlemlerini, exception handling kavramını kullanma yeteneği kazanır.",
+        "Java Swing paketini kullanarak Grafiksel Kullanıcı Arayüzü hazırlar.",
+        "Belirli bir yazılım sorununu çözmek için, Java programları geliştirir, test eder ve çalıştırır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Deitel P., Deitel H. 2017, Java How to program, 11nd edn, Pearson Press, England"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=b7%2bA5jlCePA%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2004",
+      "name": "OLASILIK TEORİSİ VE İSTATİSTİK",
+      "ects": 5,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilere olasılık teorisi ve rasgele değişkenleri anlatmak.",
+      "description": "Mühendislikte istatistiğin rolü, olasılık, ayrık rasgele değişkenler ve dağılımları, sürekli rasgele değişkenler ve dağılımları, birleşik olasılık dağılımları, rasgele örnekleme ve veri tanımları, parametrelerin nokta tahmini.",
+      "learning_outcomes": [
+        "Olasılık ve İstatistik temellerini öğrenir",
+        "İstatistiksel Hesaplama öğrenir",
+        "İstatistiksel ve Olasılıksal düşünmeyi öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "\"Olasılık ve İstatistik\", Ahmet Hamdi Kayran, Erdoğan Camcıoğlu, 2020, Papatya Bilim"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=XajCLJdf7xk%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0002",
+      "name": "Öğretim İlke ve Yöntemleri [PF]",
+      "ects": 4,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğretim ilke ve yöntemleriyle ilgili temel kavramları, öğretim-öğrenme ilkelerini, modellerini, stratejilerini, yöntem ve tekniklerini tanıtmak; öğretimde hedef ve amaç belirleme, içerik seçimi ve düzenlemesi, öğretim materyalleri, öğretimin planlanması ve sınıf içi öğrenmelerin değerlendirilmesi konularında öğrencileri bilgilendirmek.",
+      "description": "Öğretim ilke ve yöntemleriyle ilgili temel kavramlar; öğretim-öğrenme ilkeleri, modelleri, stratejileri, yöntemleri ve teknikleri; öğretimde hedef ve amaç belirleme; öğretim ve öğrenmede içerik seçimi ve düzenlemesi; öğretim materyalleri; öğretimin planlanması ve öğretim planları; öğretimle ilgili kuram ve yaklaşımlar; etkili okulda öğretim, öğrenme ve öğrenmede başarı; sınıf içi öğrenmelerin değerlendirilmesi.",
+      "learning_outcomes": [
+        "Öğretim ilke ve yöntemlerine dair kavramları bilir.",
+        "Kuram-Yaklaşım-Yöntem-Teknik ilişkisini açıklar.",
+        "Öğretim ilkelerini ve öğretim sürecindeki yerini analiz eder.",
+        "Öğrenme stratejilerini bilir.",
+        "Öğretim yöntem ve tekniklerini açıklar.",
+        "Farklı öğretim yöntemlerini uygulayabilir.",
+        "Ders planı hazırlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Taşpınar, M. (2017). Kuramdan uygulamaya öğretim ilke ve yöntemleri. Ankara: Pegem A Yayıncılık, 1-387.",
+        "Özden, Y. (2000). Öğrenme ve Öğretme, Ankara: Pegem A Yayıncılık.",
+        "Reiser, R. A., Dick, W. (1996). Instructional Planning A Guide for Teachers. California: Allyn & Bacon.",
+        "Kagan, S., Kagan, M. (1998). Multiple Intelligences The Complete MI Book, California: Kagan Cooperative Learning.",
+        "Selçuk, Z., Kayılı, H., Okut, L. (2003). Çoklu Zeka Uygulamaları, Ankara: Nobel Yayın Dağıtım."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=4gISJk5hPYw%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0004",
+      "name": "ÖĞRETİM TEKNOLOJİLERİ [PF]",
+      "ects": 3,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı; öğretimde teknoloji kullanımına ilişkin güncel yaklaşımları kullanarak öğretme öğrenme süreçlerini etkili ve verimli kılmak üzere kullanılan eğitsel materyallerin tasarımını yapmak, uygulamak ve değerlendirmektir.",
+      "description": "Teknoloji ve materyal kullanımı, modern eğitimin bir parçasıdır. Güncel öğretim teknolojilerini kullanarak uygun olarak dizayn edilen eğitim ve sınıfta kullanılan öğretim materyallerinin öğrencilerin öğrenme performanslarını artırdığı bilinmektedir. Dolayısıyla, öğretmen adayları, mesleğe başlamadan önce teknoloji ve materyal kullanımı ile ilgili gerekli bilgi ve becerileri edinmelidirler. Bu derste öğretmen adayları çeşitli öğretim teknolojilerinin özelliklerini, öğretim sürecindeki yerlerini ve kullanımlarını, öğretim teknolojileri yoluyla öğretim materyallerinin (kavram haritaları, slaytlar, eğitsel grafikler, videolar, öğrenme yönetim sistemleri, çevrimiçi toplantı araçları, elektronik sınavlar vb.) tasarlanmasını, geliştirilmesini ve çeşitli nitelikteki materyallerin değerlendirilmesini öğreneceklerdir.",
+      "learning_outcomes": [
+        "Teknoloji, öğretim teknolojisi ve eğitim teknolojisi gibi kavramları açıklar",
+        "Eğitim teknolojisi ve öğretim teknolojisi arasındaki farkları ayırt eder",
+        "Eğitim-öğretim süreçlerinde Bilgi ve iletişim teknolojileri (BİT) entegrasyonu için gerekli uygulamaları kullanır",
+        "Farklı öğretim materyalleri ve tipleri arasından amacınıza uygun olanı seçer",
+        "Dijital araçları kullanarak amaca uygun öğretim araçları ve materyalleri geliştirir"
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Çalışkan, H. \"Öğretim Teknolojileri\", 2022",
+        "Kılıç, Y. K. “Öğretim Teknolojileri”, 2019, Asos Yayınları",
+        "Şendağ, S. “Öğretim Teknolojileri Etkili ve Eğlenceli Öğrenme Deneyimi Tasarım Rehberi”, 2019, Nobel Akademik Yayıncılık",
+        "Kurt, A. A. “Öğretim Teknolojilerinin Temelleri”, 2018, Nobel Akademik Yayıncılık",
+        "Öğretim üyesinin ders sisteminde paylaştığı ders notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=SoMwmh8v5Kc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2057",
+      "name": "VERİ YAPILARI",
+      "ects": 6,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Bilgisayarlarda bellekte ve ikincil hafızada veri saklama yaklaşımlarını öğretmek, veri işlemede kullanılacak algoritmaları örneklemek ve karmaşık veri modellemesi ile işlemesi gereken durumlarda uygun veri yapısı ve algoritma seçme becerisi kazandırmak.",
+      "description": "Temel veri saklama yaklaşımları, diziler, sıralama ve arama algoritmaları, ağaç yapıları ve algoritmaları, graf yapıları ve algoritmaları, dosya sisteminde veri saklama ve indeksleme yöntemleri ile karmaşık işlemleri yapmak için kullanılan algoritmalar ele alınacaktır.",
+      "learning_outcomes": [
+        "Bellekte ve dosya sisteminde verileri saklama yöntemlerini öğrenir.",
+        "Veriler üzerinde arama, sıralama gibi genel işlemleri için kullanılan yaklaşımları öğrenir.",
+        "Farklı problemlerin çözümünde kullanabileceği veri yapılarını tasarlayabilir.",
+        "Karmaşık problemlerin çözümleri için farklı veri yapıları kurma ve algoritma geliştirme becerisi edinir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Algorithms, Robert Sedgewick and Kevin Wayne, 4th edition, Addison-Wesley",
+        "Introduction to Algorithms, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, 3th edition, The MIT Press",
+        "Principles of Data Structures Using C and C++, Vinu V Das, New Age International"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=5%2fq27n8mTeY%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0008",
+      "name": "Eğitimde Ölçme ve Değerlendirme [PF]",
+      "ects": 4,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, eğitimde ölçme ve değerlendirmenin yeri ve önemi ile ilgili temel kavramları, ölçmede hata ve hata türlerini, korelasyon hesaplama ve yorumlamayı, güvenirlik ve geçerlik kavramlarını, ölçme araçlarının kullanışlılığını, geleneksel ölçme araçları ve madde yazımını, performans değerlendirmeyi, temel istatistiksel işlemleri ve madde analizini öğrencilere kazandırmak; bu konularda bilgi ve becerilerini artırmaktır.",
+      "description": "Öğrencilerin eğitimde ölçme ve değerlendirmenin yeri ve önemi kavramalarına, ölçme araçlarının hazırlanması, uygulanması ve puanlamasını da içeren sürecin sağlıklı olarak yürütülmesi ve güvenirliği yüksek ölçme sonuçlarının elde edilmesi ile geçerliği yüksek değerlendirmelerin yapılabilmesine yönelik bir derstir.",
+      "learning_outcomes": [
+        "Ölçme ve değerlendirme temel kavramlarını tanır ve bilir.",
+        "Ölçmeye karışabilecek hataların türlerini ve kaynaklarını bilir ve ölçme-değerlendirme sürecine etkisini kavrar.",
+        "Ölçme ve değerlendirmeye yönelik araç ve yöntemleri bilir, avantaj ve dezavantajlarını kavrar ve amaca uygun olana karar verir.",
+        "Ölçmeye yönelik geleneksel ve otantik araçlar geliştirir ve kullanır.",
+        "Ölçme sonuçları üzerinde temel istatistiksel uygulamalar yapar ve sonuçları yorumlar.",
+        "Testi iyileştirmeye yönelik madde ve test analizi yapar ve bulguları yorumlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Akbay, L. (2021). Eğitimde ölçme araç ve yöntemleri. Murat Yayınları."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=yBzB86YKiCU%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0009",
+      "name": "Öğretmenlik Uygulaması [PF]",
+      "ects": 10,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 8,
+      "purpose": "Pedagojik formasyon derslerini alan öğretmen adayı öğrencilerin elde ettikleri bilgi ve becerileri uygulama okullarında deneyimleyip geliştirmelerini sağlamak ve bu süreçte uygulama öğretmenleriyle birlikte kazandıkları deneyimleri izlemektir.",
+      "description": "Alanına özgü öğretim yöntem ve teknikleriyle ilgili gözlemler yapma; özel öğretim yöntem ve tekniklerinin kullanıldığı bireysel ve grupla öğretim uygulamaları yapma; etkinlik ve materyal geliştirme; öğretim ortamlarını hazırlama, sınıfı yönetme, ölçme ve değerlendirme yapma.",
+      "learning_outcomes": [
+        "Öğretim stratejilerini ve yöntemlerini eğitim ortamında uygular."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "http://www.yok.gov.tr",
+        "http://yayim.meb.gov.tr",
+        "Öğretmenlik uygulaması ile ilgili güncel internet kaynakları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=RC%2fSyDv2yqI%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0006",
+      "name": "ÖZEL ÖĞRETİM YÖNTEMLERİ [PF]",
+      "ects": 4,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "null"
+    },
+    {
+      "code": "PFOD0007",
+      "name": "REHBERLİK VE ÖZEL EĞİTİM [PF]",
+      "ects": 4,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Okullarda rehberlik sürecini ve özel eğitimi ana hatlarıyla tanıtmaktır.",
+      "description": "Eğitimde rehberlik hizmetlerinin yeri; rehberliğin kısa tarihçesi; rehberlikle ilgili model ve yaklaşımlar; gelişimsel rehberlik modelinin felsefesi, amacı, ilkeleri ve programı; rehberlik türleri; öğretmenin sınıf rehberliğindeki rol ve işlevi; özel eğitimle ilgili temel kavramlar, ilkeler, tarihsel gelişim ve yasal düzenlemeler; özel eğitimde tarama, yönlendirme, tanı ve değerlendirme; öğretimin bireyselleştirilmesi; kaynaştırma ve destek özel eğitim hizmetleri; ailenin özel eğitime katılımı ve işbirliği; rehberlik ve özel eğitimde etik ilkeler.",
+      "learning_outcomes": [
+        "Okul ortamında rehberlik hizmetlerinin gerekliliğini örnekler ile açıklar.",
+        "Farklı okul kademelerindeki okul rehberlik hizmetlerini bilir.",
+        "Özel gereksinimli birey kavramını betimler.",
+        "Öğretmenlerin özel gereksinimli öğrencilere ilişkin rol ve sorumluluklarını betimler."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Aydın B. (2019). Rehberlik. Pegem Akademi Yayıncılık",
+        "Aksoy, V. (2019). Özel Eğitim. Özel Eğitim. Pegem Akademi Yayıncılık",
+        "Şahbaz, Ü. (2019). Özel Eğitim Ve Kaynaştırma. Anı yayıncılık."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=In4I6ay1%2f8I%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "PFOD0005",
+      "name": "SINIF YÖNETİMİ [PF]",
+      "ects": 3,
+      "semester": 3,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Sınıf yönetiminin etkili öğrenme ortamının hazırlanmasındaki etkisi ve katkısını kavrayabilme, etkili sınıf yönetimi için gerekli temel bilgi ve becerileri edinebilme.",
+      "description": "Sınıf yönetimini tanımlar. Sınıf yönetiminin boyutlarını açıklar. Sınıf içi iletişim ve etkileşim ile ilgili bilgisini uygulama yolu ile gösterir. Temel sınıf yönetimi modellerini örneklendirerek açıklar. Sınıf yönetimi ve disiplin kavramı arasındaki ilişkiyi karşılaştırarak açıklar. İstenmeyen davranışları ortadan kaldırmak için strateji ve yöntemleri uygular. Öğrencileriyle etkili iletişim kurar. Sınıfta zamanı nasıl yöneteceğini gösterir. Öğrenmeye uygun olumlu bir sınıf ortamı oluşturur. Sınıf içi istenmeyen davranışların önlenmesi ve düzeltilmesi konusunda farklı yöntemleri araştırır, paylaşır.",
+      "learning_outcomes": [
+        "Öğrenci sınıf yönetiminin ne olduğunu açıklayabilir.",
+        "Öğrenci sınıf yönetimi yaklaşımlarını, modellerini örneklerle açıklayabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Erdoğan, İ (2008). Sınıf Yönetimi. İstanbul: Alfa Yayınları",
+        "Kılıç, E. (2019). Sınıf Yönetimi (Ed.) . Ankara: Murat Yayıncılık"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=7wOXDgUTB8Q%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2060",
+      "name": "BİLGİSAYAR ORGANİZASYONU VE TASARIMI",
+      "ects": 3,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders ile öğrenciye bir bilgisayarın temel bileşenlerini ve aralarındaki ilişkiyi öğretmek hedeflenmektedir.",
+      "description": "Bilgisayar Organizasyonu ve Tasarımına Giriş. Saklayıcılar (Registers). Saklayıcı Transfer İşlemleri, Saklayıcı Transfer Dili (RTL), Ortak Yol (Bus) Sistemi. Mikroişlemler ve Aritmetik Lojik Kaydırma Birimi. Temel Bilgisayar Organizasyonu, Temel Bilgisayar Yapısı ve Devreleri. Temel Bilgisayar Organizasyonu ve Komut Türleri. Zamanlama, Kontrol ve Komut Döngüsü. Temel Bilgisayarın Tasarımı ve Kontrol Devreleri. Donanımsal Kontrol Birimi Tasarımı. Temel Bilgisayarın Programlanması. Makine Dili, Assembly Dili, Altprogramlar, Kesme Servis Rutini. Mikroprogramlanmış Kontrol, Yazılımsal Kontrol Ünitesi Tasarımı. Merkezi İşlemci Birimi Tasarımı ve Yazılımsal Yetenekleri.",
+      "learning_outcomes": [
+        "Bilgisayar Organizasyonunun nasıl yapılacağını kavrar.",
+        "Organizasyonu oluşturan ünitelerin birbirleri ile ilişkisini anlar.",
+        "Komut Setine uygun Kontrol Devrelerini ve gerekli birimleri tasarlar.",
+        "Temel Bilgisayar Ünitelerinin tasarımlarını yapabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Mano, M. M. (2003). Computer system architecture. Prentice-Hall International"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=UOcWbqTpOrU%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2061",
+      "name": "FILE ORGANIZATION",
+      "ects": 5,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı dosya sistemleri ve uygulamaları hakkında temel içerikleri vermektir. Konular, dosya sistemi hakkında bazı teorik ve uygulamalı bilgileri ve dosya sistemlerinin tasarımı, değiştirilmesi ve yönetilmesi gibi süreçleri kapsamaktadır. Bunların yanı sıra disk erişimi ve adresleme mekanizmalarıyla dosya tasarımı ve oluşturulması konuları da vardır. Bir başka önemli konu sıralama ve arama işlemlerini içeren harici depolama kavramıdır. Bunun dışında veri tabanlarının fiziksel dosyalar olarak depolanmasından dolayı veri tabanı organizasyonu ve ilişkisel yapıları da ele alınmaktadır.",
+      "description": "Disk erişimi ve adresleme, ikincil depolama aygıtlarının fiziksel özellikleri ve donanım konuları, veri için farklı dosya erişimlerini (sıralı/indekslenmiş sıralı/doğrudan) kullanma, farklı dosya organizasyonu metotlarıyla dosya erişim etkinliğini geliştirme, bit seviyesindeki yapılar, hesaba dayalı adresleme (hashing) mekanizmalarını kullanma, dosya sistemlerinin yazılımı ve donanımı arasındaki ilişki, indeksleri kullanma, birincil ve ikincil indeks oluşturma, çok seviyeli indeksleme, ikili ağaç yapıları, B-ağacı ve türevleri (B+, ISAM), diğer ağaç yapıları, dosyalar üzerinde farklı arama tekniklerinin uygulaması (sıralı, ekleme, ikili, vb.), farklı depolama problemlerini çözme, veri tabanı yönetim sistemlerine giriş.",
+      "learning_outcomes": [
+        "İkincil depolama aygıtlarını, dosya organizasyonunu ve adresleme araçlarını anlar.",
+        "Bir depolama probleminin etkin bir tasarım çözümünü algılar.",
+        "Disk verisi için farklı dosya erişim metotlarını, birincil ve ikincil indisleri kullanır.",
+        "Bazı genel problemlerin çözümü için bir programlama dili içerisinde veriyi gösterir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Tharp, A.L. File Organization and Processing. Wiley."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=jRSj9Ajettw%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2097",
+      "name": "FORMAL DİLLER VE OTOMATLAR",
+      "ects": 4,
+      "semester": 4,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Otomata teorisi ve formal dillere giriş yaparak, programlama dillerinden daha soyut hesaplama modellerini tanıtmak. Derleyici tasarımı ve yazılım mühendisliği gibi alanlar için temel oluşturan kavramları öğretmek.",
+      "description": "Sonlu durum otomatlarına giriş, diller ile sonlu durum otomatları arasındaki ilişkiler, düzgün diller ve düzgün ifadeler, düzgün gramerler, gramerlerde belirsizlik, normal formlar (Chomsky Normal Form, Greibach Normal Form), yığın yapılı otomatlar, bağlamdan bağımsız gramerler için yığın yapılı otomatlar ve bağlamdan bağımsız dillerin özellikleri.",
+      "learning_outcomes": [
+        "Soyut makine modellerini ve biçimsel dilleri anlamak için gerekli bilgiyi edinir.",
+        "Çeşitli biçimsel dilleri kabul edebilecek soyut makine modellerini tasarlama becerisi edinir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Peter Linz, An Introduction to Formal languages and Automata, Third Ed., Jones and Bartlett, 2001.",
+        "John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman, Introduction to Automata Theory, Languages and Computation, Second ed., Addison Wesley, 2001.",
+        "T.A. Sudkamp, Languages and Machines: An Introduction to the Theory of Computer Science."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=m16DjlvrF9Y%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "ODKP0001",
+      "name": "Kariyer Planlama",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 0,
+      "purpose": "Kariyer Planlama dersinin amacı, öğrencilerin kariyerlerini kendi zekâ, kişilik, bilgi, beceri, yetenek ve yetkinliklerine uygun olarak belirleyebilmeleri için yol göstermektir. Ders kapsamında bu kavramlar hakkında farkındalık yaratılması, kariyer merkezleri ve faaliyetlerinin tanıtılması, Yetenek Kapısı kullanımının gösterilmesi ve farklı sektörlerde çalışma hayatı ile tanışma fırsatı sunulması hedeflenmektedir.",
+      "description": "Kariyer Planlama dersi, Cumhurbaşkanlığı İnsan Kaynakları Ofisi tarafından oluşturulan taslak çerçevesinde; her hafta için hazırlanmış video ve etkinlikler ile üniversite öğretim üyeleri, sektör profesyonelleri, sivil toplum kuruluşları ve uluslararası örgütlerden davet edilecek misafir eğiticilerle işlenmesi hedeflenen bir derstir.",
+      "learning_outcomes": [
+        "Öğrencinin kariyerini kendi zekâ, kişilik, bilgi, beceri, yetenek ve yetkinliklerine uygun olarak belirleyebilmesi için yol göstermek"
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Cumhurbaşkanlığı İnsan Kaynakları Ofisi tarafından önerilen ders içeriğini destekleyen videolar.",
+        "Cumhurbaşkanlığı İnsan Kaynakları Ofisi tarafından hazırlanan kitap, makale, dergi, çevrim içi kaynaklardan oluşan Kariyer Planlama dersi literatürü.",
+        "Yetenek Kapısı platformu.",
+        "Ders sonu değerleme formu."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=mTVrdLwKg5k%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2062",
+      "name": "LOJİK DEVRE LABORATUVARI",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 2,
+      "purpose": "Dersin amacı temel lojik devreleri detaylarını, kombinezonsal ve ardışıl devreleri tasarlamayı, analiz etmeyi ve gerçeklemeyi öğretmektir.",
+      "description": "Sayısal İşaret ve Sistemlerine Giriş, sayı sistemleri ve dönüşümleri, Boolean Cebiri, Boolean Fonksiyonları ve Özellikleri, sadeleştirme yöntemleri olarak Karnaugh Haritası ve Tablo Yöntemi, sayısal mantık kapıları, belleksiz mantık (kombinezonsal) devresi tasarımı, toplayıcılar, çoğullayıcılar, kodçözücüler, kodlayıcılar, programlanabilir mantık devreleri (PAL, PLA, PROM, EPROM, EEPROM), saatli bellekli mantık (ardışıl) devrelerinin analizi, durum graf ve tablolarının elde edilmesi, durum tabloları ve durum kodlamaları, bellekli mantık (ardışıl) devre tasarımı, tutucular, flip-floplar, yazaçlar ve sayıcılar.",
+      "learning_outcomes": [
+        "Sayısal işaretler ve sistemler ile ilgili temel kavramları tanımlar.",
+        "Sayısal Devre Tasarımı ile ilgili kuramsal temelleri kavrar.",
+        "Sayısal devre elemanlarını tanır, fonksiyonlarını anlar.",
+        "Sayısal Devre Modüllerinin analizini yapmayı öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ciletti, M. D., & Mano, M. M. (2007). Digital design. Prentice-Hall.",
+        "Wakerly, J. F. (2008). Digital Design: Principles And Practices, 4/E. Pearson Education India."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=9ykSph0REO4%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2012",
+      "name": "Mikroişlemciler",
+      "ects": 4,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 2,
+      "purpose": "Bu dersin amacı mikroişlemciler hakkında bilgi edindirmek, Intel mikroişlemcilerine ilişkin kapsamlı bilgi vermek ve programlama tekniklerini öğretmektir.",
+      "description": "Mikroişlemcilerin tanımı, Intel ailesi mikroişlemcilerin yapısı, tarihi gelişimleri, mimarileri ve çalışma modları ele alınır. Ayrıca adresleme modları, veri transfer komutları, aritmetik-lojik ve kontrol komutları, 80286 Assembly dili komutları ve mikroişlemcinin programlanması işlenir.",
+      "learning_outcomes": [
+        "Intel mikroişlemci yapısını ve çalışma ilkelerini bilir.",
+        "Bellek tasarımı yapabilir.",
+        "Adresleme yöntemleri ve komut kümesi hakkında bilgi sahibi olur.",
+        "Assembly programlama dilini kullanarak program yazabilir.",
+        "Mikroişlemciye dayalı sistemlerin tasarım ve fonksiyonlarını daha iyi anlayabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "The Intel Microprocessors, 8086/8088, 80186/80188, 80286, 80386, 80486, Pentium, and Pentium Pro Processors, Pentium II, Pentium 4 and Core2 with 64-bit Extensions Architecture, Programming and Interfacing, Barry B. Brey, Prentice Hall, 8. Baskı, 2008.",
+        "x86 PC: Assembly Language, Design and Interfacing, Muhammad Ali Mazidi vd., 5. baskı, Prentice Hall, 2010."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=teOucX%2bZVWM%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2063",
+      "name": "PROGRAMMING APPLICATIONS",
+      "ects": 4,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Karmaşık yazılım projelerinde Nesneye Yönelik Programlama ve UML ile tasarım aşamasından kodlama aşamasına kadarki bütün sürecin öğrenilmesi. Daha kaliteli ve tekrar kullanılabilen proje geliştirme için gerekli programlama teknikleri ve tasarım yöntemlerinin öğrenilmesi. Günümüzde kullanılmakta olan Nesneye Yönelik Programlamaya dayalı web, mobil ve masaüstü uygulama teknolojileri hakkında bilgi edinilmesi ve bunları bir veri kaynağı ile bağlantılı olacak şekilde geliştirebilme. Proje, ödev ve laboratuvar çalışmaları ile bir tam Nesneye Yönelik Programlama dilinde edinilen öğrenimlerin deneyimlenmesi.",
+      "description": "Bu ders, öğrencilere programlama uygulamalarını tasarlamak ve geliştirmek için temel prensipleri ve teknolojileri öğretmeyi amaçlar. Bu derste, öğrenciler yazılım tasarımı, temiz kod yazma, refactoring, yazılım geliştirme yaşam döngüsü, yazılım mimarisi, gereksinim analizi, kullanıcı arayüzü tasarımı, güvenlik, performans, ölçeklenebilirlik ve paralel programlama konularını öğreneceklerdir. Öğrenciler ayrıca, .NET mimarisi, proje modelleri, ORM yaklaşımı, LINQ, ve fonksiyonel gereksinimler hakkında bilgi sahibi olacaklardır. Bu dersin laboratuvar bölümü, öğrencilerin teorik konuları uygulamalı olarak öğrenmelerine olanak tanıyacak ve öğrencilerin, yaratıcı kalıpların, yapısal kalıpların, davranışsal kalıpların ve kod temizleme gibi konuları öğrenmelerine yardımcı olacaktır. Ayrıca, masaüstü uygulamaları, web uygulamaları, veritabanı kullanımı, kimlik doğrulama, yetkilendirme ve performans testleri gibi çeşitli uygulamalar da bu bölümde yer alacaktır. Öğrenciler ayrıca, GitHub gibi popüler kod yönetimi araçlarını kullanarak işbirliği yapmayı öğreneceklerdir. Bu ders, öğrencilerin programlama uygulamalarını geliştirirken en son teknolojileri ve prensipleri kullanmalarına yardımcı olacak ve onları yazılım mühendisliği alanında başarılı kılmayı hedeflemektedir",
+      "learning_outcomes": [
+        "Tasarım Kalıpları, Refactoring ve Temiz Kod kavramlarını öğrenir.",
+        "Bir Nesneye Yönelimli Programlama dili ile farklı türlerde gelişmiş uygulama geliştirir.",
+        "Yazılım geliştirme sürecinde ihtiyaç duyacağı farklı araçları kullanmayı öğrenir.",
+        "Yazılım geliştirme sürecinde kodlama dışı faaliyetleri öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Fowler, Martin. Refactoring: Improving the Design of Existing Code. Addison-Wesley Professional, 2018",
+        ".NET BELGELERİ https://learn.microsoft.com/en-US/dotnet/"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=%2fd75mF9ODJ0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2081",
+      "name": "RANDOM AND STOCHASTIC PROCESSES",
+      "ects": 4,
+      "semester": 4,
+      "year": 2,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencileri rasgele süreçler hakkında bilgi sahibi yapmak.",
+      "description": "Poisson süreçleri, yenileme teorisi, Markov zincirleri, sürekli zaman Markov zincirleri, Martingales, rasgele yürüyüşler, Brownian hareketler, stokastik sıralama ilişkileri, Poisson yakınsamaları",
+      "learning_outcomes": [
+        "Rastgele süreçlerin temel kavramlarını öğrenir",
+        "Rastgelelik içeren fenomenlerin modellenmesini öğrenir.",
+        "Rastgele süreçler alanında ileri konuları çalışma becerisi kazanır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Sheldon M. Ross, \"Introduction to Probability Models\", 11th. ed., Wiley, 2014"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=UlFp6VR8i00%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU2002",
+      "name": "SAYISAL METOTLAR",
+      "ects": 3,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Öğrencilerin karmaşık bilimsel ve teknolojik problemleri sayısal metotlarla çözüm yöntemlerini öğretmek.",
+      "description": "Bazı kompleks bilimsel ve teknolojik problemlere detaylı ve analitik çözümler bulmak yerine sayısal yollarla bulunan çözümler yeterli olabilmektedir. Analitik olmayan hesaplamalı sonuçların bulunmasına genel olarak sayısal metotlar denmektedir. İşlenecek konular arasında kök bulma, sayısal türev, interpolasyon, sayısal integrasyon, en küçük kareler yöntemi, spline fonksiyonları ve ilk değer problemleri bulunmaktadır.",
+      "learning_outcomes": [
+        "Kayan noktalı sayılar, bilgisayar aritmetiği ve hata kavramlarını öğrenir.",
+        "Gerçek hayattaki problemler içim sayısal algoritmalar tasarlama, bilgisayarda uygulama ve sonuçları analiz etmeyi öğrenir.",
+        "Sayısal bir yöntemin doğruluğunu, tutarlılığını, kararlılığını ve yakınsamasını anlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Dr. Aysun Tezel Özturan, \"Bilgisayar Destekli Nümerik Analiz\", Nobel Yayınevi, 1. Basım, 2021, İstanbul"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=TRuoprO1E%2bw%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3029",
+      "name": "ALGORITHM ANALYSIS",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders, bilgisayar mühendisliği eğitimine başlayacak öğrencilerin algoritma kavramı ve programlama ile tanışmasını amaçlar. Öğrencilere algoritmaları anlama, problemleri algoritmaya dökme ve bu algoritmaları C dili ile gerçekleyerek programlamaya giriş yapma becerisi kazandırır.",
+      "description": "Algoritma kavramı, algoritmaları ifade etme biçimleri, özel bazı algoritmalar ve C dilinin temelleri.",
+      "learning_outcomes": [
+        "Bir problem çözüm yolu oluşturur.",
+        "Algoritma kavramını öğrenir.",
+        "Algoritmaları bir programlama dilinde ifade eder.",
+        "En kötü durum, en iyi durum, ortalama durum analizlerini gerçekleştirir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "C How to Program, 7/E, Paul Deitel & Harvey Deitel"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=ixiR1F9FpdQ%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3925",
+      "name": "ARTIFICIAL INTELLIGENCE AND EXPERT SYSTEMS",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "İnsan beyninin öğrenme mekanizmasının modellenmesi ve bu yaklaşımın bilgisayar sistemlerinin tasarımında nasıl kullanılabileceğini öğretmek. Öğrenme tekniklerini tanıtarak zeki sistemlerin tasarımı için gerekli bilgi ve becerileri kazandırmak.",
+      "description": "Yapay zekaya giriş ve temel kavramlar, problem çözümü, teorem geliştirme, arama metodları, öğrenme ve yapay zekanın uygulama alanları ele alınır. Uzman sistemler, görüntü analizi, robotlar, bilgisayarlarla algılama, doğal dil işleme, konuşma tanıma ve bulanık mantık gibi konular işlenir.",
+      "learning_outcomes": [
+        "Yapay zeka ve uzman sistemler kavramını ve algoritmalarını anlar ve tanımlar.",
+        "Belirli bir problemi çözmek için uygun yapay zeka algoritmalarını analiz eder ve belirler.",
+        "Temel yapay zeka algoritmalarını uygular."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Stuart Russell, Peter Norvig; “Artificial Intelligence A Modern Approach”, Prentice-Hall, Inc., 2009",
+        "Ivan Bratko; “Prolog programming for Artificial Intelligence”, Addison Wesley Publisher limited, 2001."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=htQESv0pzHc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3060",
+      "name": "BİLGİSAYAR ORGANİZASYONU VE TASARIMI LABORATUVARI",
+      "ects": 2,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 2,
+      "purpose": "Öğrencilerin bilgisayar donanım ünitelerinin tasarımlarını VHDL simülasyonları ile oluşturabilmesini ve bilgisayar organizasyon yapısını simülasyon yardımıyla anlamasını sağlamak.",
+      "description": "VHDL donanım tanımlama dili, saklayıcı dosyası tasarımı, ALU, ortak-yol sistemi ve veri-yolu sistemi tasarımı, donanımsal kontrol ünitesi tasarımı, merkezi işlem ünitesi tasarımı ve temel bir bilgisayar tasarımı.",
+      "learning_outcomes": [
+        "Bilgisayar organizasyon yapısını simülasyon yardımıyla anlar.",
+        "Bilgisayar organizasyon yapısını simülasyon yardımıyla anlar.",
+        "Bilgisayar organizasyon yapısını simülasyon yardımıyla anlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ashenden, P. J. (2010). The designer's guide to VHDL. Morgan Kaufmann."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=HpZUGiAQUHA%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3071",
+      "name": "CLOUD COMPUTING APPLICATIONS",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı öğrencilerin bulut bilişimin temellerini ve low-code uygulama geliştirmeyi öğrenmelerini sağlamaktır. Öğrenciler ders kapsamında sıfırdan bir endüstriyel uygulamayı tasarlayıp geliştirerek kullanıma alırlar.",
+      "description": "Bulut servislerinin konsept ve faydaları, bulut mimarisinin temelleri, uygulamalı bulut servisleri pratiği, low-code uygulama geliştirme konsepti ve faydaları, başlangıç seviyesinde uygulama geliştirme, veri görselleştirme ve ileri düzeyde uygulama geliştirme.",
+      "learning_outcomes": [
+        "Bulut ortamında çalışan servisleri tanır.",
+        "Low-Code uygulama tasarlar.",
+        "Low-Code uygulama geliştirme süreç ve tekniklerini bilir.",
+        "Bulut servisleri kullanılarak geliştirilen uygulamaları kullanıma alır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ders içerisinde Huawei firması tarafından verilecektir."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=FG43a%2brABOI%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3066",
+      "name": "DATA COMMUNICATIONS",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Haberleşme ağlarında iki nokta arasında veri iletişiminin nasıl gerçekleştirildiğini ve bu süreçte kullanılan temel kuralları, teknikleri ve mekanizmaları öğretmek amaçlanmaktadır. Öğrencilerin bilgisayar ağları konusuna geçmeden önce veri haberleşmesinin temel altyapısını edinmeleri hedeflenir.",
+      "description": "Veri iletişimi ve ağ kurmaya genel bakış; protokol mimarisi ve örnekleri; veri iletişim ağları; dijital ve analog veriler; işaretler; hata tespiti ve düzeltilmesi; asenkron/senkron iletim; hat yapılanışı; işaret şifreleme ve veri iletişimi teknikleri ele alınmaktadır. Konuların yapısal işleyiş biçimleri ve terminolojileri de incelenmektedir.",
+      "learning_outcomes": [
+        "Veri haberleşmesinde veri, sinyal ve iletim kavramlarını öğrenir.",
+        "Dijital ve analog haberleşmenin temel prensiplerini kavrar.",
+        "Kablolu ve kablosuz iletimdeki kayıp ve hata kaynaklarını öğrenir.",
+        "Kablolu ve kablosuz iletim ortamlarının bileşenlerini ve çalışma prensiplerini kavrar.",
+        "Veri haberleşme teknolojilerini kavramak için gerekli altyapıya sahip olur."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Stallings, W. (2018). Data And Computer Communications 10th Edition."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=Up%2bERrGt%2fJs%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3068",
+      "name": "MÜHENDİSLİK EKONOMİSİ",
+      "ects": 2,
+      "semester": 5,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=Od9WLxHDMYY%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3026",
+      "name": "OPERATING SYSTEMS",
+      "ects": 6,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "İşletim sistemlerinin düşük seviyede nasıl işlediği konusunda öğrencilerin farkındalığını arttırır.",
+      "description": "Bilgisayar donanımı, bilgisayar ve işletim sistemleri tarihçesi, prosesler ve iplikler, hafıza yönetimi.",
+      "learning_outcomes": [
+        "İşletim sistemleriyle ilgili temel kavramları öğrenir",
+        "İşletim sistemlerinin temel işlevlerini tanımlar",
+        "İşletim sistemlerinin temel bileşenlerini ve işlevlerini kavramsal olarak açıklayabilir",
+        "İşletim sistemlerinde üstünde durulan problemleri ve önerilen alternatif algoritmaları yazılı olarak ifade eder"
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Tanenbaum A. S ., Bos H. (2015) Modern Operating Systems 4th Edition, Amsterdam Netherlands: Pearson"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=1LNFiB%2b9oXQ%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3009",
+      "name": "SIGNAL PROCESSING",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Sinyaller ve sistemlerin temellerini tanıtmak.",
+      "description": "Lineer zamanla-değişmeyen sistemlerin zaman domeninde gösterimi, Fourier dönüşümleri, Laplace dönüşümleri, z-dönüşümleri ve filtreler.",
+      "learning_outcomes": [
+        "Sinyaller ve Sistemler kavramlarını öğrenir.",
+        "Lineer ve Zamanda Değişmeyen sistemler ve Konvolusyon kavramları ve operasyonlarını öğrenir.",
+        "Fourier Dönüşümlerini öğrenir.",
+        "Ayrık Fourier, Hızlı Fourier dönüşümlerini öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "\"Signals and Systems\", S. Haykin, B.V. Veen, 2nd. Ed., Wiley, 2003"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=NYXmVL0xxT8%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3070",
+      "name": "VERİ MADENCİLİĞİ",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı, veri madenciliği alanında üzerinde çalışılacak verilerin ön işlenmesini, bu alanda kullanılan güncel algoritmaları ve bu algoritmaların nasıl kullanıldığını öğrencilere anlatmaktır. Aynı zamanda Python dili ve Weka ortamında veri madenciliği uygulamaları geliştirmeyi ve elde edilen sonuçların nasıl değerlendirilmesi gerektiğini öğretmeyi amaçlamaktadır.",
+      "description": "Bu ders, veri madenciliği alanında üzerinde çalışılacak verilerin ön işlenmesi ile bu alanda kullanılan güncel algoritmalar ve bu algoritmaların nasıl kullanıldığını, Python dili ve Weka ortamında veri madenciliği uygulamaları geliştirmeyi ve elde edilen sonuçların nasıl değerlendirilmesi gerektiği konularını içermektedir.",
+      "learning_outcomes": [
+        "Veri Madenciliği Temel Kavram ve Yöntemleri ile kullanıldığı alanları öğrenir.",
+        "Veri Madenciliği ile işlenecek veriye uygulanacak ön işleme yöntemlerini öğrenir.",
+        "Orta düzeyde Python dilini öğrenir ve Veri Madenciliği alanında kullanılan Python dili ile kodlanmış örnek uygulamaları anlayıp, yeni uygulamalar geliştirebilir.",
+        "Weka platformunu öğrenir ve Veri Madenciliği alanında örnek uygulamaları weka ile test edip sonuçlarını yorumlayabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Yalçın Özkan, \"Veri Madenciliği Yöntemleri\", Papatya Yayıncılık, 2020",
+        "Jiawei Han, Micheline Kamber, Jian Pei, \"Data Mining Concepts and Techniques 3rd Edition\", Morgan Kauf, 2012"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=nCQehiixzPE%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3064",
+      "name": "VERİ TABANI YÖNETİM SİSTEMLERİ",
+      "ects": 5,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Veritabanı temel terim ve kavramlarının kavratılması; ilişkisel veri modeli, SQL, saklı prosedürler, fonksiyonlar, trigger'lar ve veritabanı uygulamalarının geliştirilmesi için temel oluşturmak.",
+      "description": "Veritabanı sistemlerini tanıtmak; E-R ve ilişkisel veri modelleriyle veritabanı tasarımı yapmak; bu tasarımları fiziksel veritabanında tablolar olarak kurmak; gerekli sorguları yazıp çalıştırmak; ODBC/JDBC, saklı prosedürler ve tetikleyiciler kullanarak veritabanı uygulamaları geliştirmek.",
+      "learning_outcomes": [
+        "Temel veritabanı kavramlarını ve prensiplerini anlamak; ilişkisel veritabanları, veri tabanı tasarımı, tablo oluşturma, veri türleri, anahtarlar ve ilişkiler gibi temel konuları öğrenmek.",
+        "SQL kullanarak veritabanlarına erişme; veri sorgulama, güncelleme, ekleme ve silme işlemlerini öğrenmek; SELECT, INSERT, UPDATE ve DELETE sorgularını kullanabilmek.",
+        "Veritabanı tasarımının temellerini anlamak; normalizasyon ve veri tabanlarını veri tutma ve işleme açısından optimize etme yeteneği geliştirmek.",
+        "Veritabanı yönetim sistemleri ile ilgili güvenlik konularını öğrenmek; yetkilendirme, kimlik doğrulama, veri şifreleme, güvenlik politikaları, veri yedekleme ve kurtarma stratejilerini anlamak."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Database Management Systems, Ramakrishnan"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=pbOOkrK7AGY%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3069",
+      "name": "Yönetim Bilişim Sistemleri",
+      "ects": 2,
+      "semester": 5,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "İşletmelerin yönetim süreçlerini desteklemek ve geliştirmek için bilişim teknolojilerini kullandığı bir sistem olan Yönetim Bilişim Sistemleri (YBS) hakkında temel bilgi kazandırmak; veri yönetimi, karar destek, iş süreçleri ve iletişim teknolojileri gibi bileşenleri tanıtarak verimliliği artırma, bilgiye dayalı karar alma ve rekabet avantajı sağlama becerisi geliştirmek.",
+      "description": "Yönetim Bilişim Sistemleri (YBS), işletmelerin veya organizasyonların yönetim süreçlerini desteklemek ve optimize etmek amacıyla bilişim teknolojilerini kullandığı bir yapıdır. YBS; veri tabanı yönetimi, karar destek sistemleri, iş süreçleri yönetimi, iletişim teknolojileri, veri analitiği ve stratejik bilgi sistemleri gibi bileşenleri içerir.",
+      "learning_outcomes": [
+        "Yönetim Bilişim Sistemleri ve kavramlarını öğrenir.",
+        "İşletmelerde Yönetim Bilişim Sistemleri uygulamalarını öğrenir.",
+        "Bir gerçek hayat problemine Yönetim Bilişim Sistemleri'ni nasıl uygulayacağını öğrenir.",
+        "Bir Yönetim Bilişim Sistemleri projesi yapar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Yönetim Bilişim Sistemleri",
+        "Yazar: Dr. Gülser Acar DONDURMACI ve Dr. Ayşe ÇINAR"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=W9rlHDL1DI0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3927",
+      "name": "BİLGİSAYAR GRAFİKLERİ",
+      "ects": 5,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bilgisayar grafik kütüphaneleri kullanarak bilgisayar grafikleri temellerini öğretmek ve öğrencilerin uygulama geliştirebilecek seviyeye gelmesini sağlamak.",
+      "description": "Bilgisayarda grafik işlemleri, iki boyutlu ve üç boyutlu işlemler, uzay eğrileri ve uzay yüzeyleri, saklı kenar ve saklı yüzey yöntemleri ile aydınlatma konuları işlenmektedir.",
+      "learning_outcomes": [
+        "Işık, izdüşüm ve aydınlama kavramlarını öğrenme ve şekiller üzerine uygulama",
+        "İki boyutlu ve üç boyutlu şekilleri tanımlamak ve yönetmek",
+        "Bilgisayar grafikleri temellerini öğrenmek",
+        "Bilgisayar grafikleri matematiksel temellerini öğrenmek"
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Peter Shirley, Steve Marschner Fundamentals Of Computer Graphics",
+        "Angel and Shreiner, Interactive Computer Graphics: A Top-Down Approach with WebGL, 7th edition.",
+        "Hearn and Baker, Introduction to Computer Graphics with OpenGL, Third Edition."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=OjTtPrSGWPs%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3024",
+      "name": "BİLGİSAYAR MİMARİSİ",
+      "ects": 6,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilerin komut seti tasarımını, bilgisayar organizasyonu bileşenlerini ve programlamasını, pipeline yapısını, bilgisayar bellek yönetimini, bilgisayar veri iletişimini ve farklı bilgisayar mimarilerinin tanınmasını öğrenmeleri hedeflenmektedir.",
+      "description": "Bilgisayar mimarisine giriş, komut seti tasarımı ve MIPS mimarisi, tek çevrimli işlemci mimarisi, çok çevrimli işlemci mimarisi, pipeline mimarisi ve pipeline bilgisayar sistemi, I/O organizasyonu, bellek organizasyonu, bilgisayar performans ölçümü, bilgisayar veri iletişimi, bilgisayar aritmetiği, çoklu işlemciler ve yeni mimari eğilimler.",
+      "learning_outcomes": [
+        "Bilgisayar mimarisini ve temel kavramlarını anlar.",
+        "Komut Seti Tasarımı yapabilir.",
+        "Komut Setine uygun kontrol devrelerini ve gerekli birimleri tasarlar.",
+        "Bilgisayar performanslarını analiz etme yeteneği kazanır.",
+        "Pipeline sistemlerin bir bilgisayar mimarisinde nasıl oluşturulabileceğini kavrar.",
+        "Bellek hiyerarşi sistemi kurarak bileşenlerin tasarımlarını yapabilir.",
+        "Bilgisayar IO mekanizmalarını tanır, IO arayüz tasarımını yapabilir ve bilgi iletişim protokollerini öğrenir.",
+        "Çoklu işlemci mimarilerini tanır ve yeteneklerini anlar. Bilgisayar mimarilerindeki teorik ve teknolojik gelişmeleri izleme yeteneği kazanır."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Bilgisayar Mimarisine Giriş",
+        "Hafta 2: Komut Seti Tasarımı: MIPS Mimarisi",
+        "Hafta 3: Tek Çevrimli İşlemci Mimarisi",
+        "Hafta 4: Çok Çevrimli İşlemci Mimarisi",
+        "Hafta 5: Pipeline Mimarisi",
+        "Hafta 6: Pipeline Bilgisayar Sistemi",
+        "Hafta 7: I/O Organizasyonu",
+        "Hafta 8: Bellek Organizasyonu",
+        "Hafta 9: Bilgisayar Performans Ölçümü",
+        "Hafta 10: Bilgisayar Veri İletişimi",
+        "Hafta 11: Bilgisayar Aritmetiği",
+        "Hafta 12: Çoklu İşlemciler",
+        "Hafta 13: Yeni Mimari Eğilimleri"
+      ],
+      "resources": [
+        "Computer Architecture: A Quantitaive Approach - David A. Patterson and John Hennessy, Morgan Kaufmann Publ.",
+        "Computer Organization and Architecture - William Stallings, 2013",
+        "Computer System Architecture - M. Morris Mano, Pritice Hall Int., Third Edition"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=JslTnocgAJ0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3031",
+      "name": "COMPUTER NETWORKS AND TECHNOLOGIES",
+      "ects": 6,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 4,
+      "hours_practice": 0,
+      "purpose": "Günümüz internet ve haberleşme kavramlarını anlayabilme ve kullanabilme yeteneğinin öğrenciye kazandırılması. Bilgisayar ağları kavramının temellerinin sunulması. Öğrencilerin TCP/IP mimarisinin temel protokollerinin işleyiş biçimlerine hakim ve ağ uygulamalarını kavrayabilecek düzeye gelmesini sağlamak. İleri seviye ağ protokolleri ve uygulamalarını anlayacak seviyede altyapı sahibi olmalarını sağlamak.",
+      "description": "İnternet ve Ağ kavramları, Ağ Protokolleri, TCP/IP Mimarisi, Uygulama Katmanı ve Protokolleri, İletim Katmanı Temelleri, TCP ve Tıkanık Kontrolü, Ağ Katmanı Temelleri, IP ve IP Adresleme",
+      "learning_outcomes": [
+        "ÖÇ1. İnternet ve bilgisayar ağlarının temel kavramlarını açıklayabilir.",
+        "ÖÇ2. TCP/IP mimarisinin genel işleyişini kavrar.",
+        "ÖÇ3. Uygulama, İletim ve Ağ katmanının görevlerini detaylı şekilde kavrar.",
+        "ÖÇ4. Internet haberleşme protokollerinin işleyişi hakkında bilgi sahibi olur.",
+        "ÖÇ5. Bilgisayar ağlarını temel alan tüm ileri teknolojiler, altyapılar ve sistemlerin temel prensiplerini kavramak için gerekli altyapıyı edinir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Kurose, J. F., & Ross, K. W. Computer networking: A top-down approach (Pearson) - 8. ve 7.Basım"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=aSXzvi17YTY%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3930",
+      "name": "Görüntü İşleme",
+      "ects": 5,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Görüntü işleme tanımları ve uygulama örneklerini vermek. Bu işlemler ile görüntülerdeki bilgileri çıkartmak için nasıl matematiksel yöntemler kullanılabildiğini göstermek.",
+      "description": "Görüntü işlemenin amacı ve genel bakış; matematiksel temeller; renk modelleri; evrişim (konvolüsyon); kenar bulma teknikleri; nicemleme (kuantizasyon); histogram teknikleri; bölütleme; Fourier dönüşümü; Hough dönüşümü; görüntü sıkıştırma teknikleri; morfolojik işlemler; yüz tanıma ve benzeri örüntü tanıma teknikleri.",
+      "learning_outcomes": [
+        "Görüntü işleme yöntemlerini tanır.",
+        "Çeşitli algoritmaları öğrenir ve bunların programlarını geliştirebilecek kabiliyetleri kazanır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Digital Image Processing - Rafael Gonzalez, Richard Woods"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=WS13edswuog%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3083",
+      "name": "İnsan Bilgisayar Etkileşimi",
+      "ects": 5,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu ders, öğrencilerin geliştirdikleri yazılım uygulamaları için etkili kullanıcı arayüzleri tasarlayabilmelerini sağlamayı amaçlar. İnsan bilgisayar etkileşimi alanındaki temel yaklaşım, ilke ve yöntemleri tanıtarak arayüz tasarımı ve kullanılabilirlik konularındaki eksiklikleri gidermeye katkıda bulunur.",
+      "description": "Grafiksel kullanıcı arayüz tasarımlarında insan bilgisayar etkileşiminin önemi, tasarım ilkeleri, prototipleme teknikleri, değerlendirme teknikleri ve arayüz tasarım uygulamaları.",
+      "learning_outcomes": [
+        "İnsan Bilgisayar Etkileşimi çalışma alanında bilgi sahibi olur.",
+        "Uygulama, web ya da mobil bir yazılım için ara yüz tasarlamada kullanabileceği teknikleri öğrenir.",
+        "Kullanılabilirlik konusunda bilgi sahibi olur ve tasarladığı ara yüzlerin kullanılabilirliğini nasıl arttırabileceğini öğrenir.",
+        "İnsan Bilgisayar Etkileşimi alanında literatüre girmiş ilke ve kuramlar hakkında bilgi sahibi olup onları tasarımlarında nasıl kullanacağını öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "B. Shneiderman, Designing the User Interface: Strategies for Effective Human-Computer Interaction, 5th Edition, Addison-Wesley, (2010)",
+        "Alan Dix, Janet Finlay, Gregory Abowd, & Russell Beale, Human-Computer Interaction (3rd ed.), Prentice Hall, 2003.",
+        "Donald Norman, The Design of Everyday Things, Basic Books, 2002."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=mns8Gm%2fltJc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3924",
+      "name": "İŞ HUKUKU",
+      "ects": 2,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "Çalışma hayatını düzenleyen kanunlar ve buna bağlı hukuksal düzenlemelerin öğrenilmesini sağlamak; işçi, işveren ve devlet ilişkilerini İş Kanunu hükümleri çerçevesinde kavratmak.",
+      "description": "Temel hukuk kavramları, iş hukuku kavramı, kaynakları ve uygulaması; bireysel iş sözleşmesinin kavramı ve kurulması; işçinin ve işverenin borçları; iş sözleşmesinin sona ermesi, şekilleri ve hukuki sonuçları; işin düzenlenmesi, iş süreleri, iş sağlığı ve güvenliği.",
+      "learning_outcomes": [
+        "İşçi, işveren, işyeri kavramlarını ve aralarındaki ilişkiyi öğrenir ve açıklar.",
+        "Sendikalar, toplu iş sözleşmesi ve grev ve lokavt sorunlarını irdeleyebilir.",
+        "Bir işçi veya işveren olarak haklarını ve çalışma hayatı düzenini (çalışma süreleri, dinlenme ve tatillere ilişkin) öğrenir ve analiz eder.",
+        "İş sözleşmesinin türlerini öğrenir. Hukuki açıdan sözleşme yükümlülüklerini ve yaptırımlarını değerlendirebilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "İş Kanunu",
+        "Çeşitli internet kaynakları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=acq50ZQkfoc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3904",
+      "name": "İş Sağlığı ve Güvenliği",
+      "ects": 2,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": "İş güvenliği, işçi sağlığı, çevre koruma, iş hijyeni ve iş güvenliği ekipmanları hakkında bilgi vermektir.",
+      "description": "Genel tanımlar, iş kazalarının nedenleri, işverenlerin yükümlülükleri ve iş kazalarının önlenmesi konuları işlenir. Ayrıca iş ekipmanlarında güvenlik, kişisel koruyucular, risk analizi ve değerlendirilmesi, risk algılama, risk değerlendirme metodları, işçi sağlığı ve iş güvenliği uygulamaları ile meslek hastalıkları ele alınır.",
+      "learning_outcomes": [
+        "İş güvenliği ve işçi sağlığı ile ilgili temel kavramları tanır.",
+        "İşyerlerinde sağlıklı ve güvenli bir çalışma ortamının oluşturulması bilgisi kazanır.",
+        "İlgili mevzuat hakkında bilgi kazanır.",
+        "Çevre koruma, iş hijyeni ve iş güvenliği ekipmanları hakkında bilgi edinir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Teknik notlar",
+        "Çeşitli kitaplar"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=jhJTdXj5ChA%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3019",
+      "name": "SOFTWARE ENGINEERING",
+      "ects": 6,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Dersi alan öğrencilerin yazılım mühendisliği ile ilgili temel kavramları öğrenmeleri. Yazılım geliştirme sürecinde dikkat edilecek hususların detaylı olarak incelenmesi. Proje yönetimi ve planlanması, gereksinimlerin belirlenmesi ve analizi konularında bilgi verilerek öğrenciye bu konularla ilgili perspektif kazandırılması. Yazılım maliyeti ve maliyeti etkileyen faktörler, maliyet tahmini için kullanılan modeller hakkında bilgi verilmesi. Yazılım analizi, tasarımı ve testi konularının ayrıntılı öğrenilmesi.",
+      "description": "Yazılım gelişimi yaşam döngüsü, yazılım gereksinimleri ve belirtimi, yazılım tasarımı ve gerçekleştirme, yazılım testi (doğrulama ve sağlama) ve bakım aşamaları, yazılım mühendisliği yönetimi, yazılım mühendisliği araç ve ortamları, veriye yönelik modeller, nesne ve sınıf kavramları ve temel özellikleri.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [
+        "Ian Sommerville, Software Engineering, 8th. Ed., Addison Wesley, 2006",
+        "Bernd Bruegge, Allen H. Dutoit, Object Oriented Software Engineering, 2010",
+        "Ders notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=tXx7DQ4Q6PY%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3926",
+      "name": "SOFTWARE TESTING AND QUALITY",
+      "ects": 5,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Dersin amacı, geliştirilen yazılımların, programların ve kodların etkin ve kaliteli olup olmadığının belirlenmesi ve bu amaçla farklı tipte testler uygulamaktır.",
+      "description": "Yazılım kalitesi, yazılım verimliliği, yazılım testi, fonksiyonel testler ve fonksiyonel olmayan testler.",
+      "learning_outcomes": [
+        "Bir problem çözüm yolu oluşturur.",
+        "Yazılım kalitesi kavramını öğrenir.",
+        "Yazılım verimliliğini arttırır.",
+        "Yazılımı test etmeyi başarır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Çeşitli yazılım mühendisliği kitapları",
+        "internet"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=%2f%2fkyobfEjAc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU3929",
+      "name": "WEB PROGRAMLAMA",
+      "ects": 5,
+      "semester": 6,
+      "year": 3,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "İnternet üzerinde içerik yayıncılığının yapılması için gereken teknolojilerin tanıtımı, istemci sunucu mimarisinde bir internet sayfasının geliştirilmesi için gerekli uçtan uca çözümlerin tecrübe edilmesi ve hızla değişen web teknolojilerinde güncel bilgilerin takibinin sağlanması.",
+      "description": "Dersimizde genel olarak HTTP üzerinde çalışacak hizmetlerin kullanımı anlatılacaktır. Bu kapsamda istemci tarafı teknolojileri; html, css, javascript, jquery, bootstap, javascript çerçeveleri (Angular, Vue, React) ve sunucu tarafı teknolojileri; .Net WebApi, NodeJs v.b. tanıtılacaktır. HTTP versiyonları arasındaki farklar, web uygulaması geliştirirken dikkat edilmesi gereken hususlar da ele alınacaktır.",
+      "learning_outcomes": [
+        "Web programlamanın temellerini kavrar.",
+        "Web programlama dillerini öğrenir.",
+        "Web programlama dili kullanarak veri tabanı işlemleri yapar.",
+        "Etkileşimli web sitesi yapar ve HTTP protokolü üzerinden çalışacak entegre yazılım çözümleri üretir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "https://www.w3schools.com/",
+        "https://getbootstrap.com/",
+        "https://vuejs.org/",
+        "https://jquery.com/",
+        "https://docs.microsoft.com/tr-tr/aspnet/core/?view=aspnetcore-6.0",
+        "C# 9 and .NET 5 - Modern CrossPlatform Development - Fifth Edition: Build Intelligent Apps, Websites, and Services With Blazor, ASP.NET Core, and Entity Framework Core Using Visual Studio Code Mark J. Price"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=T40E2D6PN2M%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4098",
+      "name": "BİLİŞİM PROJE GELİŞTİRME",
+      "ects": 10,
+      "semester": 7,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 1,
+      "hours_practice": 2,
+      "purpose": "Proje geliştirme ve yönetim süreçlerini anlatarak, bilgisayar mühendisliği alanında etkin bir şekilde edinilen bilgileri kullanabilmek.",
+      "description": "Proje Geliştirme ve Proje yönetimi süreçleri",
+      "learning_outcomes": [
+        "Proje geliştirme konusunda bilgi sahibi olur.",
+        "Proje yönetim süreçlerini öğrenir ve projenin özelliklerine göre doğru modelleri seçebilmeyi öğrenir.",
+        "İş hayatında çalıştığı projelere kolay adapte olur.",
+        "Araştırma ve sunum yetenekleri gelişir.",
+        "Proje geliştirme ve proje planı hazırlamayı öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "A Guide to the Project Management Body of Knowledge"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=%2beNjORprxkg%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4032",
+      "name": "DERLEYİCİ TASARIMI",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bilgisayar biliminde önemli bir araç olan derleyicilerin aşamalarının öğrenilmesi, derleyicilerin hangi yapıları içerdiğinin, derleyicilere özel algoritmaların, dil bilgisi kurallarının ve ayrıştırma tekniklerinin kavranması.",
+      "description": "Derleme aşamaları, sözlüksel analiz, sözdizim analizi, anlamsal analiz, aradüzey kod üretimi, hedef kod üretimi ve kod optimizasyonu.",
+      "learning_outcomes": [
+        "DÖÇ 1: Derleyici adımları hakkında temel bilgi; otomat teorisi ve biçimsel diller bilgisini kullanma becerisi edinir.",
+        "DÖÇ 2: Derleyicilerin tarayıcı modüllerini tasarlayıp, geliştirebilir.",
+        "DÖÇ 3: Derleyiciler için girdiye uygun ayrıştırıcı seçme becerisi edinir (yukarıdan-aşağıya veya aşağıdan-yukarıya).",
+        "DÖÇ 4: Derleyici tasarımı ve gerçeklenmesi için gerekli olan güncel teknolojiler konusunda bilgi ve bu teknolojileri etkin bir şekilde kullanabilme becerisi kazanır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Compilers: Principles, Techniques, and Tools, 2/E, Pearson Education, Prentice Hall, Alfred Aho, Ravi Sethi, Jeffrey Ullman, Monica S. Lam",
+        "Derse ait sunumlar"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=%2bdPEuKKfKl0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4088",
+      "name": "INTRODUCTION TO MACHINE LEARNING",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin temel amacı, öğrencilere makine öğrenimi konusunda güçlü bir temel oluşturarak bu hızla gelişen ve önem kazanan alana giriş yapmalarını sağlamaktır. Ders, öğrencilere makine öğreniminin ne olduğunu anlatmakla kalmayıp aynı zamanda denetimli, denetimsiz ve takviyeli öğrenme gibi temel öğrenme türleri hakkında kapsamlı bir bilgi sunmayı hedefler. Bu ders, öğrencileri makine öğrenimi konusunda bilgi sahibi ve uygulama becerileri ile donatarak geleceğin veri bilimcileri ve yapay zeka uzmanları olmalarına yardımcı olmayı amaçlar.",
+      "description": "Dersin içeriği, öğrencilere makine öğrenimi konusunda temel prensipleri ve uygulama becerilerini kazandırmayı amaçlar. Bu içerik, makine öğrenimi türleri (denetimli, denetimsiz, takviyeli öğrenme), veri analizi, veri ön işleme, temel algoritmalar (regresyon, sınıflandırma, kümeleme, boyut azaltma), derin öğrenme, model seçimi ve hiperparametre ayarı gibi temel konuları kapsar. Öğrenciler, bu içerikle makine öğrenimi projeleri geliştirmek ve uygulamak için gereken becerilere sahip olurlar.",
+      "learning_outcomes": [
+        "ÖÇ1-Öğrenciler, makine öğreniminin temel kavramlarını, öğrenme türlerini ve prensiplerini anlar. Makine öğrenimi alanına giriş yaparlar ve öğrenme türleri arasındaki farkları kavrarlar.",
+        "ÖÇ2-Dersi tamamlayan öğrenciler, veri toplama, temizleme ve analiz becerileri kazanır. Temel istatistik kavramlarını anlarlar ve veri görselleştirme tekniklerini kullanabilirler.",
+        "ÖÇ3-Öğrenciler, regresyon analizi ve sınıflandırma yöntemlerini anlar ve bu yöntemleri uygulayabilirler. Karar ağaçları, destek vektör makineleri, Naive Bayes ve K-En Yakın Komşu gibi temel sınıflandırma algoritmalarını kullanma becerileri geliştirirler.",
+        "ÖÇ4-Öğrenciler, derin öğrenme konularına giriş yaparlar ve yapay sinir ağları, evrişimli sinir ağları ve derin sinir ağları hakkında bilgi sahibi olurlar. Ayrıca, derin öğrenme uygulamalarını, özellikle görüntü işleme, doğal dil işleme, öneri sistemleri ve otomatik sürücüsüz araçlar gibi alanları anlarlar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Russell, S. J., & Norvig, P. (2010). Artificial intelligence a modern approach. London."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=jNuBZHuK3c8%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4089",
+      "name": "İNFORMASYON GÜVENLİĞİ VE KRİPTOLOJİ",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Dersi alan öğrencilerin geçmişte kullanılan basit kriptosistemler ile günümüzde kullanılan daha gelişmiş kriptosistemler hakkında bilgi sahibi olması amaçlanır. Ayrıca matematiksel düşünme ve matematiksel algoritmalarla problem çözme yeteneklerinin geliştirilmesi ve bilgi, ağ, veritabanı, akıllı kartlar, RFID ve internet üzerinden yapılan işlemlerin güvenliğinin nasıl sağlandığının öğrenilmesi hedeflenir.",
+      "description": "Kriptoloji kavramı, şifreleme ve şifre çözme mantığı, basit (klasik) şifreleme yöntemleri, simetrik ve asimetrik şifreleme yöntemleri ve uygulamaları ile bu yöntemlerin kullanım alanları ele alınır. DES, AES, RSA ve ElGamal kriptoloji sistemleri, eliptik eğriler ve kuantum kriptografi hakkında bilgi verilir. Ayrıca öğrencilere sunum konuları verilerek güncel kriptoloji konularının araştırılması sağlanır.",
+      "learning_outcomes": [
+        "Bilgi güvenliği ve kriptoloji temel kavramlarını açıklar, basit kriptosistemler üzerinde işlemler gerçekleştirir.",
+        "Kriptosistemlerde kullanılan matematiksel işlemleri kullanarak kriptografik problemleri çözer.",
+        "Açık anahtarlı ve gizli anahtarlı kriptosistemlerin detaylı bir şekilde işleyişini ve kullanım alanlarını öğrenir.",
+        "Eliptik eğriler ve dijital imza gibi kavramları detaylıca kavrar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Douglas R. Stinson, Cryptography Theory and Practice Second Edition, 2002.",
+        "Kenneth H. Rosen, Discrete Mathematics and its Applications Fourth Ed., McGraw-Hill, 2003.",
+        "Ders notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=QeCIdbmoS8Q%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4077",
+      "name": "Kablosuz Haberleşme Ağları",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Kablosuz ağ çeşitleri, standartları ve uygulamaları ile ilgili temel kavramlar hakkında bilgi vermek; haberleşme sırasında gerekli parametreleri tanıtmak ve performansla ilgili temel kavramları kazandırmak.",
+      "description": "Kablosuz ağ çeşitleri, IEEE standartları, ağ topolojileri, kablosuz LAN ve teknolojileri, kablosuz LAN sistemlerinin çalışma esasları, kullanılan frekanslar, cihazlar ve mimari yapısı; kişisel alan ağları; kablolu ve kablosuz ağlarda servis kalitesi parametreleri; kablosuz ağlarda SK parametresinin kontrolü; ağ yükünün azaltılması; olasılık-istatistik konularına giriş; trafik hesapları ve dağılımları; kablosuz haberleşmenin tarihçesi, dalgaboyu-frekans-osilasyon tanımları, standart kuruluşları, zayıf yanları, modülasyon teknikleri ve spektrum yararlanması; Wireless WANs, WMANs, WLANs, WPANs; kablosuz alan ağları çeşitleri ve kullanım alanları; WiMAX, Wi-Fi, Bluetooth ve ilgili IEEE standartları.",
+      "learning_outcomes": [
+        "Kablosuz ağlarla ilgili temel kavramları tanımlar.",
+        "Örnek kablosuz ağ üzerinde gerekli parametreleri kavrar.",
+        "Yeni teknolojik gelişmeleri değerlendirir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ders Notları",
+        "Internet"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=Dq%2fFhYFUlDc%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4084",
+      "name": "MOBILE PROGRAMMING",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Mobil programlama dersinde öğrenciler mobil uygulamaların tasarlanması, geliştirilmesi ve kurulumunu öğrenirler. Günümüz son kullanıcı yazılım sektöründe mobil platformlara yönelik ihtiyaçların analiz edilmesi ve kaliteli uygulama geliştirme ile dağıtım süreçlerinin kavranması amaçlanmaktadır. Ders sonunda öğrencilerin uygun geliştirme ortamı, bileşen ve kütüphane seçimi yapabilmesi ve bunları bir araya getirerek çözüm üretebilmesi hedeflenmektedir.",
+      "description": "Mobil programlamanın temelleri, nesne tabanlı programlama ve XML teknolojileri, mobil platformlar, geliştirme ortamları, kullanıcı arayüzü tasarımı, prosesler, grafik ve animasyon, alarmlar, sensörler, lokasyon ve haritalar, veritabanı programlama.",
+      "learning_outcomes": [
+        "Mobil yazılım geliştirme teknolojilerini tanır.",
+        "Mobil platformlarda çalışabilen uygulama geliştirir.",
+        "Mobil uygulamaların test edilmesi ve kurulmasını gerçekleştirir.",
+        "Mobil uygulama geliştirme süreç ve tekniklerini kavrar ve bunu başka alanlarda uygulayabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "flutter.dev çevrimiçi ders içeriği",
+        "developer.android.com çevrim içi ders içerikleri",
+        "diğer çevrim içi mobil programlama kaynakları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=Fg58fivTIEw%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4091",
+      "name": "NEURAL NETWORKS",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Yapay sinir ağı sistemleri ile ilgili temel kavramların öğrenilmesi ve yapay sinir ağı modelleri ile uygulama alanları hakkında bilgi edinilmesi.",
+      "description": "Yapay Sinir Ağlarına genel bakış; biyolojik ve yapay nöron modelleri ve özellikleri; yapay sinir ağı modelleri; tek katmanlı ve çok katmanlı yapay sinir ağları; ileri beslemeli ve geri beslemeli yapay sinir ağları; öğrenme algoritmaları ve öğrenme uygulamaları; çağrışımlı bellekler; Hopfield yapay sinir ağları; çift yönlü çağrışımlı bellek yapay sinir ağları; hücresel yapay sinir ağları; kararlılık analizi; yapay sinir ağlarının görüntü işleme uygulamaları.",
+      "learning_outcomes": [
+        "Yapay sinir ağları ile ilgili temel kavramları öğrenir.",
+        "Yapay sinir ağı modellerini ve uygulama alanlarını öğrenir.",
+        "Yapay sinir ağlarında öğrenme kavramını, çeşitlerini ve algoritmalarını öğrenir.",
+        "Yapay sinir ağları ile öğrenme uygulamalarının gerçekleştirilmesini öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Haykin S., Neural Networks, A Comprehensive Foundation, Second Edition, Prentice Hall, 1999.",
+        "Chua L.O., Roska T., Cellular Neural Networks and Visual Computing, Foundations and Applications, Cambridge University Press, 2002.",
+        "Ders notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=yxGUDacUnpI%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4090",
+      "name": "YÖNEYLEM ARAŞTIRMASI",
+      "ects": 5,
+      "semester": 7,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Yöneylem Analizi konusunda temel bilgilerin verilmesi, değişik yaklaşımların mukayesesi ve analizi.",
+      "description": "Doğrusal Programlama; Simpleks Yöntemi; Duyarlılık Analizi; Dual Problem; Transport Problemi; Oyun Teorisi; Şebeke Modelleri; Proje Yönetimi ve CPM/PERT; Simülasyon; Bekleme Hattı Problemleri.",
+      "learning_outcomes": [
+        "Doğrusal programlama yapabilir.",
+        "Simpleks yöntemi kullanır.",
+        "Problemlere uygun yöntemler geliştirir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "\"Yöneylem araştırması ve işletmecilik uygulaması\", Mehpare Timor, İÜ İşletme Fakültesi Yayınları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=9a16xbsJGSM%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4097",
+      "name": "BİTİRME PROJESİ",
+      "ects": 8,
+      "semester": 7,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 4,
+      "purpose": "Öğrencilerin eğitimleri süresince edindikleri teorik bilgileri, güncel konularda uygulamalı veya teorik bir bilimsel çalışma haline dönüştürebilme deneyimi edinmelerini sağlamak amaçlanmaktadır.",
+      "description": "Projelerin özel başlıkları bilgisayar yazılımı ve donanımı alanlarından belirlenebilir. Projeler, ilgili öğretim üyesinin danışmanlığında takım çalışması halinde yürütülür.",
+      "learning_outcomes": [
+        "Karmaşık bir probleme çözüm olacak bir proje nasıl geliştirilir öğrenir ve deneyimler",
+        "Proje sonucunun kalitesi ile ilgili bilgi veya test altındaki servis ile ortakların nasıl sağlanacağını öğrenir",
+        "Projeye bir çözümü uygulamak için, verilen bir programlama taslağını nasıl uygulayacağını öğrenir",
+        "Geniş kitlelere, fikirlerin nasıl sunulacağını öğrenir"
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Bilimsel veri tabanları, bilimsel kaynaklar (makale, derleme, kitap, tez vb.)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=I95%2f%2fGHILP0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "MUHORT01",
+      "name": "Karmaşık Mühendislik Tasarımı",
+      "ects": 2,
+      "semester": 7,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "Türkçe",
+      "hours_theory": 0,
+      "hours_practice": 2,
+      "purpose": "Öğrencilerin karmaşık mühendislik problemlerini tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz, modelleme ve optimizasyon yöntemlerini seçme ve uygulama becerisi kazanması. Öğrencilerin karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında analiz etme, belirli gereksinimleri karşılayacak şekilde iyileştirme ve tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama becerisi kazanması. Öğrencilerin karmaşık mühendislik problemlerinin veya disipline özgü araştırma konularının incelenmesi için veri toplama, model veya deney tasarlama, model kurma veya deney yapma, sonuçları analiz etme ve yorumlama becerisi kazanması. Öğrencilerin disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi; bireysel çalışma becerisi kazanması.",
+      "description": "Karmaşık mühendislik tasarımı esaslı bir proje konusunun disiplinler arası öğrenci grubu ve danışmanlar ile birlikte belirlenmesi. Belirlenen konu hakkında bilgi toplamak için kaynakça araştırılması ve sunulması.",
+      "learning_outcomes": [
+        "Karmaşık mühendislik problemlerini tanımlama, formüle etme ve çözme becerisi kazanır.",
+        "Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlama becerisi kazanır.",
+        "Karmaşık mühendislik problemlerinin veya disipline özgü araştırma konularının incelenmesi için model tasarlama, benzetim yapma, veri toplama, sonuçları analiz etme ve yorumlama becerisi kazanır.",
+        "Disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi; bireysel çalışma becerisi kazanır."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Verilen proje çalışmaları için farklı kaynaklardan derlenerek hazırlanan ders notu",
+        "Beitz, W., Pahl, G., & Grote, K. (1996). Engineering design: a systematic approach."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=UXpTSShoRK8%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4096",
+      "name": "Ağ Programlama",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bu dersin amacı öğrencilerin temel düzeyde ağ programlama becerisi edinmesini sağlamak, socket ve web programları yazımını ve mantığını kavratmaktır. Ayrıca internet kullanımını destekleyecek yazılımların geliştirilmesi için gerekli altyapıyı kazandırmayı hedefler.",
+      "description": "Ağ programlama için gerekli genel kavramlar olan multithreading, I/O programlama ve GUI programlama ele alınır. Ardından ağ katmanlı mimarisinde uygulama ve taşıma katmanı protokollerinin çalışma ilkeleri açıklanır. Sunucu üzerinde web uygulamaları ve web servisleri çalıştırmak için gerekli ayarlar gösterilir. Son olarak socket programlama ile server/client mantığında karşılıklı haberleşebilen uygulama geliştirilmesi anlatılır.",
+      "learning_outcomes": [
+        "Soket programlama bilgisi öğrenir.",
+        "Farklı web programlama teknolojilerini öğrenir.",
+        "Web servisi programlama ve çalışma mantığını öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "An Introduction to Network Programming with Java, 2nd Edition, by Jan Graba, Springer, 2007 (ISBN: 978-1-84628-380-2)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=PsMilpLHc60%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4093",
+      "name": "BİLGİSAYAR AĞLARINDA GÜVENLİK",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Bilgisayar ağlarında ve genel olarak haberleşme alanında kullanılan güvenlik yapılarının işleyişi konusunda bilgilendirmek, mevcut protokoller ve algoritmalar üzerinde uygulamaların nasıl işlediğine dair bakış açısını geliştirmektir. Ayrıca öğrencilerin güncel bilgisayar ağlarında güvenlik konularında bilgi sahibi olması sağlanır.",
+      "description": "Ağ güvenliği için gerekli olan kriptografi bilgileri, kriptoloji alanındaki temel algoritmalar ve şifreleme mekanizmaları, simetrik anahtar algoritmalarının işleyiş biçimleri ve çeşitleri, asimetrik anahtar algoritmaları, bilgisayar ağlarında güvenlik zorlukları ve bu zorluklarla ilgili çözüm yöntemleri, kablosuz ağlarda güvenlik, optik ağların güvenliği. Ayrıca öğrencilere ayrı ayrı sunum konuları verilir.",
+      "learning_outcomes": [
+        "Bilgisayar ve ağ güvenliği konusundaki temel bilgileri kavrar.",
+        "Kriptoloji algoritmalarını ve şifreleme mekanizmalarını değerlendirebilir.",
+        "Haberleşme güvenliği kavramını öğrenir.",
+        "Kimlik doğrulama protokollerini, e-posta ve web güvenliğini kavrar.",
+        "Farklı ağ türlerinin güvenliği ile ilgili konuları, telif hakkının önemini kavrar."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Network Security, Kaufman, C., Perlman, R., & Speciner, M., Private Communication in a Public World, Second Edition. New Jersey: Prentice Hall PTR, (2002).",
+        "Computer Networks, Fourth Edition. Tanenbaum, A.S., New Jersey: Pearson Education, Inc., (2003)."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=SzlYg1oksh0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4094",
+      "name": "Gömülü Sistemler ve Uygulamaları",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Gömülü sistemlerin nerelerde ve nasıl kullanıldığı hakkında bilgi sahibi olmak ve özel bir alanda tasarımını yapıp uygulama geliştirilmesini sağlamak. Gömülü sistemlerde kullanılan donanım yapılarının öğrenilmesi ve seçilen bir donanım üzerinde yazılım geliştirilebilmesi hedeflenmiştir. Yapılacak bir proje ile uygulama geliştirme hedefi bulunmaktadır.",
+      "description": "Gömülü sistem nedir, nerelerde ve nasıl kullanılır? İşlemci, entegre devreler ve tasarım teknolojilerinin bugün geldiği durum. Gömülü sistem donanımları ve yazılımları. Programlanabilir lojik yapılar ve ASIC tasarımı. FPGA yapısı, avantajları. Donanım tanımlama dilleri (HDL) ile FPGA programlama. FPGA seçimine uygun olarak bilgisayar destekli tasarım ve simülasyon. FPGA tabanlı çözümlerde HDL tabanlı kod geliştirme. Çeşitli proje uygulamaları.",
+      "learning_outcomes": [
+        "Gömülü sistemler hakkında bilgi sahibi olur.",
+        "Gömülü sistemlerde ne tür donanımların ve yazılım tekniklerinin kullanıldığını bilir.",
+        "FPGA tasarım süreçlerini bilir.",
+        "Donanım tanımlama dillerinden birini bilir.",
+        "Uygulama projesi geliştirebilir, Gömülü sistemler teknolojilerinin gelişimini takip edebilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Embedded Systems Design with Platform FPGAs: Principles and Practices, R. Sass, A. G. Schmidt, Elsevier, 2010.",
+        "Embedded System Design, P. Marwedel, Springer. 2006.",
+        "Embedded Core Design with FPGAs. Z. Navabi, McGraw-Hill Professional, 2006."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=QlsTRN27HKM%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4095",
+      "name": "OBJECT ORIENTED ANALYSIS AND DESIGN",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Nesne yönelimli yazılım sistemleri için analiz ve tasarım kavramlarının öğrenilmesi, UML diyagramları kullanarak görsel modeller oluşturulması, tasarım prensipleri, tasarım kalıpları ve bileşenlerinin uygulanması.",
+      "description": "Nesne Yönelimli kavramlar, Nesne Yönelimli Analiz ve Modelleme, Yazılım Geliştirme Süreci, UML diyagramlarının oluşturulması, nesne etkileşimlerinin anlaşılması, tasarım kalıpları ve örnek sistem çalışmaları",
+      "learning_outcomes": [
+        "Nesne Yönelimli Analiz ve Tasarım kavramlarını tanımlar ve problemlerin çözümü için bu kavramları uygulayabilir.",
+        "UML kullanarak, verilen bir problem için Nesne Yönelimli Analiz ve Tasarım dokümanlarını hazırlayabilir.",
+        "Tekrar Kullanma kavramı çerçevesinde tasarım kalıplarını uygulayabilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Bernd Bruegge, Allen H.Dutoit, Object Oriented Software Engineering, 2010."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=DQFwEZX4LKg%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4042",
+      "name": "SPECIAL TOPICS ON COMPUTER NETWORKS",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Öğrencilerin yeni nesil ağ teknolojileri ile ilgili temel seviyede bilgi kazanması ve iletişim teknolojileri alanındaki yenilikler konusunda bilgi sahibi olması amaçlanmaktadır.",
+      "description": "Yeni nesil ağ teknolojileri (4G/4G LTE, 5G), Nesnelerin İnterneti -internet of things (IoT), Bulut Bilişim, Yazılım tabanlı ağlar (SDN), yeşil ağlar, büyük veri, multimedya ağlar, yeni nesil iletişim teknolojilerinde güvenlik.",
+      "learning_outcomes": [
+        "Öğrenci yeni nesil ağ ve iletişim teknolojileri konularında temel seviyede bilgi sahibi olur.",
+        "Öğrenci farklı ağ teknolojilerinin işleyişleri ve kullanm alanları ile ilgili bilgi sahibi olur.",
+        "Öğrenciye konu ile ilgili güncel örnekler gösterilir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Öğretim üyesi notları",
+        "online kaynaklar"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=5rDCnzOB3h0%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "BIMU4043",
+      "name": "SYSTEM MODELING AND SIMULATIONS",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Dersi alan öğrencilerin sistem, model ve simülasyon kavramlarını öğrenmesi. Modelleme ve simülasyon çalışmasının adımlarını öğrenmesi. Bilgisayar simülasyon tekniklerini öğrenmesi. Ayrıca her öğrenciye bir sunum konusu verilerek sunum konusu hakkında bilgi edinmesinin ve iyi bir sunum hazırlanmasının sağlanması.",
+      "description": "Sistem Modelleme ve Simülasyona Giriş. Sistem Nedir? Model Nedir? Model Tipleri Nelerdir? Simülasyon Nedir? Simülasyon Tipleri Nelerdir? Modelleme ve Simülasyon çalışmasının adımları. Simülasyon modelleme için Temel istatistiksel kavramlar. Ayrık Olay Simülasyonları. Deterministik/Stokastik Simülasyonlar, Statik/Dinamik Simülasyonlar. Olasılık Dağılımları. Simülasyon Girdi Modelleme, Veri Toplama. Model Doğrulama Teknikleri. Çıktı Veri Analizi. Sistem modelleme ve Simülasyon çalışmalarına bakış. Öğrenci Sunumları",
+      "learning_outcomes": [
+        "Sistem modelleme ve simülasyonun temel kavramlarını öğrenir.",
+        "Simülasyon ve modelleme için gerekli istatistik bilgisine sahip olur.",
+        "Başarılı bir sistem modelleme ve simülasyon çalışmasının gereksinimlerini öğrenir.",
+        "Modelleme ve simülasyonun farklı uygulama alanlarında ne şekilde kullanıldığını öğrenir."
+      ],
+      "weekly_topics": [],
+      "resources": [
+        "Ders notları"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=SzV%2byOS%2fHJA%3d&bid=AGvtYP6HkBM%3d"
+    },
+    {
+      "code": "MUHG0001",
+      "name": "UYGULAMALI GİRİŞİMCİLİK",
+      "ects": 5,
+      "semester": 8,
+      "year": 4,
+      "type": "secmeli",
+      "language": "Türkçe",
+      "hours_theory": 2,
+      "hours_practice": 2,
+      "purpose": "Bir ülkenin gelişmesinde girişimlerin ve girişimcilerin rolünün önemini kavratmak; öğrencilerin kendi işini kurmak için gerekli kişisel özelliklerini ortaya koymalarını, gerekli bilgi ve beceriyi kazanmalarını ve bu yetkinlikleri uygulamalı olarak geliştirmelerini sağlamak.",
+      "description": "Girişimci, girişimcilik ve girişimcilikle ilgili temel kavramlar; girişimci düşünce biçiminin temelleri; girişimci kişiliğin sınanması; girişimcilik süreci; iş fikri geliştirme ve yaratıcılık; yaratıcı sorun çözme teknikleri; inovasyon; iş planı kavramı ve iş planı öğeleri; pazar araştırması, pazarlama planı, üretim planı, yönetim planı ve finansal plan; iş planı yazımı ve sunumu.",
+      "learning_outcomes": [
+        "Girişimcilik ve iş kurma faaliyetlerine yönelik teorik bilgiler alır.",
+        "İş planı oluşturma ve iş kurma sürecini öğrenir."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Girişimci, girişimcilik, girişimcilik ile ilgili temel kavramlar",
+        "Hafta 2: Girişimci düşünce biçiminin temelleri, girişimci kişiliğin sınanması",
+        "Hafta 3: Girişimcilik süreci, iş fikri geliştirme ve yaratıcılık",
+        "Hafta 4: Yaratıcı sorun çözme teknikleri, inovasyon",
+        "Hafta 5: İş planı kavramı ve iş planı öğeleri (pazar araştırma)",
+        "Hafta 6: Birincil ve ikincil kaynaklar kullanılarak pazarın araştırılması, müşterilerin belirlenmesi, mevcut ve gelecekteki ihtiyaçlar",
+        "Hafta 7: İş planı kavramı ve iş planı öğeleri (pazarlama planı)",
+        "Hafta 8: Pazarlama planı dahilinde pazarlama karmasının incelenmesi (ürün, fiyat, dağıtım, tutundurma)",
+        "Hafta 9: Pazar araştırma ve pazarlama planına yönelik atölye çalışması",
+        "Hafta 10: İş planı kavramı ve iş planı öğeleri (üretim (imalat/hizmet) planı)",
+        "Hafta 11: Üretimin planlanması, üretim (imalat/hizmet) planına yönelik atölye çalışması",
+        "Hafta 12: İş planı kavramı ve iş planı öğeleri (yönetim planı)",
+        "Hafta 13: Yönetimin fonksiyonları ele alınarak iş planına adaptasyonu, insan kaynakları yönetimi, yönetim planına yönelik atölye çalışması",
+        "Hafta 14: İş planı kavramı ve iş planı öğeleri (finansal plan), finansal kaynak bulma, yatırımın planlanması, finansal tabloların hazırlanması ve finansal yönetim unsurları, muhasebe (bütçe ve nakit akışı), finansal plana yönelik atölye çalışması",
+        "Hafta 15: İş planı öğeleri ve bütüncül bakış açısı, örnek iş uygulamaları, sürdürülebilirlik, değişimi yönetebilme ve büyüme",
+        "Hafta 16: İş planı yazımı ve sunumu"
+      ],
+      "resources": [
+        "Başarılı Bir Şirket için Fark Yaratan 10 İnovasyon Şifresi - Tom Kelley",
+        "İnovasyon Çemberi - Tom Peters",
+        "Ters İnovasyon - Vijay Govindarajan, Chris Trimble",
+        "Girişimcilik Kültürü - Ayşe İrmiş, İbrahim Durak, ve Lütfiye Özdemir",
+        "Adım Adım Girişimcilik - Rachelle Thackray",
+        "Sosyal Girişimcilik - Burcu Kümbül Güler",
+        "Yeni Girişimcilik - Arman Kırım",
+        "Girişimcilik ve Küçük İşletme Yönetimi - Orhan Küçük",
+        "Girişimciler için Kolay İş Planı Hazırlama - Tufan Karaca"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "https://ebs.iuc.edu.tr/home/izlence/?id=p8DMT2fq8Fk%3d&bid=AGvtYP6HkBM%3d"
+    }
+  ]
+}

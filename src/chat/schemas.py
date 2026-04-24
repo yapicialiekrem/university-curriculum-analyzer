@@ -119,6 +119,16 @@ class DashboardUpdate(BaseModel):
             return []
         return [str(x).strip() for x in v if x and str(x).strip()]
 
+    @field_validator("filter", mode="before")
+    @classmethod
+    def _coerce_filter(cls, v: Any) -> dict[str, Any]:
+        # LLM bazen `filter: null` döndürüyor — default'a düşelim
+        if v is None:
+            return {}
+        if not isinstance(v, dict):
+            return {}
+        return v
+
 
 class ChatResponse(BaseModel):
     """/api/chat endpoint cevabı."""

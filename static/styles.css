@@ -992,3 +992,60 @@ select:disabled {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* ── Chat: <ref> tag, citations, follow-up önerileri ────────── */
+.ref-inline {
+    background: rgba(99, 179, 237, 0.18);
+    color: #63b3ed;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-weight: 600;
+}
+
+.citations {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.citation-chip {
+    display: inline-block;
+    padding: 4px 10px;
+    background: rgba(99, 179, 237, 0.1);
+    border: 1px solid rgba(99, 179, 237, 0.3);
+    border-radius: 12px;
+    color: #90cdf4;
+    font-size: 0.8em;
+    text-decoration: none;
+    transition: background 0.15s;
+}
+
+.citation-chip:hover {
+    background: rgba(99, 179, 237, 0.25);
+}
+
+.follow-ups {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.suggestion-pill {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #e2e8f0;
+    padding: 5px 12px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 0.82em;
+    transition: background 0.15s;
+}
+
+.suggestion-pill:hover {
+    background: rgba(99, 179, 237, 0.2);
+    border-color: rgba(99, 179, 237, 0.4);
+}
