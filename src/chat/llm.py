@@ -43,7 +43,7 @@ from pathlib import Path
 from typing import Any, Literal, Optional
 
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import AzureOpenAI, OpenAI
 
 load_dotenv()
 
@@ -113,20 +113,58 @@ def _preview(s: Optional[str], n: int = LOG_PREVIEW_LEN) -> str:
 
 # ─── Client / maliyet yardımcıları ─────────────────────────────────────────
 
-def _get_client(tier: str) -> tuple[OpenAI, dict, str]:
-    """Tier için (client, cfg, model_name) döndür."""
+def _get_client(tier: str) -> tuple[Any, dict, str]:
+    """Tier için (client, cfg, model_name) döndür.
+
+    primary tier için öncelik sırası:
+        1. AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT varsa → Azure
+        2. OPENAI_API_KEY varsa                             → OpenAI
+        3. İkisi de yoksa → LLMError
+    fallback tier → OpenRouter (tek seçenek).
+
+    Azure'da `model` parametresi DEPLOYMENT adıdır (env: AZURE_OPENAI_DEPLOYMENT).
+    """
     if tier not in MODELS:
         raise LLMError(f"Bilinmeyen tier: {tier}")
-    cfg = MODELS[tier]
+    cfg = dict(MODELS[tier])    # kopya — provider'ı override edebiliriz
+
+    if tier == "primary":
+        azure_key = os.getenv("AZURE_OPENAI_API_KEY")
+        azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+        if azure_key and azure_endpoint:
+            # Azure OpenAI
+            deployment = (
+                os.getenv("AZURE_OPENAI_DEPLOYMENT")
+                or cfg["default_model"]
+            )
+            version = os.getenv("AZURE_OPENAI_API_VERSION",
+                                "2024-12-01-preview")
+            client = AzureOpenAI(
+                api_key=azure_key,
+                azure_endpoint=azure_endpoint,
+                api_version=version,
+            )
+            cfg["provider"] = "azure_openai"
+            return client, cfg, deployment
+
+        # Standart OpenAI fallback
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise LLMError(
+                "Ne AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT ne "
+                "OPENAI_API_KEY tanımlı (primary tier)"
+            )
+        client = OpenAI(api_key=api_key)
+        model_name = (
+            os.getenv(cfg["model_env"]) or cfg["default_model"]
+        )
+        return client, cfg, model_name
+
+    # fallback tier → OpenRouter (OpenAI-uyumlu REST)
     api_key = os.getenv(cfg["env_key"])
     if not api_key:
         raise LLMError(f"{cfg['env_key']} environment değişkeni tanımsız")
-
-    client_kwargs: dict[str, Any] = {"api_key": api_key}
-    if cfg["base_url"]:
-        client_kwargs["base_url"] = cfg["base_url"]
-
-    client = OpenAI(**client_kwargs)
+    client = OpenAI(api_key=api_key, base_url=cfg["base_url"])
     model_name = os.getenv(cfg["model_env"]) or cfg["default_model"]
     return client, cfg, model_name
 
@@ -164,11 +202,14 @@ def _call_once(
         messages.append({"role": "system", "content": system})
     messages.append({"role": "user", "content": prompt})
 
+    # max_completion_tokens — modern OpenAI/Azure modelleri max_tokens'ı
+    # 400 ile reddediyor (gpt-5-nano, o1/o3 ailesi). Yeni param her modelde
+    # çalışıyor.
     create_kwargs: dict[str, Any] = {
         "model": model_name,
         "messages": messages,
         "temperature": temperature,
-        "max_tokens": max_tokens,
+        "max_completion_tokens": max_tokens,
     }
     if json_mode:
         create_kwargs["response_format"] = {"type": "json_object"}
