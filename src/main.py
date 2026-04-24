@@ -4,6 +4,7 @@ main.py — FastAPI Backend for Curriculum Comparison System
 Provides REST API endpoints for:
     - Listing universities and courses
     - 11 comparison metrics (3 original + 8 new)
+    - AI-powered /api/chat (Intent → Context → ChatResponse)
 
 Usage:
     uvicorn main:app --reload
@@ -12,12 +13,19 @@ API Docs:
     http://localhost:8000/docs  (Swagger UI)
 """
 
+import logging
+
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from comparison import ComparisonEngine
+
+# YENİ: AI chat router (ADIM 8)
+from api import chat as chat_router
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="UniCurriculum — Curriculum Comparison API",
@@ -43,9 +51,24 @@ app.add_middleware(
 engine = ComparisonEngine()
 
 
-# Chat request model
-class ChatRequest(BaseModel):
-    message: str
+# YENİ (ADIM 8): AI chat router
+app.include_router(chat_router.router)
+
+
+@app.on_event("startup")
+async def startup():
+    """FAISS semantic searcher'ı warm-up et — ilk /api/chat isteğinin
+    ~2-3 saniye takılmasını önlemek için model + index önceden yüklenir.
+
+    Başarısızsa (index yoksa) uyarı loglanır; chat endpoint zaten
+    graceful fallback içeriyor."""
+    try:
+        from embeddings.search import get_searcher
+        get_searcher()
+        logger.info("✓ Semantic searcher warm-up tamam")
+    except Exception as e:
+        logger.warning("Semantic searcher warm-up başarısız (%s) — "
+                       "/api/chat yine çalışır ama ilk istek yavaş olur.", e)
 
 
 @app.on_event("shutdown")
@@ -113,12 +136,20 @@ def dashboard_kg_stats():
 
 
 # ---------------------------------------------------------------------------
-# Chatbot Endpoint
+# Chatbot — ESKİ Groq endpoint'i /api/chat-legacy'e taşındı.
+# Yeni /api/chat için bkz. api/chat.py (ADIM 8: Intent → Context → Cevap).
+# Eski endpoint backward-compat için hâlâ dönüyor; frontend yeni şemaya
+# geçtiğinde kaldırılabilir.
 # ---------------------------------------------------------------------------
 
-@app.post("/api/chat", tags=["Chatbot"])
-def chat(req: ChatRequest):
-    """AI-powered chatbot using Groq API (Llama 3.3) with Neo4j knowledge graph context."""
+class LegacyChatRequest(BaseModel):
+    message: str
+
+
+@app.post("/api/chat-legacy", tags=["Chatbot — Legacy"])
+def chat_legacy(req: LegacyChatRequest):
+    """DEPRECATED — Groq + Neo4j tabanlı eski chatbot. Yerine /api/chat
+    (AI pipeline: Intent → Context → ChatResponse) kullan."""
     if not req.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty.")
     answer = engine.answer_question(req.message)
