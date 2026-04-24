@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# UniCurriculum — FAISS index ve LLM log'ları
+src/embeddings/index/
+logs/
+
