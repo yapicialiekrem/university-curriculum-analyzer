@@ -74,7 +74,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840918&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840918&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:30.883012+00:00"
+      }
     },
     {
       "code": "MAT101",
@@ -119,7 +144,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840931&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840931&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:33.234240+00:00"
+      }
     },
     {
       "code": "TAR101",
@@ -167,7 +217,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840929&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840929&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:35.487830+00:00"
+      }
     },
     {
       "code": "TUR101",
@@ -223,7 +298,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840930&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840930&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:37.638131+00:00"
+      }
     },
     {
       "code": "YBS101",
@@ -266,7 +366,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840932&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840932&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:39.890402+00:00"
+      }
     },
     {
       "code": "YBS105",
@@ -311,7 +437,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840934&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840934&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:42.349172+00:00"
+      }
     },
     {
       "code": "YBS109",
@@ -355,7 +508,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840919&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840919&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:46.034466+00:00"
+      }
     },
     {
       "code": "YBS111",
@@ -396,7 +576,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840937&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840937&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "python"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:48.444446+00:00"
+      }
     },
     {
       "code": "ENG102",
@@ -441,7 +650,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840922&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840922&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:50.847991+00:00"
+      }
     },
     {
       "code": "TAR102",
@@ -489,7 +723,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840920&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840920&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:53.507518+00:00"
+      }
     },
     {
       "code": "TUR102",
@@ -540,7 +799,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840921&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840921&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:55.969950+00:00"
+      }
     },
     {
       "code": "YBS104",
@@ -583,7 +867,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840939&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840939&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:44:58.262577+00:00"
+      }
     },
     {
       "code": "YBS110",
@@ -627,7 +937,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840935&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840935&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:00.439226+00:00"
+      }
     },
     {
       "code": "YBS112",
@@ -668,7 +1004,41 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840936&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840936&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "distributed"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "blockchain",
+          "web services",
+          "cloud computing",
+          "big data",
+          "artificial intelligence",
+          "cyber security"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:02.837918+00:00"
+      }
     },
     {
       "code": "YBS114",
@@ -712,7 +1082,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840938&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840938&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:05.081821+00:00"
+      }
     },
     {
       "code": "YBS116",
@@ -757,7 +1154,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840933&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840933&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:07.333738+00:00"
+      }
     },
     {
       "code": "ENG201",
@@ -802,7 +1224,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840989&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840989&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:09.689799+00:00"
+      }
     },
     {
       "code": "HUK201",
@@ -844,7 +1291,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840981&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840981&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:11.920088+00:00"
+      }
     },
     {
       "code": "YBS203",
@@ -888,7 +1360,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840954&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840954&lang=tr",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:14.193348+00:00"
+      }
     },
     {
       "code": "YBS205",
@@ -932,7 +1431,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840984&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840984&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:16.549878+00:00"
+      }
     },
     {
       "code": "YBS213",
@@ -976,7 +1502,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840982&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840982&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "spss"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:18.906169+00:00"
+      }
     },
     {
       "code": "YBS215",
@@ -1018,7 +1573,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840968&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840968&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:21.671860+00:00"
+      }
     },
     {
       "code": "ADS-1",
@@ -1039,7 +1621,32 @@
       "categories": [
         "Alan Dışı Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:24.177857+00:00"
+      }
     },
     {
       "code": "MS2G",
@@ -1060,7 +1667,32 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:26.893093+00:00"
+      }
     },
     {
       "code": "YBS251",
@@ -1103,7 +1735,33 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840955&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840955&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:29.163939+00:00"
+      }
     },
     {
       "code": "YBS252",
@@ -1149,7 +1807,33 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840925&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840925&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:31.499840+00:00"
+      }
     },
     {
       "code": "YBS253",
@@ -1194,7 +1878,34 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840958&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840958&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:33.855449+00:00"
+      }
     },
     {
       "code": "YBS254",
@@ -1241,7 +1952,32 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840927&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840927&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:36.110247+00:00"
+      }
     },
     {
       "code": "YBS255",
@@ -1283,7 +2019,33 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840969&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840969&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:38.360873+00:00"
+      }
     },
     {
       "code": "YBS256",
@@ -1330,7 +2092,33 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840907&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840907&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:40.511969+00:00"
+      }
     },
     {
       "code": "YBS257",
@@ -1378,7 +2166,39 @@
       "categories": [
         "Mesleki Seçmeli-2G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840905&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840905&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "llm",
+          "transformer",
+          "rag",
+          "fine tuning"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.12,
+          "evaluate": 0.06,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:42.756631+00:00"
+      }
     },
     {
       "code": "ENG202",
@@ -1424,7 +2244,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840987&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840987&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:45.119942+00:00"
+      }
     },
     {
       "code": "HUK202",
@@ -1467,7 +2312,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840965&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840965&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:47.373888+00:00"
+      }
     },
     {
       "code": "MUH204",
@@ -1510,7 +2382,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840953&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840953&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:49.626166+00:00"
+      }
     },
     {
       "code": "YBS202",
@@ -1556,7 +2453,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840967&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840967&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:51.878140+00:00"
+      }
     },
     {
       "code": "YBS204",
@@ -1599,7 +2522,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840952&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840952&lang=tr",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.23,
+          "apply": 0.42,
+          "analyze": 0.15,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:54.335535+00:00"
+      }
     },
     {
       "code": "YBS214",
@@ -1643,7 +2593,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840957&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840957&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:57.303941+00:00"
+      }
     },
     {
       "code": "ADS-II",
@@ -1664,7 +2641,32 @@
       "categories": [
         "Alan Dışı Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:45:59.663290+00:00"
+      }
     },
     {
       "code": "MS2B",
@@ -1685,7 +2687,32 @@
       "categories": [
         "Mesleki Seçmeli-2B"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:01.912612+00:00"
+      }
     },
     {
       "code": "BAY301",
@@ -1729,7 +2756,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840949&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840949&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:04.239051+00:00"
+      }
     },
     {
       "code": "ENG301",
@@ -1774,7 +2826,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840990&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840990&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:06.829428+00:00"
+      }
     },
     {
       "code": "YBS305",
@@ -1817,7 +2894,45 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840912&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840912&lang=tr",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "html5",
+          "css",
+          "javascript",
+          "asp.net",
+          "mvc",
+          "web api"
+        ],
+        "legacy_tech_tags": [
+          "jsp",
+          "php",
+          "aspx"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:09.387811+00:00"
+      }
     },
     {
       "code": "YBS307",
@@ -1861,7 +2976,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840975&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840975&lang=tr",
+      "_enriched": {
+        "categories": [
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:11.640750+00:00"
+      }
     },
     {
       "code": "YBS317",
@@ -1908,7 +3049,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840993&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840993&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:13.893227+00:00"
+      }
     },
     {
       "code": "YBS319",
@@ -1954,7 +3121,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840986&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840986&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:16.146735+00:00"
+      }
     },
     {
       "code": "MOS3G",
@@ -1975,7 +3169,32 @@
       "categories": [
         "Mesleki Olmayan Seçmeli-3G"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:18.229356+00:00"
+      }
     },
     {
       "code": "YBS364",
@@ -2022,7 +3241,33 @@
       "categories": [
         "Mesleki Olmayan Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840902&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840902&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.02,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:20.548351+00:00"
+      }
     },
     {
       "code": "YBS365",
@@ -2067,7 +3312,33 @@
       "categories": [
         "Mesleki Olmayan Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840909&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840909&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:22.731869+00:00"
+      }
     },
     {
       "code": "YBS366",
@@ -2115,7 +3386,32 @@
       "categories": [
         "Mesleki Olmayan Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840992&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840992&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:24.953064+00:00"
+      }
     },
     {
       "code": "YBS367",
@@ -2164,7 +3460,32 @@
       "categories": [
         "Mesleki Olmayan Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840903&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840903&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:27.309312+00:00"
+      }
     },
     {
       "code": "MS3G",
@@ -2185,7 +3506,32 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:29.560802+00:00"
+      }
     },
     {
       "code": "YBS351",
@@ -2233,7 +3579,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840913&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840913&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:32.039928+00:00"
+      }
     },
     {
       "code": "YBS352",
@@ -2282,7 +3655,33 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840914&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840914&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:34.577849+00:00"
+      }
     },
     {
       "code": "YBS353",
@@ -2325,7 +3724,33 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840915&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840915&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:36.830502+00:00"
+      }
     },
     {
       "code": "YBS354",
@@ -2371,7 +3796,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840978&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840978&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:39.800196+00:00"
+      }
     },
     {
       "code": "YBS355",
@@ -2418,7 +3870,33 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840944&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840944&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:42.156070+00:00"
+      }
     },
     {
       "code": "YBS356",
@@ -2468,7 +3946,33 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840910&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840910&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:44.531944+00:00"
+      }
     },
     {
       "code": "YBS357",
@@ -2513,7 +4017,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840974&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840974&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:46.867438+00:00"
+      }
     },
     {
       "code": "YBS358",
@@ -2556,7 +4087,35 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840941&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840941&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "information technology"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:49.337009+00:00"
+      }
     },
     {
       "code": "YBS359",
@@ -2603,7 +4162,33 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840983&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840983&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:51.526837+00:00"
+      }
     },
     {
       "code": "YBS360",
@@ -2652,7 +4237,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840966&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840966&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:53.780348+00:00"
+      }
     },
     {
       "code": "YBS361",
@@ -2697,7 +4309,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840911&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840911&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:56.081609+00:00"
+      }
     },
     {
       "code": "YBS362",
@@ -2743,7 +4382,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840900&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840900&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:46:58.497279+00:00"
+      }
     },
     {
       "code": "YBS363",
@@ -2786,7 +4452,34 @@
       "categories": [
         "Mesleki Seçmeli-3G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840904&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840904&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:00.791602+00:00"
+      }
     },
     {
       "code": "ENG302",
@@ -2832,7 +4525,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840991&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840991&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:03.148564+00:00"
+      }
     },
     {
       "code": "YBS304",
@@ -2874,7 +4592,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840917&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840917&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "math"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:05.337572+00:00"
+      }
     },
     {
       "code": "YBS308",
@@ -2918,7 +4663,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840908&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840908&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:07.652312+00:00"
+      }
     },
     {
       "code": "YBS320",
@@ -2960,7 +4732,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840916&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840916&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:10.418922+00:00"
+      }
     },
     {
       "code": "YBS322",
@@ -3005,7 +4803,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840972&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840972&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:12.793481+00:00"
+      }
     },
     {
       "code": "YBS324",
@@ -3048,7 +4872,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840947&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840947&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:15.058726+00:00"
+      }
     },
     {
       "code": "MOS3B",
@@ -3069,7 +4920,32 @@
       "categories": [
         "Mesleki Olmayan Seçmeli-3B"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:17.078729+00:00"
+      }
     },
     {
       "code": "MS3B",
@@ -3090,7 +4966,32 @@
       "categories": [
         "Mesleki Seçmeli-3B"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:19.326632+00:00"
+      }
     },
     {
       "code": "ENG401",
@@ -3132,7 +5033,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840940&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840940&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:22.278379+00:00"
+      }
     },
     {
       "code": "YBS401",
@@ -3165,7 +5092,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840997&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840997&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:25.195259+00:00"
+      }
     },
     {
       "code": "YBS403",
@@ -3207,7 +5160,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840950&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840950&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:27.519175+00:00"
+      }
     },
     {
       "code": "YBS405",
@@ -3250,7 +5230,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840959&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840959&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:29.873466+00:00"
+      }
     },
     {
       "code": "YBS419",
@@ -3292,7 +5299,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840980&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840980&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:32.126552+00:00"
+      }
     },
     {
       "code": "MS4G",
@@ -3313,7 +5347,32 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:34.480814+00:00"
+      }
     },
     {
       "code": "YBS451",
@@ -3356,7 +5415,33 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840943&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840943&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:36.819422+00:00"
+      }
     },
     {
       "code": "YBS452",
@@ -3402,7 +5487,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840961&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840961&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:39.371579+00:00"
+      }
     },
     {
       "code": "YBS453",
@@ -3447,7 +5559,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840971&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840971&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:42.256170+00:00"
+      }
     },
     {
       "code": "YBS454",
@@ -3495,7 +5634,33 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840962&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840962&lang=tr",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:44.627940+00:00"
+      }
     },
     {
       "code": "YBS455",
@@ -3543,7 +5708,37 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840951&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840951&lang=tr",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "smart contracts"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.24,
+          "apply": 0.34,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:47.162566+00:00"
+      }
     },
     {
       "code": "YBS456",
@@ -3589,7 +5784,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840963&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840963&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:49.471550+00:00"
+      }
     },
     {
       "code": "YBS457",
@@ -3637,7 +5859,33 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840924&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840924&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:51.734671+00:00"
+      }
     },
     {
       "code": "YBS458",
@@ -3682,7 +5930,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840970&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840970&lang=tr",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:54.145550+00:00"
+      }
     },
     {
       "code": "YBS459",
@@ -3725,7 +6000,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840979&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840979&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:56.346154+00:00"
+      }
     },
     {
       "code": "YBS460",
@@ -3770,7 +6072,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840928&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840928&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:47:58.695654+00:00"
+      }
     },
     {
       "code": "YBS461",
@@ -3818,7 +6147,33 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840901&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840901&lang=tr",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:01.208914+00:00"
+      }
     },
     {
       "code": "YBS462",
@@ -3864,7 +6219,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840906&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840906&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:03.664768+00:00"
+      }
     },
     {
       "code": "YBS463",
@@ -3912,7 +6294,38 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840999&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840999&lang=tr",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "docker",
+          "kubernetes",
+          "cloud computing"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:06.092540+00:00"
+      }
     },
     {
       "code": "YBS464",
@@ -3957,7 +6370,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840960&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840960&lang=tr",
+      "_enriched": {
+        "categories": [
+          "security",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:08.605593+00:00"
+      }
     },
     {
       "code": "YBS465",
@@ -4001,7 +6441,33 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840899&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840899&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:11.077723+00:00"
+      }
     },
     {
       "code": "YBS466",
@@ -4044,7 +6510,33 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840995&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840995&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:13.411616+00:00"
+      }
     },
     {
       "code": "YBS467",
@@ -4092,7 +6584,34 @@
       "categories": [
         "Mesleki Seçmeli-4G"
       ],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840996&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840996&lang=tr",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:15.720420+00:00"
+      }
     },
     {
       "code": "ENG402",
@@ -4134,7 +6653,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840945&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840945&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:17.963179+00:00"
+      }
     },
     {
       "code": "YBS410",
@@ -4176,7 +6721,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840998&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840998&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:20.800196+00:00"
+      }
     },
     {
       "code": "YBS420",
@@ -4218,7 +6790,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840946&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840946&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:23.533952+00:00"
+      }
     },
     {
       "code": "YBS422",
@@ -4263,7 +6861,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840994&lang=tr"
+      "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=840994&lang=tr",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:26.193746+00:00"
+      }
     },
     {
       "code": "MS4B",
@@ -4284,7 +6909,143 @@
       "categories": [
         "Mesleki Seçmeli-4B"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:48:28.420196+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 100,
+    "enriched_courses": 100,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:48:28.926761+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 9,
+        "total_ects": 37,
+        "required_ects": 29
+      },
+      "programming": {
+        "courses": 9,
+        "total_ects": 40,
+        "required_ects": 24
+      },
+      "systems": {
+        "courses": 23,
+        "total_ects": 105,
+        "required_ects": 57
+      },
+      "ai_ml": {
+        "courses": 7,
+        "total_ects": 28,
+        "required_ects": 8
+      },
+      "data_science": {
+        "courses": 10,
+        "total_ects": 41,
+        "required_ects": 13
+      },
+      "security": {
+        "courses": 6,
+        "total_ects": 24,
+        "required_ects": 8
+      },
+      "web_mobile": {
+        "courses": 9,
+        "total_ects": 38,
+        "required_ects": 14
+      },
+      "software_eng": {
+        "courses": 17,
+        "total_ects": 84,
+        "required_ects": 68
+      },
+      "graphics_vision": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 5,
+        "total_ects": 21,
+        "required_ects": 5
+      },
+      "theory": {
+        "courses": 6,
+        "total_ects": 26,
+        "required_ects": 14
+      },
+      "info_systems": {
+        "courses": 60,
+        "total_ects": 259,
+        "required_ects": 135
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 5,
+        "total": 7
+      },
+      "data_science": {
+        "required": 3,
+        "elective": 7,
+        "total": 10
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 4,
+        "total": 5
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      },
+      "security": {
+        "required": 2,
+        "elective": 4,
+        "total": 6
+      },
+      "software_eng": {
+        "required": 13,
+        "elective": 4,
+        "total": 17
+      },
+      "web_mobile": {
+        "required": 3,
+        "elective": 6,
+        "total": 9
+      }
+    },
+    "earliest_technical_elective_semester": 3,
+    "project_heavy_course_count": 27,
+    "total_project_ects": 125,
+    "english_resources_ratio": 0.49
+  }
 }

@@ -67,7 +67,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L113"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L113",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:26.130805+00:00"
+      }
     },
     {
       "code": "YAP 191",
@@ -109,7 +135,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=YAP191"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=YAP191",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:28.588244+00:00"
+      }
     },
     {
       "code": "MAT 101",
@@ -151,7 +202,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=MAT101"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=MAT101",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:31.045500+00:00"
+      }
     },
     {
       "code": "FİZ 101",
@@ -195,7 +271,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z101"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z101",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:33.503737+00:00"
+      }
     },
     {
       "code": "FİZ 101L",
@@ -243,7 +346,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z101L"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z101L",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:35.963001+00:00"
+      }
     },
     {
       "code": "TÜR 101",
@@ -279,7 +407,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=T%C3%9CR101"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=T%C3%9CR101",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:38.125336+00:00"
+      }
     },
     {
       "code": "İNG 001",
@@ -321,7 +474,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG001"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG001",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:40.773761+00:00"
+      }
     },
     {
       "code": "BİL 211",
@@ -368,7 +546,34 @@
         "BİL 113"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L211"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L211",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.16,
+          "evaluate": 0.05,
+          "create": 0.07
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:43.131833+00:00"
+      }
     },
     {
       "code": "BİL 132",
@@ -408,7 +613,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L132"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L132",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:45.485928+00:00"
+      }
     },
     {
       "code": "MAT 102",
@@ -452,7 +684,33 @@
         "MAT 101"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=MAT102"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=MAT102",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:47.841110+00:00"
+      }
     },
     {
       "code": "FİZ 102",
@@ -503,7 +761,32 @@
         "FİZ 101"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z102"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z102",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:50.092935+00:00"
+      }
     },
     {
       "code": "FİZ 102L",
@@ -550,7 +833,32 @@
         "FİZ 102"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z102L"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=F%C4%B0Z102L",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:52.537306+00:00"
+      }
     },
     {
       "code": "TÜR 102",
@@ -589,7 +897,32 @@
         "TÜR 101"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=T%C3%9CR102"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=T%C3%9CR102",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:54.706764+00:00"
+      }
     },
     {
       "code": "İNG 002",
@@ -633,7 +966,32 @@
         "İNG 001"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG002"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG002",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:57.897439+00:00"
+      }
     },
     {
       "code": "BİL 133",
@@ -678,7 +1036,34 @@
         "BİL 132"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L133"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L133",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:00.234481+00:00"
+      }
     },
     {
       "code": "BİL 212",
@@ -720,7 +1105,34 @@
         "BİL 211"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L212"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L212",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:02.688765+00:00"
+      }
     },
     {
       "code": "BİL 265",
@@ -763,7 +1175,37 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L265"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L265",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "verilog",
+          "fpga"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:05.251459+00:00"
+      }
     },
     {
       "code": "BİL 245",
@@ -808,7 +1250,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L245"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L245",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:07.709670+00:00"
+      }
     },
     {
       "code": "AİT 201",
@@ -849,7 +1318,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=A%C4%B0T201"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=A%C4%B0T201",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:10.061705+00:00"
+      }
     },
     {
       "code": "İNG 003",
@@ -892,7 +1386,32 @@
         "İNG 002"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG003"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG003",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:12.456991+00:00"
+      }
     },
     {
       "code": "BİL 214",
@@ -938,7 +1457,34 @@
         "BİL 212"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L214"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L214",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:14.978235+00:00"
+      }
     },
     {
       "code": "BİL 334",
@@ -981,7 +1527,33 @@
         "BİL 133"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L334"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L334",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:17.299871+00:00"
+      }
     },
     {
       "code": "BİL 361",
@@ -1025,7 +1597,33 @@
         "BİL 265"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L361"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L361",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:19.999016+00:00"
+      }
     },
     {
       "code": "İKT 105",
@@ -1065,7 +1663,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0KT105"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0KT105",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:22.427050+00:00"
+      }
     },
     {
       "code": "OEG 101",
@@ -1108,7 +1731,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG101"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG101",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:24.808620+00:00"
+      }
     },
     {
       "code": "AİT 202",
@@ -1147,7 +1795,32 @@
         "AİT 201"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=A%C4%B0T202"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=A%C4%B0T202",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:27.064840+00:00"
+      }
     },
     {
       "code": "İNG 004",
@@ -1189,7 +1862,32 @@
         "İNG 003"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG004"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0NG004",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:29.416430+00:00"
+      }
     },
     {
       "code": "BİL 331",
@@ -1233,7 +1931,34 @@
         "BİL 212"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L331"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L331",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.07
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:31.975073+00:00"
+      }
     },
     {
       "code": "BİL 395",
@@ -1277,7 +2002,34 @@
         "BİL 214"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L395"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L395",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:34.433273+00:00"
+      }
     },
     {
       "code": "BİL 481",
@@ -1321,7 +2073,38 @@
         "BİL 211"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L481"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L481",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "devops",
+          "microservice",
+          "docker"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:36.888973+00:00"
+      }
     },
     {
       "code": "BİL 345",
@@ -1368,7 +2151,34 @@
         "MAT 102"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L345"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L345",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:39.349241+00:00"
+      }
     },
     {
       "code": "UGİ 315",
@@ -1408,7 +2218,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=UG%C4%B0315"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=UG%C4%B0315",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:41.615649+00:00"
+      }
     },
     {
       "code": "İYD 1",
@@ -1449,7 +2284,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD1"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:43.952203+00:00"
+      }
     },
     {
       "code": "OEG 200",
@@ -1488,7 +2348,33 @@
         "OEG 101"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG200"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG200",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.5,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:46.506577+00:00"
+      }
     },
     {
       "code": "BİL 372",
@@ -1532,7 +2418,34 @@
         "BİL 212"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L372"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L372",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:49.345474+00:00"
+      }
     },
     {
       "code": "BİL 461",
@@ -1576,7 +2489,33 @@
         "BİL 214"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L461"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L461",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:52.148320+00:00"
+      }
     },
     {
       "code": "YAP 470",
@@ -1620,7 +2559,34 @@
         "BİL 345"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=YAP470"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=YAP470",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:54.591868+00:00"
+      }
     },
     {
       "code": "İYD 2",
@@ -1663,7 +2629,32 @@
         "İYD 1"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD2"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD2",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:56.939992+00:00"
+      }
     },
     {
       "code": "OEG 300",
@@ -1702,7 +2693,32 @@
         "OEG 200"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG300"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG300",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.5,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:29:59.422452+00:00"
+      }
     },
     {
       "code": "BİL 452",
@@ -1746,7 +2762,34 @@
         "BİL 211"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L452"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L452",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:01.915654+00:00"
+      }
     },
     {
       "code": "BİL 495",
@@ -1787,7 +2830,40 @@
         "BİL 372"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L495"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L495",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "web_mobile",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "agile",
+          "version control",
+          "cloud computing",
+          "mobile applications",
+          "web applications"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:04.437615+00:00"
+      }
     },
     {
       "code": "İYD 3",
@@ -1830,7 +2906,32 @@
         "İYD 2"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD3"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD3",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:06.793432+00:00"
+      }
     },
     {
       "code": "OEG 400",
@@ -1869,7 +2970,34 @@
         "OEG 300"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG400"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=OEG400",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:09.250483+00:00"
+      }
     },
     {
       "code": "BİL 496",
@@ -1908,7 +3036,33 @@
         "BİL 495"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L496"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L496",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:11.748150+00:00"
+      }
     },
     {
       "code": "İYD 4",
@@ -1951,7 +3105,32 @@
         "İYD 3"
       ],
       "categories": [],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD4"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=%C4%B0YD4",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:14.164729+00:00"
+      }
     },
     {
       "code": "BİL 362",
@@ -1974,7 +3153,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L362"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L362",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:16.521308+00:00"
+      }
     },
     {
       "code": "BİL 346",
@@ -1997,7 +3202,32 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L346"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L346",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:18.774025+00:00"
+      }
     },
     {
       "code": "BİL 401",
@@ -2020,7 +3250,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L401"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L401",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "distributed",
+          "systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:21.230060+00:00"
+      }
     },
     {
       "code": "BİL 403",
@@ -2044,7 +3301,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L403"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L403",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:23.607652+00:00"
+      }
     },
     {
       "code": "BİL 404",
@@ -2067,7 +3350,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L404"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L404",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "distributed"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:26.045536+00:00"
+      }
     },
     {
       "code": "BİL 411",
@@ -2090,7 +3399,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L411"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L411",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:28.297725+00:00"
+      }
     },
     {
       "code": "BİL 414",
@@ -2113,7 +3449,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L414"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L414",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:30.653432+00:00"
+      }
     },
     {
       "code": "BİL 431",
@@ -2136,7 +3498,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L431"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L431",
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:32.940421+00:00"
+      }
     },
     {
       "code": "BİL 441",
@@ -2159,7 +3547,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L441"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L441",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:35.362000+00:00"
+      }
     },
     {
       "code": "BİL 471",
@@ -2183,7 +3598,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L471"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L471",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:37.823061+00:00"
+      }
     },
     {
       "code": "BİL 472",
@@ -2207,7 +3649,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L472"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L472",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "ai_ml",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:40.805503+00:00"
+      }
     },
     {
       "code": "BİL 473",
@@ -2231,7 +3700,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L473"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L473",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:43.144563+00:00"
+      }
     },
     {
       "code": "BİL 476",
@@ -2255,7 +3751,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L476"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L476",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:45.500128+00:00"
+      }
     },
     {
       "code": "BİL 482",
@@ -2278,7 +3801,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L482"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L482",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:48.107058+00:00"
+      }
     },
     {
       "code": "BİL 483",
@@ -2301,7 +3851,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L483"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L483",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:50.619932+00:00"
+      }
     },
     {
       "code": "BİL 486",
@@ -2326,7 +3902,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L486"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L486",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:53.282065+00:00"
+      }
     },
     {
       "code": "BİL 487",
@@ -2349,7 +3952,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L487"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L487",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:56.082289+00:00"
+      }
     },
     {
       "code": "BİL 488",
@@ -2373,7 +4003,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L488"
+      "source_url": "https://abys.etu.edu.tr/public/lesson.jsp?program=5&lang=tr&lesson=B%C4%B0L488",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:30:58.391130+00:00"
+      }
     },
     {
       "code": "ELE 362",
@@ -2395,7 +4052,33 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:00.794063+00:00"
+      }
     },
     {
       "code": "ELE 371",
@@ -2417,7 +4100,33 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:03.113006+00:00"
+      }
     },
     {
       "code": "ELE 422",
@@ -2439,7 +4148,32 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:05.434027+00:00"
+      }
     },
     {
       "code": "ELE 472",
@@ -2461,7 +4195,32 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "theory"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:07.736547+00:00"
+      }
     },
     {
       "code": "ELE 473",
@@ -2483,7 +4242,32 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:09.974485+00:00"
+      }
     },
     {
       "code": "ELE 519",
@@ -2505,7 +4289,33 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:12.289216+00:00"
+      }
     },
     {
       "code": "END 321",
@@ -2528,7 +4338,33 @@
         "Bilim Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:14.481454+00:00"
+      }
     },
     {
       "code": "END 294",
@@ -2550,7 +4386,32 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:16.630323+00:00"
+      }
     },
     {
       "code": "END 395",
@@ -2572,7 +4433,33 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:19.291789+00:00"
+      }
     },
     {
       "code": "END 507",
@@ -2594,7 +4481,34 @@
         "Bölüm Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:22.337204+00:00"
+      }
     },
     {
       "code": "MAT 421",
@@ -2615,7 +4529,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:24.721328+00:00"
+      }
     },
     {
       "code": "BMM 102",
@@ -2636,7 +4577,32 @@
       "categories": [
         "Bilim Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:26.802742+00:00"
+      }
     },
     {
       "code": "BMM 203",
@@ -2657,7 +4623,32 @@
       "categories": [
         "Bilim Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:29.223522+00:00"
+      }
     },
     {
       "code": "ELE 231",
@@ -2678,7 +4669,33 @@
       "categories": [
         "Bilim Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:31.653639+00:00"
+      }
     },
     {
       "code": "END 214",
@@ -2700,7 +4717,32 @@
         "Bilim Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:34.241342+00:00"
+      }
     },
     {
       "code": "KİM 101",
@@ -2721,7 +4763,32 @@
       "categories": [
         "Bilim Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:36.496260+00:00"
+      }
     },
     {
       "code": "MAK 201",
@@ -2743,7 +4810,32 @@
         "Bilim Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:38.747898+00:00"
+      }
     },
     {
       "code": "MAT 202",
@@ -2764,7 +4856,32 @@
       "categories": [
         "Bilim Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:40.999696+00:00"
+      }
     },
     {
       "code": "MBN 201",
@@ -2786,7 +4903,32 @@
         "Bilim Seçmeli",
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:43.153907+00:00"
+      }
     },
     {
       "code": "ELE 201",
@@ -2807,7 +4949,32 @@
       "categories": [
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:45.407018+00:00"
+      }
     },
     {
       "code": "ELE 301",
@@ -2828,7 +4995,33 @@
       "categories": [
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:47.658507+00:00"
+      }
     },
     {
       "code": "MAK 104",
@@ -2849,7 +5042,32 @@
       "categories": [
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:50.002535+00:00"
+      }
     },
     {
       "code": "BMM 202",
@@ -2870,7 +5088,32 @@
       "categories": [
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:52.373192+00:00"
+      }
     },
     {
       "code": "BMM 411",
@@ -2891,7 +5134,34 @@
       "categories": [
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:54.823756+00:00"
+      }
     },
     {
       "code": "BMM 421",
@@ -2912,7 +5182,34 @@
       "categories": [
         "Fakülte Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:57.180636+00:00"
+      }
     },
     {
       "code": "EÜT 105",
@@ -2933,7 +5230,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:31:59.535316+00:00"
+      }
     },
     {
       "code": "EÜT 211",
@@ -2954,7 +5276,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.55,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:01.867377+00:00"
+      }
     },
     {
       "code": "GİT 103",
@@ -2975,7 +5322,33 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:04.144047+00:00"
+      }
     },
     {
       "code": "GİT 309",
@@ -2996,7 +5369,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:06.499298+00:00"
+      }
     },
     {
       "code": "GİT 319",
@@ -3017,7 +5415,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:08.650194+00:00"
+      }
     },
     {
       "code": "HUK 115",
@@ -3038,7 +5461,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:10.902699+00:00"
+      }
     },
     {
       "code": "HUK 216",
@@ -3059,7 +5507,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:13.039163+00:00"
+      }
     },
     {
       "code": "HUK 313",
@@ -3080,7 +5553,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:15.326787+00:00"
+      }
     },
     {
       "code": "HUK 407",
@@ -3101,7 +5599,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:17.663209+00:00"
+      }
     },
     {
       "code": "HUK 439",
@@ -3122,7 +5645,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:19.915916+00:00"
+      }
     },
     {
       "code": "HUK 441",
@@ -3143,7 +5691,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:22.272058+00:00"
+      }
     },
     {
       "code": "İÇT 109",
@@ -3164,7 +5737,33 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:24.634727+00:00"
+      }
     },
     {
       "code": "İÇT 112",
@@ -3185,7 +5784,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:26.980136+00:00"
+      }
     },
     {
       "code": "İDE 101",
@@ -3206,7 +5830,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:29.233128+00:00"
+      }
     },
     {
       "code": "İDE 105",
@@ -3227,7 +5876,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:31.509505+00:00"
+      }
     },
     {
       "code": "İDE 108",
@@ -3248,7 +5922,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:34.454745+00:00"
+      }
     },
     {
       "code": "İKT 213",
@@ -3269,7 +5968,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:36.815755+00:00"
+      }
     },
     {
       "code": "İKT 233",
@@ -3290,7 +6014,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:38.887922+00:00"
+      }
     },
     {
       "code": "İKT 351",
@@ -3311,7 +6060,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:41.202174+00:00"
+      }
     },
     {
       "code": "İKT 472",
@@ -3332,7 +6106,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:43.569433+00:00"
+      }
     },
     {
       "code": "İŞL 253",
@@ -3353,7 +6152,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:45.821529+00:00"
+      }
     },
     {
       "code": "İŞL 361",
@@ -3374,7 +6198,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:48.005923+00:00"
+      }
     },
     {
       "code": "MAK 101",
@@ -3395,7 +6244,34 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:50.360820+00:00"
+      }
     },
     {
       "code": "MİM 113",
@@ -3416,7 +6292,33 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:52.687355+00:00"
+      }
     },
     {
       "code": "PSİ 103",
@@ -3437,7 +6339,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:55.041148+00:00"
+      }
     },
     {
       "code": "PSİ 104",
@@ -3458,7 +6385,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:57.366962+00:00"
+      }
     },
     {
       "code": "PSİ 337",
@@ -3479,7 +6431,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:32:59.646557+00:00"
+      }
     },
     {
       "code": "PSİ 453",
@@ -3500,7 +6477,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:02.000555+00:00"
+      }
     },
     {
       "code": "SAT 205",
@@ -3521,7 +6523,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:04.491432+00:00"
+      }
     },
     {
       "code": "SUİ 101",
@@ -3542,7 +6569,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:06.813709+00:00"
+      }
     },
     {
       "code": "SUİ 102",
@@ -3563,7 +6615,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:09.260137+00:00"
+      }
     },
     {
       "code": "SUİ 105",
@@ -3584,7 +6661,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:11.519915+00:00"
+      }
     },
     {
       "code": "SUİ 108",
@@ -3605,7 +6707,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:13.981863+00:00"
+      }
     },
     {
       "code": "SUİ 114",
@@ -3626,7 +6753,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:16.440322+00:00"
+      }
     },
     {
       "code": "SUİ 207",
@@ -3647,7 +6799,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:18.795647+00:00"
+      }
     },
     {
       "code": "SUİ 213",
@@ -3668,7 +6845,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:21.150542+00:00"
+      }
     },
     {
       "code": "TAR 113",
@@ -3689,7 +6891,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:23.300093+00:00"
+      }
     },
     {
       "code": "TAR 131",
@@ -3710,7 +6937,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:25.458206+00:00"
+      }
     },
     {
       "code": "TAR 223",
@@ -3731,7 +6983,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:27.760810+00:00"
+      }
     },
     {
       "code": "TAR 325",
@@ -3752,7 +7029,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:29.890629+00:00"
+      }
     },
     {
       "code": "TDE 111",
@@ -3773,7 +7075,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.5,
+          "understand": 0.35,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:32.209224+00:00"
+      }
     },
     {
       "code": "TDE 131",
@@ -3794,7 +7121,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:34.667243+00:00"
+      }
     },
     {
       "code": "TDE 132",
@@ -3815,7 +7167,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:37.123568+00:00"
+      }
     },
     {
       "code": "TDE 143",
@@ -3836,7 +7213,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:39.489463+00:00"
+      }
     },
     {
       "code": "YAP 192",
@@ -3857,7 +7259,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:41.724645+00:00"
+      }
     },
     {
       "code": "TDE 301",
@@ -3878,7 +7305,33 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "theory",
+          "not_cs"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.6,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:44.088707+00:00"
+      }
     },
     {
       "code": "TDE 310",
@@ -3899,7 +7352,32 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "theory"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:46.239876+00:00"
+      }
     },
     {
       "code": "BLT 406",
@@ -3920,7 +7398,143 @@
       "categories": [
         "Üniversite Seçmeli"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "graphics_vision"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:33:48.541826+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 136,
+    "enriched_courses": 136,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T20:33:49.045609+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 27,
+        "total_ects": 166,
+        "required_ects": 64
+      },
+      "programming": {
+        "courses": 14,
+        "total_ects": 94,
+        "required_ects": 52
+      },
+      "systems": {
+        "courses": 23,
+        "total_ects": 144,
+        "required_ects": 66
+      },
+      "ai_ml": {
+        "courses": 11,
+        "total_ects": 68,
+        "required_ects": 14
+      },
+      "data_science": {
+        "courses": 9,
+        "total_ects": 56,
+        "required_ects": 20
+      },
+      "security": {
+        "courses": 4,
+        "total_ects": 24,
+        "required_ects": 6
+      },
+      "web_mobile": {
+        "courses": 1,
+        "total_ects": 2,
+        "required_ects": 2
+      },
+      "software_eng": {
+        "courses": 23,
+        "total_ects": 151,
+        "required_ects": 109
+      },
+      "graphics_vision": {
+        "courses": 9,
+        "total_ects": 54,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 3,
+        "total_ects": 18,
+        "required_ects": 6
+      },
+      "theory": {
+        "courses": 26,
+        "total_ects": 162,
+        "required_ects": 72
+      },
+      "info_systems": {
+        "courses": 5,
+        "total_ects": 33,
+        "required_ects": 15
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 9,
+        "total": 11
+      },
+      "data_science": {
+        "required": 3,
+        "elective": 6,
+        "total": 9
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 9,
+        "total": 9
+      },
+      "security": {
+        "required": 1,
+        "elective": 3,
+        "total": 4
+      },
+      "software_eng": {
+        "required": 16,
+        "elective": 7,
+        "total": 23
+      },
+      "web_mobile": {
+        "required": 1,
+        "elective": 0,
+        "total": 1
+      }
+    },
+    "earliest_technical_elective_semester": null,
+    "project_heavy_course_count": 14,
+    "total_project_ects": 79,
+    "english_resources_ratio": 0.19
+  }
 }

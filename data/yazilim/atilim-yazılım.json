@@ -1,5 +1,5 @@
 {
-  "uni_name": "Atılım Üniversitesi",
+  "university_name": "Atılım Üniversitesi",
   "department": "Yazılım Mühendisliği",
   "faculty": "Mühendislik Fakültesi",
   "language": "İngilizce",
@@ -76,7 +76,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/802/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/802/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:06.374939+00:00"
+      }
     },
     {
       "code": "MATH151",
@@ -124,7 +150,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/803/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/803/detail",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:08.730475+00:00"
+      }
     },
     {
       "code": "ENG101",
@@ -170,7 +221,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/804/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/804/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:11.086705+00:00"
+      }
     },
     {
       "code": "CMPE109",
@@ -219,7 +295,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10837/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10837/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:13.542629+00:00"
+      }
     },
     {
       "code": "CHE105",
@@ -244,7 +347,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/20633/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/20633/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:15.795154+00:00"
+      }
     },
     {
       "code": "KRY111",
@@ -293,7 +421,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/19537/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/19537/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:18.253004+00:00"
+      }
     },
     {
       "code": "CMPE113",
@@ -343,7 +496,35 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/3666/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/3666/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "c"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:20.610215+00:00"
+      }
     },
     {
       "code": "HIST101",
@@ -398,7 +579,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199304/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199304/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:22.994104+00:00"
+      }
     },
     {
       "code": "ATU100",
@@ -417,7 +623,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199306/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199306/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:25.953055+00:00"
+      }
     },
     {
       "code": "SE112",
@@ -467,7 +698,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/769/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/769/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:28.307443+00:00"
+      }
     },
     {
       "code": "PHYS102",
@@ -511,7 +768,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/809/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/809/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:30.540486+00:00"
+      }
     },
     {
       "code": "ENG102",
@@ -558,7 +840,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/811/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/811/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:32.881020+00:00"
+      }
     },
     {
       "code": "CMPE114",
@@ -610,7 +917,33 @@
         "CMPE113"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/3667/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/3667/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:35.353444+00:00"
+      }
     },
     {
       "code": "HIST221",
@@ -654,7 +987,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17226/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17226/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:37.991528+00:00"
+      }
     },
     {
       "code": "HIST102",
@@ -707,7 +1065,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199305/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199305/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:40.678691+00:00"
+      }
     },
     {
       "code": "MATH152",
@@ -757,7 +1140,33 @@
         "MATH151"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/810/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/810/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:43.138833+00:00"
+      }
     },
     {
       "code": "CMPE225",
@@ -810,7 +1219,34 @@
         "CMPE114"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/773/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/773/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:45.427303+00:00"
+      }
     },
     {
       "code": "SE221",
@@ -859,7 +1295,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/775/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/775/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:47.741523+00:00"
+      }
     },
     {
       "code": "MATH275",
@@ -906,7 +1368,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/813/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/813/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:50.092391+00:00"
+      }
     },
     {
       "code": "CMPE251",
@@ -954,7 +1442,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/816/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/816/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:52.473655+00:00"
+      }
     },
     {
       "code": "SE212",
@@ -1000,7 +1514,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/770/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/770/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:54.809603+00:00"
+      }
     },
     {
       "code": "IE220",
@@ -1047,7 +1588,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/814/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/814/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:57.163527+00:00"
+      }
     },
     {
       "code": "MATH276",
@@ -1098,7 +1665,33 @@
         "MATH152"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/817/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/817/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:46:59.591566+00:00"
+      }
     },
     {
       "code": "ENG201",
@@ -1150,7 +1743,32 @@
         "ENG101"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/815/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/815/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:01.878828+00:00"
+      }
     },
     {
       "code": "CMPE226",
@@ -1202,7 +1820,34 @@
         "CMPE225"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/819/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/819/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:03.972460+00:00"
+      }
     },
     {
       "code": "ENG202",
@@ -1254,7 +1899,32 @@
         "ENG101"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/9652/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/9652/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:06.026780+00:00"
+      }
     },
     {
       "code": "SE345",
@@ -1304,7 +1974,32 @@
         "SE112"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/772/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/772/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:08.523192+00:00"
+      }
     },
     {
       "code": "SE321",
@@ -1352,7 +2047,34 @@
         "CMPE225 / CMPE102"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/778/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/778/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:10.888081+00:00"
+      }
     },
     {
       "code": "CMPE341",
@@ -1400,7 +2122,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/822/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/822/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:13.347619+00:00"
+      }
     },
     {
       "code": "FE302",
@@ -1419,7 +2168,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199308/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199308/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:15.699266+00:00"
+      }
     },
     {
       "code": "CMPE325",
@@ -1468,7 +2244,34 @@
         "CMPE225"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/823/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/823/detail",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:18.260009+00:00"
+      }
     },
     {
       "code": "SE399",
@@ -1498,7 +2301,33 @@
         "CMPE225"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/776/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/776/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:20.614805+00:00"
+      }
     },
     {
       "code": "SE344",
@@ -1546,7 +2375,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/774/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/774/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:22.969905+00:00"
+      }
     },
     {
       "code": "SE322",
@@ -1593,7 +2449,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/777/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/777/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.18,
+          "analyze": 0.28,
+          "evaluate": 0.18,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:26.248315+00:00"
+      }
     },
     {
       "code": "SE328",
@@ -1644,7 +2527,34 @@
         "CMPE226"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/9694/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/9694/detail",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:28.956128+00:00"
+      }
     },
     {
       "code": "FE301",
@@ -1663,7 +2573,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199307/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199307/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.02,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:31.059156+00:00"
+      }
     },
     {
       "code": "CMPE338",
@@ -1716,7 +2651,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10248/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10248/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:33.414798+00:00"
+      }
     },
     {
       "code": "SE499",
@@ -1746,7 +2707,33 @@
         "CMPE226"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/781/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/781/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:35.667324+00:00"
+      }
     },
     {
       "code": "MATH380",
@@ -1795,7 +2782,35 @@
         "MATH275 / MATH231"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14142/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14142/detail",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "matlab"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:38.332433+00:00"
+      }
     },
     {
       "code": "SE324",
@@ -1847,7 +2862,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/9695/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/9695/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:41.199399+00:00"
+      }
     },
     {
       "code": "TURK401",
@@ -1893,7 +2934,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17227/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17227/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:43.452836+00:00"
+      }
     },
     {
       "code": "SE494",
@@ -1945,7 +3011,33 @@
         "SE493 / FE302"
       ],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/3673/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/3673/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:45.746744+00:00"
+      }
     },
     {
       "code": "ISE441",
@@ -1994,7 +3086,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199309/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/199309/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:48.287336+00:00"
+      }
     },
     {
       "code": "SE340",
@@ -2044,7 +3163,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/771/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/771/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:51.130320+00:00"
+      }
     },
     {
       "code": "SE360",
@@ -2092,7 +3238,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/783/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/783/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:53.382918+00:00"
+      }
     },
     {
       "code": "SE440",
@@ -2142,7 +3315,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/784/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/784/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:56.140685+00:00"
+      }
     },
     {
       "code": "SE450",
@@ -2192,7 +3392,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/785/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/785/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:47:58.914098+00:00"
+      }
     },
     {
       "code": "TURK402",
@@ -2236,7 +3462,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17228/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17228/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:01.186948+00:00"
+      }
     },
     {
       "code": "SE453",
@@ -2286,7 +3537,35 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/786/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/786/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "uml"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:03.622589+00:00"
+      }
     },
     {
       "code": "SE460",
@@ -2350,7 +3629,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/787/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/787/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:06.081429+00:00"
+      }
     },
     {
       "code": "SE461",
@@ -2402,7 +3708,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/788/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/788/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:08.436667+00:00"
+      }
     },
     {
       "code": "SE446",
@@ -2452,7 +3784,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1163/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1163/detail",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:11.275730+00:00"
+      }
     },
     {
       "code": "SE470",
@@ -2502,7 +3861,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1164/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1164/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:13.749091+00:00"
+      }
     },
     {
       "code": "CMPE312",
@@ -2555,7 +3940,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1245/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1245/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:16.011599+00:00"
+      }
     },
     {
       "code": "CMPE376",
@@ -2611,7 +4022,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1246/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1246/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "graphics_vision",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:18.466976+00:00"
+      }
     },
     {
       "code": "SE462",
@@ -2668,7 +4106,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/801/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/801/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "math"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:20.821508+00:00"
+      }
     },
     {
       "code": "CMPE461",
@@ -2722,7 +4187,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1249/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1249/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:23.172691+00:00"
+      }
     },
     {
       "code": "CMPE318",
@@ -2778,7 +4270,39 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1248/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1248/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "java",
+          "lambda",
+          "generics",
+          "multithreading",
+          "gui"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:25.524653+00:00"
+      }
     },
     {
       "code": "CMPE326",
@@ -2831,7 +4355,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1251/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1251/detail",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:27.778145+00:00"
+      }
     },
     {
       "code": "CMPE473",
@@ -2883,7 +4433,36 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1255/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1255/detail",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "opengl"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:30.130126+00:00"
+      }
     },
     {
       "code": "ISE432",
@@ -2934,7 +4513,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1741/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1741/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:32.690255+00:00"
+      }
     },
     {
       "code": "ISE424",
@@ -2984,7 +4589,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2562/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2562/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:35.202849+00:00"
+      }
     },
     {
       "code": "ISE423",
@@ -3046,7 +4678,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1740/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1740/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "security"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:37.603094+00:00"
+      }
     },
     {
       "code": "CMPE465",
@@ -3097,7 +4756,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1254/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/1254/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:40.776477+00:00"
+      }
     },
     {
       "code": "ISE422",
@@ -3149,7 +4835,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2564/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2564/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:43.131252+00:00"
+      }
     },
     {
       "code": "ISE426",
@@ -3200,7 +4913,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2565/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2565/detail",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:45.675725+00:00"
+      }
     },
     {
       "code": "ISE261",
@@ -3246,7 +4986,38 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2568/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2568/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "javascript",
+          "css",
+          "xml"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:48.102137+00:00"
+      }
     },
     {
       "code": "ISE405",
@@ -3298,7 +5069,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2566/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2566/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:50.865636+00:00"
+      }
     },
     {
       "code": "ISE311",
@@ -3353,7 +5151,47 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2569/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2569/detail",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "html",
+          "css",
+          "javascript",
+          "php",
+          "dom",
+          "web servers",
+          "cookies",
+          "sessions"
+        ],
+        "legacy_tech_tags": [
+          "cgi",
+          "ssi",
+          "ssl"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:53.290333+00:00"
+      }
     },
     {
       "code": "ISE301",
@@ -3402,7 +5240,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2570/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2570/detail",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:56.033014+00:00"
+      }
     },
     {
       "code": "SE426",
@@ -3450,7 +5315,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/7055/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/7055/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:48:58.531015+00:00"
+      }
     },
     {
       "code": "ISE314",
@@ -3500,7 +5392,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2567/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/2567/detail",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:01.005337+00:00"
+      }
     },
     {
       "code": "SE421",
@@ -3551,7 +5470,39 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10128/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10128/detail",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "spark",
+          "hadoop",
+          "hdfs",
+          "mapreduce"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:03.652202+00:00"
+      }
     },
     {
       "code": "SE375",
@@ -3599,7 +5550,39 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10123/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10123/detail",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "arduino",
+          "virtual reality",
+          "motion capture",
+          "3d printing"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:06.170400+00:00"
+      }
     },
     {
       "code": "CMPE433",
@@ -3647,7 +5630,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10764/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10764/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:08.829022+00:00"
+      }
     },
     {
       "code": "CMPE343",
@@ -3700,7 +5710,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10798/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10798/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:11.287825+00:00"
+      }
     },
     {
       "code": "CMPE413",
@@ -3749,7 +5786,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10799/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10799/detail",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "ai_ml"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:13.721703+00:00"
+      }
     },
     {
       "code": "CMPE434",
@@ -3800,7 +5864,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10800/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10800/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:15.971284+00:00"
+      }
     },
     {
       "code": "CMPE435",
@@ -3854,7 +5945,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10801/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10801/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:18.251562+00:00"
+      }
     },
     {
       "code": "CMPE424",
@@ -3903,7 +6021,37 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10797/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10797/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "lex",
+          "yacc"
+        ],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:20.812212+00:00"
+      }
     },
     {
       "code": "CMPE462",
@@ -3953,7 +6101,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10803/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10803/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:23.064188+00:00"
+      }
     },
     {
       "code": "CMPE437",
@@ -4011,7 +6185,38 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10802/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10802/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "vhdl",
+          "spice",
+          "cad"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:25.315184+00:00"
+      }
     },
     {
       "code": "CMPE463",
@@ -4057,7 +6262,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10804/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10804/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:27.668399+00:00"
+      }
     },
     {
       "code": "CMPE466",
@@ -4109,7 +6341,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10806/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10806/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:29.923530+00:00"
+      }
     },
     {
       "code": "CMPE467",
@@ -4159,7 +6418,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10807/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10807/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:32.381094+00:00"
+      }
     },
     {
       "code": "ISE414",
@@ -4209,7 +6495,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10808/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10808/detail",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:34.940019+00:00"
+      }
     },
     {
       "code": "MATH427",
@@ -4258,7 +6571,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14136/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14136/detail",
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:37.885947+00:00"
+      }
     },
     {
       "code": "CMPE464",
@@ -4305,7 +6645,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10805/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/10805/detail",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "systems",
+          "math"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:40.264843+00:00"
+      }
     },
     {
       "code": "CMPE432",
@@ -4328,7 +6695,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14137/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14137/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:42.621671+00:00"
+      }
     },
     {
       "code": "ISE332",
@@ -4382,7 +6776,40 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14139/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14139/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "cloud computing",
+          "big data",
+          "internet of things",
+          "itil",
+          "cobit"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:45.022376+00:00"
+      }
     },
     {
       "code": "ISE353",
@@ -4431,7 +6858,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14140/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14140/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:47.535494+00:00"
+      }
     },
     {
       "code": "ISE434",
@@ -4477,7 +6931,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14143/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14143/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:49.798290+00:00"
+      }
     },
     {
       "code": "SE544",
@@ -4498,7 +6979,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14144/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14144/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:51.938549+00:00"
+      }
     },
     {
       "code": "SE427",
@@ -4521,7 +7028,38 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14145/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14145/detail",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "software_eng"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "smart contracts",
+          "cryptocurrencies"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:54.195581+00:00"
+      }
     },
     {
       "code": "SE481",
@@ -4542,7 +7080,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14146/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14146/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:56.444578+00:00"
+      }
     },
     {
       "code": "ISE308",
@@ -4563,7 +7128,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14141/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14141/detail",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:49:58.697146+00:00"
+      }
     },
     {
       "code": "SE483",
@@ -4584,7 +7176,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14147/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14147/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:00.844186+00:00"
+      }
     },
     {
       "code": "MECE447",
@@ -4620,7 +7238,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14148/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/14148/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:03.165789+00:00"
+      }
     },
     {
       "code": "SE362",
@@ -4641,7 +7286,38 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17235/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17235/detail",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "github",
+          "continuous integration",
+          "unit testing"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:05.560607+00:00"
+      }
     },
     {
       "code": "ISE542",
@@ -4694,7 +7370,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17233/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17233/detail",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:07.913218+00:00"
+      }
     },
     {
       "code": "SE422",
@@ -4715,7 +7417,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17236/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17236/detail",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:10.883744+00:00"
+      }
     },
     {
       "code": "CMPE430",
@@ -4765,7 +7494,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/18953/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/18953/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "graphics_vision"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:13.241251+00:00"
+      }
     },
     {
       "code": "SE573",
@@ -4786,7 +7542,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17234/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/17234/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:15.448490+00:00"
+      }
     },
     {
       "code": "ISE552",
@@ -4838,7 +7621,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/19450/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/19450/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "web_mobile",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:17.710748+00:00"
+      }
     },
     {
       "code": "SE457",
@@ -4890,7 +7700,38 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23281/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23281/detail",
+      "_enriched": {
+        "categories": [
+          "security",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "devops",
+          "owasp",
+          "mitre att&ck"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:20.303345+00:00"
+      }
     },
     {
       "code": "CMPE363",
@@ -4939,7 +7780,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23282/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23282/detail",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:22.864105+00:00"
+      }
     },
     {
       "code": "IE443",
@@ -4987,7 +7855,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23283/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23283/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:25.262957+00:00"
+      }
     },
     {
       "code": "ENE312",
@@ -5038,7 +7931,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23285/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23285/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:27.575717+00:00"
+      }
     },
     {
       "code": "ENE430",
@@ -5084,7 +8003,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23286/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23286/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:30.032060+00:00"
+      }
     },
     {
       "code": "IE314",
@@ -5133,7 +8079,34 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23287/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23287/detail",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:32.490570+00:00"
+      }
     },
     {
       "code": "MATE460",
@@ -5178,7 +8151,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23289/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23289/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:34.746878+00:00"
+      }
     },
     {
       "code": "ENE308",
@@ -5225,7 +8223,33 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23284/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23284/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:37.097217+00:00"
+      }
     },
     {
       "code": "MATE462",
@@ -5272,7 +8296,32 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23290/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23290/detail",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:39.553393+00:00"
+      }
     },
     {
       "code": "MFGE405",
@@ -5317,7 +8366,144 @@
       "categories": [
         "Alan Seçmeli"
       ],
-      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23291/detail"
+      "source_url": "https://www.atilim.edu.tr/tr/ects/site-courses/15/23291/detail",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:50:41.954363+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 114,
+    "enriched_courses": 114,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T21:50:42.463697+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 23,
+        "total_ects": 126,
+        "required_ects": 49
+      },
+      "programming": {
+        "courses": 28,
+        "total_ects": 144,
+        "required_ects": 39
+      },
+      "systems": {
+        "courses": 45,
+        "total_ects": 240,
+        "required_ects": 55
+      },
+      "ai_ml": {
+        "courses": 13,
+        "total_ects": 65,
+        "required_ects": 5
+      },
+      "data_science": {
+        "courses": 7,
+        "total_ects": 35,
+        "required_ects": 10
+      },
+      "security": {
+        "courses": 12,
+        "total_ects": 61,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 6,
+        "total_ects": 34,
+        "required_ects": 8
+      },
+      "software_eng": {
+        "courses": 49,
+        "total_ects": 275,
+        "required_ects": 119
+      },
+      "graphics_vision": {
+        "courses": 6,
+        "total_ects": 30,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 9,
+        "total_ects": 46,
+        "required_ects": 11
+      },
+      "theory": {
+        "courses": 22,
+        "total_ects": 122,
+        "required_ects": 55
+      },
+      "info_systems": {
+        "courses": 30,
+        "total_ects": 164,
+        "required_ects": 48
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 1,
+        "elective": 12,
+        "total": 13
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 5,
+        "total": 7
+      },
+      "distributed": {
+        "required": 2,
+        "elective": 7,
+        "total": 9
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 6,
+        "total": 6
+      },
+      "security": {
+        "required": 0,
+        "elective": 12,
+        "total": 12
+      },
+      "software_eng": {
+        "required": 19,
+        "elective": 30,
+        "total": 49
+      },
+      "web_mobile": {
+        "required": 1,
+        "elective": 5,
+        "total": 6
+      }
+    },
+    "earliest_technical_elective_semester": 3,
+    "project_heavy_course_count": 33,
+    "total_project_ects": 182,
+    "english_resources_ratio": 0.72
+  }
 }

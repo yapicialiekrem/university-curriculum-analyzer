@@ -66,7 +66,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell1_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell1_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:19.600682+00:00"
+      }
     },
     {
       "code": "ENG 231",
@@ -113,7 +140,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell2_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell2_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:21.991378+00:00"
+      }
     },
     {
       "code": "MATH 121",
@@ -159,7 +211,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell3_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell3_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:24.238609+00:00"
+      }
     },
     {
       "code": "PHYS 183",
@@ -203,7 +281,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell4_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell4_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:26.871071+00:00"
+      }
     },
     {
       "code": "SE 130",
@@ -248,7 +352,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell5_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell5_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:29.127387+00:00"
+      }
     },
     {
       "code": "TRD 157",
@@ -295,7 +426,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell6_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell6_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.4,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:31.990710+00:00"
+      }
     },
     {
       "code": "CEN 134",
@@ -348,7 +504,34 @@
         "CEN 133"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell8_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell8_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.07,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:34.346942+00:00"
+      }
     },
     {
       "code": "ENG 232",
@@ -395,7 +578,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell9_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell9_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:36.599102+00:00"
+      }
     },
     {
       "code": "MATH 122",
@@ -445,7 +653,33 @@
         "MATH 121"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell10_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell10_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:38.743807+00:00"
+      }
     },
     {
       "code": "MATH 123",
@@ -490,7 +724,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell11_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell11_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:41.004404+00:00"
+      }
     },
     {
       "code": "PHYS 184",
@@ -509,7 +769,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell12_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell12_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:43.144563+00:00"
+      }
     },
     {
       "code": "TRD 158",
@@ -558,7 +843,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell13_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell13_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:45.609347+00:00"
+      }
     },
     {
       "code": "ATA 151",
@@ -604,7 +914,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell15_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell15_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:48.489929+00:00"
+      }
     },
     {
       "code": "CEN 235",
@@ -650,7 +985,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell16_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell16_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:51.038037+00:00"
+      }
     },
     {
       "code": "MATH 224",
@@ -698,7 +1060,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell17_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell17_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:53.236843+00:00"
+      }
     },
     {
       "code": "MATH 225",
@@ -742,7 +1131,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell18_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell18_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:55.436585+00:00"
+      }
     },
     {
       "code": "SE 210",
@@ -796,7 +1211,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell19_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell19_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.12,
+          "create": 0.08
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:08:58.238491+00:00"
+      }
     },
     {
       "code": "SE 237",
@@ -841,7 +1282,33 @@
         "CEN 134"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell20_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell20_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:00.561758+00:00"
+      }
     },
     {
       "code": "ATA 152",
@@ -888,7 +1355,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell22_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell22_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:02.724235+00:00"
+      }
     },
     {
       "code": "CEN 408",
@@ -933,7 +1425,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell23_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell23_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:04.817955+00:00"
+      }
     },
     {
       "code": "CEN 417",
@@ -977,7 +1496,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell24_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell24_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:07.114694+00:00"
+      }
     },
     {
       "code": "MATH 221",
@@ -1021,7 +1567,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell25_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell25_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:09.365764+00:00"
+      }
     },
     {
       "code": "SE 211",
@@ -1067,7 +1639,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell26_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell26_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:11.619936+00:00"
+      }
     },
     {
       "code": "SE 240",
@@ -1110,7 +1708,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell27_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell27_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.28,
+          "analyze": 0.24,
+          "evaluate": 0.12,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:13.793014+00:00"
+      }
     },
     {
       "code": "UE XXX",
@@ -1131,7 +1756,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:15.910729+00:00"
+      }
     },
     {
       "code": "CEN 302",
@@ -1173,7 +1823,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell30_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell30_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:18.049061+00:00"
+      }
     },
     {
       "code": "CEN 360",
@@ -1222,7 +1898,33 @@
         "CEN 235"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell31_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell31_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:20.428899+00:00"
+      }
     },
     {
       "code": "SE 307",
@@ -1267,7 +1969,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell32_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell32_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:22.793283+00:00"
+      }
     },
     {
       "code": "SE 342",
@@ -1311,7 +2040,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell33_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell33_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "security",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:25.033874+00:00"
+      }
     },
     {
       "code": "FE XXX",
@@ -1332,7 +2088,32 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:27.185267+00:00"
+      }
     },
     {
       "code": "CEN 335",
@@ -1384,7 +2165,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell37_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell37_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.32,
+          "apply": 0.22,
+          "analyze": 0.28,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:30.257848+00:00"
+      }
     },
     {
       "code": "FOE 300",
@@ -1430,7 +2238,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell38_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell38_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:33.056563+00:00"
+      }
     },
     {
       "code": "SE 308",
@@ -1478,7 +2312,34 @@
         "SE 307"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell39_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell39_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "data_science"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:35.583529+00:00"
+      }
     },
     {
       "code": "SE 356",
@@ -1527,7 +2388,43 @@
         "SE 237"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell40_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell40_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "asp.net",
+          "ajax",
+          "javascript",
+          "ado.net",
+          "linq",
+          "entity framework",
+          "mvc",
+          "wcf"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:38.122817+00:00"
+      }
     },
     {
       "code": "IE 261",
@@ -1578,7 +2475,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell44_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell44_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.02,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:40.600194+00:00"
+      }
     },
     {
       "code": "SE 401",
@@ -1620,7 +2542,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell45_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell45_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:42.851891+00:00"
+      }
     },
     {
       "code": "SE 403",
@@ -1666,7 +2614,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell46_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell46_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:45.068297+00:00"
+      }
     },
     {
       "code": "SE 402",
@@ -1710,7 +2684,33 @@
         "SE 401"
       ],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell52_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell52_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.15,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:48.020255+00:00"
+      }
     },
     {
       "code": "SE 499",
@@ -1751,7 +2751,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell53_3$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdOgretimProgrami$cell53_3$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:50.230062+00:00"
+      }
     },
     {
       "code": "BIO 351",
@@ -1803,7 +2829,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell0_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell0_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:52.434947+00:00"
+      }
     },
     {
       "code": "CE 311",
@@ -1852,7 +2905,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell1_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell1_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:54.783669+00:00"
+      }
     },
     {
       "code": "CEN 309",
@@ -1903,7 +2983,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell2_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell2_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:57.002042+00:00"
+      }
     },
     {
       "code": "CEN 310",
@@ -1945,7 +3052,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell3_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell3_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:09:59.087587+00:00"
+      }
     },
     {
       "code": "CEN 319",
@@ -1989,7 +3123,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell4_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell4_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:01.264663+00:00"
+      }
     },
     {
       "code": "CEN 321",
@@ -2039,7 +3199,37 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell5_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell5_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "arduino",
+          "microcontrollers"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:03.640880+00:00"
+      }
     },
     {
       "code": "CEN 322",
@@ -2091,7 +3281,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell6_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell6_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:05.972307+00:00"
+      }
     },
     {
       "code": "CEN 331",
@@ -2133,7 +3350,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell7_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell7_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:08.251322+00:00"
+      }
     },
     {
       "code": "CEN 405",
@@ -2182,7 +3426,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell8_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell8_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:10.499419+00:00"
+      }
     },
     {
       "code": "CEN 410",
@@ -2203,7 +3473,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:12.651204+00:00"
+      }
     },
     {
       "code": "CEN 415",
@@ -2254,7 +3550,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell10_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell10_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:14.902668+00:00"
+      }
     },
     {
       "code": "CEN 416",
@@ -2301,7 +3624,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell11_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell11_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:17.062686+00:00"
+      }
     },
     {
       "code": "CEN 418",
@@ -2345,7 +3695,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell12_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell12_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:19.410194+00:00"
+      }
     },
     {
       "code": "CEN 420",
@@ -2395,7 +3772,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell13_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell13_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:22.500461+00:00"
+      }
     },
     {
       "code": "CEN 424",
@@ -2443,7 +3847,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell14_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell14_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:24.836676+00:00"
+      }
     },
     {
       "code": "CEN 425",
@@ -2491,7 +3922,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell15_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell15_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:27.179189+00:00"
+      }
     },
     {
       "code": "CEN 432",
@@ -2533,7 +3991,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell16_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell16_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:29.754143+00:00"
+      }
     },
     {
       "code": "CEN 433",
@@ -2581,7 +4066,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell17_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell17_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.28,
+          "apply": 0.35,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:32.089470+00:00"
+      }
     },
     {
       "code": "CEN 435",
@@ -2631,7 +4143,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell18_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell18_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:34.565961+00:00"
+      }
     },
     {
       "code": "CEN 445",
@@ -2681,7 +4220,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell19_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell19_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:37.024592+00:00"
+      }
     },
     {
       "code": "CEN 451",
@@ -2728,7 +4294,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell20_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell20_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:39.309953+00:00"
+      }
     },
     {
       "code": "CEN 482",
@@ -2778,7 +4371,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell21_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell21_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:41.485261+00:00"
+      }
     },
     {
       "code": "EE 306",
@@ -2828,7 +4448,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell22_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell22_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:43.728523+00:00"
+      }
     },
     {
       "code": "EE 341",
@@ -2876,7 +4522,32 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell23_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell23_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:46.033769+00:00"
+      }
     },
     {
       "code": "EE 412",
@@ -2926,7 +4597,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell24_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell24_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:48.435076+00:00"
+      }
     },
     {
       "code": "EE 431",
@@ -2982,7 +4679,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell25_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell25_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:51.257116+00:00"
+      }
     },
     {
       "code": "IE 323",
@@ -3028,7 +4752,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell26_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell26_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:53.934363+00:00"
+      }
     },
     {
       "code": "IE 412",
@@ -3074,7 +4825,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell27_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell27_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "math",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:56.273841+00:00"
+      }
     },
     {
       "code": "IE 420",
@@ -3121,7 +4899,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell28_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell28_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.28,
+          "analyze": 0.28,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:10:58.762323+00:00"
+      }
     },
     {
       "code": "IE 424",
@@ -3166,7 +4971,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell29_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell29_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:01.545638+00:00"
+      }
     },
     {
       "code": "IE 431",
@@ -3219,7 +5050,41 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell30_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell30_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "ai_ml",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "sap erp",
+          "sap business ai",
+          "sap joule",
+          "machine learning",
+          "deep learning",
+          "generative ai"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:04.241842+00:00"
+      }
     },
     {
       "code": "IE 438",
@@ -3270,7 +5135,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell31_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell31_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:06.617045+00:00"
+      }
     },
     {
       "code": "IE 462",
@@ -3318,7 +5209,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell32_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell32_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:08.849222+00:00"
+      }
     },
     {
       "code": "ITL 420",
@@ -3362,7 +5279,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell33_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell33_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:11.105547+00:00"
+      }
     },
     {
       "code": "PHYS 284",
@@ -3406,7 +5349,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell34_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell34_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:13.319238+00:00"
+      }
     },
     {
       "code": "SE 207",
@@ -3453,7 +5422,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell35_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell35_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "web_mobile"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:17.384383+00:00"
+      }
     },
     {
       "code": "SE 305",
@@ -3501,7 +5497,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell36_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell36_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.18,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:19.724678+00:00"
+      }
     },
     {
       "code": "SE 311",
@@ -3553,7 +5576,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell37_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell37_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:21.975587+00:00"
+      }
     },
     {
       "code": "SE 312",
@@ -3574,7 +5624,32 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:24.230538+00:00"
+      }
     },
     {
       "code": "SE 315",
@@ -3617,7 +5692,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell39_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell39_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:26.583725+00:00"
+      }
     },
     {
       "code": "SE 319",
@@ -3660,7 +5761,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell40_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell40_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:29.043824+00:00"
+      }
     },
     {
       "code": "SE 322",
@@ -3681,7 +5809,32 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:31.192006+00:00"
+      }
     },
     {
       "code": "SE 335",
@@ -3739,7 +5892,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell42_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell42_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:33.474720+00:00"
+      }
     },
     {
       "code": "SE 343",
@@ -3783,7 +5963,36 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell43_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell43_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "ionic"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.12,
+          "evaluate": 0.03,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:36.208615+00:00"
+      }
     },
     {
       "code": "SE 355",
@@ -3829,7 +6038,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell44_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell44_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:38.464367+00:00"
+      }
     },
     {
       "code": "SE 360",
@@ -3874,7 +6110,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell45_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell45_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:40.716695+00:00"
+      }
     },
     {
       "code": "SE 363",
@@ -3926,7 +6189,38 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell46_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell46_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "javafx",
+          "jdbc",
+          "sql"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:43.180569+00:00"
+      }
     },
     {
       "code": "SE 364",
@@ -3970,7 +6264,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell47_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell47_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:45.351455+00:00"
+      }
     },
     {
       "code": "SE 366",
@@ -4014,7 +6334,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell48_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell48_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:47.576147+00:00"
+      }
     },
     {
       "code": "SE 373",
@@ -4058,7 +6405,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell49_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell49_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:49.931103+00:00"
+      }
     },
     {
       "code": "SE 383",
@@ -4109,7 +6483,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell50_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell50_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:52.183559+00:00"
+      }
     },
     {
       "code": "SE 390",
@@ -4165,7 +6566,39 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell51_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell51_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 74,
+        "modern_tech_tags": [
+          "llm",
+          "tensorflow",
+          "keras",
+          "scikit-learn"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.15
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:54.742813+00:00"
+      }
     },
     {
       "code": "SE 410",
@@ -4207,7 +6640,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell52_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell52_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:57.730573+00:00"
+      }
     },
     {
       "code": "SE 417",
@@ -4251,7 +6711,33 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell53_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell53_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:11:59.967375+00:00"
+      }
     },
     {
       "code": "SE 426",
@@ -4295,7 +6781,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell54_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell54_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:02.275987+00:00"
+      }
     },
     {
       "code": "SE 434",
@@ -4348,7 +6861,38 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell55_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell55_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "gephi",
+          "nodexl",
+          "python"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:04.741283+00:00"
+      }
     },
     {
       "code": "SE 454",
@@ -4395,7 +6939,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell56_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell56_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:07.030866+00:00"
+      }
     },
     {
       "code": "SE 456",
@@ -4440,7 +7011,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell57_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell57_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "graphics_vision",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:09.387986+00:00"
+      }
     },
     {
       "code": "SE 464",
@@ -4485,7 +7083,34 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell58_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell58_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:11.866249+00:00"
+      }
     },
     {
       "code": "SE 465",
@@ -4530,7 +7155,37 @@
       "categories": [
         "Field Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdASEC$cell59_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdASEC$cell59_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "devops",
+          "llm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:14.214708+00:00"
+      }
     },
     {
       "code": "ALM 151",
@@ -4586,7 +7241,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell0_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell0_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:16.555472+00:00"
+      }
     },
     {
       "code": "ALM 152",
@@ -4644,7 +7324,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell1_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell1_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.35,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:18.876238+00:00"
+      }
     },
     {
       "code": "ANİM 311",
@@ -4693,7 +7398,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell2_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell2_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:21.110329+00:00"
+      }
     },
     {
       "code": "ANİM 409",
@@ -4738,7 +7468,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell3_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell3_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:23.375844+00:00"
+      }
     },
     {
       "code": "ENG 020",
@@ -4781,7 +7536,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell4_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell4_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.3
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:25.652027+00:00"
+      }
     },
     {
       "code": "GEC 107",
@@ -4829,7 +7609,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell5_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell5_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.3
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:27.905630+00:00"
+      }
     },
     {
       "code": "GED 103",
@@ -4895,7 +7700,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell6_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell6_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:30.244789+00:00"
+      }
     },
     {
       "code": "GED 105",
@@ -4942,7 +7772,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell7_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell7_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:32.467867+00:00"
+      }
     },
     {
       "code": "GED 106",
@@ -4986,7 +7841,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell8_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell8_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.6,
+          "understand": 0.3,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:34.524802+00:00"
+      }
     },
     {
       "code": "GED 109",
@@ -5031,7 +7911,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell9_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell9_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:36.932435+00:00"
+      }
     },
     {
       "code": "GED 110",
@@ -5079,7 +7984,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell10_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell10_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:39.290040+00:00"
+      }
     },
     {
       "code": "GED 111",
@@ -5139,7 +8069,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell11_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell11_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:41.539590+00:00"
+      }
     },
     {
       "code": "GED 113",
@@ -5197,7 +8152,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell12_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell12_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:43.827611+00:00"
+      }
     },
     {
       "code": "GED 114",
@@ -5242,7 +8222,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell13_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell13_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:46.049266+00:00"
+      }
     },
     {
       "code": "GED 117",
@@ -5285,7 +8290,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell14_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell14_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:48.267985+00:00"
+      }
     },
     {
       "code": "GED 118",
@@ -5333,7 +8363,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell15_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell15_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.35,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:50.500858+00:00"
+      }
     },
     {
       "code": "GED 121",
@@ -5380,7 +8435,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell16_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell16_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:52.906416+00:00"
+      }
     },
     {
       "code": "GED 123",
@@ -5438,7 +8518,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell17_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell17_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:55.271134+00:00"
+      }
     },
     {
       "code": "GED 125",
@@ -5495,7 +8600,33 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell18_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell18_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:57.515318+00:00"
+      }
     },
     {
       "code": "GED 127",
@@ -5542,7 +8673,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell19_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell19_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:12:59.765714+00:00"
+      }
     },
     {
       "code": "GED 128",
@@ -5588,7 +8744,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell20_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell20_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:02.070358+00:00"
+      }
     },
     {
       "code": "GED 129",
@@ -5631,7 +8812,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell21_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell21_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "evaluate",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.1,
+          "analyze": 0.15,
+          "evaluate": 0.25,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:04.199459+00:00"
+      }
     },
     {
       "code": "GED 132",
@@ -5679,7 +8885,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell22_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell22_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:06.412589+00:00"
+      }
     },
     {
       "code": "GED 133",
@@ -5724,7 +8955,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell23_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell23_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:08.755796+00:00"
+      }
     },
     {
       "code": "GED 138",
@@ -5767,7 +9023,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell24_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell24_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:11.132855+00:00"
+      }
     },
     {
       "code": "GED 140",
@@ -5814,7 +9095,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell25_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell25_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:13.401764+00:00"
+      }
     },
     {
       "code": "GED 141",
@@ -5861,7 +9167,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell26_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell26_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:16.355129+00:00"
+      }
     },
     {
       "code": "GED 143",
@@ -5904,7 +9235,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell27_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell27_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:18.682507+00:00"
+      }
     },
     {
       "code": "GED 144",
@@ -5949,7 +9305,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell28_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell28_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:20.883729+00:00"
+      }
     },
     {
       "code": "GED 145",
@@ -5995,7 +9376,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell29_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell29_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:23.057332+00:00"
+      }
     },
     {
       "code": "GED 149",
@@ -6042,7 +9448,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell30_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell30_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:25.468201+00:00"
+      }
     },
     {
       "code": "GED 152",
@@ -6089,7 +9520,33 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell31_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell31_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:27.926687+00:00"
+      }
     },
     {
       "code": "GED 153",
@@ -6139,7 +9596,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell32_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell32_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:30.383042+00:00"
+      }
     },
     {
       "code": "GED 155",
@@ -6188,7 +9670,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell33_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell33_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:32.844263+00:00"
+      }
     },
     {
       "code": "GED 158",
@@ -6260,7 +9767,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell34_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell34_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:34.973609+00:00"
+      }
     },
     {
       "code": "GED 164",
@@ -6308,7 +9840,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell35_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell35_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:37.247611+00:00"
+      }
     },
     {
       "code": "GED 165",
@@ -6353,7 +9910,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell36_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell36_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:39.490674+00:00"
+      }
     },
     {
       "code": "GED 168",
@@ -6402,7 +9984,37 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell37_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell37_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "not_cs"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "llm",
+          "prompt engineering",
+          "generative ai"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:41.702582+00:00"
+      }
     },
     {
       "code": "GED 200",
@@ -6458,7 +10070,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell38_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell38_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.2,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:44.005594+00:00"
+      }
     },
     {
       "code": "GMS 358",
@@ -6506,7 +10143,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell39_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell39_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:46.128832+00:00"
+      }
     },
     {
       "code": "GMS 368",
@@ -6554,7 +10216,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell40_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell40_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:48.223463+00:00"
+      }
     },
     {
       "code": "GRT 225",
@@ -6599,7 +10286,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell41_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell41_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:50.438111+00:00"
+      }
     },
     {
       "code": "GRT 304",
@@ -6645,7 +10357,33 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell42_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell42_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "theory"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:52.550699+00:00"
+      }
     },
     {
       "code": "GRT 327",
@@ -6692,7 +10430,33 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell43_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell43_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "theory"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:55.678601+00:00"
+      }
     },
     {
       "code": "GRT 415",
@@ -6738,7 +10502,33 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell44_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell44_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:13:58.033536+00:00"
+      }
     },
     {
       "code": "PRP 253",
@@ -6786,7 +10576,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell45_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell45_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:00.284374+00:00"
+      }
     },
     {
       "code": "RST 355",
@@ -6833,7 +10648,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell46_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell46_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:02.423713+00:00"
+      }
     },
     {
       "code": "SHN 233",
@@ -6878,7 +10718,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell47_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell47_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:04.775771+00:00"
+      }
     },
     {
       "code": "SHN 304",
@@ -6927,7 +10792,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell48_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell48_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:06.936194+00:00"
+      }
     },
     {
       "code": "SHN 370",
@@ -6981,7 +10871,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell49_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell49_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:09.148784+00:00"
+      }
     },
     {
       "code": "SHN 440",
@@ -7027,7 +10942,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell50_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell50_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:11.417327+00:00"
+      }
     },
     {
       "code": "TSE 181",
@@ -7077,7 +11017,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell51_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell51_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:13.598938+00:00"
+      }
     },
     {
       "code": "TSE 231",
@@ -7127,7 +11092,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell52_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell52_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:15.954349+00:00"
+      }
     },
     {
       "code": "YTR 152",
@@ -7174,7 +11164,32 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell53_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell53_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:18.207448+00:00"
+      }
     },
     {
       "code": "YTR 158",
@@ -7221,7 +11236,143 @@
       "categories": [
         "University Elective Courses"
       ],
-      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell54_0$TC$lbtnLink','')"
+      "source_url": "javascript:__doPostBack('grdUniversiteSecmeli$cell54_0$TC$lbtnLink','')",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T22:14:21.095709+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 154,
+    "enriched_courses": 154,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T22:14:21.603177+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 20,
+        "total_ects": 110,
+        "required_ects": 53
+      },
+      "programming": {
+        "courses": 33,
+        "total_ects": 166,
+        "required_ects": 39
+      },
+      "systems": {
+        "courses": 35,
+        "total_ects": 175,
+        "required_ects": 31
+      },
+      "ai_ml": {
+        "courses": 15,
+        "total_ects": 73,
+        "required_ects": 10
+      },
+      "data_science": {
+        "courses": 10,
+        "total_ects": 53,
+        "required_ects": 21
+      },
+      "security": {
+        "courses": 5,
+        "total_ects": 26,
+        "required_ects": 10
+      },
+      "web_mobile": {
+        "courses": 6,
+        "total_ects": 31,
+        "required_ects": 5
+      },
+      "software_eng": {
+        "courses": 44,
+        "total_ects": 218,
+        "required_ects": 87
+      },
+      "graphics_vision": {
+        "courses": 5,
+        "total_ects": 25,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 9,
+        "total_ects": 46,
+        "required_ects": 5
+      },
+      "theory": {
+        "courses": 27,
+        "total_ects": 145,
+        "required_ects": 76
+      },
+      "info_systems": {
+        "courses": 22,
+        "total_ects": 110,
+        "required_ects": 31
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 13,
+        "total": 15
+      },
+      "data_science": {
+        "required": 4,
+        "elective": 6,
+        "total": 10
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 8,
+        "total": 9
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      },
+      "security": {
+        "required": 2,
+        "elective": 3,
+        "total": 5
+      },
+      "software_eng": {
+        "required": 18,
+        "elective": 26,
+        "total": 44
+      },
+      "web_mobile": {
+        "required": 1,
+        "elective": 5,
+        "total": 6
+      }
+    },
+    "earliest_technical_elective_semester": 5,
+    "project_heavy_course_count": 53,
+    "total_project_ects": 248,
+    "english_resources_ratio": 0.65
+  }
 }

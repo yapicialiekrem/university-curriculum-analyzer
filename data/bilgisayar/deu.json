@@ -1,5 +1,5 @@
 {
-  "uni_name": "Dokuz Eylül Üniversitesi",
+  "university_name": "Dokuz Eylül Üniversitesi",
   "department": "Bilgisayar Mühendisliği",
   "faculty": "Mühendislik Fakültesi",
   "language": "İngilizce",
@@ -43,7 +43,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": null
+      "source_url": null,
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:42:47.778968+00:00"
+      }
     },
     {
       "code": "CME 1203",
@@ -89,7 +114,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4052.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4052.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:42:50.229322+00:00"
+      }
     },
     {
       "code": "CME 1205",
@@ -131,7 +183,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4073.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4073.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:42:52.654852+00:00"
+      }
     },
     {
       "code": "CME 1211",
@@ -174,7 +252,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4095.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4095.html",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:42:55.518456+00:00"
+      }
     },
     {
       "code": "KPD 1001",
@@ -219,7 +323,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_10126_1210_2.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_10126_1210_2.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:42:58.012202+00:00"
+      }
     },
     {
       "code": "MAT 1001",
@@ -263,7 +392,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_20.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_20.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:00.467610+00:00"
+      }
     },
     {
       "code": "PHY 1101",
@@ -308,7 +463,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_12.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_12.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:02.993624+00:00"
+      }
     },
     {
       "code": "CME 1251",
@@ -350,7 +531,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4054.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4054.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.3
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:05.285335+00:00"
+      }
     },
     {
       "code": "CME 1206",
@@ -394,7 +601,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4087.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4087.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:07.636971+00:00"
+      }
     },
     {
       "code": "CME 1212",
@@ -438,7 +670,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4074.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4074.html",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:10.093512+00:00"
+      }
     },
     {
       "code": "CME 1214",
@@ -485,7 +743,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4075.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4075.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:12.553506+00:00"
+      }
     },
     {
       "code": "MAT 1002",
@@ -532,7 +817,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_21.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_21.html",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:15.011375+00:00"
+      }
     },
     {
       "code": "PHY 1102",
@@ -576,7 +886,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_13.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_13.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:17.363162+00:00"
+      }
     },
     {
       "code": "CME 2201",
@@ -621,7 +956,34 @@
         "CME 1212 - ALGORITHMS AND PROGRAMMING II"
       ],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4057.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4057.html",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:19.821904+00:00"
+      }
     },
     {
       "code": "CME 2203",
@@ -666,7 +1028,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4059.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4059.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:22.300938+00:00"
+      }
     },
     {
       "code": "CME 1252",
@@ -708,7 +1096,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4056.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4056.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:24.532125+00:00"
+      }
     },
     {
       "code": "CME 2205",
@@ -752,7 +1167,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4058.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4058.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:27.081504+00:00"
+      }
     },
     {
       "code": "CME 2207",
@@ -797,7 +1238,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4055.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4055.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.32,
+          "apply": 0.38,
+          "analyze": 0.16,
+          "evaluate": 0.03,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:29.974944+00:00"
+      }
     },
     {
       "code": "TDL 1001",
@@ -852,7 +1319,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_2.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_2.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:32.316978+00:00"
+      }
     },
     {
       "code": "CME 2403",
@@ -900,7 +1392,34 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4106.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4106.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:34.912504+00:00"
+      }
     },
     {
       "code": "ERA 2300",
@@ -944,7 +1463,38 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_210.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_210.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "gis",
+          "remote sensing",
+          "spatial analysis"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:37.361966+00:00"
+      }
     },
     {
       "code": "ESE 2067",
@@ -987,7 +1537,33 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_171.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_171.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.12,
+          "evaluate": 0.05,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:39.791082+00:00"
+      }
     },
     {
       "code": "ERA 2301",
@@ -1032,7 +1608,32 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_211.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_211.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:42.453465+00:00"
+      }
     },
     {
       "code": "CME 2401",
@@ -1080,7 +1681,33 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4105.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4105.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:44.910481+00:00"
+      }
     },
     {
       "code": "ESE 2069",
@@ -1129,7 +1756,32 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_175.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_175.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:47.370491+00:00"
+      }
     },
     {
       "code": "GÇD 1001",
@@ -1174,7 +1826,32 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_28.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_28.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:49.818950+00:00"
+      }
     },
     {
       "code": "CME 2204",
@@ -1219,7 +1896,34 @@
         "CME 1212 - ALGORITHMS AND PROGRAMMING II"
       ],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4076.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4076.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:52.211542+00:00"
+      }
     },
     {
       "code": "İHD 1002",
@@ -1284,7 +1988,32 @@
       "categories": [
         "3. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_30.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_30.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:55.047816+00:00"
+      }
     },
     {
       "code": "CME 2206",
@@ -1331,7 +2060,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4062.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4062.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:43:57.711689+00:00"
+      }
     },
     {
       "code": "CME 2208",
@@ -1374,7 +2130,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4063.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4063.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:00.060823+00:00"
+      }
     },
     {
       "code": "CME 2202",
@@ -1419,7 +2201,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4060.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4060.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.28,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:02.735801+00:00"
+      }
     },
     {
       "code": "CME 2210",
@@ -1467,7 +2276,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4077.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4077.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:05.291396+00:00"
+      }
     },
     {
       "code": "TDL 1002",
@@ -1520,7 +2356,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_3.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_9634_1210_3.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:07.751413+00:00"
+      }
     },
     {
       "code": "ERA 2302",
@@ -1562,7 +2423,34 @@
       "categories": [
         "4. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_212.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_212.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:10.409714+00:00"
+      }
     },
     {
       "code": "ESE 2070",
@@ -1611,7 +2499,32 @@
       "categories": [
         "4. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_181.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_181.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:13.097662+00:00"
+      }
     },
     {
       "code": "CME 3203",
@@ -1655,7 +2568,33 @@
         "CME 1205 - DISCRETE COMPUTATIONAL STRUCTURES"
       ],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4078.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4078.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:15.480300+00:00"
+      }
     },
     {
       "code": "ATA 1001",
@@ -1714,7 +2653,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_131_1210_2.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_131_1210_2.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:17.723059+00:00"
+      }
     },
     {
       "code": "CME 3205",
@@ -1759,7 +2723,33 @@
         "CME 2206 - COMPUTER ARCHITECTURE"
       ],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4066.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4066.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:20.237349+00:00"
+      }
     },
     {
       "code": "CME 3207",
@@ -1804,7 +2794,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4079.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4079.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:22.799673+00:00"
+      }
     },
     {
       "code": "ESE 2072",
@@ -1856,7 +2873,34 @@
       "categories": [
         "4. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_222.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_222.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "security"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:25.446064+00:00"
+      }
     },
     {
       "code": "CME 3401",
@@ -1902,7 +2946,34 @@
       "categories": [
         "5. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4100.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4100.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:27.851994+00:00"
+      }
     },
     {
       "code": "CME 3403",
@@ -1952,7 +3023,37 @@
       "categories": [
         "5. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4101.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4101.html",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "flash",
+          "silverlight"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:30.273370+00:00"
+      }
     },
     {
       "code": "ETE 3005",
@@ -1996,7 +3097,34 @@
       "categories": [
         "5. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_126.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_126.html",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:32.630617+00:00"
+      }
     },
     {
       "code": "CME 3204",
@@ -2043,7 +3171,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4080.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4080.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.42,
+          "apply": 0.24,
+          "analyze": 0.16,
+          "evaluate": 0.04,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:35.054437+00:00"
+      }
     },
     {
       "code": "ATA 1002",
@@ -2104,7 +3259,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_131_1210_3.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_131_1210_3.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:37.442007+00:00"
+      }
     },
     {
       "code": "CME 3206",
@@ -2149,7 +3329,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4065.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4065.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "microservice",
+          "cmmi",
+          "clean architecture"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:39.825808+00:00"
+      }
     },
     {
       "code": "CME 3208",
@@ -2196,7 +3407,34 @@
         "CME 3205 - OPERATING SYSTEMS"
       ],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4067.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4067.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:42.667556+00:00"
+      }
     },
     {
       "code": "ETE 3043",
@@ -2244,7 +3482,40 @@
       "categories": [
         "5. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_220.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_220.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "blockchain",
+          "cloud computing",
+          "artificial intelligence",
+          "digital twin",
+          "industrial internet of things"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:45.167352+00:00"
+      }
     },
     {
       "code": "CME 3402",
@@ -2289,7 +3560,34 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4102.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4102.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:47.579698+00:00"
+      }
     },
     {
       "code": "CME 3404",
@@ -2333,7 +3631,34 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4103.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4103.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:50.143656+00:00"
+      }
     },
     {
       "code": "ETE 3034",
@@ -2381,7 +3706,32 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_177.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_177.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:52.801182+00:00"
+      }
     },
     {
       "code": "MTH 3501",
@@ -2424,7 +3774,33 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_196.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_196.html",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:55.227573+00:00"
+      }
     },
     {
       "code": "ETE 3044",
@@ -2471,7 +3847,34 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_218.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_218.html",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "not_cs"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:44:58.028842+00:00"
+      }
     },
     {
       "code": "MTH 3502",
@@ -2516,7 +3919,34 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_197.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_197.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:00.686664+00:00"
+      }
     },
     {
       "code": "MTH 3503",
@@ -2560,7 +3990,34 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_198.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_198.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:03.146623+00:00"
+      }
     },
     {
       "code": "ETE 3042",
@@ -2604,7 +4061,34 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_195.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_195.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:05.604094+00:00"
+      }
     },
     {
       "code": "MTH 3504",
@@ -2648,7 +4132,37 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_199.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_199.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "matlab",
+          "octave"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:07.986521+00:00"
+      }
     },
     {
       "code": "MTH 3505",
@@ -2693,7 +4207,33 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_200.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_200.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:10.463932+00:00"
+      }
     },
     {
       "code": "MTH 3506",
@@ -2738,7 +4278,33 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_201.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_201.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:12.958233+00:00"
+      }
     },
     {
       "code": "MTH 3508",
@@ -2784,7 +4350,33 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_205.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_205.html",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:15.329832+00:00"
+      }
     },
     {
       "code": "MTH 3510",
@@ -2829,7 +4421,32 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_208.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_208.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:17.595928+00:00"
+      }
     },
     {
       "code": "CME 4203",
@@ -2869,7 +4486,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4097.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4097.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:19.970569+00:00"
+      }
     },
     {
       "code": "CME 4293",
@@ -2903,7 +4546,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4098.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4098.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:22.498285+00:00"
+      }
     },
     {
       "code": "MTH 3507",
@@ -2949,7 +4619,33 @@
       "categories": [
         "6. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_203.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_203.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:25.059029+00:00"
+      }
     },
     {
       "code": "İSG 4001",
@@ -2996,7 +4692,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_168.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_168.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:27.618017+00:00"
+      }
     },
     {
       "code": "CME 4403",
@@ -3041,7 +4762,36 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2510.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2510.html",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "llm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:30.080891+00:00"
+      }
     },
     {
       "code": "CME 4405",
@@ -3088,7 +4838,42 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2502.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2502.html",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "mpi",
+          "openmp",
+          "cuda",
+          "hadoop",
+          "mapreduce",
+          "scala",
+          "spark"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:33.116340+00:00"
+      }
     },
     {
       "code": "CME 4409",
@@ -3134,7 +4919,36 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2475.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2475.html",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "ai_ml",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "opengl"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:35.709266+00:00"
+      }
     },
     {
       "code": "CME 4411",
@@ -3179,7 +4993,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2495.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2495.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:38.165369+00:00"
+      }
     },
     {
       "code": "CME 4417",
@@ -3227,7 +5068,37 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2511.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2511.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "gpss",
+          "promodel"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:40.577181+00:00"
+      }
     },
     {
       "code": "CME 4419",
@@ -3272,7 +5143,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2469.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2469.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:42.875506+00:00"
+      }
     },
     {
       "code": "CME 4407",
@@ -3317,7 +5215,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2505.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2505.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "graphics_vision"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:45.435817+00:00"
+      }
     },
     {
       "code": "CME 4423",
@@ -3370,7 +5295,41 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4040.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4040.html",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "android",
+          "html5",
+          "css3",
+          "sqlite"
+        ],
+        "legacy_tech_tags": [
+          "eclipse"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:48.027414+00:00"
+      }
     },
     {
       "code": "CME 4425",
@@ -3415,7 +5374,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4041.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4041.html",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:50.556316+00:00"
+      }
     },
     {
       "code": "CME 4428",
@@ -3461,7 +5447,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4068.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4068.html",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.03,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:53.134711+00:00"
+      }
     },
     {
       "code": "CME 4455",
@@ -3506,7 +5519,33 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2496.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2496.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:55.724568+00:00"
+      }
     },
     {
       "code": "CME 4461",
@@ -3550,7 +5589,33 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4090.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4090.html",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:45:58.095815+00:00"
+      }
     },
     {
       "code": "CME 4459",
@@ -3596,7 +5661,33 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4069.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4069.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:00.669683+00:00"
+      }
     },
     {
       "code": "CME 4463",
@@ -3640,7 +5731,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4092.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4092.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:03.058951+00:00"
+      }
     },
     {
       "code": "CME 4453",
@@ -3685,7 +5803,34 @@
       "categories": [
         "7. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2513.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2513.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:05.582492+00:00"
+      }
     },
     {
       "code": "CME 4202",
@@ -3727,7 +5872,32 @@
         "CME 4203 - COMPUTER ENGINEERING DESIGN"
       ],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4082.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4082.html",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:07.967409+00:00"
+      }
     },
     {
       "code": "CME 4294",
@@ -3757,7 +5927,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4099.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4099.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:10.422048+00:00"
+      }
     },
     {
       "code": "İSG 4002",
@@ -3804,7 +6001,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_169.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_169.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:12.870053+00:00"
+      }
     },
     {
       "code": "CME 4406",
@@ -3848,7 +6070,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2494.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2494.html",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:15.337175+00:00"
+      }
     },
     {
       "code": "CME 4408",
@@ -3892,7 +6141,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2460.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2460.html",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:17.899368+00:00"
+      }
     },
     {
       "code": "CME 4410",
@@ -3939,7 +6215,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2476.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2476.html",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:20.353988+00:00"
+      }
     },
     {
       "code": "CME 4412",
@@ -3984,7 +6287,36 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2484.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2484.html",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "matlab"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.38,
+          "analyze": 0.18,
+          "evaluate": 0.08,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:22.807931+00:00"
+      }
     },
     {
       "code": "CME 4404",
@@ -4030,7 +6362,33 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2467.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2467.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:25.192632+00:00"
+      }
     },
     {
       "code": "CME 4416",
@@ -4076,7 +6434,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2485.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2485.html",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:27.781591+00:00"
+      }
     },
     {
       "code": "CME 4418",
@@ -4121,7 +6506,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2479.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2479.html",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:30.170087+00:00"
+      }
     },
     {
       "code": "CME 4420",
@@ -4166,7 +6578,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2470.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2470.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:32.642212+00:00"
+      }
     },
     {
       "code": "CME 4430",
@@ -4209,7 +6648,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4084.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4084.html",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems",
+          "graphics_vision"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:34.998894+00:00"
+      }
     },
     {
       "code": "CME 4432",
@@ -4254,7 +6720,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4085.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4085.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:37.455490+00:00"
+      }
     },
     {
       "code": "CME 4434",
@@ -4300,7 +6793,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4086.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4086.html",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:39.788452+00:00"
+      }
     },
     {
       "code": "CME 4436",
@@ -4351,7 +6871,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4094.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4094.html",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "security"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:42.748823+00:00"
+      }
     },
     {
       "code": "CME 4422",
@@ -4396,7 +6943,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4083.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4083.html",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math",
+          "programming"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:45.060760+00:00"
+      }
     },
     {
       "code": "CME 4454",
@@ -4441,7 +7015,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2508.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2508.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:47.841507+00:00"
+      }
     },
     {
       "code": "CME 4456",
@@ -4487,7 +7088,33 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2462.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_2462.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:50.459406+00:00"
+      }
     },
     {
       "code": "CME 4462",
@@ -4532,7 +7159,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4096.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4096.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:52.978343+00:00"
+      }
     },
     {
       "code": "CME 4458",
@@ -4581,7 +7235,41 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4072.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4072.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "iot",
+          "ioe",
+          "embedded systems",
+          "cloud computing",
+          "multicore",
+          "multithreading"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:55.579971+00:00"
+      }
     },
     {
       "code": "ERA 4800",
@@ -4623,7 +7311,32 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_213.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_213.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:46:58.242385+00:00"
+      }
     },
     {
       "code": "ESE 2013",
@@ -4665,7 +7378,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_28.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_28.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:00.574870+00:00"
+      }
     },
     {
       "code": "CME 4460",
@@ -4710,7 +7448,34 @@
       "categories": [
         "8. Semester: Elective Course"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4091.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_1210_1210_4091.html",
+      "_enriched": {
+        "categories": [
+          "security",
+          "theory",
+          "math"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:03.156451+00:00"
+      }
     },
     {
       "code": "ESE 2014",
@@ -4760,7 +7525,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_29.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_29.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:05.618410+00:00"
+      }
     },
     {
       "code": "ESE 2015",
@@ -4804,7 +7594,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_30.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_30.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:08.075686+00:00"
+      }
     },
     {
       "code": "ESE 2016",
@@ -4853,7 +7668,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_31.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_31.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:10.557408+00:00"
+      }
     },
     {
       "code": "ESE 2037",
@@ -4899,7 +7739,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_34.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_34.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:13.091330+00:00"
+      }
     },
     {
       "code": "ESE 2050",
@@ -4948,7 +7813,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_39.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_39.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:15.547542+00:00"
+      }
     },
     {
       "code": "ESE 2059",
@@ -4993,7 +7883,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_42.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_42.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:17.883530+00:00"
+      }
     },
     {
       "code": "ESE 2060",
@@ -5039,7 +7954,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_43.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_43.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:20.362594+00:00"
+      }
     },
     {
       "code": "ESE 2024",
@@ -5082,7 +8022,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_32.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_32.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:23.022786+00:00"
+      }
     },
     {
       "code": "ESE 2065",
@@ -5131,7 +8096,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_164.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_164.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:25.583759+00:00"
+      }
     },
     {
       "code": "ESE 2066",
@@ -5179,7 +8169,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_166.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_166.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:28.042406+00:00"
+      }
     },
     {
       "code": "ETE 3003",
@@ -5225,7 +8240,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_132.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_132.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:30.610883+00:00"
+      }
     },
     {
       "code": "ETE 3007",
@@ -5270,7 +8310,34 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_133.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_133.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:33.571303+00:00"
+      }
     },
     {
       "code": "ETE 3014",
@@ -5316,7 +8383,34 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_128.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_128.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:36.130011+00:00"
+      }
     },
     {
       "code": "ETE 3017",
@@ -5361,7 +8455,34 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_134.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_134.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:39.360855+00:00"
+      }
     },
     {
       "code": "ETE 3006",
@@ -5403,7 +8524,34 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_127.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_127.html",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:41.967155+00:00"
+      }
     },
     {
       "code": "ETE 3018",
@@ -5448,7 +8596,33 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_129.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_129.html",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:44.424674+00:00"
+      }
     },
     {
       "code": "ETE 3025",
@@ -5495,7 +8669,34 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_144.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_144.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:46.882561+00:00"
+      }
     },
     {
       "code": "ETE 3029",
@@ -5546,7 +8747,34 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_157.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_157.html",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:49.545358+00:00"
+      }
     },
     {
       "code": "ETE 3031",
@@ -5594,7 +8822,32 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_160.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_160.html",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:52.196112+00:00"
+      }
     },
     {
       "code": "MTH 3630",
@@ -5637,7 +8890,33 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_236.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_236.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:54.706357+00:00"
+      }
     },
     {
       "code": "ETE 3032",
@@ -5684,7 +8963,145 @@
       "categories": [
         "FLEXIBLE ELECTIVE COURSE ACCORDING TO ECTS"
       ],
-      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_162.html"
+      "source_url": "https://debis.deu.edu.tr/ders-katalog/2024-2025/eng/en_117_1210_162.html",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T18:47:57.576933+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 124,
+    "enriched_courses": 124,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T18:47:58.082981+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 25,
+        "total_ects": 129,
+        "required_ects": 57
+      },
+      "programming": {
+        "courses": 27,
+        "total_ects": 149,
+        "required_ects": 55
+      },
+      "systems": {
+        "courses": 44,
+        "total_ects": 231,
+        "required_ects": 74
+      },
+      "ai_ml": {
+        "courses": 12,
+        "total_ects": 66,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 12,
+        "total_ects": 63,
+        "required_ects": 10
+      },
+      "security": {
+        "courses": 7,
+        "total_ects": 37,
+        "required_ects": 6
+      },
+      "web_mobile": {
+        "courses": 3,
+        "total_ects": 18,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 36,
+        "total_ects": 196,
+        "required_ects": 78
+      },
+      "graphics_vision": {
+        "courses": 6,
+        "total_ects": 34,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 7,
+        "total_ects": 40,
+        "required_ects": 6
+      },
+      "theory": {
+        "courses": 29,
+        "total_ects": 156,
+        "required_ects": 68
+      },
+      "info_systems": {
+        "courses": 28,
+        "total_ects": 135,
+        "required_ects": 27
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 12,
+        "total": 12
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 10,
+        "total": 12
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 6,
+        "total": 6
+      },
+      "security": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "software_eng": {
+        "required": 14,
+        "elective": 22,
+        "total": 36
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 3,
+        "total": 3
+      }
+    },
+    "earliest_technical_elective_semester": 3,
+    "project_heavy_course_count": 41,
+    "total_project_ects": 213,
+    "english_resources_ratio": 0.74
+  }
 }

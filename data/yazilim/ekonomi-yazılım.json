@@ -70,7 +70,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ENG+101"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ENG+101",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:46.633831+00:00"
+      }
     },
     {
       "code": "FENG 101",
@@ -120,7 +145,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+101"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+101",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:48.930345+00:00"
+      }
     },
     {
       "code": "IUE 100",
@@ -166,7 +216,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/IUE+100"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/IUE+100",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:51.241261+00:00"
+      }
     },
     {
       "code": "MATH 153",
@@ -213,7 +288,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+153"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+153",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:53.485027+00:00"
+      }
     },
     {
       "code": "PHYS 100",
@@ -232,7 +332,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/PHYS+100"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/PHYS+100",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:56.157910+00:00"
+      }
     },
     {
       "code": "SE 115",
@@ -251,7 +376,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+115"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+115",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:52:59.432889+00:00"
+      }
     },
     {
       "code": "SFL 1013",
@@ -287,7 +437,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+1013"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+1013",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.8,
+          "understand": 0.15,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:01.892619+00:00"
+      }
     },
     {
       "code": "ENG 102",
@@ -336,7 +511,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ENG+102"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ENG+102",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:04.288381+00:00"
+      }
     },
     {
       "code": "MATH 154",
@@ -384,7 +584,32 @@
         "MATH 153"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+154"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+154",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:06.704541+00:00"
+      }
     },
     {
       "code": "PHYS 102",
@@ -403,7 +628,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/PHYS+102"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/PHYS+102",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:09.264487+00:00"
+      }
     },
     {
       "code": "SE 104",
@@ -422,7 +672,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+104"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+104",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:11.804053+00:00"
+      }
     },
     {
       "code": "SE 116",
@@ -471,7 +746,33 @@
         "SE 115"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+116"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+116",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:14.076768+00:00"
+      }
     },
     {
       "code": "SFL 1024",
@@ -507,7 +808,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+1024"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+1024",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.8,
+          "understand": 0.18,
+          "apply": 0.01,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:16.228834+00:00"
+      }
     },
     {
       "code": "CE 215",
@@ -526,7 +852,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+215"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+215",
+      "_enriched": {
+        "categories": [
+          "programming"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:18.378224+00:00"
+      }
     },
     {
       "code": "CE 221",
@@ -576,7 +927,34 @@
         "SE 116"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+221"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+221",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "programming",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.35,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:20.738325+00:00"
+      }
     },
     {
       "code": "HIST 100",
@@ -625,7 +1003,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/HIST+100"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/HIST+100",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:23.087390+00:00"
+      }
     },
     {
       "code": "MATH 207",
@@ -672,7 +1075,33 @@
         "MATH 154 / MATH 110"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+207"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+207",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:25.340283+00:00"
+      }
     },
     {
       "code": "SE 213",
@@ -691,7 +1120,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+213"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+213",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:27.490731+00:00"
+      }
     },
     {
       "code": "SFL 201",
@@ -727,7 +1181,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+201"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+201",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.8,
+          "understand": 0.15,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.01,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:29.856546+00:00"
+      }
     },
     {
       "code": "CE 223",
@@ -773,7 +1252,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+223"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+223",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:32.508820+00:00"
+      }
     },
     {
       "code": "ENG 210",
@@ -819,7 +1325,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ENG+210"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ENG+210",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:34.755651+00:00"
+      }
     },
     {
       "code": "MATH 240",
@@ -868,7 +1399,33 @@
         "MATH 154"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+240"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+240",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:37.597384+00:00"
+      }
     },
     {
       "code": "SE 216",
@@ -887,7 +1444,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+216"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+216",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:39.858771+00:00"
+      }
     },
     {
       "code": "SE 226",
@@ -906,7 +1488,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+226"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+226",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.5,
+          "apply": 0.2,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:42.031514+00:00"
+      }
     },
     {
       "code": "SFL 202",
@@ -942,7 +1549,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+202"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/SFL+202",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.25,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.0,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:44.283118+00:00"
+      }
     },
     {
       "code": "ELEC 001",
@@ -980,7 +1612,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+001"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+001",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.85,
+          "understand": 0.1,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.005,
+          "create": 0.005
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:46.641664+00:00"
+      }
     },
     {
       "code": "FENG 345",
@@ -999,7 +1656,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+345"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+345",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:49.099661+00:00"
+      }
     },
     {
       "code": "MATH 250",
@@ -1049,7 +1731,33 @@
         "MATH 109"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+250"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+250",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:51.355031+00:00"
+      }
     },
     {
       "code": "SE 321",
@@ -1096,7 +1804,34 @@
         "SE 209 / SE 213"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+321"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+321",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:53.708515+00:00"
+      }
     },
     {
       "code": "SE 323",
@@ -1143,7 +1878,34 @@
         "SE 116"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+323"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+323",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.32,
+          "apply": 0.18,
+          "analyze": 0.32,
+          "evaluate": 0.06,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:56.059914+00:00"
+      }
     },
     {
       "code": "MATH 236",
@@ -1185,7 +1947,34 @@
         "MATH 154"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+236"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+236",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:53:58.331879+00:00"
+      }
     },
     {
       "code": "SE 311",
@@ -1232,7 +2021,33 @@
         "SE 116"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+311"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+311",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:00.773240+00:00"
+      }
     },
     {
       "code": "SE 322",
@@ -1281,7 +2096,34 @@
         "SE 209"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+322"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+322",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "security"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:03.348464+00:00"
+      }
     },
     {
       "code": "SE 375",
@@ -1332,7 +2174,34 @@
         "SE 116"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+375"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+375",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:05.734798+00:00"
+      }
     },
     {
       "code": "TURK 100",
@@ -1385,7 +2254,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/TURK+100"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/TURK+100",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:08.047855+00:00"
+      }
     },
     {
       "code": "ELEC 002",
@@ -1423,7 +2317,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+002"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+002",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.85,
+          "understand": 0.1,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.005,
+          "create": 0.005
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:10.601365+00:00"
+      }
     },
     {
       "code": "ELEC 003",
@@ -1461,7 +2380,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+003"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+003",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:12.957631+00:00"
+      }
     },
     {
       "code": "ELEC 004",
@@ -1499,7 +2443,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+004"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+004",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.8,
+          "understand": 0.15,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.01,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:15.209013+00:00"
+      }
     },
     {
       "code": "FENG 497",
@@ -1547,7 +2516,34 @@
         "4th-year standing"
       ],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+497"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+497",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:17.666875+00:00"
+      }
     },
     {
       "code": "SEST 400",
@@ -1566,7 +2562,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SEST+400"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SEST+400",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.5,
+          "apply": 0.1,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:20.057193+00:00"
+      }
     },
     {
       "code": "TMD 001",
@@ -1604,7 +2625,32 @@
       "categories": [
         "Tamamlayıcı Mühendislik Dersleri"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/TMD+001"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/TMD+001",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:22.212378+00:00"
+      }
     },
     {
       "code": "ELEC 005",
@@ -1642,7 +2688,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+005"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+005",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.85,
+          "understand": 0.1,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.005,
+          "create": 0.005
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:24.322933+00:00"
+      }
     },
     {
       "code": "ELEC 006",
@@ -1680,7 +2751,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+006"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+006",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.85,
+          "understand": 0.1,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.005,
+          "create": 0.005
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:27.088339+00:00"
+      }
     },
     {
       "code": "ELEC 007",
@@ -1718,7 +2814,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+007"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+007",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.85,
+          "understand": 0.1,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.005,
+          "create": 0.005
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:29.340449+00:00"
+      }
     },
     {
       "code": "ELEC 008",
@@ -1756,7 +2877,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+008"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/ELEC+008",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.8,
+          "understand": 0.15,
+          "apply": 0.03,
+          "analyze": 0.01,
+          "evaluate": 0.01,
+          "create": 0.0
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:31.593333+00:00"
+      }
     },
     {
       "code": "FENG 498",
@@ -1775,7 +2921,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+498"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+498",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.35
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:33.845739+00:00"
+      }
     },
     {
       "code": "TMD 002",
@@ -1813,7 +2984,32 @@
       "categories": [
         "Tamamlayıcı Mühendislik Dersleri"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/TMD+002"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus/type/read/id/TMD+002",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:36.202198+00:00"
+      }
     },
     {
       "code": "CE 304",
@@ -1868,7 +3064,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+304"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+304",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:38.761249+00:00"
+      }
     },
     {
       "code": "CE 315",
@@ -1918,7 +3141,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+315"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+315",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:41.221840+00:00"
+      }
     },
     {
       "code": "CE 322",
@@ -1967,7 +3216,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+322"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+322",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:43.518528+00:00"
+      }
     },
     {
       "code": "CE 326",
@@ -2017,7 +3293,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+326"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+326",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:45.825142+00:00"
+      }
     },
     {
       "code": "CE 340",
@@ -2066,7 +3369,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+340"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+340",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:48.062214+00:00"
+      }
     },
     {
       "code": "CE 342",
@@ -2087,7 +3416,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+342"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+342",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:50.436427+00:00"
+      }
     },
     {
       "code": "CE 345",
@@ -2141,7 +3495,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+345"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+345",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:53.098988+00:00"
+      }
     },
     {
       "code": "CE 350",
@@ -2162,7 +3543,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+350"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+350",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:55.439561+00:00"
+      }
     },
     {
       "code": "CE 360",
@@ -2183,7 +3589,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+360"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+360",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:57.650912+00:00"
+      }
     },
     {
       "code": "CE 370",
@@ -2231,7 +3662,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+370"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+370",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:54:59.968799+00:00"
+      }
     },
     {
       "code": "CE 380",
@@ -2252,7 +3710,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+380"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+380",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:02.135536+00:00"
+      }
     },
     {
       "code": "CE 390",
@@ -2273,7 +3756,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+390"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+390",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:04.365061+00:00"
+      }
     },
     {
       "code": "CE 395",
@@ -2323,7 +3831,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+395"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+395",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.22,
+          "apply": 0.34,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.06
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:07.231627+00:00"
+      }
     },
     {
       "code": "CE 401",
@@ -2344,7 +3879,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+401"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+401",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:09.284870+00:00"
+      }
     },
     {
       "code": "CE 403",
@@ -2365,7 +3925,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+403"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+403",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:11.612139+00:00"
+      }
     },
     {
       "code": "CE 405",
@@ -2386,7 +3971,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+405"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+405",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:13.885841+00:00"
+      }
     },
     {
       "code": "CE 407",
@@ -2407,7 +4017,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+407"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+407",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:16.074364+00:00"
+      }
     },
     {
       "code": "CE 450",
@@ -2454,7 +4089,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+450"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+450",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "systems",
+          "programming"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:18.596300+00:00"
+      }
     },
     {
       "code": "CE 455",
@@ -2475,7 +4137,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+455"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+455",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:21.054161+00:00"
+      }
     },
     {
       "code": "CE 466",
@@ -2496,7 +4183,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+466"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+466",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:23.726427+00:00"
+      }
     },
     {
       "code": "CE 470",
@@ -2539,7 +4251,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+470"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+470",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "math",
+          "programming"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:26.279204+00:00"
+      }
     },
     {
       "code": "CE 475",
@@ -2560,7 +4299,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+475"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+475",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:28.530204+00:00"
+      }
     },
     {
       "code": "CE 476",
@@ -2605,7 +4369,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+476"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+476",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:30.745384+00:00"
+      }
     },
     {
       "code": "CE 477",
@@ -2626,7 +4417,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+477"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+477",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:32.830604+00:00"
+      }
     },
     {
       "code": "CE 490",
@@ -2676,7 +4492,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+490"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/CE+490",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "math",
+          "systems"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:35.207200+00:00"
+      }
     },
     {
       "code": "EEE 242",
@@ -2720,7 +4563,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/EEE+242"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/EEE+242",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory",
+          "math"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:37.541124+00:00"
+      }
     },
     {
       "code": "IE 337",
@@ -2769,7 +4639,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+337"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+337",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.3,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:40.416582+00:00"
+      }
     },
     {
       "code": "IE 338",
@@ -2819,7 +4716,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+338"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+338",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:42.640649+00:00"
+      }
     },
     {
       "code": "IE 372",
@@ -2840,7 +4764,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+372"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+372",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:44.858699+00:00"
+      }
     },
     {
       "code": "IE 375",
@@ -2861,7 +4810,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+375"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/IE+375",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:47.139009+00:00"
+      }
     },
     {
       "code": "MATH 485",
@@ -2882,7 +4857,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+485"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/MATH+485",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:49.194518+00:00"
+      }
     },
     {
       "code": "SE 204",
@@ -2903,7 +4903,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+204"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+204",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:51.464997+00:00"
+      }
     },
     {
       "code": "SE 306",
@@ -2924,7 +4949,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+306"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+306",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.4,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:53.616516+00:00"
+      }
     },
     {
       "code": "SE 307",
@@ -2945,7 +4995,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+307"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+307",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:55.868399+00:00"
+      }
     },
     {
       "code": "SE 310",
@@ -2994,7 +5069,38 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+310"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+310",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "qt",
+          "stl",
+          "boost"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:55:58.163244+00:00"
+      }
     },
     {
       "code": "SE 313",
@@ -3015,7 +5121,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+313"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+313",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:00.068848+00:00"
+      }
     },
     {
       "code": "SE 320",
@@ -3036,7 +5167,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+320"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+320",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:02.151033+00:00"
+      }
     },
     {
       "code": "SE 330",
@@ -3057,7 +5213,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+330"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+330",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:04.369953+00:00"
+      }
     },
     {
       "code": "SE 344",
@@ -3111,7 +5293,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+344"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+344",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:06.722906+00:00"
+      }
     },
     {
       "code": "SE 350",
@@ -3132,7 +5340,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+350"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+350",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:08.873489+00:00"
+      }
     },
     {
       "code": "SE 352",
@@ -3153,7 +5386,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+352"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+352",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:11.105442+00:00"
+      }
     },
     {
       "code": "SE 354",
@@ -3174,7 +5432,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+354"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+354",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:13.277514+00:00"
+      }
     },
     {
       "code": "SE 355",
@@ -3195,7 +5478,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+355"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+355",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:15.432992+00:00"
+      }
     },
     {
       "code": "SE 360",
@@ -3216,7 +5524,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+360"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+360",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:17.533000+00:00"
+      }
     },
     {
       "code": "SE 362",
@@ -3237,7 +5570,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+362"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+362",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:19.728989+00:00"
+      }
     },
     {
       "code": "SE 370",
@@ -3258,7 +5616,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+370"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+370",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:22.358222+00:00"
+      }
     },
     {
       "code": "SE 380",
@@ -3279,7 +5662,33 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+380"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+380",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:24.632582+00:00"
+      }
     },
     {
       "code": "SE 390",
@@ -3300,7 +5709,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+390"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+390",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:26.998191+00:00"
+      }
     },
     {
       "code": "SE 410",
@@ -3321,7 +5755,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+410"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+410",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:29.353504+00:00"
+      }
     },
     {
       "code": "SE 420",
@@ -3369,7 +5828,34 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+420"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+420",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:31.712877+00:00"
+      }
     },
     {
       "code": "SE 431",
@@ -3390,7 +5876,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+431"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+431",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:34.063363+00:00"
+      }
     },
     {
       "code": "SE 432",
@@ -3411,7 +5922,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+432"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+432",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:36.316671+00:00"
+      }
     },
     {
       "code": "SE 460",
@@ -3432,7 +5968,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+460"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+460",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:38.772290+00:00"
+      }
     },
     {
       "code": "SE 470",
@@ -3453,7 +6014,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+470"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+470",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:41.035024+00:00"
+      }
     },
     {
       "code": "SE 480",
@@ -3474,7 +6060,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+480"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+480",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:43.178933+00:00"
+      }
     },
     {
       "code": "SE 482",
@@ -3495,7 +6106,32 @@
       "categories": [
         "Teknik Seçmeli"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+482"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/SE+482",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:45.424219+00:00"
+      }
     },
     {
       "code": "FENG 310",
@@ -3516,7 +6152,32 @@
       "categories": [
         "Tamamlayıcı Mühendislik Dersleri"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+310"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+310",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.05,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:47.720605+00:00"
+      }
     },
     {
       "code": "FENG 320",
@@ -3537,7 +6198,32 @@
       "categories": [
         "Tamamlayıcı Mühendislik Dersleri"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+320"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+320",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:50.447263+00:00"
+      }
     },
     {
       "code": "FENG 372",
@@ -3558,7 +6244,143 @@
       "categories": [
         "Tamamlayıcı Mühendislik Dersleri"
       ],
-      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+372"
+      "source_url": "https://se.ieu.edu.tr/tr/syllabus_v2/type/read/id/FENG+372",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T21:56:52.804152+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 106,
+    "enriched_courses": 106,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T21:56:53.310468+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 15,
+        "total_ects": 85,
+        "required_ects": 47
+      },
+      "programming": {
+        "courses": 11,
+        "total_ects": 65,
+        "required_ects": 39
+      },
+      "systems": {
+        "courses": 17,
+        "total_ects": 96,
+        "required_ects": 43
+      },
+      "ai_ml": {
+        "courses": 5,
+        "total_ects": 25,
+        "required_ects": 0
+      },
+      "data_science": {
+        "courses": 4,
+        "total_ects": 22,
+        "required_ects": 12
+      },
+      "security": {
+        "courses": 5,
+        "total_ects": 29,
+        "required_ects": 13
+      },
+      "web_mobile": {
+        "courses": 0,
+        "total_ects": 0,
+        "required_ects": 0
+      },
+      "software_eng": {
+        "courses": 43,
+        "total_ects": 228,
+        "required_ects": 73
+      },
+      "graphics_vision": {
+        "courses": 1,
+        "total_ects": 5,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 2,
+        "total_ects": 10,
+        "required_ects": 0
+      },
+      "theory": {
+        "courses": 12,
+        "total_ects": 67,
+        "required_ects": 29
+      },
+      "info_systems": {
+        "courses": 8,
+        "total_ects": 45,
+        "required_ects": 19
+      }
+    },
+    "modernity_score": 50,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 2,
+        "total": 4
+      },
+      "distributed": {
+        "required": 0,
+        "elective": 2,
+        "total": 2
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 1,
+        "total": 1
+      },
+      "security": {
+        "required": 2,
+        "elective": 3,
+        "total": 5
+      },
+      "software_eng": {
+        "required": 13,
+        "elective": 30,
+        "total": 43
+      },
+      "web_mobile": {
+        "required": 0,
+        "elective": 0,
+        "total": 0
+      }
+    },
+    "earliest_technical_elective_semester": 1,
+    "project_heavy_course_count": 12,
+    "total_project_ects": 67,
+    "english_resources_ratio": 0.34
+  }
 }

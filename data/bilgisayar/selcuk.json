@@ -74,7 +74,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:25:53.961692+00:00"
+      }
     },
     {
       "code": "3301152",
@@ -117,7 +143,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.12,
+          "evaluate": 0.05,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:25:56.420338+00:00"
+      }
     },
     {
       "code": "3301153",
@@ -162,7 +213,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:25:58.877987+00:00"
+      }
     },
     {
       "code": "3301154",
@@ -203,7 +279,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:01.949400+00:00"
+      }
     },
     {
       "code": "3301155",
@@ -258,7 +359,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.55,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:04.375265+00:00"
+      }
     },
     {
       "code": "3301156",
@@ -302,7 +428,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:06.792462+00:00"
+      }
     },
     {
       "code": "3301157",
@@ -350,7 +503,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:09.833718+00:00"
+      }
     },
     {
       "code": "3301158",
@@ -399,7 +577,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:12.290977+00:00"
+      }
     },
     {
       "code": "3301251",
@@ -446,7 +650,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:14.753350+00:00"
+      }
     },
     {
       "code": "3301252",
@@ -489,7 +718,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "theory",
+          "math"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:17.168286+00:00"
+      }
     },
     {
       "code": "3301253",
@@ -534,7 +790,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:19.972307+00:00"
+      }
     },
     {
       "code": "3301254",
@@ -582,7 +863,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.1,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:22.327366+00:00"
+      }
     },
     {
       "code": "3301255",
@@ -625,7 +931,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:24.784025+00:00"
+      }
     },
     {
       "code": "3301256",
@@ -672,7 +1003,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:27.797659+00:00"
+      }
     },
     {
       "code": "3301257",
@@ -707,7 +1064,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "remember",
+        "bloom_distribution": {
+          "remember": 0.7,
+          "understand": 0.2,
+          "apply": 0.05,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:30.314455+00:00"
+      }
     },
     {
       "code": "3301258",
@@ -750,7 +1132,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:32.545337+00:00"
+      }
     },
     {
       "code": "3301351",
@@ -794,7 +1202,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:35.129124+00:00"
+      }
     },
     {
       "code": "3301352",
@@ -843,7 +1277,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:37.892394+00:00"
+      }
     },
     {
       "code": "3301353",
@@ -891,7 +1351,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:40.294074+00:00"
+      }
     },
     {
       "code": "3301354",
@@ -939,7 +1425,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "theory",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.38,
+          "analyze": 0.22,
+          "evaluate": 0.07,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:42.909923+00:00"
+      }
     },
     {
       "code": "3301355",
@@ -987,7 +1500,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:45.381293+00:00"
+      }
     },
     {
       "code": "3301356",
@@ -1035,7 +1574,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:47.868388+00:00"
+      }
     },
     {
       "code": "3301357",
@@ -1083,7 +1649,35 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [
+          "r studio"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:50.282870+00:00"
+      }
     },
     {
       "code": "3301451",
@@ -1129,7 +1723,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "theory"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:52.945216+00:00"
+      }
     },
     {
       "code": "3301452",
@@ -1177,7 +1797,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:55.300078+00:00"
+      }
     },
     {
       "code": "3301453",
@@ -1225,7 +1871,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:26:57.736961+00:00"
+      }
     },
     {
       "code": "3301454",
@@ -1270,7 +1942,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:00.317647+00:00"
+      }
     },
     {
       "code": "3301455",
@@ -1307,7 +2006,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "software_eng"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:02.673528+00:00"
+      }
     },
     {
       "code": "3301456",
@@ -1355,7 +2079,40 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "flutter",
+          "dart",
+          "firebase",
+          "sqlite",
+          "api"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:05.335648+00:00"
+      }
     },
     {
       "code": "3301468",
@@ -1405,7 +2162,32 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:07.897535+00:00"
+      }
     },
     {
       "code": "3301471",
@@ -1455,7 +2237,32 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:10.455355+00:00"
+      }
     },
     {
       "code": "3301551",
@@ -1503,7 +2310,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [
+          "x86",
+          "assembly",
+          "pic16f877"
+        ],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:13.322699+00:00"
+      }
     },
     {
       "code": "3301552",
@@ -1549,7 +2387,39 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "c#",
+          ".net",
+          "ado.net",
+          "linq",
+          "orm"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:16.089415+00:00"
+      }
     },
     {
       "code": "3301553",
@@ -1598,7 +2468,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:18.749800+00:00"
+      }
     },
     {
       "code": "3301554",
@@ -1640,7 +2537,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.07,
+          "evaluate": 0.02,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:21.154686+00:00"
+      }
     },
     {
       "code": "3301562",
@@ -1688,7 +2610,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:23.767658+00:00"
+      }
     },
     {
       "code": "3301564",
@@ -1735,7 +2683,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "graphics_vision",
+          "not_cs"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:26.329481+00:00"
+      }
     },
     {
       "code": "3301568",
@@ -1781,7 +2756,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:28.887449+00:00"
+      }
     },
     {
       "code": "3301569",
@@ -1826,7 +2828,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "security",
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:31.626259+00:00"
+      }
     },
     {
       "code": "3301651",
@@ -1872,7 +2901,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "theory"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:34.110338+00:00"
+      }
     },
     {
       "code": "3301652",
@@ -1922,7 +2978,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "math"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:36.680057+00:00"
+      }
     },
     {
       "code": "3301653",
@@ -1965,7 +3047,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "graphics_vision",
+          "programming",
+          "ai_ml"
+        ],
+        "primary_category": "graphics_vision",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:39.129157+00:00"
+      }
     },
     {
       "code": "3301654",
@@ -2008,7 +3117,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "not_cs"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:41.464062+00:00"
+      }
     },
     {
       "code": "3301662",
@@ -2054,7 +3190,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "web_mobile"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:44.111422+00:00"
+      }
     },
     {
       "code": "3301663",
@@ -2105,7 +3268,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:46.427497+00:00"
+      }
     },
     {
       "code": "3301665",
@@ -2155,7 +3345,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "programming"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:48.653130+00:00"
+      }
     },
     {
       "code": "3301666",
@@ -2205,7 +3422,33 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:51.756858+00:00"
+      }
     },
     {
       "code": "3301670",
@@ -2255,7 +3498,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "security",
+          "math",
+          "theory"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:54.180957+00:00"
+      }
     },
     {
       "code": "3301674",
@@ -2300,7 +3570,43 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "info_systems"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "html5",
+          "css",
+          "javascript",
+          "php",
+          "ajax",
+          "bootstrap",
+          "jquery",
+          "mysql"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.12,
+          "understand": 0.2,
+          "apply": 0.42,
+          "analyze": 0.16,
+          "evaluate": 0.04,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:56.946831+00:00"
+      }
     },
     {
       "code": "3301751",
@@ -2343,7 +3649,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "theory"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.15,
+          "create": 0.2
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:27:59.301706+00:00"
+      }
     },
     {
       "code": "3301752",
@@ -2390,7 +3723,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:01.778384+00:00"
+      }
     },
     {
       "code": "3301753",
@@ -2438,7 +3797,36 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science",
+          "programming"
+        ],
+        "primary_category": "math",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "python"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.04,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:04.011907+00:00"
+      }
     },
     {
       "code": "3301754",
@@ -2488,7 +3876,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:06.474743+00:00"
+      }
     },
     {
       "code": "3301766",
@@ -2537,7 +3950,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "security",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:09.131378+00:00"
+      }
     },
     {
       "code": "3301767",
@@ -2583,7 +4023,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "security"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:11.210679+00:00"
+      }
     },
     {
       "code": "3301770",
@@ -2632,7 +4099,34 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "theory"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:13.842209+00:00"
+      }
     },
     {
       "code": "3301783",
@@ -2678,7 +4172,32 @@
       "categories": [
         "Bölüm Seçmeli"
       ],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:16.300561+00:00"
+      }
     },
     {
       "code": "3301851",
@@ -2726,7 +4245,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:18.758285+00:00"
+      }
     },
     {
       "code": "3301852",
@@ -2768,7 +4314,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:21.215219+00:00"
+      }
     },
     {
       "code": "3301853",
@@ -2810,7 +4381,145 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans"
+      "source_url": "https://bologna.selcuk.edu.tr/tr/dersler/teknoloji-bilgisayar_muhendisligi-bilgisayar_muhendisligi-lisans",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T20:28:23.674365+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 60,
+    "enriched_courses": 60,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T20:28:24.182977+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 14,
+        "total_ects": 71,
+        "required_ects": 59
+      },
+      "programming": {
+        "courses": 15,
+        "total_ects": 63,
+        "required_ects": 47
+      },
+      "systems": {
+        "courses": 20,
+        "total_ects": 103,
+        "required_ects": 71
+      },
+      "ai_ml": {
+        "courses": 3,
+        "total_ects": 12,
+        "required_ects": 8
+      },
+      "data_science": {
+        "courses": 3,
+        "total_ects": 13,
+        "required_ects": 9
+      },
+      "security": {
+        "courses": 5,
+        "total_ects": 20,
+        "required_ects": 0
+      },
+      "web_mobile": {
+        "courses": 3,
+        "total_ects": 12,
+        "required_ects": 4
+      },
+      "software_eng": {
+        "courses": 16,
+        "total_ects": 86,
+        "required_ects": 74
+      },
+      "graphics_vision": {
+        "courses": 2,
+        "total_ects": 8,
+        "required_ects": 4
+      },
+      "distributed": {
+        "courses": 4,
+        "total_ects": 17,
+        "required_ects": 5
+      },
+      "theory": {
+        "courses": 19,
+        "total_ects": 91,
+        "required_ects": 83
+      },
+      "info_systems": {
+        "courses": 4,
+        "total_ects": 17,
+        "required_ects": 9
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 1,
+        "total": 3
+      },
+      "data_science": {
+        "required": 2,
+        "elective": 1,
+        "total": 3
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 3,
+        "total": 4
+      },
+      "graphics_vision": {
+        "required": 1,
+        "elective": 1,
+        "total": 2
+      },
+      "security": {
+        "required": 0,
+        "elective": 5,
+        "total": 5
+      },
+      "software_eng": {
+        "required": 13,
+        "elective": 3,
+        "total": 16
+      },
+      "web_mobile": {
+        "required": 1,
+        "elective": 2,
+        "total": 3
+      }
+    },
+    "earliest_technical_elective_semester": 5,
+    "project_heavy_course_count": 20,
+    "total_project_ects": 101,
+    "english_resources_ratio": 0.39
+  }
 }

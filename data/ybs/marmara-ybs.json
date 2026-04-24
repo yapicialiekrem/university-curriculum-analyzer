@@ -1,5 +1,5 @@
 {
-  "uni_name": "Marmara Üniversitesi",
+  "university_name": "Marmara Üniversitesi",
   "department": "Yönetim Bilişim Sistemleri",
   "faculty": "İşletme Fakültesi",
   "language": "İngilizce",
@@ -65,7 +65,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-accounting/acc1005-84204-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-accounting/acc1005-84204-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:13.621518+00:00"
+      }
     },
     {
       "code": "ATA121",
@@ -111,7 +136,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/ataturk-ilkeleri-ve-inkilap-tarihi-i/ata121-51-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/ataturk-ilkeleri-ve-inkilap-tarihi-i/ata121-51-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.08,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:15.874753+00:00"
+      }
     },
     {
       "code": "BUS1002",
@@ -159,7 +209,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-business/bus1002-84205-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-business/bus1002-84205-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.04,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:18.037798+00:00"
+      }
     },
     {
       "code": "MATH1047",
@@ -204,7 +279,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-mathematics-i/math1047-84289-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-mathematics-i/math1047-84289-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:20.277655+00:00"
+      }
     },
     {
       "code": "MIS1301",
@@ -249,7 +350,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-information-systems-and-technology/mis1301-80446-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-information-systems-and-technology/mis1301-80446-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:22.524604+00:00"
+      }
     },
     {
       "code": "TRD121",
@@ -297,7 +425,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/turk-dili-i/trd121-1006-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/turk-dili-i/trd121-1006-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:24.885569+00:00"
+      }
     },
     {
       "code": "ACC1006",
@@ -342,7 +495,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-accounting/acc1006-84209-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-accounting/acc1006-84209-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.45,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:27.137984+00:00"
+      }
     },
     {
       "code": "ECON1011",
@@ -389,7 +567,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/microeconomics/econ1011-84206-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/microeconomics/econ1011-84206-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:29.704473+00:00"
+      }
     },
     {
       "code": "ATA122",
@@ -435,7 +638,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/ataturk-ilkeleri-ve-inkilap-tarihi-ii/ata122-52-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/ataturk-ilkeleri-ve-inkilap-tarihi-ii/ata122-52-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:31.771349+00:00"
+      }
     },
     {
       "code": "ECON1012",
@@ -480,7 +708,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/macroeconomics/econ1012-84211-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/macroeconomics/econ1012-84211-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:34.093408+00:00"
+      }
     },
     {
       "code": "MATH1046",
@@ -525,7 +778,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-mathematics-ii/math1046-84290-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-mathematics-ii/math1046-84290-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "not_cs"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:36.736967+00:00"
+      }
     },
     {
       "code": "TRD122",
@@ -573,7 +852,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/turk-dili-ii/trd122-1007-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/turk-dili-ii/trd122-1007-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "tr",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:38.975994+00:00"
+      }
     },
     {
       "code": "MIS1042",
@@ -619,7 +923,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-algorithms-and-data-structures/mis1042-84291-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-algorithms-and-data-structures/mis1042-84291-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.12,
+          "evaluate": 0.04,
+          "create": 0.04
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:41.372193+00:00"
+      }
     },
     {
       "code": "FNCE2003",
@@ -664,7 +994,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/fundamentals-of-finance/fnce2003-84214-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/fundamentals-of-finance/fnce2003-84214-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.25,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:43.606134+00:00"
+      }
     },
     {
       "code": "MIS2103",
@@ -709,7 +1064,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/computer-hardware-and-system-software/mis2103-84514-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/computer-hardware-and-system-software/mis2103-84514-5624",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:45.828241+00:00"
+      }
     },
     {
       "code": "MGT1014",
@@ -754,7 +1135,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-management/mgt1014-84213-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-management/mgt1014-84213-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:48.213764+00:00"
+      }
     },
     {
       "code": "MIS2111",
@@ -800,7 +1207,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/object-oriented-programming/mis2111-80458-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/object-oriented-programming/mis2111-80458-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:50.588280+00:00"
+      }
     },
     {
       "code": "MIS2113",
@@ -846,7 +1279,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-databases/mis2113-80459-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/introduction-to-databases/mis2113-80459-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:52.796682+00:00"
+      }
     },
     {
       "code": "MRK2023",
@@ -891,7 +1351,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/principles-of-marketing/mrk2023-84216-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/principles-of-marketing/mrk2023-84216-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:54.993685+00:00"
+      }
     },
     {
       "code": "BUS3002",
@@ -937,7 +1422,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/innovation-management/bus3002-84223-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/innovation-management/bus3002-84223-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:07:57.347036+00:00"
+      }
     },
     {
       "code": "FNCE2004",
@@ -982,7 +1493,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-management/fnce2004-84218-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-management/fnce2004-84218-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:00.011539+00:00"
+      }
     },
     {
       "code": "MIS2040",
@@ -1028,7 +1564,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/advanced-databases/mis2040-84294-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/advanced-databases/mis2040-84294-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:02.370355+00:00"
+      }
     },
     {
       "code": "MIS2026",
@@ -1075,7 +1638,40 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/web-based-application-programming/mis2026-84293-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/web-based-application-programming/mis2026-84293-5624",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "asp.net core",
+          "entity framework core",
+          "jquery",
+          "bootstrap",
+          "azure"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.2,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.06,
+          "create": 0.06
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:04.925873+00:00"
+      }
     },
     {
       "code": "STAT2011",
@@ -1120,7 +1716,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-statistics-i/stat2011-84292-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-statistics-i/stat2011-84292-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:07.281746+00:00"
+      }
     },
     {
       "code": "MIS2042",
@@ -1166,7 +1788,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-data-communications/mis2042-84295-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-data-communications/mis2042-84295-5624",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.3,
+          "apply": 0.35,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:09.736518+00:00"
+      }
     },
     {
       "code": "STAT2012",
@@ -1211,7 +1860,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-statistics-ii/stat2012-84296-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-statistics-ii/stat2012-84296-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "data_science"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:11.993585+00:00"
+      }
     },
     {
       "code": "BUS2004",
@@ -1256,7 +1931,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/research-methods/bus2004-84217-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/research-methods/bus2004-84217-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:14.351366+00:00"
+      }
     },
     {
       "code": "MIS3121",
@@ -1301,7 +2001,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/data-mining/mis3121-80468-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/data-mining/mis3121-80468-5624",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:16.748340+00:00"
+      }
     },
     {
       "code": "MIS3301",
@@ -1347,7 +2074,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/system-analysis-and-design/mis3301-80467-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/system-analysis-and-design/mis3301-80467-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:19.052103+00:00"
+      }
     },
     {
       "code": "LAW4021",
@@ -1393,7 +2147,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/it-law/law4021-84231-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/it-law/law4021-84231-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "security",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:21.368576+00:00"
+      }
     },
     {
       "code": "MIS3024",
@@ -1438,7 +2219,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/quantitative-analysis-for-decision-making/mis3024-84297-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/quantitative-analysis-for-decision-making/mis3024-84297-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:23.668266+00:00"
+      }
     },
     {
       "code": "MIS3001",
@@ -1464,7 +2271,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/summer-training-i/mis3001-80471-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/summer-training-i/mis3001-80471-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:25.813535+00:00"
+      }
     },
     {
       "code": "MIS3302",
@@ -1510,7 +2343,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/information-systems-project-management/mis3302-80472-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/information-systems-project-management/mis3302-80472-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:28.271542+00:00"
+      }
     },
     {
       "code": "MIS3322",
@@ -1555,7 +2414,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/enterprise-information-systems/mis3322-80475-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/enterprise-information-systems/mis3322-80475-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:31.139148+00:00"
+      }
     },
     {
       "code": "MIS4001",
@@ -1581,7 +2467,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/summer-training-ii/mis4001-80480-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/summer-training-ii/mis4001-80480-5624",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.15,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:33.404168+00:00"
+      }
     },
     {
       "code": "MIS4311",
@@ -1626,7 +2538,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/machine-learning-applications/mis4311-80477-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/machine-learning-applications/mis4311-80477-5624",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "math"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:35.747296+00:00"
+      }
     },
     {
       "code": "MIS4313",
@@ -1671,7 +2610,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/decision-support-systems-for-business/mis4313-80478-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/decision-support-systems-for-business/mis4313-80478-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:38.204102+00:00"
+      }
     },
     {
       "code": "MIS4020",
@@ -1717,7 +2683,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/customer-relationship-management/mis4020-84298-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/customer-relationship-management/mis4020-84298-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:41.249193+00:00"
+      }
     },
     {
       "code": "MIS4022",
@@ -1762,7 +2754,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/e-business-management/mis4022-84299-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/e-business-management/mis4022-84299-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:43.739045+00:00"
+      }
     },
     {
       "code": "MIS4011",
@@ -1807,7 +2826,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/simulation-modeling-and-analysis/mis4011-80476-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/simulation-modeling-and-analysis/mis4011-80476-5624",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:46.268925+00:00"
+      }
     },
     {
       "code": "MIS4992",
@@ -1834,7 +2880,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/project/mis4992-80483-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/project/mis4992-80483-5624",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming",
+          "systems"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.1,
+          "apply": 0.3,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:48.574686+00:00"
+      }
     },
     {
       "code": "FNCE3034",
@@ -1882,7 +2955,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/investment-analysis-and-portfolio-management/fnce3034-38755-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/investment-analysis-and-portfolio-management/fnce3034-38755-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:51.293327+00:00"
+      }
     },
     {
       "code": "FNCE3037",
@@ -1928,7 +3027,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-markets-and-institutions/fnce3037-38747-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-markets-and-institutions/fnce3037-38747-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:53.609326+00:00"
+      }
     },
     {
       "code": "FNCE4047",
@@ -1973,7 +3097,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/international-finance/fnce4047-38410-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/international-finance/fnce4047-38410-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:55.918910+00:00"
+      }
     },
     {
       "code": "FNCE4061",
@@ -2018,7 +3167,39 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-technology-and-changing-financial-architecture/fnce4061-84242-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/financial-technology-and-changing-financial-architecture/fnce4061-84242-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "ai_ml",
+          "distributed"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "ai",
+          "blockchain",
+          "decentralized finance",
+          "open api"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "mixed",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:08:58.357808+00:00"
+      }
     },
     {
       "code": "MGT3019",
@@ -2064,7 +3245,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/small-business-management/mgt3019-38751-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/small-business-management/mgt3019-38751-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:00.948768+00:00"
+      }
     },
     {
       "code": "MGT4007",
@@ -2111,7 +3318,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/entrepreneurship/mgt4007-84317-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/entrepreneurship/mgt4007-84317-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.2,
+          "create": 0.1
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "tr",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:03.292942+00:00"
+      }
     },
     {
       "code": "FNCE4043",
@@ -2158,7 +3390,32 @@
         "BUS 338"
       ],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/turkish-financial-institutions-and-markets/fnce4043-38768-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/turkish-financial-institutions-and-markets/fnce4043-38768-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "tr",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:05.544149+00:00"
+      }
     },
     {
       "code": "MGT4056",
@@ -2203,7 +3460,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/strategic-management/mgt4056-84226-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/strategic-management/mgt4056-84226-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:07.751482+00:00"
+      }
     },
     {
       "code": "MRK3051",
@@ -2248,7 +3530,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/consumer-behavior/mrk3051-38722-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/consumer-behavior/mrk3051-38722-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:10.940377+00:00"
+      }
     },
     {
       "code": "MRK3059",
@@ -2293,7 +3601,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/services-marketing/mrk3059-38723-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/services-marketing/mrk3059-38723-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:13.224341+00:00"
+      }
     },
     {
       "code": "MRK4055",
@@ -2338,7 +3672,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/marketing-communications/mrk4055-38732-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/marketing-communications/mrk4055-38732-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs",
+          "info_systems"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:15.513833+00:00"
+      }
     },
     {
       "code": "MRK4057",
@@ -2383,7 +3743,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/digital-marketing/mrk4057-69270-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/digital-marketing/mrk4057-69270-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:17.832943+00:00"
+      }
     },
     {
       "code": "MRK4060",
@@ -2428,7 +3814,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/selected-topics-in-marketing/mrk4060-68475-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/selected-topics-in-marketing/mrk4060-68475-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.2,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:20.289884+00:00"
+      }
     },
     {
       "code": "MRK4062",
@@ -2473,7 +3884,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/brand-management/mrk4062-38735-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/brand-management/mrk4062-38735-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "not_cs"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.35,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:22.905540+00:00"
+      }
     },
     {
       "code": "MRK3063",
@@ -2518,7 +3955,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/sustainability/mrk3063-28526-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/sustainability/mrk3063-28526-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.25,
+          "evaluate": 0.15,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:25.205377+00:00"
+      }
     },
     {
       "code": "MRK4064",
@@ -2563,7 +4025,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/marketing-for-international-markets/mrk4064-28566-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/marketing-for-international-markets/mrk4064-28566-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:27.662410+00:00"
+      }
     },
     {
       "code": "OB3075",
@@ -2608,7 +4095,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/gender-equality/ob3075-65758-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/gender-equality/ob3075-65758-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:29.813122+00:00"
+      }
     },
     {
       "code": "OB3084",
@@ -2653,7 +4165,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/social-responsibilities-and-business-ethics/ob3084-38759-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/social-responsibilities-and-business-ethics/ob3084-38759-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:32.515038+00:00"
+      }
     },
     {
       "code": "PROD3002",
@@ -2700,7 +4237,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/supply-chain-management/prod3002-84224-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/supply-chain-management/prod3002-84224-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:34.830928+00:00"
+      }
     },
     {
       "code": "MIS3015",
@@ -2747,7 +4311,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/multi-criteria-decision-techniques/mis3015-80484-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/multi-criteria-decision-techniques/mis3015-80484-5624",
+      "_enriched": {
+        "categories": [
+          "math",
+          "info_systems"
+        ],
+        "primary_category": "math",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:37.185887+00:00"
+      }
     },
     {
       "code": "MIS3022",
@@ -2792,7 +4382,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/network-analysis/mis3022-84300-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/network-analysis/mis3022-84300-5624",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "math",
+          "programming"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:39.540986+00:00"
+      }
     },
     {
       "code": "MIS3111",
@@ -2837,7 +4454,39 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/visual-programming-i/mis3111-80485-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/visual-programming-i/mis3111-80485-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "web_mobile",
+          "software_eng"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "visual studio",
+          "vb.net",
+          "windows",
+          "web browser"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:41.876835+00:00"
+      }
     },
     {
       "code": "OB4027",
@@ -2882,7 +4531,32 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/green-organizational-behavior/ob4027-65757-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/green-organizational-behavior/ob4027-65757-5624",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.15,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:44.354183+00:00"
+      }
     },
     {
       "code": "MIS3305",
@@ -2901,7 +4575,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/veri-bilimi-icin-programlama/mis3305-91883-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/veri-bilimi-icin-programlama/mis3305-91883-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.45,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:46.708549+00:00"
+      }
     },
     {
       "code": "MIS3112",
@@ -2946,7 +4647,37 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/visual-programming-ii/mis3112-80490-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/visual-programming-ii/mis3112-80490-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "info_systems"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "visual c#",
+          "linq"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:48.932374+00:00"
+      }
     },
     {
       "code": "MIS3113",
@@ -2991,7 +4722,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/design-patterns/mis3113-84301-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/design-patterns/mis3113-84301-5624",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "programming"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:51.316940+00:00"
+      }
     },
     {
       "code": "MIS3312",
@@ -3037,7 +4794,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/artificial-intelligence/mis3312-80489-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/artificial-intelligence/mis3312-80489-5624",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "programming",
+          "data_science"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:53.797729+00:00"
+      }
     },
     {
       "code": "MIS3313",
@@ -3082,7 +4866,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-intelligence/mis3313-80487-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-intelligence/mis3313-80487-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.4,
+          "apply": 0.25,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:56.334784+00:00"
+      }
     },
     {
       "code": "MIS3314",
@@ -3129,7 +4940,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/human-factors-in-computing/mis3314-80492-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/human-factors-in-computing/mis3314-80492-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng",
+          "systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:09:58.560465+00:00"
+      }
     },
     {
       "code": "MIS3315",
@@ -3176,7 +5014,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/digital-transformation-industry-4-0/mis3315-84228-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/digital-transformation-industry-4-0/mis3315-84228-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "systems",
+          "data_science"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:00.782430+00:00"
+      }
     },
     {
       "code": "MIS3306",
@@ -3222,7 +5087,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/business-application-development/mis3306-84302-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/business-application-development/mis3306-84302-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "data_science",
+          "ai_ml"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:03.195143+00:00"
+      }
     },
     {
       "code": "MIS3901",
@@ -3267,7 +5159,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/selected-topics-of-mis-i/mis3901-80488-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/selected-topics-of-mis-i/mis3901-80488-5624",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "deep learning",
+          "cnn",
+          "rnn"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.25,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "advanced",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:05.653441+00:00"
+      }
     },
     {
       "code": "MIS4030",
@@ -3286,7 +5209,33 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/btde-oyun-teorisi/mis4030-91882-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/btde-oyun-teorisi/mis4030-91882-5624",
+      "_enriched": {
+        "categories": [
+          "theory",
+          "info_systems"
+        ],
+        "primary_category": "theory",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.2,
+          "analyze": 0.3,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:07.774571+00:00"
+      }
     },
     {
       "code": "MIS3902",
@@ -3331,7 +5280,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/selected-topics-of-mis-ii/mis3902-80494-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/selected-topics-of-mis-ii/mis3902-80494-5624",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "info_systems",
+          "ai_ml"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:10.066925+00:00"
+      }
     },
     {
       "code": "MIS4315",
@@ -3350,7 +5326,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/social-media-and-web-analytics/mis4315-80496-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/social-media-and-web-analytics/mis4315-80496-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "web_mobile"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:12.252068+00:00"
+      }
     },
     {
       "code": "MIS4112",
@@ -3395,7 +5398,37 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/game-programming/mis4112-80502-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/game-programming/mis4112-80502-5624",
+      "_enriched": {
+        "categories": [
+          "programming",
+          "software_eng",
+          "graphics_vision"
+        ],
+        "primary_category": "programming",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "unity",
+          "c#"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:14.561674+00:00"
+      }
     },
     {
       "code": "MIS4321",
@@ -3440,7 +5473,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/computational-finance-and-algorithmic-trading/mis4321-80498-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/computational-finance-and-algorithmic-trading/mis4321-80498-5624",
+      "_enriched": {
+        "categories": [
+          "data_science",
+          "ai_ml",
+          "math"
+        ],
+        "primary_category": "data_science",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.2,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:16.929002+00:00"
+      }
     },
     {
       "code": "MIS4323",
@@ -3488,7 +5548,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/entrepreneurship-in-it/mis4323-80499-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/entrepreneurship-in-it/mis4323-80499-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "create",
+        "bloom_distribution": {
+          "remember": 0.05,
+          "understand": 0.2,
+          "apply": 0.2,
+          "analyze": 0.15,
+          "evaluate": 0.15,
+          "create": 0.25
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:19.377399+00:00"
+      }
     },
     {
       "code": "MIS4111",
@@ -3533,7 +5619,40 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/mobile-programming/mis4111-80495-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/mobile-programming/mis4111-80495-5624",
+      "_enriched": {
+        "categories": [
+          "web_mobile",
+          "programming",
+          "software_eng"
+        ],
+        "primary_category": "web_mobile",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          ".net maui",
+          "xaml",
+          "mvvm",
+          "rest",
+          "sqlite"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.08,
+          "understand": 0.17,
+          "apply": 0.42,
+          "analyze": 0.18,
+          "evaluate": 0.05,
+          "create": 0.1
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:22.017241+00:00"
+      }
     },
     {
       "code": "MIS4341",
@@ -3576,7 +5695,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/internet-of-things/mis4341-80497-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/internet-of-things/mis4341-80497-5624",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "distributed",
+          "software_eng"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:24.392427+00:00"
+      }
     },
     {
       "code": "MIS4342",
@@ -3621,7 +5767,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/cloud-computing/mis4342-80504-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/cloud-computing/mis4342-80504-5624",
+      "_enriched": {
+        "categories": [
+          "systems",
+          "info_systems",
+          "distributed"
+        ],
+        "primary_category": "systems",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "cloud computing",
+          "microsoft azure",
+          "active directory"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:26.748570+00:00"
+      }
     },
     {
       "code": "MIS4362",
@@ -3640,7 +5817,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/geographic-information-systems/mis4362-80503-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/geographic-information-systems/mis4362-80503-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.2,
+          "understand": 0.45,
+          "apply": 0.2,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "medium",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:29.102750+00:00"
+      }
     },
     {
       "code": "MIS4344",
@@ -3683,7 +5885,45 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/devops-foundations-practices-and-tools/mis4344-84304-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/devops-foundations-practices-and-tools/mis4344-84304-5624",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 82,
+        "modern_tech_tags": [
+          "devops",
+          "docker",
+          "kubernetes",
+          "jenkins",
+          "terraform",
+          "aws cloudformation",
+          "ansible",
+          "maven",
+          "linux",
+          "cloud computing"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.15,
+          "evaluate": 0.05,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:31.560584+00:00"
+      }
     },
     {
       "code": "MIS4352",
@@ -3728,7 +5968,38 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/blockchain-basics/mis4352-80506-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/blockchain-basics/mis4352-80506-5624",
+      "_enriched": {
+        "categories": [
+          "distributed",
+          "security",
+          "theory"
+        ],
+        "primary_category": "distributed",
+        "modernity_score": 58,
+        "modern_tech_tags": [
+          "blockchain",
+          "smart contracts",
+          "nfts"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.4,
+          "apply": 0.2,
+          "analyze": 0.2,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:33.915226+00:00"
+      }
     },
     {
       "code": "MIS4382",
@@ -3773,7 +6044,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/ethical-issues-in-computing/mis4382-80505-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/ethical-issues-in-computing/mis4382-80505-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "security",
+          "software_eng"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.3,
+          "apply": 0.1,
+          "analyze": 0.25,
+          "evaluate": 0.2,
+          "create": 0.05
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:36.114429+00:00"
+      }
     },
     {
       "code": "MIS4351",
@@ -3798,7 +6096,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/cybersecurity/mis4351-80500-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/cybersecurity/mis4351-80500-5624",
+      "_enriched": {
+        "categories": [
+          "security",
+          "systems",
+          "info_systems"
+        ],
+        "primary_category": "security",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.4,
+          "analyze": 0.2,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:38.318452+00:00"
+      }
     },
     {
       "code": "MIS4802",
@@ -3844,7 +6169,33 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/applied-research-in-mis-ii/mis4802-80507-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/applied-research-in-mis-ii/mis4802-80507-5624",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "info_systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.15,
+          "understand": 0.35,
+          "apply": 0.25,
+          "analyze": 0.15,
+          "evaluate": 0.08,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:40.776173+00:00"
+      }
     },
     {
       "code": "MIS4803",
@@ -3892,7 +6243,34 @@
       ],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/applied-research-in-mis-i/mis4803-80512-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/applied-research-in-mis-i/mis4803-80512-5624",
+      "_enriched": {
+        "categories": [
+          "info_systems",
+          "data_science",
+          "theory"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.3,
+          "analyze": 0.2,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "en",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:43.028729+00:00"
+      }
     },
     {
       "code": "MIS4902",
@@ -3935,7 +6313,39 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/special-topics-in-mis-ii/mis4902-80514-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/special-topics-in-mis-ii/mis4902-80514-5624",
+      "_enriched": {
+        "categories": [
+          "ai_ml",
+          "data_science",
+          "info_systems"
+        ],
+        "primary_category": "ai_ml",
+        "modernity_score": 66,
+        "modern_tech_tags": [
+          "llm",
+          "machine learning",
+          "artificial intelligence",
+          "fintech"
+        ],
+        "legacy_tech_tags": [],
+        "bloom_level": "analyze",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.25,
+          "analyze": 0.25,
+          "evaluate": 0.1,
+          "create": 0.05
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:45.589101+00:00"
+      }
     },
     {
       "code": "6.",
@@ -3954,7 +6364,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/ProgramTanitim/isletme-fakultesi/yonetim-bilisim-sistemleri-ingilizce-1337-982-0#MIS-DE1"
+      "source_url": "https://meobs.marmara.edu.tr/ProgramTanitim/isletme-fakultesi/yonetim-bilisim-sistemleri-ingilizce-1337-982-0#MIS-DE1",
+      "_enriched": {
+        "categories": [
+          "info_systems"
+        ],
+        "primary_category": "info_systems",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.25,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.1,
+          "evaluate": 0.03,
+          "create": 0.02
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:47.797537+00:00"
+      }
     },
     {
       "code": "4.",
@@ -3973,7 +6408,32 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/ProgramTanitim/isletme-fakultesi/yonetim-bilisim-sistemleri-ingilizce-1337-982-0#MIS-DE5,6"
+      "source_url": "https://meobs.marmara.edu.tr/ProgramTanitim/isletme-fakultesi/yonetim-bilisim-sistemleri-ingilizce-1337-982-0#MIS-DE5,6",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.3,
+          "understand": 0.5,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:49.687697+00:00"
+      }
     },
     {
       "code": "MIS4903",
@@ -4016,7 +6476,34 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/Ders/special-topics-in-mis-i/mis4903-84303-5624"
+      "source_url": "https://meobs.marmara.edu.tr/Ders/special-topics-in-mis-i/mis4903-84303-5624",
+      "_enriched": {
+        "categories": [
+          "software_eng",
+          "systems",
+          "distributed"
+        ],
+        "primary_category": "software_eng",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "apply",
+        "bloom_distribution": {
+          "remember": 0.1,
+          "understand": 0.25,
+          "apply": 0.35,
+          "analyze": 0.2,
+          "evaluate": 0.07,
+          "create": 0.03
+        },
+        "is_project_heavy": true,
+        "difficulty_level": "intermediate",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "high",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:52.757482+00:00"
+      }
     },
     {
       "code": "MIS-CE1",
@@ -4035,7 +6522,143 @@
       "resources": [],
       "prerequisites": [],
       "categories": [],
-      "source_url": "https://meobs.marmara.edu.tr/ProgramTanitim/isletme-fakultesi/yonetim-bilisim-sistemleri-ingilizce-1337-982-0#MIS-CE1"
+      "source_url": "https://meobs.marmara.edu.tr/ProgramTanitim/isletme-fakultesi/yonetim-bilisim-sistemleri-ingilizce-1337-982-0#MIS-CE1",
+      "_enriched": {
+        "categories": [
+          "not_cs"
+        ],
+        "primary_category": "not_cs",
+        "modernity_score": 50,
+        "modern_tech_tags": [],
+        "legacy_tech_tags": [],
+        "bloom_level": "understand",
+        "bloom_distribution": {
+          "remember": 0.35,
+          "understand": 0.45,
+          "apply": 0.15,
+          "analyze": 0.03,
+          "evaluate": 0.01,
+          "create": 0.01
+        },
+        "is_project_heavy": false,
+        "difficulty_level": "beginner",
+        "language_of_instruction": "en",
+        "resources_language": "unknown",
+        "confidence": "low",
+        "enrichment_version": 1,
+        "enriched_at": "2026-04-24T23:10:54.909314+00:00"
+      }
     }
-  ]
+  ],
+  "_summary": {
+    "total_courses": 94,
+    "enriched_courses": 94,
+    "unenrichable_courses": 0,
+    "summary_version": 1,
+    "last_enriched_at": "2026-04-24T23:10:55.412178+00:00",
+    "category_coverage": {
+      "math": {
+        "courses": 12,
+        "total_ects": 60,
+        "required_ects": 35
+      },
+      "programming": {
+        "courses": 13,
+        "total_ects": 66,
+        "required_ects": 25
+      },
+      "systems": {
+        "courses": 20,
+        "total_ects": 103,
+        "required_ects": 60
+      },
+      "ai_ml": {
+        "courses": 10,
+        "total_ects": 48,
+        "required_ects": 10
+      },
+      "data_science": {
+        "courses": 20,
+        "total_ects": 98,
+        "required_ects": 40
+      },
+      "security": {
+        "courses": 4,
+        "total_ects": 20,
+        "required_ects": 5
+      },
+      "web_mobile": {
+        "courses": 4,
+        "total_ects": 20,
+        "required_ects": 5
+      },
+      "software_eng": {
+        "courses": 21,
+        "total_ects": 102,
+        "required_ects": 55
+      },
+      "graphics_vision": {
+        "courses": 1,
+        "total_ects": 3,
+        "required_ects": 0
+      },
+      "distributed": {
+        "courses": 7,
+        "total_ects": 33,
+        "required_ects": 5
+      },
+      "theory": {
+        "courses": 3,
+        "total_ects": 15,
+        "required_ects": 0
+      },
+      "info_systems": {
+        "courses": 46,
+        "total_ects": 218,
+        "required_ects": 98
+      }
+    },
+    "modernity_score": 51,
+    "specialization_depth": {
+      "ai_ml": {
+        "required": 2,
+        "elective": 8,
+        "total": 10
+      },
+      "data_science": {
+        "required": 8,
+        "elective": 12,
+        "total": 20
+      },
+      "distributed": {
+        "required": 1,
+        "elective": 6,
+        "total": 7
+      },
+      "graphics_vision": {
+        "required": 0,
+        "elective": 1,
+        "total": 1
+      },
+      "security": {
+        "required": 1,
+        "elective": 3,
+        "total": 4
+      },
+      "software_eng": {
+        "required": 10,
+        "elective": 11,
+        "total": 21
+      },
+      "web_mobile": {
+        "required": 1,
+        "elective": 3,
+        "total": 4
+      }
+    },
+    "earliest_technical_elective_semester": 5,
+    "project_heavy_course_count": 23,
+    "total_project_ects": 112,
+    "english_resources_ratio": 0.73
+  }
 }
