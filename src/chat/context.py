@@ -95,9 +95,20 @@ def _get_engine() -> Optional[Any]:
 
 
 def _get_searcher():
-    """FAISS searcher lazy init. Index yoksa None."""
+    """FAISS searcher lazy init. Index yoksa None.
+
+    Mevcut main.py `from comparison import ...` flat-import örüntüsünü
+    kullanıyor → `src/` sys.path'te. Aynı örüntüye uyuyoruz (önce flat,
+    fallback olarak `src.*`).
+    """
     try:
-        from src.embeddings.search import get_searcher, IndexNotFoundError
+        from embeddings.search import get_searcher, IndexNotFoundError
+    except ImportError:
+        try:
+            from src.embeddings.search import get_searcher, IndexNotFoundError
+        except Exception as e:
+            logger.warning("search modülü import hatası: %s", e)
+            return None
     except Exception as e:
         logger.warning("search modülü import hatası: %s", e)
         return None
