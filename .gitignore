@@ -210,3 +210,7 @@ __marimo__/
 src/embeddings/index/
 logs/
 
+
+# Lokal symlink'ler (src'den çalıştırmak için: ingest, uvicorn static)
+src/data
+src/static

@@ -1,0 +1,17 @@
+{
+  "uni_name": "Türk-Alman Üniversitesi",
+  "department": "Bilgisayar Mühendisliği",
+  "faculty": "Mühendislik Fakültesi",
+  "language": "Almanca",
+  "type": "devlet",
+  "department_url": "https://bm.tau.edu.tr",
+  "syllabus_urls": [
+    "https://bm.tau.edu.tr/ogretim-plani-2020"
+  ],
+  "academic_staff_urls": [
+    "https://bm.tau.edu.tr/akademik_kadro"
+  ],
+  "program_outcomes_urls": [
+    "https://bm.tau.edu.tr/program-yeterlikleri"
+  ]
+}

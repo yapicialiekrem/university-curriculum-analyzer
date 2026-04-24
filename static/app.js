@@ -209,12 +209,44 @@ async function sendChat() {
         const res = await fetch(`${API}/api/chat`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ message: msg })
+            body: JSON.stringify({ question: msg })
         });
         const data = await res.json();
         document.getElementById(typingId)?.remove();
-        const formatted = formatBotMessage(data.answer);
-        container.innerHTML += `<div class="chat-msg bot"><div class="msg-avatar">🤖</div><div class="msg-bubble">${formatted}</div></div>`;
+
+        // Validation hatası (422) → detail alanında Pydantic hatası döner
+        if (!res.ok) {
+            const errMsg = (data.detail && data.detail[0]?.msg) || `Hata ${res.status}`;
+            container.innerHTML += `<div class="chat-msg bot"><div class="msg-avatar">🤖</div><div class="msg-bubble">${escapeHtml(errMsg)}</div></div>`;
+            sendBtn.disabled = false;
+            container.scrollTop = container.scrollHeight;
+            return;
+        }
+
+        const text = data.text || 'Cevap üretilemedi.';
+        const formatted = formatBotMessage(text);
+
+        // Citations — ders kartları
+        let citationsHtml = '';
+        if (data.citations && data.citations.length) {
+            const items = data.citations.map(c => {
+                const href = c.url ? ` href="${escapeHtml(c.url)}" target="_blank" rel="noreferrer"` : '';
+                const tag = c.url ? 'a' : 'span';
+                return `<${tag}${href} class="citation-chip" title="${escapeHtml(c.university || '')}">${escapeHtml(c.code)}${c.name ? ' — ' + escapeHtml(c.name) : ''}</${tag}>`;
+            }).join('');
+            citationsHtml = `<div class="citations">${items}</div>`;
+        }
+
+        // Follow-up önerileri — tıklanabilir pill'ler
+        let suggHtml = '';
+        if (data.follow_up_suggestions && data.follow_up_suggestions.length) {
+            const pills = data.follow_up_suggestions.map(s =>
+                `<button class="suggestion-pill" onclick="document.getElementById('chatInput').value = ${JSON.stringify(s)}; document.getElementById('chatInput').focus();">${escapeHtml(s)}</button>`
+            ).join('');
+            suggHtml = `<div class="follow-ups">${pills}</div>`;
+        }
+
+        container.innerHTML += `<div class="chat-msg bot"><div class="msg-avatar">🤖</div><div class="msg-bubble">${formatted}${citationsHtml}${suggHtml}</div></div>`;
     } catch (e) {
         document.getElementById(typingId)?.remove();
         container.innerHTML += `<div class="chat-msg bot"><div class="msg-avatar">🤖</div><div class="msg-bubble">Üzgünüm, bir hata oluştu. Lütfen tekrar deneyin.</div></div>`;
@@ -232,6 +264,8 @@ function escapeHtml(text) {
 
 function formatBotMessage(text) {
     let html = escapeHtml(text);
+    // <ref>CODE</ref> → inline chip (escapeHtml sonrası &lt;ref&gt; olur)
+    html = html.replace(/&lt;ref&gt;(.*?)&lt;\/ref&gt;/g, '<code class="ref-inline">$1</code>');
     html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
     html = html.replace(/\n/g, '<br>');
