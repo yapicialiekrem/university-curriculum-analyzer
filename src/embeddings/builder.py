@@ -133,7 +133,13 @@ class CourseMeta:
 # ─── Core build ────────────────────────────────────────────────────────────
 
 def _iter_data_files(data_dir: Path, limit: Optional[int]) -> list[Path]:
-    files = sorted(p for p in data_dir.glob("*.json") if p.is_file())
+    """data/*.json + data/**/*.json (recursive — alt klasörler için)."""
+    seen: set[Path] = set()
+    files: list[Path] = []
+    for p in sorted(data_dir.rglob("*.json")):
+        if p.is_file() and p not in seen:
+            seen.add(p)
+            files.append(p)
     if limit is not None and limit > 0:
         files = files[:limit]
     return files

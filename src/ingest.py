@@ -330,8 +330,15 @@ def ingest_course(tx, course: dict, dept_name: str, university_name: str) -> Non
 def main():
     """Main entry point: load JSON files and ingest into Neo4j."""
 
+    # data/ repo kökünde yaşıyor (src/data symlink'i varsa da aynısı).
+    # Yeni yapı: data/{bilgisayar,yazilim,ybs}/<uni>.json — recursive tarıyoruz.
     data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-    json_files = sorted(glob.glob(os.path.join(data_dir, "*.json")))
+    json_files = sorted(glob.glob(os.path.join(data_dir, "**", "*.json"),
+                                  recursive=True))
+    # Geriye dönük uyumluluk: flat JSON'lar da varsa dahil et
+    json_files += sorted(glob.glob(os.path.join(data_dir, "*.json")))
+    # Duplicate temizliği (aynı yol iki kez gelmesin)
+    json_files = sorted(set(json_files))
 
     if not json_files:
         logger.error("No JSON files found in %s", data_dir)

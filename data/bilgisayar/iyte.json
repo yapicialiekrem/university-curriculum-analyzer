@@ -1,0 +1,3441 @@
+{
+  "uni_name": "İzmir Yüksek Teknoloji Enstitüsü",
+  "department": "Bilgisayar Mühendisliği",
+  "faculty": "Mühendislik Fakültesi",
+  "language": "İngilizce",
+  "type": "devlet",
+  "department_url": "https://ceng.iyte.edu.tr",
+  "program_outcomes": [
+    "Matematik, fen bilimleri ve ilgili mühendislik disiplinine özgü konularda yeterli bilgi birikimi; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanabilme becerisi.",
+    "Karmaşık mühendislik problemlerini saptama, tanımlama, formüle etme ve çözme becerisi; bu amaçla uygun analiz ve modelleme yöntemlerini seçme ve uygulama becerisi.",
+    "Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlama becerisi; bu amaçla modern tasarım yöntemlerini uygulama becerisi.",
+    "Mühendislik uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirme, seçme ve kullanma becerisi; bilişim teknolojilerini etkin bir şekilde kullanma becerisi.",
+    "Karmaşık mühendislik problemlerinin veya disipline özgü araştırma konularının incelenmesi için deney tasarlama, deney yapma, veri toplama, sonuçları analiz etme ve yorumlama becerisi.",
+    "Disiplin içi ve çok disiplinli takımlarda etkin biçimde çalışabilme becerisi; bireysel çalışma becerisi.",
+    "Türkçe sözlü ve yazılı etkin iletişim kurma becerisi; en az bir yabancı dil bilgisi; etkin rapor yazma ve yazılı raporları anlama, tasarım ve üretim raporları hazırlayabilme, etkin sunum yapabilme, açık ve anlaşılır talimat verme ve alma becerisi.",
+    "Yaşam boyu öğrenmenin gerekliliği bilinci; bilgiye erişebilme, bilim ve teknolojideki gelişmeleri izleme ve kendini sürekli yenileme becerisi.",
+    "Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilinci; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi.",
+    "Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi; girişimcilik, yenilikçilik hakkında farkındalık; sürdürülebilir kalkınma hakkında bilgi.",
+    "Mühendislik uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi; mühendislik çözümlerinin hukuksal sonuçları konusunda farkındalık."
+  ],
+  "academic_staff": {
+    "professor": 7,
+    "associate_professor": 4,
+    "assistant_professor": 1,
+    "lecturer": 4,
+    "research_assistant": 0,
+    "total": 16
+  },
+  "courses": [
+    {
+      "code": "MATH 141",
+      "name": "Calculus I",
+      "ects": 5,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math141/"
+    },
+    {
+      "code": "CENG 111",
+      "name": "Concepts in Computer Engineering",
+      "ects": 5,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to develop a common understanding of computer science, strengthen students' ability to describe, analyze, and solve problems, and introduce algorithmic thinking and design at a higher level. It also provides basic knowledge of computer architecture, programming languages, data storage, software engineering, computer networks, and the application areas of computers.",
+      "description": "Basic computer knowledge covering the history of computing, terms and definitions, system components and processes, computer architecture, data storage, computer networks and internet, software engineering, problem solving and algorithm design, data structures, and application fields of computers.",
+      "learning_outcomes": [
+        "To learn about the history of computing",
+        "To learn the principle concepts and definitions",
+        "To have the ability to define, analyze and solve problems",
+        "To have the habitude of algorithmic thinking",
+        "To learn design of algorithms",
+        "To have principle knowledge about the computer architecture",
+        "To have principle knowledge about programming languages and familiarity of different programming languages",
+        "To have basic knowledge about different data storage methods",
+        "To have general knowledge about software engineering concepts",
+        "To learn the principles of computer networks",
+        "To learn the application fields of the computers"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to computer engineering",
+        "Hafta 2: Data storage",
+        "Hafta 3: Data processing",
+        "Hafta 4: Operating systems",
+        "Hafta 5: Computer Networks and Internet",
+        "Hafta 6: Algorithms",
+        "Hafta 7: Algorithms cont.",
+        "Hafta 8: Programming languages",
+        "Hafta 9: Software engineering",
+        "Hafta 10: Data structures",
+        "Hafta 11: File structures",
+        "Hafta 12: Database management systems",
+        "Hafta 13: Artificial intelligence",
+        "Hafta 14: General evaluation"
+      ],
+      "resources": [
+        "J. G. Brookshear. Computer Science An Overview. 7th Ed. 2002. Addison-Wesley.",
+        "G. Michael Schneider, Judith L. Gersting. An Invitation to Computer Science. 1st Ed. West Publishing Company, USA.",
+        "George Beekman, Micheal J. Quinn. Computer Confluence. 7th Ed. Prentice Hall."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-111/"
+    },
+    {
+      "code": "ENG 101",
+      "name": "Development of Reading and Writing Skills I",
+      "ects": 3,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ydyo.iyte.edu.tr/akademik/modern-diller-bolumu/fakulte-dersleri-koordinatorlugu/"
+    },
+    {
+      "code": "CENG 113",
+      "name": "Programming Basics",
+      "ects": 6,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "To give the students the fundamentals of computer programming and introduce basic concepts of algorithmics and algorithmic terminologies.",
+      "description": "Fundamentals of computer programming: sequence, decision, repetition, syntax, compilation, debugging and maintenance, procedures, parameters, arrays, object, top-down structured design, layout and style. The emphasis is on an engineering “right-first-time” approach to solving large problems using computers. Basic concepts of algorithmics and algorithmic terminologies.",
+      "learning_outcomes": [
+        "To be able to provide algorithmic solutions for basic problems.",
+        "To be able to use and explain main concepts of programming.",
+        "To be able to design and apply decision structures.",
+        "To be able to design and apply loop structures.",
+        "To be able to monitor and analyze computer software.",
+        "To be able to design, define and use functions.",
+        "To be able to use recursive approach for problem solving.",
+        "To be able to design, define and use class."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Programming Basics – Tutorial – I",
+        "Hafta 2: Introduction to Programming Basics – Tutorial – II",
+        "Hafta 3: Types, Operators and Expressions",
+        "Hafta 4: Program Control Flow",
+        "Hafta 5: Loops-I",
+        "Hafta 6: Loops-II",
+        "Hafta 7: Functions-I",
+        "Hafta 8: Functions-II",
+        "Hafta 9: File I/O",
+        "Hafta 10: Lists and Tuples – I",
+        "Hafta 11: Lists and Tuples – II",
+        "Hafta 12: Strings",
+        "Hafta 13: Recursion",
+        "Hafta 14: Classes"
+      ],
+      "resources": [
+        "Starting Out with Python, Tony Gaddis",
+        "The Practice of Computing Using Python, Punch & Enbody, Global Ed.",
+        "Python How to Program, Deitel & Deitel",
+        "Think Python: How to Think Like a Computer Scientist by Allen B"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-113/"
+    },
+    {
+      "code": "MATH 142",
+      "name": "Calculus II",
+      "ects": 6,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math142/"
+    },
+    {
+      "code": "MATH 144",
+      "name": "Finite Mathematics",
+      "ects": 5,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://math.iyte.edu.tr/courses/service-courses/math144/"
+    },
+    {
+      "code": "CENG 112",
+      "name": "Data Structures",
+      "ects": 5,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To improve the students understanding and abilities related to data structures and algorithms. To improve the students ability to program.",
+      "description": "Basic concepts of data, data structures and data types: arrays, strings, linear structures, sequential searching and sorting techniques, stacks, queues, pointers, linked lists. Various forms of m-way search and B-trees.",
+      "learning_outcomes": [
+        "To be able to use and design abstract data types.",
+        "To be able to implement array and linked data structures.",
+        "To be able to design and analyze recursive data structures and algorithms.",
+        "To be able to implement and use algorithms and data structures for searching."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Data Abstraction",
+        "Hafta 3: Queues and Stacks",
+        "Hafta 4: Analysis of Algorithms",
+        "Hafta 5: Recursive Data Structures: Linked Lists and Trees",
+        "Hafta 6: Elementary Sorts: Selection Sort, Insertion Sort, and Shellsort",
+        "Hafta 7: Mergesort",
+        "Hafta 8: Quicksort",
+        "Hafta 9: Heaps and Priority Queues",
+        "Hafta 10: Symbol Tables and Binary Search",
+        "Hafta 11: Binary Search Trees",
+        "Hafta 12: Balanced Search Trees",
+        "Hafta 13: Hash Tables",
+        "Hafta 14: Graph Representation and Traversal"
+      ],
+      "resources": [
+        "Data Structures and Abstractions with Java, F.M. Carrano and T.M. Henry, 4th ed., Pearson, 2016.",
+        "Goodrich, M. T., Tamassia, R., & Goldwasser, M. H. (2013). Data structures and algorithms in Python. John Wiley & Sons Ltd."
+      ],
+      "prerequisites": [
+        "CENG 113"
+      ],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-112/"
+    },
+    {
+      "code": "CENG 115",
+      "name": "Discrete Structures",
+      "ects": 5,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the problem solving strategies, techniques, and tools. To provide students with the ability of logical and mathematical thinking. To form the background related to the discrete mathematics concepts and the corresponding mathematical notations. To develop the critical thinking ability by introducing algorithmic solutions to some abstract problems.",
+      "description": "Logic, propositions and proof methods. Sets. Functions, sequences and summations. Algorithms and complexity analysis. Integers and division. Matrices. Mathematical induction. Recursive definitions and algorithms. Probability theory. Counting techniques. Graphs. Trees.",
+      "learning_outcomes": [
+        "To be able to compare and use different discrete structures",
+        "To be able to analyze problems and identify appropriate solution schemes",
+        "To be able to demonstrate abstraction ability"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Propositional Logic",
+        "Hafta 2: Predicate Logic",
+        "Hafta 3: Proof Techniques",
+        "Hafta 4: Sets and Functions",
+        "Hafta 5: Sequences and Summations",
+        "Hafta 6: Algorithms and complexity analysis",
+        "Hafta 7: Integers, divisibility, and matrices",
+        "Hafta 8: Mid-term Exam",
+        "Hafta 9: Induction and recursion",
+        "Hafta 10: Counting, pigeonhole principle, permutation, and combination",
+        "Hafta 11: Discrete probability",
+        "Hafta 12: Recurrences",
+        "Hafta 13: Relations",
+        "Hafta 14: Graphs"
+      ],
+      "resources": [
+        "Zeitz, Paul; 1999; “The Art and Craft of Problem Solving”; John Wiley & Sons, Inc.",
+        "Rosen, Kenneth H.; 2007; “Discrete Mathematics and its Applications”; 6th Ed.; McGraw-Hill",
+        "Stein, Clifford, Drysdale, Robert L., Bogart, Kenneth; 2011; “Discrete Mathematics for Computer Scientists”; Pearson"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-115/"
+    },
+    {
+      "code": "ENG 102",
+      "name": "Development of Reading and Writing Skills II",
+      "ects": 3,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ydyo.iyte.edu.tr/en/akademik/modern-diller-bolumu/fakulte-dersleri-koordinatorlugu"
+    },
+    {
+      "code": "CENG 211",
+      "name": "Programming Fundamentals",
+      "ects": 5,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To provide students with the ability of object oriented programming. To teach object oriented software design at beginners level. To teach object oriented coding of fundamental algorithms and data structures. To teach Java API definition and use at intermediate level. To provide students with the ability of simulation programming.",
+      "description": "Control Structures, Classes and Methods, Inheritance, Polymorphism, Interfaces, Exception Handling, Streams and File I/O, Recursion, Dynamic Data Structures and Generics.",
+      "learning_outcomes": [
+        "Apply the operations for maintaining common data structures in object-oriented way",
+        "Design algorithms in object-oriented way for solving computing problems",
+        "Know and compare different programming approaches",
+        "Analyze problems, design and implement solutions",
+        "Demonstrate the ability to abstract in object oriented context",
+        "Apply computer engineering methods to real world problems"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Object Oriented Programming",
+        "Hafta 2: Control structures and data storage",
+        "Hafta 3: Classes, objects, and methods",
+        "Hafta 4: Classes, objects, and methods",
+        "Hafta 5: Inheritance",
+        "Hafta 6: Polymorphism",
+        "Hafta 7: Midterm",
+        "Hafta 8: Abstract Data Structures",
+        "Hafta 9: Java API programming",
+        "Hafta 10: Exception and error management",
+        "Hafta 11: Object oriented analysis and design",
+        "Hafta 12: Design and code with UML class diagrams",
+        "Hafta 13: Simulation programming",
+        "Hafta 14: Repetition of important topics and evaluation of the period"
+      ],
+      "resources": [
+        "Walter Savitch; 2012; “Java: An Introduction to Problem Solving and Programming”; 6th Ed.; Upper Saddle River, NJ: Prentice-Hall; ISBN 0-273-75142-5",
+        "Deitel&Deitel; “Java How to Program”; 9th Ed.; Upper Saddle River, NJ: Prentice-Hall; ISBN 0-273-75976-0"
+      ],
+      "prerequisites": [
+        "CENG 113"
+      ],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-211/"
+    },
+    {
+      "code": "CENG 213",
+      "name": "Theory of Computation",
+      "ects": 5,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach mathematical proof making. To teach the concepts of automata, formal languages, and Turing machines. By giving the theoretical grounds in the construction of computers, to ensure the apprehension of the limitations of computing machines.",
+      "description": "Abstract automata, especially finite state machines; push-down automata; and Turing machines. Formal languages, especially context-free languages. The relationship between automata and languages. Computability and solvability.",
+      "learning_outcomes": [
+        "To be able to classify language definitions.",
+        "To be able to analyze problems and provide appropriate representations for them.",
+        "To be able to show abstraction ability.",
+        "To be able to identify some difficult problems in computer science."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Sets, Relations, and Functions",
+        "Hafta 3: Basic Proof Techniques, Closures",
+        "Hafta 4: Languages",
+        "Hafta 5: Deterministic and Nondeterministic Finite Automata",
+        "Hafta 6: Regular Expressions",
+        "Hafta 7: Context-Free Grammars",
+        "Hafta 8: Pushdown Automata",
+        "Hafta 9: Turing Machines",
+        "Hafta 10: Decidability",
+        "Hafta 11: The Chomsky Hierarchy",
+        "Hafta 12: Computational Complexity",
+        "Hafta 13: NP-Completeness",
+        "Hafta 14: NP versus P"
+      ],
+      "resources": [
+        "Lewis, H. R., & Papadimitriou, C. H. (1998). Elements of the Theory of Computation. ACM SIGACT News, 29(3), 62-78.",
+        "Sipser, M. (1996). Introduction to the Theory of Computation. ACM Sigact News, 27(1), 27-29."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-213/"
+    },
+    {
+      "code": "MATH 255",
+      "name": "Differential Equations",
+      "ects": 6,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 4,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://math.iyte.edu.tr/courses/ugcourses/math255/"
+    },
+    {
+      "code": "CENG 212",
+      "name": "Concepts of Programming Languages",
+      "ects": 5,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The aim of this course is to teach students the fundamentals of programming languages from different paradigms. Students will be able to understand the concepts of syntax, scope, and binding in the context of programming languages and write programs based on these concepts. Additionally, they will gain knowledge of functional and logic programming languages and learn the basic concepts related to these paradigms through practical applications.",
+      "description": "In this course, the fundamental concepts of programming languages and different programming paradigms will be covered. Students will gain knowledge in the following areas: Introduction to Programming Languages: The history of programming languages, types, and fundamental features. Programming Language Syntax: The structure of programming languages, syntax rules, and structural elements of a language. Names, Scopes, and Bindings: Relationships between variables, functions, and other constructs, scope concepts, and how bindings work. Control Flow: Conditional statements, loops, and control structures for managing program flow. Functional Languages (Introduction to Scheme): Functional programming paradigm, features of functional languages, and an introduction to the Scheme language. Data Types: Definition of data types, basic data structures, and type conversions. Subroutines and Control Abstraction: Use of subroutines, functions, and procedures, and control abstraction techniques. Logic Languages (Introduction to Prolog): Logic programming paradigm, fundamentals of Prolog, and practical applications. Data Abstraction and Object Orientation: Object-oriented programming, classes, objects, inheritance, and abstraction. Throughout the course, students will be exposed to how various programming languages are used in practice, as well as a comparison of languages from different paradigms. Additionally, essential programming skills, such as understanding the compilation and execution phases of a program and writing high-level functions, will be developed.",
+      "learning_outcomes": [
+        "Being able to use languages belonging to different programming paradigms.",
+        "Demonstrating the ability to easily use a new programming language.",
+        "Being able to explain the compilation and execution phases of a program.",
+        "Being able to write high-level functions."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Programming Languages",
+        "Hafta 2: Programming Language Syntax",
+        "Hafta 3: Names, Scopes, and Bindings",
+        "Hafta 4: Control Flow Structures",
+        "Hafta 5: Functional Languages (1)",
+        "Hafta 6: Functional Languages (2)",
+        "Hafta 7: Midterm Exam",
+        "Hafta 8: Data Types (1)",
+        "Hafta 9: Data Types (2)",
+        "Hafta 10: Subroutines and Control Abstraction (1)",
+        "Hafta 11: Subroutines and Control Abstraction (2)",
+        "Hafta 12: Logic Programming (1)",
+        "Hafta 13: Logic Programming (2)",
+        "Hafta 14: Data Abstraction and Object Orientation"
+      ],
+      "resources": [
+        "M. L. Scott, Programming Language Pragmatics (4th Edition), Morgan Kaufmann, 2016.",
+        "R. W. Sebesta, Concepts of programming languages (11th Edition), Pearson, 2016."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-212/"
+    },
+    {
+      "code": "CENG 214",
+      "name": "Logic Design",
+      "ects": 6,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "Introduction to computer architecture and the fundamental principles needed to analyze and design digital systems. The course aims to develop the ability to design, test, and apply logic and arithmetic circuits in both theoretical and laboratory settings.",
+      "description": "The course covers theoretical and experimental studies related to digital logic and computer architecture, including boolean algebra, logic gates, multi-level logic gates, combinational arithmetic and logic systems, sequential logic, registers and counters, memory units, and problem solving with programmable logic.",
+      "learning_outcomes": [
+        "To be able to understand computer architecture and processes.",
+        "To be able to understand how arithmetic and logic processing unit works and the ability to design.",
+        "To be able to understand memory unit and the ability to understand how it works.",
+        "To be able to design circuitry for defined problems."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Number systems",
+        "Hafta 2: Arithmetic operations and base conversions",
+        "Hafta 3: Gate circuits and Boolean equations",
+        "Hafta 4: Circuit optimization and K-maps",
+        "Hafta 5: Additional gate types and tri state logic",
+        "Hafta 6: Design steps, hierarchical design, and technology mapping",
+        "Hafta 7: Midterm",
+        "Hafta 8: Design with decoders, encoders, multiplexers, demultiplexers",
+        "Hafta 9: Binary adders and binary adder-subtractors",
+        "Hafta 10: Binary multiplication and design by contraction",
+        "Hafta 11: bcd adder, carry lookahead generator, magnitude comparator",
+        "Hafta 12: Storage elements and analysis",
+        "Hafta 13: Sequential circuit design",
+        "Hafta 14: State machine design"
+      ],
+      "resources": [
+        "Logic and Computer Design Fundamentals, 4th Edition (2007) Prentice – Hall [M. Morris Mano, Charles Kime]",
+        "Digital Design, 4th Edition (2007) Prentice – Hall [M. Morris Mano, Michael D. Ciletti]"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-214/"
+    },
+    {
+      "code": "CENG 216",
+      "name": "Numerical Computation",
+      "ects": 5,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to introduce students to numerical techniques used in scientific and engineering computation and to develop the ability to choose and apply appropriate numerical algorithms for practical problems.",
+      "description": "Surveys and applications of numerical techniques related to matrix inversion, systems of linear equations and optimization, finite difference expressions, interpolation and approximation, numerical differentiation and integration. The problems of speed, accuracy and applicability of the topics are examined with related algorithms. The applications of these numerical methods and subjects on computers using efficient programming techniques and with necessary programming languages.",
+      "learning_outcomes": [
+        "To be able to explain effects of finite representation of real numbers for a given algorithm.",
+        "To be able to find numerical errors in calculations and compare numerical errors of different algorithms for the same problem.",
+        "To be able to solve numerical problems that include derivative, integral, interpolation and/or optimization.",
+        "To be able to apply recursive solutions to numerical problems.",
+        "To be able to implement linear/non-linear systems for the given problem.",
+        "To be able to apply appropriate numerical algorithm for given linear/non-linear system."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to numerical calculation methods",
+        "Hafta 2: Numerical calculation errors",
+        "Hafta 3: Taylor series",
+        "Hafta 4: Taylor series cont.",
+        "Hafta 5: Forward and backward differences",
+        "Hafta 6: Central differences, polynomials",
+        "Hafta 7: Interpolation & extrapolation",
+        "Hafta 8: Finding roots of equations, Newton method",
+        "Hafta 9: Finding roots of equations, Secant method",
+        "Hafta 10: The solution of simultaneous linear algebraic equations",
+        "Hafta 11: Matrix inversion",
+        "Hafta 12: Least-squares curve fitting",
+        "Hafta 13: Functional integration",
+        "Hafta 14: Numerical integration"
+      ],
+      "resources": [
+        "Numerical Analysis, The new international edition, 2ed, Timothy Sauer",
+        "Numerical Algorithms: Methods for Computer Vi- sion, Machine Learning, and Graphics, J. Solomon Matrix Computations (4th Ed.), G. H. Golub and C. F. Van Loan"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-216/"
+    },
+    {
+      "code": "CENG 215",
+      "name": "Circuits and Electronics",
+      "ects": 6,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "To provide students with the fundamental electrical engineering principles and abstractions used in the design of electronic systems. The course aims to enable students to analyze and design simple electronic circuits and to understand the relationship between discrete structures and their digital circuit implementations.",
+      "description": "Fundamentals of electric circuits, including the basic concepts such as voltage, current, and power; basic components such as resistance, inductance, capacity, MOS transistor, and operational amplifier; basic laws such as Ohm’s law, Kirchhoff’s law, and equivalent resistance exchange; and methods of circuit analysis. The course also covers transient analysis, frequency response, Laplace transforms, Fourier series, introduction to electronic materials and devices, diodes, bipolar transistors and logic families, and MOS technology.",
+      "learning_outcomes": [
+        "To be able to analyse circuits and devise solutions to design problems.",
+        "To be able to design and conduct experiments, to be able to interpret the results.",
+        "To be able to analyse and use fundamental electronics equipment, to design electronic circuits.",
+        "To be able to realize logic gates based the fundamentals of digital electronics."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to electrical circuits and basic components",
+        "Hafta 2: Circuit laws and theorems",
+        "Hafta 3: Methods of circuit analysis",
+        "Hafta 4: Analysis of first order circuits",
+        "Hafta 5: Analysis of second order circuits",
+        "Hafta 6: Dependent sources and amplifiers",
+        "Hafta 7: Large and small signal models, sinusoidal response",
+        "Hafta 8: Mid-term Exam",
+        "Hafta 9: Operational amplifier (OPAMP) abstraction",
+        "Hafta 10: The impedance model",
+        "Hafta 11: Filters",
+        "Hafta 12: The digital abstraction",
+        "Hafta 13: Realizing digital gates",
+        "Hafta 14: Energy and power"
+      ],
+      "resources": [
+        "Anant Agarwal, Jeffrey H. Lang Foundations of Analog and Digital Electronic Circuits . 2005. Morgan Kaufmann Pub"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-215/"
+    },
+    {
+      "code": "CENG 218",
+      "name": "Analysis and Design of Algorithms",
+      "ects": 5,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to provide students with the theoretical and practical background needed to solve mathematical and computational problems using algorithmic thinking.",
+      "description": "The course covers the role of algorithms in computing, growth of functions, recurrences, probabilistic analysis and randomized algorithms, dynamic programming, greedy algorithms, advanced data structures, graph algorithms, and NP-completeness.",
+      "learning_outcomes": [
+        "To be able to propose a solution using algorithmic approach",
+        "To be able to identify algorithm design alternatives for a given problem",
+        "To be able to analyze the complexity of applications"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Overview",
+        "Hafta 2: Complexity Theory",
+        "Hafta 3: Asymptotic Notation",
+        "Hafta 4: Recurrences",
+        "Hafta 5: Dynamic Programming",
+        "Hafta 6: Analysis, Design & Implementation",
+        "Hafta 7: Midterm",
+        "Hafta 8: Greedy Algorithms",
+        "Hafta 9: Merging",
+        "Hafta 10: Advanced Data Structures",
+        "Hafta 11: Graph Algorithms",
+        "Hafta 12: String Matching",
+        "Hafta 13: Sorting",
+        "Hafta 14: Problem solving"
+      ],
+      "resources": [
+        "Introduction to Algorithms, 3rd Ed., T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein, MIT Press"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-218/"
+    },
+    {
+      "code": "CENG 222",
+      "name": "Probability and Statistics",
+      "ects": 5,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course provides an elementary introduction to probability and statistics with an emphasis on experimentation using computer programming.",
+      "description": "Topics include permutation, combination, random variables, probability distributions, Bayesian inference, hypothesis testing, and confidence intervals. The course also covers elementary probability theory, conditional probability and independence, distribution functions, joint and conditional distributions, the law of large numbers, the central limit theorem, parameter estimation, and statistical testing.",
+      "learning_outcomes": [
+        "To be able to explain and apply the concepts of probability and random variables.",
+        "To be able to describe and use common probability distributions and their properties.",
+        "To be able to employ descriptive statistics.",
+        "To be able to estimate distribution parameters.",
+        "To be able to calculate confidence intervals.",
+        "To be able to conduct hypothesis testing.",
+        "To be able to utilize computation as a tool to explore concepts in probability and statistics and to do quantitative analysis."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Population and Variates, Tables and Graphs, the Center of a Set of Observations",
+        "Hafta 2: The Measure of Variability, Samples and Population",
+        "Hafta 3: Probability",
+        "Hafta 4: Random Variables, Expectation of a Random Variable",
+        "Hafta 5: Discrete Random Variables, Uniform, Bernoulli, Binomial and Poisson Distibutions",
+        "Hafta 6: Continuous Random Variables, Normal Distribution",
+        "Hafta 7: Midterm",
+        "Hafta 8: Estimation",
+        "Hafta 9: Testing Hypotheses",
+        "Hafta 10: Testing Hypotheses, Large Sample Tests",
+        "Hafta 11: Testing Hypotheses, Small Sample Tests",
+        "Hafta 12: Testing Hypotheses Using X^2 Distibution",
+        "Hafta 13: Linear Regression and Correlation",
+        "Hafta 14: Review"
+      ],
+      "resources": [
+        "Peter Olofsson, Mikael Andersson, Probability, Statistics, and Stochastic Processes, Wiley.",
+        "Michael Baron, Probability and Statistics for Computer Scientists, CRC Press.",
+        "Allen B. Downey, Think Stats: Probability and Statistics for Programmers, Green Tea Press."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-222/"
+    },
+    {
+      "code": "CENG 311",
+      "name": "Computer Architecture",
+      "ects": 8,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "To equip students with fundamental knowledge of computer organization and design.",
+      "description": "Basic computer organization concepts. Instruction set architecture. Assembly-level programming. Processor design. Pipelining. Data and control hazards. Memory hierarchy and cache. Parallelism and system performance.",
+      "learning_outcomes": [
+        "Ability to design general-purpose and application-specific microprocessors",
+        "Ability to demonstrate experience in microprocessor implementation and testing",
+        "Ability to program in assembly language"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Intr. to comp. tech.",
+        "Hafta 2: MIPS assembly (instruction set)",
+        "Hafta 3: MIPS assembly (loops)",
+        "Hafta 4: MIPS assembly (procedure calls)",
+        "Hafta 5: MIPS assembly (machine language)",
+        "Hafta 6: Computer arithmetic",
+        "Hafta 7: Processor (datapath)",
+        "Hafta 8: Processor (control)",
+        "Hafta 9: Pipelining",
+        "Hafta 10: Data and control hazards",
+        "Hafta 11: Memory hierarchy and cache",
+        "Hafta 12: Cache design",
+        "Hafta 13: Parallelism",
+        "Hafta 14: System performance"
+      ],
+      "resources": [
+        "Computer Organization and Design: The Hardware/Software Interface (The Morgan Kaufmann Series in Computer Architecture and Design), 5th Edition, by David A. Patterson, John L. Hennessy."
+      ],
+      "prerequisites": [
+        "CENG 214"
+      ],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-311/"
+    },
+    {
+      "code": "CENG 312",
+      "name": "Computer Networks",
+      "ects": 6,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To equip students with fundamental knowledge of computer networks.",
+      "description": "Overview of computer networks; packet switching, Internet, layered architecture; network applications; web, email, domain name system; reliable data transfer, congestion and flow control, UDP, TCP; switching, forwarding, routing, IP; medium access control, local area networks, Ethernet.",
+      "learning_outcomes": [
+        "Ability to analyze communication systems using fundamental concepts of communication.",
+        "Ability to analyze the layered network model and Internet protocols.",
+        "Ability to design networks and protocols."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Overview of Networks (Internet, packet switching)",
+        "Hafta 2: Overview of Networks (Routers, layered arhitecture)",
+        "Hafta 3: Application Layer (Principles of network applications)",
+        "Hafta 4: Application Layer (HTTP, SMTP, DNS)",
+        "Hafta 5: Application Layer (Socket programming)",
+        "Hafta 6: Transport Layer (Reliable data transfer)",
+        "Hafta 7: Transport Layer (UDP, TCP services)",
+        "Hafta 8: Transport Layer (Congestion and flow control)",
+        "Hafta 9: Network Layer (Switching, forwarding)",
+        "Hafta 10: Network Layer (Routing, OSPF, BGP)",
+        "Hafta 11: Network Layer (Software defined networks SDN)",
+        "Hafta 12: Data Link Layer (Error control, medium access MAC)",
+        "Hafta 13: Data Link Layer (LANs)",
+        "Hafta 14: Data Link Layer (MPLS)"
+      ],
+      "resources": [
+        "Computer Networking: A Top-Down Approach 8th edition, Jim Kurose, Keith Ross, Pearson, 2022."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-312/"
+    },
+    {
+      "code": "CENG 316",
+      "name": "Software Engineering",
+      "ects": 6,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to provide students with knowledge and practical skills related to software engineering principles and practices. It introduces the software engineer's role, development life cycle models, requirements analysis, system design, verification and validation, software quality metrics, team organization, and human-computer interaction design.",
+      "description": "The course covers software engineering fundamentals, including software development life cycle models, requirements analysis and specification, system design, software design standards, software testing standards, verification and validation processes, and the use of software quality metrics. It also includes project-based work on requirements analysis, software design documents, test reports, implementation, and team-based development activities.",
+      "learning_outcomes": [
+        "Identify functional requirements for a given project",
+        "Distinguish between functional and non-functional requirements",
+        "Apply object-oriented design methodology",
+        "Prepare a project definition document",
+        "Utilize and apply software development process models"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction - Software Development Life Cycle, Team Formation, Course Overview",
+        "Hafta 2: Software Design - Basic Design Principles, Software Architecture",
+        "Hafta 3: Design Standards - IEEE 1016, formatting rules, templates",
+        "Hafta 4: Design Draft Discussion - Group review of initial design submissions",
+        "Hafta 5: Design Review Meeting - Group presentations and instructor feedback",
+        "Hafta 6: Software Testing - Basic concepts, test design, strategies",
+        "Hafta 7: Testing Standards - IEEE 29119 and documentation templates",
+        "Hafta 8: Test Report Draft Discussion - Peer review of initial test reports",
+        "Hafta 9: Test Report Review Meeting - Improved test strategies discussion",
+        "Hafta 10: Implementation - First release demonstration",
+        "Hafta 11: Updated Reports Discussion - Design & test reports review",
+        "Hafta 12: Updated Reports Discussion - Final feedback for improvement",
+        "Hafta 13: Final Version Demo - Final delivery of the complete system",
+        "Hafta 14: Final Exam - Written exam or project presentation"
+      ],
+      "resources": [
+        "IEEE STD 1016 – Systems Design—Software Design Descriptions",
+        "IEEE STD 29119 – Software and Systems Engineering — Software Testing"
+      ],
+      "prerequisites": [
+        "CENG211",
+        "CENG315",
+        "CENG323"
+      ],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-316/"
+    },
+    {
+      "code": "CENG 318",
+      "name": "Human Computer Interaction",
+      "ects": 6,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To introduce students with the methods and principles of human factors. To teach the concepts of human computer interaction (HCI) and user-centered design (UCD). To provide students with the ability to make usability evaluation.",
+      "description": "A review of HCI concepts and history, input devices and interaction techniques, information appliances, user interface design paradigms, 3D user interfaces, adaptive interfaces, user modeling, speech recognition and conversational interfaces, wearable computers, multimodal interfaces, and perceptual interfaces.",
+      "learning_outcomes": [
+        "To be able to gain an understanding of human-computer interaction theory and research.",
+        "To be able to recognize the impact of system design on users’ attitudes and behaviors.",
+        "To be able to describe user-centered design and evaluation processes.",
+        "To be able to employ user-centered design processes in designing and building systems."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction, history of HCI.",
+        "Hafta 2: Affordance, usability. Usability principles.",
+        "Hafta 3: Limitations of technology. New technologies in HCI.",
+        "Hafta 4: Prototyping techniques.",
+        "Hafta 5: Evaluating usability. Predictive and interpretive evaluation.",
+        "Hafta 6: User interface design paradigms. Process of interaction design.",
+        "Hafta 7: Midterm exam.",
+        "Hafta 8: User modeling and the user profile. Adaptive interfaces.",
+        "Hafta 9: 3D User interfaces, augmented reality.",
+        "Hafta 10: Speech recognition and conversational interfaces.",
+        "Hafta 11: Vision-based, perceptual interfaces.",
+        "Hafta 12: Ubiquitous Computing. HCI Future Directions: Role of AI, networks, etc.",
+        "Hafta 13: Project Presentations.",
+        "Hafta 14: Project Presentations."
+      ],
+      "resources": [
+        "Dix, A., Finlay, J. , Abowd, G., and Beale, R. ;2003; “Human-computer interaction (3rd ed.)”; Prentice Hall.",
+        "Preece, J., Rogers, Y., and Sharp, H.;2002; “Interaction design : beyond human-computer interaction”; John Wiley & Sons.",
+        "Norman, D.; 1988; “The design of everyday things”; New York: Basic Books.",
+        "Carroll, J.M. ;2001; “Human Computer Interaction in the New Millenium”; Prentice Hall."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-318/"
+    },
+    {
+      "code": "CENG 322",
+      "name": "Operating Systems",
+      "ects": 8,
+      "semester": 6,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": "The course aims to provide students with a solid understanding of core operating system concepts and the principles behind their implementation. It also helps students develop the ability to reason about process execution, memory management, synchronization, scheduling, and storage-related issues.",
+      "description": "The course provides the main operating system functionalities and implementation details. It covers basic operating systems concepts, introduces process concepts and process management policies, discusses main memory and virtual memory techniques, and storage and I/O management issues.",
+      "learning_outcomes": [
+        "Analyze and design modern architecture and operating systems by acquiring the basic concepts of operating systems.",
+        "Analyze systems that include operating systems and identify related problems.",
+        "Compare different solution methods for operating system problems and choose the most appropriate one."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction+Basics – CH1 / Linux Intro",
+        "Hafta 2: OS Structures – CH2 / Shell script",
+        "Hafta 3: Processes – CH3 / C",
+        "Hafta 4: Processes – CH3 / C Pointer",
+        "Hafta 5: IPC – CH3 / Process",
+        "Hafta 6: Threads – CH4 / Process",
+        "Hafta 7: Threads – CH4 / Process",
+        "Hafta 8: Synchronization – CH6 / Threads",
+        "Hafta 9: Midterm / Threads",
+        "Hafta 10: Synchronization – CH7 / Threads/Synchronization",
+        "Hafta 11: CPU Scheduling – CH5 / Programming Assignment 2 DEMO",
+        "Hafta 12: Main Memory – CH9 / Programming Assignment 3 DEMO",
+        "Hafta 13: Virtual Memory – CH10"
+      ],
+      "resources": [
+        "A. Silberschatz, P.B. Galvin, G. Gagne: Operating System Concepts, 10th Edition, John Wiley & Sons, 2018."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-322/"
+    },
+    {
+      "code": "CENG 315",
+      "name": "Information Management",
+      "ects": 6,
+      "semester": 5,
+      "year": 3,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Gain the ability to design, implement, and query a database as a component of an information system. The course also aims to teach methods and techniques that ensure database consistency and help students become effective users of the data management layer of an information system.",
+      "description": "Introduction to Database Management Systems, architecture of database management systems, relational model, relational database design, relational algebra, SQL (DML), SQL (DDL), normalization, consistency and security, query optimization, concurrency, transaction management, recovery, index and views, and term projects.",
+      "learning_outcomes": [
+        "Capacity to design a relational database",
+        "Capacity to create a relational database",
+        "Master relational algebra and SQL",
+        "Learn concurrency methods, normalization, security and consistency methods in database management systems",
+        "Use databases"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Database Management Systems",
+        "Hafta 2: Architecture of Database Management Systems",
+        "Hafta 3: Relational Model",
+        "Hafta 4: Relational Database Design",
+        "Hafta 5: Relational Algebra",
+        "Hafta 6: SQL (DML)",
+        "Hafta 7: SQL (DDL)",
+        "Hafta 8: Normalization",
+        "Hafta 9: Consistency and Security",
+        "Hafta 10: Transaction Management",
+        "Hafta 11: Recovery",
+        "Hafta 12: Index, Views",
+        "Hafta 13: Efficient Query Optimization",
+        "Hafta 14: Term Projects"
+      ],
+      "resources": [
+        "Edward Sciore, Database Design and Implementation, Second Edition, Wiley, 2020.",
+        "Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems, McGraw-Hill, 2001, 3rd Edition.",
+        "J. Ullman, Principles of Database Systems, Second Edition, Computer Science Press, 1982.",
+        "R. Elmasri, S.K. Navathe, Fundamentals of Database Systems, Third Edition, Addison-Wesley, 2000."
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-315/"
+    },
+    {
+      "code": "PHYS 121",
+      "name": "General Physics I",
+      "ects": 7,
+      "semester": 1,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "PHYS 122",
+      "name": "General Physics II",
+      "ects": 8,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 2,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "ECON 106",
+      "name": "Principles of Economics",
+      "ects": 3,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "GCC 101",
+      "name": "Career Planning and Development",
+      "ects": 2,
+      "semester": 2,
+      "year": 1,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "CENG 411",
+      "name": "Professional Issues in Computer Engineering",
+      "ects": 6,
+      "semester": 7,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To learn ethical concepts in information technologies, to understand concepts about ethical theories, and to learn privacy and property rights issues.",
+      "description": "Study of the larger ethical and social issues of computing, including the role of a digital society in the modern world. Practical and theoretical applications of computer privacy and security, including network security measures and encryption protocols. Ethical theory and its application to problems in computing. Seminar discussion on value systems, social impact, and human factors, and about use and misuse of computers.",
+      "learning_outcomes": [
+        "Understanding the ethical phenomenon and legal dimensions in information technology.",
+        "Understanding of general ethical concepts.",
+        "To be able to understand basics of privacy.",
+        "To be able to understand basics of property rights."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Historical overview",
+        "Hafta 2: Introduction to sociotechnical computer ethics (Johnson.1)",
+        "Hafta 3: Introduction to ethics (Quinn.2, Johnson.2, Reynolds.1)",
+        "Hafta 4: Introduction to ethics (Quinn.2, Johnson.2, Reynolds.1)",
+        "Hafta 5: Ethics in ITconfigured societies (Johnson.3, Quinn.3, Reynolds.5,8,9)",
+        "Hafta 6: Information flow, privacy and surveillance(Johnson.4, Quinn.5&6, Reynolds.4)",
+        "Hafta 7: Midterm",
+        "Hafta 8: Digital intellectual property (Johnson.5, Quinn.4, Reynolds.6)",
+        "Hafta 9: Digital order (Johnson.6, Quinn.6, Reynolds.3)",
+        "Hafta 10: Digital order (Johnson.6, Quinn.6, Reynolds.3)",
+        "Hafta 11: Computer reliability (Quinn.7, Reynolds.7)",
+        "Hafta 12: Computer reliability (Quinn.7, Reynolds.7)",
+        "Hafta 13: Professional ethics in computing (Johnson.7, Quinn.9, Reynolds.2,10)",
+        "Hafta 14: Work and wealth (Quinn 10)"
+      ],
+      "resources": [
+        "Computer Ethics, Deborah G. Johnson, 4th Edition (2009)",
+        "Ethics for the Information Age, Michael J. Quinn, 8th edition (2020)"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-411/"
+    },
+    {
+      "code": "CENG 415",
+      "name": "Senior Design Project & Seminar I",
+      "ects": 8,
+      "semester": 7,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to help students identify and analyze a problem, define its scope and requirements, and develop a feasible solution. It also supports the development of project planning, teamwork, technical communication, and presentation skills.",
+      "description": "Writing technical reports, project management and planning, system analysis, requirement analysis, engineering ethics, data design, software design, and presenting a project.",
+      "learning_outcomes": [
+        "To be able to identify problem.",
+        "To be able to analyze the problem, to define the scope, constraint, requirements, to be able to design a solution.",
+        "To be able to design a solution that is innovative, sustainable and beneficial to the environment and society.",
+        "To be able to learn and use new methods and technologies.",
+        "To be able to gain teamwork skills.",
+        "To be able to present written and oral presentation skills of the project.",
+        "To be able to describe the concepts about entrepreneurship and innovation."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Writing technical reports",
+        "Hafta 3: Project management and planning",
+        "Hafta 4: System analysis",
+        "Hafta 5: Requirement analysis",
+        "Hafta 6: Engineering ethics",
+        "Hafta 7: Data design",
+        "Hafta 8: Software design",
+        "Hafta 9: Presenting the project",
+        "Hafta 10: Invited speaker- Project management",
+        "Hafta 11: Invited speaker- Software development",
+        "Hafta 12: Student project presentations",
+        "Hafta 13: Student project presentations",
+        "Hafta 14: Student project presentations"
+      ],
+      "resources": [
+        "CENG 415-416 Bitirme Projeleri Yönergesi",
+        "CENG 415 - Proje Konusu Tanımlama Formu"
+      ],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-415/"
+    },
+    {
+      "code": "CENG 400",
+      "name": "Summer Practice",
+      "ects": 4,
+      "semester": 7,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 0,
+      "hours_practice": 0,
+      "purpose": "The purpose of the internship is to enable students to put into practice the theoretical knowledge they have acquired in their field of study. Through this process, students begin to get acquainted with the professional world and start identifying the areas of interest that may shape their future careers. An internship also helps computer engineering students gain knowledge about the structure and management of an organization, as well as the information systems and system analysis conducted within the company.",
+      "description": "The internship allows students to engage in practical work, understand the overall structure of the firm, and participate in ongoing projects. It must be completed in a minimum of 20 working days, and internship dates must not conflict with academic semester dates or the summer school period. At the end of the internship, students must submit an internship report, a company survey, and a student survey. The internship report accounts for 100% of the grading.",
+      "learning_outcomes": [
+        "LO1. Ability to transfer theoretical knowledge acquired during university education to real-life applications.",
+        "LO2. Awareness of the computer engineering profession, including its roles and responsibilities.",
+        "LO3. Ability to observe the working environment during the internship and identify a preferred industry sector.",
+        "LO4. Ability to develop solutions individually or as part of a team for problems encountered in practice.",
+        "LO5. Ability to improve verbal and written communication skills and understand the importance of foreign language proficiency.",
+        "LO6. Ability to present acquired knowledge in the form of a formal report."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Internship must be completed in a minimum of 20 working days.",
+        "Hafta 2: Internship dates must not conflict with academic semester dates or the summer school period."
+      ],
+      "resources": [
+        "Department of Computer Engineering Internship Directive"
+      ],
+      "prerequisites": [
+        "It is recommended that students complete all coursework up to the end of the third year."
+      ],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-400/"
+    },
+    {
+      "code": "CENG 416",
+      "name": "Senior Design Project & Seminar II",
+      "ects": 8,
+      "semester": 8,
+      "year": 4,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Invited speakers, change management, coding documentation, coding standards, testing, reliability, security, protyping, user manuals, group demos.",
+      "learning_outcomes": [
+        "To be able to identify problem.",
+        "To be able to analyze the problem, define the scope, constraint, requirements, and design a solution.",
+        "To be able to design a solution that is innovative, sustainable and beneficial to the environment and society.",
+        "To be able to learn and use new methods and technologies.",
+        "To be able to gain teamwork skills.",
+        "To be able to present written and oral presentation skills of the project."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Invited speaker",
+        "Hafta 3: Change management",
+        "Hafta 4: Coding documentation",
+        "Hafta 5: Coding standards",
+        "Hafta 6: Testing",
+        "Hafta 7: Reliability",
+        "Hafta 8: Security",
+        "Hafta 9: Group protype presentations",
+        "Hafta 10: Group protype presentations",
+        "Hafta 11: User manual preparation",
+        "Hafta 12: Invited speaker",
+        "Hafta 13: Group demos",
+        "Hafta 14: Group demos"
+      ],
+      "resources": [],
+      "prerequisites": [
+        "CENG 415"
+      ],
+      "categories": [],
+      "source_url": "http://ceng.iyte.edu.tr/courses/ceng-416/"
+    },
+    {
+      "code": "HIST 201",
+      "name": "Principles of Ataturk I",
+      "ects": 2,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "TURK 201",
+      "name": "Turkish Language I",
+      "ects": 2,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "HIST 203",
+      "name": "History of the Turkish Revolution I (\\*)",
+      "ects": 2,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "TURK 203",
+      "name": "Turkish for Foreigners (\\*)",
+      "ects": 2,
+      "semester": 3,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "HIST 202",
+      "name": "Principles of Ataturk II",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "TURK 202",
+      "name": "Turkish Language II",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "HIST 204",
+      "name": "History of the Turkish Revolution II (\\*)",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "TURK 204",
+      "name": "Turkish for Foreigners (\\*)",
+      "ects": 2,
+      "semester": 4,
+      "year": 2,
+      "type": "zorunlu",
+      "language": "İngilizce",
+      "hours_theory": 2,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": null,
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [],
+      "source_url": null
+    },
+    {
+      "code": "CENG 323",
+      "name": "Project Management",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "By the end of this course, students will be able to comprehend the software development lifecycle, including problem analysis, software requirements analysis, and software project management.",
+      "description": "The course covers software development lifecycle activities through a project-based process. Students work in teams to prepare a project charter, perform problem analysis, conduct requirements analysis, and develop software project management documents such as the SRS and SPMP.",
+      "learning_outcomes": [
+        "To be able to recognize the personal and technical properties required for a project manager.",
+        "To be able to identify the fundamental steps of project management and risk factors.",
+        "To be able to describe the outlines of preparation, planning, application, inspection and completion phases of a project.",
+        "To be able to tell the fundamental economic concepts required for a project manager.",
+        "To be able to demonstrate computer-aided project planning and management with examples using MS Project software."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Course Introduction; Software Development LifeCycle; Team Formation; Preparing a Project Charter",
+        "Hafta 2: Problem Analysis; Problem Analysis; eEPC Tool Introduction",
+        "Hafta 3: AS-IS Draft Discussion",
+        "Hafta 4: TO-BE Draft Discussion",
+        "Hafta 5: AS-IS&TO-BE Review Meeting",
+        "Hafta 6: Software Requirement Analysis; Use case, User Story, UML",
+        "Hafta 7: IEEE SRS Standard; User Interface Design Tool",
+        "Hafta 8: SRS Draft Discussion",
+        "Hafta 9: SRS Review Meeting",
+        "Hafta 10: Software Project Management; Software Project Management",
+        "Hafta 11: IEEE SPM Standard; Project Management Tools",
+        "Hafta 12: SPMP Draft Discussion",
+        "Hafta 13: SPMP Review Meeting"
+      ],
+      "resources": [
+        "IEEE Std 830-1998, IEEE Recommended Practice for Software Requirement Specifications",
+        "IEEE 16326- Systems and Software Engineering – Lifecycle Processes- Project Management",
+        "IEEE Std 1058- Standard for Software Project Management Plans"
+      ],
+      "prerequisites": [
+        "CENG211",
+        "CENG315",
+        "analysis and design methodology"
+      ],
+      "categories": [
+        "Restricted Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-323/"
+    },
+    {
+      "code": "CENG 418",
+      "name": "Information Security",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The main goal of this course is to provide students with a background, foundation, and insight into the many dimensions of information security and to support them to understand information security’s importance in our increasingly computer-driven world.",
+      "description": "Information Security is a comprehensive study of the principles and practices of computer system security including operating system security, network security, software security and web security. Topics include common attacking techniques such as virus, trojan, worms and memory exploits; the formalisms of information security such as the access control and information flow theory; the common security policies such as BLP and Biba model; the basic cryptography, RSA, cryptographic hash function, and password system; network intrusion detection; software security theory; web security; legal and ethical issues in computer security.",
+      "learning_outcomes": [
+        "Students learn the common security threats in digital world.",
+        "Students learn the foundational theories of information security.",
+        "Students learn what are the basic principles and techniques when designing a secure system."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction Course introduction (syllabus, policies, projects, and recent cyber threats overview) An overview of information security: confidentiality, integrity, and availability",
+        "Hafta 2: Understanding the Threats Malicious software (Viruses, trojans, rootkits, worms, botnets) Memory exploits (buffer overflow, heap overflow, integer overflow, format string)",
+        "Hafta 3: Formalisms Access control theory, access control matrix Information flow",
+        "Hafta 4: Policy Security policies Confidentiality policies (BLP model) Integrity policies (Biba, and Clark-Wilson model) Hybrid policies (Chinese Wall model, role-based access control)",
+        "Hafta 5: Cryptography I Block and stream ciphers Cryptographic hash functions, Message Authentication Codes (MAC) Public and private key systems",
+        "Hafta 6: Cryptography II Message digests. Approximate strength of ciphers Authentication Password system",
+        "Hafta 7: Midterm",
+        "Hafta 8: Systems Secure design principles (Least-privilege, fail-safe defaults, complete mediation, separation of privilege) TCB and security kernel construction System defense against memory exploits UNIX security and Security-Enhanced Linux (SELinux) Windows security",
+        "Hafta 9: Network Security I TCP/IP security issues DNS security issues and defenses",
+        "Hafta 10: Network Security II TLS/SSL Network Intrusion detection and prevention systems Firewalls",
+        "Hafta 11: Software Security Vulnerability auditing, penetration testing Sandboxing Control flow integrity",
+        "Hafta 12: Web Security User authentication, authentication-via-secret and session management Cross Site Scripting, Cross Site Request Forgery, SQL Injection",
+        "Hafta 13: Legal and Ethical Issues Cybercrime and computer crime Intellectual property, copyright, patent, trade secret Hacking and intrusion Privacy, identity theft",
+        "Hafta 14: Final Exam"
+      ],
+      "resources": [
+        "Computer Security: Art and Science, ISBN 0-201-44099-7; Publisher Addison Wesley Professional; Copyright 2003"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Restricted Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-418/"
+    },
+    {
+      "code": "CENG 424",
+      "name": "Embedded Computer Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To introduce embedded computer systems and applications together with their analysis and design.",
+      "description": "Nature of embedded systems, particular problems, special issues; role in computer engineering; embedded microcontrollers, embedded software; real time systems, problems of timing and scheduling; testing and performance issues, reliability; low power computing, energy sources, leakage; design methodologies, software tool support for development of such systems; problems of maintenance and upgrade; networked embedded systems; FPGA design issues.",
+      "learning_outcomes": [
+        "To demonstrate the ability to model and design embedded systems.",
+        "To show ability to realize and verify systems.",
+        "To show ability to use embedded software development techniques."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Embedded System Design",
+        "Hafta 2: Review of computer architecture concepts",
+        "Hafta 3: LAB – I : A simple application using Arduino",
+        "Hafta 4: Design with Microcontrollers",
+        "Hafta 5: Design with Microcontrollers",
+        "Hafta 6: FFPGA design and VHDL",
+        "Hafta 7: LAB – II :Setting up the test bed for motor speed control",
+        "Hafta 8: Fundamentals of feedback control systems",
+        "Hafta 9: Midterm Exam",
+        "Hafta 10: Data Acquisition and Digital Signal Processing/Matlab-Simulink",
+        "Hafta 11: Real-Time Systems",
+        "Hafta 12: Embedded Software Design",
+        "Hafta 13: LAB – III : Speed control of dc Motor using Arduino",
+        "Hafta 14: Feedback sessions for project demonstrations and presentations"
+      ],
+      "resources": [
+        "Berger, Arnold. Embedded systems design:an introduction to processes tools and tecniques. San Francisco;Lawrence, Kan: CMP Books, c2002",
+        "Adamski, Marian Andrzej. Design of Embedded Control Systems, Boston, MA : Springer Science+Business Media, Inc., 2005.",
+        "Tebbs, David. Real time systems: management and design, McGraw-Hill London 1977",
+        "Herman Lam, John O Malley, Fundamentals of Computer Engineering: Logic Design and Microprocessors, Wiley.",
+        "Enoch O. Hwang, Digital Logic and Microprocessor Design with VHDL."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Restricted Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-424/"
+    },
+    {
+      "code": "CENG 381",
+      "name": "Stochastic Processes",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To develop the ability for stochastic, logical, and mathematical thinking. To build the foundational knowledge necessary for understanding stochastic systems. To equip students with the ability to analyze and interpret simple queueing systems.",
+      "description": "A brief review of the concepts of probability, random variables, and parameters; probability distributions; moments; inequalities related to probabilities; the central limit theorem; stochastic processes; the Poisson process; birth-death processes; Markov chains; an introduction to queueing theory and its fundamental concepts; Little’s Law; and M/M/1 queueing systems.",
+      "learning_outcomes": [
+        "The ability to understand and define random variables.",
+        "Gaining knowledge of stochastic processes and the ability to perform basic analyses.",
+        "The ability to understand queueing systems and to analyze simple queueing models.",
+        "The ability to compute and analyze certain performance criteria in queueing systems."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Quick Review of Probability",
+        "Hafta 3: Random Variables, Parameters of Random Variables, Jointly Distributed Random Variables",
+        "Hafta 4: Transform Methods, Moment Generating Function, Inequalities",
+        "Hafta 5: Probability Distributions – Discrete Random Variables",
+        "Hafta 6: Probability Distributions – Discrete RV s, Continuous RV s",
+        "Hafta 7: Probability Distributions – Continuous Random Variables – Central Limit Theorem, Applied Transforms",
+        "Hafta 8: Midterm",
+        "Hafta 9: Stochastic Processes, Poisson Process",
+        "Hafta 10: Birth+Death Process",
+        "Hafta 11: Markov Chains",
+        "Hafta 12: Queueing Theory, Introduction, Describing a Queueing System",
+        "Hafta 13: Little s Law, M/M/1 Queueing System",
+        "Hafta 14: Other Queueing Systems"
+      ],
+      "resources": [
+        "Arnold O. Allen.(1990) Probability, Statistics, and Queueing Theory with Computer Science Applications. (2nd Ed.), Academic Press, Boston",
+        "Sheldon M. Ross (1996) Stochastic Processes, (2nd Ed.) J. Wiley & Sons. New York"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-381/"
+    },
+    {
+      "code": "CENG 382",
+      "name": "Information Theory",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the fundamental concepts of information theory. To teach how to define and formulate the problems of communication and signal processing. To teach how to solve problems in communication and signal processing.",
+      "description": "An introduction to Shannon’s information theory and elementary binary coding schemes with and without noise. The concept of information, entropy, simple sources, Markov sources, continuous sources, information channels, average error, ambiguity, transformation, capacity, noiseless coding, Kraft-McMillan theorem, Shannon-Fano and Huffmann coding schemes, error-correcting codes, linear codes, cyclic codes. Data Compression.",
+      "learning_outcomes": [
+        "To do analyzing and modeling by using of fundamental concepts of information theory for signal processing and communication.",
+        "Analyzing, defining and doing research capability for the new requirements of information theory depend on technological evolution.",
+        "To have the ability for analyzing, developing and using of information theory for interdisciplinary projects.",
+        "To be able to measure and analyse the signal proceesing and communication quality and efficiency."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction; Related concepts.",
+        "Hafta 2: Entropy, relative entropy and mutual information",
+        "Hafta 3: Asymptotic equipartition property",
+        "Hafta 4: Entropy rates of stochastic processes",
+        "Hafta 5: Data compression -I",
+        "Hafta 6: Data compression -II",
+        "Hafta 7: Midterm",
+        "Hafta 8: Channel capacity",
+        "Hafta 9: Differential entropy",
+        "Hafta 10: The Gaussian channel",
+        "Hafta 11: Network Information Theory – I",
+        "Hafta 12: Network Information Theory – II",
+        "Hafta 13: Relevant topics in Information Theory today",
+        "Hafta 14: Rate-distortion"
+      ],
+      "resources": [
+        "T. M. Cover, J. A. Thomas, ‘Elements of Information Theory’, 2nd. Edition, Wiley, 2006",
+        "P. S. Nuggehalli, ‘Information Theory and Coding’, CEDT, IISc, Bangalore, http://nptel.iitm.ac.in/courses/Webcourse-contents/IISc-BANG/Information%20Theory%20and%20Coding/Learning%20Material%20-%20ITC.pdf",
+        "R. G. Gallager, ‘Principles of Digital Communication’, Chapters 1 to 3, Cambridge Univ. Press, 2008",
+        "R. G. Gallager, ‘MIT 6.450 Principles of Digital Communications I, Lectures 1 to 7’; YouTube: MIT OCW, 2006",
+        "R. W. Yeung, ‘A First Course in Information Theory’, NY: Kluwer Academic/Plemu Publishers, 2002",
+        "A. E. Gamal and Y.-H. Kim, ‘Lecture Notes on Network Information Theory’, online, 2010"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-382/"
+    },
+    {
+      "code": "CENG 383",
+      "name": "Real-Time Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To introduce the fundamentals of real-time systems. To be able to create real-time operating systems.",
+      "description": "Specification and verification techniques for real-time systems with many interacting components. formal design of real-time systems using (a) programming languages with unambiguous semantics of time – related behavior and (b) scheduling algorithms. Real-time operating systems, concepts of programming languages for real-time systems. Synchronous programming languages for reactive systems and their mathematical background. Software development for real-time systems.",
+      "learning_outcomes": [
+        "To classify various kinds of real-time systems",
+        "To identify real-time sytems and design by formal techniques.",
+        "To be able to create real-time kernels, and to develop programmes on operating systems",
+        "To demonstrate the ability to use formal methods"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Fundamentals of Real-Time Systems",
+        "Hafta 2: Review of Computer Architectures in terms of the Realization of Real-Time Systems",
+        "Hafta 3: Real-Time Definition and Design Techniques",
+        "Hafta 4: Formal Methods: Timed Automata and Petri-Nets, Model Checking",
+        "Hafta 5: Real-Time Programming Languages",
+        "Hafta 6: Synchronous Programming Languages",
+        "Hafta 7: Real-Time Kernels – I: Theoretical Findings, Scheduling Algoritms",
+        "Hafta 8: Laboratory Work – I (Advanced C and Assembly Programming)",
+        "Hafta 9: Real-Time Kernels – II: POSIX",
+        "Hafta 10: Fault-Tolerance",
+        "Hafta 11: HW/SW Integration, Performance Analysis and Optimization",
+        "Hafta 12: Laboratory Work – II (Real-Time Kernel Design: Bootstrap, process management)",
+        "Hafta 13: Laboratory Work – III (Real-Time Kernel Design: Time Management, Interrupt Mechanisms)",
+        "Hafta 14: Laboratory Work – IV(Real-Time Kernel Design: Coding Real-Time Scheduling Algorithms)"
+      ],
+      "resources": [
+        "Phillip Laplante, Real-Time Systems Design and Analysis – An Engineer’s Handbook, IEEE Press, 1993.",
+        "S.H.Son, Advances in real-time systems, Englewood Cliffs, N.J.: Prentice Hall, c1995."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-383/"
+    },
+    {
+      "code": "CENG 384",
+      "name": "Microprocessors",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to introduce the fundamental elements of microprocessors and microcomputers, along with the hardware and software concepts needed to understand and design microcontroller-based embedded systems. It also focuses on assembly-level programming and typical processor/controller interfaces.",
+      "description": "8051 hardware and software. 8051 assembly language. 8051 architecture. 8051 I/O port programming, timer programming, serial port programming, interrupt control.",
+      "learning_outcomes": [
+        "Teaching 8051 programming with assembly language.",
+        "Explain and compare the concepts of microprocessor and microcontroller.",
+        "To teach the 8051 microcontroller family and its architecture.",
+        "Explain the software and hardware features of 8051."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Course introduction and semester overview",
+        "Hafta 2: introduction to microcomputers + eprom",
+        "Hafta 3: BCD to 7-segment display with eprom",
+        "Hafta 4: 8051 hardware summary",
+        "Hafta 5: 8051 instruction set summary",
+        "Hafta 6: 8051 instruction set summary",
+        "Hafta 7: Midterm",
+        "Hafta 8: Calculator design",
+        "Hafta 9: 8051 timer operation",
+        "Hafta 10: Seconds counter experiment",
+        "Hafta 11: ADC + pod + LM135",
+        "Hafta 12: Temperature measurement via ADC",
+        "Hafta 13: 8051 serial port operation",
+        "Hafta 14: 8051 interrupts"
+      ],
+      "resources": [
+        "The 8051 Microcontroller, 4th Edition (2007) Prentice- Hall [Scott MacKenzie, Raphael Chung-Wei Phan] (textbook)"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-384/"
+    },
+    {
+      "code": "CENG 370",
+      "name": "Mainframe Computing",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course introduces students to the fundamentals of mainframe computer systems, including their history and their current implementations on personal computers.",
+      "description": "Mainframe Computers, Hercules mainframe emulator, VM/SP Operating System, GCS/RSCS, Rexx and COBOL Programming",
+      "learning_outcomes": [
+        "Learn the workings of the IBM mainframe operating systems",
+        "Be able to operate, network and administer a mainframe operating system",
+        "Be able to identify and write programs in Rexx and in COBOL language on the mainframe",
+        "Be able to present project results"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Mainframes",
+        "Hafta 2: Installation of Hercules mainframe emulator",
+        "Hafta 3: General overview of IBM mainframe operating systems",
+        "Hafta 4: Virtual Machine Concepts",
+        "Hafta 5: VM/SP Introduction and Features",
+        "Hafta 6: Configuring and administration of VM/SP",
+        "Hafta 7: Configuration of virtual devices",
+        "Hafta 8: Configuration of GCS and RSCS",
+        "Hafta 9: Ağ temelleri ve IP-NJE",
+        "Hafta 10: Paging, Virtual Storage and the Control Program",
+        "Hafta 11: The REXX Programming language",
+        "Hafta 12: COBOL: Common Business Oriented Language",
+        "Hafta 13: Batch Processing, JCL",
+        "Hafta 14: Security and Mainframes"
+      ],
+      "resources": [
+        "IBM. (1988). Virtual Machine/System Product Release 6 Terminal Reference, IBM, GC19-6206-05, IBM Press",
+        "Hugenbruch, Brian W. The Basics of Using z/VM, IBM Press, www.vm.ibm.com/education/basics/j0usezvm.html",
+        "Fosdick, Howard. (2005). Rexx Programmer’s Reference, Wiley Publishing",
+        "IBM. (1982). VM-SP Introduction, GC19-6200-1 File No. S370/4300-20, IBM Press",
+        "IBM. (1984). VM/SP Installation Guide, Release 3.1, IBM Press",
+        "Lewis, Richard. (2015). z/VM For beginners Hands on Lab, share.confex.com/share/125/webprogram/Session17471.html",
+        "IBM. (2012). Introduction to the new Mainframe, www.redbooks.ibm.com/abstracts/sg246366.html"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-370/"
+    },
+    {
+      "code": "CENG 385",
+      "name": "Mathematical Logic",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Using propositional, predicate and temporal logics, in order to logically analyse, specify and solve complex problems.",
+      "description": "The course covers how to specify sentences given in natural language in mathematical logic, infer mathematical conclusions from logical specifications, represent uncertainty, multi-valence interpretation, and temporal change, and solve sample complex problems using automated reasoning applications.",
+      "learning_outcomes": [
+        "Resolve ambiguities in natural language sentences",
+        "Specifies problems in mathematical logics",
+        "Explains mechanisms for automated reasoning",
+        "Develops logical systems"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Overview",
+        "Hafta 2: Propositions in Propositional Logic",
+        "Hafta 3: Normal Forms in Propositional Logic",
+        "Hafta 4: Semantics of Propositional Logic",
+        "Hafta 5: Inference in Propositional Logic",
+        "Hafta 6: Syntaxt and Semantics of Predicate Logic",
+        "Hafta 7: Satisfiability of Predicate Logic",
+        "Hafta 8: Formal Systems of Predicate Logic",
+        "Hafta 9: Completeness of Predicate Logic",
+        "Hafta 10: Undecidability and Incompleteness of Predicate Logic",
+        "Hafta 11: Summary",
+        "Hafta 12: Higher-Order Predicate Logics",
+        "Hafta 13: Advanced Topics",
+        "Hafta 14: Fuzzy Logic"
+      ],
+      "resources": [
+        "Mendelson, Elliott; 1997; “Introduction to mathematical logic”; Chapman& Hall; ISBN 0-412-80830-7",
+        "Bell, J.L.; 1997; “A course in mathematical logic”; 1997; N.H.; ISBN 0-7204-2844-0",
+        "Kelly, John; 1997; “The Essence of Logic”; ISBN 0-13-396375-6",
+        "Enderton, Herbert B.; 2001; “A mathematical introduction to logic”; Academic Press; ISBN 0-12-238452-0",
+        "Gabbay, Dov M.; 2000; “Temporal logic: mathematical foundations and computational aspects”; Oxford: Clarendon press; ISBN 0-19-853768-9"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-385/"
+    },
+    {
+      "code": "CENG 386",
+      "name": "Fuzzy Logic Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Learn the mathematical basics of fuzzy logics, understand the properties of theoretical fuzzy logical systems, and develop applications that model flexible human logic using fuzzy systems.",
+      "description": "Analyse the mathematical basics of fuzzy logics; analyse properties of theoretical fuzzy logical systems; model flexible human logics using fuzzy systems; develop applications of sample fuzzy systems.",
+      "learning_outcomes": [
+        "Model adaptive logic using fuzzy logic",
+        "Simulate flexible system behaviours using fuzzy logic",
+        "Develop possibilistic systems",
+        "Evaluate reasonable system behaviour"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Fuzzy set theory",
+        "Hafta 3: Fuzzy algebra",
+        "Hafta 4: Fuzzy connectives and relations",
+        "Hafta 5: Approximate reasoning",
+        "Hafta 6: Fuzzy control",
+        "Hafta 7: Evaluation",
+        "Hafta 8: Fuzzy system simulation environments",
+        "Hafta 9: Fuzzy logic simulation environments",
+        "Hafta 10: Fuzzy logic simulation environments",
+        "Hafta 11: Possibility theory",
+        "Hafta 12: Incomplete data management",
+        "Hafta 13: Fuzzy measures",
+        "Hafta 14: Fuzzy logical soft computing"
+      ],
+      "resources": [
+        "Nguyen, Hung. T; Walker, Elbert A.; 2005; “A First Course in Fuzzy Logic”, 3rd Edition; Chapman & Hall/CRC; ISBN-10: 1584885262; ISBN-13: 978-1584885269",
+        "Yen, John; Langari, Reza; 1999; “Fuzzy Logic: Intelligence, Control, and Information”; Prentice Hall; ISBN-10: 0135258170; ISBN-13: 9780135258170",
+        "Sivanandam, S.N.; Sumathi, S.; Deepa, S.N.; 2006; “Introduction to Fuzzy Logic Using MATLAB”; Springer; ISBN-10: 3540357807; ISBN-13: 978-3540357803"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-386/"
+    },
+    {
+      "code": "CENG 388",
+      "name": "Web Programming",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": null,
+      "description": "Web and .NET framework, software development with ASP.NET, web services programming, MVC programming.",
+      "learning_outcomes": [
+        "To introduce Web software development with ASP .NET",
+        "To describe Web software development methodologies on .NET platform",
+        "To provide students with the fundamental concepts of Web Services",
+        "To demonstrate software project development with MS Visual Studio"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Web ve .NET Framework",
+        "Hafta 2: IIS Web Servers",
+        "Hafta 3: Introduction to MS Visual Studio",
+        "Hafta 4: Software Project Development with MS Visual Studio",
+        "Hafta 5: Introduction to ASP.NET",
+        "Hafta 6: ASP.NET Page Life Cycle",
+        "Hafta 7: Web Application Project Templates",
+        "Hafta 8: Web Form /User Control/ Master Page Concepts",
+        "Hafta 9: Client Side Programming",
+        "Hafta 10: AJAX Programming",
+        "Hafta 11: Introduction to Web Services",
+        "Hafta 12: Web Service Development with ASP.NET",
+        "Hafta 13: MVC Architecture",
+        "Hafta 14: ASP.NET MVC Framework"
+      ],
+      "resources": [
+        "Cal Henderson, Building Scalable Web Sites: Building, Scaling, and Optimizing the Next Generation of Web Applications, O Reilly Media, 2006.",
+        "John Allspaw, The Art of Capacity Planning: Scaling Web Resources, O Reilly Media, 2008.",
+        "Theo Schlossnagle, Scalable Internet Architectures, Sams, 2006"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-388/"
+    },
+    {
+      "code": "CENG 391",
+      "name": "Introduction to Image Understanding",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The main aim of the course is to familiarize students with image processing and image content analysis. It also serves a preparatory role for graduate courses on topics such as digital image processing and 3D photography.",
+      "description": "This course covers basic image processing techniques and approaches for image content analysis. The course content includes memory representation of images, basic image processing techniques, keypoint extraction and description, image matching, and fundamentals of camera geometry.",
+      "learning_outcomes": [
+        "To be able to apply image analysis methods to industrial problems",
+        "To be able to compare different image content analysis methods for a given problem",
+        "To be able to use basic image processing methods in problem solving",
+        "To be able to list basic image processing methods and their features"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Image Representation",
+        "Hafta 3: Basic Image Processing",
+        "Hafta 4: Image Pyramids",
+        "Hafta 5: Keypoint Detection",
+        "Hafta 6: Keypoint Description and Matching",
+        "Hafta 7: Planar Projective Geometry",
+        "Hafta 8: Optimization Techniques",
+        "Hafta 9: Image Matching",
+        "Hafta 10: Optical Flow and Template Tracking",
+        "Hafta 11: Basic Camera Geometry",
+        "Hafta 12: Epipolar Geometry",
+        "Hafta 13: Dense Image Features",
+        "Hafta 14: Object Category Detection"
+      ],
+      "resources": [
+        "Computer Vision: Algorithms and Applications, R. Szeliski, 2010"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-391/"
+    },
+    {
+      "code": "CENG 390",
+      "name": "Cloud Computing",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To introduce cloud concepts, principles, and the evolution of the cloud computing paradigm. To develop mobile application, web application, and software development & programming skills on cloud architecture and cloud platforms. To discuss and understand parallel processing, storage, security, scalability, management issues, and benefits of cloud services and architecture.",
+      "description": "This course provides a hands-on comprehensive study of cloud concepts, the history and fundamentals of cloud computing across various cloud service models including IaaS, SaaS, and PaaS, including requirements, constraints, architecture, principles, areas of implementation, advantages/disadvantages, and comparison to hybrid and local architectures. PaaS topics cover a range of cloud platforms such as Google App Engine, Amazon Web Services (AWS), Microsoft Azure, and others. Topics include the design, development, and implementation of cloud-based mobile applications, web applications, databases, and systems as well as migrating existing software applications to the cloud and working on hybrid solutions. The course offers a wide range of case studies of globally recognized technology startups, products, and brands which are built on cloud platforms and analyzes and reviews them in terms of technology, operations, finance, branding, and business plan aspects.",
+      "learning_outcomes": [
+        "Be able to explain the fundamental concepts of cloud computing",
+        "Understand the advantages and disadvantages of cloud computing systems and be able to use tools on cloud platforms",
+        "When developing an application or system, be able to determine and decide on the appropriate platform and configuration by understanding non-functional requirements and considering aspects such as cost, performance, suitability, and security",
+        "Be able to design and implement mobile or web applications that run on PaaS platforms such as Amazon Web Services, Microsoft Azure, and Google App Engine",
+        "Be able to analyze and monitor applications built on cloud systems and optimize the system according to changing requirements",
+        "Be able to productize, brand, and commercialize software developed on cloud systems by establishing it as a company and launching it to the market"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Cloud Computing",
+        "Hafta 2: Service Models (SaaS, PaaS, IaaS)",
+        "Hafta 3: Cloud Computing Components",
+        "Hafta 4: Cloud Systems Models (public, private, hybrid)",
+        "Hafta 5: Public Cloud: AWS, Google App Engine, MS Azure",
+        "Hafta 6: Data Storage, Processing, Access & security",
+        "Hafta 7: In-House vs Cloud Strategy & Planning",
+        "Hafta 8: Scalable Cloud Database Architectures – SQL, NoSql, Hadoop",
+        "Hafta 9: Migrating to the Cloud Architecture",
+        "Hafta 10: Big Data & Data Science",
+        "Hafta 11: Mini Lab – Developing and Deploying Apps on Cloud Platforms",
+        "Hafta 12: Global Startups, Cloud Applications and Entrepreneurship",
+        "Hafta 13: Enterprise Cloud-Based High Performance Computing (HPC) Applications",
+        "Hafta 14: Global Cloud Strategy for Apps and Businesses"
+      ],
+      "resources": [
+        "K. Hwang, G. Fox and J. Dongarra, Distributed and Cloud Computing: From Parallel Processing to the Internet of Things, Elsevier, 2012"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-390/"
+    },
+    {
+      "code": "CENG 421",
+      "name": "Network Programming",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To gain experience in TCP/IP programming and web programming using PHP and MySQL.",
+      "description": "This course covers all aspects of TCP/IP and network programming. Starting with a review of IP and TCP, including its services and IPv6, it then covers socket programming, web programming (PHP and MySQL), and, time permitting, new trends in networking and programming.",
+      "learning_outcomes": [
+        "To acquire knowledge on TCP/IP layers and their applications.",
+        "To program in C/C++ using TCP sockets.",
+        "To be able to create a full-fledged website using PHP, MySQL and HTML.",
+        "To improve the student's ability to write programs."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Logical Addressing",
+        "Hafta 3: Internet Protocol",
+        "Hafta 4: Process to Process",
+        "Hafta 5: DNS, Email, FTP",
+        "Hafta 6: WWW",
+        "Hafta 7: Functions",
+        "Hafta 8: Socket Programming",
+        "Hafta 9: Protocols, Sessions, State",
+        "Hafta 10: Client-Server Architecture",
+        "Hafta 11: Custom Protocols",
+        "Hafta 12: Securing Network Communication"
+      ],
+      "resources": [
+        "Data Communications and Networking, Behrouz A. Forouzan",
+        "Course Web Site: http://www.kalfaoglu.com/ceng421"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-421/"
+    },
+    {
+      "code": "CENG 422",
+      "name": "Network Design & Management",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To introduce analysis and design techniques for LAN and WAN. To give the latest network technologies.",
+      "description": "LAN/WAN analysis and design; LAN standards, internetworking, recent technologies, LAN design procedures; WAN design, network services, WAN design procedures; LAN management, SNMP (simple network management protocol); design tools, network simulators.",
+      "learning_outcomes": [
+        "To have the necessary knowledge and experience to design LANs and WANs",
+        "To demonstrate the ability of analysing and configuring network protocols",
+        "To demonstrate the ability of designing a new protocol",
+        "To have the experience and familiarity with simulators and other tools to analyse and design networks",
+        "To know the fundamentals of network security"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Review of LANs",
+        "Hafta 2: Review of WANs",
+        "Hafta 3: Intranet, Internet middleware technologies: CORBA, OpenDoc, ODBC",
+        "Hafta 4: Several Computation Models: Client/Server, Client/Agent/Server, Peer-to-Peer",
+        "Hafta 5: Configuration of TCP/IP",
+        "Hafta 6: Transport Layer Protocol Design",
+        "Hafta 7: Summary (Examination)",
+        "Hafta 8: Choice and Configuration Network Active Devices",
+        "Hafta 9: LAN Design: Concepts, Tools, Applications",
+        "Hafta 10: Analysis of Traffic in Different Networks",
+        "Hafta 11: Network Management, SNMP Protocol",
+        "Hafta 12: WAN Design: Concepts, Tools, Applications",
+        "Hafta 13: Use of Simulators, Case Studies",
+        "Hafta 14: Network Security"
+      ],
+      "resources": [
+        "Arne Mikalsen, Per Borgesen, Local Area Network Management, Design & Security (Paperback), Wiley; 1st edition (June 15, 2002)",
+        "Andrew S. Tanenbaum, Computer Networks, Prentice-Hall"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-422/"
+    },
+    {
+      "code": "CENG 389",
+      "name": "Mobile Application Development",
+      "ects": 6,
+      "semester": null,
+      "year": 3,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To develop mobile device programming skills. To familiarize with the Android platform components. To develop practical skills in integrating mobile applications and web services.",
+      "description": "This course covers the fundamentals of programming mobile devices, how to access and use mobile device hardware, and the interaction between mobile apps and web services. Topics include the design and implementation of user interfaces on the Android platform, cross-platform mobile application development, and programming with sensors such as the camera and the GPS.",
+      "learning_outcomes": [
+        "Be able to explain the fundamental concepts of mobile device programming",
+        "Be able to design and implement mobile application user interfaces",
+        "Be able to design and implement mobile applications that utilize network services",
+        "Be able to analyze the user experience of mobile applications"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Mobile Programming",
+        "Hafta 2: Applications and Activities",
+        "Hafta 3: Building User Interfaces",
+        "Hafta 4: Intents, Broadcast Receivers, and Adapters",
+        "Hafta 5: Threads and Notifications",
+        "Hafta 6: Data Storage and Access",
+        "Hafta 7: Location Based Services, Maps, and Sensors",
+        "Hafta 8: Connectivity with Wi-Fi and Bluetooth",
+        "Hafta 9: Working with Multimedia and the Camera",
+        "Hafta 10: Graphics and Animation",
+        "Hafta 11: User Experience Principles",
+        "Hafta 12: Web Apps and Cross Platform Programming",
+        "Hafta 13: Interacting with Web Services",
+        "Hafta 14: Graphics and Computation with the GPU"
+      ],
+      "resources": [
+        "Android Programming: The Big Nerd Ranch Guide by Bill Phillips, Brian Hardy, 2nd Ed."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-389/"
+    },
+    {
+      "code": "CENG 431",
+      "name": "Building Software Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To provide students with the ability of object oriented analysis and design, object oriented design programming, and the fundamentals of software components and software frameworks. The course also aims to teach reuse, refactoring, unit testing, and fundamental design patterns.",
+      "description": "Object oriented analysis and design. UML usage. Advanced topics of object oriented programming. Software reuse, refactoring, unit testing. Fundamental design patterns. Software components, libraries and framework usage and ve creation.",
+      "learning_outcomes": [
+        "Know interleaved activities between specification, design, coding and testing",
+        "Use Object Oriented architecture components",
+        "Know and compare different software system development approaches",
+        "Analyze problems, design and implement solutions",
+        "Demonstrate the ability to abstract in software systems context",
+        "Apply software engineering methods to real world problems"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Object oriented software development 1",
+        "Hafta 2: Object oriented software development 2",
+        "Hafta 3: Object oriented analysis and design with UML 1",
+        "Hafta 4: Object oriented analysis and design with UML 2",
+        "Hafta 5: Software development with components",
+        "Hafta 6: Design approach with abstraction",
+        "Hafta 7: Object oriented application frameworks",
+        "Hafta 8: Reuse",
+        "Hafta 9: Refactoring",
+        "Hafta 10: Unit testing",
+        "Hafta 11: A case study from design to software",
+        "Hafta 12: Design patterns 1",
+        "Hafta 13: Design patterns 2",
+        "Hafta 14: Design patterns 3"
+      ],
+      "resources": [
+        "X. Jia, Object-Oriented Software Development Using Java. , Addison Wesley. 2nd Edition, 2003.",
+        "C. Larman, Applying UML and Patterns , Prentice Hall, 3rd Edition, 2004.",
+        "M. Fowler, K. Beck, J. Brant, W. Opdyke, D. Roberts, Refactoring: Improving the Design of Existing Code , Addison-Wesley, 1999."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-431/"
+    },
+    {
+      "code": "CENG 432",
+      "name": "Fundamentals of Enterprise Application Development",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The objective of this course is to explain enterprise applications, their usage areas, and development methods. Students will become familiar with different types of enterprise applications, especially enterprise resource planning (ERP) systems and their modules via SAP, one of the most common commercial ERP package programs. They will also learn the basics of SAP ABAP, a popular enterprise programming language.",
+      "description": "Introduction to enterprise application development; evolution, integration, and implementation methodologies of enterprise applications; enterprise applications evolution including MRP, ERP, HRM, SCM, CRM, and PLM; structure and integration methodologies; enterprise application project implementation methodologies; introduction to SAP S/4HANA; SAP configuration and customization; SAP ABAP programming; preparation of SAP functional and technical specification documents; SAP sample modules including SAP MM (Material Management) and SAP SD (Sales & Distribution); new trends in enterprise application development.",
+      "learning_outcomes": [
+        "To be able to define and explain different types of enterprise applications",
+        "To be able to describe the development and implementation strategies of enterprise applications",
+        "To be able to demonstrate configuration, customization and programming of enterprise applications with examples using SAP sources"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Enterprise Application Development",
+        "Hafta 2: Enterprise Applications Evolution – MRP & ERP",
+        "Hafta 3: Enterprise Applications Evolution – HRM & SCM & CRM & PLM",
+        "Hafta 4: Enterprise Applications Structure and Integration Methodologies",
+        "Hafta 5: Enterprise Application Projects Implementation Methodologies",
+        "Hafta 6: Introduction to SAP S/4HANA",
+        "Hafta 7: SAP Configuration and Customization",
+        "Hafta 8: SAP ABAP Programming",
+        "Hafta 9: SAP ABAP Programming",
+        "Hafta 10: SAP Functional & Technical Specification Document Preparation",
+        "Hafta 11: SAP MM (Material Management) Module",
+        "Hafta 12: SAP SD (Sales& Distribution) Module",
+        "Hafta 13: New Trends in Enterprise Application Development"
+      ],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-432/"
+    },
+    {
+      "code": "CENG 433",
+      "name": "Scalable Software Development for Internet",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The goal of this course is to dive into advanced software development and architecture design topics for Internet projects. At the end of the term, students are expected to build a foundation for designing and implementing sites that can scale up to thousands of concurrent users.",
+      "description": "Logical / physical architecture design and server components, performance measurement, advanced caching strategies, horizontal scaling with MySQL and handling peak load.",
+      "learning_outcomes": [
+        "To be able implement sites that can scale up to thousands of concurrent users.",
+        "To develop a project on Play Framework.",
+        "To be able implement various cache mechanisms",
+        "To be able to perform horizontal scaling with MySQL and handling peak load"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Play Framework",
+        "Hafta 2: Base project",
+        "Hafta 3: Introduction to Internet logical architecture designs .",
+        "Hafta 4: Load Performance testing",
+        "Hafta 5: Caching Strategies",
+        "Hafta 6: Distributed data fetching and queuing Distrubed DNS structures.",
+        "Hafta 7: Performance logging on the server and browser",
+        "Hafta 8: Developing for scalable databases .",
+        "Hafta 9: Scaling MySQL",
+        "Hafta 10: Map Reduce with Hadoop",
+        "Hafta 11: Handling unpredictable peak-time load and failures",
+        "Hafta 12: Online deployment strategies",
+        "Hafta 13: Handling unpredictable / peak-time load and failures (static fallbacks, failover mechanisms, etc.)",
+        "Hafta 14: Online deployment strategies"
+      ],
+      "resources": [
+        "http://www.infoq.com/",
+        "http://aws.amazon.com/",
+        "http://www.slideshare.net/Blaine/scaling-twitter",
+        "Cal Henderson, Building Scalable Web Sites: Building, Scaling, and Optimizing the Next Generation of Web Applications, O Reilly Media, 2006",
+        "John Allspaw, The Art of Capacity Planning: Scaling Web Resources, O Reilly Media, 2008",
+        "Theo Schlossnagle, Scalable Internet Architectures, Sams, 2006",
+        "Martin L. Abbott and Michael T. Fisher, The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise, Addison-Wesly, 2009",
+        "http://highscalability.com/",
+        "http://www.ahmetalpbalkan.com/blog/put-io-nun-altyapisi-ve-olceklenebilirligi-uzerine-roportaj/"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-433/"
+    },
+    {
+      "code": "CENG 435",
+      "name": "Database System Design and Implementation",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To master the topic of data management in computer science field, to be able to produce parts of a database management system, to gain to skill of researching.",
+      "description": "Revisiting database systems, data definition, relational algebra, disk management, file management, memory management, transaction management, record management, metadata management, query processing, parsing, planning, database server, indexing, query optimization.",
+      "learning_outcomes": [
+        "To install SimpleDB database management system, customize it as required",
+        "To develop applications that realize all the functions of a database management system",
+        "To learn the approaches and methods behind the functions of a database management system",
+        "Finding, implementing and presening solution to an engineering problem by means of software development in a team"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Database Systems and Data Definition",
+        "Hafta 2: Relational Algebra",
+        "Hafta 3: Relational Algebra",
+        "Hafta 4: Disk and File Management",
+        "Hafta 5: Memory Management",
+        "Hafta 6: Transaction Management",
+        "Hafta 7: Record Management",
+        "Hafta 8: Metadata Management",
+        "Hafta 9: Recovery and Concurrency",
+        "Hafta 10: Query Processing",
+        "Hafta 11: Query Parsing",
+        "Hafta 12: Query Planning",
+        "Hafta 13: Query Optimization",
+        "Hafta 14: Term Projects"
+      ],
+      "resources": [
+        "E. Sciore, Database Design and Implementation, Secon Edition, Wiley, 2020.",
+        "M. Fisher, J. Ellis, J. Bruce, JDBC(TM) API Tutorial and Reference, 3rd Edition (Java Series), Addison Wesley, Reading, Massachisetts, 2006."
+      ],
+      "prerequisites": [
+        "CENG 315"
+      ],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-435/"
+    },
+    {
+      "code": "CENG 436",
+      "name": "Distributed Information Management",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to enrich students' technical background, strengthen analytical thinking, and develop the ability to propose solutions for given needs and use new technologies.",
+      "description": "This course investigates principles of distributed database systems including design and architecture, security, integrity, query processing and optimization, transaction management, concurrency control, and fault tolerance. The course blends theory with practice through the development of a JDBC application and the implementation of a JDBC driver onto web-based distributed databases.",
+      "learning_outcomes": [
+        "Learn design and planning principles of distributed database management systems",
+        "Gain the ability of creating and using distributed database",
+        "Learn the methods to provide consistency and security methods in distributed database management systems",
+        "Learn query optization in distributed databases in detail",
+        "Gain the skills to prepare projects as teams"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to distributed databases",
+        "Hafta 2: Revisiting relational database management systems",
+        "Hafta 3: Computer networks",
+        "Hafta 4: Distributed database architectures",
+        "Hafta 5: Distributed database design- Horizontal partitioning",
+        "Hafta 6: Distributed database design- Vertical partitioning",
+        "Hafta 7: Semantic data management",
+        "Hafta 8: Query processing in general",
+        "Hafta 9: Query decomposition and data localization",
+        "Hafta 10: Distributed query optization",
+        "Hafta 11: Distributed concurrency",
+        "Hafta 12: Distributed consistency protocols",
+        "Hafta 13: Distributed security protocols",
+        "Hafta 14: Presentation and discussion of team projects"
+      ],
+      "resources": [
+        "M. T. Ozsu and P. Valduriez, Principles of Distributed Database Systems, Springer, 3rd Edition, 2011"
+      ],
+      "prerequisites": [
+        "CENG 315"
+      ],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-436/"
+    },
+    {
+      "code": "CENG 437",
+      "name": "Software Quality Management",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to teach software quality management within the software development lifecycle.",
+      "description": "This course covers the topics of software quality management, quality management paradigms (CMMI, ISO, IEEE), methods used in quality management, enhancement of quality process, management of quality cost, error, preventive error avoidance.",
+      "learning_outcomes": [
+        "Ability to explain the components of Software Quality Assurance",
+        "Ability to apply quality components starting from the early stages of the project",
+        "Ability to measure the effectiveness of Software Quality Assurance processes",
+        "Ability to control the impact of Software Quality Assurance processes on the project budget and schedule"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to SW Quality Management",
+        "Hafta 2: Components of Quality and Quality Models (CMMI, RUP)",
+        "Hafta 3: Components of Quality and Quality Models (ISO9001, SPICE, IEEE12207)",
+        "Hafta 4: Methods and Tools used in Quality Management",
+        "Hafta 5: Error and Problem Avoidance Methods",
+        "Hafta 6: Error and Problem Avoidance Methods",
+        "Hafta 7: Software Test Methods",
+        "Hafta 8: Software Test Methods",
+        "Hafta 9: Maintenance Mangement",
+        "Hafta 10: Maintenance Mangement",
+        "Hafta 11: Configuration Management",
+        "Hafta 12: Software Quality Metrics",
+        "Hafta 13: Process Quality Metrics and Cost of Quality Management",
+        "Hafta 14: Process Quality Metrics and Cost of Quality Management"
+      ],
+      "resources": [
+        "John W. Horch, “Practical Guide to Software Quality Management”, Addison Wesley, 2003."
+      ],
+      "prerequisites": [
+        "CENG 316"
+      ],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-437/"
+    },
+    {
+      "code": "CENG 441",
+      "name": "Introduction to Parallel Programming",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the parallel programming models. To teach and analyzing the different parallel programming tools. Teaching the parallelization methodologies by experimentally.",
+      "description": "Introduction to the programming techniques to effectively utilize modern multicore computers. Identifying the parallelism, naming shared data, synchronizing threads, the latency and bandwidth associated with communication, analyzing & improving parallel performance, parallel programming tools, miscellaneous lab works & exercises.",
+      "learning_outcomes": [
+        "Analyze the requirements for the usage of parallel programming models and efficiently implement them.",
+        "Comparing different parallel programming methodologies and tools, then effectively take a decision which one will be used.",
+        "Efficiently analyzing and conversion of sequential algorithm to parallel algorithm.",
+        "Analyze the efficiency of a parallelized algorithm."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Inroduction to Parallel Computing",
+        "Hafta 2: Paralle Programming Platforms",
+        "Hafta 3: Princibles of Algorithm Design I",
+        "Hafta 4: Princibles of Algorithm Design II",
+        "Hafta 5: Shared Memory and Threads",
+        "Hafta 6: Implementing Domain Decompositions OpenMP",
+        "Hafta 7: Confronting Race Conditions OpenMP",
+        "Hafta 8: Implementing Task Decompositions OpenMP",
+        "Hafta 9: Programming Shared Address Space Platforms – Thread Based Programming",
+        "Hafta 10: Analyzing Parallel Performance",
+        "Hafta 11: Improving Parallel Performance",
+        "Hafta 12: Programming Using MPI Paradigm Part 1 ms-MPI Install Setup",
+        "Hafta 13: MPI Exercise ms-MPI",
+        "Hafta 14: Programming Using MPI Paradigm Part 2 MPI Lab. Experiments"
+      ],
+      "resources": [
+        "Grama, A. Gupta, G. Karypis, V. Kumar, ‘Introduction to Parallel Computing’, Addison-Wesley, 2nd Ed., 2003",
+        "Behrooz Parhami, ‘Introduction to Parallel Processing Algorithms and Architectures’, Plenum Series in Computer Science, 1999"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-441/"
+    },
+    {
+      "code": "CENG 434",
+      "name": "Enterprise Application Integration",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To provide students with the ability to program web services, develop enterprise integration solutions, build multi-layer enterprise integrations, and understand the fundamentals of enterprise integration deployment.",
+      "description": "This course covers types of enterprise application integration, along with their design and implementation issues and qualities such as security, reliability, and fault tolerance.",
+      "learning_outcomes": [
+        "Use web service based programming techniques.",
+        "Know and compare different enterprise software integration approaches.",
+        "Analyze enterprise integration problems, design and implement solutions.",
+        "Demonstrate the ability to abstract in enterprise integration context.",
+        "Apply enterprise applicaton integration methods to real world problems."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Overview of enterprise architecture",
+        "Hafta 2: Layers of an enterprise information system",
+        "Hafta 3: Fundamental problems of enterprise application integration",
+        "Hafta 4: Integration types",
+        "Hafta 5: Components and patterns of enterprise application integration",
+        "Hafta 6: Web services",
+        "Hafta 7: Transaction processing monitors",
+        "Hafta 8: Enterprise service bus I",
+        "Hafta 9: Enterprise service bus II",
+        "Hafta 10: Business processes, workflow and orchestration I",
+        "Hafta 11: Business processes, workflow and orchestration II",
+        "Hafta 12: Business activities monitoring",
+        "Hafta 13: Security",
+        "Hafta 14: Reliability and Fault-Tolerance"
+      ],
+      "resources": [
+        "K. Hammer, T. Timmerman, Fundamentals of Software Integration, Jones & Bartlett Publishers, 2007.",
+        "G. Hohpe, B. Woolf, Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions, The Addison-Wesley Signature Series, 2003."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-434/"
+    },
+    {
+      "code": "CENG 442",
+      "name": "Multicore Architectures and Operating Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the components and steps of the architecture design for multicore structures. To teach contemporary operating systems and multicore architecture design models. To develop critical thinking and analysis of the relationship between operating system and multicore architecture design.",
+      "description": "An evolutionary approach to multicore architectures, integration of multicore architectures with operating systems, OS kernel design for multiprocessors and multithreading, OS support for threads, user level threads, kernel level threads, an example: Solaris threads, threads and libraries, hardware support for multithreading in a uniprocessor and in a multiprocessor.",
+      "learning_outcomes": [
+        "Analyze and implement the design steps of computer architecture by using different multicore architecture models.",
+        "Analyzing the components of the operating systems for multicore architectures.",
+        "Analyzing hardware design problems of multicore architectures.",
+        "Analyzing the limits of solutions and restrictions of operating systems for different multicore architecture models."
+      ],
+      "weekly_topics": [
+        "Hafta 1: An Introduction",
+        "Hafta 2: Processor Architecture",
+        "Hafta 3: Processor Implementation",
+        "Hafta 4: Interrupts, Traps and Exceptions",
+        "Hafta 5: Processor Performance",
+        "Hafta 6: Rudiments of Pipelined Processor Design",
+        "Hafta 7: Midterm 1",
+        "Hafta 8: New Architectures and Multicore Designs",
+        "Hafta 9: Processor Scheduling",
+        "Hafta 10: Memory Management Techniques",
+        "Hafta 11: Memory Hierarchy",
+        "Hafta 12: Parallel Processors",
+        "Hafta 13: Input/Output and File Systems",
+        "Hafta 14: Conclusion: Putting Them All Together"
+      ],
+      "resources": [
+        "U. Ramachandran, W. D. Leahy Jr., Computer Systems: An Integrated Approach to Architecture and Operating Systems, Addison Wesley, 2010",
+        "C. Hughes, T. Hughes, Professional Multicore Programming Design and Implementation for C++ Developers, Wiley Publishing, Inc., 2008",
+        "B. Parhami, Introduction to Parallel Processing Algorithms and Architectures, Plenum Series in Computer Science, 1999"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-442/"
+    },
+    {
+      "code": "CENG 443",
+      "name": "Heterogenous Parallel Programming",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The course aims to introduce GPU-based heterogeneous programming and help students understand how to design, implement, and optimize parallel applications for heterogeneous systems.",
+      "description": "This course covers the basic concepts of parallel architectures and parallel programming, the CUDA programming model, and practical examples related to accelerated computing with CUDA.",
+      "learning_outcomes": [
+        "To demonstrate the ability to design and implement programs for heterogeneous parallel programming platforms",
+        "To demonstrate the experience to apply the parallel programming patterns on various programming problems",
+        "To be able to analyze the parallel program performance and make performance optimizations"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Fundamentals of Accelerated Computing with CUDA (DLI Workshop)",
+        "Hafta 3: Fundamentals of Accelerated Computing with CUDA (DLI Workshop)",
+        "Hafta 4: Fundamentals of Accelerated Computing with CUDA (DLI Workshop)",
+        "Hafta 5: Midterm",
+        "Hafta 6: Fundamentals of Accelerated Computing with CUDA (DLI Workshop)",
+        "Hafta 7: Getting Started with AI on Jetson Nano",
+        "Hafta 8: Getting Started with AI on Jetson Nano",
+        "Hafta 9: Accelerating CUDA Applications with Multiple GPUs (DLI Workshop)",
+        "Hafta 10: Accelerating CUDA Applications with Multiple GPUs (DLI Workshop)",
+        "Hafta 11: Accelerating CUDA Applications with Multiple GPUs (DLI Workshop)",
+        "Hafta 12: Project Presentations"
+      ],
+      "resources": [
+        "David B. Kirk, Wen-Mei W. Hwu: Programming Massively Parallel Processors: A Hands-on Approach, Morgan Kaufmann Publishers",
+        "NVIDIA Accelerated Computing Teaching Kit",
+        "NVIDIA Deep Learning Institute (DLI) Workshops"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-443/"
+    },
+    {
+      "code": "CENG 444",
+      "name": "Parallel Programming Patterns",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The course aims to develop students' understanding of parallel programming problems, shared-memory parallel architectures, and software development techniques. It also focuses on designing and implementing parallel programs for multicore systems and improving performance through appropriate programming patterns.",
+      "description": "The course presents basic parallel algorithm design skills and parallel programming patterns. It covers the basic concepts of parallel architectures and parallel programming, OpenMP programming model topics, and control and data patterns by presenting the fundamentals of parallel software development.",
+      "learning_outcomes": [
+        "To be able to understand the parallel programming problems and related patterns",
+        "To demonstrate the experience to apply the parallel programming patterns on various programming problems",
+        "To be able to make a qualitative evaluation of different programming patterns and models"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Parallel Hardware Environments",
+        "Hafta 3: Parallel Software Development",
+        "Hafta 4: Parallel Program Performance Analysis",
+        "Hafta 5: OpenMP",
+        "Hafta 6: OpenMP",
+        "Hafta 7: Midterm",
+        "Hafta 8: Patterns",
+        "Hafta 9: Map Pattern",
+        "Hafta 10: Reduce/Scan Pattern",
+        "Hafta 11: Data Reorganization",
+        "Hafta 12: Stencil/Recurrence",
+        "Hafta 13: Fork/Join",
+        "Hafta 14: Project Presentations"
+      ],
+      "resources": [
+        "Arch Robison, James Reinders, and Michael David McCool, Structured Parallel Programming: Patterns for Efficient Computation.",
+        "Online OpenMP resources and tutorials"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-444/"
+    },
+    {
+      "code": "CENG 452",
+      "name": "Building Software for Embedded Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To give students the knowledge of latest technologies on software development for various types of embedded systems.",
+      "description": "Design and implementation of software for programmable embedded systems; software tools such as compilers, schedulers, code generators, and system-level design tools; data-flow and control models of computation and software synthesis for uniprocessor and multiprocessor architectures; synchronous/reactive languages and their mathematical properties; implementation of signal processing, communication and control algorithms using variety of technologies such as digital signal processors, microcontrollers, FPGAs, ASICs and real-time operating systems; real-time kernel design; software implemented fault-tolerance techniques.",
+      "learning_outcomes": [
+        "Have knowledge on the requirements of embedded software development",
+        "Have knowledge on various standards and tools",
+        "Be able to analyze and design common algorithms used in various embedded systems",
+        "Be able to use the knowledge of software verification, validation and test on a real project"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Embedded Software Design",
+        "Hafta 2: Compilers, Code Generators, System-Level Design Tools",
+        "Hafta 3: Data-flow and Control Models of Computation",
+        "Hafta 4: Software Synthesis for Uniprocessor and Multiprocessor Systems",
+        "Hafta 5: Synchronous/Reactive Programming Languages",
+        "Hafta 6: Overview of Real-Time Operating Systems",
+        "Hafta 7: Summary (Examination)",
+        "Hafta 8: Real-Time Scheduling Techniques",
+        "Hafta 9: Various Algorithms in Digital Signal Processing, Communication and Control",
+        "Hafta 10: Implementation of Algorithms on Microcontrollers, DSPs, FPGAs and ASICs",
+        "Hafta 11: Software Development Tools",
+        "Hafta 12: Testing, Design for Reuse",
+        "Hafta 13: Software-Implemented Fault-Tolerance Techniques",
+        "Hafta 14: Term Project"
+      ],
+      "resources": [
+        "Berger, Arnold. Embedded systems design:an introduction to processes tools and tecniques. San Francisco;Lawrence, Kan: CMP Books, c2002.",
+        "Adamski, Marian Andrzej. Design of Embedded Control Systems, Boston, MA : Springer Science+Business Media, Inc., 2005.",
+        "Tebbs, David. Real time systems: management and design, McGraw-Hill London 1977."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-452/"
+    },
+    {
+      "code": "CENG 461",
+      "name": "Artificial Intelligence",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To help students conceptualize information representation and reasoning methods; to emphasize the relationship between problem solving and logical behavior; and to form the background for developing sophisticated applications that can learn and reason under uncertainty.",
+      "description": "Declarative programming; problem solving; knowledge representation; reasoning; acting logically; uncertainty; learning; communicating.",
+      "learning_outcomes": [
+        "Comprehension of different artificial intelligence techniques used for simulation of human behavior",
+        "Interpretation of traditional artificial intelligence methods based on mathematical logic",
+        "Construction of intelligent behavior with respect to hybrid application of artificial intelligence methods",
+        "Demonstration of applications with the use result-oriented languages based and hybrid techniques"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Declarative software languages",
+        "Hafta 3: Problem solving",
+        "Hafta 4: Heuristics",
+        "Hafta 5: Information",
+        "Hafta 6: Knowledge of existence",
+        "Hafta 7: Reasoning",
+        "Hafta 8: Acting logically",
+        "Hafta 9: Testing",
+        "Hafta 10: Uncertain Knowledge",
+        "Hafta 11: Reasoning under uncertainty",
+        "Hafta 12: Learning",
+        "Hafta 13: Communication",
+        "Hafta 14: Perception and labeling"
+      ],
+      "resources": [
+        "Russell, Stuart; Norvig, Peter; 1995; “Artificial Intelligence – A Modern Approach”; Prentice-Hall; 0-13-103805-2",
+        "Luger, George F.; 1993; “Artificial intelligence: structures and strategies for complex problem solving”; Benjamin-Cummings; 0-80534-785-2"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-461/"
+    },
+    {
+      "code": "CENG 462",
+      "name": "Soft Computing",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course introduces students to the many concepts and techniques in Artificial Intelligence (AI).",
+      "description": "Topics covered include problem spaces and search, heuristic search techniques, predicate logic, game playing techniques, planning, learning, natural language processing, and machine perception.",
+      "learning_outcomes": [
+        "Effectively use evolutionary computation in applications",
+        "Effectively use artificial neural networks in applications",
+        "Effectively use fuzzy logic in applications",
+        "By using these meta heuristics, provide applications with smart behaviours"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Overview",
+        "Hafta 2: Alternative AI Approaches",
+        "Hafta 3: Higher-order Logic",
+        "Hafta 4: Planning",
+        "Hafta 5: Expert Systems",
+        "Hafta 6: Environment Modelling",
+        "Hafta 7: Summary",
+        "Hafta 8: Soft Computing",
+        "Hafta 9: Non-Symbolic Learning",
+        "Hafta 10: Natural Language Processing",
+        "Hafta 11: Intelligent Agent",
+        "Hafta 12: Multi-Agent System",
+        "Hafta 13: Semsantic Web",
+        "Hafta 14: Robotics"
+      ],
+      "resources": [
+        "Luger, George; Stubblefield, William; 2004; “Artificial Intelligence: Structures and Strategies for Complex Problem Solving”; The Benjamin/Cummings Publishing; ISBN 0805347801",
+        "Russell, Stuart; Norvig, Peter; 2003; “Artificial Intelligence – A Modern Approach”; Prentice-Hall; 0131038052",
+        "Giarratano, Joseph C.; Ritel, Gary D.; 2005; “Expert Systems – Principles and Programming”; Thompson Course Technology; 0534384471",
+        "Munakata, Toshinori; 2007; “Fundamentals of the New Artificial Intelligence Neural, Evolutionary, Fuzzy and More”; Springer; 9781846288395",
+        "Maedche, Alexander; 2002; “Ontology learning for the semantic web”; Kluwer Academic Publishing; 0792376560",
+        "Hjelm, Johan; 2001; “Creating the semantic Web with RDF: professional developer s guide”; John Wiley",
+        "Goertzel, Ben; Pennachin, Cassio; 2007; “Artificial General Intelligence”; Springer; 9783540237334",
+        "Nabiyev, Vasif V.; 2005; “Yapay Zeka”; Seçkin Yayıncılık; 9753479859"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-462/"
+    },
+    {
+      "code": "CENG 463",
+      "name": "Introduction to Machine Learning",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To form background related to machine learning, to help students analyze machine learning problems and recognize appropriate solution techniques, and to develop the ability to implement proper solution algorithms.",
+      "description": "An introduction to machine learning with examples in different application areas. The course covers Bayesian decision theory, supervised learning techniques, model selection, dimensionality reduction, clustering, support vector machines, graphical models, introduction to neural networks, and reinforcement learning.",
+      "learning_outcomes": [
+        "To be able to describe the fundamental concepts in machine learning",
+        "To be able to analyze machine learning problems and identify appropriate solution techniques",
+        "To be able to apply proper algorithms using proper tools to solve encountered machine learning problems",
+        "To be able to interpret the output of implementations from an algorithmic point of view"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Concepts in Machine Learning",
+        "Hafta 2: Bayesian Decision Theory",
+        "Hafta 3: Supervised Learning Fundamentals",
+        "Hafta 4: Linear Regression",
+        "Hafta 5: Logistic Regression",
+        "Hafta 6: Model Selection Procedures",
+        "Hafta 7: Multivariate Classification, Multivariate Regression",
+        "Hafta 8: Summary and Examination",
+        "Hafta 9: Dimensionality Reduction and Principal Component Analysis",
+        "Hafta 10: Clustering",
+        "Hafta 11: Linear Discriminant Functions",
+        "Hafta 12: Neural Networks",
+        "Hafta 13: Supervised Learning: Non-parametric approaches",
+        "Hafta 14: Design and Analysis of Machine Learning Experiments"
+      ],
+      "resources": [
+        "Ethem Alpaydın, Introduction to Machine Learning (2nd Edition), MIT Press, 2010.",
+        "Christopher Bishop, Pattern Recognition and Machine Learning, Springer, 2006.",
+        "Richard Duda, Peter Hart and David Stork, Pattern Classification, 2nd ed. John Wiley & Sons, 2001.",
+        "Tom Mitchell, Machine Learning, McGraw-Hill, 1997."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-463/"
+    },
+    {
+      "code": "CENG 451",
+      "name": "Advanced Digital System Design",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To give the students design issues of embedded system hardware and to introduce the latest technologies.",
+      "description": "Finite state machine design and analysis; high-level hardware description languages, VHDL, automated synthesis in design; digital integrated circuit design and advanced design principles; electrical properties of digital circuits, synchronous and asynchronous circuits, computer arithmetic, and interfacing to external circuitry, digital system testing and design for testability; implementation of embedded computing systems in terms of Application Specific Integrated Circuits; Design for reuse.",
+      "learning_outcomes": [
+        "Ability to analyze complex digital circuits",
+        "Ability to design complex digital circuits",
+        "Demonstrating the ability to use VHDL in hardware design",
+        "Having fundamental knowledge of digital signal processing",
+        "Ability to use design tools"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Digital System Design",
+        "Hafta 2: Review of Electronics",
+        "Hafta 3: Digital Design Concepts",
+        "Hafta 4: FPGA and ASIC design; VHDL Programming Language – I",
+        "Hafta 5: VHDL – II",
+        "Hafta 6: Summary (Examination)",
+        "Hafta 7: Electronic Design Automation Tools",
+        "Hafta 8: Dedicated Soft Microprocessor/Microcontroller Design",
+        "Hafta 9: General Purpose Soft Microprocessor/Microcontroller Design",
+        "Hafta 10: Digital Signal Processor Design",
+        "Hafta 11: Fault-Tolerant Hardware Design Issues",
+        "Hafta 12: Interfacing to External Circuitry",
+        "Hafta 13: Design for Reuse, Testing and other Topics",
+        "Hafta 14: Case Study, Term Project"
+      ],
+      "resources": [
+        "Berger, Arnold. Embedded systems design:an introduction to processes tools and tecniques. San Francisco;Lawrence, Kan: CMP Books, c2002."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-451/"
+    },
+    {
+      "code": "CENG 464",
+      "name": "Text Mining",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course provides an opportunity to learn key components of text mining and analytics aided by real-world datasets and a text mining toolkit written in Python. Hands-on experience in core text mining techniques helps students develop practical skills in text preprocessing, sentiment analysis, and topic modeling.",
+      "description": "In this course, we will cover important topics in text mining including basic natural language processing techniques, document representation, text categorization and clustering, document summarization, sentiment analysis, social network and social media analysis, probabilistic topic models, and text visualization.",
+      "learning_outcomes": [
+        "Using Python and NLTK (Natural Language Toolkit) to build out your own text classifiers and solve common NLP problems",
+        "Performing data analysis and machine learning tasks using Python",
+        "Understanding the basics of computational linguistics",
+        "Building models for general natural language processing tasks",
+        "Evaluating the performance of a model with the right metrics",
+        "Visualizing, quantifying, and performing exploratory analysis from any text data"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Steps in NLP",
+        "Hafta 3: Steps in NLP",
+        "Hafta 4: Document Representation",
+        "Hafta 5: Document Representation",
+        "Hafta 6: Text Classification",
+        "Hafta 7: Text Categorization",
+        "Hafta 8: Data Collection",
+        "Hafta 9: Topic Modelling",
+        "Hafta 10: Text Summarization",
+        "Hafta 11: Text Generation",
+        "Hafta 12: Social Media and Network Analysis",
+        "Hafta 13: Sentiment Analysis",
+        "Hafta 14: Text Visualization"
+      ],
+      "resources": [
+        "J. Eisenstein, Introduction to Natural Language Processing, MIT Press, 2019.",
+        "S. Ghosh & D. Gunning, Natural Language Processing Fundamentals, Packt, 2019."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-464/"
+    },
+    {
+      "code": "CENG 465",
+      "name": "Principles of Data-Intensive Systems",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The main aim of this course is to familiarize students with the fundamental concepts underlying a broad range of data-intensive systems. Students will learn to compare different approaches, techniques, and tools for storing and processing data, evaluate their strengths and weaknesses, and determine the most appropriate solutions for various application needs.",
+      "description": "In this course, students will gain knowledge in the following areas: Data models and query languages; storage and retrieval; replication and partitioning in distributed data; transactions; challenges of distributed systems, consistency, and consensus in distributed systems; batch and stream processing.",
+      "learning_outcomes": [
+        "To be able to define the basic terminology used in data-intensive applications",
+        "To be able to compare different data models and query languages",
+        "To be able to decide the technologies, techniques, and tools appropriate for a given task",
+        "To be able to design data-intensive applications"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Reliable, Scalable and Maintainable Applications",
+        "Hafta 2: Data Models and Query Languages (1)",
+        "Hafta 3: Data Models and Query Languages (2)",
+        "Hafta 4: Data Storage and Retrieval",
+        "Hafta 5: Distributed Data Replication",
+        "Hafta 6: Distributed Data Partitioning",
+        "Hafta 7: Midterm Exam",
+        "Hafta 8: Transactions in Single-Node and Distributed Databases (1)",
+        "Hafta 9: Transactions in Single-Node and Distributed Databases (2)",
+        "Hafta 10: Challenges of Distributed Systems",
+        "Hafta 11: Consistency and Consensus",
+        "Hafta 12: Batch Processing",
+        "Hafta 13: Stream Processing",
+        "Hafta 14: Project Presentations"
+      ],
+      "resources": [
+        "M. Kleppman. Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems. O’Reilly Media, Inc., 2017.",
+        "T. Özsu, P. Valduriez. Principles of Distributed Database Systems. Springer, 4th ed., 2020."
+      ],
+      "prerequisites": [
+        "CENG315"
+      ],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-465/"
+    },
+    {
+      "code": "CENG 467",
+      "name": "NATURAL LANGUAGE UNDERSTANDING AND GENERATION",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The course aims to provide students with a basic knowledge of natural language processing, machine learning, and programming, together with more advanced knowledge of existing deep learning techniques for natural language understanding and generation. It also prepares senior undergraduate students for graduate-level study in deep learning for natural language processing and supports their ability to conduct research and develop products in Generative Artificial Intelligence.",
+      "description": "This course focuses on deep learning methods for natural language understanding and generation. It covers tokenization and pre-training for language models, the transformer architecture, machine translation, parsing, summarisation, question answering, instruction fine tuning, ethics in NLP, in context learning, and retrieval-augmented generation.",
+      "learning_outcomes": [
+        "Apply deep learning methods for natural language processing to industrial problems",
+        "Be aware of the social implications of natural language processing and know the relevant ethical terminology",
+        "Use different language model architectures in problem solving",
+        "List different natural language processing tasks and their features"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Machine Translation and Conditional Language Models",
+        "Hafta 3: Modeling Data and Words",
+        "Hafta 4: Feedforward Language Models, Recurrent Neural Networks",
+        "Hafta 5: Sequence-to-sequence Models with Attention, Transformers and Pretrained Language Models",
+        "Hafta 6: Parsing",
+        "Hafta 7: Instruction Fine Tuning and RLHF and Parameter Efficient Fine Tuning",
+        "Hafta 8: Summarisation",
+        "Hafta 9: Evaluation of generation and translation",
+        "Hafta 10: Ethics in NLP",
+        "Hafta 11: In Context Learning",
+        "Hafta 12: Question Answering",
+        "Hafta 13: Retrieval-Augmented Generation",
+        "Hafta 14: Diffusion Models for NLP"
+      ],
+      "resources": [
+        "Speech and Language Processing, D. Jurafsky and J.H. Martin, 3rd Ed., 2025."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-467/"
+    },
+    {
+      "code": "CENG 472",
+      "name": "Network Security",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the fundamentals of computer network security. To provide students with the fundamentals of network packet security. To teach the fundamentals of computer local/corporate network security.",
+      "description": "Link Encryption, End-to-End Encryption, Network and Internet Based Attacks, Firewalls, Email Security Issues, Web Based Security Issues, Disaster Recovery, C2 Functionality Stand-alone vs Network Operation, Hackers and Crackers, Network Crackings.",
+      "learning_outcomes": [
+        "Know and compare different network security approaches.",
+        "Analyze network security problems, design and implement solutions.",
+        "Demonstrate the ability to abstract in security context.",
+        "Apply security engineering methods to real world problems."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to computer network security",
+        "Hafta 2: Symetric encryption",
+        "Hafta 3: Asymetric encryption",
+        "Hafta 4: Access control",
+        "Hafta 5: Distributed acess control",
+        "Hafta 6: E-mail security",
+        "Hafta 7: IP security with IPSEC",
+        "Hafta 8: Security in network management",
+        "Hafta 9: Attacts to computer networks",
+        "Hafta 10: Firewalls",
+        "Hafta 11: Firewall policies",
+        "Hafta 12: Technologies used with firewalls (NAT, VPN)",
+        "Hafta 13: Attact an intrusion detection systems 1",
+        "Hafta 14: Attact an intrusion detection systems 2"
+      ],
+      "resources": [
+        "W. Stallings, Network Security Essentials: Applications and Standards, Prentice-Hall, 2010.",
+        "C. Kaufman, R. Perlman, M. Speciner, Network Security: PRIVATE Communication in a PUBLIC World, Prentice-Hall, 2002."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-472/"
+    },
+    {
+      "code": "CENG 473",
+      "name": "Security of Information and Communication Technologies",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the security problems of information and communication technologies and related solution tools. To teach the open security problems and their risks. To teach the unsolved security problems and continued researches for current information and communication technologies. To teach the designing, building and managing of a secure information system.",
+      "description": "Introduction to security of information and communication technologies, fundamental security functions and related cryptographic tools, network security and related problems, protection mechanisms and tool will be evaluated. Then current hot topic security problems will be analyzed for cloud computing, web applications and services, wireless networks, etc. and at last security management of information systems will be discussed. Students will have a term project for the course about an up-to-date problem of these topics, which they are interested in and will prepare a written report about it then, present their work.",
+      "learning_outcomes": [
+        "Having the competence to analyze security risks related to information and communication technologies.",
+        "Being able to select and test the appropriate tools for solving security problems.",
+        "Gaining the ability to follow technological developments and identify potential security risks and threats.",
+        "Possessing the fundamental knowledge and methodology to carry out the security design and management of information systems."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Information and Communication Security",
+        "Hafta 2: Main Security Functions and Cryptographic Tools",
+        "Hafta 3: Main Security Functions and Cryptographic Tools",
+        "Hafta 4: Network Security – Detection",
+        "Hafta 5: Network Security – Prevention",
+        "Hafta 6: Network Security – Protection",
+        "Hafta 7: Security for Cloud Computing",
+        "Hafta 8: Security of Web Applications and Servers",
+        "Hafta 9: Operating Systems Security",
+        "Hafta 10: Internet Security",
+        "Hafta 11: Security of Wireless Networks",
+        "Hafta 12: Security of Wireless Networks",
+        "Hafta 13: Management of Information Security",
+        "Hafta 14: Management of Information Security"
+      ],
+      "resources": [
+        "B. Schneider, ‘Applied Cryptography, Protocols, Algorithms, and Source Code in C’, John Wiley & Sons, 1996"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-473/"
+    },
+    {
+      "code": "CENG 481",
+      "name": "Theoretical Approaches in Computer Science",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the fundamental topics and theorems of computer science. To develop the ability to research, analyze, compare, and model computer science problems and techniques. To introduce current concepts, research areas, and problems in computer science.",
+      "description": "Turning theoretical ideas into solution sets in computer science. Integration of mathematical approaches with general problem solving techniques and computer science applications. Topics will be from Algorithms, Complexity Theory, Game Theory, Probability Theory, Graph Theory, Automata Theory, Algebra, and Cryptography.",
+      "learning_outcomes": [
+        "Analyzing capability to find new requirements and problems of current application areas of computer science",
+        "Defining and modelling capability of computer science hot topic research problems",
+        "To have the vision and to be able to do an evaluation for the future career plans on computer science",
+        "To be able to apply fundamental theorems of computer science with interdisciplinary research and studies"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction: related topics and introducing of course content.",
+        "Hafta 2: Computational Complexity Theory – I",
+        "Hafta 3: Computational Complexity Theory – II",
+        "Hafta 4: Automata Theory",
+        "Hafta 5: Languages and Computability",
+        "Hafta 6: Algorithms ; Algorithm Theory",
+        "Hafta 7: Algorithms ; Algorithm Analysis",
+        "Hafta 8: Algorithms ; Data Structures",
+        "Hafta 9: Algorithms ; Approximation Algorithms Medium size",
+        "Hafta 10: Algorithms ; Graph Algorithms",
+        "Hafta 11: Algorithms ; Numerical Analysis",
+        "Hafta 12: Artificial Intelligence",
+        "Hafta 13: Machine Learning",
+        "Hafta 14: Algorithms; Computational Biology"
+      ],
+      "resources": [
+        "The text book/books are determined by decided topics."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-481/"
+    },
+    {
+      "code": "CENG 482",
+      "name": "Evolutionary Computation",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to provide information about evolutionary computation techniques and their application to optimization problems.",
+      "description": "Evolutionary computation methods, discrete and continuous optimization problems, software libraries for evolutionary computation, Genetic Algorithms, Genetic Programming, Evolution Strategies, Differential Evolution, Particle Swarm Optimization, Multi-objective optimization.",
+      "learning_outcomes": [
+        "To be able to explain evolutionary computation and its main components.",
+        "To be able to identify the most appropriate evolutionary computation method to a given problem.",
+        "To be able to apply evolutionary computation methods to optimization problems.",
+        "To be able to design experimental studies for evolutionary algorithms"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Evolutionary Computation",
+        "Hafta 2: Fundamentals and General Components of Evolutionary Computation",
+        "Hafta 3: Binary Representation, Integer Representation and Binary Genetic Algorithms",
+        "Hafta 4: Floating Point Representation, Evolution Strategies",
+        "Hafta 5: Permutation Representation, Solving Travelling Salesman Problem using Genetic Algorithm",
+        "Hafta 6: Tree Representation, Genetic Programming",
+        "Hafta 7: Fitness, Selection and Population Management",
+        "Hafta 8: Differential Evolution Algorithm",
+        "Hafta 9: Particle Swarm Optimization Algorithm",
+        "Hafta 10: Software Libraries for Evolutionary Computation",
+        "Hafta 11: Working with Evolutionary Algorithms",
+        "Hafta 12: Multiobjective Evolutionary Algorithms",
+        "Hafta 13: Solving Example Problems",
+        "Hafta 14: Course Overview"
+      ],
+      "resources": [
+        "Introduction to Evolutionary Computing by A.E. Eiben and J.E. Smith, Springer, 2nd Edition",
+        "Global Optimization Algorithms – Theory and Application –Thomas Weise, 2009",
+        "Essentials of Metaheuristics, Sean Luke, Second Edition, 2012"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-482/"
+    },
+    {
+      "code": "CENG 471",
+      "name": "Cryptography",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "To teach the security functions and to explain which security functions are realized by which cryptographic tools. The course also aims to relate the historical evolution of symmetric and asymmetric cryptosystems to technological and social developments, and to introduce the measurement of security levels and the implementation of international standards.",
+      "description": "Basic terminology, history and background of cryptography; symmetric cryptosystems including DES, AES and DES/AES-like systems; asymmetric cryptosystems; primality; hashing; factorization-based cryptosystems such as RSA; ECC and lattice cryptosystems; cryptographic protocols and applications; secrecy, authentication, integrity/authenticity, digital signatures, and standards.",
+      "learning_outcomes": [
+        "Analyze vulnerabilities, threats and which security functions are realized.",
+        "Selection, implementation and testing of cryptographic tools for essential security functions.",
+        "Objectively read the technological evolution and efficiently analyzing of new requirements for the cryptographic solutions.",
+        "Usage ability of the international standards for the developed cryptographic solutions.",
+        "Selection of the best solution and implementation ability for a cryptographic security solution depends on security requirements of domain."
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Cryptography with basic definitions and concepts",
+        "Hafta 2: Information Theory and Probability Theory and Cryptography",
+        "Hafta 3: Monoalphebetical and Polyalphabetical Crypto",
+        "Hafta 4: Transpositions-Permutations",
+        "Hafta 5: Block Ciphering, DES and AES",
+        "Hafta 6: Symmetrical Key Management and Security Architecture",
+        "Hafta 7: Symmetrical Cryptosystem Design and Verification",
+        "Hafta 8: Introduction to Number Theory I",
+        "Hafta 9: Introduction to Number Theory II",
+        "Hafta 10: Factorization based Asymmetrical Cryptosystems – RSA",
+        "Hafta 11: Discrete Logarithm Problem and Cryptosystems: DHKE, ElGamal",
+        "Hafta 12: Elliptic Curve Cryptosystems- ECC",
+        "Hafta 13: Public Key Infrastructures",
+        "Hafta 14: Design of Cryptographic Protocols: FIPS 140-2/3"
+      ],
+      "resources": [
+        "W.Trappe, L.Washington, ‘Introduction to Cryptography with Coding Theory’, Pearson, 2006",
+        "P. Gutman, ‘Cryptographic Security Architecture’, Springer, 2004",
+        "D. R. Stinson, ‘Cryptography, Theory and Practice’, Chapman & Hall/CRC Press, 2002",
+        "B. Schneider, ‘Applied Cryptography, Protocols, Algorithms, and Source Code in C’, John Wiley & Sons, 1996"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-471/"
+    },
+    {
+      "code": "CENG 483",
+      "name": "Behavioural Robotics",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Approach robotics mainly software- and application-oriented; inspect mechatronic parts and hardware architectures of robots; analyse software components and software architectures; analyse software architectures and their properties that might provide smart behaviours; analyse hardware and software requirements for collaborative robots; develop collaborative and smart appearing robot applications.",
+      "description": "Approach robotics mainly software- and application-oriented; inspect mechatronic parts and hardware architectures of robots; analyse software components and software architectures; analyse software architectures and their properties that might provide smart behaviours; analyse hardware and software requirements for collaborative robots; develop collaborative and smart appearing robot applications.",
+      "learning_outcomes": [
+        "Distinguish robot types and behaviours",
+        "Use techniques for smart robot behaviours",
+        "Use techniques for collaborative robot behaviours",
+        "Develop robots from robotics kits"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Overview",
+        "Hafta 2: Mechatronics",
+        "Hafta 3: Software Architectures",
+        "Hafta 4: Control",
+        "Hafta 5: Artificial Intelligence Components",
+        "Hafta 6: Robot Vision",
+        "Hafta 7: Mapping",
+        "Hafta 8: Planning",
+        "Hafta 9: Navigation",
+        "Hafta 10: Evaluation",
+        "Hafta 11: Communication",
+        "Hafta 12: Co-operation",
+        "Hafta 13: Robot Ethics",
+        "Hafta 14: Applications"
+      ],
+      "resources": [
+        "Mataric, Maja J; 2007; “The Robotics Primer”; The MIT Press; ISBN 026263354x",
+        "Craig, John. J.; 2003; “Introduction to Robotics: Mechanics and Control”; Prentice Hall; ISBN 0201543613",
+        "Jones, Joe; 2003; “Robot Programming: A Practical Guide to Behaviour-Based Robotics”; McGraw-Hill, ISBN 0071427783",
+        "Enderton, Herbert B.; 2001; “A Mathematical Introduction to Logic”; Academic Press; ISBN 0-12-238452-0",
+        "Kelly, John; 1997; “The Essence of Logic”; ISBN 0-13-396375-6",
+        "Bell,J.L.; 1997; “A course in mathematical logic”; 1997; N.H.; ISBN 0-7204-2844-0",
+        "Gabbay, Dov M.; 2000; “Temporal logic: mathematical foundations and computational aspects”; Oxford: Clarendon press; ISBN 0-19-853768-9",
+        "Lootsma, Freerk A.; 1997; “Fuzzy logic for planning and decision making”; Kluwer Academic Publishers; ISBN 0-7923-4681-5"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-483/"
+    },
+    {
+      "code": "CENG 484",
+      "name": "Data Mining",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Students will learn the full knowledge discovery and data mining process, from data preparation to interpreting discovered patterns. The course aims to build practical skills in applying core mining methods and evaluating their results.",
+      "description": "Knowledge discovery overview, data mining in general, data preparation, basics of data mining, association rule mining, classification and prediction, cluster analysis, web mining, data mining applications, term projects.",
+      "learning_outcomes": [
+        "Learn the process of knowledge discovery and data mining algorithms",
+        "Gain the ability of using data mining tools",
+        "Understand a data mining problem, design the process overflow and implement the steps",
+        "Document and present a Project"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Knowledge Discovery Overview",
+        "Hafta 2: Data Mining in General",
+        "Hafta 3: Real-world Applications",
+        "Hafta 4: Data Warehousing and Methods",
+        "Hafta 5: Data Preparation",
+        "Hafta 6: Basics of Data Mining",
+        "Hafta 7: Measuring Data Similarity and Dissimilarity",
+        "Hafta 8: Data Integration and Data Reduction",
+        "Hafta 9: Pattern Discovery",
+        "Hafta 10: Association Rule Mining",
+        "Hafta 11: Classification and Prediction",
+        "Hafta 12: Cluster Analysis",
+        "Hafta 13: Model Evaluation and Selection",
+        "Hafta 14: Outlier/Anomaly Detection",
+        "Hafta 15: Data Mining Applications",
+        "Hafta 16: Presentation and Discussion of Term Projects"
+      ],
+      "resources": [
+        "Han, J., Pei, J., & Tong, H. (2022). Data mining: concepts and techniques. Morgan kaufmann."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-484/"
+    },
+    {
+      "code": "CENG 485",
+      "name": "Information Technology Entrepreneurship",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course aims to present an entrepreneurial perspective with particular emphasis on information technology. It emphasizes the entrepreneurial mindset needed to create or grow economically viable enterprises in the information technology business.",
+      "description": "In addition to an introductory treatment of business fundamentals in information technology, course topics include paradigms, strategies and methods in goal setting, team formation, intellectual property, customer projects, and business management for information technologies.",
+      "learning_outcomes": [
+        "To know entrepreneurship in information sciences industry.",
+        "To understand entrepreneur vision and thinking.",
+        "To be prepared to build business and products.",
+        "To understand the sustainable growth concept."
+      ],
+      "weekly_topics": [
+        "Hafta 1: First entrepreneurship experience",
+        "Hafta 2: Presentation in information technologies",
+        "Hafta 3: Marketing methodologies",
+        "Hafta 4: Business development strategies",
+        "Hafta 5: IBM and Microsoft examples",
+        "Hafta 6: Team management paradigms",
+        "Hafta 7: Insource and outsource concepts",
+        "Hafta 8: Strategic planning and its importance",
+        "Hafta 9: Importance of customer projects in business expansion",
+        "Hafta 10: Experienced models in software team management",
+        "Hafta 11: New business models",
+        "Hafta 12: Global software trends and Türkiye",
+        "Hafta 13: Future of software business I",
+        "Hafta 14: Future of software business II"
+      ],
+      "resources": [
+        "Stephen Covey, The 7 Habits of Highly Effective People, Free Press, 2004.",
+        "Thomas Friedman, The World Is Flat, 3.0, A Brief History of the Twenty-First Century, Picador, Paperback, 2007.",
+        "Fuat Alican, Yol, 2010."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-485/"
+    },
+    {
+      "code": "CENG 487",
+      "name": "Introduction to Computer Graphics",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The main aim of the course is to familiarize students with basic concepts in computer graphics such as modeling, rendering, texturing, and lighting. Students will also gain practice in applying these concepts using standard programming interfaces such as OpenGL.",
+      "description": "This course covers rendering techniques and programming interfaces for computer graphics. The course topics include basic mathematical concepts in computer graphics, such as two- and three-dimensional transformations, lighting models, methods for basic scene modeling, and visibility analysis. Application of these computer graphics techniques on modern hardware using OpenGL is also covered.",
+      "learning_outcomes": [
+        "Ability to apply computer graphics techniques using standard programming interfaces",
+        "Ability to derive the mathematical relationship between 3D objects and image representations",
+        "Ability to compare different lighting models",
+        "Ability to optimize rendering software using visibility data structures"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Color",
+        "Hafta 3: Mathematics for Computer Graphics",
+        "Hafta 4: Three Dimensional Graphics",
+        "Hafta 5: OpenGL",
+        "Hafta 6: Texturing",
+        "Hafta 7: Shading and Illumination I",
+        "Hafta 8: Introduction to Rendering",
+        "Hafta 9: Raycasting",
+        "Hafta 10: Ray Tracing Basics",
+        "Hafta 11: Photon Mapping and Global Illumination",
+        "Hafta 12: Accelerating Ray Tracing",
+        "Hafta 13: Shading and Illumination II",
+        "Hafta 14: Volume Rendering"
+      ],
+      "resources": [
+        "Interactive Computer Graphics: A Top-Down Approach with OpenGL, by Edward Angel and Dave Shreiner"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-487/"
+    },
+    {
+      "code": "CENG 488",
+      "name": "Computer Graphics",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "The main aim of the course is to familiarize the students with advanced techniques in Computer Graphics topics such as modeling, rendering, texturing, and lighting. The students will also gain practice in applying their knowledge.",
+      "description": "This course covers advanced rendering techniques for Computer Graphics. The course topics include advanced lighting models, acceleration and volume rendering techniques. Acceleration of these Computer Graphics techniques on modern hardware is also covered.",
+      "learning_outcomes": [
+        "Apply advanced computer graphics techniques in practice",
+        "Derive the mathematical equations for illumination and volume rendering techniques",
+        "Compare different kinds of lighting models",
+        "Optimize rendering software"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction",
+        "Hafta 2: Raycasting",
+        "Hafta 3: Ray Tracing Techniques",
+        "Hafta 4: Photon Mapping I",
+        "Hafta 5: Photon Mapping II",
+        "Hafta 6: Global Illumination I",
+        "Hafta 7: Global Illumination II",
+        "Hafta 8: Accelarating Raytracing",
+        "Hafta 9: Shading",
+        "Hafta 10: Illumination",
+        "Hafta 11: Volume Rendering I",
+        "Hafta 12: Volume Rendering II",
+        "Hafta 13: Advanced Scene Modelling I",
+        "Hafta 14: Advanced Scene Modelling II"
+      ],
+      "resources": [
+        "Computer Graphics: Principles and Practice. 3rd Ed., J.F. Hughes et al."
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-488/"
+    },
+    {
+      "code": "CENG 491",
+      "name": "CENG 491",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "This course allows students to complete a supporting field course and have it counted as a technical elective, provided the required conditions are met.",
+      "description": "Students may take one technical elective course not offered by the department as a supporting field course, subject to approval conditions. The course must have a minimum of 30 contact hours, include at least one exam and/or project, and the results must be shared with the course instructors when assignments are announced. A completion certificate must be obtained before enrolling in CENG491.",
+      "learning_outcomes": [],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-491/"
+    },
+    {
+      "code": "CENG 499",
+      "name": "Cooperative Education (COOP)",
+      "ects": 3,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 0,
+      "hours_practice": 6,
+      "purpose": "The course aims to provide students with hands-on experience in real working environments through part-time positions in collaboration with the industry. It also helps students strengthen their professional skills and connect academic learning with industry practice.",
+      "description": "Students work part-time at partner companies for 13 weeks, one or two full days per week. The course is evaluated based on reports, and it includes industrial work experience under the supervision of the program.",
+      "learning_outcomes": [
+        "Reinforce theoretical knowledge through industrial applications.",
+        "Develop project management, reporting, and communication skills in professional environments.",
+        "Identify career goals and establish strong connections with the industry."
+      ],
+      "weekly_topics": [],
+      "resources": [],
+      "prerequisites": [
+        "senior year",
+        "minimum cumulative GPA of 3.00",
+        "successfully complete all courses from the first four semesters"
+      ],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-499/"
+    },
+    {
+      "code": "CENG 486",
+      "name": "Entrepreneurship for Smart Business",
+      "ects": 6,
+      "semester": null,
+      "year": 4,
+      "type": "secmeli",
+      "language": "İngilizce",
+      "hours_theory": 3,
+      "hours_practice": 0,
+      "purpose": "Cloud computing, automation, data science and machine learning-based definition of Entrepreneurship for Smart Business.",
+      "description": "Components of smart business and its ecosystem. Automation of business processes. Business models for Smart Business and their implementation.",
+      "learning_outcomes": [
+        "To be able to identify the needs of the real (International Business) world",
+        "To be able to analyze chaotic business situations and improve using Internet-based technologies",
+        "To be able to identify critical components and systems that impact success in business",
+        "To be able to demonstrate development in data transformationa and pathway to smartness",
+        "To be able to demonstrate ability to improve business processes with automation and smartness in smart business"
+      ],
+      "weekly_topics": [
+        "Hafta 1: Introduction to Smart Business",
+        "Hafta 2: Smart Business Ecosystem",
+        "Hafta 3: Automation-based Value Creation",
+        "Hafta 4: Networking Partners",
+        "Hafta 5: Data Intelligence",
+        "Hafta 6: Automating Decision Making",
+        "Hafta 7: Automating Business Processes",
+        "Hafta 8: Automation-based Business Models",
+        "Hafta 9: Subscription Economy",
+        "Hafta 10: Cloud-based Business Platform Creation",
+        "Hafta 11: Internet of Things and Digital Transformation",
+        "Hafta 12: Entrepreneurship Qualities for Smart Business",
+        "Hafta 13: Entrepreneurship Ecosystem for Smart Business",
+        "Hafta 14: Future of Smart Business"
+      ],
+      "resources": [
+        "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers Paperback – July 13, 2010 by Alexander Osterwalder (Author), Yves Pigneur (Author)",
+        "Smart Business: What Alibaba’s Success Reveals about the Future of Strategy, Ming Zeng, Harvard Business Review Press, 2018.",
+        "Dealing with Darwin: How Great Companies Innovate at Every Phase of Their Evolution Paperback – May 27, 2008 by Geoffrey A. Moore Ph.D. (Author)"
+      ],
+      "prerequisites": [],
+      "categories": [
+        "Technical Elective"
+      ],
+      "source_url": "https://ceng.iyte.edu.tr/courses/ceng-486/"
+    }
+  ]
+}
