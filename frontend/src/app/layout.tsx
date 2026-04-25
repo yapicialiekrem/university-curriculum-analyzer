@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { Fraunces, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import { Suspense } from "react";
 
-import { ChatPanel } from "@/components/chat/ChatPanel";
 import { TopBar } from "@/components/TopBar";
 import { OverlayProvider } from "@/lib/use-overlay";
+import { ThemeProvider } from "@/lib/use-theme";
 import "./globals.css";
+
+// Chat paneli ayrı chunk — Framer Motion + chat kodu ~30 KB initial
+// bundle'a girmesin
+const ChatPanel = dynamic(
+  () => import("@/components/chat/ChatPanel").then((m) => ({ default: m.ChatPanel }))
+);
 
 // Editorial başlık + sayı fontu (variable font — weight'i atla, axes opsz kullan)
 const fraunces = Fraunces({
@@ -47,15 +54,17 @@ export default function RootLayout({
       className={`${fraunces.variable} ${interTight.variable} ${plexMono.variable}`}
     >
       <body className="min-h-screen flex flex-col">
-        <OverlayProvider>
-          <Suspense fallback={null}>
-            <TopBar />
-          </Suspense>
-          {children}
-          <Suspense fallback={null}>
-            <ChatPanel />
-          </Suspense>
-        </OverlayProvider>
+        <ThemeProvider>
+          <OverlayProvider>
+            <Suspense fallback={null}>
+              <TopBar />
+            </Suspense>
+            {children}
+            <Suspense fallback={null}>
+              <ChatPanel />
+            </Suspense>
+          </OverlayProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

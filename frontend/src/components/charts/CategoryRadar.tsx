@@ -47,9 +47,7 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
   }, [data]);
 
   if (loading || !data) {
-    return (
-      <div className="aspect-square w-full max-w-[480px] mx-auto skeleton" aria-busy />
-    );
+    return <RadarLoadingShimmer />;
   }
 
   if (!data.series.length) {
@@ -94,10 +92,11 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
             dataKey="axis"
             tick={{
               fill: "var(--color-ink-700)",
-              fontSize: 11,
+              fontSize: 13,
               fontFamily: "var(--font-serif)",
               fontStyle: "italic",
             }}
+            tickSize={14}
           />
           <Tooltip content={<RadarTooltip data={data} />} />
 
@@ -135,6 +134,80 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
           ✦ Vurgulu eksen: {highlight_axis}
         </div>
       )}
+    </div>
+  );
+}
+
+/**
+ * Eksenleri tek tek "çizen" yükleme animasyonu — FRONTEND_PROMPT.md
+ * "loading state" bölümünde bahsi geçen bespoke pattern. Spinner kullanmıyoruz.
+ */
+function RadarLoadingShimmer() {
+  const axes = 10;
+  const center = 50;
+  const radius = 38;
+  return (
+    <div
+      className="aspect-square w-full max-w-[480px] mx-auto relative"
+      role="status"
+      aria-busy="true"
+      aria-label="Radar yükleniyor"
+    >
+      <svg viewBox="0 0 100 100" className="w-full h-full">
+        {[0.25, 0.5, 0.75].map((r) => (
+          <circle
+            key={r}
+            cx={center}
+            cy={center}
+            r={radius * r}
+            fill="none"
+            stroke="rgba(15,14,13,0.06)"
+            strokeWidth="0.4"
+          />
+        ))}
+        {Array.from({ length: axes }).map((_, i) => {
+          const angle = (i / axes) * Math.PI * 2 - Math.PI / 2;
+          const x2 = center + Math.cos(angle) * radius;
+          const y2 = center + Math.sin(angle) * radius;
+          return (
+            <line
+              key={i}
+              x1={center}
+              y1={center}
+              x2={x2}
+              y2={y2}
+              stroke="rgba(15,14,13,0.20)"
+              strokeWidth="0.5"
+              strokeDasharray={radius}
+              strokeDashoffset={radius}
+              style={{
+                animation: `radar-axis-draw 800ms ${i * 80}ms ease-out forwards`,
+              }}
+            />
+          );
+        })}
+        <circle
+          cx={center}
+          cy={center}
+          r={radius}
+          fill="none"
+          stroke="rgba(15,14,13,0.10)"
+          strokeWidth="0.4"
+          strokeDasharray={radius * Math.PI * 2}
+          strokeDashoffset={radius * Math.PI * 2}
+          style={{
+            animation: `radar-circle-draw 1200ms 800ms ease-out forwards`,
+          }}
+        />
+      </svg>
+      <style jsx>{`
+        @keyframes radar-axis-draw {
+          to { stroke-dashoffset: 0; }
+        }
+        @keyframes radar-circle-draw {
+          to { stroke-dashoffset: 0; }
+        }
+      `}</style>
     </div>
   );
 }

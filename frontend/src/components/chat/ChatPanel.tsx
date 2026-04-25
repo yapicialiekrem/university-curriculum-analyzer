@@ -1,18 +1,19 @@
 "use client";
 
 /**
- * ChatPanel — Sağ alt fixed pill, tıklayınca 420×560 modal açılır.
+ * ChatPanel — Sağ alt fixed pill, tıklayınca:
+ *   • Desktop: 420×600 modal (sağ alt)
+ *   • Mobile: bottom sheet (full width, %85 yükseklik)
  *
- * Mesaj akışı:
- *   Kullanıcı yazar → loading dot → asistan cevabı (text + citations + follow-ups)
- *   `dashboard_update` varsa OverlayProvider'a iletilir → ilgili dashboard
- *   bileşeni 30s parlatılır.
+ * Framer Motion ile slide-up + scale animasyonları.
  *
- * Karşılama mesajı + 3 öneri chip'i.
+ * `dashboard_update` varsa OverlayProvider'a iletilir → ilgili dashboard
+ * bileşeni 30s parlatılır + smooth scroll.
  *
- * Kısayol: '/' tuşu = input focus.
+ * Kısayol: '/' tuşu = aç + focus, ESC = kapat.
  */
 
+import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Sparkles, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
@@ -37,6 +38,8 @@ interface AssistantMsg {
   citations: Citation[];
   followUps: string[];
   meta?: ChatResponse["meta"];
+  /** typewriter effect için — false: hâlâ yazılıyor, true: tam göründü */
+  done: boolean;
 }
 interface LoadingMsg {
   role: "loading";
@@ -82,18 +85,46 @@ export function ChatPanel() {
 
       try {
         const resp: ChatResponse = await api.chat(q);
+        // Cevabı önce boş text + done=false ile ekle, sonra typewriter
+        // ile karakter karakter doldur (DASHBOARD_PROMPT "streaming" — gerçek
+        // SSE değil, client-side simülasyon. Token sayısı az, doğal hızda).
         setMessages((m) => {
           const without = m.filter((x) => x.role !== "loading");
           return [
             ...without,
             {
               role: "assistant",
-              text: resp.text,
+              text: "",
               citations: resp.citations || [],
               followUps: resp.follow_up_suggestions || [],
               meta: resp.meta,
+              done: false,
             },
           ];
+        });
+        await typewriter(resp.text, (partial) => {
+          setMessages((m) => {
+            const copy = [...m];
+            for (let i = copy.length - 1; i >= 0; i--) {
+              const x = copy[i];
+              if (x.role === "assistant" && !x.done) {
+                copy[i] = { ...x, text: partial };
+                break;
+              }
+            }
+            return copy;
+          });
+        });
+        setMessages((m) => {
+          const copy = [...m];
+          for (let i = copy.length - 1; i >= 0; i--) {
+            const x = copy[i];
+            if (x.role === "assistant" && !x.done) {
+              copy[i] = { ...x, done: true };
+              break;
+            }
+          }
+          return copy;
         });
         // Overlay tetikle (30s)
         if (resp.dashboard_update) {
@@ -110,6 +141,7 @@ export function ChatPanel() {
                 "Üzgünüm, sistemde bir hata oluştu. Birazdan tekrar deneyebilir misin?",
               citations: [],
               followUps: [],
+              done: true,
             },
           ];
         });
@@ -122,85 +154,120 @@ export function ChatPanel() {
   return (
     <>
       {/* Pill */}
-      {!open && (
-        <button
-          onClick={() => setOpen(true)}
-          className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm font-medium shadow-paper border bg-[color:var(--color-white-paper)] hover:shadow-raised transition-shadow"
-          style={{ borderColor: "var(--color-line)" }}
-          aria-label="AI asistanını aç"
-        >
-          <Sparkles size={16} className="text-[color:var(--color-uni-b)]" />
-          <span>Sor</span>
-          <span className="ml-1 font-mono text-[10px] text-[color:var(--color-ink-300)] tabular-nums">
-            /
-          </span>
-        </button>
-      )}
-
-      {/* Modal */}
-      {open && (
-        <div
-          role="dialog"
-          aria-label="AI Asistan"
-          className="fixed bottom-6 right-6 z-40 w-[420px] max-w-[calc(100vw-32px)] h-[600px] max-h-[calc(100vh-48px)] flex flex-col rounded-lg shadow-raised overflow-hidden bg-[color:var(--color-white-paper)] border"
-          style={{ borderColor: "var(--color-line)" }}
-        >
-          {/* Header */}
-          <header
-            className="flex items-center justify-between px-4 py-3 border-b"
-            style={{ borderColor: "var(--color-line)" }}
-          >
-            <div className="flex items-center gap-2">
-              <Sparkles size={16} className="text-[color:var(--color-uni-b)]" />
-              <span className="font-serif text-base">Asistan</span>
-            </div>
-            <button
-              onClick={() => setOpen(false)}
-              className="p-1 text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
-              aria-label="Kapat"
-            >
-              <X size={16} />
-            </button>
-          </header>
-
-          {/* Messages */}
-          <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4 space-y-3">
-            {messages.length === 0 && <Welcome onPick={submit} />}
-            {messages.map((m, i) => (
-              <MessageBubble key={i} msg={m} onPickFollowUp={submit} />
-            ))}
-          </div>
-
-          {/* Input */}
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              submit(input);
+      <AnimatePresence>
+        {!open && (
+          <motion.button
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 10 }}
+            transition={{ duration: 0.2 }}
+            onClick={() => setOpen(true)}
+            className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full pl-3 pr-4 py-3 text-sm font-medium border bg-[color:var(--color-white-paper)] hover:shadow-raised transition-shadow"
+            style={{
+              borderColor: "var(--color-line)",
+              boxShadow: "var(--shadow-paper)",
             }}
-            className="border-t px-3 py-3 flex items-center gap-2"
-            style={{ borderColor: "var(--color-line)" }}
+            aria-label="Müfredat asistanını aç (kısayol: /)"
           >
-            <input
-              ref={inputRef}
-              type="text"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder="Müfredat hakkında sor..."
-              className="flex-1 bg-[color:var(--color-paper-2)] rounded-md px-3 py-2 text-sm outline-none border focus:border-[color:var(--color-ink-700)] transition-colors"
-              style={{ borderColor: "var(--color-line)" }}
-              maxLength={500}
-            />
-            <button
-              type="submit"
-              disabled={input.trim().length < 3}
-              className="p-2 rounded-md bg-[color:var(--color-ink-900)] text-[color:var(--color-paper)] disabled:opacity-30 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
-              aria-label="Gönder"
+            <Sparkles size={16} strokeWidth={1.5} className="text-[color:var(--color-uni-b)]" />
+            <span>Müfredat hakkında sor</span>
+            <kbd className="ml-1 font-mono text-[10px] px-1.5 py-0.5 rounded bg-[color:var(--color-paper-2)] text-[color:var(--color-ink-500)] tabular-nums">
+              /
+            </kbd>
+          </motion.button>
+        )}
+      </AnimatePresence>
+
+      {/* Modal — desktop: sağ alt pencere; mobile: bottom sheet */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.15 }}
+            className="fixed inset-0 z-40 sm:bg-transparent bg-[color:rgba(15,14,13,0.30)] sm:pointer-events-none"
+            onClick={(e) => {
+              if (e.target === e.currentTarget) setOpen(false);
+            }}
+          >
+            <motion.div
+              role="dialog"
+              aria-label="AI asistan"
+              aria-modal="true"
+              initial={{ opacity: 0, y: 24, scale: 0.96 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 24, scale: 0.96 }}
+              transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
+              className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 sm:pointer-events-auto pointer-events-auto w-full sm:w-[420px] sm:max-w-[calc(100vw-32px)] h-[85vh] sm:h-[600px] sm:max-h-[calc(100vh-48px)] flex flex-col rounded-t-xl sm:rounded-lg overflow-hidden bg-[color:var(--color-white-paper)] border"
+              style={{
+                borderColor: "var(--color-line)",
+                boxShadow: "var(--shadow-modal)",
+              }}
             >
-              <ArrowRight size={16} />
-            </button>
-          </form>
-        </div>
-      )}
+              {/* Header */}
+              <header
+                className="flex items-center justify-between px-4 py-3 border-b"
+                style={{ borderColor: "var(--color-line)" }}
+              >
+                <div className="flex items-center gap-2">
+                  <Sparkles size={16} strokeWidth={1.5} className="text-[color:var(--color-uni-b)]" />
+                  <span className="font-serif text-base">Asistan</span>
+                </div>
+                <button
+                  onClick={() => setOpen(false)}
+                  className="p-1.5 -mr-1 text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
+                  aria-label="Kapat"
+                >
+                  <X size={16} strokeWidth={1.5} />
+                </button>
+              </header>
+
+              {/* Messages */}
+              <div
+                ref={scrollRef}
+                className="flex-1 overflow-y-auto px-4 py-4 space-y-3"
+                aria-live="polite"
+              >
+                {messages.length === 0 && <Welcome onPick={submit} />}
+                {messages.map((m, i) => (
+                  <MessageBubble key={i} msg={m} onPickFollowUp={submit} />
+                ))}
+              </div>
+
+              {/* Input */}
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  submit(input);
+                }}
+                className="border-t px-3 py-3 flex items-center gap-2"
+                style={{ borderColor: "var(--color-line)" }}
+              >
+                <input
+                  ref={inputRef}
+                  type="text"
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  placeholder="Müfredat hakkında sor..."
+                  aria-label="Soru"
+                  className="flex-1 bg-[color:var(--color-paper-2)] rounded-md px-3 h-10 text-sm outline-none border focus:border-[color:var(--color-ink-700)] transition-colors"
+                  style={{ borderColor: "var(--color-line)" }}
+                  maxLength={500}
+                />
+                <button
+                  type="submit"
+                  disabled={input.trim().length < 3}
+                  className="h-10 w-10 flex items-center justify-center rounded-md bg-[color:var(--color-ink-900)] text-[color:var(--color-paper)] disabled:opacity-30 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
+                  aria-label="Gönder"
+                >
+                  <ArrowRight size={16} strokeWidth={1.5} />
+                </button>
+              </form>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }
@@ -266,6 +333,7 @@ function MessageBubble({
   }
 
   // assistant
+  const showSupporting = msg.done;
   return (
     <div className="space-y-2">
       <div
@@ -273,10 +341,21 @@ function MessageBubble({
         style={{ borderColor: "var(--color-line)" }}
       >
         <RichText text={msg.text} />
+        {!msg.done && (
+          <span
+            aria-hidden
+            className="inline-block w-[2px] h-[1em] ml-0.5 align-text-bottom bg-[color:var(--color-ink-700)] animate-pulse"
+          />
+        )}
       </div>
 
-      {msg.citations.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 ml-1">
+      {showSupporting && msg.citations.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 4 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+          className="flex flex-wrap gap-1.5 ml-1"
+        >
           {msg.citations.map((c, i) => (
             <a
               key={i}
@@ -289,11 +368,16 @@ function MessageBubble({
               {c.code}
             </a>
           ))}
-        </div>
+        </motion.div>
       )}
 
-      {msg.followUps.length > 0 && (
-        <div className="space-y-1 ml-1 pt-1">
+      {showSupporting && msg.followUps.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 4 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
+          className="space-y-1 ml-1 pt-1"
+        >
           {msg.followUps.map((s) => (
             <button
               key={s}
@@ -303,10 +387,10 @@ function MessageBubble({
               ↳ {s}
             </button>
           ))}
-        </div>
+        </motion.div>
       )}
 
-      {msg.meta && (
+      {showSupporting && msg.meta && (
         <div className="ml-1 text-[10px] font-mono text-[color:var(--color-ink-300)]">
           {msg.meta.intent_type} · {msg.meta.latency_ms}ms · ${msg.meta.llm.cost_usd.toFixed(4)}
         </div>
@@ -336,6 +420,48 @@ function RichText({ text }: { text: string }) {
       })}
     </>
   );
+}
+
+/**
+ * Karakter-karakter typewriter — DASHBOARD_PROMPT "streaming" simülasyonu.
+ * Gerçek SSE yok (backend henüz yok); client-side animation.
+ *
+ * Hız: kısa text için 8ms/char, uzun text için 4ms/char (toplam ~1.5sn cap).
+ * `prefers-reduced-motion` set ise anında tam göster.
+ */
+async function typewriter(
+  text: string,
+  onUpdate: (partial: string) => void
+): Promise<void> {
+  const reduced =
+    typeof window !== "undefined" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduced) {
+    onUpdate(text);
+    return;
+  }
+  const targetTotalMs = Math.min(text.length * 8, 1500);
+  const interval = Math.max(2, Math.floor(targetTotalMs / Math.max(text.length, 1)));
+
+  // <ref>...</ref> tag'ler tek seferde gelsin (yarı-tag göstermesin)
+  const tokens = text.split(/(<ref>.*?<\/ref>)/g).filter(Boolean);
+  let acc = "";
+  for (const token of tokens) {
+    if (token.startsWith("<ref>")) {
+      acc += token;
+      onUpdate(acc);
+      await new Promise((r) => setTimeout(r, interval * 2));
+      continue;
+    }
+    for (const ch of token) {
+      acc += ch;
+      onUpdate(acc);
+      // Karakter atlanan ms — punctuation'da biraz dur
+      const wait = ".,!?".includes(ch) ? interval * 6 : interval;
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
+  onUpdate(text);
 }
 
 function applyOverlay(
