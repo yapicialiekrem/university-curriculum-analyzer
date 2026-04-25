@@ -44,11 +44,17 @@ MAX_COURSES_PER_UNI = 20
 
 @lru_cache(maxsize=1)
 def _slug_to_name_map() -> dict[str, str]:
-    """data/**/*.json → {slug_lower: university_name}. Cached.
+    """data/**/*.json → {slug_canonical: university_name}. Cached.
 
     v2: rglob — data/{bilgisayar,yazilim,ybs}/<slug>.json yapısı için.
+    v3: Türkçe karakterli slug'lar (sabancı, fırat, ytü) ASCII fold ile
+        canonical key'e mapleniyor + orijinal lower slug da alias olarak
+        eklenir, böylece her iki form da resolve eder.
     Field fallback: university_name → uni_name (eski şema).
     """
+    # Geç import — analytics modülü ile karşılıklı bağımlılık olmasın
+    from analytics.loader import ascii_fold
+
     mapping: dict[str, str] = {}
     if not DATA_DIR.exists():
         logger.warning("Data dir yok: %s", DATA_DIR)
@@ -63,14 +69,24 @@ def _slug_to_name_map() -> dict[str, str]:
             logger.warning("%s okunamadı: %s", path.name, e)
             continue
         name = d.get("university_name") or d.get("uni_name")
-        if name:
-            mapping[path.stem.lower()] = name
+        if not name:
+            continue
+        original = path.stem.lower()
+        canonical = ascii_fold(path.stem)
+        mapping[canonical] = name
+        if original != canonical:
+            mapping[original] = name
     return mapping
 
 
 def _resolve_uni(slug: str) -> Optional[str]:
-    """Slug'ı resmi üniversite adına çevir."""
-    return _slug_to_name_map().get((slug or "").strip().lower())
+    """Slug'ı resmi üniversite adına çevir (ASCII fold dahil)."""
+    from analytics.loader import ascii_fold
+    s = (slug or "").strip()
+    if not s:
+        return None
+    m = _slug_to_name_map()
+    return m.get(ascii_fold(s)) or m.get(s.lower())
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -251,6 +267,46 @@ def _build_comparison(intent: Intent, resolved: list[dict]) -> dict:
             radar_mod = bloom_mod = coverage_mod = heatmap_mod = None
 
     out: dict[str, Any] = {"slugs": slugs}
+
+    # 0) Her üni için temsili ders örnekleri — LLM citation üretebilsin diye.
+    # Kategori filter'ı varsa o kategorideki dersleri öne çıkar; yoksa AKTS
+    # ağırlıklı top 5 zorunlu ders (her uni başına).
+    engine = _get_engine()
+    if engine is not None:
+        cat_filter = intent.filters.category
+        sample_per_uni: list[dict] = []
+        for r in resolved:
+            try:
+                courses = engine.list_courses(r["name"]) or []
+            except Exception:
+                continue
+            if not courses:
+                continue
+            # Kategori filter varsa onunla, yoksa zorunlu AKTS yüksek dersler
+            picked = []
+            if cat_filter:
+                picked = [
+                    c for c in courses
+                    if cat_filter in (c.get("categories") or [])
+                ]
+            if not picked:
+                picked = [c for c in courses if c.get("type") == "zorunlu"]
+            picked.sort(key=lambda c: -float(c.get("ects") or 0))
+            sample_per_uni.append({
+                "university": r["name"],
+                "slug": r["slug"],
+                "courses": [
+                    {
+                        "code": c.get("code"),
+                        "name": c.get("name"),
+                        "ects": c.get("ects"),
+                        "categories": c.get("categories", []),
+                    }
+                    for c in picked[:5]
+                ],
+            })
+        if sample_per_uni:
+            out["sample_courses"] = sample_per_uni
 
     # 1) Her zaman radar — LLM "konu kapsamı" hakkında konuşabilsin
     if radar_mod is not None:

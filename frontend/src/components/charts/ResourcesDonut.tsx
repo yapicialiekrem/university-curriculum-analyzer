@@ -67,8 +67,8 @@ function SingleDonut({
         <h3 className="font-serif text-base font-medium leading-tight">{data.name}</h3>
       </div>
 
-      <div className="relative w-full max-w-[180px] aspect-square">
-        <ResponsiveContainer>
+      <div className="relative w-full max-w-[180px]">
+        <ResponsiveContainer width="100%" aspect={1}>
           <PieChart>
             <Pie
               data={chartData}
