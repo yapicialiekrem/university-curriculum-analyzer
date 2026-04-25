@@ -108,6 +108,8 @@ class SemanticSearcher:
         query: str,
         top_k: int = 10,
         university_filter: Optional[Iterable[str]] = None,
+        category_filter: Optional[Iterable[str]] = None,
+        department_filter: Optional[Iterable[str]] = None,
         min_score: float = 0.3,
     ) -> list[dict]:
         """Sorgu metnine en yakın dersleri döndür.
@@ -117,27 +119,21 @@ class SemanticSearcher:
             top_k: Dönecek maksimum sonuç sayısı.
             university_filter: Sadece bu üniversite slug'larıyla sınırla
                 (örn. ["metu", "ege"]). None → filtresiz.
+            category_filter: Sadece `_enriched.categories` içinde bu
+                kategorilerden EN AZ BİRİ olan dersleri döndür
+                (örn. ["ai_ml", "data_science"]). None → filtresiz.
+                Index v2'den itibaren çalışır.
+            department_filter: Sadece bu departmandan dersler
+                (örn. ["bilmuh", "yazmuh"]). None → filtresiz.
             min_score: Bu cosine skorunun altındaki sonuçlar atılır.
                 0.3 "alakasız" eşiği; 0.5+ "güçlü" eşleşme.
 
         Returns:
-            Skora göre azalan sıralı sözlük listesi:
-            [
-              {
-                "score": 0.72,
-                "course_id": 12,
-                "university": "ODTÜ",
-                "university_slug": "metu",
-                "code": "CENG403",
-                "name": "Intro. to Deep Learning",
-                "semester": 7,
-                "type": "secmeli",
-                "language": "İngilizce",
-                "categories": [...],
-                "url": "https://...",
-              },
-              ...
-            ]
+            Skora göre azalan sıralı sözlük listesi (her dict metadata
+            v2 alanlarını içerir: course_id, university, university_slug,
+            department_code, code, name, semester, type, language,
+            categories, primary_category, modernity_score,
+            legacy_categories, url).
         """
         if not query or not query.strip():
             return []
@@ -152,9 +148,14 @@ class SemanticSearcher:
             show_progress_bar=False,
         ).astype("float32")
 
-        # 2) FAISS arama. Filtre varsa fazladan çek.
-        filter_set = {s.lower() for s in university_filter} if university_filter else None
-        search_k = top_k * OVERSAMPLE_FACTOR if filter_set else top_k
+        # 2) FAISS arama. Filtre varsa oversample ile fazladan çek
+        # (filtre top_k'yi düşürmesin diye).
+        uni_set = {s.lower() for s in university_filter} if university_filter else None
+        cat_set = {c for c in category_filter} if category_filter else None
+        dept_set = {d for d in department_filter} if department_filter else None
+
+        any_filter = bool(uni_set or cat_set or dept_set)
+        search_k = top_k * OVERSAMPLE_FACTOR if any_filter else top_k
         search_k = min(search_k, self.index.ntotal)
 
         scores, indices = self.index.search(q_vec, search_k)
@@ -170,7 +171,13 @@ class SemanticSearcher:
                 # FAISS IP sonuçları zaten azalan sıralı → buradan sonra hepsi düşer
                 break
             meta = self.metadata[idx]
-            if filter_set and (meta.get("university_slug") or "").lower() not in filter_set:
+            if uni_set and (meta.get("university_slug") or "").lower() not in uni_set:
+                continue
+            if cat_set:
+                meta_cats = set(meta.get("categories") or [])
+                if not (meta_cats & cat_set):
+                    continue
+            if dept_set and meta.get("department_code") not in dept_set:
                 continue
             results.append({"score": float(score), **meta})
             if len(results) >= top_k:

@@ -90,23 +90,42 @@ class Citation(BaseModel):
     university: Optional[str] = None
 
 
-DashboardChart = Literal[
-    "category_distribution",
-    "semester_distribution",
-    "workload_comparison",
-    "staff_comparison",
-    "language_distribution",
+# Dashboard'da overlay için tetiklenecek bileşen.
+# BACKEND_PROMPT (2).md FAZ 3 — yeni enum (frontend'de Katman 1-2 bileşenleriyle
+# birebir uyumlu). Eski `category_distribution` vs. yerine doğrudan bileşen
+# isimleri.
+DashboardMetric = Literal[
+    "category_radar",      # Bileşen 1.1 — radar grafiği
+    "semester_heatmap",    # Bileşen 2.1 — dönem×kategori heatmap
+    "bloom_donut",         # Bileşen 2.3 — Bloom donut
+    "staff_bars",          # Bileşen 2.5 — kadro barları
+    "coverage_table",      # Bileşen 2.2 — kapsam tablosu
+    "resources_donut",     # Bileşen 2.6 — kaynak dili
+    "project_heaviness",   # _summary.project_heavy_course_count vurgusu
 ]
 
 
 class DashboardUpdate(BaseModel):
-    """Frontend dashboard'una yansıtılacak görsel güncellemeler."""
+    """Frontend dashboard'una yansıtılacak görsel güncellemeler.
+
+    LLM'den gelen yapı (ANSWER_PROMPT şablonu):
+      {
+        "show_metric": "category_radar",
+        "highlight_category": "ai_ml",
+        "highlight_courses": ["CENG499","CS440"],
+        "universities_focus": ["metu","ege"],
+        "overlay_data": {"metu": "13 AI dersi, 48 AKTS", ...}
+      }
+    """
     model_config = ConfigDict(extra="ignore")
 
+    show_metric: Optional[DashboardMetric] = None
+    highlight_category: Optional[str] = None      # 13 enrichment kategorisinden biri
     highlight_courses: list[str] = Field(default_factory=list)
-    show_chart: Optional[DashboardChart] = None
-    filter: dict[str, Any] = Field(default_factory=dict)
     universities_focus: list[str] = Field(default_factory=list)
+    overlay_data: dict[str, str] = Field(default_factory=dict)
+    # Geriye dönük uyumluluk: eski şemada `filter` ve `show_chart` vardı.
+    # LLM bazen hâlâ üretebilir; sessizce yutup yeni alana köprü kuruyoruz.
 
     @field_validator("highlight_courses", "universities_focus", mode="before")
     @classmethod
@@ -119,15 +138,15 @@ class DashboardUpdate(BaseModel):
             return []
         return [str(x).strip() for x in v if x and str(x).strip()]
 
-    @field_validator("filter", mode="before")
+    @field_validator("overlay_data", mode="before")
     @classmethod
-    def _coerce_filter(cls, v: Any) -> dict[str, Any]:
-        # LLM bazen `filter: null` döndürüyor — default'a düşelim
+    def _coerce_overlay(cls, v: Any) -> dict[str, str]:
         if v is None:
             return {}
         if not isinstance(v, dict):
             return {}
-        return v
+        # Tüm value'ları string'e çevir
+        return {str(k): str(val) for k, val in v.items() if val is not None}
 
 
 class ChatResponse(BaseModel):
