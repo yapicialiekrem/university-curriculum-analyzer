@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
+import { Suspense } from "react";
+
+import { ChatPanel } from "@/components/chat/ChatPanel";
+import { TopBar } from "@/components/TopBar";
+import { OverlayProvider } from "@/lib/use-overlay";
 import "./globals.css";
 
 // Editorial başlık + sayı fontu (variable font — weight'i atla, axes opsz kullan)
@@ -41,7 +46,17 @@ export default function RootLayout({
       lang="tr"
       className={`${fraunces.variable} ${interTight.variable} ${plexMono.variable}`}
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col">
+        <OverlayProvider>
+          <Suspense fallback={null}>
+            <TopBar />
+          </Suspense>
+          {children}
+          <Suspense fallback={null}>
+            <ChatPanel />
+          </Suspense>
+        </OverlayProvider>
+      </body>
     </html>
   );
 }
