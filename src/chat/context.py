@@ -44,19 +44,25 @@ MAX_COURSES_PER_UNI = 20
 
 @lru_cache(maxsize=1)
 def _slug_to_name_map() -> dict[str, str]:
-    """data/*.json → {slug_lower: university_name}. Cached."""
+    """data/**/*.json → {slug_lower: university_name}. Cached.
+
+    v2: rglob — data/{bilgisayar,yazilim,ybs}/<slug>.json yapısı için.
+    Field fallback: university_name → uni_name (eski şema).
+    """
     mapping: dict[str, str] = {}
     if not DATA_DIR.exists():
         logger.warning("Data dir yok: %s", DATA_DIR)
         return mapping
-    for path in DATA_DIR.glob("*.json"):
+    for path in DATA_DIR.rglob("*.json"):
+        if not path.is_file():
+            continue
         try:
             with path.open("r", encoding="utf-8") as f:
                 d = json.load(f)
         except Exception as e:
             logger.warning("%s okunamadı: %s", path.name, e)
             continue
-        name = d.get("university_name")
+        name = d.get("university_name") or d.get("uni_name")
         if name:
             mapping[path.stem.lower()] = name
     return mapping
@@ -207,69 +213,124 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
 
 
 def _build_comparison(intent: Intent, resolved: list[dict]) -> dict:
-    """Uygun /api/compare/* metodunu çağır."""
-    engine = _get_engine()
-    if engine is None:
-        return {"error": "Veritabanına bağlanılamadı"}
+    """Karşılaştırma context'i — analytics + comparison.py birleşik.
+
+    Strateji:
+      1. Analytics modülleri (radar/bloom/coverage/heatmap) — enrichment
+         tabanlı zengin veri. Her durumda overall radar dahil edilir
+         (LLM'in nereye bakacağına dair fikri olsun).
+      2. intent.metric Neo4j-tabanlı bir metrikse (workload, prerequisites,
+         vb.) ek olarak ComparisonEngine'den çek.
+      3. needs_embedding + semantic_query varsa related_courses ekle.
+
+    Geriye dönük uyum: intent.metric ister yeni isim ('radar', 'bloom',
+    'coverage', 'heatmap') ister eski Neo4j ismi ('workload',
+    'mandatory-elective', vb.) — ikisini de doğru yöne yönlendiriyoruz.
+    """
     if len(resolved) < 2:
         return {
             "error": "Karşılaştırma için en az iki üniversite gerekli",
             "resolved": resolved,
         }
-    uni1, uni2 = resolved[0]["name"], resolved[1]["name"]
-    top_n = intent.top_k
+    slugs = [r["slug"] for r in resolved]
 
-    metric_map = {
-        "courses":
-            lambda: engine.find_similar_courses(uni1, uni2, top_n=top_n),
-        "staff":
-            lambda: engine.compare_staff(uni1, uni2),
-        "workload":
-            lambda: engine.compare_workload(uni1, uni2),
-        "program-outcomes":
-            lambda: engine.compare_program_outcomes(uni1, uni2, top_n=top_n),
-        "curriculum-coverage":
-            lambda: engine.compare_curriculum_coverage(uni1, uni2, top_n=top_n),
-        "prerequisites":
-            lambda: engine.compare_prerequisites(uni1, uni2),
-        "semester-distribution":
-            lambda: engine.compare_semester_distribution(uni1, uni2),
-        "mandatory-elective":
-            lambda: engine.compare_mandatory_elective(uni1, uni2),
-        "language-distribution":
-            lambda: engine.compare_language_distribution(uni1, uni2),
-        "resources":
-            lambda: engine.compare_resources(uni1, uni2),
-    }
-
-    metric = intent.metric
-    if metric == "learning-outcomes":
-        return {
-            "error": (
-                "learning-outcomes iki spesifik ders kodu ister; "
-                "router bu sorudan kodu çıkaramıyor. comparison başka metrik "
-                "dene."
-            ),
-        }
-
-    if metric and metric in metric_map:
-        try:
-            return {"metric": metric, "uni1": uni1, "uni2": uni2,
-                    "result": metric_map[metric]()}
-        except Exception as e:
-            logger.exception("Comparison '%s' başarısız", metric)
-            return {"metric": metric, "error": str(e)}
-
-    # metric yoksa → composite score (hepsi birden)
+    # ── Lazy analytics import (FAZ 1 modülleri) ────────────────────────
     try:
-        return {"metric": "composite", "uni1": uni1, "uni2": uni2,
-                "result": engine.get_composite_score(uni1, uni2)}
-    except Exception as e:
-        return {"error": f"Composite alınamadı: {e}"}
+        from analytics import bloom as bloom_mod
+        from analytics import coverage as coverage_mod
+        from analytics import heatmap as heatmap_mod
+        from analytics import radar as radar_mod
+    except ImportError:
+        # Geriye uyumluluk — paket yoksa
+        try:
+            from src.analytics import bloom as bloom_mod
+            from src.analytics import coverage as coverage_mod
+            from src.analytics import heatmap as heatmap_mod
+            from src.analytics import radar as radar_mod
+        except ImportError:
+            radar_mod = bloom_mod = coverage_mod = heatmap_mod = None
+
+    out: dict[str, Any] = {"slugs": slugs}
+
+    # 1) Her zaman radar — LLM "konu kapsamı" hakkında konuşabilsin
+    if radar_mod is not None:
+        try:
+            out["radar"] = radar_mod.compute_radar(slugs)
+        except Exception as e:
+            out["radar_error"] = str(e)
+
+    # 2) Metrik bazlı ek veri
+    metric = intent.metric
+    new_metrics = {"radar", "bloom", "coverage", "heatmap"}
+
+    if metric in new_metrics and bloom_mod is not None:
+        try:
+            if metric == "bloom":
+                out["bloom"] = bloom_mod.compute_bloom(slugs)
+            elif metric == "coverage":
+                out["coverage"] = coverage_mod.compute_coverage(
+                    slugs, categories=intent.filters.category and [intent.filters.category]
+                )
+            elif metric == "heatmap":
+                out["heatmap"] = heatmap_mod.compute_semester_heatmap(slugs)
+            # radar zaten yukarıda eklendi
+        except Exception as e:
+            out[f"{metric}_error"] = str(e)
+
+    # 3) Neo4j-bazlı eski metrikler (workload, staff, vs.)
+    engine = _get_engine()
+    if engine is not None and metric and metric not in new_metrics:
+        if metric == "learning-outcomes":
+            out["comparison_warning"] = (
+                "learning-outcomes iki spesifik ders kodu ister; "
+                "router bunu çıkaramadı."
+            )
+        else:
+            uni1_name = resolved[0]["name"]
+            uni2_name = resolved[1]["name"]
+            top_n = intent.top_k
+            metric_map = {
+                "courses":
+                    lambda: engine.find_similar_courses(uni1_name, uni2_name, top_n=top_n),
+                "staff":
+                    lambda: engine.compare_staff(uni1_name, uni2_name),
+                "workload":
+                    lambda: engine.compare_workload(uni1_name, uni2_name),
+                "program-outcomes":
+                    lambda: engine.compare_program_outcomes(uni1_name, uni2_name, top_n=top_n),
+                "curriculum-coverage":
+                    lambda: engine.compare_curriculum_coverage(uni1_name, uni2_name, top_n=top_n),
+                "prerequisites":
+                    lambda: engine.compare_prerequisites(uni1_name, uni2_name),
+                "semester-distribution":
+                    lambda: engine.compare_semester_distribution(uni1_name, uni2_name),
+                "mandatory-elective":
+                    lambda: engine.compare_mandatory_elective(uni1_name, uni2_name),
+                "language-distribution":
+                    lambda: engine.compare_language_distribution(uni1_name, uni2_name),
+                "resources":
+                    lambda: engine.compare_resources(uni1_name, uni2_name),
+            }
+            if metric in metric_map:
+                try:
+                    out["graph_metric"] = {
+                        "name": metric, "result": metric_map[metric]()
+                    }
+                except Exception as e:
+                    logger.exception("Comparison '%s' başarısız", metric)
+                    out["graph_metric_error"] = str(e)
+
+    # 4) Semantik arama (LLM ders detayı isteyebilir)
+    if intent.needs_embedding and intent.semantic_query:
+        sem = _build_semantic(intent)
+        if sem.get("results"):
+            out["related_courses"] = sem["results"][:5]  # context'i şişirme
+
+    return out
 
 
 def _build_semantic(intent: Intent) -> dict:
-    """FAISS semantik arama."""
+    """FAISS semantik arama. v2: kategori + departman filtreleri dahil."""
     searcher = _get_searcher()
     if searcher is None:
         return {"error": "Semantik index yok; builder ile önce oluştur"}
@@ -277,10 +338,16 @@ def _build_semantic(intent: Intent) -> dict:
     if not query:
         return {"error": "semantic_query boş"}
 
+    # Intent filter'larını searcher'a köprüle
+    cat_filter = None
+    if intent.filters.category:
+        cat_filter = [intent.filters.category]
+
     hits = searcher.search(
         query=query,
         top_k=intent.top_k,
         university_filter=intent.universities or None,
+        category_filter=cat_filter,
     )
     return {
         "query": query,
