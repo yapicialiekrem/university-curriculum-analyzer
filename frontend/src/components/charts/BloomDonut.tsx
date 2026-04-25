@@ -101,8 +101,8 @@ function BloomSingle({
         </h3>
       </div>
 
-      <div className="relative w-full max-w-[240px] aspect-square">
-        <ResponsiveContainer>
+      <div className="relative w-full max-w-[240px]">
+        <ResponsiveContainer width="100%" aspect={1}>
           <PieChart>
             <Pie
               data={chartData}

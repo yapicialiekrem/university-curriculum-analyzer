@@ -219,7 +219,9 @@ def ingest_university(tx, data: dict) -> None:
            university_name=university_name, dept_name=dept_name)
 
     # --- Academic Staff ------------------------------------------------------
-    staff = data.get("academic_staff", {})
+    # JSON'da academic_staff null veya eksik olabilir (örn. istinye-yazılım) —
+    # boş dict ile defensive davran
+    staff = data.get("academic_staff") or {}
     tx.run(MERGE_ACADEMIC_STAFF,
            dept_name=dept_name,
            university_name=university_name,
