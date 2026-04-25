@@ -211,7 +211,22 @@ DASHBOARD_UPDATE alanları (frontend bunu overlay/parlatma için kullanır):
 - Veri yetersizse: text="Bu bilgi verimizde yok." + citations=[],
   dashboard_update=null, follow_up_suggestions alakalı ise doldurulabilir.
 - Genel sorularda dashboard_update=null kullan.
-- SADECE JSON döndür."""
+- SADECE JSON döndür.
+
+CITATION KURALLARI (ZORUNLU):
+1. Context'te `sample_courses`, `related_courses`, `graph_metric.result.courses`
+   veya benzer bir alanda DERS KODU varsa, "text" içinde EN AZ 1, mümkünse
+   2-3 ders kodunu <ref>KOD</ref> ile referansla.
+2. Text'te <ref>X</ref> olarak işaretlenen HER ders kodu için "citations"
+   listesine bir obje ekle: {{"code": "X", "name": "...", "url": null,
+   "university": "<slug>"}}. <ref> sayısı = citations sayısı.
+3. Karşılaştırma sorularında her iki üniversiteden en az 1'er ders alıntıla
+   (toplam >= 2 citation). "ODTÜ <ref>CENG483</ref> dersinde, Bilkent
+   <ref>CS464</ref> dersinde işliyor" gibi.
+4. Context'te HİÇ ders kodu yoksa (örn. genel istatistik sorusu) citations=[]
+   bırakmak meşrudur, ama bu durumda text'te de <ref> kullanma.
+5. Üretme/uydurma yapma — citations sadece context'teki ders kodlarını
+   kullanır. Gerçek olmayan kod yazma."""
 
 
 # ═══════════════════════════════════════════════════════════════════════════

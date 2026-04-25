@@ -39,6 +39,24 @@ _DEPT_FOLDER_MAP = {
 VALID_DEPARTMENTS = {"bilmuh", "yazmuh", "ybs"}
 
 
+# Türkçe → ASCII katlama. URL slug'larında ı/ç/ş/ğ/ö/ü problemli (kullanıcı
+# `sabanci` yazıyor, dosya adı `sabancı.json`). Canonical slug ASCII tutulur,
+# orijinal Türkçe slug alias olarak korunur.
+_TR_FOLD = str.maketrans({
+    "ı": "i", "İ": "i",
+    "ç": "c", "Ç": "c",
+    "ş": "s", "Ş": "s",
+    "ğ": "g", "Ğ": "g",
+    "ö": "o", "Ö": "o",
+    "ü": "u", "Ü": "u",
+})
+
+
+def ascii_fold(s: str) -> str:
+    """Türkçe karakterli slug'ı ASCII'ye çevir (lower-case)."""
+    return s.translate(_TR_FOLD).lower() if s else ""
+
+
 class EnrichmentStore:
     """51 üniversitenin enriched JSON verilerini bellekte tutar.
 
@@ -53,6 +71,9 @@ class EnrichmentStore:
 
     def __init__(self) -> None:
         self._universities: dict[str, dict] = {}
+        # Türkçe slug → ASCII canonical alias (sabancı → sabanci).
+        # get() bu alias'tan geçirir ki eski URL'ler de çalışsın.
+        self._aliases: dict[str, str] = {}
         self._loaded = False
 
     # ─── Yükleme ──────────────────────────────────────────────────────
@@ -69,7 +90,9 @@ class EnrichmentStore:
         for path in sorted(DATA_DIR.rglob("*.json")):
             if not path.is_file():
                 continue
-            slug = path.stem
+            original_slug = path.stem
+            # Canonical slug: lower-case + Türkçe karakter fold
+            slug = ascii_fold(original_slug)
             if slug in self._universities:
                 logger.warning(
                     "Slug çakışması: %s zaten yüklü (yeni: %s, atlandı)",
@@ -89,6 +112,9 @@ class EnrichmentStore:
             data["_department"] = _DEPT_FOLDER_MAP.get(folder, "other")
 
             self._universities[slug] = data
+            # Türkçe orijinal slug → ASCII canonical alias (geriye uyum)
+            if original_slug.lower() != slug:
+                self._aliases[original_slug.lower()] = slug
 
         self._loaded = True
         non_empty = sum(
@@ -103,8 +129,22 @@ class EnrichmentStore:
     # ─── Erişim ───────────────────────────────────────────────────────
 
     def get(self, slug: str) -> Optional[dict]:
-        """Tek üniversite dict'i (None: bulunamadı)."""
-        return self._universities.get(slug)
+        """Tek üniversite dict'i (None: bulunamadı).
+
+        Slug ASCII fold + lower-case sonrası lookup yapar; Türkçe karakterli
+        eski slug'lar (sabancı, fırat, ytü) alias üzerinden de bulunur.
+        """
+        if not slug:
+            return None
+        key = ascii_fold(slug)
+        # Önce direkt canonical key'le dene
+        if key in self._universities:
+            return self._universities[key]
+        # Geriye uyumluluk: alias üzerinden
+        canonical = self._aliases.get(slug.lower())
+        if canonical:
+            return self._universities.get(canonical)
+        return None
 
     def list_slugs(self, department: Optional[str] = None,
                    include_empty: bool = False) -> list[str]:

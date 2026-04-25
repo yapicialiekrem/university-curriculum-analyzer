@@ -530,6 +530,16 @@ class ComparisonEngine:
                 (c for c in chains if c["chain_depth"] == max_depth), {}
             ) if max_depth > 0 else {}
 
+            # Frontend PrereqGraph (ReactFlow) ham edge listesi bekliyor.
+            # QUERY_PREREQUISITES her kurs için collect(p.code) döndürüyor —
+            # düzleştirip {course, prerequisite} çiftlerine açıyoruz.
+            edges = [
+                {"course": p["code"], "prerequisite": pr}
+                for p in prereqs
+                for pr in (p.get("prerequisites") or [])
+                if pr
+            ]
+
             return {
                 "name": name,
                 "total_courses": len(prereqs),
@@ -542,6 +552,7 @@ class ComparisonEngine:
                 "prerequisite_ratio_pct": round(
                     len(courses_with_prereqs) / max(len(prereqs), 1) * 100, 1
                 ),
+                "edges": edges,
             }
 
         result1 = analyze_prereqs(prereq1, chains1, university1)
