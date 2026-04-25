@@ -1,7 +1,16 @@
 import { Suspense } from "react";
+import dynamic from "next/dynamic";
 
 import { LayerOne } from "@/components/layers/LayerOne";
-import { LayerTwo } from "@/components/layers/LayerTwo";
+
+// Code splitting: LayerTwo ayrı chunk'a düşsün — Recharts heatmap +
+// donut bileşenleri ~80 KB initial bundle'ı şişirmesin.
+// (Next 16 server component'ta ssr:false yasak; SSR yapılır ama
+// chunk yine ayrılır.)
+const LayerTwo = dynamic(
+  () => import("@/components/layers/LayerTwo").then((m) => ({ default: m.LayerTwo })),
+  { loading: () => <LazyPlaceholder /> }
+);
 
 export default function Home() {
   return (
@@ -9,16 +18,22 @@ export default function Home() {
       <Suspense fallback={<DashboardSkeleton />}>
         <LayerOne />
       </Suspense>
-      <Suspense fallback={null}>
-        <LayerTwo />
-      </Suspense>
+      <LayerTwo />
     </main>
+  );
+}
+
+function LazyPlaceholder() {
+  return (
+    <section className="px-4 sm:px-6 lg:px-10 max-w-[1440px] mx-auto py-16">
+      <div className="card h-[400px] skeleton" />
+    </section>
   );
 }
 
 function DashboardSkeleton() {
   return (
-    <section className="px-6 sm:px-10 max-w-[1440px] mx-auto pt-12 pb-16">
+    <section className="px-4 sm:px-6 lg:px-10 max-w-[1440px] mx-auto pt-12 pb-16">
       <div className="space-y-4 mb-10">
         <div className="h-10 w-2/3 skeleton" />
         <div className="h-4 w-1/2 skeleton" />

@@ -11,11 +11,20 @@
 
 import useSWR from "swr";
 
+import dynamic from "next/dynamic";
+
 import { CourseSimilarity } from "@/components/charts/CourseSimilarity";
 import { CurriculumCoverageHeatmap } from "@/components/charts/CurriculumCoverageHeatmap";
-import { PrereqSummary } from "@/components/charts/PrereqSummary";
 import { ResourcesTable } from "@/components/charts/ResourcesTable";
+import { Section } from "@/components/Section";
 import { api } from "@/lib/api";
+
+// ReactFlow ağır (~80 KB) — sadece deep-analysis sayfasında ve scroll
+// edildiğinde yüklensin
+const PrereqGraph = dynamic(
+  () => import("@/components/charts/PrereqGraph").then((m) => ({ default: m.PrereqGraph })),
+  { ssr: false, loading: () => <div className="h-[420px] skeleton rounded" /> }
+);
 import type {
   CurriculumCoverageResponse,
   PrerequisitesResponse,
@@ -23,31 +32,6 @@ import type {
   UniversitySummary,
 } from "@/lib/types";
 import { useSelection } from "@/lib/use-selection";
-
-function Section({
-  label,
-  title,
-  caption,
-  children,
-}: {
-  label: string;
-  title: string;
-  caption?: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="card">
-      <div className="ui-label">{label}</div>
-      <h2 className="font-serif text-2xl mb-2">{title}</h2>
-      {caption && (
-        <p className="text-sm italic text-[color:var(--color-ink-500)] mb-6 max-w-2xl">
-          {caption}
-        </p>
-      )}
-      <div className={caption ? "" : "mt-4"}>{children}</div>
-    </section>
-  );
-}
 
 export function LayerThree() {
   const { selection } = useSelection();
@@ -118,10 +102,10 @@ export function LayerThree() {
 
       <Section
         label="3.2"
-        title="Önkoşul Yapısı"
-        caption="Hangi derslerin diğerlerine bağımlı olduğu, ortalama derinlik ve örnek zincirler."
+        title="Önkoşul Ağı"
+        caption="Hangi dersin neye bağımlı olduğu — köklerden yukarı doğru. Bir derse tıkla, alt zinciri vurgulanır."
       >
-        <PrereqSummary data={prereq} loading={prereqLoading} />
+        <PrereqGraph data={prereq} loading={prereqLoading} />
       </Section>
 
       <Section

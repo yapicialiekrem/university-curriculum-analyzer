@@ -139,27 +139,44 @@ function BloomSingle({
         </div>
       </div>
 
-      {/* Liste */}
-      <ul className="mt-4 w-full max-w-[260px] space-y-1">
+      {/* Liste — her satırda yüzdeyi temsil eden nokta sayısı (max 10) */}
+      <ul className="mt-4 w-full max-w-[260px] space-y-1.5">
         {levels.map((lvl, i) => {
           const pct = Math.round((series.distribution[lvl] ?? 0) * 100);
           const isDominant = lvl === series.dominant;
+          const dotCount = Math.max(0, Math.min(10, Math.round(pct / 10)));
+          const segColor = SEGMENT_COLORS[i] || "rgba(15,14,13,0.5)";
           return (
             <li
               key={lvl}
-              className="flex items-baseline gap-3 text-xs"
+              className="grid grid-cols-[68px_1fr_36px] items-center gap-2 text-xs"
               aria-current={isDominant}
             >
               <span
-                className="flex-shrink-0 w-2.5 h-2.5 rounded-sm"
-                style={{ background: SEGMENT_COLORS[i] || "rgba(15,14,13,0.5)" }}
-              />
-              <span
-                className={`flex-1 ${isDominant ? "font-medium text-[color:var(--color-ink-900)]" : "text-[color:var(--color-ink-700)]"}`}
+                className={
+                  isDominant
+                    ? "font-medium text-[color:var(--color-ink-900)]"
+                    : "text-[color:var(--color-ink-700)]"
+                }
               >
                 {LEVEL_LABELS[lvl]}
               </span>
-              <span className="font-mono tabular-nums text-[color:var(--color-ink-500)]">
+              <span
+                className="flex items-center gap-[2px]"
+                aria-hidden
+                title={`${pct}%`}
+              >
+                {Array.from({ length: 10 }).map((_, di) => (
+                  <span
+                    key={di}
+                    className="w-1.5 h-1.5 rounded-full"
+                    style={{
+                      background: di < dotCount ? segColor : "var(--color-paper-3)",
+                    }}
+                  />
+                ))}
+              </span>
+              <span className="font-mono tabular-nums text-[color:var(--color-ink-500)] text-right">
                 %{pct}
               </span>
             </li>

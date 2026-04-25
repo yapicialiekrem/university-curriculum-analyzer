@@ -155,13 +155,22 @@ export function UniversityCard({
         {topSpec.length > 0 && (
           <section className="mt-5">
             <div className="ui-label">Uzmanlaşma Derinliği</div>
-            <ul className="mt-2 space-y-2">
+            <ul className="mt-3 space-y-2.5">
               {topSpec.map((c) => (
-                <li key={c.key} className="text-sm flex items-baseline gap-2">
-                  <span className="text-[color:var(--color-ink-700)] flex-1">{c.label}</span>
-                  <span className="font-mono text-xs text-[color:var(--color-ink-500)] tabular-nums">
-                    {c.d.required} zor. + {c.d.elective} seç.
-                  </span>
+                <li key={c.key} className="text-sm">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-[color:var(--color-ink-700)] flex-1">
+                      {c.label}
+                    </span>
+                    <span className="font-mono text-xs text-[color:var(--color-ink-500)] tabular-nums">
+                      {c.d.required} zor. + {c.d.elective} seç.
+                    </span>
+                  </div>
+                  <SpecBlocks
+                    required={c.d.required}
+                    elective={c.d.elective}
+                    accent={accent}
+                  />
                 </li>
               ))}
             </ul>
@@ -180,5 +189,51 @@ export function UniversityCard({
         </section>
       </div>
     </article>
+  );
+}
+
+/**
+ * UZMANLAŞMA mini bar — FRONTEND_PROMPT.md "8px × 4px blok" görseli.
+ * Zorunlu: solid accent. Seçmeli: 2px stroke, transparent fill. Max 20 blok.
+ */
+function SpecBlocks({
+  required,
+  elective,
+  accent,
+}: {
+  required: number;
+  elective: number;
+  accent: string;
+}) {
+  const MAX = 20;
+  const total = required + elective;
+  const overflow = Math.max(0, total - MAX);
+  const reqShown = Math.min(required, MAX);
+  const elShown = Math.max(0, Math.min(elective, MAX - reqShown));
+
+  if (total === 0) return null;
+
+  return (
+    <div className="mt-1.5 flex items-center gap-[3px]" aria-hidden>
+      {Array.from({ length: reqShown }).map((_, i) => (
+        <span
+          key={`r${i}`}
+          className="w-2 h-1 rounded-[1px] block"
+          style={{ background: accent }}
+        />
+      ))}
+      {Array.from({ length: elShown }).map((_, i) => (
+        <span
+          key={`e${i}`}
+          className="w-2 h-1 rounded-[1px] block"
+          style={{ border: `1px solid ${accent}`, background: "transparent" }}
+        />
+      ))}
+      {overflow > 0 && (
+        <span className="ml-1 font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums">
+          +{overflow}
+        </span>
+      )}
+    </div>
   );
 }
