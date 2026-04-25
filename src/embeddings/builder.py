@@ -113,21 +113,36 @@ def build_course_text(course: dict) -> str:
 class CourseMeta:
     """FAISS satırına karşılık gelen meta kayıt.
 
-    course_id: Bu scraper run'ına özel sıra numarası (FAISS index satırı ile aynı).
-    Diğer alanlar frontende dashboard/citations için dönülür.
+    course_id: Bu run'a özel sıra numarası (FAISS index satırı ile aynı).
+    Diğer alanlar frontend (dashboard/citations) ve search filtreleri için.
+
+    v2 (FAZ 3):
+        - `categories` artık `_enriched.categories` (konu kategorileri)
+        - `legacy_categories` eski root.categories (elective havuz isimleri)
+        - `primary_category` ve `modernity_score` enrichment'tan geldi
+        - `department_code` (bilmuh/yazmuh/ybs) klasör adından
     """
 
     course_id: int
     university: str
-    university_slug: str  # dosya adı (uzantısız) — filter için stabil anahtar
+    university_slug: str         # dosya adı (uzantısız) — filter anahtarı
+    department_code: str         # bilmuh | yazmuh | ybs | other
     code: str
     name: str
     semester: Optional[int]
     type: Optional[str]
     language: Optional[str]
-    categories: list[str]
+    # Enrichment (v2)
+    categories: list[str]              # _enriched.categories (konu)
+    primary_category: Optional[str]    # _enriched.primary_category
+    modernity_score: Optional[int]     # _enriched.modernity_score (0-100)
+    # Eski elective havuzları (frontend filter için bilgilendirici)
+    legacy_categories: list[str]
     url: Optional[str]
     source_file: str
+
+    # Index versiyonu — search.py uyumluluğu için
+    schema_version: int = 2
 
 
 # ─── Core build ────────────────────────────────────────────────────────────
@@ -167,26 +182,45 @@ def _collect_courses(
     metas: list[CourseMeta] = []
     course_id = 0
 
+    # Klasör adı → departman kodu (analytics/loader.py ile aynı eşleme)
+    DEPT_MAP = {"bilgisayar": "bilmuh", "yazilim": "yazmuh", "ybs": "ybs"}
+
     for path in files:
         data = _load_university(path)
-        university = data.get("university_name") or path.stem
+        university = (
+            data.get("university_name")
+            or data.get("uni_name")          # eski şema fallback
+            or path.stem
+        )
         slug = _slug_from_path(path)
+        dept_code = DEPT_MAP.get(path.parent.name, "other")
 
         for course in data.get("courses", []) or []:
             text = build_course_text(course)
             if not text:
                 continue
 
+            enriched = course.get("_enriched") or {}
+
             meta = CourseMeta(
                 course_id=course_id,
                 university=university,
                 university_slug=slug,
+                department_code=dept_code,
                 code=(course.get("code") or "").strip(),
                 name=(course.get("name") or "").strip(),
                 semester=course.get("semester"),
                 type=course.get("type"),
                 language=course.get("language"),
-                categories=list(course.get("categories") or []),
+                # v2 — enrichment
+                categories=list(enriched.get("categories") or []),
+                primary_category=enriched.get("primary_category"),
+                modernity_score=(
+                    int(enriched["modernity_score"])
+                    if isinstance(enriched.get("modernity_score"), (int, float))
+                    else None
+                ),
+                legacy_categories=list(course.get("categories") or []),
                 url=course.get("source_url"),
                 source_file=path.name,
             )
