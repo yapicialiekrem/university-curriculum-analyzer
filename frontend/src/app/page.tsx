@@ -1,12 +1,16 @@
 import { Suspense } from "react";
 
 import { LayerOne } from "@/components/layers/LayerOne";
+import { LayerTwo } from "@/components/layers/LayerTwo";
 
 export default function Home() {
   return (
     <main className="flex-1">
       <Suspense fallback={<DashboardSkeleton />}>
         <LayerOne />
+      </Suspense>
+      <Suspense fallback={null}>
+        <LayerTwo />
       </Suspense>
     </main>
   );
