@@ -15,6 +15,7 @@ import { CourseSimilarity } from "@/components/charts/CourseSimilarity";
 import { CurriculumCoverageHeatmap } from "@/components/charts/CurriculumCoverageHeatmap";
 import { PrereqSummary } from "@/components/charts/PrereqSummary";
 import { ResourcesTable } from "@/components/charts/ResourcesTable";
+import { Section } from "@/components/Section";
 import { api } from "@/lib/api";
 import type {
   CurriculumCoverageResponse,
@@ -23,31 +24,6 @@ import type {
   UniversitySummary,
 } from "@/lib/types";
 import { useSelection } from "@/lib/use-selection";
-
-function Section({
-  label,
-  title,
-  caption,
-  children,
-}: {
-  label: string;
-  title: string;
-  caption?: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="card">
-      <div className="ui-label">{label}</div>
-      <h2 className="font-serif text-2xl mb-2">{title}</h2>
-      {caption && (
-        <p className="text-sm italic text-[color:var(--color-ink-500)] mb-6 max-w-2xl">
-          {caption}
-        </p>
-      )}
-      <div className={caption ? "" : "mt-4"}>{children}</div>
-    </section>
-  );
-}
 
 export function LayerThree() {
   const { selection } = useSelection();
