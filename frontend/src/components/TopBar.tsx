@@ -2,18 +2,22 @@
 
 /**
  * TopBar — Site genelinde tek navigasyon. Logo + ana sayfa / derin analiz
- * link'i + slug query'si korunarak geçiş.
+ * link'i + tema toggle + slug query'si korunarak geçiş.
  */
 
+import { Moon, Sun } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+import { useTheme } from "@/lib/use-theme";
 
 export function TopBar() {
   const pathname = usePathname();
   const params = useSearchParams();
   const qs = params.toString();
   const suffix = qs ? `?${qs}` : "";
+  const { resolved, toggle } = useTheme();
 
   return (
     <header
@@ -37,7 +41,7 @@ export function TopBar() {
           </span>
         </Link>
 
-        <nav className="flex items-center gap-6 text-sm">
+        <nav className="flex items-center gap-4 sm:gap-6 text-sm">
           <NavLink href={`/${suffix}`} active={pathname === "/"}>
             Yan yana gör
           </NavLink>
@@ -47,6 +51,18 @@ export function TopBar() {
           >
             Derin Analiz
           </NavLink>
+
+          <button
+            onClick={toggle}
+            aria-label={resolved === "dark" ? "Aydınlık tema" : "Karanlık tema"}
+            className="p-1.5 rounded-md text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] hover:bg-[color:var(--color-paper-3)] transition-colors"
+          >
+            {resolved === "dark" ? (
+              <Sun size={16} strokeWidth={1.5} />
+            ) : (
+              <Moon size={16} strokeWidth={1.5} />
+            )}
+          </button>
         </nav>
       </div>
     </header>

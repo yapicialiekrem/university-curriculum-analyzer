@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Plus, Search, X } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import useSWR from "swr";
 
 import { api } from "@/lib/api";
@@ -14,15 +14,29 @@ export interface UniversityPickerProps {
   department: DepartmentCode;
   onAdd: (slug: string) => void;
   onRemove: (slug: string) => void;
+  /**
+   * Slot bazlı replace — chip X butonu 2 üniversite varken (silinemez state)
+   * için kullanılır.
+   */
+  onReplace: (slot: "a" | "b" | "c", slug: string) => void;
+  /**
+   * Atomik toplu replace — bölüm değişiminde a/b/c'yi tek seferde günceller
+   * (router.replace race-condition'unu önlemek için).
+   */
+  onSetSelection: (next: Partial<{ a: string; b: string; c: string | null }>) => void;
 }
 
 const fetchUnis = (department: DepartmentCode) => api.universities(department);
+
+const SLOT_KEYS: Array<"a" | "b" | "c"> = ["a", "b", "c"];
 
 export function UniversityPicker({
   selectedSlugs,
   department,
   onAdd,
   onRemove,
+  onReplace,
+  onSetSelection,
 }: UniversityPickerProps) {
   const { data: list } = useSWR<UniversityListItem[]>(
     ["universities", department],
@@ -37,6 +51,71 @@ export function UniversityPicker({
     return m;
   }, [list]);
 
+  // Replace mode — kullanıcı 2 üni varken X tıkladığında o slot için
+  // değiştirme dropdown'u aç. null değilse replacing mode aktif.
+  const [replacingSlot, setReplacingSlot] = useState<"a" | "b" | "c" | null>(null);
+
+  // Bölüm değişiminde / list yenilendiğinde geçersiz slug'ları otomatik düzelt.
+  // Örn: bilmuh'tan ybs'ye geçince metu artık list'te yok → ilk uygun slug ile
+  // tek seferde (atomik) replace et.
+  useEffect(() => {
+    if (!list || list.length === 0) return;
+    const valid = new Set(list.map((u) => u.slug));
+    const invalidSlots: Array<"a" | "b" | "c"> = [];
+    selectedSlugs.forEach((slug, idx) => {
+      if (!valid.has(slug)) invalidSlots.push(SLOT_KEYS[idx]);
+    });
+    if (invalidSlots.length === 0) return;
+
+    const used = new Set(selectedSlugs.filter((s) => valid.has(s)));
+    const available = list.filter((u) => !used.has(u.slug));
+
+    const update: Partial<{ a: string; b: string; c: string | null }> = {};
+    invalidSlots.forEach((slot, i) => {
+      const next = available[i];
+      if (next) {
+        used.add(next.slug);
+        update[slot] = next.slug;
+      } else if (slot === "c") {
+        // c için yedek yok — kaldır
+        update.c = null;
+      }
+    });
+    if (Object.keys(update).length > 0) {
+      onSetSelection(update);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [list, selectedSlugs.join(",")]);
+
+  const handleChipX = useCallback(
+    (slug: string, idx: number) => {
+      if (selectedSlugs.length > 2) {
+        onRemove(slug);
+        return;
+      }
+      // 2 üni var — silinemez, "replace" moduna gir
+      setReplacingSlot(SLOT_KEYS[idx]);
+    },
+    [selectedSlugs.length, onRemove]
+  );
+
+  const handlePick = useCallback(
+    (slug: string) => {
+      if (replacingSlot) {
+        onReplace(replacingSlot, slug);
+        setReplacingSlot(null);
+      } else {
+        onAdd(slug);
+      }
+    },
+    [replacingSlot, onAdd, onReplace]
+  );
+
+  const showAddButton = selectedSlugs.length < 3 || replacingSlot !== null;
+  const replacingSlugName = replacingSlot
+    ? map.get(selectedSlugs[SLOT_KEYS.indexOf(replacingSlot)] || "")?.name
+    : null;
+
   return (
     <div className="flex flex-wrap items-center gap-3" role="group" aria-label="Seçili üniversiteler">
       <AnimatePresence mode="popLayout" initial={false}>
@@ -49,14 +128,20 @@ export function UniversityPicker({
               name={u?.name || slug}
               department={u?.department || ""}
               slotIndex={idx}
-              removable={selectedSlugs.length > 2 || idx === 2}
-              onRemove={() => onRemove(slug)}
+              dimmed={replacingSlot === SLOT_KEYS[idx]}
+              onRemove={() => handleChipX(slug, idx)}
             />
           );
         })}
       </AnimatePresence>
-      {selectedSlugs.length < 3 && list && (
-        <AddButton list={list.filter((u) => !selectedSlugs.includes(u.slug))} onAdd={onAdd} />
+      {showAddButton && list && (
+        <AddButton
+          list={list.filter((u) => !selectedSlugs.includes(u.slug))}
+          onAdd={handlePick}
+          replaceLabel={replacingSlugName ? `${replacingSlugName} yerine seç` : null}
+          onCancel={() => setReplacingSlot(null)}
+          autoOpen={replacingSlot !== null}
+        />
       )}
     </div>
   );
@@ -67,21 +152,21 @@ function Chip({
   name,
   department,
   slotIndex,
-  removable,
+  dimmed,
   onRemove,
 }: {
   slug: string;
   name: string;
   department: string;
   slotIndex: number;
-  removable: boolean;
+  dimmed?: boolean;
   onRemove: () => void;
 }) {
   return (
     <motion.span
       layout
       initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
+      animate={{ opacity: dimmed ? 0.45 : 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.85 }}
       transition={{ duration: 0.2, ease: [0.25, 0.8, 0.25, 1] }}
       className="inline-flex items-center gap-2 px-3 h-10 rounded-md border bg-[color:var(--color-paper-2)] text-sm"
@@ -99,15 +184,14 @@ function Chip({
           {department.length > 18 ? department.slice(0, 16) + "…" : department}
         </span>
       )}
-      {removable && (
-        <button
-          onClick={onRemove}
-          className="ml-1 -mr-1 p-1 text-[color:var(--color-ink-300)] hover:text-[color:var(--color-ink-900)] transition-opacity"
-          aria-label={`${name} kaldır`}
-        >
-          <X size={14} strokeWidth={1.5} />
-        </button>
-      )}
+      <button
+        onClick={onRemove}
+        className="ml-1 -mr-1 p-1 text-[color:var(--color-ink-300)] hover:text-[color:var(--color-ink-900)] transition-opacity"
+        aria-label={`${name} değiştir/kaldır`}
+        title={dimmed ? "Yeni üniversite seç…" : `${name} değiştir`}
+      >
+        <X size={14} strokeWidth={1.5} />
+      </button>
     </motion.span>
   );
 }
@@ -115,14 +199,25 @@ function Chip({
 function AddButton({
   list,
   onAdd,
+  replaceLabel,
+  onCancel,
+  autoOpen,
 }: {
   list: UniversityListItem[];
   onAdd: (slug: string) => void;
+  replaceLabel?: string | null;
+  onCancel?: () => void;
+  autoOpen?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
   const ref = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  // Replace mode'a geçildiğinde dropdown otomatik açılır
+  useEffect(() => {
+    if (autoOpen && !open) setOpen(true);
+  }, [autoOpen, open]);
 
   useEffect(() => {
     if (open) {
@@ -133,11 +228,12 @@ function AddButton({
     function handleClickOutside(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) {
         setOpen(false);
+        onCancel?.();
       }
     }
     if (open) document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [open]);
+  }, [open, onCancel]);
 
   const filtered = useMemo(() => {
     const ql = q.trim().toLowerCase();
@@ -147,17 +243,30 @@ function AddButton({
       .slice(0, 50);
   }, [q, list]);
 
+  const isReplace = !!replaceLabel;
+
   return (
     <div ref={ref} className="relative">
       <button
-        onClick={() => setOpen(!open)}
+        onClick={() => {
+          if (open && isReplace) {
+            // Cancel replace
+            onCancel?.();
+          }
+          setOpen(!open);
+        }}
         aria-haspopup="listbox"
         aria-expanded={open}
         className="inline-flex items-center gap-1.5 px-3 h-10 rounded-md border border-dashed text-sm text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] hover:border-[color:var(--color-ink-500)] transition-colors"
-        style={{ borderColor: "var(--color-line-strong)" }}
+        style={{
+          borderColor: isReplace
+            ? "var(--color-uni-b)"
+            : "var(--color-line-strong)",
+          color: isReplace ? "var(--color-uni-b)" : undefined,
+        }}
       >
         <Plus size={14} strokeWidth={1.5} />
-        Üniversite ekle
+        {isReplace ? replaceLabel : "Üniversite ekle"}
         <ChevronDown
           size={14}
           strokeWidth={1.5}

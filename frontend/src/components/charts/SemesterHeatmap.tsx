@@ -11,6 +11,8 @@
  * İki/üç üniversite YAN YANA — her biri ayrı heatmap.
  */
 
+import { useState } from "react";
+
 import type { HeatmapResponse, HeatmapMatrixCell } from "@/lib/types";
 import { uniColor } from "@/lib/use-selection";
 
@@ -103,7 +105,7 @@ function SingleHeatmap({
         <h3 className="font-serif text-lg leading-none">{series.name}</h3>
       </div>
 
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto relative">
         <table
           className="border-separate"
           style={{ borderSpacing: 2 }}
@@ -112,11 +114,17 @@ function SingleHeatmap({
           <thead>
             <tr>
               <th className="ui-label text-left pr-3 pb-1" />
-              {semesters.map((s) => (
+              {semesters.map((s, i) => (
                 <th
                   key={s}
                   className="ui-label text-center w-9 pb-1"
                   scope="col"
+                  style={
+                    /* Yıl ayırıcı: her 2 dönemde bir 16px gap */
+                    i > 0 && i % 2 === 0
+                      ? { paddingLeft: "14px" }
+                      : undefined
+                  }
                 >
                   {s}
                 </th>
@@ -134,7 +142,7 @@ function SingleHeatmap({
                   >
                     {cat.label.split(" / ")[0]}
                   </th>
-                  {semesters.map((sem) => {
+                  {semesters.map((sem, i) => {
                     const cell: HeatmapMatrixCell = sems?.[sem.toString()] || {
                       zorunlu: 0,
                       secmeli: 0,
@@ -148,6 +156,7 @@ function SingleHeatmap({
                         patternId={patternId}
                         category={cat.label}
                         semester={sem}
+                        yearGap={i > 0 && i % 2 === 0}
                       />
                     );
                   })}
@@ -212,6 +221,7 @@ function Cell({
   patternId,
   category,
   semester,
+  yearGap,
 }: {
   cell: HeatmapMatrixCell;
   baseColor: string;
@@ -219,43 +229,47 @@ function Cell({
   patternId: string;
   category: string;
   semester: number;
+  yearGap?: boolean;
 }) {
+  const [hovered, setHovered] = useState(false);
   const total = cell.zorunlu + cell.secmeli;
+  const tdStyle = yearGap ? { paddingLeft: "14px" } : undefined;
+
   if (total === 0) {
     return (
       <td
-        className="w-9 h-9 rounded-sm"
-        style={{ background: "var(--color-paper-2)" }}
+        className="w-9 h-9 p-0"
+        style={tdStyle}
         aria-label={`${category}, ${semester}. dönem: yok`}
-      />
+      >
+        <div
+          className="w-9 h-9 rounded-sm"
+          style={{ background: "var(--color-paper-2)" }}
+        />
+      </td>
     );
   }
 
   const alpha = cellAlpha(total, maxEcts);
-  const tooltip = [
-    cell.zorunlu > 0 && `${cell.zorunlu} AKTS zorunlu`,
-    cell.secmeli > 0 && `${cell.secmeli} AKTS seçmeli`,
-  ]
-    .filter(Boolean)
-    .join(" · ");
 
   return (
-    <td className="p-0 relative w-9 h-9" title={`${category}, ${semester}. dönem — ${tooltip}`}>
+    <td className="p-0 relative" style={tdStyle}>
       <div
-        className="absolute inset-0 rounded-sm overflow-hidden"
-        style={{ background: "var(--color-paper-2)" }}
+        className="relative w-9 h-9 rounded-sm overflow-hidden cursor-help transition-transform"
+        style={{
+          background: "var(--color-paper-2)",
+          transform: hovered ? "scale(1.06)" : undefined,
+          outline: hovered ? "1px solid var(--color-ink-900)" : undefined,
+        }}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
       >
-        {/* Zorunlu (solid alt katman) */}
         {cell.zorunlu > 0 && (
           <div
             className="absolute inset-0"
-            style={{
-              background: baseColor,
-              opacity: alpha,
-            }}
+            style={{ background: baseColor, opacity: alpha }}
           />
         )}
-        {/* Seçmeli (pattern üst katman) */}
         {cell.secmeli > 0 && (
           <div
             className="absolute inset-0"
@@ -265,11 +279,56 @@ function Cell({
             }}
           />
         )}
-        {/* Sayı */}
         <div className="absolute inset-0 flex items-center justify-center text-[10px] font-mono tabular-nums text-[color:var(--color-ink-900)]">
           {total >= 8 ? total : ""}
         </div>
       </div>
+
+      {hovered && (
+        <CellTooltip
+          category={category}
+          semester={semester}
+          zorunlu={cell.zorunlu}
+          secmeli={cell.secmeli}
+        />
+      )}
     </td>
+  );
+}
+
+/** Custom tooltip — native title yerine. */
+function CellTooltip({
+  category,
+  semester,
+  zorunlu,
+  secmeli,
+}: {
+  category: string;
+  semester: number;
+  zorunlu: number;
+  secmeli: number;
+}) {
+  return (
+    <div
+      role="tooltip"
+      className="absolute left-1/2 -translate-x-1/2 -top-2 -translate-y-full z-20 pointer-events-none"
+    >
+      <div
+        className="bg-[color:var(--color-white-paper)] border rounded shadow-paper px-3 py-2 text-xs whitespace-nowrap"
+        style={{ borderColor: "var(--color-line)" }}
+      >
+        <div className="font-serif italic mb-1">
+          {semester}. dönem · {category}
+        </div>
+        <div className="space-y-0.5 font-mono tabular-nums">
+          {zorunlu > 0 && <div>{zorunlu} AKTS zorunlu</div>}
+          {secmeli > 0 && (
+            <div className="text-[color:var(--color-ink-500)]">
+              {secmeli} AKTS seçmeli
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
   );
 }

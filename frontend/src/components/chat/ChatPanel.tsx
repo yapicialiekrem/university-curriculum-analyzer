@@ -38,6 +38,8 @@ interface AssistantMsg {
   citations: Citation[];
   followUps: string[];
   meta?: ChatResponse["meta"];
+  /** typewriter effect için — false: hâlâ yazılıyor, true: tam göründü */
+  done: boolean;
 }
 interface LoadingMsg {
   role: "loading";
@@ -83,18 +85,46 @@ export function ChatPanel() {
 
       try {
         const resp: ChatResponse = await api.chat(q);
+        // Cevabı önce boş text + done=false ile ekle, sonra typewriter
+        // ile karakter karakter doldur (DASHBOARD_PROMPT "streaming" — gerçek
+        // SSE değil, client-side simülasyon. Token sayısı az, doğal hızda).
         setMessages((m) => {
           const without = m.filter((x) => x.role !== "loading");
           return [
             ...without,
             {
               role: "assistant",
-              text: resp.text,
+              text: "",
               citations: resp.citations || [],
               followUps: resp.follow_up_suggestions || [],
               meta: resp.meta,
+              done: false,
             },
           ];
+        });
+        await typewriter(resp.text, (partial) => {
+          setMessages((m) => {
+            const copy = [...m];
+            for (let i = copy.length - 1; i >= 0; i--) {
+              const x = copy[i];
+              if (x.role === "assistant" && !x.done) {
+                copy[i] = { ...x, text: partial };
+                break;
+              }
+            }
+            return copy;
+          });
+        });
+        setMessages((m) => {
+          const copy = [...m];
+          for (let i = copy.length - 1; i >= 0; i--) {
+            const x = copy[i];
+            if (x.role === "assistant" && !x.done) {
+              copy[i] = { ...x, done: true };
+              break;
+            }
+          }
+          return copy;
         });
         // Overlay tetikle (30s)
         if (resp.dashboard_update) {
@@ -111,6 +141,7 @@ export function ChatPanel() {
                 "Üzgünüm, sistemde bir hata oluştu. Birazdan tekrar deneyebilir misin?",
               citations: [],
               followUps: [],
+              done: true,
             },
           ];
         });
@@ -302,6 +333,7 @@ function MessageBubble({
   }
 
   // assistant
+  const showSupporting = msg.done;
   return (
     <div className="space-y-2">
       <div
@@ -309,10 +341,21 @@ function MessageBubble({
         style={{ borderColor: "var(--color-line)" }}
       >
         <RichText text={msg.text} />
+        {!msg.done && (
+          <span
+            aria-hidden
+            className="inline-block w-[2px] h-[1em] ml-0.5 align-text-bottom bg-[color:var(--color-ink-700)] animate-pulse"
+          />
+        )}
       </div>
 
-      {msg.citations.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 ml-1">
+      {showSupporting && msg.citations.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 4 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+          className="flex flex-wrap gap-1.5 ml-1"
+        >
           {msg.citations.map((c, i) => (
             <a
               key={i}
@@ -325,11 +368,16 @@ function MessageBubble({
               {c.code}
             </a>
           ))}
-        </div>
+        </motion.div>
       )}
 
-      {msg.followUps.length > 0 && (
-        <div className="space-y-1 ml-1 pt-1">
+      {showSupporting && msg.followUps.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 4 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
+          className="space-y-1 ml-1 pt-1"
+        >
           {msg.followUps.map((s) => (
             <button
               key={s}
@@ -339,10 +387,10 @@ function MessageBubble({
               ↳ {s}
             </button>
           ))}
-        </div>
+        </motion.div>
       )}
 
-      {msg.meta && (
+      {showSupporting && msg.meta && (
         <div className="ml-1 text-[10px] font-mono text-[color:var(--color-ink-300)]">
           {msg.meta.intent_type} · {msg.meta.latency_ms}ms · ${msg.meta.llm.cost_usd.toFixed(4)}
         </div>
@@ -372,6 +420,48 @@ function RichText({ text }: { text: string }) {
       })}
     </>
   );
+}
+
+/**
+ * Karakter-karakter typewriter — DASHBOARD_PROMPT "streaming" simülasyonu.
+ * Gerçek SSE yok (backend henüz yok); client-side animation.
+ *
+ * Hız: kısa text için 8ms/char, uzun text için 4ms/char (toplam ~1.5sn cap).
+ * `prefers-reduced-motion` set ise anında tam göster.
+ */
+async function typewriter(
+  text: string,
+  onUpdate: (partial: string) => void
+): Promise<void> {
+  const reduced =
+    typeof window !== "undefined" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduced) {
+    onUpdate(text);
+    return;
+  }
+  const targetTotalMs = Math.min(text.length * 8, 1500);
+  const interval = Math.max(2, Math.floor(targetTotalMs / Math.max(text.length, 1)));
+
+  // <ref>...</ref> tag'ler tek seferde gelsin (yarı-tag göstermesin)
+  const tokens = text.split(/(<ref>.*?<\/ref>)/g).filter(Boolean);
+  let acc = "";
+  for (const token of tokens) {
+    if (token.startsWith("<ref>")) {
+      acc += token;
+      onUpdate(acc);
+      await new Promise((r) => setTimeout(r, interval * 2));
+      continue;
+    }
+    for (const ch of token) {
+      acc += ch;
+      onUpdate(acc);
+      // Karakter atlanan ms — punctuation'da biraz dur
+      const wait = ".,!?".includes(ch) ? interval * 6 : interval;
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
+  onUpdate(text);
 }
 
 function applyOverlay(
