@@ -24,7 +24,14 @@ import { useOverlay } from "@/lib/use-overlay";
 import { useSelection } from "@/lib/use-selection";
 
 export function LayerOne() {
-  const { selection, setDepartment, addUniversity, removeUniversity } = useSelection();
+  const {
+    selection,
+    setDepartment,
+    addUniversity,
+    removeUniversity,
+    replaceUniversity,
+    setSelection,
+  } = useSelection();
   const { overlay } = useOverlay();
   const { a, b, c, slugs, department } = selection;
 
@@ -58,6 +65,8 @@ export function LayerOne() {
             department={department}
             onAdd={addUniversity}
             onRemove={removeUniversity}
+            onReplace={replaceUniversity}
+            onSetSelection={setSelection}
           />
           <DepartmentTabs active={department} onChange={setDepartment} />
         </div>
