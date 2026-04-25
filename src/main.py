@@ -24,6 +24,10 @@ from comparison import ComparisonEngine
 
 # YENİ: AI chat router (ADIM 8)
 from api import chat as chat_router
+# FAZ 2: enrichment-bazlı endpoint'ler (BACKEND_PROMPT v2)
+from api import compare_enriched as compare_enriched_router
+from api import search as search_router
+from api import universities as universities_router
 
 logger = logging.getLogger(__name__)
 
@@ -51,24 +55,48 @@ app.add_middleware(
 engine = ComparisonEngine()
 
 
-# YENİ (ADIM 8): AI chat router
+# Routers
 app.include_router(chat_router.router)
+app.include_router(universities_router.router)        # FAZ 2 — yeniler
+app.include_router(compare_enriched_router.router)
+app.include_router(search_router.router)
 
 
 @app.on_event("startup")
 async def startup():
-    """FAISS semantic searcher'ı warm-up et — ilk /api/chat isteğinin
-    ~2-3 saniye takılmasını önlemek için model + index önceden yüklenir.
+    """Backend hazırlık:
+      1. EnrichmentStore — 51 üni JSON'unu belleğe al (~21 MB).
+      2. FAISS semantic searcher warm-up (model + index preload).
+    Hata durumunda warning loglanır, sürec çalışmaya devam eder.
+    """
+    # 1) EnrichmentStore
+    try:
+        from analytics.loader import get_store
+        store = get_store()
+        s = store.stats()
+        logger.info(
+            "✓ EnrichmentStore: %d üni, %d ders (%d enriched), bilmuh=%d/yazmuh=%d/ybs=%d",
+            s["universities"], s["total_courses"], s["enriched_courses"],
+            s["by_department"].get("bilmuh", 0),
+            s["by_department"].get("yazmuh", 0),
+            s["by_department"].get("ybs", 0),
+        )
+    except Exception as e:
+        logger.warning(
+            "EnrichmentStore yüklenemedi (%s) — /api/compare/{radar,..} "
+            "ve /api/universities başarısız olabilir.", e
+        )
 
-    Başarısızsa (index yoksa) uyarı loglanır; chat endpoint zaten
-    graceful fallback içeriyor."""
+    # 2) FAISS searcher
     try:
         from embeddings.search import get_searcher
         get_searcher()
         logger.info("✓ Semantic searcher warm-up tamam")
     except Exception as e:
-        logger.warning("Semantic searcher warm-up başarısız (%s) — "
-                       "/api/chat yine çalışır ama ilk istek yavaş olur.", e)
+        logger.warning(
+            "Semantic searcher warm-up başarısız (%s) — /api/chat ve "
+            "/api/search yine çalışır ama ilk istek yavaş olur.", e
+        )
 
 
 @app.on_event("shutdown")
@@ -79,10 +107,13 @@ def shutdown():
 # ---------------------------------------------------------------------------
 # Data Endpoints
 # ---------------------------------------------------------------------------
+# Not: GET /api/universities artık api/universities.py router'ından geliyor
+#      (EnrichmentStore tabanlı, daha zengin format). Bu sürüm Neo4j sorgusu;
+#      backward-compat için /api/universities-graph altında tuttum.
 
-@app.get("/api/universities", tags=["Data"])
-def list_universities():
-    """List all universities in the Knowledge Graph."""
+@app.get("/api/universities-graph", tags=["Data — Legacy"])
+def list_universities_graph():
+    """[Legacy] Neo4j Knowledge Graph üzerinden üniversite listesi."""
     return engine.list_universities()
 
 
