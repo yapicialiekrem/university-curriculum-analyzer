@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/* DASHBOARD_PROMPT.md tasarım sistemi — Tailwind 4 @theme directive */
+@theme {
+  /* ─── Renk paleti (editorial, NYT/Pudding hissi) ─── */
+  --color-ink-900: #0f0e0d;
+  --color-ink-700: #2d2a27;
+  --color-ink-500: #6b6560;
+  --color-ink-300: #a8a29e;
+
+  --color-paper: #f6f3ec;
+  --color-paper-2: #efeae0;
+  --color-paper-3: #e5ddce;
+  --color-white-paper: #fdfaf4;
+
+  --color-line: rgba(15, 14, 13, 0.10);
+  --color-line-strong: rgba(15, 14, 13, 0.20);
+
+  /* Üniversite renkleri (max 3) */
+  --color-uni-a: #0f0e0d;       /* ink */
+  --color-uni-b: #b3301c;       /* terracotta */
+  --color-uni-c: #2d6a8a;       /* slate blue */
+
+  /* Anlamlı */
+  --color-ok: #4a7a4e;
+  --color-warn: #b8860b;
+  --color-alert: #a52a2a;
+  --color-info: #2d6a8a;
+
+  /* ─── Tipografi (next/font ile inject edilen CSS değişkenler) ─── */
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-sans:  var(--font-inter-tight), system-ui, sans-serif;
+  --font-mono:  var(--font-plex-mono), "IBM Plex Mono", monospace;
+
+  /* ─── Shadow ─── */
+  --shadow-paper: 0 1px 0 rgba(15, 14, 13, 0.04);
+  --shadow-raised: 0 4px 16px rgba(15, 14, 13, 0.06);
+}
+
+/* Reset & body */
+html {
+  background: var(--color-paper);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink-900);
+  min-height: 100vh;
+}
+
+/* Editorial başlık ailesi */
+h1, h2 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+h1 { font-size: 2.5rem;  letter-spacing: -0.02em; }
+h2 { font-size: 1.75rem; }
+
+h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+/* UI label — küçük, monospace, uppercase */
+.ui-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-500);
+}
+
+/* Selection */
+::selection {
+  background: rgba(179, 48, 28, 0.18);
+  color: var(--color-ink-900);
+}
+
+/* Skeleton (loading) */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-paper-2) 0%,
+    var(--color-paper-3) 50%,
+    var(--color-paper-2) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+  border-radius: 4px;
+}
