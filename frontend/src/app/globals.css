@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-/* DASHBOARD_PROMPT.md tasarım sistemi — Tailwind 4 @theme directive */
+/* DASHBOARD_PROMPT.md + FRONTEND_PROMPT.md tasarım sistemi
+   Tailwind 4 @theme directive */
 @theme {
   /* ─── Renk paleti (editorial, NYT/Pudding hissi) ─── */
   --color-ink-900: #0f0e0d;
@@ -15,6 +16,7 @@
 
   --color-line: rgba(15, 14, 13, 0.10);
   --color-line-strong: rgba(15, 14, 13, 0.20);
+  --color-line-2: rgba(15, 14, 13, 0.06);
 
   /* Üniversite renkleri (max 3) */
   --color-uni-a: #0f0e0d;       /* ink */
@@ -35,6 +37,17 @@
   /* ─── Shadow ─── */
   --shadow-paper: 0 1px 0 rgba(15, 14, 13, 0.04);
   --shadow-raised: 0 4px 16px rgba(15, 14, 13, 0.06);
+  --shadow-modal: 0 24px 48px rgba(15, 14, 13, 0.15);
+
+  /* ─── Animation ─── */
+  --duration-instant: 50ms;
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 600ms;
+  --duration-deliberate: 1200ms;
+  --ease-out: cubic-bezier(0.25, 0.8, 0.25, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.5, 1.5, 0.5, 1);
 }
 
 /* Reset & body */
@@ -99,4 +112,54 @@ h3 {
   background-size: 200% 100%;
   animation: shimmer 1.6s ease-in-out infinite;
   border-radius: 4px;
+}
+
+/* Glow — chat'ten gelen overlay vurgu (FRONTEND_PROMPT) */
+@keyframes overlay-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(179, 48, 28, 0); }
+  50%      { box-shadow: 0 0 0 6px rgba(179, 48, 28, 0.18); }
+}
+.overlay-glow {
+  animation: overlay-pulse 1.6s ease-in-out 3;
+  border-radius: 8px;
+}
+
+/* Focus ring (a11y) — terracotta vurgu */
+:focus-visible {
+  outline: 2px solid var(--color-uni-b);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-uni-b);
+  outline-offset: 2px;
+}
+
+/* Scrollbar — kağıt hissini boz, ama görünmez yapma */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-paper);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-paper-3);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-line-strong);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

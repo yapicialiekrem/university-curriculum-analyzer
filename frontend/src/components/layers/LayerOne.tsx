@@ -20,10 +20,12 @@ import { DepartmentTabs } from "@/components/selectors/DepartmentTabs";
 import { UniversityPicker } from "@/components/selectors/UniversityPicker";
 import { api } from "@/lib/api";
 import type { RadarResponse, UniversitySummary } from "@/lib/types";
+import { useOverlay } from "@/lib/use-overlay";
 import { useSelection } from "@/lib/use-selection";
 
 export function LayerOne() {
   const { selection, setDepartment, addUniversity, removeUniversity } = useSelection();
+  const { overlay } = useOverlay();
   const { a, b, c, slugs, department } = selection;
 
   // Radar verisi
@@ -33,21 +35,24 @@ export function LayerOne() {
     { revalidateOnFocus: false }
   );
 
+  const radarHighlighted = overlay?.show_metric === "category_radar";
+
   return (
-    <section className="px-6 sm:px-10 max-w-[1440px] mx-auto pt-12 pb-16">
-      {/* Üst bar */}
-      <header className="flex flex-col gap-4 mb-10">
+    <section className="px-4 sm:px-6 lg:px-10 max-w-[1440px] mx-auto pt-8 sm:pt-12 pb-16">
+      {/* Üst bar — başlık + seçici */}
+      <header className="flex flex-col gap-6 mb-8 lg:mb-10">
         <div>
-          <h1 className="font-serif text-3xl sm:text-4xl tracking-tighter">
+          <p className="ui-label mb-1">İlk bakışta</p>
+          <h1 className="font-serif text-3xl sm:text-4xl tracking-tighter leading-[1.1]">
             İki müfredatı yan yana oku
           </h1>
-          <p className="mt-2 text-sm italic text-[color:var(--color-ink-500)] max-w-2xl">
-            Türk üniversitelerinin bilgisayar / yazılım mühendisliği / yönetim bilişim
-            sistemleri müfredatlarını 10 eksende, 8 dönemde ve LLM destekli sohbetle
-            karşılaştır.
+          <p className="mt-3 text-sm sm:text-base italic font-serif text-[color:var(--color-ink-500)] max-w-2xl leading-relaxed">
+            Türk üniversitelerinin bilgisayar / yazılım mühendisliği / yönetim
+            bilişim sistemleri müfredatlarını 10 eksende, 8 dönemde ve LLM
+            destekli sohbetle yan yana gör.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
           <UniversityPicker
             selectedSlugs={slugs}
             department={department}
@@ -60,11 +65,22 @@ export function LayerOne() {
 
       {/* Grid: radar (sol) + kartlar (sağ) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
-        <div className="lg:col-span-7 card lg:p-8 flex flex-col">
+        <div
+          id="section-radar"
+          className={`lg:col-span-7 card lg:p-8 flex flex-col${
+            radarHighlighted ? " overlay-glow" : ""
+          }`}
+        >
           <div className="ui-label mb-2">Konu Kapsamı</div>
-          <h2 className="font-serif text-2xl mb-4">10 eksende karşılaştırma</h2>
+          <h2 className="font-serif text-2xl mb-4 tracking-tight">
+            10 eksende kapsam
+          </h2>
           <div className="flex-1 flex items-center justify-center">
-            <CategoryRadar data={radar} loading={radarLoading} />
+            <CategoryRadar
+              data={radar}
+              loading={radarLoading}
+              highlight_axis={overlay?.highlight_category || null}
+            />
           </div>
         </div>
 

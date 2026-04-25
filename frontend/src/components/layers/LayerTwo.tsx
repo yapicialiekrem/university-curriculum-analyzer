@@ -20,6 +20,8 @@ import { OutcomesHeatmap } from "@/components/charts/OutcomesHeatmap";
 import { ResourcesDonut } from "@/components/charts/ResourcesDonut";
 import { SemesterHeatmap } from "@/components/charts/SemesterHeatmap";
 import { StaffBars } from "@/components/charts/StaffBars";
+import { Section } from "@/components/Section";
+import { useOverlay } from "@/lib/use-overlay";
 import { api } from "@/lib/api";
 import type {
   BloomResponse,
@@ -31,30 +33,9 @@ import type {
 } from "@/lib/types";
 import { useSelection } from "@/lib/use-selection";
 
-interface SectionProps {
-  label: string;
-  title: string;
-  caption?: string;
-  children: React.ReactNode;
-}
-
-function Section({ label, title, caption, children }: SectionProps) {
-  return (
-    <section className="card">
-      <div className="ui-label">{label}</div>
-      <h2 className="font-serif text-2xl mb-2">{title}</h2>
-      {caption && (
-        <p className="text-sm italic text-[color:var(--color-ink-500)] mb-6 max-w-2xl">
-          {caption}
-        </p>
-      )}
-      <div className={caption ? "" : "mt-4"}>{children}</div>
-    </section>
-  );
-}
-
 export function LayerTwo() {
   const { selection } = useSelection();
+  const { overlay } = useOverlay();
   const { a, b, c, slugs } = selection;
 
   // Heatmap, coverage, bloom — yeni enrichment endpoint'leri (slug)
@@ -119,17 +100,23 @@ export function LayerTwo() {
       </header>
 
       <Section
+        id="section-2-1"
         label="2.1"
         title="Konu × Dönem Haritası"
-        caption="Hücre boyutu AKTS yoğunluğunu gösterir. Solid = zorunlu, çizgili = seçmeli."
+        caption="Kare büyüklüğü AKTS, dolu = zorunlu, çizgili = seçmeli."
+        delay={0}
+        highlighted={overlay?.show_metric === "semester_heatmap"}
       >
         <SemesterHeatmap data={heatmap} loading={heatmapLoading} />
       </Section>
 
       <Section
+        id="section-2-2"
         label="2.2"
         title="Konu Kapsamı"
-        caption="Her kategoride iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
+        caption="Her konu alanında iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
+        delay={0.05}
+        highlighted={overlay?.show_metric === "coverage_table"}
       >
         <CoverageTable
           data={coverage}
@@ -139,33 +126,44 @@ export function LayerTwo() {
       </Section>
 
       <Section
+        id="section-2-3"
         label="2.3"
         title="Bilişsel Yoğunluk"
-        caption="Bloom taksonomisi seviyelerine ECTS-ağırlıklı dağılım."
+        caption="Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
+        delay={0.1}
+        highlighted={overlay?.show_metric === "bloom_donut" || overlay?.show_metric === "project_heaviness"}
       >
         <BloomDonut data={bloom} loading={bloomLoading} />
       </Section>
 
       <Section
+        id="section-2-4"
         label="2.4"
         title="Program Çıktıları Benzerliği"
-        caption="Mezuniyet çıktılarının semantik (NLP) eşleşmesi."
+        caption="Mezuniyet çıktılarının semantik (NLP) eşleşmesi. Hücreye gel — iki çıktının tam metni alttan açılır."
+        delay={0.15}
       >
         <OutcomesHeatmap data={outcomes} loading={outcomesLoading} />
       </Section>
 
       <Section
+        id="section-2-5"
         label="2.5"
         title="Akademik Kadro"
         caption="Unvan dağılımı — her nokta bir akademisyen."
+        delay={0.2}
+        highlighted={overlay?.show_metric === "staff_bars"}
       >
         <StaffBars data={staff} loading={staffLoading} />
       </Section>
 
       <Section
+        id="section-2-6"
         label="2.6"
         title="Ders Kaynaklarının Dili"
-        caption="Program dilinden bağımsız olarak derslerin kullandığı kaynakların dağılımı."
+        caption="Program dili İngilizce olsa da derslerin kullandığı kaynakların dili değişkenlik gösterebilir."
+        delay={0.25}
+        highlighted={overlay?.show_metric === "resources_donut"}
       >
         <ResourcesDonut summaries={summaries} loading={summaryAB.isLoading} />
       </Section>
