@@ -25,10 +25,10 @@ export function CurriculumCoverageHeatmap({
     return <div className="h-[300px] skeleton rounded" />;
   }
 
-  if (!data.similar_topics?.length) {
+  if (!data.top_similar?.length) {
     return (
       <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
-        Bu iki üniversite arasında yeterince benzer konu çifti bulunamadı.
+        Bu iki üniversite arasında yeterince benzer ders çifti bulunamadı.
       </p>
     );
   }
@@ -37,16 +37,27 @@ export function CurriculumCoverageHeatmap({
     <div className="space-y-3">
       <div className="flex flex-wrap items-baseline gap-3 text-xs">
         <span className="font-mono" style={{ color: uniColor(0) }}>
-          {uniShortName("", data.university1.name)} — {data.university1.total_topics} konu
+          {uniShortName("", data.university1)}
+          {data.unique_to_uni1_count != null
+            ? ` — ${data.unique_to_uni1_count} özgün ders`
+            : ""}
         </span>
         <span className="font-mono" style={{ color: uniColor(1) }}>
-          {uniShortName("", data.university2.name)} — {data.university2.total_topics} konu
+          {uniShortName("", data.university2)}
+          {data.unique_to_uni2_count != null
+            ? ` — ${data.unique_to_uni2_count} özgün ders`
+            : ""}
         </span>
+        {data.matched_courses != null && (
+          <span className="font-mono text-[color:var(--color-ink-500)]">
+            {data.matched_courses} eşleşen ders
+          </span>
+        )}
       </div>
 
       <ul className="space-y-2">
-        {data.similar_topics.map((p, i) => {
-          const pct = Math.round(p.similarity * 100);
+        {data.top_similar.map((p, i) => {
+          const pct = Math.round(p.similarity_pct);
           return (
             <li
               key={i}
@@ -58,9 +69,9 @@ export function CurriculumCoverageHeatmap({
                   className="block font-mono text-[10px]"
                   style={{ color: uniColor(0) }}
                 >
-                  {p.topic1.code}
+                  {p.course1_code}
                 </code>
-                <p className="text-sm leading-tight truncate">{p.topic1.topic}</p>
+                <p className="text-sm leading-tight truncate">{p.course1_name}</p>
               </div>
 
               <div className="flex flex-col items-center w-16">
@@ -72,7 +83,7 @@ export function CurriculumCoverageHeatmap({
                     className="h-full"
                     style={{
                       width: `${pct}%`,
-                      background: `rgba(45,106,138,${0.5 + p.similarity * 0.5})`,
+                      background: `rgba(45,106,138,${0.5 + (p.similarity_pct / 100) * 0.5})`,
                     }}
                   />
                 </div>
@@ -83,9 +94,9 @@ export function CurriculumCoverageHeatmap({
                   className="block font-mono text-[10px]"
                   style={{ color: uniColor(1) }}
                 >
-                  {p.topic2.code}
+                  {p.course2_code}
                 </code>
-                <p className="text-sm leading-tight truncate">{p.topic2.topic}</p>
+                <p className="text-sm leading-tight truncate">{p.course2_name}</p>
               </div>
             </li>
           );
