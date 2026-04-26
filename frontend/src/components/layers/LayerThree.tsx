@@ -133,25 +133,15 @@ export function LayerThree() {
           <h1 className="font-serif text-xl sm:text-2xl tracking-tighter leading-none">
             Derin Analiz
           </h1>
-          <span className="ui-label">Akademisyen Görünümü</span>
         </div>
-        <p className="mt-3 text-sm">
-          <strong>{slugs.length}</strong> üniversite seçili: {selectedNames.join(", ") || "—"}
-        </p>
+        {!needsTwoUnis && (
+          <p className="mt-3 text-sm">
+            <strong>{slugs.length}</strong> üniversite seçili: {selectedNames.join(", ") || "—"}
+          </p>
+        )}
       </header>
 
-      {needsTwoUnis && (
-        <div
-          className="border-l-2 pl-4 py-3 text-sm italic font-serif text-[color:var(--color-ink-700)]"
-          style={{ borderColor: "var(--color-ink-700)" }}
-        >
-          Derin analiz iki üniversite arasında karşılaştırma yapar. Ana
-          sayfadan {isEmpty ? "iki" : "bir tane daha"} üniversite seç.
-          Aşağıdaki ders-ders benzerliği tek başına da çalışır.
-        </div>
-      )}
-
-      {summaryError && (
+      {summaryError && !needsTwoUnis && (
         <div
           className="border-l-2 pl-4 py-3 text-sm italic font-serif text-[color:var(--color-ink-700)]"
           style={{ borderColor: "var(--color-ink-700)" }}
@@ -161,41 +151,54 @@ export function LayerThree() {
         </div>
       )}
 
-      {!needsTwoUnis && (
-        <>
-          <Section
-            label="3.1"
-            title="Haftalık Konu Eşlemesi"
-            caption="İki üniversitenin tüm dersleri arasında semantik (NLP) en benzer konu çiftleri. Üst sıralarda dersin tam karşılığı, alt sıralarda kısmi örtüşme."
-          >
-            <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
-          </Section>
-
-          <Section
-            label="3.2"
-            title="Önkoşul Ağı"
-            caption="Hangi dersin neye bağımlı olduğu — köklerden yukarı doğru. Bir derse tıkla, alt zinciri vurgulanır."
-          >
-            <PrereqGraph data={prereq} loading={prereqLoading} />
-          </Section>
-
-          <Section
-            label="3.3"
-            title="Ortak Ders Kaynakları"
-            caption="İki üniversitede de okutulan kitap, makale ve kaynaklar."
-          >
-            <ResourcesTable data={resources} loading={resourcesLoading} />
-          </Section>
-        </>
-      )}
+      <Section
+        label="3.1"
+        title="Haftalık Konu Eşlemesi"
+        caption="İki üniversitenin tüm dersleri arasında semantik (NLP) en benzer konu çiftleri. Üst sıralarda dersin tam karşılığı, alt sıralarda kısmi örtüşme."
+      >
+        {needsTwoUnis ? (
+          <DeepEmptyHint />
+        ) : (
+          <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
+        )}
+      </Section>
 
       <Section
-        label="3.4"
-        title="Ders-Ders Benzerliği"
-        caption="Embedding tabanlı semantik arama. Tüm 51 üniversite, 8721 ders üzerinde anında çalışır."
+        label="3.2"
+        title="Önkoşul Ağı"
+        caption="Hangi dersin neye bağımlı olduğu — köklerden yukarı doğru. Bir derse tıkla, alt zinciri vurgulanır."
       >
+        {needsTwoUnis ? <DeepEmptyHint /> : <PrereqGraph data={prereq} loading={prereqLoading} />}
+      </Section>
+
+      <Section
+        label="3.3"
+        title="Ortak Ders Kaynakları"
+        caption="İki üniversitede de okutulan kitap, makale ve kaynaklar."
+      >
+        {needsTwoUnis ? (
+          <DeepEmptyHint />
+        ) : (
+          <ResourcesTable data={resources} loading={resourcesLoading} />
+        )}
+      </Section>
+
+      <Section label="3.4" title="Ders Benzerliği">
         <CourseSimilarity />
       </Section>
     </section>
+  );
+}
+
+function DeepEmptyHint() {
+  return (
+    <div
+      className="border border-dashed rounded p-6 text-center"
+      style={{ borderColor: "var(--color-line)" }}
+    >
+      <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] leading-relaxed">
+        Üniversite seç.
+      </p>
+    </div>
   );
 }
