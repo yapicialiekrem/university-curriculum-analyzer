@@ -204,6 +204,13 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
         except Exception as e:
             return {"error": f"dashboard_stats alınamadı: {e}"}
 
+    # Store erişimi — program_outcomes JSON'dan çekilir (deterministic
+    # tek-uni soruları "X'in PO'larını listele" gibi sorguları kapsasın)
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        from src.analytics.loader import get_store  # type: ignore
+    store = get_store()
     per_uni: list[dict] = []
     f = intent.filters
     for r in resolved:
@@ -222,12 +229,18 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
         if f.language:
             filtered = [c for c in filtered if _language_matches(c.get("language"), f.language)]
 
+        uni_doc = store.get(r["slug"]) or {}
+        program_outcomes = uni_doc.get("program_outcomes") or []
+        if not isinstance(program_outcomes, list):
+            program_outcomes = []
+
         per_uni.append({
             "university": r["name"],
             "slug": r["slug"],
             "total_courses": len(courses),
             "filtered_count": len(filtered),
             "sample_filtered": filtered[:MAX_COURSES_PER_UNI],
+            "program_outcomes": program_outcomes,
         })
     return {
         "per_university": per_uni,
@@ -419,11 +432,13 @@ def _build_semantic(intent: Intent) -> dict:
     }
 
 
-def _find_course_in_store(course_code: str) -> Optional[dict]:
+def _find_course_in_store(course_code: str, prefer_uni_slug: Optional[str] = None) -> Optional[dict]:
     """Verilen ders kodunu tüm üniversitelerin courses[] listesinde ara.
 
-    Eşleşme: kod normalize edilir (boşluk + büyük/küçük). İlk eşleşmeyi
-    döndürür — aynı kodun iki uni'de olması nadir; her ikisi farklı içerik.
+    Eşleşme: kod normalize edilir (boşluk + büyük/küçük). prefer_uni_slug
+    verilirse ÖNCE oradan ara (kullanıcı "ODTÜ CENG 213" derse ODTÜ'nün
+    DATA STRUCTURES'ını döndür, İYTE'nin Theory of Computation'ını değil).
+    Aynı kod iki uni'de farklı isimlerle olabiliyor.
     """
     try:
         from analytics.loader import get_store
@@ -434,7 +449,15 @@ def _find_course_in_store(course_code: str) -> Optional[dict]:
             return None
     store = get_store()
     target = course_code.replace(" ", "").upper().strip()
-    for slug in store.list_slugs(department=None):
+    # Tercih edilen üni'yi sona koymaktan önce; ilk olarak onu kontrol et
+    all_slugs = store.list_slugs(department=None)
+    ordered_slugs = []
+    if prefer_uni_slug:
+        pref = prefer_uni_slug.strip().lower()
+        if pref in all_slugs:
+            ordered_slugs.append(pref)
+    ordered_slugs.extend(s for s in all_slugs if s not in ordered_slugs)
+    for slug in ordered_slugs:
         uni = store.get(slug)
         if not uni:
             continue
@@ -492,7 +515,10 @@ def _build_detail(intent: Intent, resolved: list[dict], question: Optional[str] 
             if code_hint:
                 break
     if code_hint:
-        course = _find_course_in_store(code_hint)
+        # Eğer kullanıcı üni belirttiyse onu öncele (örn "ODTÜ CENG 213"
+        # → ODTÜ'nün DATA STRUCTURES'ı, İYTE'nin Theory'i değil)
+        prefer = resolved[0]["slug"] if resolved else None
+        course = _find_course_in_store(code_hint, prefer_uni_slug=prefer)
         if course:
             return {"course": course}
 
@@ -500,15 +526,26 @@ def _build_detail(intent: Intent, resolved: list[dict], question: Optional[str] 
         engine = _get_engine()
         if engine is None:
             return {"error": "Veritabanına bağlanılamadı"}
+        # Store erişimi — program_outcomes JSON'dan çekilir
+        try:
+            from analytics.loader import get_store
+        except ImportError:
+            from src.analytics.loader import get_store  # type: ignore
+        store = get_store()
         out: list[dict] = []
         for r in resolved:
             try:
                 courses = engine.list_courses(r["name"]) or []
+                uni_doc = store.get(r["slug"]) or {}
+                program_outcomes = uni_doc.get("program_outcomes") or []
+                if not isinstance(program_outcomes, list):
+                    program_outcomes = []
                 out.append({
                     "university": r["name"],
                     "slug": r["slug"],
                     "course_count": len(courses),
                     "sample_courses": courses[:MAX_COURSES_PER_UNI],
+                    "program_outcomes": program_outcomes,
                 })
             except Exception as e:
                 out.append({"university": r["name"], "error": str(e)})
