@@ -305,6 +305,11 @@ def _exec_specialization(args: dict) -> dict:
 
 def _exec_topic_search(args: dict) -> dict:
     from .context import _get_searcher
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        from src.analytics.loader import get_store  # type: ignore
+
     searcher = _get_searcher()
     if not searcher:
         return {"error": "FAISS index hazır değil"}
@@ -317,6 +322,23 @@ def _exec_topic_search(args: dict) -> dict:
         university_filter=uni_slugs,
         min_score=0.3,
     )
+    # Search index'inde ects yok — LLM "AKTS bilgisi yok" yanılsamasına
+    # düşmesin diye her sonuca store'dan ects + semester'ı zenginleştir.
+    store = get_store()
+    for r in results:
+        slug = r.get("university_slug")
+        code = r.get("code")
+        if not slug or not code:
+            continue
+        uni = store.get(slug)
+        if not uni:
+            continue
+        for c in uni.get("courses") or []:
+            if (c.get("code") or "").strip() == code.strip():
+                r["ects"] = c.get("ects")
+                if r.get("semester") is None:
+                    r["semester"] = c.get("semester")
+                break
     return {"query": query, "count": len(results), "results": results}
 
 
