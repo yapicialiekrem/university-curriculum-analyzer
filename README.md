@@ -5,8 +5,19 @@
 > okumayı sağlayan editorial dashboard. LLM destekli sohbet, semantik konu
 > arama, Bloom taksonomisi analizi ve önkoşul ağı görselleştirmesi içerir.
 
-51 üniversite × 3 bölüm × 8721 ders, Neo4j knowledge graph üzerinde **11 metrik**
-ile karşılaştırılır. Ön yüz Pudding/NYT tarzı editorial bir Next.js dashboard'u.
+**51 üniversite × 3 bölüm × 8721 ders.** Pipeline: JSON → LLM enrichment →
+FAISS semantic index + Neo4j KG → FastAPI backend → Next.js 16 dashboard +
+hibrit AI asistan (8 intent, 5 tool).
+
+> 📊 **Sunum / juri için detaylı doküman:** [`SUNUM.md`](./SUNUM.md) — pipeline'ın
+> baştan sona anlatımı, dosya yapısı, AI asistan iç işleyişi, demo akışı,
+> ölü kod tespiti.
+>
+> 📚 **Akademik ara rapor:** [`Interim_Report.md`](./Interim_Report.md) — literatür,
+> metodoloji, mimari kararlar.
+>
+> 📋 **Yeni üni veri toplama prompt'u:** [`CLAUDE.md`](./CLAUDE.md) — LLM ile veri
+> toplarken kullanılan şema kuralları.
 
 ---
 
