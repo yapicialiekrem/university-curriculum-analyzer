@@ -117,7 +117,7 @@ export function UniversityPicker({
     : null;
 
   return (
-    <div className="flex flex-wrap items-center gap-3" role="group" aria-label="Seçili üniversiteler">
+    <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Seçili üniversiteler">
       <AnimatePresence mode="popLayout" initial={false}>
         {selectedSlugs.map((slug, idx) => {
           const u = map.get(slug);
@@ -169,21 +169,16 @@ function Chip({
       animate={{ opacity: dimmed ? 0.45 : 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.85 }}
       transition={{ duration: 0.2, ease: [0.25, 0.8, 0.25, 1] }}
-      className="inline-flex items-center gap-2 px-3 h-10 rounded-md border bg-[color:var(--color-paper-2)] text-sm"
+      className="inline-flex items-center gap-1.5 px-2.5 h-9 rounded-md border bg-[color:var(--color-paper-2)] text-sm"
       style={{ borderColor: "var(--color-line)" }}
-      title={slug}
+      title={department ? `${name} — ${department}` : slug}
     >
       <span
         aria-hidden
-        className="w-2.5 h-2.5 rounded-full flex-shrink-0"
+        className="w-2 h-2 rounded-full flex-shrink-0"
         style={{ background: uniColor(slotIndex) }}
       />
       <span className="font-medium leading-none">{name}</span>
-      {department && (
-        <span className="font-mono text-xs text-[color:var(--color-ink-500)] leading-none hidden sm:inline">
-          {department.length > 18 ? department.slice(0, 16) + "…" : department}
-        </span>
-      )}
       <button
         onClick={onRemove}
         className="ml-1 -mr-1 p-1 text-[color:var(--color-ink-300)] hover:text-[color:var(--color-ink-900)] transition-opacity"
@@ -257,7 +252,7 @@ function AddButton({
         }}
         aria-haspopup="listbox"
         aria-expanded={open}
-        className="inline-flex items-center gap-1.5 px-3 h-10 rounded-md border border-dashed text-sm text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] hover:border-[color:var(--color-ink-500)] transition-colors"
+        className="inline-flex items-center gap-1.5 px-2.5 h-9 rounded-md border border-dashed text-sm text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] hover:border-[color:var(--color-ink-500)] transition-colors"
         style={{
           borderColor: isReplace
             ? "var(--color-uni-b)"
