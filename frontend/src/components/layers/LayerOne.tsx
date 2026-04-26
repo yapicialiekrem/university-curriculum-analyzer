@@ -52,9 +52,9 @@ export function LayerOne() {
       <header className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3 mb-3 lg:mb-4">
         <div className="flex items-baseline gap-3">
           <h1 className="font-serif text-xl sm:text-2xl tracking-tighter leading-none">
-            Yan yana
+            İlk Bakışta
           </h1>
-          <span className="ui-label">İlk bakışta</span>
+          <span className="ui-label">Temel Bilgiler</span>
         </div>
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 lg:flex-1 lg:justify-end">
           <UniversityPicker

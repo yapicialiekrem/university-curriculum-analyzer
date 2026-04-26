@@ -27,10 +27,15 @@ export function Footer() {
             müfredat karşılaştırma
           </span>
         </div>
-        <p className="text-[11px] italic font-serif text-[color:var(--color-ink-500)] leading-snug max-w-2xl sm:text-right">
-          Veriler üniversitelerin resmi bölüm/Bologna sayfalarından derlendi.
-          Bazı bilgiler eksik veya güncel olmayabilir.
-        </p>
+        <div className="sm:text-right max-w-2xl space-y-1">
+          <p className="text-[11px] italic font-serif text-[color:var(--color-ink-500)] leading-snug">
+            Veriler üniversitelerin resmi bölüm/Bologna sayfalarından derlendi.
+            Bazı bilgiler eksik veya güncel olmayabilir.
+          </p>
+          <p className="text-[11px] font-mono text-[color:var(--color-ink-500)] leading-snug">
+            © 2026 UniCurriculum. Tüm hakları saklıdır.
+          </p>
+        </div>
       </div>
     </footer>
   );

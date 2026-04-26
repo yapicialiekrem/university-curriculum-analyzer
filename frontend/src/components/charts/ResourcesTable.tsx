@@ -48,33 +48,58 @@ export function ResourcesTable({ data, loading }: ResourcesTableProps) {
               className="border-b ui-label"
               style={{ borderColor: "var(--color-line)" }}
             >
-              <th className="py-2 pr-4">Kaynak</th>
-              <th className="py-2 px-2 text-center" style={{ color: uniColor(0) }}>
+              <th className="py-2 pr-3 w-[40%]" style={{ color: uniColor(0) }}>
                 {uniShortName("", data.university1.name)}
               </th>
-              <th className="py-2 px-2 text-center" style={{ color: uniColor(1) }}>
+              <th className="py-2 pr-3 w-[40%]" style={{ color: uniColor(1) }}>
                 {uniShortName("", data.university2.name)}
               </th>
+              <th className="py-2 pr-2 text-right">Eşleşen</th>
             </tr>
           </thead>
           <tbody>
-            {data.shared_resources.map((r, i) => (
-              <tr
-                key={i}
-                className="border-b last:border-0 hover:bg-[color:var(--color-paper-2)] transition-colors"
-                style={{ borderColor: "var(--color-line)" }}
-              >
-                <td className="py-2 pr-4 italic font-serif text-[color:var(--color-ink-700)]">
-                  {r.resource}
-                </td>
-                <td className="py-2 px-2 text-center font-mono text-xs text-[color:var(--color-ink-500)]">
-                  {r.uni1_courses.length > 0 ? r.uni1_courses.join(", ") : "—"}
-                </td>
-                <td className="py-2 px-2 text-center font-mono text-xs text-[color:var(--color-ink-500)]">
-                  {r.uni2_courses.length > 0 ? r.uni2_courses.join(", ") : "—"}
-                </td>
-              </tr>
-            ))}
+            {data.shared_resources.map((r, i) => {
+              const courses1 = r.courses_uni1 ?? [];
+              const courses2 = r.courses_uni2 ?? [];
+              return (
+                <tr
+                  key={i}
+                  className="border-b last:border-0 align-top hover:bg-[color:var(--color-paper-2)] transition-colors"
+                  style={{ borderColor: "var(--color-line)" }}
+                >
+                  <td className="py-2 pr-3">
+                    <div className="italic font-serif text-[color:var(--color-ink-700)] leading-snug">
+                      {r.resource_uni1 || "—"}
+                    </div>
+                    {courses1.length > 0 && (
+                      <div className="font-mono text-[10px] text-[color:var(--color-ink-500)] mt-1">
+                        {courses1.join(", ")}
+                      </div>
+                    )}
+                  </td>
+                  <td className="py-2 pr-3">
+                    <div className="italic font-serif text-[color:var(--color-ink-700)] leading-snug">
+                      {r.resource_uni2 || "—"}
+                    </div>
+                    {courses2.length > 0 && (
+                      <div className="font-mono text-[10px] text-[color:var(--color-ink-500)] mt-1">
+                        {courses2.join(", ")}
+                      </div>
+                    )}
+                  </td>
+                  <td className="py-2 pr-2 text-right font-mono text-xs text-[color:var(--color-ink-500)] whitespace-nowrap">
+                    {r.matching_keywords?.length
+                      ? r.matching_keywords.slice(0, 2).join(", ")
+                      : ""}
+                    {r.overlap_score != null && (
+                      <div className="text-[10px] mt-0.5">
+                        %{Math.round(r.overlap_score)}
+                      </div>
+                    )}
+                  </td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
