@@ -24,6 +24,56 @@ IntentType = Literal[
     "detail",          # tek ders / üniversite detayı
     "general",         # sistem hakkında genel
     "advisory",        # tavsiye / yönlendirme — kullanıcı profili + hedef
+    "aggregate",       # tüm üniversiteler arasında "en çok / en az / sıralama"
+]
+
+
+# Aggregate intent için metrik anahtarları — context builder bunlara bakıp
+# enrichment store'dan değer çeker. Her metrik tek sayıdır per üniversite.
+AggregateMetric = Literal[
+    # Akademik kadro
+    "staff.professor",
+    "staff.associate_professor",
+    "staff.assistant_professor",
+    "staff.lecturer",
+    "staff.research_assistant",
+    "staff.total",
+    # Müfredat genel
+    "summary.total_courses",
+    "summary.modernity_score",
+    "summary.english_resources_ratio",
+    "summary.project_heavy_course_count",
+    "summary.total_project_ects",
+    # Uzmanlaşma — hedef kategori AKTS / ders sayısı
+    "spec.ai_ml.ects",
+    "spec.ai_ml.courses",
+    "spec.programming.ects",
+    "spec.programming.courses",
+    "spec.math.ects",
+    "spec.math.courses",
+    "spec.systems.ects",
+    "spec.systems.courses",
+    "spec.theory.ects",
+    "spec.theory.courses",
+    "spec.data_science.ects",
+    "spec.data_science.courses",
+    "spec.security.ects",
+    "spec.security.courses",
+    "spec.web_mobile.ects",
+    "spec.web_mobile.courses",
+    "spec.software_eng.ects",
+    "spec.software_eng.courses",
+    "spec.graphics_vision.ects",
+    "spec.graphics_vision.courses",
+    "spec.distributed.ects",
+    "spec.distributed.courses",
+    "spec.info_systems.ects",
+    "spec.info_systems.courses",
+    # YKS sıralama (en düşük sıra = en seçici)
+    "ranking.basari_sirasi",
+    "ranking.yerlesen_sayisi",
+    # Önkoşul yoğunluğu
+    "courses_with_prereqs",
 ]
 
 
@@ -77,6 +127,12 @@ class Intent(BaseModel):
     # boş kalır; router prompt'undan gelir veya ChatRequest'ten override edilir.
     goal_categories: list[GoalCategoryKey] = Field(default_factory=list)
     user_rank: Optional[int] = Field(None, ge=1, le=2_000_000)
+    # Aggregate intent — "en çok prof olan üni", "en yüksek AKTS'li ders" gibi
+    # cross-üniversite sıralama soruları için.
+    aggregate_metric: Optional[AggregateMetric] = None
+    aggregate_order: Literal["desc", "asc"] = "desc"
+    aggregate_top_n: int = Field(5, ge=1, le=20)
+    aggregate_department: Optional[Literal["bilmuh", "yazmuh", "ybs"]] = None
 
     @field_validator("universities", mode="before")
     @classmethod
