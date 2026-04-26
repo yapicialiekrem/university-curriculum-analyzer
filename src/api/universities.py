@@ -17,6 +17,7 @@ from fastapi import APIRouter, HTTPException, Query
 
 # Mevcut flat-import örüntüsü (main.py `from comparison import ...` gibi)
 from analytics.loader import VALID_DEPARTMENTS, get_store
+from api.ranking import get_ranking
 
 
 router = APIRouter(prefix="/api/universities", tags=["Universities"])
@@ -30,10 +31,20 @@ def _name(uni: dict) -> str:
     return uni.get("university_name") or uni.get("uni_name") or uni.get("_slug", "")
 
 
+def _ranking_view(slug: str, uni: dict) -> dict | None:
+    """Üniversitenin YKS sıralama + kontenjanını döndür (yoksa None)."""
+    return get_ranking(
+        slug=slug,
+        department=uni.get("_department"),
+        university_name=_name(uni),
+    )
+
+
 def _short_view(slug: str, uni: dict) -> dict:
     """Liste endpoint'i için kısa kart verisi."""
     summary = uni.get("_summary") or {}
     courses = uni.get("courses") or []
+    ranking = _ranking_view(slug, uni)
     return {
         "slug": slug,
         "name": _name(uni),
@@ -45,6 +56,8 @@ def _short_view(slug: str, uni: dict) -> dict:
         "total_courses": summary.get("total_courses", len(courses)),
         "enriched_courses": summary.get("enriched_courses", 0),
         "modernity_score": summary.get("modernity_score"),
+        "ranking_sira": ranking["basari_sirasi"] if ranking else None,
+        "ranking_kontenjan": ranking["yerlesen_sayisi"] if ranking else None,
     }
 
 
@@ -121,6 +134,7 @@ def get_summary(slug: str) -> dict:
                 "ile üretebilirsin."
             ),
         )
+    ranking = _ranking_view(slug, uni)
     return {
         "slug": slug,
         "name": _name(uni),
@@ -128,5 +142,7 @@ def get_summary(slug: str) -> dict:
         "department_code": uni.get("_department"),
         "language": uni.get("language"),
         "type": uni.get("type"),
+        "ranking_sira": ranking["basari_sirasi"] if ranking else None,
+        "ranking_kontenjan": ranking["yerlesen_sayisi"] if ranking else None,
         **summary,
     }

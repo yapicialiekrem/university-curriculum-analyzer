@@ -1,0 +1,302 @@
+[
+  {
+    "isim": "KOÇ ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "15",
+    "basari_sirasi": "113"
+  },
+  {
+    "isim": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "37",
+    "basari_sirasi": "299"
+  },
+  {
+    "isim": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "108",
+    "basari_sirasi": "1.204"
+  },
+  {
+    "isim": "İSTANBUL TEKNİK ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "103",
+    "basari_sirasi": "1.435"
+  },
+  {
+    "isim": "BOĞAZİÇİ ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "75",
+    "basari_sirasi": "1.448"
+  },
+  {
+    "isim": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ(Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "13",
+    "basari_sirasi": "2.225"
+  },
+  {
+    "isim": "ÖZYEĞİN ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "9",
+    "basari_sirasi": "2.615"
+  },
+  {
+    "isim": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ(İngilizce) (%50 İndirimli) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "34",
+    "basari_sirasi": "5.731"
+  },
+  {
+    "isim": "HACETTEPE ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "116",
+    "basari_sirasi": "5.923"
+  },
+  {
+    "isim": "GALATASARAY ÜNİVERSİTESİ(Fransızca) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "29",
+    "basari_sirasi": "7.113"
+  },
+  {
+    "isim": "YILDIZ TEKNİK ÜNİVERSİTESİ (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "100",
+    "basari_sirasi": "7.395"
+  },
+  {
+    "isim": "TÜRK-ALMAN ÜNİVERSİTESİ(Almanca) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "54",
+    "basari_sirasi": "12.073"
+  },
+  {
+    "isim": "YEDİTEPE ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "14",
+    "basari_sirasi": "12.408"
+  },
+  {
+    "isim": "KOÇ ÜNİVERSİTESİ(İngilizce) (%50 İndirimli) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "20",
+    "basari_sirasi": "14.086"
+  },
+  {
+    "isim": "BAHÇEŞEHİR ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "14",
+    "basari_sirasi": "14.967"
+  },
+  {
+    "isim": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "95",
+    "basari_sirasi": "15.791"
+  },
+  {
+    "isim": "İSTANBUL TEKNİK ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "5",
+    "basari_sirasi": "16.525"
+  },
+  {
+    "isim": "MARMARA ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "85",
+    "basari_sirasi": "18.272"
+  },
+  {
+    "isim": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ(%50 İndirimli) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "25",
+    "basari_sirasi": "18.504"
+  },
+  {
+    "isim": "ANKARA ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "80",
+    "basari_sirasi": "19.192"
+  },
+  {
+    "isim": "GEBZE TEKNİK ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "94",
+    "basari_sirasi": "22.294"
+  },
+  {
+    "isim": "TED ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "12",
+    "basari_sirasi": "23.985"
+  },
+  {
+    "isim": "İSTANBUL ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "34",
+    "basari_sirasi": "25.286"
+  },
+  {
+    "isim": "BAŞKENT ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "7",
+    "basari_sirasi": "25.461"
+  },
+  {
+    "isim": "TÜRK-ALMAN ÜNİVERSİTESİ(Almanca) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "10",
+    "basari_sirasi": "26.797"
+  },
+  {
+    "isim": "EGE ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "120",
+    "basari_sirasi": "29.487"
+  },
+  {
+    "isim": "İZMİR EKONOMİ ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "11",
+    "basari_sirasi": "29.827"
+  },
+  {
+    "isim": "İSTANBUL MEDİPOL ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "9",
+    "basari_sirasi": "29.897"
+  },
+  {
+    "isim": "GAZİ ÜNİVERSİTESİ (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "94",
+    "basari_sirasi": "30.452"
+  },
+  {
+    "isim": "KADİR HAS ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "11",
+    "basari_sirasi": "32.420"
+  },
+  {
+    "isim": "MEF ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "11",
+    "basari_sirasi": "34.636"
+  },
+  {
+    "isim": "ANKARA ÜNİVERSİTESİ (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "85",
+    "basari_sirasi": "34.690"
+  },
+  {
+    "isim": "DOKUZ EYLÜL ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "95",
+    "basari_sirasi": "36.435"
+  },
+  {
+    "isim": "ÇANKAYA ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "12",
+    "basari_sirasi": "37.692"
+  },
+  {
+    "isim": "MARMARA ÜNİVERSİTESİ (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "65",
+    "basari_sirasi": "38.402"
+  },
+  {
+    "isim": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "95",
+    "basari_sirasi": "39.003"
+  },
+  {
+    "isim": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "95",
+    "basari_sirasi": "41.051"
+  },
+  {
+    "isim": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "8",
+    "basari_sirasi": "41.119"
+  },
+  {
+    "isim": "ANKARA MEDİPOL ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "10",
+    "basari_sirasi": "41.895"
+  },
+  {
+    "isim": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "85",
+    "basari_sirasi": "42.108"
+  },
+  {
+    "isim": "GAZİ ÜNİVERSİTESİ (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "69",
+    "basari_sirasi": "43.450"
+  },
+  {
+    "isim": "BAŞKENT ÜNİVERSİTESİ(Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "12",
+    "basari_sirasi": "43.986"
+  },
+  {
+    "isim": "AKDENİZ ÜNİVERSİTESİ(İngilizce) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "79",
+    "basari_sirasi": "44.369"
+  },
+  {
+    "isim": "İSTANBUL BİLGİ ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "15",
+    "basari_sirasi": "46.655"
+  },
+  {
+    "isim": "OSTİM TEKNİK ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "11",
+    "basari_sirasi": "46.792"
+  },
+  {
+    "isim": "ATILIM ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "8",
+    "basari_sirasi": "47.084"
+  },
+  {
+    "isim": "YAŞAR ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "13",
+    "basari_sirasi": "48.725"
+  },
+  {
+    "isim": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "105",
+    "basari_sirasi": "48.904"
+  },
+  {
+    "isim": "İSTANBUL TEKNİK ÜNİVERSİTESİ(İngilizce) (UOLP-Uluslararası Saraybosna Üniversitesi) (Ücretli) (4 Yıllık)",
+    "tur": "Devlet",
+    "yerlesen_sayisi": "7",
+    "basari_sirasi": "49.007"
+  },
+  {
+    "isim": "TÜRK HAVA KURUMU ÜNİVERSİTESİ(İngilizce) (Burslu) (4 Yıllık)",
+    "tur": "Vakıf",
+    "yerlesen_sayisi": "9",
+    "basari_sirasi": "49.338"
+  }
+]

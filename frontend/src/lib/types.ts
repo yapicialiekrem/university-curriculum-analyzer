@@ -72,6 +72,10 @@ export interface UniversitySummary {
   project_heavy_course_count: number;
   total_project_ects: number;
   english_resources_ratio: number;
+  /** YKS başarı sırası (en iyi program). Yoksa null. */
+  ranking_sira: number | null;
+  /** YKS yerleşen sayısı (kontenjan dolumu, en iyi program için). Yoksa null. */
+  ranking_kontenjan: number | null;
 }
 
 // ─── /api/compare/radar ─────────────────────────────────────────────
