@@ -122,7 +122,7 @@ export function UniversityCard({
               value={summary.ranking_sira.toLocaleString("tr-TR")}
               hover={
                 <>
-                  <strong>YKS son kayıtlı kişinin sıralaması</strong>
+                  <strong>Son kayıtlı kişinin YKS sıralaması</strong>
                   <br />
                   {summary.ranking_sira.toLocaleString("tr-TR")}
                 </>

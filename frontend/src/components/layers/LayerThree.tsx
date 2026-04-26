@@ -35,15 +35,16 @@ import { useSelection } from "@/lib/use-selection";
 
 export function LayerThree() {
   const { selection } = useSelection();
-  const { a, b, slugs } = selection;
+  const { a, b, slugs, isEmpty } = selection;
+  const needsTwoUnis = slugs.length < 2;
 
   // Slug → uni adı (Neo4j endpoint'leri uni adı bekler)
   const summaryAB = useSWR<UniversitySummary[]>(
-    ["summaries-deep", a, b],
+    !isEmpty && a && b ? ["summaries-deep", a, b] : null,
     async () => {
       const all = await Promise.all([
-        api.universitySummary(a),
-        api.universitySummary(b),
+        api.universitySummary(a as string),
+        api.universitySummary(b as string),
       ]);
       return all;
     },
@@ -89,9 +90,20 @@ export function LayerThree() {
           state korunur.
         </p>
         <p className="mt-3 text-sm">
-          <strong>{slugs.length}</strong> üniversite seçili: {slugs.join(", ")}
+          <strong>{slugs.length}</strong> üniversite seçili: {slugs.join(", ") || "—"}
         </p>
       </header>
+
+      {needsTwoUnis && (
+        <div
+          className="border-l-2 pl-4 py-3 text-sm italic font-serif text-[color:var(--color-ink-700)]"
+          style={{ borderColor: "var(--color-ink-700)" }}
+        >
+          Derin analiz iki üniversite arasında karşılaştırma yapar. Ana
+          sayfadan {isEmpty ? "iki" : "bir tane daha"} üniversite seç.
+          Aşağıdaki ders-ders benzerliği tek başına da çalışır.
+        </div>
+      )}
 
       {summaryError && (
         <div
@@ -103,29 +115,33 @@ export function LayerThree() {
         </div>
       )}
 
-      <Section
-        label="3.1"
-        title="Haftalık Konu Eşlemesi"
-        caption="İki üniversitenin tüm dersleri arasında semantik (NLP) en benzer konu çiftleri. Üst sıralarda dersin tam karşılığı, alt sıralarda kısmi örtüşme."
-      >
-        <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
-      </Section>
+      {!needsTwoUnis && (
+        <>
+          <Section
+            label="3.1"
+            title="Haftalık Konu Eşlemesi"
+            caption="İki üniversitenin tüm dersleri arasında semantik (NLP) en benzer konu çiftleri. Üst sıralarda dersin tam karşılığı, alt sıralarda kısmi örtüşme."
+          >
+            <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
+          </Section>
 
-      <Section
-        label="3.2"
-        title="Önkoşul Ağı"
-        caption="Hangi dersin neye bağımlı olduğu — köklerden yukarı doğru. Bir derse tıkla, alt zinciri vurgulanır."
-      >
-        <PrereqGraph data={prereq} loading={prereqLoading} />
-      </Section>
+          <Section
+            label="3.2"
+            title="Önkoşul Ağı"
+            caption="Hangi dersin neye bağımlı olduğu — köklerden yukarı doğru. Bir derse tıkla, alt zinciri vurgulanır."
+          >
+            <PrereqGraph data={prereq} loading={prereqLoading} />
+          </Section>
 
-      <Section
-        label="3.3"
-        title="Ortak Ders Kaynakları"
-        caption="İki üniversitede de okutulan kitap, makale ve kaynaklar."
-      >
-        <ResourcesTable data={resources} loading={resourcesLoading} />
-      </Section>
+          <Section
+            label="3.3"
+            title="Ortak Ders Kaynakları"
+            caption="İki üniversitede de okutulan kitap, makale ve kaynaklar."
+          >
+            <ResourcesTable data={resources} loading={resourcesLoading} />
+          </Section>
+        </>
+      )}
 
       <Section
         label="3.4"
