@@ -59,9 +59,13 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
   }
 
   return (
-    <div className="w-full max-w-[480px] mx-auto" data-testid="category-radar">
+    <div className="w-full max-w-[560px] mx-auto" data-testid="category-radar">
       <ResponsiveContainer width="100%" aspect={1}>
-        <RadarChart data={chartData} outerRadius="78%">
+        <RadarChart
+          data={chartData}
+          outerRadius="62%"
+          margin={{ top: 28, right: 80, bottom: 28, left: 80 }}
+        >
           <defs>
             {/* Pattern fills (renk körü için) */}
             <pattern id="pat-a" patternUnits="userSpaceOnUse" width="6" height="6">
@@ -83,10 +87,21 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
             </pattern>
           </defs>
 
+          {/* İç hafif halkalar (25/50/75) */}
           <PolarGrid
-            stroke="rgba(15,14,13,0.08)"
+            stroke="rgba(15,14,13,0.10)"
+            strokeWidth={1}
             radialLines={false}
             polarRadius={[25, 50, 75]}
+            gridType="polygon"
+          />
+          {/* Dış belirgin çevre çokgeni (100) — referans çerçevesi */}
+          <PolarGrid
+            stroke="rgba(15,14,13,0.32)"
+            strokeWidth={1.25}
+            radialLines={true}
+            polarRadius={[100]}
+            gridType="polygon"
           />
           <PolarAngleAxis
             dataKey="axis"
@@ -96,7 +111,8 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
               fontFamily: "var(--font-serif)",
               fontStyle: "italic",
             }}
-            tickSize={14}
+            tickSize={16}
+            tickFormatter={shortenAxisLabel}
           />
           <Tooltip content={<RadarTooltip data={data} />} />
 
@@ -106,15 +122,21 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
               name={s.name}
               dataKey={s.slug}
               stroke={uniColor(idx)}
-              strokeWidth={2}
+              strokeWidth={2.25}
               strokeDasharray={idx === 1 ? "4 2" : undefined}
               fill={`url(#pat-${["a", "b", "c"][idx]})`}
               fillOpacity={0.6}
               dot={{
-                r: 3,
+                r: 5,
                 fill: uniColor(idx),
                 stroke: "var(--color-white-paper)",
-                strokeWidth: 1.5,
+                strokeWidth: 2,
+              }}
+              activeDot={{
+                r: 7,
+                fill: uniColor(idx),
+                stroke: "var(--color-white-paper)",
+                strokeWidth: 2.5,
               }}
               isAnimationActive
               animationDuration={600}
@@ -136,6 +158,19 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
       )}
     </div>
   );
+}
+
+/**
+ * Uzun eksen etiketlerini kısalt — radar kenarlarına sığsın diye.
+ * "/" varsa ilk parçayı, "Mühendisliği" varsa "Müh." kısaltmasını kullanır.
+ */
+function shortenAxisLabel(value: string): string {
+  if (!value || value.length < 14) return value;
+  if (value.includes("/")) {
+    const first = value.split("/")[0].trim();
+    if (first.length >= 4) return first.replace("Mühendisliği", "Müh.");
+  }
+  return value.replace("Mühendisliği", "Müh.");
 }
 
 /**

@@ -4,9 +4,13 @@
  * SemesterHeatmap — Dashboard Bileşen 2.1.
  *
  * 8 dönem × 10 kategori matris. Her hücrede:
- *   - boyut/dolgu = AKTS yoğunluğu
- *   - solid = zorunlu
- *   - çizgili = seçmeli (SVG pattern)
+ *   - dolgu = AKTS yoğunluğu (alpha)
+ *   - solid = zorunlu, çizgili = seçmeli (SVG pattern)
+ *
+ * Tasarım kararı: TEK RENK (slate blue / info) tüm üniversiteler için.
+ * Renk üniversiteyi değil, yoğunluğu temsil eder. Üniversite ayrımı kart
+ * başlığındaki accent nokta ile sağlanır. Bu sayede ink (siyah) hücrede
+ * sayıların okunmaması sorunu kalkar.
  *
  * İki/üç üniversite YAN YANA — her biri ayrı heatmap.
  */
@@ -20,6 +24,10 @@ export interface SemesterHeatmapProps {
   data: HeatmapResponse | undefined;
   loading?: boolean;
 }
+
+// Tüm hücreler için tek tip renk — slate blue (#2d6a8a). Outcomes tablosu
+// ile aynı palet → dashboard içinde tutarlılık.
+const HEAT_RGB = "45, 106, 138";
 
 export function SemesterHeatmap({ data, loading }: SemesterHeatmapProps) {
   if (loading || !data) {
@@ -36,7 +44,6 @@ export function SemesterHeatmap({ data, loading }: SemesterHeatmapProps) {
     );
   }
 
-  // Tüm hücrelerin max ECTS'ini bul (renk yoğunluğu için, üni başına ayrı)
   return (
     <div
       className={`grid gap-6 ${
@@ -61,11 +68,10 @@ export function SemesterHeatmap({ data, loading }: SemesterHeatmapProps) {
 }
 
 function cellAlpha(ects: number, max: number): number {
-  if (ects <= 0) return 0;
-  if (max <= 0) return 0;
-  // 0 → 0, max → 1 lineer, AMA min görünürlük 0.15
+  if (ects <= 0 || max <= 0) return 0;
   const ratio = Math.min(ects / max, 1);
-  return 0.15 + ratio * 0.85;
+  // 0.10 minimum görünürlük → 0.85 maksimum (sayı her zaman okunsun)
+  return 0.10 + ratio * 0.75;
 }
 
 function SingleHeatmap({
@@ -79,9 +85,10 @@ function SingleHeatmap({
   semesters: number[];
   slotIndex: number;
 }) {
-  const baseColor = uniColor(slotIndex);
+  // Üniversite ayrımı sadece başlık dot'unda — heatmap renkleri tek tip
+  const accentDotColor = uniColor(slotIndex);
 
-  // Her dönem için bu üniversitenin max ECTS'i (renk normalize için)
+  // Bu üni'nin max ECTS'i — alpha normalize için
   let maxEcts = 0;
   for (const cat of categories) {
     const sems = series.matrix[cat.key];
@@ -100,7 +107,7 @@ function SingleHeatmap({
         <span
           aria-hidden
           className="w-2.5 h-2.5 rounded-full inline-block"
-          style={{ background: baseColor }}
+          style={{ background: accentDotColor }}
         />
         <h3 className="font-serif text-lg leading-none">{series.name}</h3>
       </div>
@@ -120,7 +127,6 @@ function SingleHeatmap({
                   className="ui-label text-center w-9 pb-1"
                   scope="col"
                   style={
-                    /* Yıl ayırıcı: her 2 dönemde bir 16px gap */
                     i > 0 && i % 2 === 0
                       ? { paddingLeft: "14px" }
                       : undefined
@@ -151,7 +157,6 @@ function SingleHeatmap({
                       <Cell
                         key={sem}
                         cell={cell}
-                        baseColor={baseColor}
                         maxEcts={maxEcts}
                         patternId={patternId}
                         category={cat.label}
@@ -166,7 +171,7 @@ function SingleHeatmap({
           </tbody>
         </table>
 
-        {/* SVG pattern (zorunlu solid, seçmeli çizgili) — bir kere tanımla */}
+        {/* SVG pattern (seçmeli için çizgili dolgu) */}
         <svg width="0" height="0" className="absolute">
           <defs>
             <pattern
@@ -176,13 +181,13 @@ function SingleHeatmap({
               height="6"
               patternTransform="rotate(45)"
             >
-              <rect width="6" height="6" fill={baseColor} fillOpacity="0.15" />
+              <rect width="6" height="6" fill={`rgb(${HEAT_RGB})`} fillOpacity="0.18" />
               <line
                 x1="0"
                 y1="0"
                 x2="0"
                 y2="6"
-                stroke={baseColor}
+                stroke={`rgb(${HEAT_RGB})`}
                 strokeWidth="1.5"
               />
             </pattern>
@@ -195,7 +200,7 @@ function SingleHeatmap({
         <span className="flex items-center gap-1.5">
           <span
             className="w-3 h-3 rounded-sm"
-            style={{ background: baseColor, opacity: 0.6 }}
+            style={{ background: `rgba(${HEAT_RGB}, 0.6)` }}
           />
           Zorunlu
         </span>
@@ -203,8 +208,8 @@ function SingleHeatmap({
           <span
             className="w-3 h-3 rounded-sm"
             style={{
-              background: `repeating-linear-gradient(45deg, ${baseColor}55, ${baseColor}55 2px, transparent 2px, transparent 4px)`,
-              border: `1px solid ${baseColor}55`,
+              background: `repeating-linear-gradient(45deg, rgba(${HEAT_RGB},0.55), rgba(${HEAT_RGB},0.55) 2px, transparent 2px, transparent 4px)`,
+              border: `1px solid rgba(${HEAT_RGB},0.4)`,
             }}
           />
           Seçmeli
@@ -216,7 +221,6 @@ function SingleHeatmap({
 
 function Cell({
   cell,
-  baseColor,
   maxEcts,
   patternId,
   category,
@@ -224,7 +228,6 @@ function Cell({
   yearGap,
 }: {
   cell: HeatmapMatrixCell;
-  baseColor: string;
   maxEcts: number;
   patternId: string;
   category: string;
@@ -267,7 +270,7 @@ function Cell({
         {cell.zorunlu > 0 && (
           <div
             className="absolute inset-0"
-            style={{ background: baseColor, opacity: alpha }}
+            style={{ background: `rgba(${HEAT_RGB}, ${alpha})` }}
           />
         )}
         {cell.secmeli > 0 && (

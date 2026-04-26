@@ -92,6 +92,7 @@ ORDER BY c.year, c.semester, c.code
 QUERY_PROGRAM_OUTCOMES = """
 MATCH (u:University {name: $university_name})-[:HAS_FACULTY]->()-[:HAS_DEPARTMENT]->(d)-[:HAS_PROGRAM_OUTCOME]->(po:ProgramOutcome)
 WHERE po.embedding IS NOT NULL
+  AND ($dept_keyword IS NULL OR toLower(d.name) CONTAINS toLower($dept_keyword))
 RETURN po.text AS text, po.embedding AS embedding, po.index AS index
 ORDER BY po.index
 """
@@ -301,18 +302,48 @@ class ComparisonEngine:
         university1: str,
         university2: str,
         top_n: int = 10,
+        department: Optional[str] = None,
     ) -> dict:
         """Compare program outcomes semantically between two departments.
 
-        Returns overall similarity score and top matching outcome pairs.
+        Returns overall similarity score, top matching outcome pairs ve
+        TÜM program çıktısı metinleri (frontend her hücre için tam metin
+        gösterebilsin).
+
+        Args:
+            department: Departman kodu ('bilmuh' / 'yazmuh' / 'ybs'). Tanımlıysa
+                Cypher Department.name'ine göre filter uygulanır — aynı üniversite
+                altında çoklu programdan yanlış birleştirme yaşanmaz (örn.
+                İzmir Ekonomi'nin BilMüh + YazMüh program çıktıları artık
+                karışmıyor).
         """
+        # Department code → Department.name keyword
+        dept_map = {
+            "bilmuh": "Bilgisayar",
+            "yazmuh": "Yazılım",
+            "ybs": "Yönetim Bilişim",
+        }
+        dept_keyword = dept_map.get(department) if department else None
+
         with self.driver.session() as session:
             po1 = session.run(
-                QUERY_PROGRAM_OUTCOMES, university_name=university1
+                QUERY_PROGRAM_OUTCOMES,
+                university_name=university1,
+                dept_keyword=dept_keyword,
             ).data()
             po2 = session.run(
-                QUERY_PROGRAM_OUTCOMES, university_name=university2
+                QUERY_PROGRAM_OUTCOMES,
+                university_name=university2,
+                dept_keyword=dept_keyword,
             ).data()
+
+        # Tüm metinler (eşleşme olsun olmasın frontend göstersin)
+        outcomes1 = [
+            {"index": r["index"], "text": r["text"]} for r in po1
+        ]
+        outcomes2 = [
+            {"index": r["index"], "text": r["text"]} for r in po2
+        ]
 
         if not po1 or not po2:
             return {
@@ -320,6 +351,8 @@ class ComparisonEngine:
                 "university2": university2,
                 "outcome_count1": len(po1),
                 "outcome_count2": len(po2),
+                "outcomes1": outcomes1,
+                "outcomes2": outcomes2,
                 "overall_similarity_pct": 0,
                 "top_matches": [],
                 "note": "One or both universities have no program outcome embeddings.",
@@ -335,9 +368,9 @@ class ComparisonEngine:
             j_best = int(np.argmax(sim_matrix[i]))
             best_matches.append({
                 "outcome1_index": po1[i]["index"],
-                "outcome1_text": po1[i]["text"][:120] + "..." if len(po1[i]["text"]) > 120 else po1[i]["text"],
+                "outcome1_text": po1[i]["text"],
                 "outcome2_index": po2[j_best]["index"],
-                "outcome2_text": po2[j_best]["text"][:120] + "..." if len(po2[j_best]["text"]) > 120 else po2[j_best]["text"],
+                "outcome2_text": po2[j_best]["text"],
                 "similarity_pct": round(float(sim_matrix[i, j_best]) * 100, 2),
             })
 
@@ -353,6 +386,8 @@ class ComparisonEngine:
             "university2": university2,
             "outcome_count1": len(po1),
             "outcome_count2": len(po2),
+            "outcomes1": outcomes1,
+            "outcomes2": outcomes2,
             "overall_similarity_pct": overall,
             "top_matches": best_matches[:top_n],
         }
