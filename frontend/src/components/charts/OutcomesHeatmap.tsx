@@ -4,38 +4,73 @@
  * OutcomesHeatmap — Dashboard Bileşen 2.4.
  *
  * Program çıktıları benzerlik ısı haritası.
- * /api/compare/program-outcomes top_n eşleşen çift döner.
+ * 2 üni → 1 grid; 3 üni → 3 ikili grid (A-B, A-C, B-C) yan yana.
  *
- * Görsel: A program çıktıları sütun, B program çıktıları satır.
- * Hücre koyuluğu = cosine benzerlik. Tıklanırsa altta detay açılır.
+ * Hover davranışı:
+ *   - Sütun/satır başlığı (P1, P2…) → o üniversitenin tam outcome metni popup
+ *   - Hücre → iki çıktının metni + benzerlik yüzdesi popup
  */
 
 import { useMemo, useState } from "react";
 
-import type { ProgramOutcomesResponse } from "@/lib/types";
-import { uniColor } from "@/lib/use-selection";
+import type { OutcomePair, ProgramOutcomesResponse } from "@/lib/types";
+import { uniColor, uniShortName } from "@/lib/use-selection";
 
-export interface OutcomesHeatmapProps {
+export interface PairwiseOutcomes {
+  /** Slot index uniColor için */
+  slotA: number;
+  slotB: number;
+  slugA: string;
+  slugB: string;
   data: ProgramOutcomesResponse | undefined;
   loading?: boolean;
 }
 
-export function OutcomesHeatmap({ data, loading }: OutcomesHeatmapProps) {
-  const [hovered, setHovered] = useState<{ a: number; b: number } | null>(null);
+export interface OutcomesHeatmapProps {
+  /** 1, 2 veya 3 ikili — 3 üni varsa A-B, A-C, B-C üçüsü */
+  pairs: PairwiseOutcomes[];
+}
 
-  // Backend'in döndürdüğü `top_matches` (eski şema) → `similar_pairs`
-  // (yeni şema) dönüşümü. SWR fail / boş data güvenli ele alınır.
-  const pairs = useMemo(() => {
+export function OutcomesHeatmap({ pairs }: OutcomesHeatmapProps) {
+  if (!pairs.length) {
+    return (
+      <p className="text-sm text-[color:var(--color-ink-500)]">
+        Karşılaştırma için en az 2 üniversite gerekli.
+      </p>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      <div
+        className={`grid gap-6 ${
+          pairs.length === 1
+            ? "grid-cols-1"
+            : pairs.length === 2
+            ? "grid-cols-1 lg:grid-cols-2"
+            : "grid-cols-1 lg:grid-cols-3"
+        }`}
+      >
+        {pairs.map((p, idx) => (
+          <PairGrid key={`${p.slugA}-${p.slugB}-${idx}`} pair={p} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function PairGrid({ pair }: { pair: PairwiseOutcomes }) {
+  const { data, loading, slotA, slotB, slugA, slugB } = pair;
+
+  const pairsList: OutcomePair[] = useMemo(() => {
     if (!data) return [];
     const raw = (data.similar_pairs ??
       (data as unknown as { top_matches?: Array<Record<string, unknown>> }).top_matches ??
       []) as Array<Record<string, unknown>>;
     return raw.map((p) => {
-      // Yeni şema (similar_pairs): {outcome1: {index, text}, ...}
       if (p && typeof p === "object" && "outcome1" in p && p.outcome1 && typeof p.outcome1 === "object") {
-        return p as unknown as import("@/lib/types").OutcomePair;
+        return p as unknown as OutcomePair;
       }
-      // Eski şema (top_matches): flat fields
       return {
         outcome1: {
           index: Number(p.outcome1_index ?? 0),
@@ -52,115 +87,167 @@ export function OutcomesHeatmap({ data, loading }: OutcomesHeatmapProps) {
     });
   }, [data]);
 
-  const grid = useMemo(() => {
-    if (!pairs.length) return null;
-    const map = new Map<string, number>();
-    let maxA = 0, maxB = 0;
-    for (const p of pairs) {
-      const i = p.outcome1.index;
-      const j = p.outcome2.index;
-      map.set(`${i}:${j}`, p.similarity);
-      maxA = Math.max(maxA, i);
-      maxB = Math.max(maxB, j);
+  // Hücre hover state — col/row koordinatları (orientasyon swap'a göre)
+  const [cellHover, setCellHover] = useState<{ col: number; row: number } | null>(null);
+  // Eksen başlığı hover — col (yatay/sütun) veya row (dikey/satır)
+  const [axisHover, setAxisHover] = useState<
+    { side: "col" | "row"; index: number } | null
+  >(null);
+
+  // outcome metinleri — backend'in v3 outcomes1/2 listesi varsa onu kullan
+  // (TÜM çıktılar dahil), yoksa pair'lerden çıkar (top-N).
+  const textMaps = useMemo(() => {
+    const a = new Map<number, string>();
+    const b = new Map<number, string>();
+    (data?.outcomes1 || []).forEach((o) => a.set(o.index, o.text));
+    (data?.outcomes2 || []).forEach((o) => b.set(o.index, o.text));
+    for (const p of pairsList) {
+      if (p.outcome1?.text && !a.has(p.outcome1.index)) a.set(p.outcome1.index, p.outcome1.text);
+      if (p.outcome2?.text && !b.has(p.outcome2.index)) b.set(p.outcome2.index, p.outcome2.text);
     }
-    return { map, maxA, maxB };
-  }, [pairs]);
+    return { a, b };
+  }, [data, pairsList]);
+
+  // Grid sınırları — outcome listesi varsa onun uzunluğu, yoksa pair'lerden
+  const { map, maxA, maxB } = useMemo(() => {
+    const m = new Map<string, number>();
+    let mA = -1;
+    let mB = -1;
+    for (const p of pairsList) {
+      m.set(`${p.outcome1.index}:${p.outcome2.index}`, p.similarity);
+      if (p.outcome1.index > mA) mA = p.outcome1.index;
+      if (p.outcome2.index > mB) mB = p.outcome2.index;
+    }
+    // Backend tüm outcomes listesini döndürüyorsa onu otorite kabul et
+    if (data?.outcomes1?.length) mA = data.outcomes1.length - 1;
+    if (data?.outcomes2?.length) mB = data.outcomes2.length - 1;
+    return { map: m, maxA: mA, maxB: mB };
+  }, [pairsList, data]);
+
+  const uniName = (u: ProgramOutcomesResponse["university1"] | undefined) =>
+    typeof u === "string" ? u : u?.name ?? "";
+
+  const fullA = uniName(data?.university1);
+  const fullB = uniName(data?.university2);
+  const shortA = uniShortName(slugA, fullA);
+  const shortB = uniShortName(slugB, fullB);
+  // outcome_count'ı outcomes1/2 listesi ile düzelt — backend filter'ı bazen
+  // duplicate / cross-program count veriyordu (ör. İzmir Ekonomi 35 yerine 24)
+  const countA = data?.outcomes1?.length
+    ?? (typeof data?.university1 === "object" ? data.university1.outcome_count : data?.outcome_count1)
+    ?? 0;
+  const countB = data?.outcomes2?.length
+    ?? (typeof data?.university2 === "object" ? data.university2.outcome_count : data?.outcome_count2)
+    ?? 0;
 
   if (loading || !data) {
     return <div className="h-[260px] skeleton rounded" />;
   }
 
-  if (!pairs.length) {
-    return <p className="text-sm text-[color:var(--color-ink-500)]">Karşılaştırılabilir program çıktısı bulunamadı.</p>;
+  if (maxA < 0 || maxB < 0) {
+    return (
+      <div className="space-y-2">
+        <Header shortA={shortA} shortB={shortB} slotA={slotA} slotB={slotB} countA={countA} countB={countB} />
+        <p className="text-sm text-[color:var(--color-ink-500)]">
+          Eşleşme bulunamadı.
+        </p>
+      </div>
+    );
   }
 
-  const { map, maxA, maxB } = grid!;
   const aIndices = Array.from({ length: maxA + 1 }, (_, i) => i);
   const bIndices = Array.from({ length: maxB + 1 }, (_, i) => i);
 
-  // Hover'da ekteki çiftin metinlerini göstereceğiz
-  const hoveredPair = hovered
-    ? pairs.find(
-        (p) => p.outcome1.index === hovered.a && p.outcome2.index === hovered.b
-      )
+  // Yatay/dikey orientasyon — daha çok program çıktılı olan üni yatay (sütun)
+  // eksende olsun ki dikey scroll gerekmesin ve okunabilirlik artsın.
+  const swap = bIndices.length > aIndices.length;
+  const colIndices = swap ? bIndices : aIndices;
+  const rowIndices = swap ? aIndices : bIndices;
+  const colShort = swap ? shortB : shortA;
+  const rowShort = swap ? shortA : shortB;
+  const colSlot = swap ? slotB : slotA;
+  const rowSlot = swap ? slotA : slotB;
+  const colTextMap = swap ? textMaps.b : textMaps.a;
+  const rowTextMap = swap ? textMaps.a : textMaps.b;
+
+  // map key her zaman `outcome1:outcome2` (uni1:uni2). swap durumunda
+  // (col=outcome2, row=outcome1) → key `row:col`; aksi halde `col:row`.
+  const cellSim = (col: number, row: number): number => {
+    const i1 = swap ? row : col;
+    const i2 = swap ? col : row;
+    return map.get(`${i1}:${i2}`) || 0;
+  };
+
+  // Hücre hover (col, row) → orijinal pair lookup'u
+  const hoveredPair = cellHover
+    ? pairsList.find((p) => {
+        const i1 = swap ? cellHover.row : cellHover.col;
+        const i2 = swap ? cellHover.col : cellHover.row;
+        return p.outcome1.index === i1 && p.outcome2.index === i2;
+      })
     : null;
 
-  // Üniversite ismini şemadan bağımsız çek
-  const uniName = (u: ProgramOutcomesResponse["university1"]) =>
-    typeof u === "string" ? u : u?.name ?? "";
-  const uni1Name = uniName(data.university1);
-  const uni2Name = uniName(data.university2);
-
   return (
-    <div className="space-y-4">
-      <div className="flex items-baseline justify-between gap-4 flex-wrap">
-        <div>
-          <span className="ui-label">Program Çıktısı Benzerliği</span>
-          <p className="text-xs italic font-serif text-[color:var(--color-ink-500)] mt-1">
-            Hücre koyuluğu = cosine benzerlik. {pairs.length} eşleşen çift.
-          </p>
-        </div>
-        <div className="flex items-center gap-3 text-xs font-mono">
-          <span className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full" style={{ background: uniColor(0) }} />
-            {uni1Name.split(" ")[0]}{" "}
-            ({typeof data.university1 === "object" ? data.university1.outcome_count : data.outcome_count1 ?? 0})
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full" style={{ background: uniColor(1) }} />
-            {uni2Name.split(" ")[0]}{" "}
-            ({typeof data.university2 === "object" ? data.university2.outcome_count : data.outcome_count2 ?? 0})
-          </span>
-        </div>
-      </div>
+    <div className="space-y-3">
+      <Header
+        shortA={shortA}
+        shortB={shortB}
+        slotA={slotA}
+        slotB={slotB}
+        countA={countA}
+        countB={countB}
+        pairCount={pairsList.length}
+      />
 
-      {/* Grid */}
-      <div className="overflow-x-auto">
+      {/* Grid — orientation swap: daha çok PO'lu üni yatay (sütun) eksende */}
+      <div className="overflow-x-auto relative">
         <table className="border-separate" style={{ borderSpacing: 2 }}>
           <thead>
             <tr>
               <th />
-              {aIndices.map((i) => (
+              {colIndices.map((c) => (
                 <th
-                  key={i}
+                  key={c}
+                  scope="col"
                   className="ui-label text-center w-7 pb-1"
-                  style={{ color: uniColor(0) }}
+                  style={{ color: uniColor(colSlot) }}
+                  onMouseEnter={() => setAxisHover({ side: "col", index: c })}
+                  onMouseLeave={() => setAxisHover(null)}
                 >
-                  P{i + 1}
+                  P{c + 1}
                 </th>
               ))}
             </tr>
           </thead>
           <tbody>
-            {bIndices.map((j) => (
-              <tr key={j}>
+            {rowIndices.map((r) => (
+              <tr key={r}>
                 <th
                   scope="row"
                   className="ui-label text-right pr-2"
-                  style={{ color: uniColor(1) }}
+                  style={{ color: uniColor(rowSlot) }}
+                  onMouseEnter={() => setAxisHover({ side: "row", index: r })}
+                  onMouseLeave={() => setAxisHover(null)}
                 >
-                  P{j + 1}
+                  P{r + 1}
                 </th>
-                {aIndices.map((i) => {
-                  const sim = map.get(`${i}:${j}`) || 0;
+                {colIndices.map((c) => {
+                  const sim = cellSim(c, r);
                   const isHovered =
-                    hovered && hovered.a === i && hovered.b === j;
+                    cellHover && cellHover.col === c && cellHover.row === r;
                   return (
-                    <td key={i} className="p-0">
+                    <td key={c} className="p-0">
                       <button
                         className="block w-7 h-7 rounded-sm transition-transform hover:scale-110"
                         style={{
                           background: sim > 0
                             ? `rgba(45,106,138,${0.15 + sim * 0.85})`
                             : "var(--color-paper-2)",
-                          outline: isHovered
-                            ? `2px solid var(--color-ink-900)`
-                            : "none",
+                          outline: isHovered ? "2px solid var(--color-ink-900)" : "none",
                         }}
-                        onMouseEnter={() => setHovered({ a: i, b: j })}
-                        onMouseLeave={() => setHovered(null)}
-                        title={sim > 0 ? `%${Math.round(sim * 100)} benzerlik` : "—"}
-                        aria-label={`${uni1Name} P${i + 1} ↔ ${uni2Name} P${j + 1}: ${Math.round(sim * 100)}%`}
+                        onMouseEnter={() => setCellHover({ col: c, row: r })}
+                        onMouseLeave={() => setCellHover(null)}
+                        aria-label={`${colShort} P${c + 1} ↔ ${rowShort} P${r + 1}: ${Math.round(sim * 100)}%`}
                       />
                     </td>
                   );
@@ -171,28 +258,132 @@ export function OutcomesHeatmap({ data, loading }: OutcomesHeatmapProps) {
         </table>
       </div>
 
-      {/* Hover detay */}
-      {hoveredPair && (
-        <div className="mt-3 p-4 rounded border bg-[color:var(--color-paper-2)]" style={{ borderColor: "var(--color-line)" }}>
-          <div className="text-xs font-mono uppercase tracking-wider mb-2 text-[color:var(--color-ink-500)]">
-            %{Math.round(hoveredPair.similarity * 100)} benzerlik
-          </div>
-          <div className="space-y-2 text-sm">
-            <div>
-              <span className="text-xs font-mono mr-2" style={{ color: uniColor(0) }}>
-                P{hoveredPair.outcome1.index + 1}
-              </span>
-              {hoveredPair.outcome1.text}
-            </div>
-            <div>
-              <span className="text-xs font-mono mr-2" style={{ color: uniColor(1) }}>
-                P{hoveredPair.outcome2.index + 1}
-              </span>
-              {hoveredPair.outcome2.text}
-            </div>
-          </div>
+      {/* Detay paneli — eksen başlığı (P) hover'ında tek üni metni;
+          hücre hover'ında iki üni metni + benzerlik. Tek noktada okunsun. */}
+      {axisHover && (
+        <DetailPanel>
+          <DetailLine
+            label={
+              axisHover.side === "col"
+                ? `${colShort} P${axisHover.index + 1}`
+                : `${rowShort} P${axisHover.index + 1}`
+            }
+            text={
+              (axisHover.side === "col"
+                ? colTextMap.get(axisHover.index)
+                : rowTextMap.get(axisHover.index)) ||
+              "Metin yok."
+            }
+            color={uniColor(axisHover.side === "col" ? colSlot : rowSlot)}
+          />
+        </DetailPanel>
+      )}
+
+      {!axisHover && hoveredPair && (
+        <DetailPanel
+          header={`%${Math.round(hoveredPair.similarity * 100)} benzerlik`}
+        >
+          <DetailLine
+            label={`${shortA} P${hoveredPair.outcome1.index + 1}`}
+            text={hoveredPair.outcome1.text}
+            color={uniColor(slotA)}
+          />
+          <DetailLine
+            label={`${shortB} P${hoveredPair.outcome2.index + 1}`}
+            text={hoveredPair.outcome2.text}
+            color={uniColor(slotB)}
+          />
+        </DetailPanel>
+      )}
+
+    </div>
+  );
+}
+
+/**
+ * Heatmap altında sabit detay paneli — hover hedefine (eksen başlığı veya
+ * hücre) göre içerik değişir. Tek noktada okunsun diye popup tooltip yok.
+ */
+function DetailPanel({
+  header,
+  children,
+}: {
+  header?: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div
+      className="mt-2 p-3 rounded border bg-[color:var(--color-paper-2)]"
+      style={{ borderColor: "var(--color-line)" }}
+    >
+      {header && (
+        <div className="text-xs font-medium mb-2 text-[color:var(--color-ink-700)]">
+          {header}
         </div>
+      )}
+      <div className="space-y-2 text-sm leading-relaxed">{children}</div>
+    </div>
+  );
+}
+
+function DetailLine({
+  label,
+  text,
+  color,
+}: {
+  label: string;
+  text: string;
+  color: string;
+}) {
+  return (
+    <div>
+      <span
+        className="font-medium font-mono mr-2 text-xs"
+        style={{ color }}
+      >
+        {label}
+      </span>
+      <span className="text-[color:var(--color-ink-900)]">{text}</span>
+    </div>
+  );
+}
+
+function Header({
+  shortA,
+  shortB,
+  slotA,
+  slotB,
+  countA,
+  countB,
+  pairCount,
+}: {
+  shortA: string;
+  shortB: string;
+  slotA: number;
+  slotB: number;
+  countA: number;
+  countB: number;
+  pairCount?: number;
+}) {
+  return (
+    <div className="flex items-baseline justify-between gap-3 flex-wrap">
+      <div className="flex items-center gap-3 text-xs font-mono">
+        <span className="flex items-center gap-1.5">
+          <span className="w-2 h-2 rounded-full" style={{ background: uniColor(slotA) }} />
+          {shortA} ({countA})
+        </span>
+        <span className="text-[color:var(--color-ink-300)]">×</span>
+        <span className="flex items-center gap-1.5">
+          <span className="w-2 h-2 rounded-full" style={{ background: uniColor(slotB) }} />
+          {shortB} ({countB})
+        </span>
+      </div>
+      {typeof pairCount === "number" && (
+        <span className="text-[10px] font-mono uppercase tracking-wider text-[color:var(--color-ink-500)]">
+          {pairCount} eşleşme
+        </span>
       )}
     </div>
   );
 }
+

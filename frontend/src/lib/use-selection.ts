@@ -136,3 +136,60 @@ export function useSelection() {
 export function uniColor(index: number): string {
   return ["var(--color-uni-a)", "var(--color-uni-b)", "var(--color-uni-c)"][index] || "var(--color-ink-700)";
 }
+
+/**
+ * Üniversite kısa adı — UI'da chip/legend etiketleri için.
+ *
+ * "Orta Doğu Teknik Üniversitesi" → "ODTÜ" (split-by-space "Orta" yanlış kalıyordu).
+ * Slug → kısa ad sözlüğü; bilinmeyenlerde "Üniversitesi" tail'i atılıp ilk
+ * 1-2 kelime alınır (Bilkent, Sabancı gibi tek kelimeli isimler doğal kalır).
+ */
+const KNOWN_ABBR: Record<string, string> = {
+  metu: "ODTÜ",
+  itu: "İTÜ",
+  ytu: "YTÜ",
+  iyte: "İYTE",
+  tobb: "TOBB ETÜ",
+  tau: "TAÜ",
+  ktu: "KTÜ",
+  deu: "DEÜ",
+  gtu: "GTÜ",
+  gebze: "GTÜ",
+  gsu: "GSÜ",
+  ybeyazit: "AYBÜ",
+};
+
+// Resmi ad → kısa ad (slug bilinmiyorsa fallback). uniShortName slug parametresi
+// boş gelirse bu sözlüğe başvurur. "Orta Doğu Teknik Üniversitesi" → "ODTÜ"
+// gibi durumlar için kritik (split-by-space "Orta" yanlış kalıyordu).
+const NAME_TO_ABBR: Record<string, string> = {
+  "Orta Doğu Teknik Üniversitesi": "ODTÜ",
+  "İstanbul Teknik Üniversitesi": "İTÜ",
+  "Yıldız Teknik Üniversitesi": "YTÜ",
+  "İzmir Yüksek Teknoloji Enstitüsü": "İYTE",
+  "TOBB Ekonomi ve Teknoloji Üniversitesi": "TOBB ETÜ",
+  "Türk-Alman Üniversitesi": "TAÜ",
+  "Karadeniz Teknik Üniversitesi": "KTÜ",
+  "Dokuz Eylül Üniversitesi": "DEÜ",
+  "Gebze Teknik Üniversitesi": "GTÜ",
+  "Galatasaray Üniversitesi": "GSÜ",
+  "Ankara Yıldırım Beyazıt Üniversitesi": "AYBÜ",
+  "İzmir Ekonomi Üniversitesi": "İzmir Ekonomi",
+  "Türk Hava Kurumu Üniversitesi": "Türk Hava Kurumu",
+  "Ostim Teknik Üniversitesi": "Ostim Teknik",
+};
+
+export function uniShortName(slug: string, fullName?: string | null): string {
+  // Slug suffix'lerini at (-yazilim, -ybs)
+  const baseSlug = (slug || "").replace(/-(yazilim|yazılım|ybs)$/i, "");
+  if (KNOWN_ABBR[baseSlug]) return KNOWN_ABBR[baseSlug];
+  if (fullName && NAME_TO_ABBR[fullName.trim()]) return NAME_TO_ABBR[fullName.trim()];
+  if (!fullName) return baseSlug || slug;
+  // "Bilkent Üniversitesi" → "Bilkent"
+  const cleaned = fullName
+    .replace(/\s+(Üniversitesi|Üniversite|Vakıf)$/i, "")
+    .trim();
+  // 2 kelime ve hâlâ kısa → tam tut ("Türk Hava Kurumu" gibi); aksi halde ilk
+  if (cleaned.length <= 14) return cleaned;
+  return cleaned.split(/\s+/)[0];
+}

@@ -154,27 +154,30 @@ export interface HeatmapResponse {
 
 // ─── /api/compare/staff (Neo4j) ─────────────────────────────────────
 
+export interface StaffCounts {
+  department: string;
+  professor: number;
+  associate_professor: number;
+  assistant_professor: number;
+  lecturer: number;
+  research_assistant: number;
+  total: number;
+}
+
+// Backend iki farklı şemada dönebiliyor: nested (`university1.staff.professor`)
+// veya flat (`university1.professor`). Frontend her ikisine de tolerans
+// göstermek için optional union kabul eder.
 export interface StaffComparison {
   university1: {
     name: string;
-    department: string;
-    professor: number;
-    associate_professor: number;
-    assistant_professor: number;
-    lecturer: number;
-    research_assistant: number;
-    total: number;
-  };
+    department?: string;
+    staff?: StaffCounts;
+  } & Partial<StaffCounts>;
   university2: {
     name: string;
-    department: string;
-    professor: number;
-    associate_professor: number;
-    assistant_professor: number;
-    lecturer: number;
-    research_assistant: number;
-    total: number;
-  };
+    department?: string;
+    staff?: StaffCounts;
+  } & Partial<StaffCounts>;
 }
 
 // ─── /api/compare/program-outcomes (Neo4j semantic) ─────────────────
@@ -202,6 +205,9 @@ export interface ProgramOutcomesResponse {
   outcome_count1?: number;
   outcome_count2?: number;
   overall_similarity_pct?: number;
+  // v3: tüm program çıktısı metinleri (eşleşmemiş olanlar dahil)
+  outcomes1?: Array<{ index: number; text: string }>;
+  outcomes2?: Array<{ index: number; text: string }>;
 }
 
 // ─── /api/compare/curriculum-coverage (Neo4j semantic) ──────────────
