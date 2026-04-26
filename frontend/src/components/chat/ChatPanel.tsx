@@ -212,7 +212,7 @@ export function ChatPanel() {
               borderColor: "var(--color-line)",
               boxShadow: "var(--shadow-paper)",
             }}
-            aria-label="AI Asistan'ı aç (kısayol: /)"
+            aria-label="Asistan'ı aç (kısayol: /)"
           >
             <span
               aria-hidden
@@ -221,7 +221,7 @@ export function ChatPanel() {
             >
               U
             </span>
-            <span>AI Asistan</span>
+            <span>Asistan</span>
             <kbd className="ml-1 font-mono text-[10px] px-1.5 py-0.5 rounded bg-[color:var(--color-paper-2)] text-[color:var(--color-ink-500)] tabular-nums">
               /
             </kbd>
@@ -275,7 +275,7 @@ export function ChatPanel() {
                   >
                     U
                   </span>
-                  <span className="font-serif text-base">AI Asistan</span>
+                  <span className="font-serif text-base">Asistan</span>
                   {minimized && messages.length > 0 && (
                     <span className="text-xs text-[color:var(--color-ink-500)] font-mono ml-1">
                       ({messages.filter((m) => m.role === "user").length} soru)
