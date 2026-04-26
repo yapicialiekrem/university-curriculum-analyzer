@@ -15,10 +15,14 @@
 import { Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
+import { Pagination } from "@/components/Pagination";
 import { api } from "@/lib/api";
 import type { SearchResponse, SearchResult, UniversitySummary } from "@/lib/types";
 import useSWR from "swr";
 import { useSelection, uniShortName } from "@/lib/use-selection";
+
+const PAGE_SIZE = 10;
+const TOP_K = 50;
 
 // Backend search endpoint'i `universities` filtresini SLUG bekliyor (university_slug
 // kolonuyla eşleşiyor). Eski yanlış davranış: name gönderiyorduk, hep 0 dönüyordu.
@@ -56,10 +60,10 @@ export function CourseSimilarity() {
     try {
       // Her aramada hem genel hem seçili sonuçları paralel getir
       const [allResp, selResp] = await Promise.all([
-        api.search(q, { top_k: 10, min_score: 0.3 }),
+        api.search(q, { top_k: TOP_K, min_score: 0.3 }),
         slugs.length > 0
           ? api.search(q, {
-              top_k: 10,
+              top_k: TOP_K,
               min_score: 0.25,
               universities: slugs,
             })
@@ -221,6 +225,13 @@ function SearchResults({
   data: SearchResponse;
   scopeNote?: string | null;
 }) {
+  const [page, setPage] = useState(1);
+
+  // Yeni veri (yeni sorgu / scope) gelince ilk sayfaya dön
+  useEffect(() => {
+    setPage(1);
+  }, [data]);
+
   if (data.count === 0) {
     return (
       <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
@@ -230,6 +241,9 @@ function SearchResults({
       </p>
     );
   }
+
+  const total = data.results.length;
+  const pageItems = data.results.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   return (
     <div className="space-y-2">
@@ -242,10 +256,18 @@ function SearchResults({
         )}
       </p>
       <ul className="space-y-2">
-        {data.results.map((r) => (
+        {pageItems.map((r) => (
           <ResultRow key={r.course_id} result={r} />
         ))}
       </ul>
+
+      <Pagination
+        page={page}
+        pageSize={PAGE_SIZE}
+        total={total}
+        onChange={setPage}
+        label="sonuç"
+      />
     </div>
   );
 }
