@@ -31,7 +31,7 @@ import { useSelection, uniColor, uniShortName } from "@/lib/use-selection";
 const SUGGESTIONS = [
   "Hangi üniversitede en çok profesör var?",
   "AI alanında en çok ders sunan 5 üniversite",
-  "8000 sıralamayla yapay zekada hangi üniversite uygun?",
+  "Yapay zeka alanında uzmanlaşmak için bana tavsiye verir misin?",
   "Bilkent Üniversitesi'nin yazılım mühendisliği derslerini özetle",
 ];
 

@@ -93,11 +93,19 @@ async def chat(req: ChatRequest) -> dict:
         intent.type = "advisory"
 
     # 2) "complex" intent → tool-calling loop (hibrit kompleks dal); diğerleri
-    # context-based klasik akış.
+    # context-based klasik akış. Tools loop patlarsa (client yok / iter cap'ta
+    # JSON parse fail) eski pipeline'a fallback — kullanıcı boş cevap görmesin.
     if intent.type == "complex":
-        # context build edilmez; LLM tool çağrılarıyla veriyi kendi toplar
         context = {"intent_type": "complex"}
         answer = generate_answer_with_tools(question, history=history_dicts)
+        if (answer.get("_meta", {}) or {}).get("status") != "ok":
+            logger.warning("Tools loop fallback'e düşüyor → general intent + classic answer")
+            try:
+                fallback_intent = intent.model_copy(update={"type": "general"})
+                context = build_context(fallback_intent, question=question)
+            except Exception:
+                context = {"intent_type": "general"}
+            answer = generate_answer(question, context, history=history_dicts)
     else:
         try:
             context = build_context(intent, question=question)

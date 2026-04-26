@@ -81,6 +81,8 @@ TYPE SEÇENEKLERİ:
                       "Matematikte zorunlu ders sayısı en yüksek üni"
                        (kategori × type kesişimi sabit metric'te yok →
                         complex, get_specialization tool ile çözülür)
+                      "AI dersi olmayan üniler" / "X dersi bulunmayanlar"
+                       (negation = aggregate(asc) + filtreleme → complex)
                      UYARI: "X ile Y'yi kıyasla / karşılaştır" doğrudan
                      comparison'dır; ama "X ile Y'nin farkı/oranı/ortalaması"
                      complex'tir. Önceki konuşmadan listeye anaforik
