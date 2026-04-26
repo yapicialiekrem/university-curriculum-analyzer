@@ -180,10 +180,13 @@ function Cell({
     );
   }
 
+  // Her dolu hücrenin içinde zorunlu (üstte) ve seçmeli (altta) sayıları
+  // okunsun — kullanıcı tooltip beklemesin. Sadece o tip 0'dan büyükse satır
+  // gözükür; ikisi de varsa iki satır, tek varsa tek satır gösterilir.
   return (
     <td className="p-0 relative" style={tdStyle}>
       <div
-        className="relative w-9 h-9 rounded-sm overflow-hidden transition-transform"
+        className="relative w-9 h-9 rounded-sm overflow-hidden transition-transform flex flex-col items-center justify-center leading-none"
         style={{
           background: `rgba(${HEAT_RGB}, ${FILL_ALPHA})`,
           transform: hovered ? "scale(1.06)" : undefined,
@@ -191,7 +194,19 @@ function Cell({
         }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-      />
+        aria-label={`${category}, ${semester}. dönem: ${cell.zorunlu} AKTS zorunlu, ${cell.secmeli} AKTS seçmeli`}
+      >
+        {cell.zorunlu > 0 && (
+          <span className="font-mono tabular-nums text-[11px] font-medium text-[color:var(--color-ink-900)]">
+            {cell.zorunlu}
+          </span>
+        )}
+        {cell.secmeli > 0 && (
+          <span className="font-mono tabular-nums text-[10px] italic text-[color:var(--color-ink-700)]">
+            {cell.zorunlu > 0 ? `+${cell.secmeli}` : cell.secmeli}
+          </span>
+        )}
+      </div>
 
       {hovered && (
         <CellTooltip

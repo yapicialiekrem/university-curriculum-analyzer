@@ -142,7 +142,7 @@ export function LayerTwo() {
         id="section-2-1"
         label="2.1"
         title="Konu × Dönem Haritası"
-        caption="Karenin üzerine gel — o dönemde o kategoriden zorunlu ve seçmeli AKTS dağılımı çıkar."
+        caption="Her karede üst sayı zorunlu AKTS, alttaki italik +N seçmeli AKTS. Boş kareler o dönemde ders yok demek."
         delay={0}
         highlighted={overlay?.show_metric === "semester_heatmap"}
       >
