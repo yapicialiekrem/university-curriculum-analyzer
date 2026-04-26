@@ -32,8 +32,11 @@ ROUTER_PROMPT = """Kullanıcı sorusu: "{question}"
 Bu soruyu aşağıdaki kategorilerden BİRİNE ata:
 
 TYPE SEÇENEKLERİ:
-- "deterministic"  → Sayısal / filtrelenebilir soru
-                     ("kaç ders", "hangi üniversitede", "en yüksek AKTS")
+- "deterministic"  → Sayısal / filtrelenebilir soru — TEK BİR ÜNİ veya
+                     tüm-üniler agregat olmayan basit listeleme.
+                     ("Ege'de kaç zorunlu ders", "ODTÜ'nün ders listesi")
+                     UYARI: "X'in Y kategorisindeki dersleri arasında en
+                     yüksek AKTS" gibi alt-küme + sıralama → complex'tir.
 - "comparison"     → İki veya daha fazla üniversite karşılaştırma
                      ("ODTÜ ile İEÜ'yü kıyasla", "hangisi daha çok ...")
 - "semantic"       → Konu / kategori bazlı arama
@@ -58,14 +61,23 @@ TYPE SEÇENEKLERİ:
                       "en proje ağırlıklı müfredata sahip üni")
 - "complex"       → Çok adımlı / kompozisyon sorusu — sabit metric'lere
                      sığmayan oran/fark/ortalama/türev hesaplar, multi-criteria
-                     filtreler. AŞAĞIDAKİ KELİMELER GENELDE complex işaretidir:
-                     "oran", "fark", "ortalama", "yüzde", "kaç katı",
-                     "VE/AND", "hem... hem...", "hesapla", "topla", "böl".
-                     ("AI'da zorunlu/seçmeli AKTS oranı en yüksek üni",
-                      "ODTÜ ile Bilkent'in modernity skoru farkı",
-                      "Bilkent ve Sabancı'nın AI ders sayısı ortalaması",
-                      "x'ten yüksek profesör VE y'den fazla AI ders",
-                      "ODTÜ'nün AI dersleri arasında en yüksek AKTS")
+                     filtreler. AŞAĞIDAKİ KALIPLAR GENELDE complex işaretidir:
+                     - "oran", "fark", "ortalama", "yüzde", "kaç katı",
+                       "VE/AND", "hem... hem...", "hesapla", "topla", "böl"
+                     - "X / Y" formu (eğik çizgili oran ifadesi):
+                       "İngilizce / toplam ders ORANI"
+                     - "X yüksek olanlar içinde Y de fazla olan"
+                       (multi-criteria + sıralama)
+                     - "X'in Y'leri arasında en yüksek/düşük Z"
+                       (subset + filtre)
+                     ÖRNEKLER:
+                      "AI'da zorunlu/seçmeli AKTS oranı en yüksek üni"
+                      "ODTÜ ile Bilkent'in modernity skoru farkı"
+                      "Bilkent ve Sabancı'nın AI ders sayısı ortalaması"
+                      "x'ten yüksek profesör VE y'den fazla AI ders"
+                      "ODTÜ'nün AI dersleri arasında en yüksek AKTS"
+                      "İngilizce ders oranı en yüksek üni"
+                      "Bloom create yüksek olanlar içinde proje fazla olan"
                      UYARI: "X ile Y'yi kıyasla / karşılaştır" doğrudan
                      comparison'dır; ama "X ile Y'nin farkı/oranı/ortalaması"
                      complex'tir. Önceki konuşmadan listeye anaforik
