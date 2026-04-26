@@ -191,15 +191,19 @@ TOOL_SCHEMAS: list[dict] = [
             "description": (
                 "Bir kaynağın (kitap adı, yazar adı, kelime) hangi "
                 "üniversite ve hangi derslerde okutulduğunu döndürür. "
-                "Örn. 'Cormen', 'Tanenbaum', 'Computer Networks' gibi "
-                "anahtar kelimelerle arama yapar."
+                "ÖNEMLİ: query parametresine TEK KELİME ya da KISA "
+                "AYIRT EDİCİ ifade ver — uzun cümle değil. "
+                "Örn. soru 'Mitchell Machine Learning kitabı kim okutuyor' "
+                "ise query='Mitchell' ya da query='Machine Learning' kullan; "
+                "iki kelime birleşik gönderme. 'Cormen', 'Tanenbaum', "
+                "'Stallings' gibi tek isim çoğu zaman daha alakalı."
             ),
             "parameters": {
                 "type": "object",
                 "properties": {
                     "query": {
                         "type": "string",
-                        "description": "Aranacak kelime/anahtar (kitap adı, yazar)",
+                        "description": "Aranacak tek kelime/anahtar (yazar adı tercih edilir)",
                     },
                     "top_n": {
                         "type": "integer",
