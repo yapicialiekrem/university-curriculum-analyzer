@@ -1,13 +1,15 @@
 "use client";
 
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 /**
  * Section — Layer 2/3'te kullanılan kart wrapper.
  *
- * Viewport'a girdiğinde fade-up animasyonu (FRONTEND_PROMPT.md scroll
- * trigger). Stagger için dışarıdan `delay` geçilebilir.
+ * Sayfa mount'unda fade-up animasyonu. Eskiden scroll-trigger
+ * (useInView) kullanılıyordu ama aşağıdaki section'lar kullanıcı scroll
+ * yapana kadar opacity:0 kalıyordu — "ilk açılışta dashboard'ların yarısı
+ * gözükmüyor" sorununa yol açıyordu. Şimdi mount'ta tüm section'lar
+ * görünür hâle geliyor; stagger için `delay` korundu.
  *
  * `id` verilirse smooth scroll target olur (chat overlay tetikler).
  */
@@ -31,17 +33,13 @@ export function Section({
   highlighted = false,
   children,
 }: SectionProps) {
-  const ref = useRef<HTMLElement>(null);
-  const inView = useInView(ref, { once: true, amount: 0.2 });
-
   return (
     <motion.section
-      ref={ref}
       id={id}
-      initial={{ opacity: 0, y: 20 }}
-      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{
-        duration: 0.5,
+        duration: 0.4,
         ease: [0.25, 0.8, 0.25, 1],
         delay,
       }}
