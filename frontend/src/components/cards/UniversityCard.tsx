@@ -3,12 +3,9 @@
 /**
  * UniversityCard — Dashboard Bileşen 1.2.
  *
- * Bir üniversitenin özeti:
- *   - 4px sol kenarda accent renk (uni-a/b/c)
- *   - 80px serif rakam: modernity_score
- *   - GÜNCELLİK bar (renk: kırmızı/sarı/yeşil eşik)
- *   - Öğretim dili
- *   - UZMANLAŞMA: top 3 teknik kategoride zorunlu+seçmeli
+ * Kompakt yan-yana okunabilirlik için tasarlandı: 1-3 üniversite üst stripte
+ * yan yana sığsın. Üst rolü: ad + bölüm + temel metrikler. Detaylar (Bloom,
+ * akademik kadro) Layer 2'de.
  */
 
 import type { UniversitySummary } from "@/lib/types";
@@ -25,12 +22,6 @@ const TECHNICAL_CATS = [
   { key: "graphics_vision", label: "Grafik / Görüntü" },
   { key: "distributed", label: "Dağıtık Sistemler" },
 ] as const;
-
-function modernityColor(score: number): string {
-  if (score < 50) return "var(--color-alert)";
-  if (score < 70) return "var(--color-warn)";
-  return "var(--color-ok)";
-}
 
 export interface UniversityCardProps {
   summary: UniversitySummary | undefined;
@@ -62,11 +53,11 @@ export function UniversityCard({
   }
 
   const accent = uniColor(slotIndex);
-  const score = summary.modernity_score ?? 0;
   const enrichedRatio = summary.total_courses
     ? summary.enriched_courses / summary.total_courses
     : 1;
   const dataSparse = enrichedRatio < 0.5;
+  const englishPct = Math.round(summary.english_resources_ratio * 100);
 
   // Top 3 teknik uzmanlaşma
   const topSpec = TECHNICAL_CATS
@@ -79,10 +70,13 @@ export function UniversityCard({
     .slice(0, 3);
 
   return (
-    <article className="card relative" data-testid={`uni-card-${slotIndex}`}>
+    <article
+      className="card relative h-full flex flex-col"
+      data-testid={`uni-card-${slotIndex}`}
+    >
       {/* Sol accent line */}
       <div
-        className="absolute left-0 top-6 bottom-6 w-1 rounded"
+        className="absolute left-0 top-5 bottom-5 w-1 rounded"
         style={{ background: accent }}
       />
 
@@ -97,105 +91,58 @@ export function UniversityCard({
         </button>
       )}
 
-      <div className="ml-3 pr-6">
-        <h3 className="font-serif text-xl font-medium leading-tight tracking-tight">
+      <div className="ml-3 pr-6 flex-1 flex flex-col">
+        <h3 className="font-serif text-base lg:text-lg font-medium leading-tight tracking-tight">
           {summary.name}
         </h3>
-        <p className="text-sm text-[color:var(--color-ink-500)] italic mt-1">
+        <p className="text-xs text-[color:var(--color-ink-500)] italic mt-0.5">
           {summary.department || "—"}
         </p>
 
         {dataSparse && (
           <div
             role="status"
-            className="mt-3 text-xs font-mono italic px-3 py-2 rounded"
+            className="mt-2 text-[11px] font-mono italic px-2 py-1 rounded"
             style={{
               background: "rgba(212,160,23,0.10)",
               color: "var(--color-warn)",
             }}
           >
-            ⚠ Kısıtlı veri: {summary.total_courses} dersin {summary.enriched_courses}'i için detaylı bilgi mevcut.
+            ⚠ {summary.enriched_courses}/{summary.total_courses} ders detaylı
           </div>
         )}
 
-        <div className="mt-4 h-px" style={{ background: "var(--color-line)" }} />
-
-        {/* GÜNCELLIK */}
-        <section className="mt-5">
-          <div className="ui-label">Güncellik</div>
-          <div className="mt-2 flex items-baseline gap-3">
-            <span
-              className="font-serif text-5xl font-medium tracking-tighter leading-none"
-              style={{ color: "var(--color-ink-900)" }}
-            >
-              {score}
-            </span>
-            <span className="font-mono text-xs text-[color:var(--color-ink-500)]">
-              / 100
-            </span>
-          </div>
-          <div className="mt-3 h-2 w-full rounded-full overflow-hidden" style={{ background: "var(--color-paper-2)" }}>
-            <div
-              className="h-full transition-all duration-700 ease-out"
-              style={{
-                width: `${score}%`,
-                background: modernityColor(score),
-              }}
+        {/* Inline metric satırı: YKS sırası · kontenjan · dil · İng. kaynak % */}
+        <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-2 text-sm">
+          {summary.ranking_sira != null && (
+            <Metric
+              label="YKS sırası"
+              value={summary.ranking_sira.toLocaleString("tr-TR")}
             />
-          </div>
-        </section>
+          )}
+          {summary.ranking_kontenjan != null && (
+            <Metric
+              label="Yerleşen"
+              value={`${summary.ranking_kontenjan} kişi`}
+            />
+          )}
+          <Metric label="Dil" value={summary.language || "—"} />
+          <Metric label="İng. kaynak" value={`%${englishPct}`} />
+        </dl>
 
-        {/* DİL */}
-        <section className="mt-5">
-          <div className="ui-label">Öğretim Dili</div>
-          <p className="mt-1 text-sm">{summary.language || "—"}</p>
-        </section>
-
-        {/* YKS — başarı sırası + yerleşen */}
-        {(summary.ranking_sira != null || summary.ranking_kontenjan != null) && (
-          <section className="mt-5">
-            <div className="ui-label">YKS — En İyi Program</div>
-            <div className="mt-1.5 flex items-baseline gap-5 flex-wrap">
-              {summary.ranking_sira != null && (
-                <div>
-                  <span
-                    className="font-serif text-2xl font-medium tabular-nums leading-none"
-                    style={{ color: "var(--color-ink-900)" }}
-                  >
-                    {summary.ranking_sira.toLocaleString("tr-TR")}
-                  </span>
-                  <span className="ml-1.5 font-mono text-[11px] uppercase tracking-wider text-[color:var(--color-ink-500)]">
-                    sıra
-                  </span>
-                </div>
-              )}
-              {summary.ranking_kontenjan != null && (
-                <div>
-                  <span className="font-serif text-2xl font-medium tabular-nums leading-none">
-                    {summary.ranking_kontenjan}
-                  </span>
-                  <span className="ml-1.5 font-mono text-[11px] uppercase tracking-wider text-[color:var(--color-ink-500)]">
-                    kişi yerleşti
-                  </span>
-                </div>
-              )}
-            </div>
-          </section>
-        )}
-
-        {/* UZMANLAŞMA */}
+        {/* UZMANLAŞMA — kompakt */}
         {topSpec.length > 0 && (
-          <section className="mt-5">
-            <div className="ui-label">Uzmanlaşma Derinliği</div>
-            <ul className="mt-3 space-y-2.5">
+          <section className="mt-4 pt-3 border-t" style={{ borderColor: "var(--color-line)" }}>
+            <div className="ui-label mb-2">Uzmanlaşma</div>
+            <ul className="space-y-2">
               {topSpec.map((c) => (
-                <li key={c.key} className="text-sm">
+                <li key={c.key} className="text-xs">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-[color:var(--color-ink-700)] flex-1">
+                    <span className="text-[color:var(--color-ink-700)] flex-1 truncate">
                       {c.label}
                     </span>
-                    <span className="font-mono text-xs text-[color:var(--color-ink-500)] tabular-nums">
-                      {c.d.required} zor. + {c.d.elective} seç.
+                    <span className="font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums">
+                      {c.d.required}+{c.d.elective}
                     </span>
                   </div>
                   <SpecBlocks
@@ -208,19 +155,19 @@ export function UniversityCard({
             </ul>
           </section>
         )}
-
-        {/* İngilizce kaynak oranı */}
-        <section className="mt-5">
-          <div className="ui-label">Kaynak Dili</div>
-          <p className="mt-1 text-sm">
-            <span className="font-mono">
-              %{Math.round(summary.english_resources_ratio * 100)}
-            </span>{" "}
-            <span className="text-[color:var(--color-ink-500)]">İngilizce</span>
-          </p>
-        </section>
       </div>
     </article>
+  );
+}
+
+function Metric({ label, value }: { label: string; value: string }) {
+  return (
+    <div>
+      <dt className="ui-label text-[10px]">{label}</dt>
+      <dd className="font-serif text-base leading-tight mt-0.5 tabular-nums">
+        {value}
+      </dd>
+    </div>
   );
 }
 
@@ -237,7 +184,7 @@ function SpecBlocks({
   elective: number;
   accent: string;
 }) {
-  const MAX = 20;
+  const MAX = 12;
   const total = required + elective;
   const overflow = Math.max(0, total - MAX);
   const reqShown = Math.min(required, MAX);
@@ -246,7 +193,7 @@ function SpecBlocks({
   if (total === 0) return null;
 
   return (
-    <div className="mt-1.5 flex items-center gap-[3px]" aria-hidden>
+    <div className="mt-1 flex items-center gap-[2px]" aria-hidden>
       {Array.from({ length: reqShown }).map((_, i) => (
         <span
           key={`r${i}`}
