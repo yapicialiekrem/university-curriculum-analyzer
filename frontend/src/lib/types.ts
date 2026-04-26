@@ -294,7 +294,6 @@ export type DashboardMetric =
   | "bloom_donut"
   | "staff_bars"
   | "coverage_table"
-  | "resources_donut"
   | "project_heaviness";
 
 export interface DashboardUpdate {

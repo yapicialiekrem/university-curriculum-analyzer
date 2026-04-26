@@ -47,11 +47,12 @@ export function LayerThree() {
       ]);
       return all;
     },
-    { revalidateOnFocus: false }
+    { revalidateOnFocus: false, shouldRetryOnError: false }
   );
 
   const u1Name = summaryAB.data?.[0]?.name;
   const u2Name = summaryAB.data?.[1]?.name;
+  const summaryError = summaryAB.error;
 
   const { data: curriculum, isLoading: curriculumLoading } =
     useSWR<CurriculumCoverageResponse>(
@@ -91,6 +92,16 @@ export function LayerThree() {
           <strong>{slugs.length}</strong> üniversite seçili: {slugs.join(", ")}
         </p>
       </header>
+
+      {summaryError && (
+        <div
+          className="border-l-2 pl-4 py-3 text-sm italic font-serif text-[color:var(--color-ink-700)]"
+          style={{ borderColor: "var(--color-ink-700)" }}
+        >
+          Üniversite bilgisi alınamadı. Backend kapalı olabilir veya seçili
+          slug ({a} / {b}) geçersiz — ana sayfadan başka bir üniversite seç.
+        </div>
+      )}
 
       <Section
         label="3.1"
