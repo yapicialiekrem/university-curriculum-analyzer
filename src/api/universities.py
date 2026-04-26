@@ -170,6 +170,11 @@ def get_summary(slug: str) -> dict:
         e = ects_by_cat.get(cat, {"required_ects": 0, "elective_ects": 0})
         spec_depth[cat] = {**entry, **e}
 
+    # Program çıktıları (tek-uni görünümünde liste olarak frontend'e iletilir)
+    program_outcomes = uni.get("program_outcomes") or []
+    if not isinstance(program_outcomes, list):
+        program_outcomes = []
+
     return {
         "slug": slug,
         "name": _name(uni),
@@ -179,6 +184,7 @@ def get_summary(slug: str) -> dict:
         "type": uni.get("type"),
         "ranking_sira": ranking["basari_sirasi"] if ranking else None,
         "ranking_kontenjan": ranking["yerlesen_sayisi"] if ranking else None,
+        "program_outcomes": program_outcomes,
         **summary,
         "specialization_depth": spec_depth,
     }

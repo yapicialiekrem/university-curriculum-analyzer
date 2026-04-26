@@ -30,7 +30,7 @@ router = APIRouter(prefix="/api/compare", tags=["Comparison — Enriched"])
 
 # ─── Slug doğrulama ──────────────────────────────────────────────────
 
-def _resolve_slugs(a: str, b: str, c: Optional[str] = None) -> list[str]:
+def _resolve_slugs(a: str, b: Optional[str] = None, c: Optional[str] = None) -> list[str]:
     """Query parametrelerinden slug listesi + varlık kontrolü.
 
     Args:
@@ -75,7 +75,7 @@ def _resolve_slugs(a: str, b: str, c: Optional[str] = None) -> list[str]:
 )
 def get_radar(
     a: str = Query(..., description="Üniversite A slug"),
-    b: str = Query(..., description="Üniversite B slug"),
+    b: Optional[str] = Query(None, description="Üniversite B slug (opsiyonel — tek-uni radar)"),
     c: Optional[str] = Query(None, description="Üniversite C slug (opsiyonel)"),
 ) -> dict:
     return radar.compute_radar(_resolve_slugs(a, b, c))
@@ -118,7 +118,7 @@ def get_coverage(
 )
 def get_bloom(
     a: str = Query(..., description="Üniversite A slug"),
-    b: str = Query(..., description="Üniversite B slug"),
+    b: Optional[str] = Query(None, description="Üniversite B slug (opsiyonel — tek-uni)"),
     c: Optional[str] = Query(None, description="Üniversite C slug (opsiyonel)"),
 ) -> dict:
     return bloom.compute_bloom(_resolve_slugs(a, b, c))
@@ -135,7 +135,7 @@ def get_bloom(
 )
 def get_semester_heatmap(
     a: str = Query(..., description="Üniversite A slug"),
-    b: str = Query(..., description="Üniversite B slug"),
+    b: Optional[str] = Query(None, description="Üniversite B slug (opsiyonel — tek-uni)"),
     c: Optional[str] = Query(None, description="Üniversite C slug (opsiyonel)"),
 ) -> dict:
     return heatmap.compute_semester_heatmap(_resolve_slugs(a, b, c))

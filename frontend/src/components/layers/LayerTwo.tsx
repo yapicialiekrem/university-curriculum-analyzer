@@ -34,31 +34,31 @@ import { useSelection } from "@/lib/use-selection";
 export function LayerTwo() {
   const { selection } = useSelection();
   const { overlay } = useOverlay();
-  const { a, b, c, slugs } = selection;
+  const { a, b, c, slugs, isEmpty } = selection;
 
-  // Heatmap, coverage, bloom — yeni enrichment endpoint'leri (slug)
+  // Heatmap, coverage, bloom — yalnız >=1 üni varsa fetch
   const { data: heatmap, isLoading: heatmapLoading } = useSWR<HeatmapResponse>(
-    ["heatmap", a, b, c],
-    () => api.compareHeatmap(a, b, c || undefined),
+    !isEmpty && a ? ["heatmap", a, b, c] : null,
+    () => api.compareHeatmap(a as string, b || undefined, c || undefined),
     { revalidateOnFocus: false }
   );
 
   const { data: coverage, isLoading: coverageLoading } =
     useSWR<CoverageResponse>(
-      ["coverage", a, b, c],
-      () => api.compareCoverage(a, b, { c: c || undefined }),
+      !isEmpty && a && b ? ["coverage", a, b, c] : null,
+      () => api.compareCoverage(a as string, b as string, { c: c || undefined }),
       { revalidateOnFocus: false }
     );
 
   const { data: bloom, isLoading: bloomLoading } = useSWR<BloomResponse>(
-    ["bloom", a, b, c],
-    () => api.compareBloom(a, b, c || undefined),
+    !isEmpty && a ? ["bloom", a, b, c] : null,
+    () => api.compareBloom(a as string, b || undefined, c || undefined),
     { revalidateOnFocus: false }
   );
 
   // Üni özetleri (slug → name lookup ve resources için)
   const summaryAB = useSWR<UniversitySummary[]>(
-    ["summaries", a, b, c],
+    !isEmpty ? ["summaries", a, b, c] : null,
     async () => {
       const all = await Promise.all(slugs.map((s) => api.universitySummary(s)));
       return all;
@@ -128,13 +128,18 @@ export function LayerTwo() {
     );
   }
 
+  // Hiç üni seçili değilse Layer 2'yi tamamen gizle — kullanıcının üst
+  // bölümdeki seçiciye odaklanmasını sağlar.
+  if (isEmpty) return null;
+
   return (
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-16 space-y-12">
       <header className="border-t pt-8" style={{ borderColor: "var(--color-line)" }}>
         <h2 className="font-serif text-3xl tracking-tighter">Daha yakından</h2>
         <p className="mt-2 text-sm italic text-[color:var(--color-ink-500)] max-w-2xl">
-          Dönem dağılımı, ortak konular, bilişsel zorluk dağılımı, program
-          çıktıları benzerliği ve akademik kadro.
+          {slugs.length === 1
+            ? "Tek üniversite görünümü — dönem dağılımı, kategori kapsamı, Bloom yoğunluğu ve akademik kadro."
+            : "Dönem dağılımı, ortak konular, bilişsel zorluk dağılımı, program çıktıları benzerliği ve akademik kadro."}
         </p>
       </header>
 
@@ -149,52 +154,127 @@ export function LayerTwo() {
         <SemesterHeatmap data={heatmap} loading={heatmapLoading} />
       </Section>
 
-      <Section
-        id="section-2-2"
-        label="2.2"
-        title="Konu Kapsamı"
-        caption="Her konu alanında iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
-        delay={0.05}
-        highlighted={overlay?.show_metric === "coverage_table"}
-      >
-        <CoverageTable
-          data={coverage}
-          loading={coverageLoading}
-          selectedSlugs={slugs}
-        />
-      </Section>
+      {/* Coverage Table 1-uni durumunda da o üni'nin kategori başına
+          ders+AKTS özetini gösterir — TwoUniMatrix yerine basit tablo */}
+      {slugs.length >= 2 && (
+        <Section
+          id="section-2-2"
+          label="2.2"
+          title="Konu Kapsamı"
+          caption="Her konu alanında iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
+          delay={0.05}
+          highlighted={overlay?.show_metric === "coverage_table"}
+        >
+          <CoverageTable
+            data={coverage}
+            loading={coverageLoading}
+            selectedSlugs={slugs}
+          />
+        </Section>
+      )}
 
       <Section
         id="section-2-3"
         label="2.3"
         title="Bilişsel Yoğunluk"
-        caption="Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
+        caption={
+          slugs.length === 1
+            ? "Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
+            : "Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
+        }
         delay={0.1}
         highlighted={overlay?.show_metric === "bloom_donut" || overlay?.show_metric === "project_heaviness"}
       >
         <BloomDonut data={bloom} loading={bloomLoading} />
       </Section>
 
+      {/* Program çıktıları: tek üni durumunda kıyaslama yapılamaz; sadece
+          o üni'nin program çıktıları liste halinde gösterilir. */}
       <Section
         id="section-2-4"
         label="2.4"
-        title="Program Çıktıları Benzerliği"
-        caption="Mezuniyet çıktılarının semantik (NLP) eşleşmesi. Hücreye gel — iki çıktının tam metni alttan açılır."
+        title="Program Çıktıları"
+        caption={
+          slugs.length === 1
+            ? "Bu üniversitenin mezuniyet kazanımları (program çıktıları) listesi."
+            : "Mezuniyet çıktılarının semantik (NLP) eşleşmesi. Hücreye gel — iki çıktının tam metni alttan açılır."
+        }
         delay={0.15}
       >
-        <OutcomesHeatmap pairs={outcomePairs} />
+        {slugs.length === 1 ? (
+          <SingleUniOutcomes slug={slugs[0]} department={selection.department} />
+        ) : (
+          <OutcomesHeatmap pairs={outcomePairs} />
+        )}
       </Section>
 
-      <Section
-        id="section-2-5"
-        label="2.5"
-        title="Akademik Kadro"
-        caption="Unvan dağılımı — her nokta bir akademisyen."
-        delay={0.2}
-        highlighted={overlay?.show_metric === "staff_bars"}
-      >
-        <StaffBars data={staff} loading={staffLoading} />
-      </Section>
+      {slugs.length >= 2 && (
+        <Section
+          id="section-2-5"
+          label="2.5"
+          title="Akademik Kadro"
+          caption="Unvan dağılımı — her nokta bir akademisyen."
+          delay={0.2}
+          highlighted={overlay?.show_metric === "staff_bars"}
+        >
+          <StaffBars data={staff} loading={staffLoading} />
+        </Section>
+      )}
     </section>
+  );
+}
+
+function SingleUniOutcomes({ slug, department: _department }: { slug: string; department: string }) {
+  void _department;
+  const { data, isLoading, error } = useSWR<UniversitySummary>(
+    ["summary-outcomes", slug],
+    () => api.universitySummary(slug),
+    { revalidateOnFocus: false }
+  );
+
+  if (isLoading) {
+    return (
+      <div className="space-y-2">
+        {[0, 1, 2, 3, 4, 5].map((i) => (
+          <div key={i} className="h-4 w-full skeleton rounded" />
+        ))}
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
+        Program çıktıları yüklenemedi.
+      </p>
+    );
+  }
+
+  const outcomes = data?.program_outcomes || [];
+  if (outcomes.length === 0) {
+    return (
+      <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
+        Bu üniversite için program çıktısı verisi yok.
+      </p>
+    );
+  }
+
+  return (
+    <ol
+      className="space-y-2.5 text-sm leading-relaxed"
+      style={{ counterReset: "po" }}
+    >
+      {outcomes.map((text, i) => (
+        <li
+          key={i}
+          className="grid grid-cols-[auto_1fr] gap-3 items-baseline"
+        >
+          <span className="font-mono text-[10px] uppercase tracking-wider text-[color:var(--color-ink-500)] tabular-nums">
+            P{i + 1}
+          </span>
+          <span className="text-[color:var(--color-ink-900)]">{text}</span>
+        </li>
+      ))}
+    </ol>
   );
 }

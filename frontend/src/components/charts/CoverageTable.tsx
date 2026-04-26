@@ -220,7 +220,7 @@ function ThreeUniMatrix({
           return (
             <UniqueColumn
               key={slug}
-              title={`Sadece ${uniShortName(slug, u?.name)}`}
+              title={`${uniShortName(slug, u?.name)}`}
               topics={unique}
               accent={uniColor(idx)}
             />

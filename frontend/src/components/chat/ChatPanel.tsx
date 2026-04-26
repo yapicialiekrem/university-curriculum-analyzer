@@ -29,10 +29,10 @@ import { useOverlay } from "@/lib/use-overlay";
 import { useSelection, uniColor, uniShortName } from "@/lib/use-selection";
 
 const SUGGESTIONS = [
-  "Hangi üniversite AI/ML alanında daha güçlü?",
-  "Matematik yükünü karşılaştır",
-  "Web ve mobil ders sayısı en yüksek olan üniversite?",
-  "Hangisi proje ağırlıklı?",
+  "Hangi üniversitede en çok profesör var?",
+  "AI alanında en çok ders sunan 5 üniversite",
+  "8000 sıralamayla yapay zekada hangi üniversite uygun?",
+  "Bilkent Üniversitesi'nin yazılım mühendisliği derslerini özetle",
 ];
 
 interface UserMsg {
@@ -187,12 +187,11 @@ export function ChatPanel() {
   const applyRecommendation = useCallback(
     (slugs: string[]) => {
       if (slugs.length === 0) return;
-      const next: { a: string; b: string; c: string | null } = {
+      setSelection({
         a: slugs[0] || selection.a,
         b: slugs[1] || selection.b,
         c: slugs[2] || null,
-      };
-      setSelection(next);
+      });
     },
     [selection.a, selection.b, setSelection]
   );
@@ -360,8 +359,9 @@ function Welcome({ onPick }: { onPick: (q: string) => void }) {
   return (
     <div className="space-y-4">
       <p className="text-sm font-serif italic leading-relaxed text-[color:var(--color-ink-700)]">
-        Merhaba — seçili üniversiteler hakkında sorulabilirim. Müfredatları
-        karşılaştırma, kategori derinliği, ders detayları, proje yoğunluğu...
+        Merhaba — Türk üniversitelerinin bilgisayar / yazılım / YBS
+        müfredatları hakkında sorabilirsin. Seçim zorunlu değil — istediğin
+        üniversite veya bölümü doğrudan adıyla ya da YKS sıralamanla yaz.
       </p>
       <div className="space-y-2">
         <p className="ui-label">Önerilen sorular</p>
