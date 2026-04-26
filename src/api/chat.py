@@ -77,8 +77,9 @@ async def chat(req: ChatRequest) -> dict:
 
     t0 = time.perf_counter()
 
-    # 1) Intent
-    intent = classify(question)
+    # 1) Intent — history varsa anaforik referansları çözmek için ilet
+    history_dicts = [t.model_dump() for t in (req.history or [])]
+    intent = classify(question, history=history_dicts)
 
     # ChatRequest'ten gelen kullanıcı bağlamı router'ın çıkarımını ezer:
     #   - selected_slugs varsa intent.universities boşsa onu kullan
@@ -102,10 +103,22 @@ async def chat(req: ChatRequest) -> dict:
             detail=f"Veri toplama başarısız: {type(e).__name__}",
         )
 
-    # 3) Cevap (LLM)
-    answer = generate_answer(question, context)
+    # 3) Cevap (LLM) — history zaten yukarıda hazırlandı
+    answer = generate_answer(question, context, history=history_dicts)
 
     latency_ms = int((time.perf_counter() - t0) * 1000)
+
+    # Aggregate ranked list'i frontend mini-chart için ham veriyle döndür
+    aggregate_data = None
+    if intent.type == "aggregate":
+        agg_ctx = (context or {}).get("aggregate") or {}
+        if agg_ctx.get("ranked"):
+            aggregate_data = {
+                "metric": agg_ctx.get("metric"),
+                "metric_label": agg_ctx.get("metric_label"),
+                "order": agg_ctx.get("order"),
+                "ranked": agg_ctx.get("ranked"),
+            }
 
     return {
         "text": answer["text"],
@@ -113,6 +126,7 @@ async def chat(req: ChatRequest) -> dict:
         "dashboard_update": answer["dashboard_update"],
         "follow_up_suggestions": answer["follow_up_suggestions"],
         "recommendation": answer.get("recommendation"),
+        "aggregate": aggregate_data,
         "meta": {
             "intent_type": intent.type,
             "universities_found": getattr(intent, "universities", []),

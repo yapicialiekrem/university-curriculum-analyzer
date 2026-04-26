@@ -133,6 +133,7 @@ export const api = {
       selectedSlugs?: string[];
       userRank?: number;
       goal?: string;
+      history?: Array<{ role: "user" | "assistant"; text: string }>;
     } = {}
   ) =>
     apiPost<import("./types").ChatResponse>("/api/chat", {
@@ -140,6 +141,7 @@ export const api = {
       selected_slugs: opts.selectedSlugs ?? undefined,
       user_rank: opts.userRank ?? undefined,
       goal: opts.goal ?? undefined,
+      history: opts.history ?? undefined,
     }),
 
   search: (query: string, opts: { top_k?: number; universities?: string[]; min_score?: number } = {}) =>
