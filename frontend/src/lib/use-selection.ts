@@ -16,19 +16,18 @@ const VALID_DEPTS: DepartmentCode[] = ["bilmuh", "yazmuh", "ybs"];
 
 const DEFAULT_DEPT: DepartmentCode = "bilmuh";
 
-// Dataset bizde olan üniversiteler arasında demo seçimi
-// (DASHBOARD_PROMPT örneklerinde "odtu" + "ieu" geçer ama dataset'imizde
-// metu + ekonomi olarak slug'lar var)
-const DEFAULT_A = "metu";
-const DEFAULT_B = "bilkent";
+// Default üniversite SEÇİMİ YOK — kullanıcı seçim yapana kadar dashboard
+// boş başlangıç state'inde kalır. Eski "metu+bilkent" otomatik kıyas çağrımı
+// kaldırıldı (kullanıcı isteği: 0/1/2/3 üni seçimi mümkün olsun).
 
 export interface Selection {
-  a: string;
-  b: string;
+  a: string | null;
+  b: string | null;
   c: string | null;
   department: DepartmentCode;
   // Yardımcılar
-  slugs: string[];          // [a, b] veya [a, b, c]
+  slugs: string[];          // doldurulu slot'ların listesi (0-3 üye)
+  isEmpty: boolean;         // 0 üni seçili mi?
   isFull: boolean;          // 3 üni seçili mi?
 }
 
@@ -37,30 +36,35 @@ export function useSelection() {
   const searchParams = useSearchParams();
 
   const selection: Selection = useMemo(() => {
-    const a = searchParams.get("a") || DEFAULT_A;
-    const b = searchParams.get("b") || DEFAULT_B;
-    const c = searchParams.get("c");
+    const a = searchParams.get("a") || null;
+    const b = searchParams.get("b") || null;
+    const c = searchParams.get("c") || null;
     const dept = (searchParams.get("dept") as DepartmentCode) || DEFAULT_DEPT;
-    const slugs = c ? [a, b, c] : [a, b];
+    const slugs = [a, b, c].filter((s): s is string => !!s);
     return {
       a,
       b,
       c,
       department: VALID_DEPTS.includes(dept) ? dept : DEFAULT_DEPT,
       slugs,
-      isFull: !!c,
+      isEmpty: slugs.length === 0,
+      isFull: slugs.length >= 3,
     };
   }, [searchParams]);
 
   const _push = useCallback(
     (next: Partial<Selection>) => {
       const qs = new URLSearchParams(searchParams.toString());
-      if (next.a !== undefined) qs.set("a", next.a);
-      if (next.b !== undefined) qs.set("b", next.b);
-      if (next.c !== undefined) {
-        if (next.c) qs.set("c", next.c);
-        else qs.delete("c");
-      }
+      // null → query param'dan kaldır; string → set
+      const apply = (key: "a" | "b" | "c") => {
+        if (next[key] === undefined) return;
+        const v = next[key];
+        if (v) qs.set(key, v);
+        else qs.delete(key);
+      };
+      apply("a");
+      apply("b");
+      apply("c");
       if (next.department !== undefined) qs.set("dept", next.department);
       router.replace(`?${qs}`, { scroll: false });
     },
@@ -74,27 +78,26 @@ export function useSelection() {
 
   const removeUniversity = useCallback(
     (slug: string) => {
-      // a/b zorunlu, c opsiyonel. a kaldırılırsa b → a, c → b.
-      if (slug === selection.a) {
-        if (selection.c) {
-          _push({ a: selection.b, b: selection.c, c: null });
-        }
-        // else: tek üniversite kalmaz, dokunma
-      } else if (slug === selection.b) {
-        if (selection.c) {
-          _push({ b: selection.c, c: null });
-        }
-      } else if (slug === selection.c) {
-        _push({ c: null });
-      }
+      // Hangi slot'ta olduğunu bul, kaldır, kalan slug'ları sıkıştır.
+      const remaining = selection.slugs.filter((s) => s !== slug);
+      _push({
+        a: remaining[0] || null,
+        b: remaining[1] || null,
+        c: remaining[2] || null,
+      });
     },
-    [_push, selection]
+    [_push, selection.slugs]
   );
 
   const addUniversity = useCallback(
     (slug: string) => {
       if (selection.slugs.includes(slug)) return;
-      if (!selection.c) {
+      // İlk boş slot'a yerleştir (a → b → c)
+      if (!selection.a) {
+        _push({ a: slug });
+      } else if (!selection.b) {
+        _push({ b: slug });
+      } else if (!selection.c) {
         _push({ c: slug });
       } else {
         // Zaten 3 var — ilk olanı düşürüp kaydır

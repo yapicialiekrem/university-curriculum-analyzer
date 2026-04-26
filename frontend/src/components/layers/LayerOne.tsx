@@ -35,12 +35,12 @@ export function LayerOne() {
     setSelection,
   } = useSelection();
   const { overlay } = useOverlay();
-  const { a, b, c, slugs, department } = selection;
+  const { a, b, c, slugs, department, isEmpty } = selection;
 
-  // Radar verisi
+  // Radar verisi — yalnız >=1 üni seçiliyse fetch
   const { data: radar, isLoading: radarLoading } = useSWR<RadarResponse>(
-    ["radar", a, b, c],
-    () => api.compareRadar(a, b, c || undefined),
+    !isEmpty ? ["radar", a, b, c] : null,
+    () => api.compareRadar(a as string, b || undefined, c || undefined),
     { revalidateOnFocus: false }
   );
 
@@ -69,49 +69,74 @@ export function LayerOne() {
         </div>
       </header>
 
-      {/* Üst strip: üniversite kartları yan yana (1-3 kart) */}
-      <div
-        className={`grid gap-3 lg:gap-4 mb-4 lg:mb-5 grid-cols-1 ${
-          slugs.length === 1
-            ? "sm:grid-cols-1"
-            : slugs.length === 2
-            ? "sm:grid-cols-2"
-            : "sm:grid-cols-2 lg:grid-cols-3"
-        }`}
-      >
-        {slugs.map((slug, idx) => (
-          <UniversitySummaryCard
-            key={slug}
-            slug={slug}
-            slotIndex={idx}
-            removable={idx === 2}
-            onRemove={() => removeUniversity(slug)}
-          />
-        ))}
-      </div>
+      {isEmpty ? (
+        <EmptyState />
+      ) : (
+        <>
+          {/* Üst strip: üniversite kartları yan yana (1-3 kart) */}
+          <div
+            className={`grid gap-3 lg:gap-4 mb-4 lg:mb-5 grid-cols-1 ${
+              slugs.length === 1
+                ? "sm:grid-cols-1 max-w-[480px]"
+                : slugs.length === 2
+                ? "sm:grid-cols-2"
+                : "sm:grid-cols-2 lg:grid-cols-3"
+            }`}
+          >
+            {slugs.map((slug, idx) => (
+              <UniversitySummaryCard
+                key={slug}
+                slug={slug}
+                slotIndex={idx}
+                removable
+                onRemove={() => removeUniversity(slug)}
+              />
+            ))}
+          </div>
 
-      {/* Altta radar — ortalı, kompakt; başlık tek satırda yan tarafta */}
-      <div
-        id="section-radar"
-        className={`card relative !p-3 lg:!p-4 flex flex-col items-center${
-          radarHighlighted ? " overlay-glow" : ""
-        }`}
-      >
-        <div className="absolute top-3 left-4 lg:top-4 lg:left-5 flex items-baseline gap-2 z-10">
-          <h2 className="font-serif text-base lg:text-lg leading-none tracking-tight">
-            10 eksende kapsam
-          </h2>
-          <span className="ui-label text-[10px]">Konu Kapsamı</span>
-        </div>
-        <div className="w-full flex items-center justify-center">
-          <CategoryRadar
-            data={radar}
-            loading={radarLoading}
-            highlight_axis={overlay?.highlight_category || null}
-          />
-        </div>
-      </div>
+          {/* Altta radar — ortalı, kompakt; başlık tek satırda yan tarafta */}
+          <div
+            id="section-radar"
+            className={`card relative !p-3 lg:!p-4 flex flex-col items-center${
+              radarHighlighted ? " overlay-glow" : ""
+            }`}
+          >
+            <div className="absolute top-3 left-4 lg:top-4 lg:left-5 flex items-baseline gap-2 z-10">
+              <h2 className="font-serif text-base lg:text-lg leading-none tracking-tight">
+                10 eksende kapsam
+              </h2>
+              <span className="ui-label text-[10px]">Konu Kapsamı</span>
+            </div>
+            <div className="w-full flex items-center justify-center">
+              <CategoryRadar
+                data={radar}
+                loading={radarLoading}
+                highlight_axis={overlay?.highlight_category || null}
+              />
+            </div>
+          </div>
+        </>
+      )}
     </section>
+  );
+}
+
+function EmptyState() {
+  return (
+    <div
+      className="card flex flex-col items-center justify-center text-center py-16 lg:py-24"
+      style={{ borderStyle: "dashed", borderColor: "var(--color-line)" }}
+    >
+      <p className="ui-label mb-2">Üniversite seçimi bekleniyor</p>
+      <h2 className="font-serif text-2xl tracking-tight max-w-md leading-tight">
+        Yukarıdaki seçiciden 1, 2 veya 3 üniversite ekle
+      </h2>
+      <p className="mt-3 text-sm italic font-serif text-[color:var(--color-ink-500)] max-w-md leading-relaxed">
+        Tek seçimle bir üniversitenin müfredatına bakabilir, iki/üç seçimle
+        karşılaştırma yapabilirsin. İstediğin zaman alttaki asistana doğrudan
+        soru da sorabilirsin.
+      </p>
+    </div>
   );
 }
 

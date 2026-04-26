@@ -78,6 +78,8 @@ export interface UniversitySummary {
   ranking_sira: number | null;
   /** YKS yerleşen sayısı (kontenjan dolumu, en iyi program için). Yoksa null. */
   ranking_kontenjan: number | null;
+  /** Program (mezuniyet) çıktıları — tek-uni görünümünde listelenir. */
+  program_outcomes?: string[];
 }
 
 // ─── /api/compare/radar ─────────────────────────────────────────────
