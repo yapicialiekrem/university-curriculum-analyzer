@@ -137,15 +137,20 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
 
 /**
  * Uzun eksen etiketlerini kısalt — radar kenarlarına sığsın diye.
- * "/" varsa ilk parçayı, "Mühendisliği" varsa "Müh." kısaltmasını kullanır.
+ * "/" varsa ilk parçayı, "Mühendisliği"→"Müh.", "Geliştirme"→"Gel."
+ * kısaltmalarını kullanır.
  */
 function shortenAxisLabel(value: string): string {
-  if (!value || value.length < 14) return value;
-  if (value.includes("/")) {
-    const first = value.split("/")[0].trim();
-    if (first.length >= 4) return first.replace("Mühendisliği", "Müh.");
+  if (!value) return value;
+  // Önce slash split (Sistem / Donanım → Sistem)
+  let out = value;
+  if (out.length >= 14 && out.includes("/")) {
+    const first = out.split("/")[0].trim();
+    if (first.length >= 4) out = first;
   }
-  return value.replace("Mühendisliği", "Müh.");
+  // Sonra uzun kelime kısaltmaları
+  out = out.replace("Mühendisliği", "Müh.").replace("Geliştirme", "Gel.");
+  return out;
 }
 
 /**

@@ -70,10 +70,17 @@ export function LayerTwo() {
   const u2Name = summaryAB.data?.[1]?.name;
   const u3Name = summaryAB.data?.[2]?.name;
 
-  // Tek üni → same-uni trick (backend uni1=uni2 kabul ediyor; tek panel render)
-  const { data: staff, isLoading: staffLoading } = useSWR<StaffComparison>(
+  // Akademik Kadro — 1, 2 veya 3 üni hepsinde çalışır.
+  // Backend `compareStaff(u1, u2)` 2-uni endpoint olduğu için tek üni'de
+  // same-uni trick (u1=u1) kullanıyoruz. 3 üni'de u3 için ayrı SWR.
+  const { data: staffAB, isLoading: staffABLoading } = useSWR<StaffComparison>(
     u1Name ? ["staff", u1Name, u2Name || u1Name] : null,
     () => api.compareStaff(u1Name!, u2Name || u1Name!),
+    { revalidateOnFocus: false }
+  );
+  const { data: staffC, isLoading: staffCLoading } = useSWR<StaffComparison>(
+    u3Name ? ["staff", u3Name, u3Name] : null,
+    () => api.compareStaff(u3Name!, u3Name!),
     { revalidateOnFocus: false }
   );
 
@@ -217,8 +224,23 @@ export function LayerTwo() {
       >
         {isEmpty ? (
           <SectionEmptyHint />
+        ) : slugs.length <= 2 ? (
+          <StaffBars
+            data={staffAB}
+            loading={staffABLoading}
+            singleMode={slugs.length === 1}
+          />
         ) : (
-          <StaffBars data={staff} loading={staffLoading} singleMode={slugs.length === 1} />
+          // 3 üni: StaffBars 2 paneli (u1+u2) + StaffBars singleMode (u3, slot c)
+          <div className="space-y-4">
+            <StaffBars data={staffAB} loading={staffABLoading} />
+            <StaffBars
+              data={staffC}
+              loading={staffCLoading}
+              singleMode
+              slotOffset={2}
+            />
+          </div>
         )}
       </Section>
     </section>
