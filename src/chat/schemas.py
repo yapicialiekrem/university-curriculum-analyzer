@@ -23,6 +23,17 @@ IntentType = Literal[
     "semantic",        # konu/kategori bazlı arama
     "detail",          # tek ders / üniversite detayı
     "general",         # sistem hakkında genel
+    "advisory",        # tavsiye / yönlendirme — kullanıcı profili + hedef
+]
+
+
+# Enrichment'tan gelen kategori anahtarları — advisory hedef alanları için.
+# CategoryFilter (router) ile karışmasın diye ayrı tutuldu (router daha kısa
+# bir set kullanıyor: ai/programming/math/systems/theory).
+GoalCategoryKey = Literal[
+    "ai_ml", "programming", "math", "systems", "theory",
+    "data_science", "security", "web_mobile", "software_eng",
+    "graphics_vision", "distributed", "info_systems",
 ]
 
 ComparisonMetric = Literal[
@@ -62,11 +73,26 @@ class Intent(BaseModel):
     needs_embedding: bool = False
     top_k: int = Field(10, ge=1, le=50)
     semantic_query: Optional[str] = None
+    # Advisory için — tavsiyenin temel parametreleri. Diğer intent türlerinde
+    # boş kalır; router prompt'undan gelir veya ChatRequest'ten override edilir.
+    goal_categories: list[GoalCategoryKey] = Field(default_factory=list)
+    user_rank: Optional[int] = Field(None, ge=1, le=2_000_000)
 
     @field_validator("universities", mode="before")
     @classmethod
     def _normalize_unis(cls, v: Any) -> list[str]:
         """None → []; string → [string]; listede None/boş'u at."""
+        if v is None:
+            return []
+        if isinstance(v, str):
+            v = [v]
+        if not isinstance(v, list):
+            return []
+        return [str(x).strip().lower() for x in v if x and str(x).strip()]
+
+    @field_validator("goal_categories", mode="before")
+    @classmethod
+    def _normalize_goals(cls, v: Any) -> list[str]:
         if v is None:
             return []
         if isinstance(v, str):
@@ -148,6 +174,29 @@ class DashboardUpdate(BaseModel):
         return {str(k): str(val) for k, val in v.items() if val is not None}
 
 
+class RecommendationCandidate(BaseModel):
+    """Tek bir tavsiye adayı — bir üniversite + uyum skoru + nedenler."""
+    model_config = ConfigDict(extra="ignore")
+
+    slug: str
+    name: str
+    fit_score: int = Field(ge=0, le=100)
+    reasons: list[str] = Field(default_factory=list)
+
+
+class Recommendation(BaseModel):
+    """Advisory cevabında structured tavsiye çıktısı.
+
+    Frontend bu alanı algılar → "Öneri kartı" render eder; LLM'in serbest
+    metni `text` alanında, makinece okunabilir öneri burada.
+    """
+    model_config = ConfigDict(extra="ignore")
+
+    top_pick: Optional[str] = None             # en iyi adayın slug'ı
+    ranked: list[RecommendationCandidate] = Field(default_factory=list)
+    rationale: Optional[str] = None            # 1-2 cümle özet
+
+
 class ChatResponse(BaseModel):
     """/api/chat endpoint cevabı."""
     model_config = ConfigDict(extra="ignore")
@@ -156,6 +205,9 @@ class ChatResponse(BaseModel):
     citations: list[Citation] = Field(default_factory=list)
     dashboard_update: Optional[DashboardUpdate] = None
     follow_up_suggestions: list[str] = Field(default_factory=list)
+    # Advisory intent için yapılandırılmış öneri. Diğer intent türlerinde
+    # null kalır; frontend null ise prose-only render eder.
+    recommendation: Optional[Recommendation] = None
 
     @field_validator("follow_up_suggestions", mode="before")
     @classmethod
@@ -174,8 +226,29 @@ class ChatResponse(BaseModel):
 # ═══════════════════════════════════════════════════════════════════════════
 
 class ChatRequest(BaseModel):
-    """POST /api/chat body."""
+    """POST /api/chat body.
+
+    Frontend'den gelen kullanıcı bağlamı opsiyoneldir; doldurulduğunda
+    advisory intent için somut tavsiye üretilebilir:
+      - selected_slugs: kullanıcının dashboard'da seçili olduğu üniversiteler
+      - user_rank: opsiyonel YKS sıralaması (advisory için filtre)
+      - goal: serbest metin "AI uzmanlaşmak istiyorum" gibi (router parser)
+    """
     model_config = ConfigDict(extra="ignore")
 
     question: str = Field(..., min_length=3, max_length=500)
-    session_id: Optional[str] = None   # v2'de kullanılacak; şimdilik yok
+    session_id: Optional[str] = None
+    selected_slugs: list[str] = Field(default_factory=list, max_length=3)
+    user_rank: Optional[int] = Field(None, ge=1, le=2_000_000)
+    goal: Optional[str] = Field(None, max_length=200)
+
+    @field_validator("selected_slugs", mode="before")
+    @classmethod
+    def _normalize_slugs(cls, v: Any) -> list[str]:
+        if v is None:
+            return []
+        if isinstance(v, str):
+            v = [v]
+        if not isinstance(v, list):
+            return []
+        return [str(x).strip().lower() for x in v if x and str(x).strip()]

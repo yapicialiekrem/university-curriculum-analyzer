@@ -59,14 +59,21 @@ def _slug_to_name_map() -> dict[str, str]:
     if not DATA_DIR.exists():
         logger.warning("Data dir yok: %s", DATA_DIR)
         return mapping
+    # data/ranking/*.json gibi yardımcı dosyalar list-of-objects formatı —
+    # üniversite şeması değil, atla.
+    valid_folders = {"bilgisayar", "yazilim", "ybs"}
     for path in DATA_DIR.rglob("*.json"):
         if not path.is_file():
+            continue
+        if path.parent.name not in valid_folders:
             continue
         try:
             with path.open("r", encoding="utf-8") as f:
                 d = json.load(f)
         except Exception as e:
             logger.warning("%s okunamadı: %s", path.name, e)
+            continue
+        if not isinstance(d, dict):
             continue
         name = d.get("university_name") or d.get("uni_name")
         if not name:
@@ -475,6 +482,224 @@ def _build_general() -> dict:
 # PUBLIC
 # ═══════════════════════════════════════════════════════════════════════════
 
+# ═══════════════════════════════════════════════════════════════════════════
+# ADVISORY — Tavsiye / yönlendirme kolu
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _build_advisory(intent: Intent) -> dict:
+    """Tavsiye intent'i için cross-üniversite veri toplar.
+
+    Pipeline:
+      1) Tüm üniversiteleri yükle (analytics store)
+      2) Hedef kategoriler için specialization_depth (ders + AKTS)
+      3) data/ranking/ → YKS başarı sırası
+      4) Skorla:
+           specialization_score (0-60): hedef kategorilerdeki AKTS toplamı
+                                          mevcut max'a normalize edildi
+           rank_match_score (0-40): user_rank verilmişse, üni sıralaması
+                                      ile mesafe inverse (≤ %50 fark = full)
+                                      verilmemişse 0 (skor 60'lık olur)
+      5) Top 5 aday + her biri için 2-4 kısa "reason" döner
+
+    Bu fonksiyon LLM kullanmaz; serbest metni üretmek answer prompt'unun işi.
+    """
+    # Geç importlar — circular dependency önle
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        try:
+            from src.analytics.loader import get_store
+        except Exception as e:
+            return {"error": f"analytics store yüklenemedi: {e}"}
+
+    try:
+        from api.ranking import get_ranking
+    except ImportError:
+        try:
+            from src.api.ranking import get_ranking  # type: ignore
+        except Exception:
+            get_ranking = None  # ranking yoksa skip edilir
+
+    store = get_store()
+    goal_keys = list(intent.goal_categories) or []
+    # Hiç goal yoksa heuristik: semantic_query varsa onu kullan, yoksa
+    # tüm teknik kategoriler eşit ağırlıkta
+    if not goal_keys and intent.filters.category:
+        goal_keys = [_router_to_enrichment(intent.filters.category)]
+
+    candidates: list[dict] = []
+    for slug in store.list_slugs(department=None):
+        uni = store.get(slug)
+        if not uni:
+            continue
+        summary = uni.get("_summary") or {}
+        spec = summary.get("specialization_depth") or {}
+
+        # Hedef kategorilerin AKTS + ders toplamı (advisory ratings)
+        goal_courses = 0
+        goal_ects = 0
+        per_goal: list[dict] = []
+        cats_for_score = goal_keys if goal_keys else list(spec.keys())
+        for cat in cats_for_score:
+            entry = spec.get(cat) or {}
+            req_n = int(entry.get("required") or 0)
+            el_n = int(entry.get("elective") or 0)
+            n = req_n + el_n
+            # AKTS — _summary'de yoksa courses üzerinden hesapla
+            ects = _compute_category_ects(uni, cat)
+            goal_courses += n
+            goal_ects += ects
+            per_goal.append({
+                "category": cat,
+                "courses": n,
+                "ects": ects,
+                "required": req_n,
+                "elective": el_n,
+            })
+
+        ranking = None
+        if get_ranking is not None:
+            try:
+                ranking = get_ranking(
+                    slug=slug,
+                    department=uni.get("_department"),
+                    university_name=uni.get("university_name") or uni.get("uni_name"),
+                )
+            except Exception:
+                ranking = None
+
+        candidates.append({
+            "slug": slug,
+            "name": uni.get("university_name") or uni.get("uni_name") or slug,
+            "department": uni.get("department"),
+            "department_code": uni.get("_department"),
+            "language": uni.get("language"),
+            "ranking_sira": (ranking or {}).get("basari_sirasi"),
+            "ranking_kontenjan": (ranking or {}).get("yerlesen_sayisi"),
+            "goal_courses": goal_courses,
+            "goal_ects": goal_ects,
+            "per_goal": per_goal,
+            "modernity_score": summary.get("modernity_score"),
+            "english_resources_ratio": summary.get("english_resources_ratio"),
+            "academic_staff_total": _count_staff(uni),
+        })
+
+    # Skorla
+    max_ects = max((c["goal_ects"] for c in candidates), default=1) or 1
+    user_rank = intent.user_rank
+    for c in candidates:
+        spec_score = round(60 * (c["goal_ects"] / max_ects))
+        if user_rank and c["ranking_sira"]:
+            # %50 mesafe içinde tam puan; %200 dışı → 0
+            ratio = abs(c["ranking_sira"] - user_rank) / max(user_rank, 1)
+            if ratio <= 0.5:
+                rank_score = 40
+            elif ratio <= 1.0:
+                rank_score = 25
+            elif ratio <= 2.0:
+                rank_score = 10
+            else:
+                rank_score = 0
+        elif user_rank and not c["ranking_sira"]:
+            rank_score = 0  # bilinmeyen → skip
+        else:
+            rank_score = 0  # rank yok → spec ağırlıklı
+        c["fit_score"] = min(100, spec_score + rank_score)
+
+        # Reasons üret — frontend ve LLM için makinece-okunabilir 2-4 not
+        reasons: list[str] = []
+        if goal_keys:
+            tops = sorted(c["per_goal"], key=lambda x: -x["ects"])[:2]
+            for t in tops:
+                if t["ects"] > 0:
+                    cat_label = _category_label(t["category"])
+                    reasons.append(
+                        f"{cat_label} alanında {t['courses']} ders, {t['ects']} AKTS"
+                    )
+        if c["ranking_sira"] is not None:
+            r_str = f"YKS başarı sırası ~{c['ranking_sira']:,}".replace(",", ".")
+            if user_rank:
+                diff = c["ranking_sira"] - user_rank
+                if abs(diff) / max(user_rank, 1) <= 0.5:
+                    r_str += " (sizin sıralamanıza uygun)"
+                elif diff > 0:
+                    r_str += " (sizin sıralamanızdan daha düşük puan ister)"
+                else:
+                    r_str += " (sizin sıralamanızdan daha yüksek puan ister)"
+            reasons.append(r_str)
+        if c.get("academic_staff_total"):
+            reasons.append(f"Akademik kadro toplam {c['academic_staff_total']} kişi")
+        c["reasons"] = reasons[:4]
+
+    candidates.sort(key=lambda c: -c["fit_score"])
+    top = candidates[:5]
+
+    return {
+        "user_rank": user_rank,
+        "goal_categories": goal_keys,
+        "candidates": top,
+        "total_universities_evaluated": len(candidates),
+    }
+
+
+_ENRICHMENT_CAT_LABELS = {
+    "ai_ml": "Yapay Zeka",
+    "programming": "Programlama",
+    "math": "Matematik",
+    "systems": "Sistem",
+    "theory": "Hesaplama Kuramı",
+    "data_science": "Veri Bilimi",
+    "security": "Güvenlik",
+    "web_mobile": "Web/Mobil",
+    "software_eng": "Yazılım Mühendisliği",
+    "graphics_vision": "Grafik/Görüntü",
+    "distributed": "Dağıtık Sistemler",
+    "info_systems": "Bilgi Sistemleri",
+}
+
+
+def _category_label(key: str) -> str:
+    return _ENRICHMENT_CAT_LABELS.get(key, key)
+
+
+def _router_to_enrichment(cat: str) -> str:
+    """Router'ın kısa CategoryFilter ('ai') → enrichment key ('ai_ml')."""
+    return {
+        "ai": "ai_ml",
+        "programming": "programming",
+        "math": "math",
+        "systems": "systems",
+        "theory": "theory",
+    }.get(cat, cat)
+
+
+def _compute_category_ects(uni: dict, cat: str) -> int:
+    """Verilen üniversite için bir kategorinin (AKTS) toplamı. _enriched kullan."""
+    total = 0
+    for c in uni.get("courses") or []:
+        enr = c.get("_enriched") or {}
+        if cat in (enr.get("categories") or []):
+            try:
+                total += int(c.get("ects") or 0)
+            except (TypeError, ValueError):
+                pass
+    return total
+
+
+def _count_staff(uni: dict) -> int:
+    s = uni.get("academic_staff") or {}
+    if isinstance(s, dict):
+        try:
+            return int(s.get("total") or 0)
+        except (TypeError, ValueError):
+            return 0
+    return 0
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PUBLIC
+# ═══════════════════════════════════════════════════════════════════════════
+
 def build_context(intent: Intent) -> dict:
     """Intent → yapısal veri dict (LLM girdisi).
 
@@ -489,6 +714,7 @@ def build_context(intent: Intent) -> dict:
           "related_courses": [...]         # comparison + needs_embedding
           "search_results": {...}          # semantic
           "detail": {...}                  # detail
+          "advisory": {...}                # advisory
           "system_info": {...}             # general
         }
     """
@@ -515,6 +741,9 @@ def build_context(intent: Intent) -> dict:
 
     elif intent.type == "detail":
         ctx["detail"] = _build_detail(intent, found)
+
+    elif intent.type == "advisory":
+        ctx["advisory"] = _build_advisory(intent)
 
     else:  # general
         ctx["system_info"] = _build_general()
