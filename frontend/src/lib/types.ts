@@ -297,6 +297,38 @@ export interface UniversityResourcesResponse {
   resources: UniversityResource[];
 }
 
+// ─── /api/universities/{slug} (tek-üni full ders detayı) ─────────────
+
+export interface CourseFull {
+  code?: string | null;
+  name?: string | null;
+  ects?: number | null;
+  semester?: number | null;
+  type?: string | null;
+  language?: string | null;
+  description?: string | null;
+  weekly_topics?: string[] | null;
+  prerequisites?: string[] | null;
+  _enriched?: {
+    categories?: string[];
+    bloom_distribution?: Record<string, number>;
+    [key: string]: unknown;
+  };
+  [key: string]: unknown;
+}
+
+export interface UniversityFull {
+  slug: string;
+  university_name?: string;
+  uni_name?: string;
+  department?: string;
+  department_code?: DepartmentCode;
+  language?: string;
+  type?: string;
+  courses?: CourseFull[];
+  [key: string]: unknown;
+}
+
 // ─── /api/search ───────────────────────────────────────────────────
 
 export interface SearchResult {
