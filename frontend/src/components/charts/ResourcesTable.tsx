@@ -8,7 +8,7 @@
  */
 
 import type { ResourcesResponse } from "@/lib/types";
-import { uniColor } from "@/lib/use-selection";
+import { uniColor, uniShortName } from "@/lib/use-selection";
 
 export interface ResourcesTableProps {
   data: ResourcesResponse | undefined;
@@ -50,10 +50,10 @@ export function ResourcesTable({ data, loading }: ResourcesTableProps) {
             >
               <th className="py-2 pr-4">Kaynak</th>
               <th className="py-2 px-2 text-center" style={{ color: uniColor(0) }}>
-                {data.university1.name.split(" ")[0]}
+                {uniShortName("", data.university1.name)}
               </th>
               <th className="py-2 px-2 text-center" style={{ color: uniColor(1) }}>
-                {data.university2.name.split(" ")[0]}
+                {uniShortName("", data.university2.name)}
               </th>
             </tr>
           </thead>

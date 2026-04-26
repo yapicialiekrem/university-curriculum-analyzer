@@ -102,9 +102,14 @@ export const api = {
       `/api/compare/staff?uni1=${encodeURIComponent(uni1)}&uni2=${encodeURIComponent(uni2)}`
     ),
 
-  compareProgramOutcomes: (uni1: string, uni2: string, top_n: number = 8) =>
+  compareProgramOutcomes: (
+    uni1: string,
+    uni2: string,
+    top_n: number = 8,
+    department?: string,
+  ) =>
     apiGet<import("./types").ProgramOutcomesResponse>(
-      `/api/compare/program-outcomes?uni1=${encodeURIComponent(uni1)}&uni2=${encodeURIComponent(uni2)}&top_n=${top_n}`
+      `/api/compare/program-outcomes?uni1=${encodeURIComponent(uni1)}&uni2=${encodeURIComponent(uni2)}&top_n=${top_n}${department ? `&department=${encodeURIComponent(department)}` : ""}`
     ),
 
   compareCurriculumCoverage: (uni1: string, uni2: string, top_n: number = 20) =>

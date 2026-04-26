@@ -75,6 +75,7 @@ export function LayerTwo() {
   // Staff + Outcomes — Neo4j endpoint'leri uni adıyla çağırır
   const u1Name = summaryAB.data?.[0]?.name;
   const u2Name = summaryAB.data?.[1]?.name;
+  const u3Name = summaryAB.data?.[2]?.name;
 
   const { data: staff, isLoading: staffLoading } = useSWR<StaffComparison>(
     u1Name && u2Name ? ["staff", u1Name, u2Name] : null,
@@ -82,12 +83,57 @@ export function LayerTwo() {
     { revalidateOnFocus: false }
   );
 
-  const { data: outcomes, isLoading: outcomesLoading } =
+  // 3 üni varsa 3 ikili (A-B, A-C, B-C) program çıktısı karşılaştırması.
+  // Her ikili için ayrı SWR çağrısı — backend tek-ikili endpoint sunuyor.
+  const { data: outcomesAB, isLoading: outcomesABLoading } =
     useSWR<ProgramOutcomesResponse>(
-      u1Name && u2Name ? ["outcomes", u1Name, u2Name] : null,
-      () => api.compareProgramOutcomes(u1Name!, u2Name!, 8),
+      u1Name && u2Name ? ["outcomes", u1Name, u2Name, selection.department] : null,
+      () => api.compareProgramOutcomes(u1Name!, u2Name!, 8, selection.department),
       { revalidateOnFocus: false }
     );
+  const { data: outcomesAC, isLoading: outcomesACLoading } =
+    useSWR<ProgramOutcomesResponse>(
+      u1Name && u3Name ? ["outcomes", u1Name, u3Name, selection.department] : null,
+      () => api.compareProgramOutcomes(u1Name!, u3Name!, 8, selection.department),
+      { revalidateOnFocus: false }
+    );
+  const { data: outcomesBC, isLoading: outcomesBCLoading } =
+    useSWR<ProgramOutcomesResponse>(
+      u2Name && u3Name ? ["outcomes", u2Name, u3Name, selection.department] : null,
+      () => api.compareProgramOutcomes(u2Name!, u3Name!, 8, selection.department),
+      { revalidateOnFocus: false }
+    );
+
+  const outcomePairs: import("@/components/charts/OutcomesHeatmap").PairwiseOutcomes[] = [
+    {
+      slotA: 0,
+      slotB: 1,
+      slugA: slugs[0],
+      slugB: slugs[1],
+      data: outcomesAB,
+      loading: outcomesABLoading,
+    },
+  ];
+  if (u3Name) {
+    outcomePairs.push(
+      {
+        slotA: 0,
+        slotB: 2,
+        slugA: slugs[0],
+        slugB: slugs[2],
+        data: outcomesAC,
+        loading: outcomesACLoading,
+      },
+      {
+        slotA: 1,
+        slotB: 2,
+        slugA: slugs[1],
+        slugB: slugs[2],
+        data: outcomesBC,
+        loading: outcomesBCLoading,
+      },
+    );
+  }
 
   return (
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-16 space-y-12">
@@ -143,7 +189,7 @@ export function LayerTwo() {
         caption="Mezuniyet çıktılarının semantik (NLP) eşleşmesi. Hücreye gel — iki çıktının tam metni alttan açılır."
         delay={0.15}
       >
-        <OutcomesHeatmap data={outcomes} loading={outcomesLoading} />
+        <OutcomesHeatmap pairs={outcomePairs} />
       </Section>
 
       <Section

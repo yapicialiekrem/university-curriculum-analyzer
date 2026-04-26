@@ -10,7 +10,7 @@
  */
 
 import type { CurriculumCoverageResponse } from "@/lib/types";
-import { uniColor } from "@/lib/use-selection";
+import { uniColor, uniShortName } from "@/lib/use-selection";
 
 export interface CurriculumCoverageHeatmapProps {
   data: CurriculumCoverageResponse | undefined;
@@ -37,10 +37,10 @@ export function CurriculumCoverageHeatmap({
     <div className="space-y-3">
       <div className="flex flex-wrap items-baseline gap-3 text-xs">
         <span className="font-mono" style={{ color: uniColor(0) }}>
-          {data.university1.name.split(" ")[0]} — {data.university1.total_topics} konu
+          {uniShortName("", data.university1.name)} — {data.university1.total_topics} konu
         </span>
         <span className="font-mono" style={{ color: uniColor(1) }}>
-          {data.university2.name.split(" ")[0]} — {data.university2.total_topics} konu
+          {uniShortName("", data.university2.name)} — {data.university2.total_topics} konu
         </span>
       </div>
 

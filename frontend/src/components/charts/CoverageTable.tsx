@@ -15,7 +15,7 @@
 import { useMemo, useState } from "react";
 
 import type { CategoryKey, CoverageResponse } from "@/lib/types";
-import { uniColor } from "@/lib/use-selection";
+import { uniColor, uniShortName } from "@/lib/use-selection";
 
 const CATEGORY_LABELS: Record<string, string> = {
   ai_ml: "Yapay Zeka / ML",
@@ -157,7 +157,7 @@ function CategoryView({
             if (!u || unique.length === 0) {
               return (
                 <div key={slug}>
-                  <h4 className="ui-label mb-2">Sadece {u?.name?.split(" ")[0] || slug}</h4>
+                  <h4 className="ui-label mb-2">Sadece {uniShortName(slug, u?.name)}</h4>
                   <p className="text-xs italic text-[color:var(--color-ink-500)]">— bu kategoride özel konu yok</p>
                 </div>
               );
@@ -166,7 +166,7 @@ function CategoryView({
               <div key={slug}>
                 <div className="flex items-center gap-1.5 mb-2">
                   <span aria-hidden className="w-1.5 h-1.5 rounded-full" style={{ background: uniColor(idx) }} />
-                  <h4 className="ui-label">Sadece {u.name.split(" ")[0]}</h4>
+                  <h4 className="ui-label">Sadece {uniShortName(slug, u.name)}</h4>
                 </div>
                 <ul className="flex flex-wrap gap-1.5">
                   {unique.slice(0, 20).map((t) => (
