@@ -74,6 +74,18 @@ AggregateMetric = Literal[
     "ranking.yerlesen_sayisi",
     # Önkoşul yoğunluğu
     "courses_with_prereqs",
+    # Bloom (LLM-enriched öğrenme çıktıları, 6 seviye yüzdesi)
+    "bloom.remember.pct",
+    "bloom.understand.pct",
+    "bloom.apply.pct",
+    "bloom.analyze.pct",
+    "bloom.evaluate.pct",
+    "bloom.create.pct",
+    # Kaynaklar
+    "resources.unique_count",
+    # Dil
+    "language.english_courses",
+    "language.turkish_courses",
 ]
 
 

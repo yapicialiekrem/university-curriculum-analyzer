@@ -419,14 +419,83 @@ def _build_semantic(intent: Intent) -> dict:
     }
 
 
-def _build_detail(intent: Intent, resolved: list[dict]) -> dict:
+def _find_course_in_store(course_code: str) -> Optional[dict]:
+    """Verilen ders kodunu tüm üniversitelerin courses[] listesinde ara.
+
+    Eşleşme: kod normalize edilir (boşluk + büyük/küçük). İlk eşleşmeyi
+    döndürür — aynı kodun iki uni'de olması nadir; her ikisi farklı içerik.
+    """
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        try:
+            from src.analytics.loader import get_store  # type: ignore
+        except Exception:
+            return None
+    store = get_store()
+    target = course_code.replace(" ", "").upper().strip()
+    for slug in store.list_slugs(department=None):
+        uni = store.get(slug)
+        if not uni:
+            continue
+        for c in uni.get("courses") or []:
+            code = (c.get("code") or "").replace(" ", "").upper()
+            if code == target:
+                return {
+                    "code": c.get("code"),
+                    "name": c.get("name"),
+                    "ects": c.get("ects"),
+                    "semester": c.get("semester"),
+                    "type": c.get("type"),
+                    "language": c.get("language"),
+                    "description": c.get("description"),
+                    "purpose": c.get("purpose"),
+                    "weekly_topics": c.get("weekly_topics") or [],
+                    "learning_outcomes": c.get("learning_outcomes") or [],
+                    "prerequisites": c.get("prerequisites") or [],
+                    "resources": c.get("resources") or [],
+                    "categories": (c.get("_enriched") or {}).get("categories") or [],
+                    "bloom_level": (c.get("_enriched") or {}).get("bloom_level"),
+                    "modernity_score": (c.get("_enriched") or {}).get("modernity_score"),
+                    "university": uni.get("university_name") or uni.get("uni_name"),
+                    "university_slug": slug,
+                }
+    return None
+
+
+def _extract_course_code(text: str) -> Optional[str]:
+    """Soru metninde tipik ders kodu pattern'lerini ara.
+    "CENG 483", "cs101", "BIL 372", "MATH-260" hepsini yakalar.
+    """
+    import re
+    m = re.search(r"\b([A-Za-zĞğÜüŞşİıÖöÇç]{2,5})[\s\-]?(\d{3,4})\b", text)
+    if not m:
+        return None
+    return f"{m.group(1).upper()} {m.group(2)}"
+
+
+def _build_detail(intent: Intent, resolved: list[dict], question: Optional[str] = None) -> dict:
     """Spesifik ders/üniversite detayı.
 
     Strateji:
-        - Üniversite verildiyse: o bölümün özeti + örnek dersler.
-        - Üniversite yok ama semantic_query varsa: top-5 semantik arama.
-        - Hiçbiri yoksa: açık hata.
+        1. Sorudan ders kodu çıkarsa: tam ders detayı (haftalık konular,
+           öğrenim çıktıları, önkoşullar, kaynak, Bloom seviyesi).
+        2. Üniversite verildiyse: o bölümün özeti + örnek dersler.
+        3. Üniversite yok ama semantic_query varsa: top-5 semantik arama.
+        4. Hiçbiri yoksa: açık hata.
     """
+    # 1) Ders kodu detect — orijinal soru, semantic_query, ya da semantic search
+    code_hint = None
+    for source in (question, intent.semantic_query):
+        if source:
+            code_hint = _extract_course_code(source)
+            if code_hint:
+                break
+    if code_hint:
+        course = _find_course_in_store(code_hint)
+        if course:
+            return {"course": course}
+
     if resolved:
         engine = _get_engine()
         if engine is None:
@@ -781,7 +850,57 @@ def _extract_metric(uni: dict, metric: str) -> Optional[float]:
                 n += 1
         return float(n)
 
+    if metric.startswith("bloom."):
+        # bloom.remember.pct → %değer (0-100). Her ders _enriched.bloom_distribution
+        # alanından AKTS-ağırlıklı toplam.
+        parts = metric.split(".")
+        if len(parts) < 3:
+            return None
+        level = parts[1]  # remember/understand/apply/analyze/evaluate/create
+        total_weight = 0.0
+        weighted_sum = 0.0
+        for c in uni.get("courses") or []:
+            enr = c.get("_enriched") or {}
+            dist = enr.get("bloom_distribution") or {}
+            try:
+                ects = float(c.get("ects") or 0)
+                pct = float(dist.get(level) or 0)
+                total_weight += ects
+                weighted_sum += ects * pct
+            except (TypeError, ValueError):
+                continue
+        if total_weight <= 0:
+            return None
+        return round(weighted_sum / total_weight * 100, 1)
+
+    if metric == "resources.unique_count":
+        # Tüm derslerde geçen unique kaynak sayısı (kitap/makale)
+        seen: set[str] = set()
+        for c in uni.get("courses") or []:
+            for r in c.get("resources") or []:
+                if isinstance(r, str) and r.strip():
+                    seen.add(r.strip().lower())
+        return float(len(seen))
+
+    if metric == "language.english_courses":
+        return float(_count_courses_by_lang(uni, "english"))
+    if metric == "language.turkish_courses":
+        return float(_count_courses_by_lang(uni, "turkish"))
+
     return None
+
+
+def _count_courses_by_lang(uni: dict, target: str) -> int:
+    """Hedef dile göre ders sayısı. target = "english" | "turkish"."""
+    en_set = {"i̇ngilizce", "ingilizce", "english", "en"}
+    tr_set = {"türkçe", "turkce", "turkish", "tr"}
+    target_set = en_set if target == "english" else tr_set
+    n = 0
+    for c in uni.get("courses") or []:
+        lang = (c.get("language") or "").strip().lower()
+        if lang in target_set:
+            n += 1
+    return n
 
 
 _METRIC_LABELS: dict[str, str] = {
@@ -799,6 +918,15 @@ _METRIC_LABELS: dict[str, str] = {
     "ranking.basari_sirasi": "YKS başarı sırası (düşük = seçici)",
     "ranking.yerlesen_sayisi": "Yerleşen kişi sayısı (kontenjan)",
     "courses_with_prereqs": "Önkoşulu olan ders sayısı",
+    "bloom.remember.pct": "Hatırla seviyesi yoğunluğu (%)",
+    "bloom.understand.pct": "Anla seviyesi yoğunluğu (%)",
+    "bloom.apply.pct": "Uygula seviyesi yoğunluğu (%)",
+    "bloom.analyze.pct": "Analiz et seviyesi yoğunluğu (%)",
+    "bloom.evaluate.pct": "Değerlendir seviyesi yoğunluğu (%)",
+    "bloom.create.pct": "Yarat seviyesi yoğunluğu (%)",
+    "resources.unique_count": "Farklı kaynak (kitap/makale) sayısı",
+    "language.english_courses": "İngilizce ders sayısı",
+    "language.turkish_courses": "Türkçe ders sayısı",
 }
 
 
@@ -871,8 +999,12 @@ def _build_aggregate(intent: Intent) -> dict:
 # PUBLIC
 # ═══════════════════════════════════════════════════════════════════════════
 
-def build_context(intent: Intent) -> dict:
+def build_context(intent: Intent, question: Optional[str] = None) -> dict:
     """Intent → yapısal veri dict (LLM girdisi).
+
+    `question` parametresi opsiyoneldir; geçilirse detail builder'da ders kodu
+    extraction için orijinal metni de tarar (router semantic_query alanını
+    bazen boş bırakır).
 
     Dönüş şeması:
         {
@@ -911,7 +1043,7 @@ def build_context(intent: Intent) -> dict:
         ctx["search_results"] = _build_semantic(intent)
 
     elif intent.type == "detail":
-        ctx["detail"] = _build_detail(intent, found)
+        ctx["detail"] = _build_detail(intent, found, question=question)
 
     elif intent.type == "advisory":
         ctx["advisory"] = _build_advisory(intent)
