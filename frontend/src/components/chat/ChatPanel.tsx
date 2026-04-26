@@ -18,8 +18,9 @@ import { ArrowRight, Sparkles, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { api } from "@/lib/api";
-import type { ChatResponse, Citation, DashboardUpdate } from "@/lib/types";
+import type { ChatResponse, Citation, DashboardUpdate, Recommendation } from "@/lib/types";
 import { useOverlay } from "@/lib/use-overlay";
+import { useSelection, uniColor, uniShortName } from "@/lib/use-selection";
 
 const SUGGESTIONS = [
   "Hangi üniversite AI/ML alanında daha güçlü?",
@@ -37,6 +38,7 @@ interface AssistantMsg {
   text: string;
   citations: Citation[];
   followUps: string[];
+  recommendation?: Recommendation | null;
   meta?: ChatResponse["meta"];
   /** typewriter effect için — false: hâlâ yazılıyor, true: tam göründü */
   done: boolean;
@@ -53,6 +55,9 @@ export function ChatPanel() {
   const inputRef = useRef<HTMLInputElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const { setOverlay } = useOverlay();
+  const { selection, setSelection } = useSelection();
+  const [userRank, setUserRank] = useState<string>("");
+  const [showRankInput, setShowRankInput] = useState(false);
 
   // Auto-scroll mesajların altına
   useEffect(() => {
@@ -84,7 +89,13 @@ export function ChatPanel() {
       setMessages((m) => [...m, { role: "user", text: q }, { role: "loading" }]);
 
       try {
-        const resp: ChatResponse = await api.chat(q);
+        const parsedRank = userRank.trim()
+          ? parseInt(userRank.replace(/[^\d]/g, ""), 10)
+          : undefined;
+        const resp: ChatResponse = await api.chat(q, {
+          selectedSlugs: selection.slugs,
+          userRank: parsedRank && parsedRank > 0 ? parsedRank : undefined,
+        });
         // Cevabı önce boş text + done=false ile ekle, sonra typewriter
         // ile karakter karakter doldur (DASHBOARD_PROMPT "streaming" — gerçek
         // SSE değil, client-side simülasyon. Token sayısı az, doğal hızda).
@@ -97,6 +108,7 @@ export function ChatPanel() {
               text: "",
               citations: resp.citations || [],
               followUps: resp.follow_up_suggestions || [],
+              recommendation: resp.recommendation || null,
               meta: resp.meta,
               done: false,
             },
@@ -148,7 +160,21 @@ export function ChatPanel() {
         console.error("Chat hatası:", e);
       }
     },
-    [setOverlay]
+    [setOverlay, selection.slugs, userRank]
+  );
+
+  /** Recommendation kartından "ödev olarak seç" — slug'ları a/b/c'ye yansıt. */
+  const applyRecommendation = useCallback(
+    (slugs: string[]) => {
+      if (slugs.length === 0) return;
+      const next: { a: string; b: string; c: string | null } = {
+        a: slugs[0] || selection.a,
+        b: slugs[1] || selection.b,
+        c: slugs[2] || null,
+      };
+      setSelection(next);
+    },
+    [selection.a, selection.b, setSelection]
   );
 
   return (
@@ -231,8 +257,53 @@ export function ChatPanel() {
               >
                 {messages.length === 0 && <Welcome onPick={submit} />}
                 {messages.map((m, i) => (
-                  <MessageBubble key={i} msg={m} onPickFollowUp={submit} />
+                  <MessageBubble
+                    key={i}
+                    msg={m}
+                    onPickFollowUp={submit}
+                    onApplyRecommendation={applyRecommendation}
+                  />
                 ))}
+              </div>
+
+              {/* Opsiyonel YKS sırası girişi — advisory için context */}
+              <div
+                className="px-4 py-2 border-t flex items-center gap-2 text-xs"
+                style={{ borderColor: "var(--color-line)" }}
+              >
+                {showRankInput ? (
+                  <>
+                    <label className="ui-label text-[9px] flex-shrink-0">
+                      YKS sıralamam
+                    </label>
+                    <input
+                      type="text"
+                      inputMode="numeric"
+                      value={userRank}
+                      onChange={(e) => setUserRank(e.target.value)}
+                      placeholder="örn 8000"
+                      className="flex-1 bg-transparent outline-none border-b text-sm py-0.5 tabular-nums"
+                      style={{ borderColor: "var(--color-line)" }}
+                    />
+                    <button
+                      onClick={() => {
+                        setShowRankInput(false);
+                        setUserRank("");
+                      }}
+                      className="text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)]"
+                      title="Kaldır"
+                    >
+                      <X size={12} />
+                    </button>
+                  </>
+                ) : (
+                  <button
+                    onClick={() => setShowRankInput(true)}
+                    className="text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] italic font-serif"
+                  >
+                    + YKS sıralamamı ekle (tavsiyeleri kişiselleştir)
+                  </button>
+                )}
               </div>
 
               {/* Input */}
@@ -302,9 +373,11 @@ function Welcome({ onPick }: { onPick: (q: string) => void }) {
 function MessageBubble({
   msg,
   onPickFollowUp,
+  onApplyRecommendation,
 }: {
   msg: Msg;
   onPickFollowUp: (q: string) => void;
+  onApplyRecommendation: (slugs: string[]) => void;
 }) {
   if (msg.role === "user") {
     return (
@@ -371,6 +444,13 @@ function MessageBubble({
         </motion.div>
       )}
 
+      {showSupporting && msg.recommendation && msg.recommendation.ranked.length > 0 && (
+        <RecommendationCard
+          rec={msg.recommendation}
+          onApply={onApplyRecommendation}
+        />
+      )}
+
       {showSupporting && msg.followUps.length > 0 && (
         <motion.div
           initial={{ opacity: 0, y: 4 }}
@@ -396,6 +476,102 @@ function MessageBubble({
         </div>
       )}
     </div>
+  );
+}
+
+/**
+ * RecommendationCard — Advisory cevabında yapılandırılmış öneri kartı.
+ * Top pick vurgulanır, alternatifler altında ufak satırlar olarak listelenir.
+ * "Karşılaştırmaya al" butonu — kullanıcı önerilen 3 üniversiteyi
+ * dashboard'da yan yana açar (a/b/c slot'larına yansır).
+ */
+function RecommendationCard({
+  rec,
+  onApply,
+}: {
+  rec: Recommendation;
+  onApply: (slugs: string[]) => void;
+}) {
+  const top = rec.ranked.find((r) => r.slug === rec.top_pick) || rec.ranked[0];
+  const others = rec.ranked.filter((r) => r.slug !== top?.slug).slice(0, 4);
+  const allSlugs = [top, ...others].filter(Boolean).map((r) => r!.slug).slice(0, 3);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 6 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.35, delay: 0.05 }}
+      className="rounded-lg border bg-[color:var(--color-paper-2)] px-3 py-3 ml-1 space-y-2.5"
+      style={{ borderColor: "var(--color-line)" }}
+    >
+      <div className="flex items-baseline justify-between gap-2">
+        <div className="ui-label">Tavsiye · veriye dayalı</div>
+        <button
+          onClick={() => onApply(allSlugs)}
+          className="text-[11px] font-mono uppercase tracking-wider px-2 py-1 rounded bg-[color:var(--color-ink-900)] text-[color:var(--color-paper)] hover:opacity-90 transition-opacity"
+        >
+          karşılaştırmaya al →
+        </button>
+      </div>
+
+      {top && (
+        <div
+          className="border-l-2 pl-3 py-1"
+          style={{ borderColor: uniColor(0) }}
+        >
+          <div className="flex items-baseline justify-between gap-2 flex-wrap">
+            <span className="font-serif text-sm font-medium leading-tight">
+              {uniShortName(top.slug, top.name)}
+            </span>
+            <span className="font-mono text-[11px] tabular-nums text-[color:var(--color-ink-500)]">
+              uyum %{top.fit_score}
+            </span>
+          </div>
+          {top.reasons.length > 0 && (
+            <ul className="mt-1 space-y-0.5 text-xs text-[color:var(--color-ink-700)] leading-snug">
+              {top.reasons.slice(0, 3).map((r, i) => (
+                <li key={i}>· {r}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+
+      {others.length > 0 && (
+        <div className="space-y-1.5">
+          <div className="ui-label text-[9px]">Alternatifler</div>
+          {others.map((r, idx) => (
+            <div
+              key={r.slug}
+              className="flex items-baseline justify-between gap-2 text-xs"
+            >
+              <span className="flex items-baseline gap-1.5 min-w-0">
+                <span
+                  aria-hidden
+                  className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+                  style={{ background: uniColor(idx + 1 < 3 ? idx + 1 : 2) }}
+                />
+                <span className="font-medium truncate">
+                  {uniShortName(r.slug, r.name)}
+                </span>
+                <span className="text-[color:var(--color-ink-500)] truncate">
+                  · {r.reasons[0] || ""}
+                </span>
+              </span>
+              <span className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)] flex-shrink-0">
+                %{r.fit_score}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {rec.rationale && (
+        <p className="text-[11px] italic font-serif text-[color:var(--color-ink-500)] leading-snug pt-1 border-t" style={{ borderColor: "var(--color-line)" }}>
+          {rec.rationale}
+        </p>
+      )}
+    </motion.div>
   );
 }
 

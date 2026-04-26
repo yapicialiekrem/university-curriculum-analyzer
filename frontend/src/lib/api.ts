@@ -127,8 +127,20 @@ export const api = {
       `/api/compare/resources?uni1=${encodeURIComponent(uni1)}&uni2=${encodeURIComponent(uni2)}`
     ),
 
-  chat: (question: string) =>
-    apiPost<import("./types").ChatResponse>("/api/chat", { question }),
+  chat: (
+    question: string,
+    opts: {
+      selectedSlugs?: string[];
+      userRank?: number;
+      goal?: string;
+    } = {}
+  ) =>
+    apiPost<import("./types").ChatResponse>("/api/chat", {
+      question,
+      selected_slugs: opts.selectedSlugs ?? undefined,
+      user_rank: opts.userRank ?? undefined,
+      goal: opts.goal ?? undefined,
+    }),
 
   search: (query: string, opts: { top_k?: number; universities?: string[]; min_score?: number } = {}) =>
     apiPost<import("./types").SearchResponse>(
