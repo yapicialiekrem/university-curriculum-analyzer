@@ -162,7 +162,8 @@ TOOL_SCHEMAS: list[dict] = [
             "description": (
                 "Spesifik bir ders kodunun tüm detayını döndürür: ad, AKTS, "
                 "dönem, dil, amaç, haftalık konular, öğrenme çıktıları, "
-                "önkoşullar, kaynaklar."
+                "önkoşullar, kaynaklar. Aynı kod iki üni'de olabileceği "
+                "için kullanıcı belirttiyse `university_slug` da geçir."
             ),
             "parameters": {
                 "type": "object",
@@ -170,6 +171,13 @@ TOOL_SCHEMAS: list[dict] = [
                     "course_code": {
                         "type": "string",
                         "description": "Ders kodu (CENG 483, CS 101 gibi)",
+                    },
+                    "university_slug": {
+                        "type": "string",
+                        "description": (
+                            "Opsiyonel — kullanıcı 'ODTÜ CENG 213' gibi "
+                            "üni belirttiyse bu uni'nin slug'ı (metu, bilkent...)"
+                        ),
                     },
                 },
                 "required": ["course_code"],
@@ -345,7 +353,8 @@ def _exec_topic_search(args: dict) -> dict:
 def _exec_course_detail(args: dict) -> dict:
     from .context import _find_course_in_store
     code = args.get("course_code", "")
-    course = _find_course_in_store(code)
+    prefer = args.get("university_slug") or None
+    course = _find_course_in_store(code, prefer_uni_slug=prefer)
     if not course:
         return {"error": f"Ders bulunamadı: {code}"}
     return {"course": course}
@@ -383,6 +392,9 @@ def _exec_university_summary(args: dict) -> dict:
         except Exception:
             ranking = None
 
+    program_outcomes = uni.get("program_outcomes") or []
+    if not isinstance(program_outcomes, list):
+        program_outcomes = []
     return {
         "slug": slug,
         "name": uni.get("university_name") or slug,
@@ -404,6 +416,7 @@ def _exec_university_summary(args: dict) -> dict:
         "ranking_sira": (ranking or {}).get("basari_sirasi"),
         "ranking_kontenjan": (ranking or {}).get("yerlesen_sayisi"),
         "specialization_depth": summary.get("specialization_depth", {}),
+        "program_outcomes": program_outcomes,
     }
 
 
