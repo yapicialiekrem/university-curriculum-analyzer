@@ -24,6 +24,8 @@ export interface StaffBarsProps {
   loading?: boolean;
   /** Tek üni modu: backend same-uni trick döner; sadece u1 panelini göster. */
   singleMode?: boolean;
+  /** Slot offset: çoklu StaffBars yan yana ise renk (uni-a/b/c) sürdür. */
+  slotOffset?: number;
 }
 
 /**
@@ -54,7 +56,7 @@ function readCounts(side: StaffComparison["university1"] | undefined): StaffCoun
   };
 }
 
-export function StaffBars({ data, loading, singleMode }: StaffBarsProps) {
+export function StaffBars({ data, loading, singleMode, slotOffset = 0 }: StaffBarsProps) {
   if (loading || !data) {
     return <div className="h-[300px] skeleton rounded" />;
   }
@@ -76,7 +78,7 @@ export function StaffBars({ data, loading, singleMode }: StaffBarsProps) {
   if (singleMode) {
     return (
       <div className="grid gap-6 grid-cols-1 max-w-[480px]">
-        <StaffCard counts={u1} name={u1Short} idx={0} />
+        <StaffCard counts={u1} name={u1Short} idx={slotOffset} />
       </div>
     );
   }
@@ -86,8 +88,8 @@ export function StaffBars({ data, loading, singleMode }: StaffBarsProps) {
 
   return (
     <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">
-      <StaffCard counts={u1} name={u1Short} idx={0} />
-      <StaffCard counts={u2} name={u2Short} idx={1} />
+      <StaffCard counts={u1} name={u1Short} idx={slotOffset} />
+      <StaffCard counts={u2} name={u2Short} idx={slotOffset + 1} />
     </div>
   );
 }

@@ -93,34 +93,50 @@ export function LayerThree() {
   const selectedNames = slugs.map((s) => slugToName.get(s) || s);
 
   // Slug → uni adı (Neo4j endpoint'leri uni adı bekler).
-  // Tek üni modunda da çalışır — sadece u1 alınır.
-  const summaryAB = useSWR<UniversitySummary[]>(
-    !isEmpty && a ? ["summaries-deep", a, b] : null,
-    async () => {
-      const calls = [api.universitySummary(a as string)];
-      if (b) calls.push(api.universitySummary(b));
-      return Promise.all(calls);
-    },
+  // 1, 2 veya 3 üni hepsinde çalışır.
+  const summaryAll = useSWR<UniversitySummary[]>(
+    !isEmpty && a ? ["summaries-deep", slugs.join(",")] : null,
+    async () => Promise.all(slugs.map((s) => api.universitySummary(s))),
     { revalidateOnFocus: false, shouldRetryOnError: false }
   );
 
-  const u1Name = summaryAB.data?.[0]?.name;
-  const u2Name = summaryAB.data?.[1]?.name;
-  const summaryError = summaryAB.error;
+  const u1Name = summaryAll.data?.[0]?.name;
+  const u2Name = summaryAll.data?.[1]?.name;
+  const u3Name = summaryAll.data?.[2]?.name;
+  const summaryError = summaryAll.error;
 
-  // 3.1 Haftalık Konu Eşlemesi — kıyaslama, hala 2 üni gerekli
-  const { data: curriculum, isLoading: curriculumLoading } =
+  // 3.1 Eşleşme — backend pairwise; 2 üni: AB; 3 üni: AB + AC + BC
+  const { data: curriculumAB, isLoading: curriculumABLoading } =
     useSWR<CurriculumCoverageResponse>(
       u1Name && u2Name ? ["curriculum", u1Name, u2Name] : null,
       () => api.compareCurriculumCoverage(u1Name!, u2Name!, 20),
       { revalidateOnFocus: false }
     );
+  const { data: curriculumAC, isLoading: curriculumACLoading } =
+    useSWR<CurriculumCoverageResponse>(
+      u1Name && u3Name ? ["curriculum", u1Name, u3Name] : null,
+      () => api.compareCurriculumCoverage(u1Name!, u3Name!, 20),
+      { revalidateOnFocus: false }
+    );
+  const { data: curriculumBC, isLoading: curriculumBCLoading } =
+    useSWR<CurriculumCoverageResponse>(
+      u2Name && u3Name ? ["curriculum", u2Name, u3Name] : null,
+      () => api.compareCurriculumCoverage(u2Name!, u3Name!, 20),
+      { revalidateOnFocus: false }
+    );
 
-  // 3.2 Önkoşul Ağı — tek üni modunda backend same-uni trick'i kabul ediyor
-  const { data: prereq, isLoading: prereqLoading } =
+  // 3.2 Önkoşul Ağı — her üni'nin DAG'ı bağımsız. 1, 2 veya 3 üni'de
+  // her uni için ayrı same-uni call (backend pairwise endpoint).
+  const { data: prereqAB, isLoading: prereqABLoading } =
     useSWR<PrerequisitesResponse>(
       u1Name ? ["prereq", u1Name, u2Name || u1Name] : null,
       () => api.comparePrerequisites(u1Name!, u2Name || u1Name!),
+      { revalidateOnFocus: false }
+    );
+  const { data: prereqC, isLoading: prereqCLoading } =
+    useSWR<PrerequisitesResponse>(
+      u3Name ? ["prereq", u3Name, u3Name] : null,
+      () => api.comparePrerequisites(u3Name!, u3Name!),
       { revalidateOnFocus: false }
     );
 
@@ -216,20 +232,37 @@ export function LayerThree() {
             ))}
             {slugs.length >= 2 && (
               <div
-                className="pt-6 border-t"
+                className="pt-6 border-t space-y-6"
                 style={{ borderColor: "var(--color-line)" }}
               >
-                <h3 className="font-serif text-base font-medium leading-tight mb-1">
-                  Eşleşme
-                </h3>
-                <p className="text-xs italic font-serif text-[color:var(--color-ink-500)] mb-4">
-                  Üst üniversiteler arasında semantik (NLP) en benzer ders
-                  çiftleri.
-                </p>
-                <CurriculumCoverageHeatmap
-                  data={curriculum}
-                  loading={curriculumLoading}
+                <div>
+                  <h3 className="font-serif text-base font-medium leading-tight mb-1">
+                    Eşleşme
+                  </h3>
+                  <p className="text-xs italic font-serif text-[color:var(--color-ink-500)]">
+                    Üniversiteler arasında semantik (NLP) en benzer ders
+                    çiftleri. 3 üni'de 3 ikili (A-B, A-C, B-C) ayrı tablolar.
+                  </p>
+                </div>
+                <PairwiseHeatmap
+                  label={`${slugToName.get(slugs[0]) || slugs[0]} ↔ ${slugToName.get(slugs[1]) || slugs[1]}`}
+                  data={curriculumAB}
+                  loading={curriculumABLoading}
                 />
+                {slugs.length >= 3 && (
+                  <>
+                    <PairwiseHeatmap
+                      label={`${slugToName.get(slugs[0]) || slugs[0]} ↔ ${slugToName.get(slugs[2]) || slugs[2]}`}
+                      data={curriculumAC}
+                      loading={curriculumACLoading}
+                    />
+                    <PairwiseHeatmap
+                      label={`${slugToName.get(slugs[1]) || slugs[1]} ↔ ${slugToName.get(slugs[2]) || slugs[2]}`}
+                      data={curriculumBC}
+                      loading={curriculumBCLoading}
+                    />
+                  </>
+                )}
               </div>
             )}
           </div>
@@ -243,8 +276,14 @@ export function LayerThree() {
       >
         {isEmpty ? (
           <DeepEmptyHint />
+        ) : slugs.length <= 2 ? (
+          <PrereqGraph data={prereqAB} loading={prereqABLoading} />
         ) : (
-          <PrereqGraph data={prereq} loading={prereqLoading} />
+          // 3 üni: PrereqGraph 2 paneli (u1+u2) + tek panel (u3)
+          <div className="space-y-6">
+            <PrereqGraph data={prereqAB} loading={prereqABLoading} />
+            <PrereqGraph data={prereqC} loading={prereqCLoading} />
+          </div>
         )}
       </Section>
 
@@ -330,6 +369,24 @@ function PerUniBlock({
         </h3>
       </div>
       {children}
+    </div>
+  );
+}
+
+/** Tek bir ikili semantik eşleşme heatmap'i — başlık + CurriculumCoverageHeatmap. */
+function PairwiseHeatmap({
+  label,
+  data,
+  loading,
+}: {
+  label: string;
+  data: CurriculumCoverageResponse | undefined;
+  loading?: boolean;
+}) {
+  return (
+    <div>
+      <p className="ui-label mb-2">{label}</p>
+      <CurriculumCoverageHeatmap data={data} loading={loading} />
     </div>
   );
 }
