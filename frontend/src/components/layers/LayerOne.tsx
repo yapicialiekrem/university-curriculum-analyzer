@@ -47,21 +47,16 @@ export function LayerOne() {
   const radarHighlighted = overlay?.show_metric === "category_radar";
 
   return (
-    <section className="px-4 sm:px-6 lg:px-10 max-w-[1440px] mx-auto pt-8 sm:pt-12 pb-16">
-      {/* Üst bar — başlık + seçici */}
-      <header className="flex flex-col gap-6 mb-8 lg:mb-10">
-        <div>
-          <p className="ui-label mb-1">İlk bakışta</p>
-          <h1 className="font-serif text-3xl sm:text-4xl tracking-tighter leading-[1.1]">
-            İki müfredatı yan yana oku
+    <section className="px-4 sm:px-6 lg:px-10 max-w-[1440px] mx-auto pt-4 sm:pt-5 pb-10">
+      {/* Üst bar — tek satır: ad + seçici + bölüm sekmeleri */}
+      <header className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3 mb-3 lg:mb-4">
+        <div className="flex items-baseline gap-3">
+          <h1 className="font-serif text-xl sm:text-2xl tracking-tighter leading-none">
+            Yan yana
           </h1>
-          <p className="mt-3 text-sm sm:text-base italic font-serif text-[color:var(--color-ink-500)] max-w-2xl leading-relaxed">
-            Türk üniversitelerinin bilgisayar / yazılım mühendisliği / yönetim
-            bilişim sistemleri müfredatlarını 10 eksende, 8 dönemde ve LLM
-            destekli sohbetle yan yana gör.
-          </p>
+          <span className="ui-label">İlk bakışta</span>
         </div>
-        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 lg:flex-1 lg:justify-end">
           <UniversityPicker
             selectedSlugs={slugs}
             department={department}
@@ -76,7 +71,7 @@ export function LayerOne() {
 
       {/* Üst strip: üniversite kartları yan yana (1-3 kart) */}
       <div
-        className={`grid gap-4 lg:gap-5 mb-6 lg:mb-8 grid-cols-1 ${
+        className={`grid gap-3 lg:gap-4 mb-4 lg:mb-5 grid-cols-1 ${
           slugs.length === 1
             ? "sm:grid-cols-1"
             : slugs.length === 2
@@ -95,18 +90,18 @@ export function LayerOne() {
         ))}
       </div>
 
-      {/* Altta radar — ortalı, max-w sınırlı */}
+      {/* Altta radar — ortalı, kompakt; başlık tek satırda yan tarafta */}
       <div
         id="section-radar"
-        className={`card flex flex-col items-center lg:p-6${
+        className={`card relative !p-3 lg:!p-4 flex flex-col items-center${
           radarHighlighted ? " overlay-glow" : ""
         }`}
       >
-        <div className="self-start">
-          <div className="ui-label mb-1">Konu Kapsamı</div>
-          <h2 className="font-serif text-xl lg:text-2xl mb-3 tracking-tight">
+        <div className="absolute top-3 left-4 lg:top-4 lg:left-5 flex items-baseline gap-2 z-10">
+          <h2 className="font-serif text-base lg:text-lg leading-none tracking-tight">
             10 eksende kapsam
           </h2>
+          <span className="ui-label text-[10px]">Konu Kapsamı</span>
         </div>
         <div className="w-full flex items-center justify-center">
           <CategoryRadar
