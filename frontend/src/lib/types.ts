@@ -323,6 +323,21 @@ export interface Recommendation {
   rationale: string | null;
 }
 
+export interface AggregateRow {
+  slug: string;
+  name: string;
+  department: string | null;
+  department_code: string | null;
+  value: number;
+}
+
+export interface AggregateResult {
+  metric: string;
+  metric_label: string;
+  order: "asc" | "desc";
+  ranked: AggregateRow[];
+}
+
 export interface Citation {
   code: string;
   name?: string | null;
@@ -337,6 +352,8 @@ export interface ChatResponse {
   follow_up_suggestions: string[];
   /** Advisory intent için yapılandırılmış öneri (varsa frontend kart render eder). */
   recommendation?: Recommendation | null;
+  /** Aggregate intent için ham sıralama verisi (mini bar chart için). */
+  aggregate?: AggregateResult | null;
   meta?: {
     intent_type: string;
     universities_found: string[];

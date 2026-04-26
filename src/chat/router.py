@@ -37,19 +37,42 @@ logger = logging.getLogger(__name__)
 ROUTER_MAX_TOKENS = 400
 
 
-def classify(question: str) -> Intent:
+def classify(question: str, history: list | None = None) -> Intent:
     """Kullanıcı sorusunu sınıflandır.
 
     Args:
         question: Türkçe veya İngilizce doğal dil soru. 3+ karakter
             beklenir — endpoint tarafında zaten doğrulanıyor, burada
             tekrar kontrol yok.
+        history: opsiyonel önceki konuşma turları
+            (list of {"role": "user|assistant", "text": str}).
+            Anaforik referansları ("peki en azı?", "onlardan hangisi?")
+            doğru sınıflandırmak için kullanılır.
 
     Returns:
         Intent objesi. Herhangi bir adım başarısız olursa
         `Intent(type="general")` döner — asla exception fırlatmaz.
     """
-    prompt = ROUTER_PROMPT.format(question=question)
+    # History varsa son 2-3 turn'ü router'a iletilebilir bağlam olarak
+    # question alanının başına ekle. Router prompt template'i değişmiyor.
+    framed_question = question
+    if history:
+        recent = history[-4:]
+        lines = []
+        for turn in recent:
+            role = "Kullanıcı" if turn.get("role") == "user" else "Asistan"
+            text = (turn.get("text") or "").strip()
+            if not text:
+                continue
+            if role == "Asistan" and len(text) > 200:
+                text = text[:200] + "..."
+            lines.append(f"  {role}: {text}")
+        if lines:
+            framed_question = (
+                "[Önceki konuşma]\n" + "\n".join(lines) +
+                "\n[Güncel soru]\n" + question
+            )
+    prompt = ROUTER_PROMPT.format(question=framed_question)
 
     text, meta = ask_llm(
         prompt=prompt,
