@@ -304,11 +304,13 @@ export interface CourseFull {
   name?: string | null;
   ects?: number | null;
   semester?: number | null;
+  year?: number | null;
   type?: string | null;
   language?: string | null;
   description?: string | null;
   weekly_topics?: string[] | null;
   prerequisites?: string[] | null;
+  source_url?: string | null;
   _enriched?: {
     categories?: string[];
     bloom_distribution?: Record<string, number>;
