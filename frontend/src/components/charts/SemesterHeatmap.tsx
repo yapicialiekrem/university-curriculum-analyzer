@@ -115,7 +115,7 @@ function SingleHeatmap({
             </tr>
           </thead>
           <tbody>
-            {categories.map((cat) => {
+            {categories.map((cat, catIdx) => {
               const sems = series.matrix[cat.key];
               return (
                 <tr key={cat.key}>
@@ -137,6 +137,7 @@ function SingleHeatmap({
                         category={cat.label}
                         semester={sem}
                         yearGap={i > 0 && i % 2 === 0}
+                        flipTooltip={catIdx <= 1}
                       />
                     );
                   })}
@@ -155,11 +156,14 @@ function Cell({
   category,
   semester,
   yearGap,
+  flipTooltip,
 }: {
   cell: HeatmapMatrixCell;
   category: string;
   semester: number;
   yearGap?: boolean;
+  /** Üst satırlarda tooltip yukarı taşar — aşağıya yansıt. */
+  flipTooltip?: boolean;
 }) {
   const [hovered, setHovered] = useState(false);
   const total = cell.zorunlu + cell.secmeli;
@@ -214,32 +218,43 @@ function Cell({
           semester={semester}
           zorunlu={cell.zorunlu}
           secmeli={cell.secmeli}
+          flip={flipTooltip}
         />
       )}
     </td>
   );
 }
 
-/** Custom tooltip — native title yerine. */
+/** Custom tooltip — native title yerine, yarı-saydam paper bg + blur. */
 function CellTooltip({
   category,
   semester,
   zorunlu,
   secmeli,
+  flip,
 }: {
   category: string;
   semester: number;
   zorunlu: number;
   secmeli: number;
+  /** true → hücrenin altında göster (üst satırlarda viewport dışına çıkmasın). */
+  flip?: boolean;
 }) {
   return (
     <div
       role="tooltip"
-      className="absolute left-1/2 -translate-x-1/2 -top-2 -translate-y-full z-20 pointer-events-none"
+      className={`absolute left-1/2 -translate-x-1/2 z-20 pointer-events-none ${
+        flip ? "top-full mt-2" : "-top-2 -translate-y-full"
+      }`}
     >
       <div
-        className="bg-[color:var(--color-white-paper)] border rounded shadow-paper px-3 py-2 text-xs whitespace-nowrap"
-        style={{ borderColor: "var(--color-line)" }}
+        className="rounded shadow-paper px-3 py-2 text-xs whitespace-nowrap"
+        style={{
+          background: "rgba(252,250,246,0.85)",
+          backdropFilter: "blur(8px)",
+          WebkitBackdropFilter: "blur(8px)",
+          border: "1px solid var(--color-line)",
+        }}
       >
         <div className="font-serif italic mb-1">
           {semester}. dönem · {category}
