@@ -13,7 +13,8 @@ import { useRef } from "react";
  */
 
 export interface SectionProps {
-  label: string;
+  /** Backwards-compat: artık görsel olarak render edilmiyor (kullanıcı isteği). */
+  label?: string;
   title: string;
   caption?: string;
   id?: string;
@@ -23,7 +24,6 @@ export interface SectionProps {
 }
 
 export function Section({
-  label,
   title,
   caption,
   id,
@@ -47,7 +47,6 @@ export function Section({
       }}
       className={`card${highlighted ? " overlay-glow" : ""}`}
     >
-      <div className="ui-label">{label}</div>
       <h2 className="font-serif text-2xl mb-2 tracking-tight">{title}</h2>
       {caption && (
         <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] mb-6 max-w-2xl leading-relaxed">
