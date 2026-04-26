@@ -93,10 +93,16 @@ TYPE SEÇENEKLERİ:
                       "ODTÜ ile Bilkent'in modernity skoru farkı"
                       "Bilkent ve Sabancı'nın AI ders sayısı ortalaması"
                       "x'ten yüksek profesör VE y'den fazla AI ders"
-                     KAYNAK/KİTAP ARAMA da complex olarak işaretle:
+                     KAYNAK/KİTAP/YAZAR ARAMA da complex olarak işaretle:
                       "Cormen kitabını hangi üniversiteler okutuyor?"
                       "Tanenbaum'u kullanan üniler hangileri?"
+                      "Mitchell Machine Learning kitabını kim okutuyor?"
+                      "Stallings'in işletim sistemi kitabını okuyan"
                       "Computer Networks kitabı kaç üniversitede"
+                     KURAL: Soruda kitap/yazar adı + 'kim okutuyor /
+                     hangi üniversite / nerede okutuluyor' → complex
+                     (find_resource tool çağrılır). DETAİL DEĞİL — detail
+                     ders kodu (CENG 213) için. Kitap adı için complex.
                       "ODTÜ'nün AI dersleri arasında en yüksek AKTS"
                       "İngilizce ders oranı en yüksek üni"
                       "Bloom create yüksek olanlar içinde proje fazla olan"
@@ -353,6 +359,33 @@ Soru: "Modern teknoloji etiketli ders en çok hangi üniversitede?"
    ("modern teknoloji" / "güncellik" / "modernlik" → modernity_score)
 
 Soru: "AI alanında en çok AKTS sunan 5 üniversite"
+→ aggregate_metric="spec.ai_ml.ects"
+
+Soru: "Dağıtık sistemler alanında en çok ders olan üni"
+→ aggregate_metric="spec.distributed.courses"
+
+Soru: "En çok güvenlik dersi sunan üni"
+→ aggregate_metric="spec.security.courses"
+
+Soru: "Veri bilimi AKTS'si en yüksek üniversite"
+→ aggregate_metric="spec.data_science.ects"
+
+ALAN → spec.<key>.ects veya spec.<key>.courses eşlemesi:
+  AI/yapay zeka     → spec.ai_ml.(ects veya courses)
+  veri bilimi       → spec.data_science.(ects veya courses)
+  güvenlik          → spec.security.(ects veya courses)
+  web/mobil         → spec.web_mobile.(ects veya courses)
+  yazılım gel.      → spec.software_eng.(ects veya courses)
+  grafik/görüntü    → spec.graphics_vision.(ects veya courses)
+  dağıtık sistemler → spec.distributed.(ects veya courses)
+  programlama       → spec.programming.(ects veya courses)
+  matematik         → spec.math.(ects veya courses)
+  sistem            → spec.systems.(ects veya courses)
+  hesaplama kuramı  → spec.theory.(ects veya courses)
+  bilgi sistemleri  → spec.info_systems.(ects veya courses)
+("AKTS" sorulursa .ects, "ders" sorulursa .courses).
+
+Soru: "AI alanında en çok AKTS sunan 5 üniversite" (aynı, kıyas için)
 → {{"type":"aggregate","universities":[],"metric":null,
     "filters":{{"category":null,"semester":null,"course_type":null,
                 "language":null}},
