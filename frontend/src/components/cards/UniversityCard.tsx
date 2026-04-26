@@ -240,15 +240,16 @@ function Metric({
 }
 
 /**
- * Uzmanlaşma tek-tip satırı (zorunlu veya seçmeli) — iki alt-satır:
- *   1) Etiket · "N ders" · ders kareleri (her küp 1 ders)
- *   2) "K AKTS" · AKTS kareleri (her küp 5 AKTS)
+ * Uzmanlaşma tek-tip satırı (zorunlu veya seçmeli) — TEK SATIRDA ders ve
+ * AKTS yan yana. CSS grid sabit-genişlikli kolonlar kullanır → zorunlu ve
+ * seçmeli satırları arasında ders sayısı/AKTS farkı olsa bile AKTS kutucuk
+ * kolonu vertikal hizalı kalır.
+ *
+ * Kolonlar: [tip etiketi] [N ders] [ders kareleri] [K AKTS] [AKTS kareleri]
  *
  * variant="solid" → dolu accent kareler (zorunlu)
  * variant="soft" → translucent (~32% alpha) accent dolgu (seçmeli)
  * Sayı 0 ise satır yarı opaklıkta "—" ile geçiş yapar.
- *
- * Hover (custom popup): "<count> <typeWord> <category> dersi · <ects> AKTS"
  */
 function SpecRow({
   label,
@@ -292,55 +293,48 @@ function SpecRow({
   const aktsBlocks = Math.min(Math.floor(ects / aktsPerBlock), aktsMax);
   const aktsOverflow = Math.max(0, ects - aktsBlocks * aktsPerBlock);
 
+  // 12 ders bloğu = 12 * 8 + 11 * 2 = 118px → cell w-32 (128px) overflow text için yer bırakır
   return (
     <div
-      className={`relative ${isEmpty ? "opacity-40" : ""}`}
+      className={`relative grid items-center gap-2 ${isEmpty ? "opacity-40" : ""}`}
+      style={{
+        gridTemplateColumns: "3.5rem 4rem 8rem 4rem 1fr",
+      }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      {/* Üst satır: tip etiketi + ders sayısı + ders kareleri */}
-      <div className="flex items-center gap-2">
-        <span
-          className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-14 flex-shrink-0"
-          aria-hidden
-        >
-          {label}
-        </span>
-        <span
-          className="font-mono text-[10px] tabular-nums w-14 flex-shrink-0"
-          style={{ color: isEmpty ? "var(--color-ink-500)" : "var(--color-ink-900)" }}
-        >
-          {isEmpty ? "—" : `${count} ders`}
-        </span>
-        <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
-          {Array.from({ length: dersShown }).map((_, i) => block(`d${i}`, "ders"))}
-          {dersOverflow > 0 && (
-            <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
-              +{dersOverflow}
-            </span>
-          )}
-        </div>
-      </div>
-
-      {/* Alt satır: AKTS sayısı + AKTS kareleri (yalnızca dolu hücrede) */}
-      {!isEmpty && (
-        <div className="flex items-center gap-2 mt-0.5">
-          <span className="w-14 flex-shrink-0" aria-hidden />
-          <span className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)] w-14 flex-shrink-0">
-            {ects} AKTS
+      <span
+        className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] truncate"
+        aria-hidden
+      >
+        {label}
+      </span>
+      <span
+        className="font-mono text-[10px] tabular-nums"
+        style={{ color: isEmpty ? "var(--color-ink-500)" : "var(--color-ink-900)" }}
+      >
+        {isEmpty ? "—" : `${count} ders`}
+      </span>
+      <div className="flex items-center gap-[2px] min-w-0 overflow-hidden" aria-hidden>
+        {Array.from({ length: dersShown }).map((_, i) => block(`d${i}`, "ders"))}
+        {dersOverflow > 0 && (
+          <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
+            +{dersOverflow}
           </span>
-          <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
-            {Array.from({ length: aktsBlocks }).map((_, i) =>
-              block(`a${i}`, "akts")
-            )}
-            {aktsOverflow > 0 && (
-              <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
-                +{aktsOverflow}
-              </span>
-            )}
-          </div>
-        </div>
-      )}
+        )}
+      </div>
+      <span className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)]">
+        {isEmpty ? "" : `${ects} AKTS`}
+      </span>
+      <div className="flex items-center gap-[2px] min-w-0 overflow-hidden" aria-hidden>
+        {!isEmpty &&
+          Array.from({ length: aktsBlocks }).map((_, i) => block(`a${i}`, "akts"))}
+        {!isEmpty && aktsOverflow > 0 && (
+          <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
+            +{aktsOverflow}
+          </span>
+        )}
+      </div>
 
       {hovered && (
         <FloatingTooltip>
