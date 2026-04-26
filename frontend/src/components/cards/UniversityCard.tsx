@@ -73,7 +73,7 @@ export function UniversityCard({
 
   return (
     <article
-      className="card relative h-full flex flex-col"
+      className="card relative h-full flex flex-col !p-4 lg:!p-5"
       data-testid={`uni-card-${slotIndex}`}
     >
       {/* Sol accent line */}
@@ -176,13 +176,13 @@ export function UniversityCard({
               <div className="ui-label">Uzmanlaşma · ders / AKTS</div>
               <SpecLegend accent={accent} />
             </div>
-            <ul className="space-y-2.5">
+            <ul className="space-y-2">
               {topSpec.map((c) => {
                 const reqEcts = c.d.required_ects ?? 0;
                 const elEcts = c.d.elective_ects ?? 0;
                 return (
                   <li key={c.key} className="text-xs">
-                    <div className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-1">
+                    <div className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-0.5">
                       {c.label}
                     </div>
                     <SpecRow
@@ -294,41 +294,39 @@ function SpecRow({
 
   return (
     <div
-      className={`relative flex items-center gap-2 ${isEmpty ? "opacity-40" : ""}`}
+      className={`relative ${isEmpty ? "opacity-40" : ""}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <span
-        className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-12 flex-shrink-0"
-        aria-hidden
-      >
-        {label}
-      </span>
-
-      <span
-        className="font-mono text-[10px] tabular-nums flex-shrink-0"
-        style={{ color: isEmpty ? "var(--color-ink-500)" : "var(--color-ink-900)" }}
-      >
-        {isEmpty ? "—" : `${count} ders`}
-      </span>
-      <div className="flex items-center gap-[2px] flex-shrink-0" aria-hidden>
-        {Array.from({ length: dersShown }).map((_, i) => block(`d${i}`, "ders"))}
-        {dersOverflow > 0 && (
-          <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
-            +{dersOverflow}
-          </span>
-        )}
+      {/* Üst satır: tip etiketi + ders sayısı + ders kareleri */}
+      <div className="flex items-center gap-2">
+        <span
+          className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-14 flex-shrink-0"
+          aria-hidden
+        >
+          {label}
+        </span>
+        <span
+          className="font-mono text-[10px] tabular-nums w-14 flex-shrink-0"
+          style={{ color: isEmpty ? "var(--color-ink-500)" : "var(--color-ink-900)" }}
+        >
+          {isEmpty ? "—" : `${count} ders`}
+        </span>
+        <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
+          {Array.from({ length: dersShown }).map((_, i) => block(`d${i}`, "ders"))}
+          {dersOverflow > 0 && (
+            <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
+              +{dersOverflow}
+            </span>
+          )}
+        </div>
       </div>
 
+      {/* Alt satır: AKTS sayısı + AKTS kareleri (yalnızca dolu hücrede) */}
       {!isEmpty && (
-        <>
-          <span
-            className="text-[color:var(--color-ink-300)] flex-shrink-0"
-            aria-hidden
-          >
-            ·
-          </span>
-          <span className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)] flex-shrink-0">
+        <div className="flex items-center gap-2 mt-0.5">
+          <span className="w-14 flex-shrink-0" aria-hidden />
+          <span className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)] w-14 flex-shrink-0">
             {ects} AKTS
           </span>
           <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
@@ -341,7 +339,7 @@ function SpecRow({
               </span>
             )}
           </div>
-        </>
+        </div>
       )}
 
       {hovered && (
