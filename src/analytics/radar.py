@@ -27,7 +27,7 @@ RADAR_AXES: list[tuple[str, str]] = [
     ("data_science",    "Veri Bilimi"),
     ("security",        "Siber Güvenlik"),
     ("web_mobile",      "Web / Mobil"),
-    ("software_eng",    "Yazılım Mühendisliği"),
+    ("software_eng",    "Yazılım Geliştirme"),
     ("graphics_vision", "Grafik / Görüntü"),
     ("distributed",     "Dağıtık Sistemler"),
 ]
