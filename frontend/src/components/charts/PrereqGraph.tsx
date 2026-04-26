@@ -37,15 +37,33 @@ export function PrereqGraph({ data, loading }: PrereqGraphProps) {
     return <div className="h-[420px] skeleton rounded" />;
   }
 
+  // Tek üni modu: backend same-uni trick'inde u1 === u2; çift panel yerine
+  // tek panel göster.
+  const u1Name = data.university1?.name;
+  const u2Name = data.university2?.name;
+  const sameUni = u1Name && u2Name && u1Name === u2Name;
+
+  if (sameUni) {
+    return (
+      <div className="grid grid-cols-1">
+        <SingleGraph
+          title={u1Name || "—"}
+          edges={Array.isArray(data.university1?.edges) ? data.university1.edges : []}
+          slotIndex={0}
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <SingleGraph
-        title={data.university1?.name || "—"}
+        title={u1Name || "—"}
         edges={Array.isArray(data.university1?.edges) ? data.university1.edges : []}
         slotIndex={0}
       />
       <SingleGraph
-        title={data.university2?.name || "—"}
+        title={u2Name || "—"}
         edges={Array.isArray(data.university2?.edges) ? data.university2.edges : []}
         slotIndex={1}
       />
