@@ -69,21 +69,20 @@ export function LayerOne() {
         </div>
       </header>
 
-      {isEmpty ? (
-        <EmptyState />
-      ) : (
-        <>
-          {/* Üst strip: üniversite kartları yan yana (1-3 kart) */}
-          <div
-            className={`grid gap-3 lg:gap-4 mb-4 lg:mb-5 grid-cols-1 ${
-              slugs.length === 1
-                ? "sm:grid-cols-1 max-w-[480px]"
-                : slugs.length === 2
-                ? "sm:grid-cols-2"
-                : "sm:grid-cols-2 lg:grid-cols-3"
-            }`}
-          >
-            {slugs.map((slug, idx) => (
+      {/* Üst strip: 1-3 kart. Hiç seçim yoksa 2 boş placeholder kart →
+          dashboard yapısı korunsun, kullanıcı ne göreceğini önceden anlasın. */}
+      <div
+        className={`grid gap-3 lg:gap-4 mb-4 lg:mb-5 grid-cols-1 ${
+          isEmpty || slugs.length === 2
+            ? "sm:grid-cols-2"
+            : slugs.length === 1
+            ? "sm:grid-cols-1 max-w-[480px]"
+            : "sm:grid-cols-2 lg:grid-cols-3"
+        }`}
+      >
+        {isEmpty
+          ? [0, 1].map((idx) => <EmptyCard key={idx} slotIndex={idx} />)
+          : slugs.map((slug, idx) => (
               <UniversitySummaryCard
                 key={slug}
                 slug={slug}
@@ -92,50 +91,100 @@ export function LayerOne() {
                 onRemove={() => removeUniversity(slug)}
               />
             ))}
-          </div>
+      </div>
 
-          {/* Altta radar — ortalı, kompakt; başlık tek satırda yan tarafta */}
-          <div
-            id="section-radar"
-            className={`card relative !p-3 lg:!p-4 flex flex-col items-center${
-              radarHighlighted ? " overlay-glow" : ""
-            }`}
-          >
-            <div className="absolute top-3 left-4 lg:top-4 lg:left-5 flex items-baseline gap-2 z-10">
-              <h2 className="font-serif text-base lg:text-lg leading-none tracking-tight">
-                10 eksende kapsam
-              </h2>
-              <span className="ui-label text-[10px]">Konu Kapsamı</span>
-            </div>
-            <div className="w-full flex items-center justify-center">
-              <CategoryRadar
-                data={radar}
-                loading={radarLoading}
-                highlight_axis={overlay?.highlight_category || null}
-              />
-            </div>
-          </div>
-        </>
-      )}
+      {/* Altta radar — ortalı, kompakt; başlık tek satırda yan tarafta */}
+      <div
+        id="section-radar"
+        className={`card relative !p-3 lg:!p-4 flex flex-col items-center${
+          radarHighlighted ? " overlay-glow" : ""
+        }`}
+      >
+        <div className="absolute top-3 left-4 lg:top-4 lg:left-5 flex items-baseline gap-2 z-10">
+          <h2 className="font-serif text-base lg:text-lg leading-none tracking-tight">
+            10 eksende kapsam
+          </h2>
+          <span className="ui-label text-[10px]">Konu Kapsamı</span>
+        </div>
+        <div className="w-full flex items-center justify-center">
+          {isEmpty ? (
+            <EmptyRadarShell />
+          ) : (
+            <CategoryRadar
+              data={radar}
+              loading={radarLoading}
+              highlight_axis={overlay?.highlight_category || null}
+            />
+          )}
+        </div>
+      </div>
     </section>
   );
 }
 
-function EmptyState() {
+/** Boş placeholder kart — dashboard yapısı korunsun. */
+function EmptyCard({ slotIndex }: { slotIndex: number }) {
+  const accent = ["var(--color-uni-a)", "var(--color-uni-b)", "var(--color-uni-c)"][slotIndex] || "var(--color-ink-700)";
   return (
-    <div
-      className="card flex flex-col items-center justify-center text-center py-16 lg:py-24"
-      style={{ borderStyle: "dashed", borderColor: "var(--color-line)" }}
+    <article
+      className="card relative h-full flex flex-col items-center justify-center text-center !p-4 lg:!p-5 py-8"
+      style={{
+        borderStyle: "dashed",
+        borderColor: "var(--color-line)",
+        opacity: 0.85,
+      }}
     >
-      <p className="ui-label mb-2">Üniversite seçimi bekleniyor</p>
-      <h2 className="font-serif text-2xl tracking-tight max-w-md leading-tight">
-        Yukarıdaki seçiciden 1, 2 veya 3 üniversite ekle
-      </h2>
-      <p className="mt-3 text-sm italic font-serif text-[color:var(--color-ink-500)] max-w-md leading-relaxed">
-        Tek seçimle bir üniversitenin müfredatına bakabilir, iki/üç seçimle
-        karşılaştırma yapabilirsin. İstediğin zaman alttaki asistana doğrudan
-        soru da sorabilirsin.
-      </p>
+      <div
+        className="absolute left-0 top-5 bottom-5 w-1 rounded opacity-30"
+        style={{ background: accent }}
+      />
+      <div className="ml-3 px-4">
+        <p className="ui-label text-[10px] mb-1">Boş slot</p>
+        <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] leading-snug">
+          Yukarıdan üniversite ekle — burada özet, YKS verisi ve uzmanlaşma
+          görünür.
+        </p>
+      </div>
+    </article>
+  );
+}
+
+/** Boş radar silüet — 10 eksenli dashed çokgen. */
+function EmptyRadarShell() {
+  const axes = 10;
+  const cx = 50;
+  const cy = 50;
+  const r = 38;
+  return (
+    <div className="aspect-square w-full max-w-[340px] mx-auto opacity-40" aria-hidden>
+      <svg viewBox="0 0 100 100" className="w-full h-full">
+        <polygon
+          points={Array.from({ length: axes })
+            .map((_, i) => {
+              const a = (i / axes) * Math.PI * 2 - Math.PI / 2;
+              return `${cx + Math.cos(a) * r},${cy + Math.sin(a) * r}`;
+            })
+            .join(" ")}
+          fill="none"
+          stroke="rgba(15,14,13,0.20)"
+          strokeWidth="0.6"
+          strokeDasharray="2 2"
+        />
+        {Array.from({ length: axes }).map((_, i) => {
+          const a = (i / axes) * Math.PI * 2 - Math.PI / 2;
+          return (
+            <line
+              key={i}
+              x1={cx}
+              y1={cy}
+              x2={cx + Math.cos(a) * r}
+              y2={cy + Math.sin(a) * r}
+              stroke="rgba(15,14,13,0.10)"
+              strokeWidth="0.4"
+            />
+          );
+        })}
+      </svg>
     </div>
   );
 }

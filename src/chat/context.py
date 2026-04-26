@@ -942,13 +942,27 @@ def _metric_label(metric: str) -> str:
     return metric
 
 
+# Integer (whole-number) tabanlı metrikler — LLM'e ".0" değil tam sayı
+# göndermek için. Bloom % ve ratio dışı her şey count.
+_INT_METRICS: set[str] = {
+    "staff.professor", "staff.associate_professor", "staff.assistant_professor",
+    "staff.lecturer", "staff.research_assistant", "staff.total",
+    "summary.total_courses", "summary.modernity_score",
+    "summary.project_heavy_course_count", "summary.total_project_ects",
+    "ranking.basari_sirasi", "ranking.yerlesen_sayisi",
+    "courses_with_prereqs",
+    "resources.unique_count",
+    "language.english_courses", "language.turkish_courses",
+}
+
+
 def _build_aggregate(intent: Intent) -> dict:
     """Tüm üniversiteleri verilen metrik üzerinden sıralar.
 
     Pipeline:
       1) Enrichment store'dan üniversiteleri yükle (department filter ops.)
       2) Her üni için _extract_metric → tek sayı
-      3) None değerleri at
+      3) None değerleri at; integer metrikler için round
       4) order'a göre sırala, top_n al
       5) Dönüş: {metric, label, ranked: [{slug,name,value}], total_evaluated}
     """
@@ -973,6 +987,9 @@ def _build_aggregate(intent: Intent) -> dict:
         v = _extract_metric(uni, metric)
         if v is None:
             continue
+        # Integer metriklerde değeri tam sayı olarak ilet → LLM ".0" yazmasın
+        if metric in _INT_METRICS:
+            v = int(round(v))
         rows.append({
             "slug": slug,
             "name": uni.get("university_name") or uni.get("uni_name") or slug,

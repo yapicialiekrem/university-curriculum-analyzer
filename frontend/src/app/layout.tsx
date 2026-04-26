@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import { Fraunces, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import { Suspense } from "react";
 
+import { Footer } from "@/components/Footer";
 import { TopBar } from "@/components/TopBar";
 import { OverlayProvider } from "@/lib/use-overlay";
 import { ThemeProvider } from "@/lib/use-theme";
@@ -60,6 +61,7 @@ export default function RootLayout({
               <TopBar />
             </Suspense>
             {children}
+            <Footer />
             <Suspense fallback={null}>
               <ChatPanel />
             </Suspense>
