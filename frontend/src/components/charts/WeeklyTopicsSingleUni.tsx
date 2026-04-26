@@ -8,7 +8,7 @@
  */
 
 import { ChevronDown, Search } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 
 import { Pagination } from "@/components/Pagination";
 import type { CourseFull, UniversityFull } from "@/lib/types";
@@ -159,35 +159,12 @@ export function WeeklyTopicsSingleUni({ data, loading }: WeeklyTopicsSingleUniPr
             const isOpen = openCode === code;
             const topics = c.weekly_topics || [];
             return (
-              <li
-                key={code || c.name}
-                className="rounded border bg-[color:var(--color-white-paper)]"
-                style={{ borderColor: "var(--color-line)" }}
+              <CourseRow
+                key={code || c.name || Math.random()}
+                course={c}
+                isOpen={isOpen}
+                onToggle={() => setOpenCode(isOpen ? null : code)}
               >
-                <button
-                  type="button"
-                  onClick={() => setOpenCode(isOpen ? null : code)}
-                  className="w-full text-left flex items-center gap-3 px-3 py-2.5 hover:bg-[color:var(--color-paper-2)] transition-colors"
-                  aria-expanded={isOpen}
-                >
-                  <code className="font-mono text-[10px] text-[color:var(--color-ink-500)] tracking-tight w-20 flex-shrink-0">
-                    {code || "—"}
-                  </code>
-                  <span className="text-sm font-medium leading-tight flex-1 min-w-0 truncate">
-                    {c.name || "—"}
-                  </span>
-                  <span className="font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums whitespace-nowrap">
-                    {topics.length} hafta · {c.ects ?? "—"} AKTS
-                    {c.type ? ` · ${c.type}` : ""}
-                  </span>
-                  <ChevronDown
-                    size={14}
-                    strokeWidth={1.5}
-                    className={`text-[color:var(--color-ink-500)] transition-transform ${
-                      isOpen ? "rotate-180" : ""
-                    }`}
-                  />
-                </button>
                 {isOpen && (
                   <div
                     className="px-3 pb-3 pt-1 border-t"
@@ -211,7 +188,7 @@ export function WeeklyTopicsSingleUni({ data, loading }: WeeklyTopicsSingleUniPr
                     )}
                   </div>
                 )}
-              </li>
+              </CourseRow>
             );
           })}
         </ul>
@@ -224,6 +201,135 @@ export function WeeklyTopicsSingleUni({ data, loading }: WeeklyTopicsSingleUniPr
         onChange={setPage}
         label="ders"
       />
+    </div>
+  );
+}
+
+/**
+ * Tek ders satırı — kod + ad + özet stat + chevron. Hover'da yarı saydam
+ * floating tooltip (UniversityCard pattern) ile dönem/yıl/dil/önkoşul
+ * bilgisi. Click → weekly_topics expand.
+ */
+function CourseRow({
+  course,
+  isOpen,
+  onToggle,
+  children,
+}: {
+  course: CourseFull;
+  isOpen: boolean;
+  onToggle: () => void;
+  children?: React.ReactNode;
+}) {
+  const [hovered, setHovered] = useState(false);
+  const code = course.code || "";
+  const name = course.name;
+  const topicsCount = (course.weekly_topics || []).length;
+
+  return (
+    <li
+      className="rounded border bg-[color:var(--color-white-paper)] relative"
+      style={{ borderColor: "var(--color-line)" }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <button
+        type="button"
+        onClick={onToggle}
+        className="w-full text-left flex items-center gap-3 px-3 py-2.5 hover:bg-[color:var(--color-paper-2)] transition-colors"
+        aria-expanded={isOpen}
+      >
+        <code className="font-mono text-[10px] text-[color:var(--color-ink-500)] tracking-tight w-20 flex-shrink-0">
+          {code || "—"}
+        </code>
+        <span
+          className={`text-sm leading-tight flex-1 min-w-0 truncate ${
+            name
+              ? "font-medium"
+              : "italic font-serif text-[color:var(--color-ink-500)]"
+          }`}
+        >
+          {name || "Adı kayıtlı değil"}
+        </span>
+        <span className="font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums whitespace-nowrap">
+          {topicsCount} hafta · {course.ects ?? "—"} AKTS
+          {course.type ? ` · ${course.type}` : ""}
+        </span>
+        <ChevronDown
+          size={14}
+          strokeWidth={1.5}
+          className={`text-[color:var(--color-ink-500)] transition-transform ${
+            isOpen ? "rotate-180" : ""
+          }`}
+        />
+      </button>
+      {hovered && !isOpen && <CourseTooltip course={course} />}
+      {children}
+    </li>
+  );
+}
+
+/**
+ * Course hover popup — yarı saydam paper bg + backdrop blur. UniversityCard
+ * FloatingTooltip ile aynı stil.
+ */
+function CourseTooltip({ course }: { course: CourseFull }) {
+  const items: Array<[string, React.ReactNode]> = [];
+  if (course.semester != null) {
+    items.push([
+      "Dönem",
+      `${course.semester}. dönem${
+        course.year ? ` · ${course.year}. yıl` : ""
+      }`,
+    ]);
+  } else if (course.year != null) {
+    items.push(["Yıl", `${course.year}. yıl`]);
+  }
+  if (course.ects != null) items.push(["AKTS", `${course.ects}`]);
+  if (course.type) items.push(["Tip", course.type]);
+  if (course.language) items.push(["Dil", course.language]);
+  const prereqs = course.prerequisites || [];
+  if (prereqs.length > 0) items.push(["Önkoşul", prereqs.join(", ")]);
+
+  return (
+    <div
+      role="tooltip"
+      className="absolute left-1/2 -translate-x-1/2 -top-2 -translate-y-full z-30 pointer-events-none"
+    >
+      <div
+        className="rounded shadow-paper px-3 py-2.5 text-xs whitespace-normal w-[280px] text-[color:var(--color-ink-900)] leading-relaxed"
+        style={{
+          background: "rgba(252,250,246,0.85)",
+          backdropFilter: "blur(8px)",
+          WebkitBackdropFilter: "blur(8px)",
+          border: "1px solid var(--color-line)",
+        }}
+      >
+        <div className="font-mono text-[10px] uppercase tracking-wider text-[color:var(--color-ink-500)] mb-1">
+          {course.code || "—"}
+        </div>
+        {course.name && (
+          <div className="font-serif text-sm font-medium leading-tight mb-2">
+            {course.name}
+          </div>
+        )}
+        {items.length === 0 ? (
+          <div className="italic text-[color:var(--color-ink-500)]">
+            Detay bilgi kayıtlı değil.
+          </div>
+        ) : (
+          <dl className="grid grid-cols-[5rem_1fr] gap-x-2 gap-y-0.5">
+            {items.map(([k, v], i) => (
+              <Fragment key={i}>
+                <dt className="font-mono text-[10px] uppercase tracking-wider text-[color:var(--color-ink-500)]">
+                  {k}
+                </dt>
+                <dd className="text-[color:var(--color-ink-900)]">{v}</dd>
+              </Fragment>
+            ))}
+          </dl>
+        )}
+      </div>
     </div>
   );
 }
