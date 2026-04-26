@@ -90,6 +90,11 @@ class EnrichmentStore:
         for path in sorted(DATA_DIR.rglob("*.json")):
             if not path.is_file():
                 continue
+            # data/ranking/*.json gibi yardımcı dosyalar üniversite şeması
+            # değildir (list of programs) — store'a karıştırma.
+            folder = path.parent.name
+            if folder not in _DEPT_FOLDER_MAP:
+                continue
             original_slug = path.stem
             # Canonical slug: lower-case + Türkçe karakter fold
             slug = ascii_fold(original_slug)
@@ -105,9 +110,10 @@ class EnrichmentStore:
             except Exception as e:
                 logger.warning("%s yüklenemedi: %s", path.name, e)
                 continue
+            if not isinstance(data, dict):
+                logger.warning("%s dict değil, atlandı", path)
+                continue
 
-            # Klasör adından departman çıkar
-            folder = path.parent.name
             data["_slug"] = slug
             data["_department"] = _DEPT_FOLDER_MAP.get(folder, "other")
 

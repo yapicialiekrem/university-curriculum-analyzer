@@ -310,6 +310,19 @@ export interface DashboardUpdate {
   overlay_data?: Record<string, string>;
 }
 
+export interface RecommendationCandidate {
+  slug: string;
+  name: string;
+  fit_score: number;
+  reasons: string[];
+}
+
+export interface Recommendation {
+  top_pick: string | null;
+  ranked: RecommendationCandidate[];
+  rationale: string | null;
+}
+
 export interface Citation {
   code: string;
   name?: string | null;
@@ -322,6 +335,8 @@ export interface ChatResponse {
   citations: Citation[];
   dashboard_update: DashboardUpdate | null;
   follow_up_suggestions: string[];
+  /** Advisory intent için yapılandırılmış öneri (varsa frontend kart render eder). */
+  recommendation?: Recommendation | null;
   meta?: {
     intent_type: string;
     universities_found: string[];

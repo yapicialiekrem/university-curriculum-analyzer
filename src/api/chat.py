@@ -80,6 +80,17 @@ async def chat(req: ChatRequest) -> dict:
     # 1) Intent
     intent = classify(question)
 
+    # ChatRequest'ten gelen kullanıcı bağlamı router'ın çıkarımını ezer:
+    #   - selected_slugs varsa intent.universities boşsa onu kullan
+    #   - user_rank request'te verilmişse, router çıkartmasaydı bile ekle
+    #   - rank/goal varsa ve intent.type=general ise advisory'ye yükselt
+    if req.selected_slugs and not intent.universities:
+        intent.universities = list(req.selected_slugs)
+    if req.user_rank and not intent.user_rank:
+        intent.user_rank = req.user_rank
+    if (req.user_rank or req.goal) and intent.type == "general":
+        intent.type = "advisory"
+
     # 2) Context (LLM'siz)
     try:
         context = build_context(intent)
@@ -101,6 +112,7 @@ async def chat(req: ChatRequest) -> dict:
         "citations": answer["citations"],
         "dashboard_update": answer["dashboard_update"],
         "follow_up_suggestions": answer["follow_up_suggestions"],
+        "recommendation": answer.get("recommendation"),
         "meta": {
             "intent_type": intent.type,
             "universities_found": getattr(intent, "universities", []),
