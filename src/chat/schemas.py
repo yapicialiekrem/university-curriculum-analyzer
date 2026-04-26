@@ -25,6 +25,7 @@ IntentType = Literal[
     "general",         # sistem hakkında genel
     "advisory",        # tavsiye / yönlendirme — kullanıcı profili + hedef
     "aggregate",       # tüm üniversiteler arasında "en çok / en az / sıralama"
+    "complex",         # multi-step / kompozisyon (oranlar, kombinatör) — tools loop
 ]
 
 

@@ -31,6 +31,7 @@ from .prompts import (
     FALLBACK_PARSE_ERROR_TEXT,
 )
 from .schemas import ChatResponse
+from .tools import TOOL_SCHEMAS, execute_tool, serialize_for_llm
 
 logger = logging.getLogger(__name__)
 
@@ -149,5 +150,201 @@ def generate_answer(question: str, context: dict, history: list | None = None) -
         return _fallback(FALLBACK_PARSE_ERROR_TEXT, meta)
 
     out: dict[str, Any] = resp.model_dump()
+    out["_meta"] = meta
+    return out
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# TOOL-CALLING (HİBRİT) — kompleks intent için multi-step LLM loop
+# ═══════════════════════════════════════════════════════════════════════════
+
+import os
+from openai import AzureOpenAI, OpenAI
+
+# Maksimum tool iterasyonu — sonsuz döngü engeli + maliyet kontrolü
+MAX_TOOL_ITERATIONS = 5
+
+
+def _tools_client():
+    """Tool-calling için OpenAI/Azure client + model adı."""
+    azure_key = os.getenv("AZURE_OPENAI_API_KEY")
+    azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+    if azure_key and azure_endpoint:
+        deployment = (
+            os.getenv("AZURE_OPENAI_DEPLOYMENT") or "gpt-4o-mini"
+        )
+        version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-preview")
+        client = AzureOpenAI(
+            api_key=azure_key,
+            azure_endpoint=azure_endpoint,
+            api_version=version,
+        )
+        return client, deployment, "azure_openai"
+
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return None, None, None
+    client = OpenAI(api_key=api_key)
+    model = os.getenv("LLM_MODEL_PRIMARY") or "gpt-4o-mini"
+    return client, model, "openai"
+
+
+TOOL_SYSTEM_PROMPT = """Sen UniCurriculum asistanısın. Türk üniversitelerinin \
+bilgisayar / yazılım / YBS müfredatları üzerine sorular yanıtlıyorsun.
+
+Bu görev için elinde araçlar (tools) var. Kompleks soruları çözmek için \
+araçları gerektiği kadar zincirle:
+- Oranlar/kombinatör soruları → 2-3 tool çağrısı + hesaplama
+- Tek-shot bilgi → 1 tool çağrısı yeterli
+- Tool sonucu hata içeriyorsa düzeltip tekrar dene veya kullanıcıya \
+"bu bilgi verimizde yok" de.
+
+Tool çağrılarını bitirdiğinde FINAL CEVAP üret. Final cevap formatı:
+
+KESİNLİKLE bu JSON şablonunda dön (markdown fence YASAK):
+{
+  "text": "Türkçe akıcı cevap, 4-7 cümle. Sayıları aynen ver.",
+  "citations": [{"code":"...","name":"...","university":"slug"}],
+  "dashboard_update": null,
+  "follow_up_suggestions": ["...","..."],
+  "recommendation": null
+}
+
+KURALLAR:
+- SADECE Türkçe; İngilizce sızdırma
+- Sayıları integer ise tam sayı yaz (".0" yazma)
+- Veriden uydurma yapma; yokluğu açıkça söyle
+- Üniversite önyargısı YASAK ("X daha iyi" deme), ama "senin profilin için \
+en uygun" advisory dilinde geçer
+- Maks 7 cümle"""
+
+
+def generate_answer_with_tools(question: str, history: list | None = None) -> dict:
+    """Hibrit: kompleks soruları LLM tool-calling loop ile yanıtla.
+
+    Akış:
+        1) İlk LLM çağrısı: question + tools → LLM 1+ tool çağırır
+        2) Backend tool execute, sonucu LLM'e iletilir
+        3) LLM yeni tool çağırır VEYA final JSON cevabı üretir
+        4) Max 5 iter, sonra zorla cevap üret
+
+    Returns: ChatResponse.model_dump() + _meta dict.
+    """
+    client, model, provider = _tools_client()
+    if client is None:
+        return _fallback(FALLBACK_ERROR_TEXT, {"status": "error", "error": "no client"})
+
+    history_str = _format_history(history or [])
+    user_content = (
+        f"[ÖNCEKİ KONUŞMA]\n{history_str}\n\n[GÜNCEL SORU]\n{question}"
+        if history_str
+        else question
+    )
+
+    messages: list[dict] = [
+        {"role": "system", "content": TOOL_SYSTEM_PROMPT},
+        {"role": "user", "content": user_content},
+    ]
+
+    total_tokens_in = 0
+    total_tokens_out = 0
+    tool_calls_made: list[str] = []
+    last_text = ""
+
+    for iteration in range(MAX_TOOL_ITERATIONS):
+        try:
+            resp = client.chat.completions.create(
+                model=model,
+                messages=messages,  # type: ignore[arg-type]
+                tools=TOOL_SCHEMAS,  # type: ignore[arg-type]
+                temperature=0.2,
+                max_completion_tokens=2000,
+            )
+        except Exception as e:
+            logger.exception("Tools loop iter %d hatası: %s", iteration, e)
+            return _fallback(FALLBACK_ERROR_TEXT, {"status": "error", "error": str(e)})
+
+        usage = getattr(resp, "usage", None)
+        if usage:
+            total_tokens_in += getattr(usage, "prompt_tokens", 0) or 0
+            total_tokens_out += getattr(usage, "completion_tokens", 0) or 0
+
+        msg = resp.choices[0].message
+        last_text = msg.content or ""
+
+        # Tool çağrısı yoksa, final cevaba ulaştık
+        if not msg.tool_calls:
+            break
+
+        # Asistan mesajını ekle (tool_calls dahil) — protokol gereği
+        messages.append(
+            {
+                "role": "assistant",
+                "content": msg.content or "",
+                "tool_calls": [
+                    {
+                        "id": tc.id,
+                        "type": "function",
+                        "function": {
+                            "name": tc.function.name,
+                            "arguments": tc.function.arguments,
+                        },
+                    }
+                    for tc in msg.tool_calls
+                ],
+            }
+        )
+
+        # Her tool'u çalıştır + sonucu mesaj listesine ekle
+        for tc in msg.tool_calls:
+            try:
+                args = json.loads(tc.function.arguments or "{}")
+            except json.JSONDecodeError:
+                args = {}
+            result = execute_tool(tc.function.name, args)
+            tool_calls_made.append(tc.function.name)
+            messages.append(
+                {
+                    "role": "tool",
+                    "tool_call_id": tc.id,
+                    "content": serialize_for_llm(result),
+                }
+            )
+
+    # Final mesajı parse et — JSON ChatResponse formatında olmalı
+    data = parse_json_response(last_text)
+    meta = {
+        "provider": provider,
+        "model": model,
+        "tokens_in": total_tokens_in,
+        "tokens_out": total_tokens_out,
+        "tool_calls": tool_calls_made,
+        "iterations": min(MAX_TOOL_ITERATIONS, len(tool_calls_made) + 1),
+        "status": "ok",
+    }
+
+    if data is None:
+        # LLM JSON döndürmediyse, last_text düz metin olabilir → onu text yap
+        logger.warning(
+            "Tools loop final JSON parse edilemedi (%d iter, %d tool)",
+            meta["iterations"], len(tool_calls_made),
+        )
+        if last_text.strip():
+            return {
+                "text": last_text.strip(),
+                "citations": [],
+                "dashboard_update": None,
+                "follow_up_suggestions": [],
+                "recommendation": None,
+                "_meta": meta,
+            }
+        return _fallback(FALLBACK_PARSE_ERROR_TEXT, meta)
+
+    try:
+        resp_obj = ChatResponse(**data)
+    except ValidationError:
+        return _fallback(FALLBACK_PARSE_ERROR_TEXT, meta)
+
+    out = resp_obj.model_dump()
     out["_meta"] = meta
     return out
