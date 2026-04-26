@@ -386,15 +386,12 @@ function UzmanlasmaInfo() {
             }}
           >
             <p>
-              <strong>Uzmanlaşma</strong> — her ders LLM ile teknik konu
-              kategorilerine etiketlenir. Burada en güçlü 2 kategorideki ders
-              ve AKTS dağılımı:
+              <strong>Uzmanlaşma</strong> — en güçlü 2 kategorideki ders ve
+              AKTS dağılımı:
             </p>
             <ul className="mt-1.5 space-y-0.5 text-[color:var(--color-ink-700)]">
-              <li><strong>zorunlu</strong> = bölümde herkesin alması gereken ders</li>
-              <li><strong>seçmeli</strong> = öğrencinin tercihen aldığı ders</li>
-              <li>her ▪︎ = 1 ders</li>
-              <li>her ▬ = 5 AKTS (ders yükü)</li>
+              <li><strong>Zorunlu</strong> = bölümde herkesin alması gereken ders</li>
+              <li><strong>Seçmeli</strong> = öğrencinin tercihen aldığı ders</li>
             </ul>
             <p className="mt-1.5 italic text-[color:var(--color-ink-500)]">
               Bölüm adıyla karıştırma — bunlar ders konusu kategorileri.
