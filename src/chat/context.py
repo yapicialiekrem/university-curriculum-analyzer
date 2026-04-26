@@ -233,14 +233,45 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
         program_outcomes = uni_doc.get("program_outcomes") or []
         if not isinstance(program_outcomes, list):
             program_outcomes = []
+        # Akademik kadro (staff) — "X üni'sinin prof sayısı" gibi sorularda
+        # gerekli; deterministic intent şu ana dek staff'ı pass etmiyordu
+        # ve LLM "verimizde yok" yalan cevap üretiyordu.
+        staff = uni_doc.get("academic_staff") or {}
+        if not isinstance(staff, dict):
+            staff = {}
+        # Modernity / dil / ranking — özet bilgiler
+        summary = uni_doc.get("_summary") or {}
+        try:
+            from api.ranking import get_ranking
+        except ImportError:
+            try:
+                from src.api.ranking import get_ranking  # type: ignore
+            except Exception:
+                get_ranking = None  # type: ignore
+        ranking = None
+        if get_ranking is not None:
+            try:
+                ranking = get_ranking(
+                    slug=r["slug"],
+                    department=uni_doc.get("_department"),
+                    university_name=uni_doc.get("university_name") or uni_doc.get("uni_name"),
+                )
+            except Exception:
+                ranking = None
 
         per_uni.append({
             "university": r["name"],
             "slug": r["slug"],
             "total_courses": len(courses),
             "filtered_count": len(filtered),
-            "sample_filtered": filtered[:MAX_COURSES_PER_UNI],
+            "language": uni_doc.get("language"),
+            "modernity_score": summary.get("modernity_score"),
+            "english_resources_ratio": summary.get("english_resources_ratio"),
+            "academic_staff": staff,
+            "ranking_sira": (ranking or {}).get("basari_sirasi"),
+            "ranking_kontenjan": (ranking or {}).get("yerlesen_sayisi"),
             "program_outcomes": program_outcomes,
+            "sample_filtered": filtered[:10],
         })
     return {
         "per_university": per_uni,
@@ -540,12 +571,22 @@ def _build_detail(intent: Intent, resolved: list[dict], question: Optional[str] 
                 program_outcomes = uni_doc.get("program_outcomes") or []
                 if not isinstance(program_outcomes, list):
                     program_outcomes = []
+                staff = uni_doc.get("academic_staff") or {}
+                if not isinstance(staff, dict):
+                    staff = {}
+                summary = uni_doc.get("_summary") or {}
+                # Önemli alanlar (staff/PO/özet) ÖNCE — sample_courses uzun
+                # ve context truncate (8000 char) durumunda alta düşse bile
+                # ana bilgi LLM'e ulaşır.
                 out.append({
                     "university": r["name"],
                     "slug": r["slug"],
                     "course_count": len(courses),
-                    "sample_courses": courses[:MAX_COURSES_PER_UNI],
+                    "language": uni_doc.get("language"),
+                    "modernity_score": summary.get("modernity_score"),
+                    "academic_staff": staff,
                     "program_outcomes": program_outcomes,
+                    "sample_courses": courses[:10],
                 })
             except Exception as e:
                 out.append({"university": r["name"], "error": str(e)})
