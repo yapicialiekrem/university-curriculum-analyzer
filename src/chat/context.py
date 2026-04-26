@@ -697,6 +697,177 @@ def _count_staff(uni: dict) -> int:
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# AGGREGATE — Cross-üniversite sıralama (en çok / en az / top N)
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _extract_metric(uni: dict, metric: str) -> Optional[float]:
+    """Bir üniversite + metrik anahtarı → tek sayı (yoksa None).
+
+    Anahtar formatı:
+        staff.professor / staff.total / ...
+        summary.modernity_score / summary.total_courses / ...
+        spec.<category>.ects / spec.<category>.courses
+        ranking.basari_sirasi / ranking.yerlesen_sayisi
+        courses_with_prereqs
+    """
+    summary = uni.get("_summary") or {}
+    if metric.startswith("staff."):
+        s = uni.get("academic_staff") or {}
+        if not isinstance(s, dict):
+            return None
+        key = metric.split(".", 1)[1]
+        try:
+            return float(s.get(key) or 0)
+        except (TypeError, ValueError):
+            return None
+
+    if metric.startswith("summary."):
+        key = metric.split(".", 1)[1]
+        v = summary.get(key)
+        if v is None:
+            return None
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return None
+
+    if metric.startswith("spec."):
+        # spec.<category>.<ects|courses>
+        parts = metric.split(".", 2)
+        if len(parts) < 3:
+            return None
+        cat, kind = parts[1], parts[2]
+        spec = (summary.get("specialization_depth") or {}).get(cat) or {}
+        if kind == "courses":
+            req = int(spec.get("required") or 0)
+            el = int(spec.get("elective") or 0)
+            return float(req + el)
+        if kind == "ects":
+            # AKTS doğrudan _summary'de yok — courses'tan hesapla
+            return float(_compute_category_ects(uni, cat))
+        return None
+
+    if metric.startswith("ranking."):
+        # ranking.json'lardan oku
+        try:
+            from api.ranking import get_ranking
+        except ImportError:
+            try:
+                from src.api.ranking import get_ranking  # type: ignore
+            except Exception:
+                return None
+        r = get_ranking(
+            slug=uni.get("_slug") or "",
+            department=uni.get("_department"),
+            university_name=uni.get("university_name") or uni.get("uni_name"),
+        )
+        if not r:
+            return None
+        key = metric.split(".", 1)[1]
+        v = r.get("basari_sirasi") if key == "basari_sirasi" else r.get("yerlesen_sayisi")
+        if v is None:
+            return None
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return None
+
+    if metric == "courses_with_prereqs":
+        # Önkoşulu olan ders sayısı
+        n = 0
+        for c in uni.get("courses") or []:
+            prereqs = c.get("prerequisites") or []
+            if isinstance(prereqs, list) and len(prereqs) > 0:
+                n += 1
+        return float(n)
+
+    return None
+
+
+_METRIC_LABELS: dict[str, str] = {
+    "staff.professor": "Profesör sayısı",
+    "staff.associate_professor": "Doçent sayısı",
+    "staff.assistant_professor": "Dr. öğretim üyesi sayısı",
+    "staff.lecturer": "Öğretim görevlisi sayısı",
+    "staff.research_assistant": "Araştırma görevlisi sayısı",
+    "staff.total": "Toplam akademik kadro",
+    "summary.total_courses": "Toplam ders sayısı",
+    "summary.modernity_score": "Güncellik skoru",
+    "summary.english_resources_ratio": "İngilizce kaynak oranı",
+    "summary.project_heavy_course_count": "Proje ağırlıklı ders sayısı",
+    "summary.total_project_ects": "Proje toplam AKTS",
+    "ranking.basari_sirasi": "YKS başarı sırası (düşük = seçici)",
+    "ranking.yerlesen_sayisi": "Yerleşen kişi sayısı (kontenjan)",
+    "courses_with_prereqs": "Önkoşulu olan ders sayısı",
+}
+
+
+def _metric_label(metric: str) -> str:
+    if metric in _METRIC_LABELS:
+        return _METRIC_LABELS[metric]
+    if metric.startswith("spec."):
+        parts = metric.split(".", 2)
+        if len(parts) == 3:
+            cat = _category_label(parts[1])
+            kind = "AKTS" if parts[2] == "ects" else "ders sayısı"
+            return f"{cat} {kind}"
+    return metric
+
+
+def _build_aggregate(intent: Intent) -> dict:
+    """Tüm üniversiteleri verilen metrik üzerinden sıralar.
+
+    Pipeline:
+      1) Enrichment store'dan üniversiteleri yükle (department filter ops.)
+      2) Her üni için _extract_metric → tek sayı
+      3) None değerleri at
+      4) order'a göre sırala, top_n al
+      5) Dönüş: {metric, label, ranked: [{slug,name,value}], total_evaluated}
+    """
+    metric = intent.aggregate_metric
+    if not metric:
+        return {"error": "Hangi metrik üzerinden sıralanacağı belirtilmedi."}
+
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        try:
+            from src.analytics.loader import get_store  # type: ignore
+        except Exception as e:
+            return {"error": f"analytics store yüklenemedi: {e}"}
+
+    store = get_store()
+    rows: list[dict] = []
+    for slug in store.list_slugs(department=intent.aggregate_department):
+        uni = store.get(slug)
+        if not uni:
+            continue
+        v = _extract_metric(uni, metric)
+        if v is None:
+            continue
+        rows.append({
+            "slug": slug,
+            "name": uni.get("university_name") or uni.get("uni_name") or slug,
+            "department": uni.get("department"),
+            "department_code": uni.get("_department"),
+            "value": v,
+        })
+
+    reverse = intent.aggregate_order == "desc"
+    rows.sort(key=lambda r: (r["value"] is None, -r["value"] if reverse else r["value"]))
+    ranked = rows[: intent.aggregate_top_n]
+
+    return {
+        "metric": metric,
+        "metric_label": _metric_label(metric),
+        "order": intent.aggregate_order,
+        "department_filter": intent.aggregate_department,
+        "ranked": ranked,
+        "total_evaluated": len(rows),
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # PUBLIC
 # ═══════════════════════════════════════════════════════════════════════════
 
@@ -744,6 +915,9 @@ def build_context(intent: Intent) -> dict:
 
     elif intent.type == "advisory":
         ctx["advisory"] = _build_advisory(intent)
+
+    elif intent.type == "aggregate":
+        ctx["aggregate"] = _build_aggregate(intent)
 
     else:  # general
         ctx["system_info"] = _build_general()

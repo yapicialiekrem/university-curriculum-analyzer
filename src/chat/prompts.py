@@ -47,6 +47,15 @@ TYPE SEÇENEKLERİ:
                       "8000 sıralamayla hangi üniversiteye girebilirim",
                       "veri bilimi için tavsiye eder misin",
                       "hangisini seçmeliyim", "bana en uygun olan")
+- "aggregate"      → Tüm üniversiteler arasında SIRALAMA / "en çok
+                     en az / en yüksek / en düşük" tipi soru. Belirli
+                     bir üni'yi sormaz, tüm dataset'i tarar.
+                     ("en çok profesörü olan üniversite",
+                      "hangi üniversitede en yüksek modernity skoru",
+                      "AI alanında en çok ders sunan üniversite",
+                      "en düşük YKS sırası gerektiren bölüm",
+                      "kontenjanı en yüksek olan üniversite",
+                      "en proje ağırlıklı müfredata sahip üni")
 - "general"        → Sistem / proje hakkında genel soru
                      ("nasıl çalışıyor", "hangi veriler var")
 
@@ -99,6 +108,39 @@ USER_RANK (yalnız type="advisory" için, diğerlerinde null):
   "8 bin", "8.000", "8000 lik sıra" hepsi 8000.
   Yoksa null.
 
+AGGREGATE_METRIC (yalnız type="aggregate" için, diğerlerinde null):
+  Sıralanacak metrik. Şu set:
+    Akademik kadro:
+      "staff.professor", "staff.associate_professor",
+      "staff.assistant_professor", "staff.lecturer",
+      "staff.research_assistant", "staff.total"
+    Müfredat geneli:
+      "summary.total_courses", "summary.modernity_score",
+      "summary.english_resources_ratio",
+      "summary.project_heavy_course_count",
+      "summary.total_project_ects"
+    Uzmanlaşma (kategori bazlı):
+      "spec.<cat>.ects" / "spec.<cat>.courses"
+      cat: ai_ml, programming, math, systems, theory, data_science,
+           security, web_mobile, software_eng, graphics_vision,
+           distributed, info_systems
+    YKS sıralama:
+      "ranking.basari_sirasi" → en seçici (düşük sıra) için asc kullan
+      "ranking.yerlesen_sayisi" → kontenjan
+    Önkoşul:
+      "courses_with_prereqs" → önkoşulu olan ders sayısı
+
+AGGREGATE_ORDER (yalnız aggregate için, default "desc"):
+  "desc" → en çok / en yüksek (default; profesör, AKTS, ders sayısı için)
+  "asc" → en az / en düşük (YKS başarı sırası için; "en seçici" = en
+          düşük sıra)
+
+AGGREGATE_TOP_N: 1-20 arası, varsayılan 5.
+
+AGGREGATE_DEPARTMENT (opsiyonel filter):
+  "bilmuh" / "yazmuh" / "ybs" — soruda departman geçiyorsa belirt;
+  yoksa null (tüm bölümler arasında sıralanır).
+
 ÇIKTI — SADECE bu şablonda JSON:
 {{
   "type": "...",
@@ -114,7 +156,11 @@ USER_RANK (yalnız type="advisory" için, diğerlerinde null):
   "top_k": 10,
   "semantic_query": null,
   "goal_categories": [],
-  "user_rank": null
+  "user_rank": null,
+  "aggregate_metric": null,
+  "aggregate_order": "desc",
+  "aggregate_top_n": 5,
+  "aggregate_department": null
 }}
 
 ÖRNEKLER:
@@ -158,7 +204,36 @@ Soru: "8000 sıralamam var veri bilimi için bana tavsiye verir misin?"
     "filters":{{"category":null,"semester":null,"course_type":null,
                 "language":null}},
     "needs_embedding":false,"top_k":10,"semantic_query":null,
-    "goal_categories":["data_science"],"user_rank":8000}}
+    "goal_categories":["data_science"],"user_rank":8000,
+    "aggregate_metric":null,"aggregate_order":"desc","aggregate_top_n":5,
+    "aggregate_department":null}}
+
+Soru: "Hangi üniversitede en çok profesör var?"
+→ {{"type":"aggregate","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"course_type":null,
+                "language":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null,
+    "goal_categories":[],"user_rank":null,
+    "aggregate_metric":"staff.professor","aggregate_order":"desc",
+    "aggregate_top_n":5,"aggregate_department":null}}
+
+Soru: "AI alanında en çok AKTS sunan 5 üniversite"
+→ {{"type":"aggregate","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"course_type":null,
+                "language":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null,
+    "goal_categories":[],"user_rank":null,
+    "aggregate_metric":"spec.ai_ml.ects","aggregate_order":"desc",
+    "aggregate_top_n":5,"aggregate_department":null}}
+
+Soru: "En seçici (en düşük YKS sıralaması) bilgisayar mühendisliği bölümü?"
+→ {{"type":"aggregate","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"course_type":null,
+                "language":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null,
+    "goal_categories":[],"user_rank":null,
+    "aggregate_metric":"ranking.basari_sirasi","aggregate_order":"asc",
+    "aggregate_top_n":3,"aggregate_department":"bilmuh"}}
 
 Şimdi yukarıdaki soruyu sınıflandır ve SADECE JSON döndür."""
 
@@ -254,6 +329,26 @@ DASHBOARD_UPDATE alanları (frontend bunu overlay/parlatma için kullanır):
   dashboard_update=null, follow_up_suggestions alakalı ise doldurulabilir.
 - Genel sorularda dashboard_update=null kullan.
 - SADECE JSON döndür.
+
+AGGREGATE (CROSS-ÜNİVERSİTE SIRALAMA) SORULARI İÇİN ÖZEL KURALLAR:
+Eğer context'te `aggregate` alanı varsa, kullanıcı tüm üniversiteler
+arasında bir sıralama istemiş demektir. Bu durumda:
+
+1. `aggregate.ranked` listesi top N üniversiteyi içerir, sıralı.
+2. text alanında bu sıralamayı kısa-net Türkçe cümlelerle aktar.
+   Örn: "En çok profesörü olan üniversiteler: Yıldız Teknik (X), İTÜ (Y),
+   Bilkent (Z)..." şeklinde 3-5 üniversiteden bahset.
+3. Sayıları AYNEN aktar — `value` alanını kullan, "yaklaşık" deme.
+4. `aggregate.metric_label` cümlede metrik adını verir; tekrar etmek
+   zorunda değilsin ama bağlam için açıkla.
+5. `aggregate.order == "asc"` ise "en az / en düşük" ifadesi kullan;
+   "desc" ise "en çok / en yüksek".
+6. dashboard_update doldurulabilir: `universities_focus` = top 3 slug;
+   metriğe uygun overlay (örn staff.* için "staff_bars").
+7. follow_up_suggestions: ranking detayını derinleştirici sorular.
+8. recommendation alanı boş kalır (advisory'ye özel).
+9. Aggregate sorularında "X daha iyi" dilini KULLAN — "Y kişi profesörle
+   liderlikte" gibi spesifik veriye dayalı.
 
 ADVISORY (TAVSİYE) SORULARI İÇİN ÖZEL KURALLAR:
 Eğer context'te `advisory` alanı varsa, bu kullanıcı "hangi üniversite bana
