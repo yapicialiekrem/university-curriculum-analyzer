@@ -75,6 +75,10 @@ TYPE SEÇENEKLERİ:
                       "ODTÜ ile Bilkent'in modernity skoru farkı"
                       "Bilkent ve Sabancı'nın AI ders sayısı ortalaması"
                       "x'ten yüksek profesör VE y'den fazla AI ders"
+                     KAYNAK/KİTAP ARAMA da complex olarak işaretle:
+                      "Cormen kitabını hangi üniversiteler okutuyor?"
+                      "Tanenbaum'u kullanan üniler hangileri?"
+                      "Computer Networks kitabı kaç üniversitede"
                       "ODTÜ'nün AI dersleri arasında en yüksek AKTS"
                       "İngilizce ders oranı en yüksek üni"
                       "Bloom create yüksek olanlar içinde proje fazla olan"
@@ -112,9 +116,13 @@ seç; başka durumda null:
 
 FILTERS (hepsi opsiyonel, yoksa null):
   category     : "ai" | "programming" | "math" | "systems" | "theory"
-  semester     : 1..8 tamsayı
+  semester     : 1..8 tamsayı (dönem; "5. dönem" → 5)
+  year         : 1..4 tamsayı (sınıf; "4. sınıf" → 4, "1. sınıf" → 1)
   course_type  : "zorunlu" | "secmeli"
   language     : "tr" | "en"
+  uni_type     : "devlet" | "özel" — soruda "devlet üni", "özel üni" geçerse
+  department   : "bilmuh" | "yazmuh" | "ybs" — soruda bölüm geçerse
+                  ("YBS bölümü", "yazılım mühendisliği bölümü", vb.)
 
 NEEDS_EMBEDDING: Semantik arama gerekli mi (bool)?
   - type="semantic" ise genelde true
@@ -189,8 +197,11 @@ AGGREGATE_DEPARTMENT (opsiyonel filter):
   "filters": {{
     "category": null,
     "semester": null,
+    "year": null,
     "course_type": null,
-    "language": null
+    "language": null,
+    "uni_type": null,
+    "department": null
   }},
   "needs_embedding": false,
   "top_k": 10,
@@ -207,8 +218,31 @@ AGGREGATE_DEPARTMENT (opsiyonel filter):
 
 Soru: "ODTÜ'de kaç zorunlu ders var?"
 → {{"type":"deterministic","universities":["metu"],"metric":null,
-    "filters":{{"category":null,"semester":null,"course_type":"zorunlu",
-                "language":null}},
+    "filters":{{"category":null,"semester":null,"year":null,
+                "course_type":"zorunlu","language":null,
+                "uni_type":null,"department":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null}}
+
+Soru: "ODTÜ'nün 4. sınıf zorunlu dersleri hangileri?"
+→ {{"type":"deterministic","universities":["metu"],"metric":null,
+    "filters":{{"category":null,"semester":null,"year":4,
+                "course_type":"zorunlu","language":null,
+                "uni_type":null,"department":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null}}
+
+Soru: "Kaç özel kaç devlet üniversitesi var?"
+→ {{"type":"deterministic","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"year":null,
+                "course_type":null,"language":null,
+                "uni_type":null,"department":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null}}
+   (universities=[] → tüm üniler taranır; LLM context'teki by_type sayar)
+
+Soru: "YBS bölümü olan üniversiteler hangileri?"
+→ {{"type":"deterministic","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"year":null,
+                "course_type":null,"language":null,
+                "uni_type":null,"department":"ybs"}},
     "needs_embedding":false,"top_k":10,"semantic_query":null}}
 
 Soru: "Makine öğrenmesiyle ilgili dersler hangi üniversitede var?"

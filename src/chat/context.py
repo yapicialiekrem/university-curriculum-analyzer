@@ -192,17 +192,57 @@ def _language_matches(course_lang: Optional[str], filt: Optional[str]) -> bool:
 def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
     """list_courses + filter — sayısal sorular için."""
     engine = _get_engine()
+    f = intent.filters
+    # Tüm üniversiteler için dashboard stats + bölüm-bazlı liste — "kaç
+    # devlet üniversitesi var", "YBS bölümü olan üniversiteler hangileri"
+    # gibi global sorgularda LLM'in hangi üniler hangi bölümde, hangi
+    # tipte olduğunu görmesini sağlar.
+    if not resolved:
+        try:
+            from analytics.loader import get_store
+        except ImportError:
+            from src.analytics.loader import get_store  # type: ignore
+        store = get_store()
+        all_unis = []
+        for slug, doc in store.all().items():
+            uni_type = (doc.get("type") or "").strip()
+            dep_code = doc.get("_department")
+            # Filtre uygula (uni_type, department) — varsa
+            if f.uni_type and uni_type != f.uni_type:
+                continue
+            if f.department and dep_code != f.department:
+                continue
+            all_unis.append({
+                "slug": slug,
+                "name": doc.get("university_name") or doc.get("uni_name") or slug,
+                "department": doc.get("department"),
+                "department_code": dep_code,
+                "type": uni_type or None,
+                "language": doc.get("language"),
+            })
+        type_counts: dict[str, int] = {}
+        dept_counts: dict[str, int] = {}
+        for u in all_unis:
+            if u.get("type"):
+                type_counts[u["type"]] = type_counts.get(u["type"], 0) + 1
+            if u.get("department_code"):
+                dept_counts[u["department_code"]] = dept_counts.get(u["department_code"], 0) + 1
+        out: dict = {
+            "scope": "all_universities",
+            "total_universities": len(all_unis),
+            "by_type": type_counts,
+            "by_department": dept_counts,
+            "universities": all_unis,
+            "filters_applied": f.model_dump(),
+        }
+        if engine is not None:
+            try:
+                out["dashboard_stats"] = engine.get_dashboard_stats()
+            except Exception:
+                pass
+        return out
     if engine is None:
         return {"error": "Veritabanına bağlanılamadı (ComparisonEngine yok)"}
-    if not resolved:
-        # Tüm üniversiteler için dashboard stats da pratik
-        try:
-            return {
-                "scope": "all_universities",
-                "dashboard_stats": engine.get_dashboard_stats(),
-            }
-        except Exception as e:
-            return {"error": f"dashboard_stats alınamadı: {e}"}
 
     # Store erişimi — program_outcomes JSON'dan çekilir (deterministic
     # tek-uni soruları "X'in PO'larını listele" gibi sorguları kapsasın)
@@ -212,7 +252,6 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
         from src.analytics.loader import get_store  # type: ignore
     store = get_store()
     per_uni: list[dict] = []
-    f = intent.filters
     for r in resolved:
         try:
             courses = engine.list_courses(r["name"]) or []
@@ -226,6 +265,24 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
             filtered = [c for c in filtered if (c.get("type") or "").lower() == f.course_type]
         if f.semester is not None:
             filtered = [c for c in filtered if c.get("semester") == f.semester]
+        if f.year is not None:
+            # year alanı doğrudan course objesinde varsa kullan;
+            # yoksa semester'dan türet (semester 7-8 → year 4 vb.)
+            def _year_match(c: dict) -> bool:
+                y = c.get("year")
+                if y is not None:
+                    try:
+                        return int(y) == f.year
+                    except (TypeError, ValueError):
+                        return False
+                s = c.get("semester")
+                if s is None:
+                    return False
+                try:
+                    return ((int(s) - 1) // 2) + 1 == f.year
+                except (TypeError, ValueError):
+                    return False
+            filtered = [c for c in filtered if _year_match(c)]
         if f.language:
             filtered = [c for c in filtered if _language_matches(c.get("language"), f.language)]
 
@@ -262,6 +319,10 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
         per_uni.append({
             "university": r["name"],
             "slug": r["slug"],
+            "department": uni_doc.get("department"),
+            "department_code": uni_doc.get("_department"),
+            "type": uni_doc.get("type"),  # devlet | özel
+            "faculty": uni_doc.get("faculty"),
             "total_courses": len(courses),
             "filtered_count": len(filtered),
             "language": uni_doc.get("language"),

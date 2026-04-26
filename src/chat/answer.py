@@ -223,6 +223,9 @@ araçları gerektiği kadar zincirle:
 3. "ODTÜ ile Bilkent'in modernity skoru farkı"
    plan: get_university_summary("metu") + get_university_summary("bilkent")
          → modernity_score'ları çıkar farkı yaz
+4. "Cormen kitabını hangi üniversiteler okutuyor?"
+   plan: find_resource(query="Cormen", top_n=10) → tek çağrı; sonuçta
+         üniversite + ders kodu listesi gelir, doğrudan sırala
 
 Tool çağrılarını bitirdiğinde FINAL CEVAP üret. Final cevap formatı:
 

@@ -187,6 +187,33 @@ TOOL_SCHEMAS: list[dict] = [
     {
         "type": "function",
         "function": {
+            "name": "find_resource",
+            "description": (
+                "Bir kaynağın (kitap adı, yazar adı, kelime) hangi "
+                "üniversite ve hangi derslerde okutulduğunu döndürür. "
+                "Örn. 'Cormen', 'Tanenbaum', 'Computer Networks' gibi "
+                "anahtar kelimelerle arama yapar."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "Aranacak kelime/anahtar (kitap adı, yazar)",
+                    },
+                    "top_n": {
+                        "type": "integer",
+                        "description": "Maks dönen üni sayısı (varsayılan 10)",
+                        "default": 10,
+                    },
+                },
+                "required": ["query"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
             "name": "get_university_summary",
             "description": (
                 "Tek üniversitenin tam özetini döndürür: dil, öğretim üyesi "
@@ -229,6 +256,8 @@ def execute_tool(name: str, args: dict[str, Any]) -> dict:
             return _exec_course_detail(args)
         if name == "get_university_summary":
             return _exec_university_summary(args)
+        if name == "find_resource":
+            return _exec_find_resource(args)
         return {"error": f"Bilinmeyen tool: {name}"}
     except Exception as e:
         logger.exception("Tool '%s' patladı", name)
@@ -417,6 +446,56 @@ def _exec_university_summary(args: dict) -> dict:
         "ranking_kontenjan": (ranking or {}).get("yerlesen_sayisi"),
         "specialization_depth": summary.get("specialization_depth", {}),
         "program_outcomes": program_outcomes,
+    }
+
+
+def _exec_find_resource(args: dict) -> dict:
+    """Bir kelimeyle (örn. 'Cormen') kaynak araması — her üni'nin
+    courses[].resources alanlarında case-insensitive substring match.
+    """
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        from src.analytics.loader import get_store  # type: ignore
+
+    query = (args.get("query") or "").strip().lower()
+    top_n = int(args.get("top_n", 10))
+    if not query:
+        return {"error": "query boş olamaz"}
+
+    store = get_store()
+    matches: dict[str, dict] = {}
+    for slug, doc in store.all().items():
+        uni_name = doc.get("university_name") or doc.get("uni_name") or slug
+        for c in (doc.get("courses") or []):
+            resources = c.get("resources") or []
+            if not isinstance(resources, list):
+                continue
+            for r in resources:
+                if not isinstance(r, str):
+                    continue
+                if query in r.lower():
+                    bucket = matches.setdefault(slug, {
+                        "slug": slug,
+                        "name": uni_name,
+                        "department": doc.get("department"),
+                        "department_code": doc.get("_department"),
+                        "course_count": 0,
+                        "courses": [],
+                    })
+                    bucket["course_count"] += 1
+                    if len(bucket["courses"]) < 5:
+                        bucket["courses"].append({
+                            "code": c.get("code"),
+                            "name": c.get("name"),
+                            "resource_excerpt": r[:120],
+                        })
+                    break  # bu dersten 1 kez say
+    ranked = sorted(matches.values(), key=lambda x: -x["course_count"])[:top_n]
+    return {
+        "query": query,
+        "total_universities": len(ranked),
+        "results": ranked,
     }
 
 
