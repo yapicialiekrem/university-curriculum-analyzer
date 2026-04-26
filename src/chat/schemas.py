@@ -293,6 +293,14 @@ class ChatResponse(BaseModel):
 # REQUEST MODEL — /api/chat POST body
 # ═══════════════════════════════════════════════════════════════════════════
 
+class ChatHistoryTurn(BaseModel):
+    """Konuşma geçmişinde tek bir tur (user veya assistant)."""
+    model_config = ConfigDict(extra="ignore")
+
+    role: Literal["user", "assistant"]
+    text: str = Field(..., max_length=2000)
+
+
 class ChatRequest(BaseModel):
     """POST /api/chat body.
 
@@ -301,6 +309,8 @@ class ChatRequest(BaseModel):
       - selected_slugs: kullanıcının dashboard'da seçili olduğu üniversiteler
       - user_rank: opsiyonel YKS sıralaması (advisory için filtre)
       - goal: serbest metin "AI uzmanlaşmak istiyorum" gibi (router parser)
+      - history: önceki konuşma turları (multi-turn dialog için).
+        En fazla 6 turn (3 user + 3 assistant); fazlası kesilir.
     """
     model_config = ConfigDict(extra="ignore")
 
@@ -309,6 +319,7 @@ class ChatRequest(BaseModel):
     selected_slugs: list[str] = Field(default_factory=list, max_length=3)
     user_rank: Optional[int] = Field(None, ge=1, le=2_000_000)
     goal: Optional[str] = Field(None, max_length=200)
+    history: list[ChatHistoryTurn] = Field(default_factory=list, max_length=6)
 
     @field_validator("selected_slugs", mode="before")
     @classmethod
