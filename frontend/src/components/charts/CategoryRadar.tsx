@@ -59,12 +59,12 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
   }
 
   return (
-    <div className="w-full max-w-[520px] mx-auto" data-testid="category-radar">
+    <div className="w-full max-w-[360px] mx-auto" data-testid="category-radar">
       <ResponsiveContainer width="100%" aspect={1}>
         <RadarChart
           data={chartData}
-          outerRadius="78%"
-          margin={{ top: 18, right: 56, bottom: 18, left: 56 }}
+          outerRadius="82%"
+          margin={{ top: 4, right: 44, bottom: 4, left: 44 }}
         >
           <defs>
             {/* Pattern fills (renk körü için) */}
@@ -145,14 +145,8 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
         </RadarChart>
       </ResponsiveContainer>
 
-      {/* Alt açıklama */}
-      <p className="mt-4 text-xs italic font-serif text-[color:var(--color-ink-500)] text-center max-w-md mx-auto leading-relaxed">
-        Her eksende, o konuya ayrılan toplam AKTS'nin tüm üniversiteler arasındaki
-        en yüksek değere oranı (0–100).
-      </p>
-
       {highlight_axis && (
-        <div className="mt-2 text-center text-xs font-mono uppercase tracking-wider text-[color:var(--color-uni-b)]">
+        <div className="mt-1 text-center text-[11px] font-mono uppercase tracking-wider text-[color:var(--color-uni-b)]">
           ✦ Vurgulu eksen: {highlight_axis}
         </div>
       )}
