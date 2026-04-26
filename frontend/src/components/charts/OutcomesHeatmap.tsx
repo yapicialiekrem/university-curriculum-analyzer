@@ -351,6 +351,7 @@ function DetailLine({
         style={{ color }}
       >
         {label}
+        <span className="text-[color:var(--color-ink-500)]">:</span>
       </span>
       <span className="text-[color:var(--color-ink-900)]">{text}</span>
     </div>
