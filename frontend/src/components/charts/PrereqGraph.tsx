@@ -135,6 +135,13 @@ function SingleGraph({
         <div className="h-[300px] flex items-center justify-center text-sm italic font-serif text-[color:var(--color-ink-500)] border rounded" style={{ borderColor: "var(--color-line)" }}>
           Bu üniversitede önkoşul bağlantısı yok.
         </div>
+      ) : nodes.length > 600 ? (
+        <div
+          className="h-[300px] flex items-center justify-center text-sm italic font-serif text-[color:var(--color-ink-500)] border rounded text-center px-6"
+          style={{ borderColor: "var(--color-line)" }}
+        >
+          {nodes.length} ders / {flowEdges.length} bağ — bu üniversitenin önkoşul ağı interaktif görselleştirme için fazla büyük.
+        </div>
       ) : (
         <div
           className="h-[420px] rounded border bg-[color:var(--color-paper-2)]"
@@ -231,7 +238,6 @@ function buildGraph(edges: PrereqEdge[], accent: string) {
     if (!byDepth.has(d)) byDepth.set(d, []);
     byDepth.get(d)!.push(id);
   }
-  const maxDepth = Math.max(...Array.from(byDepth.keys()));
 
   // Layout: x = depth × 180, y = position × 64
   const NODE_W = 90;

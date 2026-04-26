@@ -477,7 +477,6 @@ function applyOverlay(
     coverage_table: "section-2-2",
     bloom_donut: "section-2-3",
     staff_bars: "section-2-5",
-    resources_donut: "section-2-6",
     project_heaviness: "section-2-3",
   };
   const target = update.show_metric ? scrollMap[update.show_metric] : null;

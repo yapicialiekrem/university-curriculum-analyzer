@@ -3,16 +3,9 @@
 /**
  * SemesterHeatmap — Dashboard Bileşen 2.1.
  *
- * 8 dönem × 10 kategori matris. Her hücrede:
- *   - dolgu = AKTS yoğunluğu (alpha)
- *   - solid = zorunlu, çizgili = seçmeli (SVG pattern)
- *
- * Tasarım kararı: TEK RENK (slate blue / info) tüm üniversiteler için.
- * Renk üniversiteyi değil, yoğunluğu temsil eder. Üniversite ayrımı kart
- * başlığındaki accent nokta ile sağlanır. Bu sayede ink (siyah) hücrede
- * sayıların okunmaması sorunu kalkar.
- *
- * İki/üç üniversite YAN YANA — her biri ayrı heatmap.
+ * 8 dönem × 10 kategori matris. Her dolu hücre TEK RENK (heatmap değil) —
+ * yoğunluk farkı ya da zorunlu/seçmeli görsel ayrımı yok. Hücre üzerine
+ * gelindiğinde tooltip'te o hücrenin zorunlu/seçmeli AKTS değerleri yazılır.
  */
 
 import { useState } from "react";
@@ -28,6 +21,9 @@ export interface SemesterHeatmapProps {
 // Tüm hücreler için tek tip renk — slate blue (#2d6a8a). Outcomes tablosu
 // ile aynı palet → dashboard içinde tutarlılık.
 const HEAT_RGB = "45, 106, 138";
+
+// Hücre dolu olduğu sürece sabit alpha — yoğunluk farkı (heatmap) artık yok.
+const FILL_ALPHA = 0.55;
 
 export function SemesterHeatmap({ data, loading }: SemesterHeatmapProps) {
   if (loading || !data) {
@@ -67,12 +63,6 @@ export function SemesterHeatmap({ data, loading }: SemesterHeatmapProps) {
   );
 }
 
-function cellAlpha(ects: number, max: number): number {
-  if (ects <= 0 || max <= 0) return 0;
-  const ratio = Math.min(ects / max, 1);
-  // 0.10 minimum görünürlük → 0.85 maksimum (sayı her zaman okunsun)
-  return 0.10 + ratio * 0.75;
-}
 
 function SingleHeatmap({
   series,
@@ -85,21 +75,8 @@ function SingleHeatmap({
   semesters: number[];
   slotIndex: number;
 }) {
-  // Üniversite ayrımı sadece başlık dot'unda — heatmap renkleri tek tip
+  // Üniversite ayrımı sadece başlık dot'unda — hücre rengi tek tip
   const accentDotColor = uniColor(slotIndex);
-
-  // Bu üni'nin max ECTS'i — alpha normalize için
-  let maxEcts = 0;
-  for (const cat of categories) {
-    const sems = series.matrix[cat.key];
-    if (!sems) continue;
-    for (const cell of Object.values(sems)) {
-      const total = (cell.zorunlu || 0) + (cell.secmeli || 0);
-      if (total > maxEcts) maxEcts = total;
-    }
-  }
-
-  const patternId = `pat-secmeli-${series.slug}`;
 
   return (
     <div className="space-y-2">
@@ -157,8 +134,6 @@ function SingleHeatmap({
                       <Cell
                         key={sem}
                         cell={cell}
-                        maxEcts={maxEcts}
-                        patternId={patternId}
                         category={cat.label}
                         semester={sem}
                         yearGap={i > 0 && i % 2 === 0}
@@ -170,50 +145,6 @@ function SingleHeatmap({
             })}
           </tbody>
         </table>
-
-        {/* SVG pattern (seçmeli için çizgili dolgu) */}
-        <svg width="0" height="0" className="absolute">
-          <defs>
-            <pattern
-              id={patternId}
-              patternUnits="userSpaceOnUse"
-              width="6"
-              height="6"
-              patternTransform="rotate(45)"
-            >
-              <rect width="6" height="6" fill={`rgb(${HEAT_RGB})`} fillOpacity="0.18" />
-              <line
-                x1="0"
-                y1="0"
-                x2="0"
-                y2="6"
-                stroke={`rgb(${HEAT_RGB})`}
-                strokeWidth="1.5"
-              />
-            </pattern>
-          </defs>
-        </svg>
-      </div>
-
-      {/* Legend */}
-      <div className="flex items-center gap-4 text-[10px] font-mono uppercase tracking-wider text-[color:var(--color-ink-500)]">
-        <span className="flex items-center gap-1.5">
-          <span
-            className="w-3 h-3 rounded-sm"
-            style={{ background: `rgba(${HEAT_RGB}, 0.6)` }}
-          />
-          Zorunlu
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span
-            className="w-3 h-3 rounded-sm"
-            style={{
-              background: `repeating-linear-gradient(45deg, rgba(${HEAT_RGB},0.55), rgba(${HEAT_RGB},0.55) 2px, transparent 2px, transparent 4px)`,
-              border: `1px solid rgba(${HEAT_RGB},0.4)`,
-            }}
-          />
-          Seçmeli
-        </span>
       </div>
     </div>
   );
@@ -221,15 +152,11 @@ function SingleHeatmap({
 
 function Cell({
   cell,
-  maxEcts,
-  patternId,
   category,
   semester,
   yearGap,
 }: {
   cell: HeatmapMatrixCell;
-  maxEcts: number;
-  patternId: string;
   category: string;
   semester: number;
   yearGap?: boolean;
@@ -253,39 +180,18 @@ function Cell({
     );
   }
 
-  const alpha = cellAlpha(total, maxEcts);
-
   return (
     <td className="p-0 relative" style={tdStyle}>
       <div
-        className="relative w-9 h-9 rounded-sm overflow-hidden cursor-help transition-transform"
+        className="relative w-9 h-9 rounded-sm overflow-hidden transition-transform"
         style={{
-          background: "var(--color-paper-2)",
+          background: `rgba(${HEAT_RGB}, ${FILL_ALPHA})`,
           transform: hovered ? "scale(1.06)" : undefined,
           outline: hovered ? "1px solid var(--color-ink-900)" : undefined,
         }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-      >
-        {cell.zorunlu > 0 && (
-          <div
-            className="absolute inset-0"
-            style={{ background: `rgba(${HEAT_RGB}, ${alpha})` }}
-          />
-        )}
-        {cell.secmeli > 0 && (
-          <div
-            className="absolute inset-0"
-            style={{
-              background: `url(#${patternId})`,
-              opacity: cell.zorunlu > 0 ? 0.6 : alpha,
-            }}
-          />
-        )}
-        <div className="absolute inset-0 flex items-center justify-center text-[10px] font-mono tabular-nums text-[color:var(--color-ink-900)]">
-          {total >= 8 ? total : ""}
-        </div>
-      </div>
+      />
 
       {hovered && (
         <CellTooltip
