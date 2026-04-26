@@ -59,7 +59,7 @@ export function UniversityCard({
   const dataSparse = enrichedRatio < 0.5;
   const englishPct = Math.round(summary.english_resources_ratio * 100);
 
-  // Top 3 teknik uzmanlaşma
+  // Top 2 teknik uzmanlaşma — tek viewport'a sığsın diye kompakt liste
   const topSpec = TECHNICAL_CATS
     .map((c) => ({
       ...c,
@@ -67,7 +67,7 @@ export function UniversityCard({
     }))
     .filter((x) => x.d.total > 0)
     .sort((a, b) => b.d.total - a.d.total)
-    .slice(0, 3);
+    .slice(0, 2);
 
   return (
     <article
@@ -112,43 +112,52 @@ export function UniversityCard({
           </div>
         )}
 
-        {/* Inline metric satırı: YKS sırası · kontenjan · dil · İng. kaynak % */}
-        <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-2 text-sm">
+        {/* Tek satır metric — YKS sırası · kontenjan · dil · İng. kaynak */}
+        <dl className="mt-2 grid grid-cols-4 gap-2 text-xs">
           {summary.ranking_sira != null && (
             <Metric
-              label="YKS sırası"
+              label="YKS"
               value={summary.ranking_sira.toLocaleString("tr-TR")}
             />
           )}
           {summary.ranking_kontenjan != null && (
             <Metric
               label="Yerleşen"
-              value={`${summary.ranking_kontenjan} kişi`}
+              value={String(summary.ranking_kontenjan)}
             />
           )}
-          <Metric label="Dil" value={summary.language || "—"} />
-          <Metric label="İng. kaynak" value={`%${englishPct}`} />
+          <Metric label="Dil" value={summary.language?.slice(0, 3) || "—"} />
+          <Metric label="İng. kayn." value={`%${englishPct}`} />
         </dl>
 
-        {/* UZMANLAŞMA — kompakt */}
+        {/* UZMANLAŞMA — kompakt: kategori adı + zorunlu (solid) ve seçmeli (open)
+            ayrı satırda. Lejant en üstte tek sefer. */}
         {topSpec.length > 0 && (
-          <section className="mt-4 pt-3 border-t" style={{ borderColor: "var(--color-line)" }}>
-            <div className="ui-label mb-2">Uzmanlaşma</div>
-            <ul className="space-y-2">
+          <section
+            className="mt-3 pt-2 border-t"
+            style={{ borderColor: "var(--color-line)" }}
+          >
+            <div className="flex items-baseline justify-between mb-1.5">
+              <div className="ui-label">Uzmanlaşma</div>
+              <SpecLegend accent={accent} />
+            </div>
+            <ul className="space-y-1.5">
               {topSpec.map((c) => (
                 <li key={c.key} className="text-xs">
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-[color:var(--color-ink-700)] flex-1 truncate">
-                      {c.label}
-                    </span>
-                    <span className="font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums">
-                      {c.d.required}+{c.d.elective}
-                    </span>
+                  <div className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-0.5">
+                    {c.label}
                   </div>
-                  <SpecBlocks
-                    required={c.d.required}
-                    elective={c.d.elective}
+                  <SpecRow
+                    label="zor."
+                    count={c.d.required}
                     accent={accent}
+                    variant="solid"
+                  />
+                  <SpecRow
+                    label="seç."
+                    count={c.d.elective}
+                    accent={accent}
+                    variant="open"
                   />
                 </li>
               ))}
@@ -162,9 +171,9 @@ export function UniversityCard({
 
 function Metric({ label, value }: { label: string; value: string }) {
   return (
-    <div>
-      <dt className="ui-label text-[10px]">{label}</dt>
-      <dd className="font-serif text-base leading-tight mt-0.5 tabular-nums">
+    <div className="min-w-0">
+      <dt className="ui-label text-[9px] truncate">{label}</dt>
+      <dd className="font-serif text-sm leading-tight mt-0.5 tabular-nums truncate">
         {value}
       </dd>
     </div>
@@ -172,47 +181,87 @@ function Metric({ label, value }: { label: string; value: string }) {
 }
 
 /**
- * UZMANLAŞMA mini bar — FRONTEND_PROMPT.md "8px × 4px blok" görseli.
- * Zorunlu: solid accent. Seçmeli: 2px stroke, transparent fill. Max 20 blok.
+ * Uzmanlaşma satırı — bir tip (zorunlu/seçmeli) için etiket + sayı + mini blok.
+ * variant="solid" → dolu accent kareler (zorunlu)
+ * variant="open" → boş çerçeve kareler (seçmeli)
+ * Sayı 0 ise satır yarı opaklıkta "—" ile geçiş yapar (sıralama bozulmasın).
  */
-function SpecBlocks({
-  required,
-  elective,
+function SpecRow({
+  label,
+  count,
   accent,
+  variant,
 }: {
-  required: number;
-  elective: number;
+  label: string;
+  count: number;
   accent: string;
+  variant: "solid" | "open";
 }) {
   const MAX = 12;
-  const total = required + elective;
-  const overflow = Math.max(0, total - MAX);
-  const reqShown = Math.min(required, MAX);
-  const elShown = Math.max(0, Math.min(elective, MAX - reqShown));
-
-  if (total === 0) return null;
+  const shown = Math.min(count, MAX);
+  const overflow = Math.max(0, count - MAX);
 
   return (
-    <div className="mt-1 flex items-center gap-[2px]" aria-hidden>
-      {Array.from({ length: reqShown }).map((_, i) => (
+    <div
+      className={`flex items-center gap-1.5 ${count === 0 ? "opacity-40" : ""}`}
+    >
+      <span
+        className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-7 flex-shrink-0"
+        aria-hidden
+      >
+        {label}
+      </span>
+      <span
+        className="font-mono text-[11px] tabular-nums w-5 text-right flex-shrink-0"
+        style={{ color: count > 0 ? "var(--color-ink-900)" : "var(--color-ink-500)" }}
+      >
+        {count > 0 ? count : "—"}
+      </span>
+      <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
+        {Array.from({ length: shown }).map((_, i) => (
+          <span
+            key={i}
+            className="w-2 h-2 rounded-[1px] block flex-shrink-0"
+            style={
+              variant === "solid"
+                ? { background: accent }
+                : {
+                    background: "transparent",
+                    border: `1.5px solid ${accent}`,
+                  }
+            }
+          />
+        ))}
+        {overflow > 0 && (
+          <span className="ml-1 font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums">
+            +{overflow}
+          </span>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/** Mini lejant — kart başında zorunlu/seçmeli sembollerinin anlamı. */
+function SpecLegend({ accent }: { accent: string }) {
+  return (
+    <div className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-wider text-[color:var(--color-ink-500)]">
+      <span className="flex items-center gap-1">
         <span
-          key={`r${i}`}
-          className="w-2 h-1 rounded-[1px] block"
+          className="w-2 h-2 rounded-[1px] block"
           style={{ background: accent }}
+          aria-hidden
         />
-      ))}
-      {Array.from({ length: elShown }).map((_, i) => (
+        zor.
+      </span>
+      <span className="flex items-center gap-1">
         <span
-          key={`e${i}`}
-          className="w-2 h-1 rounded-[1px] block"
-          style={{ border: `1px solid ${accent}`, background: "transparent" }}
+          className="w-2 h-2 rounded-[1px] block"
+          style={{ border: `1.5px solid ${accent}`, background: "transparent" }}
+          aria-hidden
         />
-      ))}
-      {overflow > 0 && (
-        <span className="ml-1 font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums">
-          +{overflow}
-        </span>
-      )}
+        seç.
+      </span>
     </div>
   );
 }
