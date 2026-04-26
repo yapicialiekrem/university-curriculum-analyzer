@@ -100,7 +100,6 @@ DashboardMetric = Literal[
     "bloom_donut",         # Bileşen 2.3 — Bloom donut
     "staff_bars",          # Bileşen 2.5 — kadro barları
     "coverage_table",      # Bileşen 2.2 — kapsam tablosu
-    "resources_donut",     # Bileşen 2.6 — kaynak dili
     "project_heaviness",   # _summary.project_heavy_course_count vurgusu
 ]
 

@@ -144,12 +144,21 @@ function PairGrid({ pair }: { pair: PairwiseOutcomes }) {
     return <div className="h-[260px] skeleton rounded" />;
   }
 
+  // Bir veya iki üniversitede program çıktısı verisi yok — kaynak JSON'da
+  // boş kalmış olabilir (ör. Akdeniz, Atatürk). "Eşleşme bulunamadı" yerine
+  // kullanıcıya hangi üniversitenin verisinin eksik olduğunu söyle.
   if (maxA < 0 || maxB < 0) {
+    const missing: string[] = [];
+    if (countA === 0) missing.push(shortA);
+    if (countB === 0) missing.push(shortB);
+    const msg = missing.length
+      ? `${missing.join(" ve ")} için program çıktısı verisi yok.`
+      : "Bu iki üniversitenin program çıktıları arasında eşleşen pair bulunamadı.";
     return (
       <div className="space-y-2">
         <Header shortA={shortA} shortB={shortB} slotA={slotA} slotB={slotB} countA={countA} countB={countB} />
-        <p className="text-sm text-[color:var(--color-ink-500)]">
-          Eşleşme bulunamadı.
+        <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
+          {msg}
         </p>
       </div>
     );
