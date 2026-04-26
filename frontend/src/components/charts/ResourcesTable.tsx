@@ -7,8 +7,13 @@
  * kaynaklar tablo halinde.
  */
 
+import { useState } from "react";
+
+import { Pagination } from "@/components/Pagination";
 import type { ResourcesResponse } from "@/lib/types";
 import { uniColor, uniShortName } from "@/lib/use-selection";
+
+const PAGE_SIZE = 20;
 
 export interface ResourcesTableProps {
   data: ResourcesResponse | undefined;
@@ -16,6 +21,8 @@ export interface ResourcesTableProps {
 }
 
 export function ResourcesTable({ data, loading }: ResourcesTableProps) {
+  const [page, setPage] = useState(1);
+
   if (loading || !data) {
     return <div className="h-[300px] skeleton rounded" />;
   }
@@ -28,11 +35,17 @@ export function ResourcesTable({ data, loading }: ResourcesTableProps) {
     );
   }
 
+  const total = data.shared_resources.length;
+  const pageItems = data.shared_resources.slice(
+    (page - 1) * PAGE_SIZE,
+    page * PAGE_SIZE
+  );
+
   return (
     <div className="space-y-3">
       <div className="flex items-baseline justify-between text-xs flex-wrap gap-2">
         <span className="ui-label">
-          {data.shared_resources.length} ortak kaynak
+          {total} ortak kaynak
         </span>
         {data.jaccard_similarity != null && (
           <span className="font-mono text-[color:var(--color-ink-500)]">
@@ -58,12 +71,12 @@ export function ResourcesTable({ data, loading }: ResourcesTableProps) {
             </tr>
           </thead>
           <tbody>
-            {data.shared_resources.map((r, i) => {
+            {pageItems.map((r, i) => {
               const courses1 = r.courses_uni1 ?? [];
               const courses2 = r.courses_uni2 ?? [];
               return (
                 <tr
-                  key={i}
+                  key={(page - 1) * PAGE_SIZE + i}
                   className="border-b last:border-0 align-top hover:bg-[color:var(--color-paper-2)] transition-colors"
                   style={{ borderColor: "var(--color-line)" }}
                 >
@@ -103,6 +116,14 @@ export function ResourcesTable({ data, loading }: ResourcesTableProps) {
           </tbody>
         </table>
       </div>
+
+      <Pagination
+        page={page}
+        pageSize={PAGE_SIZE}
+        total={total}
+        onChange={setPage}
+        label="kaynak"
+      />
     </div>
   );
 }
