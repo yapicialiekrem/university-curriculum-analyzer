@@ -258,7 +258,7 @@ function CourseRow({
         <ChevronDown
           size={14}
           strokeWidth={1.5}
-          className={`text-[color:var(--color-ink-500)] transition-transform ${
+          className={`text-[color:var(--color-ink-500)] transition-transform flex-shrink-0 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
