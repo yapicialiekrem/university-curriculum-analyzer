@@ -59,34 +59,13 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
   }
 
   return (
-    <div className="w-full max-w-[360px] mx-auto" data-testid="category-radar">
+    <div className="w-full max-w-[340px] mx-auto" data-testid="category-radar">
       <ResponsiveContainer width="100%" aspect={1}>
         <RadarChart
           data={chartData}
           outerRadius="82%"
           margin={{ top: 4, right: 44, bottom: 4, left: 44 }}
         >
-          <defs>
-            {/* Pattern fills (renk körü için) */}
-            <pattern id="pat-a" patternUnits="userSpaceOnUse" width="6" height="6">
-              <rect width="6" height="6" fill="rgba(15,14,13,0.10)" />
-            </pattern>
-            <pattern
-              id="pat-b"
-              patternUnits="userSpaceOnUse"
-              width="6"
-              height="6"
-              patternTransform="rotate(45)"
-            >
-              <rect width="6" height="6" fill="rgba(179,48,28,0.06)" />
-              <line x1="0" y1="0" x2="0" y2="6" stroke="rgba(179,48,28,0.35)" strokeWidth="1.5" />
-            </pattern>
-            <pattern id="pat-c" patternUnits="userSpaceOnUse" width="6" height="6">
-              <rect width="6" height="6" fill="rgba(45,106,138,0.06)" />
-              <circle cx="3" cy="3" r="0.8" fill="rgba(45,106,138,0.5)" />
-            </pattern>
-          </defs>
-
           {/* İç hafif halkalar (25/50/75) */}
           <PolarGrid
             stroke="rgba(15,14,13,0.10)"
@@ -124,19 +103,21 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
               stroke={uniColor(idx)}
               strokeWidth={2.25}
               strokeDasharray={idx === 1 ? "4 2" : undefined}
-              fill={`url(#pat-${["a", "b", "c"][idx]})`}
-              fillOpacity={0.6}
+              fill={uniColor(idx)}
+              fillOpacity={0.18}
               dot={{
+                r: 3,
+                fill: uniColor(idx),
+                stroke: uniColor(idx),
+                strokeWidth: 0,
+                fillOpacity: 1,
+              }}
+              activeDot={{
                 r: 5,
                 fill: uniColor(idx),
                 stroke: "var(--color-white-paper)",
                 strokeWidth: 2,
-              }}
-              activeDot={{
-                r: 7,
-                fill: uniColor(idx),
-                stroke: "var(--color-white-paper)",
-                strokeWidth: 2.5,
+                fillOpacity: 1,
               }}
               isAnimationActive
               animationDuration={600}
