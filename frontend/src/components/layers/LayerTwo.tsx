@@ -135,13 +135,6 @@ export function LayerTwo() {
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-16 space-y-12">
       <header className="border-t pt-8" style={{ borderColor: "var(--color-line)" }}>
         <h2 className="font-serif text-3xl tracking-tighter">Daha yakından</h2>
-        <p className="mt-2 text-sm italic text-[color:var(--color-ink-500)] max-w-2xl">
-          {isEmpty
-            ? "Üniversite seçtikçe bu bölümler dolar — dönem dağılımı, ortak konular, bilişsel yoğunluk, program çıktıları ve akademik kadro."
-            : slugs.length === 1
-            ? "Tek üniversite görünümü — dönem dağılımı, kategori kapsamı, Bloom yoğunluğu ve akademik kadro."
-            : "Dönem dağılımı, ortak konular, bilişsel zorluk dağılımı, program çıktıları benzerliği ve akademik kadro."}
-        </p>
       </header>
 
       <Section
@@ -215,7 +208,7 @@ export function LayerTwo() {
         id="section-2-5"
         label="2.5"
         title="Akademik Kadro"
-        caption="Unvan dağılımı — kart başına unvan sayıları."
+        caption="Unvan dağılımı."
         delay={0.2}
         highlighted={overlay?.show_metric === "staff_bars"}
       >
@@ -238,7 +231,7 @@ function SectionEmptyHint() {
       style={{ borderColor: "var(--color-line)" }}
     >
       <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] leading-relaxed">
-        Üst bardan üniversite seç — bu bölüm o anda dolacak.
+        Üniversite seç.
       </p>
     </div>
   );
