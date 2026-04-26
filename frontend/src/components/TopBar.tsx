@@ -43,7 +43,7 @@ export function TopBar() {
 
         <nav className="flex items-center gap-4 sm:gap-6 text-sm">
           <NavLink href={`/${suffix}`} active={pathname === "/"}>
-            Yan yana gör
+            Yan yana
           </NavLink>
           <NavLink
             href={`/deep-analysis${suffix}`}
