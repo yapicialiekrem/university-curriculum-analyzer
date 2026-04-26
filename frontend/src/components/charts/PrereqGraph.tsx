@@ -91,6 +91,14 @@ function SingleGraph({
     return set;
   }, [selected, edges]);
 
+  // Tıklanan dersin DOĞRUDAN önkoşulları (1 adım) — detail panel için
+  const directPrereqs = useMemo(() => {
+    if (!selected) return [] as string[];
+    return edges
+      .filter((e) => e.course === selected && e.prerequisite)
+      .map((e) => e.prerequisite);
+  }, [selected, edges]);
+
   // Selected'a göre style override
   const styledNodes: Node[] = nodes.map((n) => {
     const inChain = ancestors.has(n.id);
@@ -175,9 +183,73 @@ function SingleGraph({
         </div>
       )}
 
+      {/* Tıklanan dersin önkoşul detay paneli */}
+      <PrereqDetail
+        selected={selected}
+        directPrereqs={directPrereqs}
+        ancestorCount={Math.max(0, ancestors.size - 1)}
+        accent={accent}
+        hasGraph={nodes.length > 0 && nodes.length <= 600}
+      />
+    </div>
+  );
+}
+
+function PrereqDetail({
+  selected,
+  directPrereqs,
+  ancestorCount,
+  accent,
+  hasGraph,
+}: {
+  selected: string | null;
+  directPrereqs: string[];
+  ancestorCount: number;
+  accent: string;
+  hasGraph: boolean;
+}) {
+  if (!hasGraph) return null;
+  if (!selected) {
+    return (
       <p className="text-xs italic font-serif text-[color:var(--color-ink-500)]">
-        Bir derse tıkla — alt zinciri vurgulanır. Tekrar tıklarsan seçim kalkar.
+        Bir derse tıkla — önkoşulu burada açılır. Tekrar tıklarsan seçim kalkar.
       </p>
+    );
+  }
+  return (
+    <div
+      className="border-l-2 pl-4 py-2 bg-[color:var(--color-paper-2)] rounded-r"
+      style={{ borderColor: accent }}
+    >
+      <div className="flex items-baseline gap-2 flex-wrap">
+        <code className="font-mono text-sm font-medium tracking-tight">
+          {selected}
+        </code>
+        <span className="text-xs italic font-serif text-[color:var(--color-ink-500)]">
+          {directPrereqs.length === 0
+            ? "için önkoşul yok."
+            : "için önce alınması gereken:"}
+        </span>
+      </div>
+      {directPrereqs.length > 0 && (
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {directPrereqs.map((p) => (
+            <code
+              key={p}
+              className="font-mono text-xs px-2 py-0.5 rounded border bg-[color:var(--color-white-paper)]"
+              style={{ borderColor: "var(--color-line)" }}
+            >
+              {p}
+            </code>
+          ))}
+        </div>
+      )}
+      {ancestorCount > directPrereqs.length && (
+        <p className="mt-2 text-[11px] font-mono text-[color:var(--color-ink-500)] tabular-nums">
+          Toplam {ancestorCount} ders zincir altında ({directPrereqs.length} doğrudan,
+          {" "}{ancestorCount - directPrereqs.length} dolaylı).
+        </p>
+      )}
     </div>
   );
 }

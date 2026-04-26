@@ -59,12 +59,12 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
   }
 
   return (
-    <div className="w-full max-w-[560px] mx-auto" data-testid="category-radar">
+    <div className="w-full max-w-[440px] mx-auto" data-testid="category-radar">
       <ResponsiveContainer width="100%" aspect={1}>
         <RadarChart
           data={chartData}
-          outerRadius="62%"
-          margin={{ top: 28, right: 80, bottom: 28, left: 80 }}
+          outerRadius="78%"
+          margin={{ top: 18, right: 56, bottom: 18, left: 56 }}
         >
           <defs>
             {/* Pattern fills (renk körü için) */}
@@ -107,11 +107,11 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
             dataKey="axis"
             tick={{
               fill: "var(--color-ink-700)",
-              fontSize: 13,
+              fontSize: 11,
               fontFamily: "var(--font-serif)",
               fontStyle: "italic",
             }}
-            tickSize={16}
+            tickSize={10}
             tickFormatter={shortenAxisLabel}
           />
           <Tooltip content={<RadarTooltip data={data} />} />
