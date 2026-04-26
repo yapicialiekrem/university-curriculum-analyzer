@@ -161,8 +161,10 @@ def generate_answer(question: str, context: dict, history: list | None = None) -
 import os
 from openai import AzureOpenAI, OpenAI
 
-# Maksimum tool iterasyonu — sonsuz döngü engeli + maliyet kontrolü
-MAX_TOOL_ITERATIONS = 5
+# Maksimum tool iterasyonu — sonsuz döngü engeli + maliyet kontrolü.
+# 7 → çoğu kompleks sorgu (multi-criteria, oran hesabı) için yeter; daha
+# fazla istenirse final cümleyi zorla.
+MAX_TOOL_ITERATIONS = 7
 
 
 def _tools_client():
@@ -194,10 +196,28 @@ bilgisayar / yazılım / YBS müfredatları üzerine sorular yanıtlıyorsun.
 
 Bu görev için elinde araçlar (tools) var. Kompleks soruları çözmek için \
 araçları gerektiği kadar zincirle:
-- Oranlar/kombinatör soruları → 2-3 tool çağrısı + hesaplama
-- Tek-shot bilgi → 1 tool çağrısı yeterli
-- Tool sonucu hata içeriyorsa düzeltip tekrar dene veya kullanıcıya \
-"bu bilgi verimizde yok" de.
+- Oran/türev hesabı → 1 aggregate + n adet get_specialization çağır, sonra
+  hesabı kendin yap.
+- Multi-criteria filtre (örn "prof>10 VE AI>100 AKTS") → her aday üni için
+  get_university_summary çağır (bu hem profesör hem uzmanlaşma hem ranking
+  bilgisini birlikte döner — birden fazla tool çağırmana gerek yok).
+- Tek-shot bilgi → 1 tool yeterli.
+- Tool sonucu {"error": "..."} dönerse → düzelt veya kullanıcıya
+  "bu bilgi verimizde yok" de.
+- Aynı tool'u 3+ kez aynı arglarla çağırma (tekrar = boşa harcama).
+
+ÖRNEK PLANLAR:
+1. "AI'da zorunlu/seçmeli oranı en yüksek?"
+   plan: aggregate(spec.ai_ml.ects) → top 5 → her biri için
+         get_specialization(slug, "ai_ml") → required_ects/elective_ects
+         oranı hesapla → final cevap
+2. "Profesör 10'dan fazla VE AI 100+ AKTS olan üni"
+   plan: aggregate(spec.ai_ml.ects) → top 8 → her biri için
+         get_university_summary(slug) → academic_staff.professor + AI ects
+         filtrele (prof > 10 AND ai_ects >= 100) → final cevap
+3. "ODTÜ ile Bilkent'in modernity skoru farkı"
+   plan: get_university_summary("metu") + get_university_summary("bilkent")
+         → modernity_score'ları çıkar farkı yaz
 
 Tool çağrılarını bitirdiğinde FINAL CEVAP üret. Final cevap formatı:
 
@@ -214,8 +234,8 @@ KURALLAR:
 - SADECE Türkçe; İngilizce sızdırma
 - Sayıları integer ise tam sayı yaz (".0" yazma)
 - Veriden uydurma yapma; yokluğu açıkça söyle
-- Üniversite önyargısı YASAK ("X daha iyi" deme), ama "senin profilin için \
-en uygun" advisory dilinde geçer
+- "X daha iyi" değer yargısı YASAK (ama advisory'de "senin profilin için
+  en uygun" dilini kullan)
 - Maks 7 cümle"""
 
 
@@ -250,8 +270,10 @@ def generate_answer_with_tools(question: str, history: list | None = None) -> di
     total_tokens_out = 0
     tool_calls_made: list[str] = []
     last_text = ""
+    iterations_run = 0
 
     for iteration in range(MAX_TOOL_ITERATIONS):
+        iterations_run = iteration + 1
         try:
             resp = client.chat.completions.create(
                 model=model,
@@ -319,7 +341,7 @@ def generate_answer_with_tools(question: str, history: list | None = None) -> di
         "tokens_in": total_tokens_in,
         "tokens_out": total_tokens_out,
         "tool_calls": tool_calls_made,
-        "iterations": min(MAX_TOOL_ITERATIONS, len(tool_calls_made) + 1),
+        "iterations": iterations_run,
         "status": "ok",
     }
 
