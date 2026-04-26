@@ -45,8 +45,8 @@ export function LayerTwo() {
 
   const { data: coverage, isLoading: coverageLoading } =
     useSWR<CoverageResponse>(
-      !isEmpty && a && b ? ["coverage", a, b, c] : null,
-      () => api.compareCoverage(a as string, b as string, { c: c || undefined }),
+      !isEmpty && a ? ["coverage", a, b, c] : null,
+      () => api.compareCoverage(a as string, b || undefined, { c: c || undefined }),
       { revalidateOnFocus: false }
     );
 
@@ -70,9 +70,10 @@ export function LayerTwo() {
   const u2Name = summaryAB.data?.[1]?.name;
   const u3Name = summaryAB.data?.[2]?.name;
 
+  // Tek üni → same-uni trick (backend uni1=uni2 kabul ediyor; tek panel render)
   const { data: staff, isLoading: staffLoading } = useSWR<StaffComparison>(
-    u1Name && u2Name ? ["staff", u1Name, u2Name] : null,
-    () => api.compareStaff(u1Name!, u2Name!),
+    u1Name ? ["staff", u1Name, u2Name || u1Name] : null,
+    () => api.compareStaff(u1Name!, u2Name || u1Name!),
     { revalidateOnFocus: false }
   );
 
@@ -166,8 +167,6 @@ export function LayerTwo() {
       >
         {isEmpty ? (
           <SectionEmptyHint />
-        ) : slugs.length < 2 ? (
-          <NeedsMoreHint message="Karşılaştırma için 2 veya 3 üniversite seç." />
         ) : (
           <CoverageTable
             data={coverage}
@@ -218,10 +217,8 @@ export function LayerTwo() {
       >
         {isEmpty ? (
           <SectionEmptyHint />
-        ) : slugs.length < 2 ? (
-          <NeedsMoreHint message="Karşılaştırma için 2 veya 3 üniversite seç." />
         ) : (
-          <StaffBars data={staff} loading={staffLoading} />
+          <StaffBars data={staff} loading={staffLoading} singleMode={slugs.length === 1} />
         )}
       </Section>
     </section>
