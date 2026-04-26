@@ -76,15 +76,15 @@ export function LayerOne() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
         <div
           id="section-radar"
-          className={`lg:col-span-7 card lg:p-8 flex flex-col${
+          className={`lg:col-span-6 card lg:p-6 flex flex-col lg:self-start lg:sticky lg:top-6${
             radarHighlighted ? " overlay-glow" : ""
           }`}
         >
-          <div className="ui-label mb-2">Konu Kapsamı</div>
-          <h2 className="font-serif text-2xl mb-4 tracking-tight">
+          <div className="ui-label mb-1">Konu Kapsamı</div>
+          <h2 className="font-serif text-xl lg:text-2xl mb-1 tracking-tight">
             10 eksende kapsam
           </h2>
-          <div className="flex-1 flex items-center justify-center">
+          <div className="flex items-center justify-center">
             <CategoryRadar
               data={radar}
               loading={radarLoading}
@@ -93,7 +93,7 @@ export function LayerOne() {
           </div>
         </div>
 
-        <div className="lg:col-span-5 grid grid-rows-[auto_auto] gap-6">
+        <div className="lg:col-span-6 grid grid-rows-[auto_auto] gap-6">
           {slugs.map((slug, idx) => (
             <UniversitySummaryCard
               key={slug}

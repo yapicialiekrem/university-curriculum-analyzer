@@ -151,6 +151,38 @@ export function UniversityCard({
           <p className="mt-1 text-sm">{summary.language || "—"}</p>
         </section>
 
+        {/* YKS — başarı sırası + yerleşen */}
+        {(summary.ranking_sira != null || summary.ranking_kontenjan != null) && (
+          <section className="mt-5">
+            <div className="ui-label">YKS — En İyi Program</div>
+            <div className="mt-1.5 flex items-baseline gap-5 flex-wrap">
+              {summary.ranking_sira != null && (
+                <div>
+                  <span
+                    className="font-serif text-2xl font-medium tabular-nums leading-none"
+                    style={{ color: "var(--color-ink-900)" }}
+                  >
+                    {summary.ranking_sira.toLocaleString("tr-TR")}
+                  </span>
+                  <span className="ml-1.5 font-mono text-[11px] uppercase tracking-wider text-[color:var(--color-ink-500)]">
+                    sıra
+                  </span>
+                </div>
+              )}
+              {summary.ranking_kontenjan != null && (
+                <div>
+                  <span className="font-serif text-2xl font-medium tabular-nums leading-none">
+                    {summary.ranking_kontenjan}
+                  </span>
+                  <span className="ml-1.5 font-mono text-[11px] uppercase tracking-wider text-[color:var(--color-ink-500)]">
+                    kişi yerleşti
+                  </span>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* UZMANLAŞMA */}
         {topSpec.length > 0 && (
           <section className="mt-5">
