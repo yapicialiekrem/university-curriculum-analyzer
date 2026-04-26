@@ -14,11 +14,17 @@
  */
 
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowRight, Sparkles, X } from "lucide-react";
+import { ArrowRight, Minus, Sparkles, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { api } from "@/lib/api";
-import type { ChatResponse, Citation, DashboardUpdate, Recommendation } from "@/lib/types";
+import type {
+  AggregateResult,
+  ChatResponse,
+  Citation,
+  DashboardUpdate,
+  Recommendation,
+} from "@/lib/types";
 import { useOverlay } from "@/lib/use-overlay";
 import { useSelection, uniColor, uniShortName } from "@/lib/use-selection";
 
@@ -39,6 +45,7 @@ interface AssistantMsg {
   citations: Citation[];
   followUps: string[];
   recommendation?: Recommendation | null;
+  aggregate?: AggregateResult | null;
   meta?: ChatResponse["meta"];
   /** typewriter effect için — false: hâlâ yazılıyor, true: tam göründü */
   done: boolean;
@@ -56,8 +63,9 @@ export function ChatPanel() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const { setOverlay } = useOverlay();
   const { selection, setSelection } = useSelection();
-  const [userRank, setUserRank] = useState<string>("");
-  const [showRankInput, setShowRankInput] = useState(false);
+  // Açık/kapalı + minimize: panel açıkken minimize edildiğinde sadece
+  // header satırı görünür kalır, mesajlar/input gizlenir.
+  const [minimized, setMinimized] = useState(false);
 
   // Auto-scroll mesajların altına
   useEffect(() => {
@@ -89,12 +97,23 @@ export function ChatPanel() {
       setMessages((m) => [...m, { role: "user", text: q }, { role: "loading" }]);
 
       try {
-        const parsedRank = userRank.trim()
-          ? parseInt(userRank.replace(/[^\d]/g, ""), 10)
-          : undefined;
+        // Konuşma geçmişi: son 6 turn (3 user + 3 assistant). Çok eski
+        // mesajlar context'i şişirmesin diye kesilir.
+        const history = messages
+          .filter(
+            (m): m is UserMsg | (AssistantMsg & { done: true }) =>
+              m.role === "user" || (m.role === "assistant" && m.done)
+          )
+          .slice(-6)
+          .map((m) => ({
+            role: m.role,
+            text: m.text,
+          }));
+        // YKS sıralaması: kullanıcı isterse soru metnine yazar (router parser
+        // 8000 / "8 bin" / "8.000 sıralamayla" formatlarını yakalıyor).
         const resp: ChatResponse = await api.chat(q, {
           selectedSlugs: selection.slugs,
-          userRank: parsedRank && parsedRank > 0 ? parsedRank : undefined,
+          history,
         });
         // Cevabı önce boş text + done=false ile ekle, sonra typewriter
         // ile karakter karakter doldur (DASHBOARD_PROMPT "streaming" — gerçek
@@ -109,6 +128,7 @@ export function ChatPanel() {
               citations: resp.citations || [],
               followUps: resp.follow_up_suggestions || [],
               recommendation: resp.recommendation || null,
+              aggregate: resp.aggregate || null,
               meta: resp.meta,
               done: false,
             },
@@ -160,7 +180,7 @@ export function ChatPanel() {
         console.error("Chat hatası:", e);
       }
     },
-    [setOverlay, selection.slugs, userRank]
+    [setOverlay, selection.slugs]
   );
 
   /** Recommendation kartından "ödev olarak seç" — slug'ları a/b/c'ye yansıt. */
@@ -225,116 +245,109 @@ export function ChatPanel() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 24, scale: 0.96 }}
               transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
-              className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 sm:pointer-events-auto pointer-events-auto w-full sm:w-[420px] sm:max-w-[calc(100vw-32px)] h-[85vh] sm:h-[600px] sm:max-h-[calc(100vh-48px)] flex flex-col rounded-t-xl sm:rounded-lg overflow-hidden bg-[color:var(--color-white-paper)] border"
+              className={`fixed bottom-0 right-0 sm:bottom-6 sm:right-6 sm:pointer-events-auto pointer-events-auto w-full sm:w-[480px] sm:max-w-[calc(100vw-32px)] flex flex-col rounded-t-xl sm:rounded-lg overflow-hidden bg-[color:var(--color-white-paper)] border ${
+                minimized ? "h-auto sm:h-auto" : "h-[88vh] sm:h-[700px] sm:max-h-[calc(100vh-48px)]"
+              }`}
               style={{
                 borderColor: "var(--color-line)",
                 boxShadow: "var(--shadow-modal)",
               }}
             >
-              {/* Header */}
+              {/* Header — tıklanınca minimize/expand */}
               <header
-                className="flex items-center justify-between px-4 py-3 border-b"
+                className="flex items-center justify-between px-4 py-3 border-b cursor-pointer select-none"
                 style={{ borderColor: "var(--color-line)" }}
+                onClick={() => setMinimized((m) => !m)}
+                role="button"
+                aria-label={minimized ? "Asistanı genişlet" : "Asistanı küçült"}
+                title={minimized ? "Genişlet" : "Küçült"}
               >
                 <div className="flex items-center gap-2">
                   <Sparkles size={16} strokeWidth={1.5} className="text-[color:var(--color-uni-b)]" />
                   <span className="font-serif text-base">Asistan</span>
+                  {minimized && messages.length > 0 && (
+                    <span className="text-xs text-[color:var(--color-ink-500)] font-mono ml-1">
+                      ({messages.filter((m) => m.role === "user").length} soru)
+                    </span>
+                  )}
                 </div>
-                <button
-                  onClick={() => setOpen(false)}
-                  className="p-1.5 -mr-1 text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
-                  aria-label="Kapat"
-                >
-                  <X size={16} strokeWidth={1.5} />
-                </button>
+                <div className="flex items-center gap-1">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setMinimized((m) => !m);
+                    }}
+                    className="p-1.5 text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
+                    aria-label={minimized ? "Genişlet" : "Küçült"}
+                  >
+                    <Minus size={14} strokeWidth={1.5} />
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setOpen(false);
+                      setMinimized(false);
+                    }}
+                    className="p-1.5 -mr-1 text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
+                    aria-label="Kapat"
+                  >
+                    <X size={16} strokeWidth={1.5} />
+                  </button>
+                </div>
               </header>
 
-              {/* Messages */}
-              <div
-                ref={scrollRef}
-                className="flex-1 overflow-y-auto px-4 py-4 space-y-3"
-                aria-live="polite"
-              >
-                {messages.length === 0 && <Welcome onPick={submit} />}
-                {messages.map((m, i) => (
-                  <MessageBubble
-                    key={i}
-                    msg={m}
-                    onPickFollowUp={submit}
-                    onApplyRecommendation={applyRecommendation}
-                  />
-                ))}
-              </div>
-
-              {/* Opsiyonel YKS sırası girişi — advisory için context */}
-              <div
-                className="px-4 py-2 border-t flex items-center gap-2 text-xs"
-                style={{ borderColor: "var(--color-line)" }}
-              >
-                {showRankInput ? (
-                  <>
-                    <label className="ui-label text-[9px] flex-shrink-0">
-                      YKS sıralamam
-                    </label>
-                    <input
-                      type="text"
-                      inputMode="numeric"
-                      value={userRank}
-                      onChange={(e) => setUserRank(e.target.value)}
-                      placeholder="örn 8000"
-                      className="flex-1 bg-transparent outline-none border-b text-sm py-0.5 tabular-nums"
-                      style={{ borderColor: "var(--color-line)" }}
-                    />
-                    <button
-                      onClick={() => {
-                        setShowRankInput(false);
-                        setUserRank("");
-                      }}
-                      className="text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)]"
-                      title="Kaldır"
-                    >
-                      <X size={12} />
-                    </button>
-                  </>
-                ) : (
-                  <button
-                    onClick={() => setShowRankInput(true)}
-                    className="text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] italic font-serif"
+              {!minimized && (
+                <>
+                  {/* Messages */}
+                  <div
+                    ref={scrollRef}
+                    className="flex-1 overflow-y-auto px-4 py-4 space-y-3"
+                    aria-live="polite"
                   >
-                    + YKS sıralamamı ekle (tavsiyeleri kişiselleştir)
-                  </button>
-                )}
-              </div>
+                    {messages.length === 0 && <Welcome onPick={submit} />}
+                    {messages.map((m, i) => (
+                      <MessageBubble
+                        key={i}
+                        msg={m}
+                        onPickFollowUp={submit}
+                        onApplyRecommendation={applyRecommendation}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
 
-              {/* Input */}
-              <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  submit(input);
-                }}
-                className="border-t px-3 py-3 flex items-center gap-2"
-                style={{ borderColor: "var(--color-line)" }}
-              >
-                <input
-                  ref={inputRef}
-                  type="text"
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  placeholder="Müfredat hakkında sor..."
-                  aria-label="Soru"
-                  className="flex-1 bg-[color:var(--color-paper-2)] rounded-md px-3 h-10 text-sm outline-none border focus:border-[color:var(--color-ink-700)] transition-colors"
+              {/* Input — minimize edildiğinde gizli */}
+              {!minimized && (
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    submit(input);
+                  }}
+                  className="border-t px-3 py-3 flex items-center gap-2"
                   style={{ borderColor: "var(--color-line)" }}
-                  maxLength={500}
-                />
-                <button
-                  type="submit"
-                  disabled={input.trim().length < 3}
-                  className="h-10 w-10 flex items-center justify-center rounded-md bg-[color:var(--color-ink-900)] text-[color:var(--color-paper)] disabled:opacity-30 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
-                  aria-label="Gönder"
                 >
-                  <ArrowRight size={16} strokeWidth={1.5} />
-                </button>
-              </form>
+                  <input
+                    ref={inputRef}
+                    type="text"
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    placeholder="Müfredat hakkında sor..."
+                    aria-label="Soru"
+                    className="flex-1 bg-[color:var(--color-paper-2)] rounded-md px-3 h-10 text-sm outline-none border focus:border-[color:var(--color-ink-700)] transition-colors"
+                    style={{ borderColor: "var(--color-line)" }}
+                    maxLength={500}
+                  />
+                  <button
+                    type="submit"
+                    disabled={input.trim().length < 3}
+                    className="h-10 w-10 flex items-center justify-center rounded-md bg-[color:var(--color-ink-900)] text-[color:var(--color-paper)] disabled:opacity-30 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
+                    aria-label="Gönder"
+                  >
+                    <ArrowRight size={16} strokeWidth={1.5} />
+                  </button>
+                </form>
+              )}
             </motion.div>
           </motion.div>
         )}
@@ -444,6 +457,10 @@ function MessageBubble({
         </motion.div>
       )}
 
+      {showSupporting && msg.aggregate && msg.aggregate.ranked.length > 0 && (
+        <AggregateBars data={msg.aggregate} />
+      )}
+
       {showSupporting && msg.recommendation && msg.recommendation.ranked.length > 0 && (
         <RecommendationCard
           rec={msg.recommendation}
@@ -477,6 +494,82 @@ function MessageBubble({
       )}
     </div>
   );
+}
+
+/**
+ * AggregateBars — Aggregate intent cevabında inline mini bar chart.
+ *
+ * Her satır: üniversite adı + sayı + sayıya orantılı bar.
+ * En yüksek değer 100% genişlik = referans, diğerleri ona göre normalize.
+ * "asc" sıralamada (örn YKS başarı sırası) düşük değer = uzun bar
+ * mantıksız olur — bu durumda min'i baz alıp invert ederiz.
+ */
+function AggregateBars({ data }: { data: AggregateResult }) {
+  if (!data.ranked.length) return null;
+  const values = data.ranked.map((r) => r.value);
+  const max = Math.max(...values);
+  const min = Math.min(...values);
+  const isAsc = data.order === "asc";
+  // asc'de görsel olarak en küçük değer en uzun bar (1.0)
+  const widthFor = (v: number): number => {
+    if (max === min) return 1;
+    if (isAsc) return (max - v) / (max - min || 1);
+    return v / (max || 1);
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 6 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, delay: 0.05 }}
+      className="rounded-lg border bg-[color:var(--color-paper-2)] px-3 py-2.5 ml-1 space-y-2"
+      style={{ borderColor: "var(--color-line)" }}
+    >
+      <div className="ui-label">{data.metric_label}</div>
+      <ul className="space-y-1.5">
+        {data.ranked.map((row, idx) => {
+          const w = Math.max(0.06, widthFor(row.value)) * 100;
+          const isTop = idx === 0;
+          return (
+            <li key={row.slug} className="text-xs">
+              <div className="flex items-baseline justify-between gap-2 mb-0.5">
+                <span
+                  className={`truncate flex-1 ${
+                    isTop ? "font-medium" : ""
+                  }`}
+                >
+                  {row.name}
+                </span>
+                <span className="font-mono tabular-nums text-[color:var(--color-ink-700)] flex-shrink-0">
+                  {Number.isInteger(row.value)
+                    ? row.value.toLocaleString("tr-TR")
+                    : row.value.toFixed(1)}
+                </span>
+              </div>
+              <div
+                className="h-1.5 rounded-full overflow-hidden"
+                style={{ background: "var(--color-paper-3)" }}
+              >
+                <div
+                  className="h-full transition-all duration-500"
+                  style={{
+                    width: `${w}%`,
+                    background: isTop
+                      ? "var(--color-uni-a)"
+                      : hexAlphaSafe("var(--color-uni-a)", 0.5),
+                  }}
+                />
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </motion.div>
+  );
+}
+
+function hexAlphaSafe(color: string, alpha: number): string {
+  return `color-mix(in srgb, ${color} ${Math.round(alpha * 100)}%, transparent)`;
 }
 
 /**

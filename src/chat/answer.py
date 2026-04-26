@@ -68,19 +68,53 @@ def _fallback(text: str, meta: dict) -> dict:
     return out
 
 
-def generate_answer(question: str, context: dict) -> dict:
+def _format_history(history: list) -> str:
+    """Konuşma geçmişini LLM'e iletilebilir kompakt metne çevir.
+
+    Format: "Kullanıcı: ...\nAsistan: ..." şeklinde son 3-6 turn.
+    history boşsa boş string döner (prompt template kontrol eder).
+    """
+    if not history:
+        return ""
+    lines = []
+    for turn in history[-6:]:
+        role = "Kullanıcı" if turn.get("role") == "user" else "Asistan"
+        text = (turn.get("text") or "").strip()
+        if not text:
+            continue
+        # Asistan mesajlarını kısalt (uzun ders açıklamaları context'i şişirmesin)
+        if role == "Asistan" and len(text) > 280:
+            text = text[:280] + "..."
+        lines.append(f"{role}: {text}")
+    return "\n".join(lines)
+
+
+def generate_answer(question: str, context: dict, history: list | None = None) -> dict:
     """Kullanıcı cevabı üret.
 
     Args:
         question: Orijinal soru metni.
         context: build_context() çıktısı.
+        history: opsiyonel önceki konuşma turları
+            (list of {"role": "user|assistant", "text": str}).
 
     Returns:
         ChatResponse.model_dump() + "_meta" alanı. Endpoint bunu
         client'a düzleyerek döndürür.
     """
     context_str = _serialize_context(context)
-    prompt = ANSWER_PROMPT.format(question=question, context_json=context_str)
+    history_str = _format_history(history or [])
+    # Geçmiş varsa kullanıcı mesajının başına "ÖNCEKİ KONUŞMA" bloğu ekle.
+    # Prompt template'i değiştirmiyoruz; question alanına önek ekliyoruz.
+    if history_str:
+        framed_question = (
+            f"[ÖNCEKİ KONUŞMA — anaforik referansları bu bağlamla yorumla:]\n"
+            f"{history_str}\n\n"
+            f"[GÜNCEL SORU:]\n{question}"
+        )
+    else:
+        framed_question = question
+    prompt = ANSWER_PROMPT.format(question=framed_question, context_json=context_str)
 
     text, meta = ask_llm(
         prompt=prompt,
