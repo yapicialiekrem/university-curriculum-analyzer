@@ -72,14 +72,14 @@ export const api = {
       `/api/universities/${encodeURIComponent(slug)}/summary`
     ),
 
-  compareRadar: (a: string, b: string, c?: string) =>
+  compareRadar: (a: string, b?: string, c?: string) =>
     apiGet<import("./types").RadarResponse>(
-      `/api/compare/radar?a=${a}&b=${b}${c ? `&c=${c}` : ""}`
+      `/api/compare/radar?a=${a}${b ? `&b=${b}` : ""}${c ? `&c=${c}` : ""}`
     ),
 
-  compareBloom: (a: string, b: string, c?: string) =>
+  compareBloom: (a: string, b?: string, c?: string) =>
     apiGet<import("./types").BloomResponse>(
-      `/api/compare/bloom?a=${a}&b=${b}${c ? `&c=${c}` : ""}`
+      `/api/compare/bloom?a=${a}${b ? `&b=${b}` : ""}${c ? `&c=${c}` : ""}`
     ),
 
   compareCoverage: (a: string, b: string, opts: { c?: string; categories?: string[] } = {}) => {
@@ -91,9 +91,9 @@ export const api = {
     );
   },
 
-  compareHeatmap: (a: string, b: string, c?: string) =>
+  compareHeatmap: (a: string, b?: string, c?: string) =>
     apiGet<import("./types").HeatmapResponse>(
-      `/api/compare/semester-heatmap?a=${a}&b=${b}${c ? `&c=${c}` : ""}`
+      `/api/compare/semester-heatmap?a=${a}${b ? `&b=${b}` : ""}${c ? `&c=${c}` : ""}`
     ),
 
   // Neo4j-bazlı eski endpoint'ler — uni adıyla çağrılır (slug değil)
