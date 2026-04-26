@@ -8,9 +8,12 @@
  */
 
 import { Search } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
+import { Pagination } from "@/components/Pagination";
 import type { UniversityResourcesResponse } from "@/lib/types";
+
+const PAGE_SIZE = 20;
 
 export interface ResourcesSingleUniProps {
   data: UniversityResourcesResponse | undefined;
@@ -19,6 +22,7 @@ export interface ResourcesSingleUniProps {
 
 export function ResourcesSingleUni({ data, loading }: ResourcesSingleUniProps) {
   const [q, setQ] = useState("");
+  const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
     if (!data?.resources) return [];
@@ -30,6 +34,13 @@ export function ResourcesSingleUni({ data, loading }: ResourcesSingleUniProps) {
         r.courses.some((c) => c.toLowerCase().includes(ql))
     );
   }, [data, q]);
+
+  // Arama değişince ilk sayfaya dön
+  useEffect(() => {
+    setPage(1);
+  }, [q]);
+
+  const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   if (loading || !data) {
     return <div className="h-[300px] skeleton rounded" />;
@@ -87,9 +98,9 @@ export function ResourcesSingleUni({ data, loading }: ResourcesSingleUniProps) {
                 </td>
               </tr>
             ) : (
-              filtered.map((r, i) => (
+              pageItems.map((r, i) => (
                 <tr
-                  key={i}
+                  key={(page - 1) * PAGE_SIZE + i}
                   className="border-b last:border-0 align-top hover:bg-[color:var(--color-paper-2)] transition-colors"
                   style={{ borderColor: "var(--color-line)" }}
                 >
@@ -107,6 +118,14 @@ export function ResourcesSingleUni({ data, loading }: ResourcesSingleUniProps) {
           </tbody>
         </table>
       </div>
+
+      <Pagination
+        page={page}
+        pageSize={PAGE_SIZE}
+        total={filtered.length}
+        onChange={setPage}
+        label="kaynak"
+      />
     </div>
   );
 }

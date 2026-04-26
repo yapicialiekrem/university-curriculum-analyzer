@@ -77,6 +77,11 @@ export const api = {
       `/api/universities/${encodeURIComponent(slug)}/resources`
     ),
 
+  universityFull: (slug: string) =>
+    apiGet<import("./types").UniversityFull>(
+      `/api/universities/${encodeURIComponent(slug)}`
+    ),
+
   compareRadar: (a: string, b?: string, c?: string) =>
     apiGet<import("./types").RadarResponse>(
       `/api/compare/radar?a=${a}${b ? `&b=${b}` : ""}${c ? `&c=${c}` : ""}`

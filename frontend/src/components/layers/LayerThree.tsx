@@ -18,6 +18,7 @@ import { CourseSimilarity } from "@/components/charts/CourseSimilarity";
 import { CurriculumCoverageHeatmap } from "@/components/charts/CurriculumCoverageHeatmap";
 import { ResourcesSingleUni } from "@/components/charts/ResourcesSingleUni";
 import { ResourcesTable } from "@/components/charts/ResourcesTable";
+import { WeeklyTopicsSingleUni } from "@/components/charts/WeeklyTopicsSingleUni";
 import { Section } from "@/components/Section";
 import { api } from "@/lib/api";
 
@@ -31,6 +32,7 @@ import type {
   CurriculumCoverageResponse,
   PrerequisitesResponse,
   ResourcesResponse,
+  UniversityFull,
   UniversityListItem,
   UniversityResourcesResponse,
   UniversitySummary,
@@ -138,6 +140,14 @@ export function LayerThree() {
       { revalidateOnFocus: false }
     );
 
+  // 3.1 tek üni — o üni'nin tüm dersleri + haftalık konular
+  const { data: singleFull, isLoading: singleFullLoading } =
+    useSWR<UniversityFull>(
+      singleSlug ? ["full-single", singleSlug] : null,
+      () => api.universityFull(singleSlug!),
+      { revalidateOnFocus: false }
+    );
+
   return (
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-12 space-y-10">
       <header className="border-b pb-6" style={{ borderColor: "var(--color-line)" }}>
@@ -163,9 +173,14 @@ export function LayerThree() {
         </div>
       )}
 
-      <Section label="3.1" title="Haftalık Konu Eşlemesi">
-        {needsTwoUnis ? (
-          <DeepEmptyHint message="Karşılaştırma için 2 üniversite seç." />
+      <Section
+        label="3.1"
+        title={slugs.length === 1 ? "Haftalık Konular" : "Haftalık Konu Eşlemesi"}
+      >
+        {isEmpty ? (
+          <DeepEmptyHint />
+        ) : slugs.length === 1 ? (
+          <WeeklyTopicsSingleUni data={singleFull} loading={singleFullLoading} />
         ) : (
           <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
         )}
