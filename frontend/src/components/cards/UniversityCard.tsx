@@ -130,21 +130,29 @@ export function UniversityCard({
           <Metric label="İng. kayn." value={`%${englishPct}`} />
         </dl>
 
-        {/* UZMANLAŞMA — kompakt: kategori adı + zorunlu (solid) ve seçmeli (open)
-            ayrı satırda. Lejant en üstte tek sefer. */}
+        {/* UZMANLAŞMA — sayılar = bu kategorideki DERS sayısı.
+            Üstte zorunlu (solid accent), altta seçmeli (translucent fill). */}
         {topSpec.length > 0 && (
           <section
             className="mt-3 pt-2 border-t"
             style={{ borderColor: "var(--color-line)" }}
           >
             <div className="flex items-baseline justify-between mb-1.5">
-              <div className="ui-label">Uzmanlaşma</div>
+              <div
+                className="ui-label cursor-help"
+                title="Bu üniversitenin müfredatında o kategoride yer alan ders sayısı (zorunlu + seçmeli)."
+              >
+                Uzmanlaşma · ders sayısı
+              </div>
               <SpecLegend accent={accent} />
             </div>
             <ul className="space-y-1.5">
               {topSpec.map((c) => (
                 <li key={c.key} className="text-xs">
-                  <div className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-0.5">
+                  <div
+                    className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-0.5"
+                    title={`${c.label}: ${c.d.required} zorunlu + ${c.d.elective} seçmeli ders`}
+                  >
                     {c.label}
                   </div>
                   <SpecRow
@@ -152,12 +160,14 @@ export function UniversityCard({
                     count={c.d.required}
                     accent={accent}
                     variant="solid"
+                    titleSuffix={`zorunlu ${c.label} dersi`}
                   />
                   <SpecRow
                     label="seç."
                     count={c.d.elective}
                     accent={accent}
-                    variant="open"
+                    variant="soft"
+                    titleSuffix={`seçmeli ${c.label} dersi`}
                   />
                 </li>
               ))}
@@ -183,7 +193,8 @@ function Metric({ label, value }: { label: string; value: string }) {
 /**
  * Uzmanlaşma satırı — bir tip (zorunlu/seçmeli) için etiket + sayı + mini blok.
  * variant="solid" → dolu accent kareler (zorunlu)
- * variant="open" → boş çerçeve kareler (seçmeli)
+ * variant="soft" → translucent (35% alpha) accent dolgu (seçmeli) — boş
+ *   çerçeve görünümünden vazgeçildi, hem dolu hem ayrımı net olsun.
  * Sayı 0 ise satır yarı opaklıkta "—" ile geçiş yapar (sıralama bozulmasın).
  */
 function SpecRow({
@@ -191,19 +202,23 @@ function SpecRow({
   count,
   accent,
   variant,
+  titleSuffix,
 }: {
   label: string;
   count: number;
   accent: string;
-  variant: "solid" | "open";
+  variant: "solid" | "soft";
+  titleSuffix?: string;
 }) {
   const MAX = 12;
   const shown = Math.min(count, MAX);
   const overflow = Math.max(0, count - MAX);
+  const tooltip = titleSuffix ? `${count} ${titleSuffix}` : undefined;
 
   return (
     <div
-      className={`flex items-center gap-1.5 ${count === 0 ? "opacity-40" : ""}`}
+      className={`flex items-center gap-1.5 cursor-help ${count === 0 ? "opacity-40" : ""}`}
+      title={tooltip}
     >
       <span
         className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-7 flex-shrink-0"
@@ -225,10 +240,7 @@ function SpecRow({
             style={
               variant === "solid"
                 ? { background: accent }
-                : {
-                    background: "transparent",
-                    border: `1.5px solid ${accent}`,
-                  }
+                : { background: hexWithAlpha(accent, 0.32) }
             }
           />
         ))}
@@ -257,11 +269,23 @@ function SpecLegend({ accent }: { accent: string }) {
       <span className="flex items-center gap-1">
         <span
           className="w-2 h-2 rounded-[1px] block"
-          style={{ border: `1.5px solid ${accent}`, background: "transparent" }}
+          style={{ background: hexWithAlpha(accent, 0.32) }}
           aria-hidden
         />
         seç.
       </span>
     </div>
   );
+}
+
+/**
+ * CSS color (hex/rgb/var()) + alpha → renderable color.
+ *
+ * uniColor() bizde "var(--color-uni-a)" gibi CSS değişkeni döner — alpha
+ * ekleyemeyiz. color-mix() destekli modern tarayıcılarda doğal çözüm.
+ * Fallback: opaklık ekleyemediğimizde tam dolu accent dönmek seçmeliyi
+ * solidle birleştirir, bu yüzden açıkça belirttik.
+ */
+function hexWithAlpha(color: string, alpha: number): string {
+  return `color-mix(in srgb, ${color} ${Math.round(alpha * 100)}%, transparent)`;
 }
