@@ -139,7 +139,7 @@ function EmptyCard({ slotIndex }: { slotIndex: number }) {
         style={{ background: accent }}
       />
       <div className="ml-3 px-4">
-        <p className="ui-label text-[10px] mb-1">Boş slot</p>
+        <p className="ui-label text-[10px] mb-1">Üniversite seçilmedi</p>
         <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] leading-snug">
           Yukarıdan üniversite ekle — burada özet, YKS verisi ve uzmanlaşma
           görünür.
