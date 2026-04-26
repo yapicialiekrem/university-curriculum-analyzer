@@ -8,6 +8,8 @@
  * akademik kadro) Layer 2'de.
  */
 
+import { useState } from "react";
+
 import type { UniversitySummary } from "@/lib/types";
 import { X } from "lucide-react";
 
@@ -118,55 +120,73 @@ export function UniversityCard({
             <Metric
               label="YKS"
               value={summary.ranking_sira.toLocaleString("tr-TR")}
-              tooltip={`YKS son kayıtlı kişinin sıralaması: ${summary.ranking_sira.toLocaleString("tr-TR")}`}
+              hover={
+                <>
+                  <strong>YKS son kayıtlı kişinin sıralaması</strong>
+                  <br />
+                  {summary.ranking_sira.toLocaleString("tr-TR")}
+                </>
+              }
             />
           )}
           {summary.ranking_kontenjan != null && (
             <Metric
               label="Kontenjan"
               value={String(summary.ranking_kontenjan)}
-              tooltip={`Bu programa yerleşen toplam kişi sayısı (kontenjan): ${summary.ranking_kontenjan}`}
+              hover={
+                <>
+                  <strong>Bu programa yerleşen kişi sayısı</strong>
+                  <br />
+                  {summary.ranking_kontenjan} kişi
+                </>
+              }
             />
           )}
           <Metric
             label="Dil"
             value={summary.language || "—"}
-            tooltip={`Öğretim dili: ${summary.language || "bilinmiyor"}`}
+            hover={
+              <>
+                <strong>Öğretim dili</strong>
+                <br />
+                {summary.language || "Bilinmiyor"}
+              </>
+            }
           />
           <Metric
             label="Yabancı kaynak"
             value={`%${englishPct}`}
-            tooltip={`Ders kaynaklarının %${englishPct}'i yabancı (İngilizce) dilde`}
+            hover={
+              <>
+                <strong>Yabancı kaynak oranı</strong>
+                <br />
+                Ders kaynaklarının %{englishPct}'i yabancı (İngilizce) dilde
+              </>
+            }
           />
         </dl>
 
-        {/* UZMANLAŞMA — sayılar = bu kategorideki DERS sayısı.
-            Üstte zorunlu (solid accent), altta seçmeli (translucent fill). */}
+        {/* UZMANLAŞMA — her tip için 2 mini-row: ders bloku + AKTS bloku */}
         {topSpec.length > 0 && (
           <section
             className="mt-3 pt-2 border-t"
             style={{ borderColor: "var(--color-line)" }}
           >
             <div className="flex items-baseline justify-between mb-1.5">
-              <div
-                className="ui-label"
-                title="Bu kategoride yer alan ders sayısı (d) ve toplam AKTS — zorunlu ile seçmeli ayrı satırda."
-              >
-                Uzmanlaşma · d / AKTS
-              </div>
+              <div className="ui-label">Uzmanlaşma · ders / AKTS</div>
               <SpecLegend accent={accent} />
             </div>
-            <ul className="space-y-2">
+            <ul className="space-y-2.5">
               {topSpec.map((c) => {
                 const reqEcts = c.d.required_ects ?? 0;
                 const elEcts = c.d.elective_ects ?? 0;
                 return (
                   <li key={c.key} className="text-xs">
-                    <div className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-0.5">
+                    <div className="text-[color:var(--color-ink-700)] truncate font-medium leading-tight mb-1">
                       {c.label}
                     </div>
                     <SpecRow
-                      label="zor."
+                      label="zorunlu"
                       count={c.d.required}
                       ects={reqEcts}
                       accent={accent}
@@ -174,7 +194,7 @@ export function UniversityCard({
                       categoryLabel={c.label}
                     />
                     <SpecRow
-                      label="seç."
+                      label="seçmeli"
                       count={c.d.elective}
                       ects={elEcts}
                       accent={accent}
@@ -192,31 +212,43 @@ export function UniversityCard({
   );
 }
 
+/** Metric hücresi — YKS / Kontenjan / Dil / Yabancı kaynak. Hover'da
+ * yarı-saydam custom popup (native title değil). */
 function Metric({
   label,
   value,
-  tooltip,
+  hover,
 }: {
   label: string;
   value: string;
-  tooltip?: string;
+  hover?: React.ReactNode;
 }) {
+  const [hovered, setHovered] = useState(false);
   return (
-    <div className="min-w-0" title={tooltip}>
+    <div
+      className="min-w-0 relative"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
       <dt className="ui-label text-[9px] truncate">{label}</dt>
       <dd className="font-serif text-sm leading-tight mt-0.5 truncate">
         {value}
       </dd>
+      {hovered && hover && <FloatingTooltip>{hover}</FloatingTooltip>}
     </div>
   );
 }
 
 /**
- * Uzmanlaşma satırı — bir tip (zorunlu/seçmeli) için etiket + ders sayısı +
- * AKTS toplamı + mini blok.
+ * Uzmanlaşma tek-tip satırı (zorunlu veya seçmeli) — iki alt-satır:
+ *   1) Etiket · "N ders" · ders kareleri (her küp 1 ders)
+ *   2) "K AKTS" · AKTS kareleri (her küp 5 AKTS)
+ *
  * variant="solid" → dolu accent kareler (zorunlu)
  * variant="soft" → translucent (~32% alpha) accent dolgu (seçmeli)
- * Sayı 0 ise satır yarı opaklıkta "—" ile geçiş yapar (sıralama bozulmasın).
+ * Sayı 0 ise satır yarı opaklıkta "—" ile geçiş yapar.
+ *
+ * Hover (custom popup): "<count> <typeWord> <category> dersi · <ects> AKTS"
  */
 function SpecRow({
   label,
@@ -226,63 +258,99 @@ function SpecRow({
   variant,
   categoryLabel,
 }: {
-  label: string;
+  label: "zorunlu" | "seçmeli";
   count: number;
   ects: number;
   accent: string;
   variant: "solid" | "soft";
   categoryLabel: string;
 }) {
-  const MAX = 12;
-  const shown = Math.min(count, MAX);
-  const overflow = Math.max(0, count - MAX);
-  const typeWord = label === "zor." ? "zorunlu" : "seçmeli";
-  const tooltip = `${count} ${typeWord} ${categoryLabel} dersi · toplam ${ects} AKTS`;
+  const [hovered, setHovered] = useState(false);
+  const isEmpty = count === 0;
+
+  const block = (key: string | number, size: "ders" | "akts") => (
+    <span
+      key={key}
+      className={`block flex-shrink-0 rounded-[1px] ${
+        size === "ders" ? "w-2 h-2" : "w-2 h-1"
+      }`}
+      style={
+        variant === "solid"
+          ? { background: accent }
+          : { background: hexWithAlpha(accent, 0.32) }
+      }
+    />
+  );
+
+  const dersMax = 12;
+  const dersShown = Math.min(count, dersMax);
+  const dersOverflow = Math.max(0, count - dersMax);
+
+  // Her AKTS kutucuğu = 5 AKTS, max 12 kutucuk (60 AKTS sınırı)
+  const aktsPerBlock = 5;
+  const aktsMax = 12;
+  const aktsBlocks = Math.min(Math.floor(ects / aktsPerBlock), aktsMax);
+  const aktsOverflow = Math.max(0, ects - aktsBlocks * aktsPerBlock);
 
   return (
     <div
-      className={`flex items-center gap-1.5 ${count === 0 ? "opacity-40" : ""}`}
-      title={tooltip}
+      className={`relative flex items-center gap-2 ${isEmpty ? "opacity-40" : ""}`}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
     >
       <span
-        className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-7 flex-shrink-0"
+        className="font-mono text-[9px] uppercase tracking-wider text-[color:var(--color-ink-500)] w-12 flex-shrink-0"
         aria-hidden
       >
         {label}
       </span>
+
       <span
-        className="font-mono text-[11px] tabular-nums w-7 text-right flex-shrink-0"
-        style={{ color: count > 0 ? "var(--color-ink-900)" : "var(--color-ink-500)" }}
+        className="font-mono text-[10px] tabular-nums flex-shrink-0"
+        style={{ color: isEmpty ? "var(--color-ink-500)" : "var(--color-ink-900)" }}
       >
-        {count > 0 ? count : "—"}
-        <span className="text-[9px] text-[color:var(--color-ink-500)] ml-0.5">d</span>
+        {isEmpty ? "—" : `${count} ders`}
       </span>
-      <span
-        className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)] w-10 text-right flex-shrink-0"
-      >
-        {count > 0 ? `${ects}` : ""}
-        {count > 0 && (
-          <span className="text-[9px] ml-0.5">akts</span>
-        )}
-      </span>
-      <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
-        {Array.from({ length: shown }).map((_, i) => (
-          <span
-            key={i}
-            className="w-2 h-2 rounded-[1px] block flex-shrink-0"
-            style={
-              variant === "solid"
-                ? { background: accent }
-                : { background: hexWithAlpha(accent, 0.32) }
-            }
-          />
-        ))}
-        {overflow > 0 && (
-          <span className="ml-1 font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums">
-            +{overflow}
+      <div className="flex items-center gap-[2px] flex-shrink-0" aria-hidden>
+        {Array.from({ length: dersShown }).map((_, i) => block(`d${i}`, "ders"))}
+        {dersOverflow > 0 && (
+          <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
+            +{dersOverflow}
           </span>
         )}
       </div>
+
+      {!isEmpty && (
+        <>
+          <span
+            className="text-[color:var(--color-ink-300)] flex-shrink-0"
+            aria-hidden
+          >
+            ·
+          </span>
+          <span className="font-mono text-[10px] tabular-nums text-[color:var(--color-ink-500)] flex-shrink-0">
+            {ects} AKTS
+          </span>
+          <div className="flex items-center gap-[2px] flex-1 min-w-0" aria-hidden>
+            {Array.from({ length: aktsBlocks }).map((_, i) =>
+              block(`a${i}`, "akts")
+            )}
+            {aktsOverflow > 0 && (
+              <span className="ml-0.5 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
+                +{aktsOverflow}
+              </span>
+            )}
+          </div>
+        </>
+      )}
+
+      {hovered && (
+        <FloatingTooltip>
+          <strong>{categoryLabel}</strong>
+          <br />
+          {count} {label} ders · toplam {ects} AKTS
+        </FloatingTooltip>
+      )}
     </div>
   );
 }
@@ -297,7 +365,7 @@ function SpecLegend({ accent }: { accent: string }) {
           style={{ background: accent }}
           aria-hidden
         />
-        zor.
+        zorunlu
       </span>
       <span className="flex items-center gap-1">
         <span
@@ -305,8 +373,34 @@ function SpecLegend({ accent }: { accent: string }) {
           style={{ background: hexWithAlpha(accent, 0.32) }}
           aria-hidden
         />
-        seç.
+        seçmeli
       </span>
+    </div>
+  );
+}
+
+/**
+ * Custom hover popup — yarı-saydam paper bg + backdrop blur. SemesterHeatmap
+ * CellTooltip ile aynı stil. Native browser title yerine bu kullanılır;
+ * cursor değişmez (`?` çıkmaz) ve görsel tutarlı kalır.
+ */
+function FloatingTooltip({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      role="tooltip"
+      className="absolute left-1/2 -translate-x-1/2 -top-1 -translate-y-full z-30 pointer-events-none"
+    >
+      <div
+        className="rounded shadow-paper px-3 py-2 text-xs whitespace-normal max-w-[260px] text-[color:var(--color-ink-900)] leading-snug"
+        style={{
+          background: "rgba(252,250,246,0.85)",
+          backdropFilter: "blur(8px)",
+          WebkitBackdropFilter: "blur(8px)",
+          border: "1px solid var(--color-line)",
+        }}
+      >
+        {children}
+      </div>
     </div>
   );
 }
@@ -316,8 +410,6 @@ function SpecLegend({ accent }: { accent: string }) {
  *
  * uniColor() bizde "var(--color-uni-a)" gibi CSS değişkeni döner — alpha
  * ekleyemeyiz. color-mix() destekli modern tarayıcılarda doğal çözüm.
- * Fallback: opaklık ekleyemediğimizde tam dolu accent dönmek seçmeliyi
- * solidle birleştirir, bu yüzden açıkça belirttik.
  */
 function hexWithAlpha(color: string, alpha: number): string {
   return `color-mix(in srgb, ${color} ${Math.round(alpha * 100)}%, transparent)`;
