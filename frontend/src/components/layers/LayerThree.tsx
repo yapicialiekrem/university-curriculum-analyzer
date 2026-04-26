@@ -132,21 +132,43 @@ export function LayerThree() {
       { revalidateOnFocus: false }
     );
 
-  const singleSlug = !b ? a : null;
-  const { data: singleResources, isLoading: singleResourcesLoading } =
-    useSWR<UniversityResourcesResponse>(
-      singleSlug ? ["resources-single", singleSlug] : null,
-      () => api.universityResources(singleSlug!),
-      { revalidateOnFocus: false }
-    );
+  // Per-uni full + resources — 1, 2 veya 3 üni için çalışır.
+  // 3.1 her üni'nin haftalık konularını ayrı gösterir, altında 2+ üni
+  // varsa CurriculumCoverageHeatmap eşleşmeyi gösterir.
+  // 3.3 her üni'nin kaynaklarını ayrı gösterir, altında 2+ üni varsa
+  // ResourcesTable ortak kaynakları gösterir.
+  const { data: fullBySlug, isLoading: fullLoading } = useSWR<
+    Record<string, UniversityFull>
+  >(
+    !isEmpty ? ["full-multi", slugs.join(",")] : null,
+    async () => {
+      const res = await Promise.all(slugs.map((s) => api.universityFull(s)));
+      return slugs.reduce<Record<string, UniversityFull>>((acc, s, i) => {
+        acc[s] = res[i];
+        return acc;
+      }, {});
+    },
+    { revalidateOnFocus: false }
+  );
 
-  // 3.1 tek üni — o üni'nin tüm dersleri + haftalık konular
-  const { data: singleFull, isLoading: singleFullLoading } =
-    useSWR<UniversityFull>(
-      singleSlug ? ["full-single", singleSlug] : null,
-      () => api.universityFull(singleSlug!),
-      { revalidateOnFocus: false }
-    );
+  const { data: resourcesBySlug, isLoading: resourcesBySlugLoading } = useSWR<
+    Record<string, UniversityResourcesResponse>
+  >(
+    !isEmpty ? ["resources-multi", slugs.join(",")] : null,
+    async () => {
+      const res = await Promise.all(
+        slugs.map((s) => api.universityResources(s))
+      );
+      return slugs.reduce<Record<string, UniversityResourcesResponse>>(
+        (acc, s, i) => {
+          acc[s] = res[i];
+          return acc;
+        },
+        {}
+      );
+    },
+    { revalidateOnFocus: false }
+  );
 
   return (
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-12 space-y-10">
@@ -173,16 +195,44 @@ export function LayerThree() {
         </div>
       )}
 
-      <Section
-        label="3.1"
-        title={slugs.length === 1 ? "Haftalık Konular" : "Haftalık Konu Eşlemesi"}
-      >
+      <Section label="3.1" title="Haftalık Konular">
         {isEmpty ? (
           <DeepEmptyHint />
-        ) : slugs.length === 1 ? (
-          <WeeklyTopicsSingleUni data={singleFull} loading={singleFullLoading} />
         ) : (
-          <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
+          <div className="space-y-8">
+            {slugs.map((slug, idx) => (
+              <PerUniBlock
+                key={slug}
+                slug={slug}
+                slotIndex={idx}
+                fallbackName={slugToName.get(slug) || slug}
+                data={fullBySlug?.[slug]}
+              >
+                <WeeklyTopicsSingleUni
+                  data={fullBySlug?.[slug]}
+                  loading={fullLoading}
+                />
+              </PerUniBlock>
+            ))}
+            {slugs.length >= 2 && (
+              <div
+                className="pt-6 border-t"
+                style={{ borderColor: "var(--color-line)" }}
+              >
+                <h3 className="font-serif text-base font-medium leading-tight mb-1">
+                  Eşleşme
+                </h3>
+                <p className="text-xs italic font-serif text-[color:var(--color-ink-500)] mb-4">
+                  Üst üniversiteler arasında semantik (NLP) en benzer ders
+                  çiftleri.
+                </p>
+                <CurriculumCoverageHeatmap
+                  data={curriculum}
+                  loading={curriculumLoading}
+                />
+              </div>
+            )}
+          </div>
         )}
       </Section>
 
@@ -198,24 +248,40 @@ export function LayerThree() {
         )}
       </Section>
 
-      <Section
-        label="3.3"
-        title={slugs.length === 1 ? "Ders Kaynakları" : "Ortak Ders Kaynakları"}
-        caption={
-          slugs.length === 1
-            ? undefined
-            : "İki üniversitede de okutulan kitap, makale ve kaynaklar."
-        }
-      >
+      <Section label="3.3" title="Ders Kaynakları">
         {isEmpty ? (
           <DeepEmptyHint />
-        ) : slugs.length === 1 ? (
-          <ResourcesSingleUni
-            data={singleResources}
-            loading={singleResourcesLoading}
-          />
         ) : (
-          <ResourcesTable data={resources} loading={resourcesLoading} />
+          <div className="space-y-8">
+            {slugs.map((slug, idx) => (
+              <PerUniBlock
+                key={slug}
+                slug={slug}
+                slotIndex={idx}
+                fallbackName={slugToName.get(slug) || slug}
+                data={resourcesBySlug?.[slug]?.university}
+              >
+                <ResourcesSingleUni
+                  data={resourcesBySlug?.[slug]}
+                  loading={resourcesBySlugLoading}
+                />
+              </PerUniBlock>
+            ))}
+            {slugs.length >= 2 && (
+              <div
+                className="pt-6 border-t"
+                style={{ borderColor: "var(--color-line)" }}
+              >
+                <h3 className="font-serif text-base font-medium leading-tight mb-1">
+                  Ortak Kaynaklar
+                </h3>
+                <p className="text-xs italic font-serif text-[color:var(--color-ink-500)] mb-4">
+                  Üst üniversitelerin de okuttuğu kitap, makale ve kaynaklar.
+                </p>
+                <ResourcesTable data={resources} loading={resourcesLoading} />
+              </div>
+            )}
+          </div>
         )}
       </Section>
 
@@ -223,6 +289,48 @@ export function LayerThree() {
         <CourseSimilarity />
       </Section>
     </section>
+  );
+}
+
+/**
+ * Tek bir üniversitenin başlığını ve içeriğini wrap eder. Çok-üni
+ * görünümünde her uni için tekrar render edilir; başlıkta uni rengi
+ * (a/b/c) + tam ad belirir.
+ */
+function PerUniBlock({
+  slug,
+  slotIndex,
+  fallbackName,
+  data,
+  children,
+}: {
+  slug: string;
+  slotIndex: number;
+  fallbackName: string;
+  /** name alanı içeren herhangi bir obje; {name} (resources.university)
+   * veya UniversityFull. Çıkarsanan ismi başlıkta gösterir. */
+  data?: { name?: string; university_name?: string } | undefined;
+  children: React.ReactNode;
+}) {
+  const accent =
+    ["var(--color-uni-a)", "var(--color-uni-b)", "var(--color-uni-c)"][slotIndex] ||
+    "var(--color-ink-700)";
+  const resolvedName: string =
+    data?.name || data?.university_name || fallbackName || slug;
+  return (
+    <div>
+      <div className="flex items-center gap-2 mb-3">
+        <span
+          aria-hidden
+          className="w-2.5 h-2.5 rounded-full"
+          style={{ background: accent }}
+        />
+        <h3 className="font-serif text-base font-medium leading-tight">
+          {resolvedName}
+        </h3>
+      </div>
+      {children}
+    </div>
   );
 }
 
