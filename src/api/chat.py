@@ -47,7 +47,7 @@ from fastapi import APIRouter, HTTPException, status
 
 # Mevcut kod flat-import (src/ sys.path'te iken çalışıyor — main.py
 # `from comparison import ...` örüntüsüyle aynı).
-from chat.answer import generate_answer
+from chat.answer import generate_answer, generate_answer_with_tools
 from chat.context import build_context
 from chat.router import classify
 from chat.schemas import ChatRequest
@@ -92,19 +92,23 @@ async def chat(req: ChatRequest) -> dict:
     if (req.user_rank or req.goal) and intent.type == "general":
         intent.type = "advisory"
 
-    # 2) Context (LLM'siz)
-    try:
-        context = build_context(intent, question=question)
-    except Exception as e:
-        logger.exception("Context builder patladı: %s", e)
-        # Exception beklemiyoruz ama güvence: 500 dön.
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Veri toplama başarısız: {type(e).__name__}",
-        )
-
-    # 3) Cevap (LLM) — history zaten yukarıda hazırlandı
-    answer = generate_answer(question, context, history=history_dicts)
+    # 2) "complex" intent → tool-calling loop (hibrit kompleks dal); diğerleri
+    # context-based klasik akış.
+    if intent.type == "complex":
+        # context build edilmez; LLM tool çağrılarıyla veriyi kendi toplar
+        context = {"intent_type": "complex"}
+        answer = generate_answer_with_tools(question, history=history_dicts)
+    else:
+        try:
+            context = build_context(intent, question=question)
+        except Exception as e:
+            logger.exception("Context builder patladı: %s", e)
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail=f"Veri toplama başarısız: {type(e).__name__}",
+            )
+        # 3) Cevap (LLM) — history zaten yukarıda hazırlandı
+        answer = generate_answer(question, context, history=history_dicts)
 
     latency_ms = int((time.perf_counter() - t0) * 1000)
 
