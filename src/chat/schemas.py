@@ -121,8 +121,11 @@ class IntentFilters(BaseModel):
 
     category: Optional[CategoryFilter] = None
     semester: Optional[int] = Field(None, ge=1, le=8)
+    year: Optional[int] = Field(None, ge=1, le=4)  # 1-4 sınıf
     course_type: Optional[CourseTypeFilter] = None
     language: Optional[LanguageFilter] = None
+    uni_type: Optional[Literal["devlet", "özel"]] = None
+    department: Optional[Literal["bilmuh", "yazmuh", "ybs"]] = None
 
 
 class Intent(BaseModel):
