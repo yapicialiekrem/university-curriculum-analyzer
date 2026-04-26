@@ -13,7 +13,7 @@
 import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
 
 import type { BloomLevel, BloomResponse, BloomSeries } from "@/lib/types";
-import { uniColor } from "@/lib/use-selection";
+import { uniColor, uniShortName } from "@/lib/use-selection";
 
 const LEVEL_LABELS: Record<BloomLevel, string> = {
   remember: "Hatırla",
@@ -199,11 +199,13 @@ function BloomCommentary({ series }: { series: BloomSeries[] }) {
   const aPct = Math.round((a.distribution[a.dominant] ?? 0) * 100);
   const bPct = Math.round((b.distribution[b.dominant] ?? 0) * 100);
 
+  const aShort = uniShortName(a.slug || "", a.name);
+  const bShort = uniShortName(b.slug || "", b.name);
   let cmt: string;
   if (a.dominant === b.dominant) {
-    cmt = `İki üniversite de ${LEVEL_LABELS[a.dominant].toLowerCase()} seviyesinde yoğunlaşıyor; ${a.name.split(" ")[0]} %${aPct}, ${b.name.split(" ")[0]} %${bPct}.`;
+    cmt = `İki üniversite de ${LEVEL_LABELS[a.dominant].toLowerCase()} seviyesinde yoğunlaşıyor; ${aShort} %${aPct}, ${bShort} %${bPct}.`;
   } else {
-    cmt = `${a.name.split(" ")[0]} ${LEVEL_LABELS[a.dominant].toLowerCase()} seviyesine ağırlık veriyor (%${aPct}); ${b.name.split(" ")[0]} ise ${LEVEL_LABELS[b.dominant].toLowerCase()} (%${bPct}) etrafında yoğunlaşıyor.`;
+    cmt = `${aShort} ${LEVEL_LABELS[a.dominant].toLowerCase()} seviyesine ağırlık veriyor (%${aPct}); ${bShort} ise ${LEVEL_LABELS[b.dominant].toLowerCase()} (%${bPct}) etrafında yoğunlaşıyor.`;
   }
 
   return (

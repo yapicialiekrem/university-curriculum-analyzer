@@ -14,6 +14,7 @@ API Docs:
 """
 
 import logging
+from typing import Optional
 
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -234,9 +235,16 @@ def compare_program_outcomes(
     uni1: str = Query(..., description="First university name"),
     uni2: str = Query(..., description="Second university name"),
     top_n: int = Query(10, ge=1, le=50, description="Top matching outcome pairs"),
+    department: Optional[str] = Query(
+        None,
+        description="Department code: bilmuh / yazmuh / ybs (aynı üni'de "
+        "çoklu programdan karışım yaşanmaması için filter).",
+    ),
 ):
     """4️⃣ Program Outcome Similarity — Semantically compare program (graduation) outcomes."""
-    return engine.compare_program_outcomes(uni1, uni2, top_n=top_n)
+    return engine.compare_program_outcomes(
+        uni1, uni2, top_n=top_n, department=department
+    )
 
 
 @app.get("/api/compare/learning-outcomes", tags=["Comparison — New"])
