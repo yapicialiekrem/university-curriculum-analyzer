@@ -220,18 +220,30 @@ export interface ProgramOutcomesResponse {
 
 // ─── /api/compare/curriculum-coverage (Neo4j semantic) ──────────────
 
-export interface TopicPair {
-  topic1: { code: string; topic: string };
-  topic2: { code: string; topic: string };
-  similarity: number;
+export interface CoursePair {
+  course1_code: string;
+  course1_name: string;
+  course2_code: string;
+  course2_name: string;
+  similarity_pct: number;
+}
+
+export interface UniqueCourse {
+  code: string;
+  name: string;
+  best_match_similarity_pct?: number;
 }
 
 export interface CurriculumCoverageResponse {
-  university1: { name: string; total_topics: number };
-  university2: { name: string; total_topics: number };
-  similar_topics: TopicPair[];
-  unique_to_uni1?: Array<{ code: string; topic: string }>;
-  unique_to_uni2?: Array<{ code: string; topic: string }>;
+  university1: string;
+  university2: string;
+  matched_courses?: number;
+  unique_to_uni1_count?: number;
+  unique_to_uni2_count?: number;
+  top_similar: CoursePair[];
+  unique_to_uni1?: UniqueCourse[];
+  unique_to_uni2?: UniqueCourse[];
+  note?: string;
 }
 
 // ─── /api/compare/prerequisites (Neo4j) ─────────────────────────────
