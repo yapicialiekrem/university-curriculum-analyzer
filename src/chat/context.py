@@ -499,30 +499,156 @@ def _build_comparison(intent: Intent, resolved: list[dict]) -> dict:
 
 
 def _build_semantic(intent: Intent) -> dict:
-    """FAISS semantik arama. v2: kategori + departman filtreleri dahil."""
-    searcher = _get_searcher()
-    if searcher is None:
-        return {"error": "Semantik index yok; builder ile önce oluştur"}
+    """FAISS semantik arama + substring augment.
+
+    v3: Multilingual embedding bazı modern teknoloji adlarını ('PyTorch',
+    'React') Türkçe kelimelere benzetip alakasız sonuç dönebiliyor. Bu
+    yüzden FAISS sonuçlarına ek olarak DAİMA substring search çalıştırıp
+    sonuçları birleştiriyoruz. Substring eşleşmeleri precise → öncelikli.
+    """
     query = (intent.semantic_query or "").strip()
     if not query:
         return {"error": "semantic_query boş"}
 
-    # Intent filter'larını searcher'a köprüle
-    cat_filter = None
-    if intent.filters.category:
-        cat_filter = [intent.filters.category]
-
-    hits = searcher.search(
+    # 1) Substring sonuçları (precise — öncelikli)
+    sub_hits = _substring_fallback_search(
         query=query,
+        university_slugs=intent.universities or None,
         top_k=intent.top_k,
-        university_filter=intent.universities or None,
-        category_filter=cat_filter,
     )
+
+    # 2) FAISS sonuçları (semantic — tamamlayıcı)
+    searcher = _get_searcher()
+    faiss_hits: list = []
+    if searcher is not None:
+        cat_filter = None
+        if intent.filters.category:
+            cat_filter = [intent.filters.category]
+        try:
+            faiss_hits = searcher.search(
+                query=query,
+                top_k=intent.top_k,
+                university_filter=intent.universities or None,
+                category_filter=cat_filter,
+            )
+        except Exception as e:
+            logger.warning("FAISS search hata: %s", e)
+            faiss_hits = []
+
+    # Birleştir (substring önce, faiss aynı kodla overlap'te atla)
+    seen_codes = {(h.get("code"), h.get("university_slug") or h.get("university")) for h in sub_hits}
+    merged = list(sub_hits)
+    for h in faiss_hits:
+        key = (h.get("code"), h.get("university_slug") or h.get("university"))
+        if key not in seen_codes:
+            merged.append(h)
+            seen_codes.add(key)
+        if len(merged) >= intent.top_k:
+            break
+
     return {
         "query": query,
-        "total_hits": len(hits),
-        "results": hits,
+        "total_hits": len(merged),
+        "substring_hits": len(sub_hits),
+        "faiss_hits": len(faiss_hits),
+        "results": merged[: intent.top_k],
     }
+
+
+# Türkçe + İngilizce yaygın stop-word'ler — substring tokenization öncesi
+# çıkarılır (anlamlı arama). 'içeren', 'olan', 'hangi', 'nedir' gibi.
+_STOP_WORDS = frozenset({
+    # TR
+    "ve", "veya", "hangi", "hangileri", "olan", "olarak", "için", "ile",
+    "var", "mı", "mi", "mu", "mü", "ne", "nedir", "neler", "kaç", "kim",
+    "nerede", "ders", "dersi", "dersler", "üni", "üniversite",
+    "üniversitesi", "üniversiteler", "üniversitede", "içeren", "ait",
+    "bulunan", "geçen", "okuyan", "okutulan",
+    # EN
+    "and", "or", "the", "a", "an", "of", "in", "at", "to", "for",
+    "is", "are", "what", "which", "who", "course", "courses",
+})
+
+
+def _tokenize_query(query: str) -> list[str]:
+    """Query'i kelime/anahtar olarak tokenize et, stop-word'leri ele.
+    Min uzunluk 3 (çok kısa kelimeler false positive yapar).
+    """
+    import re
+    # Alfanumerik + Türkçe karakter; whitespace ve noktalama bölücü
+    raw = re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşü0-9+]+", query)
+    out: list[str] = []
+    for w in raw:
+        wl = w.lower().strip()
+        if len(wl) < 3:
+            continue
+        if wl in _STOP_WORDS:
+            continue
+        out.append(wl)
+    return out
+
+
+def _substring_fallback_search(
+    query: str, university_slugs: Optional[list[str]], top_k: int
+) -> list[dict]:
+    """Tüm course alanlarında token-bazlı substring match.
+    description + name + weekly_topics + resources üzerinde tarama.
+    Query'i kelimelere böler, en az bir kelime match → match.
+    Daha çok kelime match → daha yüksek score.
+    """
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        try:
+            from src.analytics.loader import get_store  # type: ignore
+        except Exception:
+            return []
+
+    tokens = _tokenize_query(query)
+    if not tokens:
+        return []
+
+    store = get_store()
+    candidates = list(store.all().items())
+    if university_slugs:
+        wanted = set(university_slugs)
+        candidates = [(s, d) for s, d in candidates if s in wanted]
+
+    results = []
+    for slug, doc in candidates:
+        uni_name = doc.get("university_name") or doc.get("uni_name") or slug
+        for c in (doc.get("courses") or []):
+            haystack_parts = [
+                (c.get("name") or ""),
+                (c.get("description") or ""),
+                (c.get("purpose") or ""),
+                " ".join(c.get("weekly_topics") or []),
+                " ".join(c.get("resources") or []),
+                " ".join(c.get("learning_outcomes") or []),
+            ]
+            haystack = " ".join(haystack_parts).lower()
+            if not haystack:
+                continue
+            # Kaç token match etti
+            matched = sum(1 for t in tokens if t in haystack)
+            if matched == 0:
+                continue
+            # Score: matched token oranı + ekstra count bonus
+            score = matched / len(tokens)
+            # Tek-token query (örn. 'PyTorch') yüksek score'a kavuşsun
+            if matched == len(tokens):
+                score = min(0.95, score + 0.15)
+            results.append({
+                "code": c.get("code") or "—",
+                "name": c.get("name") or "—",
+                "university": uni_name,
+                "university_slug": slug,
+                "similarity_score": round(score, 3),
+                "match_reason": f"substring({matched}/{len(tokens)})",
+            })
+    # Score'a göre sırala, top_k al
+    results.sort(key=lambda r: -r["similarity_score"])
+    return results[:top_k]
 
 
 def _find_course_in_store(course_code: str, prefer_uni_slug: Optional[str] = None) -> Optional[dict]:

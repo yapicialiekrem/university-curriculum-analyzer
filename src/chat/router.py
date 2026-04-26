@@ -111,9 +111,59 @@ def classify(question: str, history: list | None = None) -> Intent:
     if intent.needs_embedding and not (intent.semantic_query or "").strip():
         intent.semantic_query = question
 
+    # Heuristic kurtarma: LLM router bazen "general" intent veriyor ama
+    # soruda ders/teknoloji adı geçiyor — semantic'e zorla. Çünkü
+    # _build_general statik sistem bilgisi döner; ders sorularında
+    # boşa çıkar.
+    intent = _coerce_general_to_semantic(question, intent)
+
     logger.debug(
         "Router: type=%s unis=%s metric=%s emb=%s",
         intent.type, intent.universities, intent.metric, intent.needs_embedding,
+    )
+    return intent
+
+
+# Soruda geçtiği zaman "bu sistem hakkında değil, ders/üni hakkında" sinyali
+# veren anahtar kelimeler. LLM "general" derse ama bu varsa → semantic'e
+# coerce. Stop-word olmayan, ders konusu ima eden kelimeler.
+_DOMAIN_KEYWORDS = {
+    # Genel müfredat
+    "ders", "müfredat", "üniversite", "bölüm", "kategori", "konu",
+    "öğrenme", "kazanım", "önkoşul", "kaynak",
+    # Programlama / teknoloji isimleri (LLM bunları bilmiyor "general"
+    # diyor; biz gözle bakıp routele)
+    "react", "vue", "angular", "django", "flask", "spring", "rails",
+    "pytorch", "tensorflow", "keras", "scikit", "pandas", "numpy",
+    "docker", "kubernetes", "k8s", "git", "node", "nodejs", "express",
+    "blockchain", "ethereum", "solidity", "fastapi", "redis", "kafka",
+    "mongodb", "postgres", "mysql", "sql", "nosql",
+    # CS konseptleri
+    "algoritma", "veri yapısı", "kriptografi", "ağ güvenliği",
+    "makine öğrenmesi", "derin öğrenme", "yapay zeka", "ai", "ml",
+    "veri bilimi", "iot", "siber güvenlik", "web", "mobil",
+    "framework", "kütüphane", "library",
+}
+
+
+def _coerce_general_to_semantic(question: str, intent: Intent) -> Intent:
+    """Router 'general' dediği bazı soruları semantic'e çevir.
+    Tetikleyici: domain keyword + soruda 'ders'/'üni' geçmesi VEYA
+    teknoloji/framework adı geçmesi.
+    """
+    if intent.type != "general":
+        return intent
+    q_lower = question.lower()
+    matched = [kw for kw in _DOMAIN_KEYWORDS if kw in q_lower]
+    if not matched:
+        return intent
+    # Coerce
+    intent.type = "semantic"
+    intent.needs_embedding = True
+    if not (intent.semantic_query or "").strip():
+        intent.semantic_query = question
+    logger.info(
+        "Router coerced general→semantic (matched: %s)", matched[:5]
     )
     return intent
 
