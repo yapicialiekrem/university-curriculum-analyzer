@@ -1,10 +1,24 @@
-neo4j>=5.0.0
-sentence-transformers>=2.2.0
-scikit-learn>=1.3.0
-python-dotenv>=1.0.0
+# UniCurriculum — Backend Python bağımlılıkları (FINAL)
+# Python 3.11+
+# Kurulum: pip install -r requirements.txt
+
+# ─── Web framework ────────────────────────────────────────
 fastapi>=0.100.0
 uvicorn>=0.23.0
+python-dotenv>=1.0.0
+
+# ─── Knowledge Graph (opsiyonel — ortak kaynak/önkoşul/eşleşme endpoint'leri için) ──
+neo4j>=5.0.0
+
+# ─── Embedding + semantic search ──────────────────────────
+sentence-transformers>=2.2.0   # paraphrase-multilingual-MiniLM-L12-v2 (384-dim)
+faiss-cpu>=1.8.0               # IndexFlatIP, ~8.7K ders index
 numpy>=1.24.0
-faiss-cpu>=1.8.0
-openai>=1.55.0
-tqdm>=4.66.0
+scikit-learn>=1.3.0             # cosine_similarity utility
+
+# ─── LLM (chat + enrichment) ─────────────────────────────
+# Tier zinciri: Azure OpenAI → OpenAI → OpenRouter
+openai>=1.55.0                  # Azure + OpenAI + OpenRouter (OpenAI-uyumlu API'ler)
+
+# ─── Util ─────────────────────────────────────────────────
+tqdm>=4.66.0                    # CLI progress bar (enrichment, builder)
