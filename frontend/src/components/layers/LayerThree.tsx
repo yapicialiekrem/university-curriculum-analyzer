@@ -9,6 +9,7 @@
  *   3.4 CourseSimilarity            POST /api/search (FAISS)
  */
 
+import { useEffect, useMemo } from "react";
 import useSWR from "swr";
 
 import dynamic from "next/dynamic";
@@ -29,14 +30,63 @@ import type {
   CurriculumCoverageResponse,
   PrerequisitesResponse,
   ResourcesResponse,
+  UniversityListItem,
   UniversitySummary,
 } from "@/lib/types";
 import { useSelection } from "@/lib/use-selection";
 
+const SLOT_KEYS: Array<"a" | "b" | "c"> = ["a", "b", "c"];
+
 export function LayerThree() {
-  const { selection } = useSelection();
-  const { a, b, slugs, isEmpty } = selection;
+  const { selection, setSelection } = useSelection();
+  const { a, b, slugs, department, isEmpty } = selection;
   const needsTwoUnis = slugs.length < 2;
+
+  // Bölüm listesini çek — slug → ad eşlemesi + invalid slug auto-correction.
+  // Ana sayfadaki UniversityPicker bu işi yapar; deep-link ile gelen kullanıcı
+  // veya stale slug'lı eski URL'lerde de aynı düzeltme tetiklensin.
+  const { data: uniList } = useSWR<UniversityListItem[]>(
+    ["universities", department],
+    () => api.universities(department),
+    { revalidateOnFocus: false, dedupingInterval: 60000 }
+  );
+
+  const slugToName = useMemo(() => {
+    const m = new Map<string, string>();
+    uniList?.forEach((u) => m.set(u.slug, u.name));
+    return m;
+  }, [uniList]);
+
+  // Geçersiz slug'ları ilk uygun üniversite ile değiştir (atomik replace)
+  useEffect(() => {
+    if (!uniList || uniList.length === 0) return;
+    const valid = new Set(uniList.map((u) => u.slug));
+    const invalidSlots: Array<"a" | "b" | "c"> = [];
+    slugs.forEach((slug, idx) => {
+      if (!valid.has(slug)) invalidSlots.push(SLOT_KEYS[idx]);
+    });
+    if (invalidSlots.length === 0) return;
+
+    const used = new Set(slugs.filter((s) => valid.has(s)));
+    const available = uniList.filter((u) => !used.has(u.slug));
+
+    const update: Partial<{ a: string; b: string; c: string | null }> = {};
+    invalidSlots.forEach((slot, i) => {
+      const next = available[i];
+      if (next) {
+        used.add(next.slug);
+        update[slot] = next.slug;
+      } else if (slot === "c") {
+        update.c = null;
+      }
+    });
+    if (Object.keys(update).length > 0) {
+      setSelection(update);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [uniList, slugs.join(",")]);
+
+  const selectedNames = slugs.map((s) => slugToName.get(s) || s);
 
   // Slug → uni adı (Neo4j endpoint'leri uni adı bekler)
   const summaryAB = useSWR<UniversitySummary[]>(
@@ -79,18 +129,14 @@ export function LayerThree() {
   return (
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-12 space-y-10">
       <header className="border-b pb-6" style={{ borderColor: "var(--color-line)" }}>
-        <p className="ui-label mb-1">Derin Analiz</p>
-        <h1 className="font-serif text-3xl sm:text-4xl tracking-tighter">
-          Müfredatın çekirdeği
-        </h1>
-        <p className="mt-2 text-sm italic text-[color:var(--color-ink-500)] max-w-2xl">
-          Akademisyen / araştırmacı kullanımı için tam haftalık konu eşlemesi,
-          önkoşul karmaşıklığı, ortak kaynaklar ve ders-ders embedding araması.
-          Karşılaştırılan üniversiteleri ana sayfadan değiştirebilirsiniz; URL
-          state korunur.
-        </p>
+        <div className="flex items-baseline gap-3">
+          <h1 className="font-serif text-xl sm:text-2xl tracking-tighter leading-none">
+            Derin Analiz
+          </h1>
+          <span className="ui-label">Akademisyen Görünümü</span>
+        </div>
         <p className="mt-3 text-sm">
-          <strong>{slugs.length}</strong> üniversite seçili: {slugs.join(", ") || "—"}
+          <strong>{slugs.length}</strong> üniversite seçili: {selectedNames.join(", ") || "—"}
         </p>
       </header>
 

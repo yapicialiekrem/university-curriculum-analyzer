@@ -257,14 +257,17 @@ export interface PrerequisitesResponse {
 // ─── /api/compare/resources (Neo4j) ─────────────────────────────────
 
 export interface SharedResource {
-  resource: string;
-  uni1_courses: string[];
-  uni2_courses: string[];
+  resource_uni1: string;
+  resource_uni2: string;
+  courses_uni1: string[];
+  courses_uni2: string[];
+  matching_keywords?: string[];
+  overlap_score?: number;
 }
 
 export interface ResourcesResponse {
-  university1: { name: string; total_resources: number };
-  university2: { name: string; total_resources: number };
+  university1: { name: string; unique_resources?: number };
+  university2: { name: string; unique_resources?: number };
   shared_resources: SharedResource[];
   jaccard_similarity?: number;
 }
