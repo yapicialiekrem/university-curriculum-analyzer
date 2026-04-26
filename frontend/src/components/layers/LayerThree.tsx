@@ -16,6 +16,7 @@ import dynamic from "next/dynamic";
 
 import { CourseSimilarity } from "@/components/charts/CourseSimilarity";
 import { CurriculumCoverageHeatmap } from "@/components/charts/CurriculumCoverageHeatmap";
+import { ResourcesSingleUni } from "@/components/charts/ResourcesSingleUni";
 import { ResourcesTable } from "@/components/charts/ResourcesTable";
 import { Section } from "@/components/Section";
 import { api } from "@/lib/api";
@@ -31,6 +32,7 @@ import type {
   PrerequisitesResponse,
   ResourcesResponse,
   UniversityListItem,
+  UniversityResourcesResponse,
   UniversitySummary,
 } from "@/lib/types";
 import { useSelection } from "@/lib/use-selection";
@@ -88,15 +90,14 @@ export function LayerThree() {
 
   const selectedNames = slugs.map((s) => slugToName.get(s) || s);
 
-  // Slug → uni adı (Neo4j endpoint'leri uni adı bekler)
+  // Slug → uni adı (Neo4j endpoint'leri uni adı bekler).
+  // Tek üni modunda da çalışır — sadece u1 alınır.
   const summaryAB = useSWR<UniversitySummary[]>(
-    !isEmpty && a && b ? ["summaries-deep", a, b] : null,
+    !isEmpty && a ? ["summaries-deep", a, b] : null,
     async () => {
-      const all = await Promise.all([
-        api.universitySummary(a as string),
-        api.universitySummary(b as string),
-      ]);
-      return all;
+      const calls = [api.universitySummary(a as string)];
+      if (b) calls.push(api.universitySummary(b));
+      return Promise.all(calls);
     },
     { revalidateOnFocus: false, shouldRetryOnError: false }
   );
@@ -105,6 +106,7 @@ export function LayerThree() {
   const u2Name = summaryAB.data?.[1]?.name;
   const summaryError = summaryAB.error;
 
+  // 3.1 Haftalık Konu Eşlemesi — kıyaslama, hala 2 üni gerekli
   const { data: curriculum, isLoading: curriculumLoading } =
     useSWR<CurriculumCoverageResponse>(
       u1Name && u2Name ? ["curriculum", u1Name, u2Name] : null,
@@ -112,17 +114,27 @@ export function LayerThree() {
       { revalidateOnFocus: false }
     );
 
+  // 3.2 Önkoşul Ağı — tek üni modunda backend same-uni trick'i kabul ediyor
   const { data: prereq, isLoading: prereqLoading } =
     useSWR<PrerequisitesResponse>(
-      u1Name && u2Name ? ["prereq", u1Name, u2Name] : null,
-      () => api.comparePrerequisites(u1Name!, u2Name!),
+      u1Name ? ["prereq", u1Name, u2Name || u1Name] : null,
+      () => api.comparePrerequisites(u1Name!, u2Name || u1Name!),
       { revalidateOnFocus: false }
     );
 
+  // 3.3 Ders Kaynakları — 2 üni: ortak kıyas; 1 üni: o üni'nin tüm kaynakları
   const { data: resources, isLoading: resourcesLoading } =
     useSWR<ResourcesResponse>(
       u1Name && u2Name ? ["resources", u1Name, u2Name] : null,
       () => api.compareResources(u1Name!, u2Name!),
+      { revalidateOnFocus: false }
+    );
+
+  const singleSlug = !b ? a : null;
+  const { data: singleResources, isLoading: singleResourcesLoading } =
+    useSWR<UniversityResourcesResponse>(
+      singleSlug ? ["resources-single", singleSlug] : null,
+      () => api.universityResources(singleSlug!),
       { revalidateOnFocus: false }
     );
 
@@ -153,7 +165,7 @@ export function LayerThree() {
 
       <Section label="3.1" title="Haftalık Konu Eşlemesi">
         {needsTwoUnis ? (
-          <DeepEmptyHint />
+          <DeepEmptyHint message="Karşılaştırma için 2 üniversite seç." />
         ) : (
           <CurriculumCoverageHeatmap data={curriculum} loading={curriculumLoading} />
         )}
@@ -164,16 +176,29 @@ export function LayerThree() {
         title="Önkoşul Ağı"
         caption="Hangi dersin neye bağımlı olduğu — köklerden yukarı doğru. Bir derse tıkla, alt zinciri vurgulanır."
       >
-        {needsTwoUnis ? <DeepEmptyHint /> : <PrereqGraph data={prereq} loading={prereqLoading} />}
+        {isEmpty ? (
+          <DeepEmptyHint />
+        ) : (
+          <PrereqGraph data={prereq} loading={prereqLoading} />
+        )}
       </Section>
 
       <Section
         label="3.3"
-        title="Ortak Ders Kaynakları"
-        caption="İki üniversitede de okutulan kitap, makale ve kaynaklar."
+        title={slugs.length === 1 ? "Ders Kaynakları" : "Ortak Ders Kaynakları"}
+        caption={
+          slugs.length === 1
+            ? undefined
+            : "İki üniversitede de okutulan kitap, makale ve kaynaklar."
+        }
       >
-        {needsTwoUnis ? (
+        {isEmpty ? (
           <DeepEmptyHint />
+        ) : slugs.length === 1 ? (
+          <ResourcesSingleUni
+            data={singleResources}
+            loading={singleResourcesLoading}
+          />
         ) : (
           <ResourcesTable data={resources} loading={resourcesLoading} />
         )}
@@ -186,14 +211,14 @@ export function LayerThree() {
   );
 }
 
-function DeepEmptyHint() {
+function DeepEmptyHint({ message }: { message?: string }) {
   return (
     <div
       className="border border-dashed rounded p-6 text-center"
       style={{ borderColor: "var(--color-line)" }}
     >
       <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] leading-relaxed">
-        Üniversite seç.
+        {message || "Üniversite seç."}
       </p>
     </div>
   );

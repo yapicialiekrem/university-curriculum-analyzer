@@ -22,6 +22,8 @@ const TITLES: Array<{ key: keyof StaffCounts; label: string }> = [
 export interface StaffBarsProps {
   data: StaffComparison | undefined;
   loading?: boolean;
+  /** Tek üni modu: backend same-uni trick döner; sadece u1 panelini göster. */
+  singleMode?: boolean;
 }
 
 /**
@@ -52,7 +54,7 @@ function readCounts(side: StaffComparison["university1"] | undefined): StaffCoun
   };
 }
 
-export function StaffBars({ data, loading }: StaffBarsProps) {
+export function StaffBars({ data, loading, singleMode }: StaffBarsProps) {
   if (loading || !data) {
     return <div className="h-[300px] skeleton rounded" />;
   }
@@ -60,29 +62,27 @@ export function StaffBars({ data, loading }: StaffBarsProps) {
   const u1 = readCounts(data.university1);
   const u2 = readCounts(data.university2);
 
-  if (u1.total === 0 && u2.total === 0) {
+  if (u1.total === 0 && (singleMode || u2.total === 0)) {
     return (
       <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
-        Bu iki üniversite için akademik kadro verisi yüklü değil.
+        Akademik kadro verisi yüklü değil.
       </p>
     );
   }
 
   const u1Name = data.university1?.name || "";
-  const u2Name = data.university2?.name || "";
   const u1Short = uniShortName("", u1Name);
+
+  if (singleMode) {
+    return (
+      <div className="grid gap-6 grid-cols-1 max-w-[480px]">
+        <StaffCard counts={u1} name={u1Short} idx={0} />
+      </div>
+    );
+  }
+
+  const u2Name = data.university2?.name || "";
   const u2Short = uniShortName("", u2Name);
-
-  // Bar normalizasyonu — her unvanda en yüksek değer 100% olur.
-  const max = Math.max(
-    1,
-    ...TITLES.map(({ key }) =>
-      Math.max((u1[key] as number) || 0, (u2[key] as number) || 0)
-    )
-  );
-
-  // Suppress unused max variable now that bars are gone
-  void max;
 
   return (
     <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">

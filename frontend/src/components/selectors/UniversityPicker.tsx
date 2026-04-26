@@ -88,15 +88,12 @@ export function UniversityPicker({
   }, [list, selectedSlugs.join(",")]);
 
   const handleChipX = useCallback(
-    (slug: string, idx: number) => {
-      if (selectedSlugs.length > 2) {
-        onRemove(slug);
-        return;
-      }
-      // 2 üni var — silinemez, "replace" moduna gir
-      setReplacingSlot(SLOT_KEYS[idx]);
+    (slug: string) => {
+      // Her zaman kaldır — 1 → 0 da dahil. Eskiden 2 üni varken X "replace
+      // moduna gir" davranışı vardı, kullanıcı isteği üzerine kaldırıldı.
+      onRemove(slug);
     },
-    [selectedSlugs.length, onRemove]
+    [onRemove]
   );
 
   const handlePick = useCallback(
@@ -129,7 +126,7 @@ export function UniversityPicker({
               department={u?.department || ""}
               slotIndex={idx}
               dimmed={replacingSlot === SLOT_KEYS[idx]}
-              onRemove={() => handleChipX(slug, idx)}
+              onRemove={() => handleChipX(slug)}
             />
           );
         })}
