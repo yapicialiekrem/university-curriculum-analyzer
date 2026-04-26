@@ -157,13 +157,35 @@ function CategoryView({
         })}
       </div>
 
-      {/* Ana matris — 2 üni → 3 sütun (sol: yalnız A, orta: ortak, sağ: yalnız B);
-          3 üni → ortak satırı üstte, alta 3 yalnız sütunu. */}
-      {slugs.length === 2 ? (
+      {/* Ana matris — 1 üni → tek sütun konu listesi; 2 üni → 3 sütun
+          (yalnız A | ortak | yalnız B); 3 üni → ortak satırı üstte. */}
+      {slugs.length === 1 ? (
+        <SingleUniMatrix entry={entry} slug={slugs[0]} />
+      ) : slugs.length === 2 ? (
         <TwoUniMatrix entry={entry} slugs={slugs} />
       ) : (
         <ThreeUniMatrix entry={entry} slugs={slugs} />
       )}
+    </div>
+  );
+}
+
+function SingleUniMatrix({
+  entry,
+  slug,
+}: {
+  entry: NonNullable<CoverageResponse["by_category"][CategoryKey]>;
+  slug: string;
+}) {
+  const u = entry.universities[slug];
+  const topics = u?.topics ?? [];
+  return (
+    <div className="grid gap-4 grid-cols-1">
+      <UniqueColumn
+        title={`${uniShortName(slug, u?.name)} — bu alandaki konular`}
+        topics={topics}
+        accent={uniColor(0)}
+      />
     </div>
   );
 }

@@ -72,6 +72,11 @@ export const api = {
       `/api/universities/${encodeURIComponent(slug)}/summary`
     ),
 
+  universityResources: (slug: string) =>
+    apiGet<import("./types").UniversityResourcesResponse>(
+      `/api/universities/${encodeURIComponent(slug)}/resources`
+    ),
+
   compareRadar: (a: string, b?: string, c?: string) =>
     apiGet<import("./types").RadarResponse>(
       `/api/compare/radar?a=${a}${b ? `&b=${b}` : ""}${c ? `&c=${c}` : ""}`
@@ -82,8 +87,13 @@ export const api = {
       `/api/compare/bloom?a=${a}${b ? `&b=${b}` : ""}${c ? `&c=${c}` : ""}`
     ),
 
-  compareCoverage: (a: string, b: string, opts: { c?: string; categories?: string[] } = {}) => {
-    const qs = new URLSearchParams({ a, b });
+  compareCoverage: (
+    a: string,
+    b?: string,
+    opts: { c?: string; categories?: string[] } = {}
+  ) => {
+    const qs = new URLSearchParams({ a });
+    if (b) qs.set("b", b);
     if (opts.c) qs.set("c", opts.c);
     if (opts.categories?.length) qs.set("categories", opts.categories.join(","));
     return apiGet<import("./types").CoverageResponse>(

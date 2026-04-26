@@ -284,6 +284,19 @@ export interface ResourcesResponse {
   jaccard_similarity?: number;
 }
 
+// ─── /api/universities/{slug}/resources (tek-üni) ───────────────────
+
+export interface UniversityResource {
+  resource: string;
+  courses: string[];
+}
+
+export interface UniversityResourcesResponse {
+  university: { slug: string; name: string };
+  total_resources: number;
+  resources: UniversityResource[];
+}
+
 // ─── /api/search ───────────────────────────────────────────────────
 
 export interface SearchResult {

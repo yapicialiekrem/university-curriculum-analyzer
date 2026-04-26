@@ -93,7 +93,7 @@ def get_radar(
 )
 def get_coverage(
     a: str = Query(..., description="Üniversite A slug"),
-    b: str = Query(..., description="Üniversite B slug"),
+    b: Optional[str] = Query(None, description="Üniversite B slug (opsiyonel — tek-uni)"),
     c: Optional[str] = Query(None, description="Üniversite C slug (opsiyonel)"),
     categories: Optional[str] = Query(
         None,
