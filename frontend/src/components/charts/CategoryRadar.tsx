@@ -59,7 +59,7 @@ export function CategoryRadar({ data, loading, highlight_axis }: CategoryRadarPr
   }
 
   return (
-    <div className="w-full max-w-[440px] mx-auto" data-testid="category-radar">
+    <div className="w-full max-w-[520px] mx-auto" data-testid="category-radar">
       <ResponsiveContainer width="100%" aspect={1}>
         <RadarChart
           data={chartData}
