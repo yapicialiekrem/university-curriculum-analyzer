@@ -56,6 +56,13 @@ TYPE SEÇENEKLERİ:
                       "en düşük YKS sırası gerektiren bölüm",
                       "kontenjanı en yüksek olan üniversite",
                       "en proje ağırlıklı müfredata sahip üni")
+- "complex"       → Çok adımlı / kompozisyon sorusu — sabit metric'lere
+                     sığmayan oran/türev hesaplar, kombinatör sorgular.
+                     ("AI'da zorunlu/seçmeli AKTS oranı en yüksek üni",
+                      "ODTÜ'nün AI dersleri arasında en yüksek AKTS hangisi",
+                      "Ankara'da matematik prereq'i olan derslerin yarısı",
+                      "x'ten yüksek profesör + y'den fazla AI ders",
+                      "her üni için zorunlu/seçmeli oranı")
 - "general"        → Sistem / proje hakkında genel soru
                      ("nasıl çalışıyor", "hangi veriler var")
 
