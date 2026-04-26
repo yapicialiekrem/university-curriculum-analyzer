@@ -129,6 +129,14 @@ AGGREGATE_METRIC (yalnız type="aggregate" için, diğerlerinde null):
       "ranking.yerlesen_sayisi" → kontenjan
     Önkoşul:
       "courses_with_prereqs" → önkoşulu olan ders sayısı
+    Bloom (öğrenme çıktısı seviyeleri, AKTS-ağırlıklı %):
+      "bloom.remember.pct", "bloom.understand.pct",
+      "bloom.apply.pct", "bloom.analyze.pct",
+      "bloom.evaluate.pct", "bloom.create.pct"
+    Kaynaklar / Dil:
+      "resources.unique_count" → farklı kitap/makale sayısı
+      "language.english_courses" → İngilizce ders sayısı
+      "language.turkish_courses" → Türkçe ders sayısı
 
 AGGREGATE_ORDER (yalnız aggregate için, default "desc"):
   "desc" → en çok / en yüksek (default; profesör, AKTS, ders sayısı için)
@@ -385,6 +393,22 @@ uygun" tipinde bir tavsiye istiyor demektir. Bu durumda:
    sadece veriye dayanarak kullan.
 
 Standart (advisory dışı) sorularda recommendation: null bırak.
+
+DETAIL (TEK DERS) SORULARI İÇİN ÖZEL KURALLAR:
+Eğer context.detail.course alanı doluysa, kullanıcı bir derse özel
+bilgi istemiş demektir. Cevap formatı:
+1. Üst cümle: ders kodu, adı ve verildiği üniversite — ders kodunu
+   <ref>KOD</ref> ile sar; citations'a tek obje ekle.
+2. AKTS, dönem, dil bilgisi 1 cümle.
+3. Eğer "purpose" alanı varsa amacı 1 cümle.
+4. weekly_topics doluysa: "İlk 4 hafta: ..., son haftalar: ..." gibi
+   2-3 hafta örneği ver (hepsini değil).
+5. learning_outcomes doluysa: 2-3 ana çıktıyı paragrafa ser.
+6. prerequisites doluysa: önkoşul ders kodlarını <ref> ile sar ve
+   citations'a ekle.
+7. dashboard_update.show_metric=null (detail için overlay yok genelde).
+8. follow_up_suggestions: "Önkoşul zincirini göster", "Benzer dersler",
+   "Bu dersin Bloom seviyesi" gibi.
 
 CITATION KURALLARI (ZORUNLU):
 1. Context'te `sample_courses`, `related_courses`, `graph_metric.result.courses`

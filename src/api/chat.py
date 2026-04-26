@@ -93,7 +93,7 @@ async def chat(req: ChatRequest) -> dict:
 
     # 2) Context (LLM'siz)
     try:
-        context = build_context(intent)
+        context = build_context(intent, question=question)
     except Exception as e:
         logger.exception("Context builder patladı: %s", e)
         # Exception beklemiyoruz ama güvence: 500 dön.
