@@ -188,3 +188,48 @@ def get_summary(slug: str) -> dict:
         **summary,
         "specialization_depth": spec_depth,
     }
+
+
+@router.get(
+    "/{slug}/resources",
+    summary="Tek üniversitenin ders kaynakları (kitap/makale)",
+    description=(
+        "JSON store'dan o üniversitenin tüm dersleri tarandı, her dersteki "
+        "`resources` listesi tekilleştirilip kaynak başına hangi derslerde "
+        "kullanıldığı çıkarıldı. Karşılaştırma değil — single-uni listesi."
+    ),
+)
+def get_resources(slug: str) -> dict:
+    store = get_store()
+    uni = store.get(slug)
+    if not uni:
+        raise HTTPException(status_code=404, detail=f"Bulunamadı: {slug}")
+
+    # resource (string, normalize edilmemiş) → list[course_code]
+    by_resource: dict[str, list[str]] = {}
+    for c in uni.get("courses") or []:
+        code = (c.get("code") or "").strip()
+        for r in c.get("resources") or []:
+            if not r or not isinstance(r, str):
+                continue
+            r_clean = r.strip()
+            if not r_clean:
+                continue
+            by_resource.setdefault(r_clean, [])
+            if code and code not in by_resource[r_clean]:
+                by_resource[r_clean].append(code)
+
+    # Çoğunlukla kullanılan kaynaklar üstte
+    items = sorted(
+        (
+            {"resource": r, "courses": codes}
+            for r, codes in by_resource.items()
+        ),
+        key=lambda x: (-len(x["courses"]), x["resource"].lower()),
+    )
+
+    return {
+        "university": {"slug": slug, "name": _name(uni)},
+        "total_resources": len(items),
+        "resources": items,
+    }
