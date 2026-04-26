@@ -96,9 +96,25 @@ TYPE SEÇENEKLERİ:
                      ("nasıl çalışıyor", "hangi veriler var")
 
 UNIVERSITIES: Sorunun doğrudan ilgilendirdiği üniversitelerin **slug**
-listesi. Mevcut slug'lar veri klasöründeki JSON dosya adlarıyla eşleşir
-(örn: "metu", "ege", "ozyegin", "selcuk", "tobb", "odtu" gibi). Emin
-değilsen boş bırak: [].
+listesi. Mevcut slug'lar veri klasöründeki JSON dosya adlarıyla eşleşir.
+ÖNEMLİ: Soruda ÜNİ ADI GEÇİYORSA mutlaka slug'ı yaz. Yaygın eşleşmeler:
+  ODTÜ / Orta Doğu Teknik / METU → "metu"
+  Bilkent → "bilkent"
+  İTÜ / İstanbul Teknik → "itu"
+  Boğaziçi / Bogazici → "bogazici"
+  Hacettepe → "hacettepe"
+  Ege → "ege"
+  Sabancı → "sabancı"
+  Koç → "koc"
+  Yıldız Teknik / YTÜ → "ytu"
+  Marmara → "marmara"
+  Akdeniz → "akdeniz"
+  Ankara → "ankara"
+  Gazi → "gazi"
+  Atatürk → "ataturk"
+  İstanbul → "istanbul"
+Emin değilsen boş bırak: []. Yan yana iki üni varsa ikisini de ekle:
+  "ODTÜ ve Bilkent" → ["metu", "bilkent"]
 
 METRIC: Eğer type="comparison" ise aşağıdaki metriklerden uygun olanı
 seç; başka durumda null:
@@ -290,6 +306,17 @@ Soru: "Hangi üniversitede en çok profesör var?"
     "goal_categories":[],"user_rank":null,
     "aggregate_metric":"staff.professor","aggregate_order":"desc",
     "aggregate_top_n":5,"aggregate_department":null}}
+
+Soru: "Modern teknoloji etiketli ders en çok hangi üniversitede?"
+→ {{"type":"aggregate","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"year":null,
+                "course_type":null,"language":null,
+                "uni_type":null,"department":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null,
+    "goal_categories":[],"user_rank":null,
+    "aggregate_metric":"summary.modernity_score","aggregate_order":"desc",
+    "aggregate_top_n":5,"aggregate_department":null}}
+   ("modern teknoloji" / "güncellik" / "modernlik" → modernity_score)
 
 Soru: "AI alanında en çok AKTS sunan 5 üniversite"
 → {{"type":"aggregate","universities":[],"metric":null,
