@@ -39,17 +39,35 @@ TYPE SEÇENEKLERİ:
                      yüksek AKTS" gibi alt-küme + sıralama → complex'tir.
 - "comparison"     → İki veya daha fazla üniversite karşılaştırma
                      ("ODTÜ ile İEÜ'yü kıyasla", "hangisi daha çok ...")
-- "semantic"       → Konu / kategori bazlı arama
-                     ("AI dersleri", "görüntü işleme", "web geliştirme")
+- "semantic"       → Konu / kategori / TEKNOLOJİ ADI bazlı arama.
+                     ("AI dersleri", "görüntü işleme", "web geliştirme",
+                      "PyTorch içeren ders", "React veya web framework",
+                      "Docker / Kubernetes", "blockchain", "makine
+                      öğrenmesi", "veritabanı SQL", "kriptografi",
+                      "ağ güvenliği", "mobil uygulama")
+                     KRİTİK: framework, kütüphane, dil veya teknoloji adı
+                     geçen sorular semantic'tir, general DEĞİL.
 - "detail"         → Spesifik tek ders veya üniversite detayı
                      ("CE 315 nedir", "ODTÜ bilgisayar bölümü hakkında")
 - "advisory"       → Tavsiye / yönlendirme — kullanıcı bir hedef veya
                      profil belirtir, sistem en uygun üniversite(leri)
-                     önersin diye veriye dayanarak değerlendirir
-                     ("AI'da uzmanlaşmak istiyorum hangi üniversite?",
-                      "8000 sıralamayla hangi üniversiteye girebilirim",
-                      "veri bilimi için tavsiye eder misin",
-                      "hangisini seçmeliyim", "bana en uygun olan")
+                     önersin diye veriye dayanarak değerlendirir.
+                     KRİTİK TETİKLEYİCİLER (herhangi biri varsa advisory):
+                       a) "X sıralama/sıram/puanım/sıralamayla" + alan/hedef
+                       b) "tavsiye", "öner", "öneri", "uygun", "seç-me-li"
+                       c) "hangi üni X için" / "X için hangi üni"
+                       d) hedef alan: AI/yapay zeka/ML/veri bilimi/güvenlik/
+                          web/mobil/yazılım/grafik/dağıtık + 'için'
+                     ÖRNEKLER (HER BİRİ ADVISORY):
+                      "AI'da uzmanlaşmak istiyorum hangi üniversite?"
+                      "8000 sıralamayla hangi üniversiteye girebilirim"
+                      "5000 sıralamayla veri bilimi için hangi üniversite?"
+                      "12000 sıram var, makine öğrenmesi için tavsiye"
+                      "veri bilimi için tavsiye eder misin"
+                      "hangisini seçmeliyim", "bana en uygun olan"
+                      "siber güvenlik için en iyi üni nedir profilime göre"
+                     UYARI: Soruda sıralama/profil yoksa ama "en iyi"
+                     genel sıralama soruluyorsa → aggregate, advisory değil.
 - "aggregate"      → Tüm üniversiteler arasında SIRALAMA / "en çok
                      en az / en yüksek / en düşük" tipi soru. Belirli
                      bir üni'yi sormaz, tüm dataset'i tarar.
@@ -92,8 +110,13 @@ TYPE SEÇENEKLERİ:
                      complex'tir. Önceki konuşmadan listeye anaforik
                      referans varsa ("onlardan en yüksek X olan", "bu
                      listede Y olanlar") da complex'tir.
-- "general"        → Sistem / proje hakkında genel soru
-                     ("nasıl çalışıyor", "hangi veriler var")
+- "general"        → SADECE sistem / proje hakkında genel soru
+                     ("nasıl çalışıyor", "hangi veriler var",
+                      "kaç üniversite kapsıyor", "ne yapabilirsin")
+                     UYARI: Eğer soruda "ders" / "üniversite" / "konu" /
+                     teknoloji adı (React, PyTorch, vb.) geçiyorsa BU
+                     "general" DEĞİLDİR — semantic'e atayın. "general"
+                     sadece SİSTEMİN KENDİSİ hakkında.
 
 UNIVERSITIES: Sorunun doğrudan ilgilendirdiği üniversitelerin **slug**
 listesi. Mevcut slug'lar veri klasöründeki JSON dosya adlarıyla eşleşir.
@@ -288,6 +311,17 @@ Soru: "Yapay zeka alanında uzmanlaşmak istiyorum, hangi üniversite uygun?"
                 "language":null}},
     "needs_embedding":false,"top_k":10,"semantic_query":null,
     "goal_categories":["ai_ml"],"user_rank":null}}
+
+Soru: "5000 sıralamayla veri bilimi için hangi üniversite?"
+→ {{"type":"advisory","universities":[],"metric":null,
+    "filters":{{"category":null,"semester":null,"year":null,
+                "course_type":null,"language":null,
+                "uni_type":null,"department":null}},
+    "needs_embedding":false,"top_k":10,"semantic_query":null,
+    "goal_categories":["data_science"],"user_rank":5000,
+    "aggregate_metric":null,"aggregate_order":"desc",
+    "aggregate_top_n":5,"aggregate_department":null}}
+   ('X sıralamayla Y için' kalıbı → advisory; 'tavsiye' kelimesi olmasa bile)
 
 Soru: "8000 sıralamam var veri bilimi için bana tavsiye verir misin?"
 → {{"type":"advisory","universities":[],"metric":null,

@@ -107,7 +107,12 @@ ComparisonMetric = Literal[
 ]
 
 CategoryFilter = Literal[
+    # Eski kısa set (router'a verdiğimiz 5 kategori)
     "ai", "programming", "math", "systems", "theory",
+    # Genişletilmiş enrichment kategorileri (LLM bazen bunları üretiyor —
+    # Pydantic reject etmesin, intent'i kaçırmamak için kabul ediyoruz)
+    "ai_ml", "data_science", "security", "web_mobile",
+    "software_eng", "graphics_vision", "distributed", "info_systems",
 ]
 
 CourseTypeFilter = Literal["zorunlu", "secmeli"]
