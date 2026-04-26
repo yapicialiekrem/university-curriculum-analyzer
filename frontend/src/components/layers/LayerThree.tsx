@@ -151,11 +151,7 @@ export function LayerThree() {
         </div>
       )}
 
-      <Section
-        label="3.1"
-        title="Haftalık Konu Eşlemesi"
-        caption="İki üniversitenin tüm dersleri arasında semantik (NLP) en benzer konu çiftleri. Üst sıralarda dersin tam karşılığı, alt sıralarda kısmi örtüşme."
-      >
+      <Section label="3.1" title="Haftalık Konu Eşlemesi">
         {needsTwoUnis ? (
           <DeepEmptyHint />
         ) : (
