@@ -57,12 +57,20 @@ TYPE SEÇENEKLERİ:
                       "kontenjanı en yüksek olan üniversite",
                       "en proje ağırlıklı müfredata sahip üni")
 - "complex"       → Çok adımlı / kompozisyon sorusu — sabit metric'lere
-                     sığmayan oran/türev hesaplar, kombinatör sorgular.
+                     sığmayan oran/fark/ortalama/türev hesaplar, multi-criteria
+                     filtreler. AŞAĞIDAKİ KELİMELER GENELDE complex işaretidir:
+                     "oran", "fark", "ortalama", "yüzde", "kaç katı",
+                     "VE/AND", "hem... hem...", "hesapla", "topla", "böl".
                      ("AI'da zorunlu/seçmeli AKTS oranı en yüksek üni",
-                      "ODTÜ'nün AI dersleri arasında en yüksek AKTS hangisi",
-                      "Ankara'da matematik prereq'i olan derslerin yarısı",
-                      "x'ten yüksek profesör + y'den fazla AI ders",
-                      "her üni için zorunlu/seçmeli oranı")
+                      "ODTÜ ile Bilkent'in modernity skoru farkı",
+                      "Bilkent ve Sabancı'nın AI ders sayısı ortalaması",
+                      "x'ten yüksek profesör VE y'den fazla AI ders",
+                      "ODTÜ'nün AI dersleri arasında en yüksek AKTS")
+                     UYARI: "X ile Y'yi kıyasla / karşılaştır" doğrudan
+                     comparison'dır; ama "X ile Y'nin farkı/oranı/ortalaması"
+                     complex'tir. Önceki konuşmadan listeye anaforik
+                     referans varsa ("onlardan en yüksek X olan", "bu
+                     listede Y olanlar") da complex'tir.
 - "general"        → Sistem / proje hakkında genel soru
                      ("nasıl çalışıyor", "hangi veriler var")
 
