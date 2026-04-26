@@ -21,7 +21,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   ai_ml: "Yapay Zeka / ML",
   programming: "Programlama",
   systems: "Sistem / Donanım",
-  software_eng: "Yazılım Müh.",
+  software_eng: "Yazılım Geliştirme",
   security: "Güvenlik",
   web_mobile: "Web / Mobil",
   data_science: "Veri Bilimi",

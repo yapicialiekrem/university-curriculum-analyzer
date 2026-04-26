@@ -11,7 +11,7 @@
 import { useState } from "react";
 
 import type { UniversitySummary } from "@/lib/types";
-import { X } from "lucide-react";
+import { Info, X } from "lucide-react";
 
 import { uniColor } from "@/lib/use-selection";
 
@@ -20,7 +20,7 @@ const TECHNICAL_CATS = [
   { key: "security", label: "Güvenlik" },
   { key: "web_mobile", label: "Web / Mobil" },
   { key: "data_science", label: "Veri Bilimi" },
-  { key: "software_eng", label: "Yazılım Müh." },
+  { key: "software_eng", label: "Yazılım Geliştirme" },
   { key: "graphics_vision", label: "Grafik / Görüntü" },
   { key: "distributed", label: "Dağıtık Sistemler" },
 ] as const;
@@ -173,7 +173,10 @@ export function UniversityCard({
             style={{ borderColor: "var(--color-line)" }}
           >
             <div className="flex items-baseline justify-between mb-1.5">
-              <div className="ui-label">Uzmanlaşma · ders / AKTS</div>
+              <div className="flex items-center gap-1.5">
+                <span className="ui-label">Uzmanlaşma · ders / AKTS</span>
+                <UzmanlasmaInfo />
+              </div>
               <SpecLegend accent={accent} />
             </div>
             <ul className="space-y-2">
@@ -344,6 +347,62 @@ function SpecRow({
         </FloatingTooltip>
       )}
     </div>
+  );
+}
+
+/**
+ * Uzmanlaşma bilgi tooltip'i — ders konusu kategorilerinin ne demek olduğunu
+ * + zorunlu/seçmeli + AKTS gösteriminin nasıl okunacağını anlatır.
+ */
+function UzmanlasmaInfo() {
+  const [open, setOpen] = useState(false);
+  return (
+    <span
+      className="relative inline-flex"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      onFocus={() => setOpen(true)}
+      onBlur={() => setOpen(false)}
+    >
+      <button
+        type="button"
+        className="inline-flex items-center text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
+        aria-label="Uzmanlaşma nedir?"
+      >
+        <Info size={12} strokeWidth={1.5} />
+      </button>
+      {open && (
+        <div
+          role="tooltip"
+          className="absolute left-1/2 -translate-x-1/2 top-full mt-2 z-30 pointer-events-none w-[300px]"
+        >
+          <div
+            className="rounded shadow-paper px-3 py-2.5 text-xs leading-relaxed text-[color:var(--color-ink-900)]"
+            style={{
+              background: "rgba(252,250,246,0.95)",
+              backdropFilter: "blur(8px)",
+              WebkitBackdropFilter: "blur(8px)",
+              border: "1px solid var(--color-line)",
+            }}
+          >
+            <p>
+              <strong>Uzmanlaşma</strong> — her ders LLM ile teknik konu
+              kategorilerine etiketlenir. Burada en güçlü 2 kategorideki ders
+              ve AKTS dağılımı:
+            </p>
+            <ul className="mt-1.5 space-y-0.5 text-[color:var(--color-ink-700)]">
+              <li><strong>zorunlu</strong> = bölümde herkesin alması gereken ders</li>
+              <li><strong>seçmeli</strong> = öğrencinin tercihen aldığı ders</li>
+              <li>her ▪︎ = 1 ders</li>
+              <li>her ▬ = 5 AKTS (ders yükü)</li>
+            </ul>
+            <p className="mt-1.5 italic text-[color:var(--color-ink-500)]">
+              Bölüm adıyla karıştırma — bunlar ders konusu kategorileri.
+            </p>
+          </div>
+        </div>
+      )}
+    </span>
   );
 }
 

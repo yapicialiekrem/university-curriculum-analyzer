@@ -10,6 +10,8 @@
  *   - Altında betimleyici cümle (üni'ler arasında dominant kıyas)
  */
 
+import { Info } from "lucide-react";
+import { useState } from "react";
 import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
 
 import type { BloomLevel, BloomResponse, BloomSeries } from "@/lib/types";
@@ -22,6 +24,15 @@ const LEVEL_LABELS: Record<BloomLevel, string> = {
   analyze: "Analiz et",
   evaluate: "Değerlendir",
   create: "Yarat",
+};
+
+const LEVEL_DESCRIPTIONS: Record<BloomLevel, string> = {
+  remember: "Tanım, terim ve gerçekleri ezbere bilme",
+  understand: "Yorumlama, açıklama, örnek verme",
+  apply: "Bildiğini yeni problemde kullanma (kod yazma, formül uygulama)",
+  analyze: "Parçalara ayırma, ilişkileri görme (debug, sistem analizi)",
+  evaluate: "Kalite/seçim yargısı verme (algoritma karşılaştırma)",
+  create: "Sıfırdan özgün ürün ortaya çıkarma (proje, tasarım)",
 };
 
 // Donut'ta segment renkleri — ink ton koyudan açığa
@@ -55,6 +66,9 @@ export function BloomDonut({ data, loading }: BloomDonutProps) {
 
   return (
     <div className="space-y-6">
+      <div className="flex justify-end -mb-2">
+        <BloomInfoButton levels={data.levels} />
+      </div>
       <div
         className="grid gap-8"
         style={{ gridTemplateColumns: `repeat(${data.series.length}, minmax(0, 1fr))` }}
@@ -65,6 +79,60 @@ export function BloomDonut({ data, loading }: BloomDonutProps) {
       </div>
 
       <BloomCommentary series={data.series} />
+    </div>
+  );
+}
+
+function BloomInfoButton({ levels }: { levels: BloomLevel[] }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div
+      className="relative"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      onFocus={() => setOpen(true)}
+      onBlur={() => setOpen(false)}
+    >
+      <button
+        type="button"
+        className="inline-flex items-center gap-1 text-[11px] font-mono uppercase tracking-wider text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors"
+        aria-label="Bilişsel yoğunluk nedir?"
+      >
+        <Info size={13} strokeWidth={1.5} />
+        <span>Bu ne demek?</span>
+      </button>
+      {open && (
+        <div
+          role="tooltip"
+          className="absolute right-0 top-full mt-2 z-30 pointer-events-none w-[320px]"
+        >
+          <div
+            className="rounded shadow-paper px-4 py-3 text-xs leading-relaxed text-[color:var(--color-ink-900)]"
+            style={{
+              background: "rgba(252,250,246,0.95)",
+              backdropFilter: "blur(8px)",
+              WebkitBackdropFilter: "blur(8px)",
+              border: "1px solid var(--color-line)",
+            }}
+          >
+            <p className="mb-2">
+              <strong>Bloom Taksonomisi</strong> — derslerin öğrenme
+              çıktıları LLM ile analiz edilip 6 zihinsel seviyeye dağıtılır
+              (ECTS-ağırlıklı). Yüzdeler bu üniversitenin müfredatındaki ağırlığı verir.
+            </p>
+            <ul className="space-y-1">
+              {levels.map((lvl) => (
+                <li key={lvl}>
+                  <strong>{LEVEL_LABELS[lvl]}:</strong>{" "}
+                  <span className="text-[color:var(--color-ink-700)]">
+                    {LEVEL_DESCRIPTIONS[lvl]}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

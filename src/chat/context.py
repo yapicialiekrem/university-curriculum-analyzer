@@ -798,7 +798,7 @@ _ENRICHMENT_CAT_LABELS = {
     "data_science": "Veri Bilimi",
     "security": "Güvenlik",
     "web_mobile": "Web/Mobil",
-    "software_eng": "Yazılım Mühendisliği",
+    "software_eng": "Yazılım Geliştirme",
     "graphics_vision": "Grafik/Görüntü",
     "distributed": "Dağıtık Sistemler",
     "info_systems": "Bilgi Sistemleri",
