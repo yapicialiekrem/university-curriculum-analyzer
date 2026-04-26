@@ -3,13 +3,15 @@
 /**
  * LayerOne — Dashboard Katman 1: İlk Bakış
  *
- * Grid:
- *   ┌─ Radar (7/12) ─┬─ Card A (5/12) ─┐
- *   │                ├─────────────────┤
- *   │                │  Card B         │
- *   └────────────────┴─────────────────┘
+ * Layout (geniş ekran):
+ *   ┌──────────────────────────────────────────────┐
+ *   │  Card A    │   Card B    │   Card C (ops.)   │  ← yatay strip
+ *   ├──────────────────────────────────────────────┤
+ *   │             RADAR (max-w 520px, ortada)      │  ← tek bakışta okuma
+ *   └──────────────────────────────────────────────┘
  *
- * Üst bar: üniversite seçici + bölüm sekmeleri
+ * Kullanıcı 2-3 üniversiteyi YAN YANA görür ve gözünü hemen radar'a kaydırır
+ * — kartların ve radar'ın aynı viewport içinde okunabilmesi için.
  */
 
 import useSWR from "swr";
@@ -72,37 +74,46 @@ export function LayerOne() {
         </div>
       </header>
 
-      {/* Grid: radar (sol) + kartlar (sağ) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
-        <div
-          id="section-radar"
-          className={`lg:col-span-6 card lg:p-6 flex flex-col lg:self-start lg:sticky lg:top-6${
-            radarHighlighted ? " overlay-glow" : ""
-          }`}
-        >
+      {/* Üst strip: üniversite kartları yan yana (1-3 kart) */}
+      <div
+        className={`grid gap-4 lg:gap-5 mb-6 lg:mb-8 grid-cols-1 ${
+          slugs.length === 1
+            ? "sm:grid-cols-1"
+            : slugs.length === 2
+            ? "sm:grid-cols-2"
+            : "sm:grid-cols-2 lg:grid-cols-3"
+        }`}
+      >
+        {slugs.map((slug, idx) => (
+          <UniversitySummaryCard
+            key={slug}
+            slug={slug}
+            slotIndex={idx}
+            removable={idx === 2}
+            onRemove={() => removeUniversity(slug)}
+          />
+        ))}
+      </div>
+
+      {/* Altta radar — ortalı, max-w sınırlı */}
+      <div
+        id="section-radar"
+        className={`card flex flex-col items-center lg:p-6${
+          radarHighlighted ? " overlay-glow" : ""
+        }`}
+      >
+        <div className="self-start">
           <div className="ui-label mb-1">Konu Kapsamı</div>
-          <h2 className="font-serif text-xl lg:text-2xl mb-1 tracking-tight">
+          <h2 className="font-serif text-xl lg:text-2xl mb-3 tracking-tight">
             10 eksende kapsam
           </h2>
-          <div className="flex items-center justify-center">
-            <CategoryRadar
-              data={radar}
-              loading={radarLoading}
-              highlight_axis={overlay?.highlight_category || null}
-            />
-          </div>
         </div>
-
-        <div className="lg:col-span-6 grid grid-rows-[auto_auto] gap-6">
-          {slugs.map((slug, idx) => (
-            <UniversitySummaryCard
-              key={slug}
-              slug={slug}
-              slotIndex={idx}
-              removable={idx === 2}
-              onRemove={() => removeUniversity(slug)}
-            />
-          ))}
+        <div className="w-full flex items-center justify-center">
+          <CategoryRadar
+            data={radar}
+            loading={radarLoading}
+            highlight_axis={overlay?.highlight_category || null}
+          />
         </div>
       </div>
     </section>
