@@ -154,16 +154,20 @@ export function WeeklyTopicsSingleUni({ data, loading }: WeeklyTopicsSingleUniPr
         </p>
       ) : (
         <ul className="space-y-2">
-          {pageItems.map((c) => {
+          {pageItems.map((c, i) => {
             const code = c.code || "";
-            const isOpen = openCode === code;
+            // Tek üni'de aynı ders kodunun iki kayıt olarak geçtiği nadir
+            // veri kalitesi bozuklukları olabiliyor (örn. Akdeniz "MBI4-354").
+            // page-relative index'i key'e ekleyerek kollizyonu önlüyoruz.
+            const rowKey = `${code || c.name || "noid"}#${(page - 1) * PAGE_SIZE + i}`;
+            const isOpen = openCode === rowKey;
             const topics = c.weekly_topics || [];
             return (
               <CourseRow
-                key={code || c.name || Math.random()}
+                key={rowKey}
                 course={c}
                 isOpen={isOpen}
-                onToggle={() => setOpenCode(isOpen ? null : code)}
+                onToggle={() => setOpenCode(isOpen ? null : rowKey)}
               >
                 {isOpen && (
                   <div
