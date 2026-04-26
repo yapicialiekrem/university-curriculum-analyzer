@@ -204,6 +204,8 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
             from src.analytics.loader import get_store  # type: ignore
         store = get_store()
         all_unis = []
+        type_counts: dict[str, int] = {}
+        dept_counts: dict[str, int] = {}
         for slug, doc in store.all().items():
             uni_type = (doc.get("type") or "").strip()
             dep_code = doc.get("_department")
@@ -215,31 +217,30 @@ def _build_deterministic(intent: Intent, resolved: list[dict]) -> dict:
             all_unis.append({
                 "slug": slug,
                 "name": doc.get("university_name") or doc.get("uni_name") or slug,
-                "department": doc.get("department"),
-                "department_code": dep_code,
                 "type": uni_type or None,
-                "language": doc.get("language"),
+                "department_code": dep_code,
             })
-        type_counts: dict[str, int] = {}
-        dept_counts: dict[str, int] = {}
-        for u in all_unis:
-            if u.get("type"):
-                type_counts[u["type"]] = type_counts.get(u["type"], 0) + 1
-            if u.get("department_code"):
-                dept_counts[u["department_code"]] = dept_counts.get(u["department_code"], 0) + 1
+            if uni_type:
+                type_counts[uni_type] = type_counts.get(uni_type, 0) + 1
+            if dep_code:
+                dept_counts[dep_code] = dept_counts.get(dep_code, 0) + 1
         out: dict = {
             "scope": "all_universities",
             "total_universities": len(all_unis),
             "by_type": type_counts,
             "by_department": dept_counts,
-            "universities": all_unis,
             "filters_applied": f.model_dump(),
         }
+        # dashboard_stats önce — toplam ders/AKTS/öğrenme çıktısı sayıları
+        # ("Sistemde kaç ders var" gibi sorularda kritik). Engine yoksa skip.
         if engine is not None:
             try:
                 out["dashboard_stats"] = engine.get_dashboard_stats()
             except Exception:
                 pass
+        # Universities listesi en sonda — büyük olabilir (51 üni × 4 alan).
+        # MAX_CONTEXT_CHARS aşılırsa bu kesilir, dashboard_stats sağlamdır.
+        out["universities"] = all_unis
         return out
     if engine is None:
         return {"error": "Veritabanına bağlanılamadı (ComparisonEngine yok)"}
