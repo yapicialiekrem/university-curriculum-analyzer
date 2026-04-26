@@ -156,7 +156,11 @@ export function LayerTwo() {
         id="section-2-2"
         label="2.2"
         title="Konu Kapsamı"
-        caption="Her konu alanında iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
+        caption={
+          slugs.length === 1
+            ? "Üniversitenin ders haftalarındaki konuları."
+            : "Farklı alanlarda üniversitelerin ders haftalarındaki ortak ve özel konular."
+        }
         delay={0.05}
         highlighted={overlay?.show_metric === "coverage_table"}
       >
