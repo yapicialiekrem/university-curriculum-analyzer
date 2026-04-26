@@ -14,7 +14,7 @@
  */
 
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowRight, Minus, Sparkles, X } from "lucide-react";
+import { ArrowRight, Minus, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { api } from "@/lib/api";
@@ -212,10 +212,16 @@ export function ChatPanel() {
               borderColor: "var(--color-line)",
               boxShadow: "var(--shadow-paper)",
             }}
-            aria-label="Müfredat asistanını aç (kısayol: /)"
+            aria-label="AI Asistan'ı aç (kısayol: /)"
           >
-            <Sparkles size={16} strokeWidth={1.5} className="text-[color:var(--color-uni-b)]" />
-            <span>Müfredat hakkında sor</span>
+            <span
+              aria-hidden
+              className="font-serif italic text-base leading-none"
+              style={{ color: "var(--color-uni-b)" }}
+            >
+              U
+            </span>
+            <span>AI Asistan</span>
             <kbd className="ml-1 font-mono text-[10px] px-1.5 py-0.5 rounded bg-[color:var(--color-paper-2)] text-[color:var(--color-ink-500)] tabular-nums">
               /
             </kbd>
@@ -262,8 +268,14 @@ export function ChatPanel() {
                 title={minimized ? "Genişlet" : "Küçült"}
               >
                 <div className="flex items-center gap-2">
-                  <Sparkles size={16} strokeWidth={1.5} className="text-[color:var(--color-uni-b)]" />
-                  <span className="font-serif text-base">Asistan</span>
+                  <span
+                    aria-hidden
+                    className="font-serif italic text-lg leading-none"
+                    style={{ color: "var(--color-uni-b)" }}
+                  >
+                    U
+                  </span>
+                  <span className="font-serif text-base">AI Asistan</span>
                   {minimized && messages.length > 0 && (
                     <span className="text-xs text-[color:var(--color-ink-500)] font-mono ml-1">
                       ({messages.filter((m) => m.role === "user").length} soru)
