@@ -50,9 +50,11 @@ export interface CategoryCoverageEntry {
 }
 
 export interface SpecializationDepth {
-  required: number;
-  elective: number;
-  total: number;
+  required: number;        // ders sayısı
+  elective: number;        // ders sayısı
+  total: number;           // toplam ders sayısı
+  required_ects?: number;  // zorunlu derslerin AKTS toplamı (API on-the-fly)
+  elective_ects?: number;  // seçmeli derslerin AKTS toplamı (API on-the-fly)
 }
 
 export interface UniversitySummary {

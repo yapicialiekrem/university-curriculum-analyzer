@@ -40,6 +40,34 @@ def _ranking_view(slug: str, uni: dict) -> dict | None:
     )
 
 
+def _compute_specialization_ects(uni: dict) -> dict[str, dict[str, int]]:
+    """Her kategori için zorunlu / seçmeli AKTS toplamı.
+
+    Kaynak: her dersin `_enriched.categories` listesi + `type` + `ects`.
+    Aggregator zaten ders sayısı (`required` / `elective`) hesaplıyor; biz
+    de aynı kategori atamalarına göre AKTS toplamı çıkarıp endpoint'te
+    `specialization_depth` içine `required_ects` / `elective_ects` ekliyoruz.
+    """
+    out: dict[str, dict[str, int]] = {}
+    for c in uni.get("courses") or []:
+        enriched = c.get("_enriched") or {}
+        cats = enriched.get("categories") or []
+        if not cats:
+            continue
+        try:
+            ects = int(c.get("ects") or 0)
+        except (TypeError, ValueError):
+            ects = 0
+        ctype = c.get("type")
+        for cat in cats:
+            entry = out.setdefault(cat, {"required_ects": 0, "elective_ects": 0})
+            if ctype == "zorunlu":
+                entry["required_ects"] += ects
+            elif ctype == "secmeli":
+                entry["elective_ects"] += ects
+    return out
+
+
 def _short_view(slug: str, uni: dict) -> dict:
     """Liste endpoint'i için kısa kart verisi."""
     summary = uni.get("_summary") or {}
@@ -135,6 +163,13 @@ def get_summary(slug: str) -> dict:
             ),
         )
     ranking = _ranking_view(slug, uni)
+    # specialization_depth'i AKTS bilgisiyle zenginleştir (count + ects bir arada)
+    spec_depth = dict(summary.get("specialization_depth") or {})
+    ects_by_cat = _compute_specialization_ects(uni)
+    for cat, entry in spec_depth.items():
+        e = ects_by_cat.get(cat, {"required_ects": 0, "elective_ects": 0})
+        spec_depth[cat] = {**entry, **e}
+
     return {
         "slug": slug,
         "name": _name(uni),
@@ -145,4 +180,5 @@ def get_summary(slug: str) -> dict:
         "ranking_sira": ranking["basari_sirasi"] if ranking else None,
         "ranking_kontenjan": ranking["yerlesen_sayisi"] if ranking else None,
         **summary,
+        "specialization_depth": spec_depth,
     }
