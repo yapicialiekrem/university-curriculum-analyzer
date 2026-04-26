@@ -187,7 +187,6 @@ DASHBOARD_UPDATE alanları (frontend bunu overlay/parlatma için kullanır):
     "bloom_donut"        → Bileşen 2.3 (Bloom donut)
     "staff_bars"         → Bileşen 2.5 (akademik kadro)
     "coverage_table"     → Bileşen 2.2 (kapsam tablosu)
-    "resources_donut"    → Bileşen 2.6 (kaynak dili)
     "project_heaviness"  → proje yoğunluğu vurgusu
     null                 → genel sorular için (overlay tetikleme yok)
 
