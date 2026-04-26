@@ -7,7 +7,7 @@
  * her dersin haftalık konuları (tıklanabilir/expand). Arama + sayfalama.
  */
 
-import { ChevronDown, ExternalLink, Search } from "lucide-react";
+import { ChevronDown, Search } from "lucide-react";
 import { Fragment, useEffect, useMemo, useState } from "react";
 
 import { Pagination } from "@/components/Pagination";
@@ -233,51 +233,36 @@ function CourseRow({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <div className="w-full flex items-center gap-3 px-3 py-2.5 hover:bg-[color:var(--color-paper-2)] transition-colors">
-        <button
-          type="button"
-          onClick={onToggle}
-          className="flex items-center gap-3 flex-1 min-w-0 text-left"
-          aria-expanded={isOpen}
+      <button
+        type="button"
+        onClick={onToggle}
+        className="w-full text-left flex items-center gap-3 px-3 py-2.5 hover:bg-[color:var(--color-paper-2)] transition-colors"
+        aria-expanded={isOpen}
+      >
+        <code className="font-mono text-[10px] text-[color:var(--color-ink-500)] tracking-tight w-20 flex-shrink-0">
+          {code || "—"}
+        </code>
+        <span
+          className={`text-sm leading-tight flex-1 min-w-0 truncate ${
+            name
+              ? "font-medium"
+              : "italic font-serif text-[color:var(--color-ink-500)]"
+          }`}
         >
-          <code className="font-mono text-[10px] text-[color:var(--color-ink-500)] tracking-tight w-20 flex-shrink-0">
-            {code || "—"}
-          </code>
-          <span
-            className={`text-sm leading-tight flex-1 min-w-0 truncate ${
-              name
-                ? "font-medium"
-                : "italic font-serif text-[color:var(--color-ink-500)]"
-            }`}
-          >
-            {name || "Adı kayıtlı değil"}
-          </span>
-          <span className="font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums whitespace-nowrap">
-            {topicsCount} hafta · {course.ects ?? "—"} AKTS
-            {course.type ? ` · ${course.type}` : ""}
-          </span>
-          <ChevronDown
-            size={14}
-            strokeWidth={1.5}
-            className={`text-[color:var(--color-ink-500)] transition-transform flex-shrink-0 ${
-              isOpen ? "rotate-180" : ""
-            }`}
-          />
-        </button>
-        {!name && course.source_url && (
-          <a
-            href={course.source_url}
-            target="_blank"
-            rel="noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            className="ml-1 inline-flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider text-[color:var(--color-ink-500)] hover:text-[color:var(--color-ink-900)] transition-colors flex-shrink-0"
-            title="Resmi Bologna sayfasında aç"
-          >
-            <ExternalLink size={11} strokeWidth={1.5} />
-            <span className="hidden sm:inline">Kaynak</span>
-          </a>
-        )}
-      </div>
+          {name || "Adı kayıtlı değil"}
+        </span>
+        <span className="font-mono text-[10px] text-[color:var(--color-ink-500)] tabular-nums whitespace-nowrap">
+          {topicsCount} hafta · {course.ects ?? "—"} AKTS
+          {course.type ? ` · ${course.type}` : ""}
+        </span>
+        <ChevronDown
+          size={14}
+          strokeWidth={1.5}
+          className={`text-[color:var(--color-ink-500)] transition-transform flex-shrink-0 ${
+            isOpen ? "rotate-180" : ""
+          }`}
+        />
+      </button>
       {hovered && !isOpen && <CourseTooltip course={course} />}
       {children}
     </li>
