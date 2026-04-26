@@ -359,9 +359,7 @@ function Welcome({ onPick }: { onPick: (q: string) => void }) {
   return (
     <div className="space-y-4">
       <p className="text-sm font-serif italic leading-relaxed text-[color:var(--color-ink-700)]">
-        Merhaba — Türk üniversitelerinin bilgisayar / yazılım / YBS
-        müfredatları hakkında sorabilirsin. Seçim zorunlu değil — istediğin
-        üniversite veya bölümü doğrudan adıyla ya da YKS sıralamanla yaz.
+        Merhaba,
       </p>
       <div className="space-y-2">
         <p className="ui-label">Önerilen sorular</p>

@@ -339,6 +339,9 @@ DASHBOARD_UPDATE alanları (frontend bunu overlay/parlatma için kullanır):
 - SADECE JSON döndür.
 
 AGGREGATE (CROSS-ÜNİVERSİTE SIRALAMA) SORULARI İÇİN ÖZEL KURALLAR:
+ÖNEMLİ: aggregate.ranked içindeki value alanı saymalı (count) bir metric ise
+TAM SAYI olarak yazılmalı — "24" diyeceksin, "24.0" değil. Sadece Bloom % ve
+oranlar (english_resources_ratio gibi) ondalıklı kalır.
 Eğer context'te `aggregate` alanı varsa, kullanıcı tüm üniversiteler
 arasında bir sıralama istemiş demektir. Bu durumda:
 
