@@ -128,16 +128,17 @@ export function LayerTwo() {
     );
   }
 
-  // Hiç üni seçili değilse Layer 2'yi tamamen gizle — kullanıcının üst
-  // bölümdeki seçiciye odaklanmasını sağlar.
-  if (isEmpty) return null;
+  // Empty mode: tüm bölümler iskelet halinde görünür. Her Section
+  // içeriğinde "Üniversite seç" mesajı ya da boş silüet gösterir.
 
   return (
     <section className="px-6 sm:px-10 max-w-[1440px] mx-auto py-16 space-y-12">
       <header className="border-t pt-8" style={{ borderColor: "var(--color-line)" }}>
         <h2 className="font-serif text-3xl tracking-tighter">Daha yakından</h2>
         <p className="mt-2 text-sm italic text-[color:var(--color-ink-500)] max-w-2xl">
-          {slugs.length === 1
+          {isEmpty
+            ? "Üniversite seçtikçe bu bölümler dolar — dönem dağılımı, ortak konular, bilişsel yoğunluk, program çıktıları ve akademik kadro."
+            : slugs.length === 1
             ? "Tek üniversite görünümü — dönem dağılımı, kategori kapsamı, Bloom yoğunluğu ve akademik kadro."
             : "Dönem dağılımı, ortak konular, bilişsel zorluk dağılımı, program çıktıları benzerliği ve akademik kadro."}
         </p>
@@ -151,45 +152,45 @@ export function LayerTwo() {
         delay={0}
         highlighted={overlay?.show_metric === "semester_heatmap"}
       >
-        <SemesterHeatmap data={heatmap} loading={heatmapLoading} />
+        {isEmpty ? (
+          <SectionEmptyHint />
+        ) : (
+          <SemesterHeatmap data={heatmap} loading={heatmapLoading} />
+        )}
       </Section>
 
-      {/* Coverage Table 1-uni durumunda da o üni'nin kategori başına
-          ders+AKTS özetini gösterir — TwoUniMatrix yerine basit tablo */}
-      {slugs.length >= 2 && (
-        <Section
-          id="section-2-2"
-          label="2.2"
-          title="Konu Kapsamı"
-          caption="Her konu alanında iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
-          delay={0.05}
-          highlighted={overlay?.show_metric === "coverage_table"}
-        >
+      <Section
+        id="section-2-2"
+        label="2.2"
+        title="Konu Kapsamı"
+        caption="Her konu alanında iki/üç üniversitenin ders haftalarındaki ortak ve özel konular."
+        delay={0.05}
+        highlighted={overlay?.show_metric === "coverage_table"}
+      >
+        {isEmpty ? (
+          <SectionEmptyHint />
+        ) : slugs.length < 2 ? (
+          <NeedsMoreHint message="Karşılaştırma için 2 veya 3 üniversite seç." />
+        ) : (
           <CoverageTable
             data={coverage}
             loading={coverageLoading}
             selectedSlugs={slugs}
           />
-        </Section>
-      )}
+        )}
+      </Section>
 
       <Section
         id="section-2-3"
         label="2.3"
         title="Bilişsel Yoğunluk"
-        caption={
-          slugs.length === 1
-            ? "Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
-            : "Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
-        }
+        caption="Öğrenme çıktılarından çıkarılan Bloom seviyelerine ECTS-ağırlıklı dağılım."
         delay={0.1}
         highlighted={overlay?.show_metric === "bloom_donut" || overlay?.show_metric === "project_heaviness"}
       >
-        <BloomDonut data={bloom} loading={bloomLoading} />
+        {isEmpty ? <SectionEmptyHint /> : <BloomDonut data={bloom} loading={bloomLoading} />}
       </Section>
 
-      {/* Program çıktıları: tek üni durumunda kıyaslama yapılamaz; sadece
-          o üni'nin program çıktıları liste halinde gösterilir. */}
       <Section
         id="section-2-4"
         label="2.4"
@@ -201,26 +202,58 @@ export function LayerTwo() {
         }
         delay={0.15}
       >
-        {slugs.length === 1 ? (
+        {isEmpty ? (
+          <SectionEmptyHint />
+        ) : slugs.length === 1 ? (
           <SingleUniOutcomes slug={slugs[0]} department={selection.department} />
         ) : (
           <OutcomesHeatmap pairs={outcomePairs} />
         )}
       </Section>
 
-      {slugs.length >= 2 && (
-        <Section
-          id="section-2-5"
-          label="2.5"
-          title="Akademik Kadro"
-          caption="Unvan dağılımı — her nokta bir akademisyen."
-          delay={0.2}
-          highlighted={overlay?.show_metric === "staff_bars"}
-        >
+      <Section
+        id="section-2-5"
+        label="2.5"
+        title="Akademik Kadro"
+        caption="Unvan dağılımı — kart başına unvan sayıları."
+        delay={0.2}
+        highlighted={overlay?.show_metric === "staff_bars"}
+      >
+        {isEmpty ? (
+          <SectionEmptyHint />
+        ) : slugs.length < 2 ? (
+          <NeedsMoreHint message="Karşılaştırma için 2 veya 3 üniversite seç." />
+        ) : (
           <StaffBars data={staff} loading={staffLoading} />
-        </Section>
-      )}
+        )}
+      </Section>
     </section>
+  );
+}
+
+function SectionEmptyHint() {
+  return (
+    <div
+      className="border border-dashed rounded p-6 text-center"
+      style={{ borderColor: "var(--color-line)" }}
+    >
+      <p className="text-sm italic font-serif text-[color:var(--color-ink-500)] leading-relaxed">
+        Üst bardan üniversite seç — bu bölüm o anda dolacak.
+      </p>
+    </div>
+  );
+}
+
+function NeedsMoreHint({ message }: { message: string }) {
+  return (
+    <div
+      className="border border-dashed rounded p-6 text-center"
+      style={{ borderColor: "var(--color-line)" }}
+    >
+      <p className="text-sm italic font-serif text-[color:var(--color-ink-500)]">
+        {message}
+      </p>
+    </div>
   );
 }
 

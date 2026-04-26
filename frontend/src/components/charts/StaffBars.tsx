@@ -3,10 +3,9 @@
 /**
  * StaffBars — Dashboard Bileşen 2.5: Akademik Kadro.
  *
- * Her unvan için satır + her üniversitenin sayısı + dolaylı bar görseli.
- * Toplam ve doktora oranı yerine, en yüksek değer üzerinden normalize edilmiş
- * bar gösterimi (okuyucu hangi unvanda hangi üni'nin daha kalabalık olduğunu
- * tek bakışta görsün).
+ * Tasarım: her üniversite ayrı bir kart; kart içinde 5 unvan satırı, her
+ * satırda büyük sayı + her akademisyen için bir nokta (max 24 nokta, fazlası
+ * "+N" overflow). "Her nokta = bir akademisyen" görsel hissi.
  */
 
 import type { StaffCounts, StaffComparison } from "@/lib/types";
@@ -82,94 +81,104 @@ export function StaffBars({ data, loading }: StaffBarsProps) {
     )
   );
 
-  return (
-    <div className="space-y-4">
-      {/* Header — sadece üni isimleri ve toplam */}
-      <div
-        className="grid grid-cols-[1fr_auto_auto] gap-6 items-baseline pb-3 border-b"
-        style={{ borderColor: "var(--color-line)" }}
-      >
-        <span className="ui-label">Unvan</span>
-        <UniHeader name={u1Short} idx={0} total={u1.total} />
-        <UniHeader name={u2Short} idx={1} total={u2.total} />
-      </div>
+  // Suppress unused max variable now that bars are gone
+  void max;
 
-      {/* Rows */}
-      <ul className="space-y-3.5">
-        {TITLES.map(({ key, label }) => {
-          const v1 = (u1[key] as number) || 0;
-          const v2 = (u2[key] as number) || 0;
-          if (v1 === 0 && v2 === 0) return null;
-          return (
-            <li key={key}>
-              <div className="grid grid-cols-[1fr_auto_auto] gap-6 items-center">
-                <span className="text-sm text-[color:var(--color-ink-700)]">
-                  {label}
-                </span>
-                <CountBar value={v1} max={max} color={uniColor(0)} />
-                <CountBar value={v2} max={max} color={uniColor(1)} />
-              </div>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
-}
-
-function UniHeader({ name, idx, total }: { name: string; idx: number; total: number }) {
   return (
-    <div className="text-right min-w-[88px]">
-      <div className="flex items-center gap-1.5 justify-end">
-        <span
-          aria-hidden
-          className="w-2 h-2 rounded-full"
-          style={{ background: uniColor(idx) }}
-        />
-        <span className="text-sm font-medium leading-none">{name}</span>
-      </div>
-      <span className="font-mono text-[11px] text-[color:var(--color-ink-500)] tabular-nums mt-1 block">
-        Toplam {total}
-      </span>
+    <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">
+      <StaffCard counts={u1} name={u1Short} idx={0} />
+      <StaffCard counts={u2} name={u2Short} idx={1} />
     </div>
   );
 }
 
 /**
- * Bar + sayı — sayı sağda büyük gözüksün, bar arka planda dolaylı görsel.
+ * StaffCard — bir üniversitenin akademik kadrosunu kart halinde gösterir.
+ * Üstte ad + toplam; altta 5 unvan satırı, her unvan için sayı + nokta-cluster.
  */
-function CountBar({
-  value,
-  max,
-  color,
+function StaffCard({
+  counts,
+  name,
+  idx,
 }: {
-  value: number;
-  max: number;
-  color: string;
+  counts: StaffCounts;
+  name: string;
+  idx: number;
 }) {
-  const pct = max > 0 ? (value / max) * 100 : 0;
+  const accent = uniColor(idx);
   return (
-    <div
-      className="relative w-[88px] h-7 rounded overflow-hidden"
-      style={{ background: "var(--color-paper-2)" }}
-      aria-label={`${value} kişi`}
+    <article
+      className="rounded-lg border p-4 lg:p-5"
+      style={{ borderColor: "var(--color-line)", background: "var(--color-white-paper)" }}
     >
-      {value > 0 && (
-        <div
-          className="absolute left-0 top-0 bottom-0 transition-all duration-300"
-          style={{
-            width: `${pct}%`,
-            background: color,
-            opacity: 0.18,
-          }}
-        />
-      )}
-      <span
-        className="absolute inset-0 flex items-center justify-end pr-2.5 font-mono text-sm tabular-nums font-medium"
-        style={{ color: value > 0 ? color : "var(--color-ink-300)" }}
+      <header
+        className="flex items-baseline justify-between pb-3 mb-3 border-b"
+        style={{ borderColor: "var(--color-line)" }}
       >
-        {value}
-      </span>
+        <div className="flex items-center gap-2">
+          <span
+            aria-hidden
+            className="w-2.5 h-2.5 rounded-full"
+            style={{ background: accent }}
+          />
+          <h3 className="font-serif text-base font-medium leading-none">{name}</h3>
+        </div>
+        <div className="text-right">
+          <div className="font-serif text-2xl tabular-nums leading-none">
+            {counts.total}
+          </div>
+          <div className="ui-label text-[9px] mt-0.5">Toplam</div>
+        </div>
+      </header>
+
+      <ul className="space-y-3">
+        {TITLES.map(({ key, label }) => {
+          const v = (counts[key] as number) || 0;
+          return (
+            <li
+              key={key}
+              className={`grid grid-cols-[7rem_2.5rem_1fr] gap-3 items-center ${
+                v === 0 ? "opacity-40" : ""
+              }`}
+            >
+              <span className="text-xs text-[color:var(--color-ink-700)]">
+                {label}
+              </span>
+              <span
+                className="font-serif text-base tabular-nums text-right"
+                style={{ color: v > 0 ? accent : "var(--color-ink-500)" }}
+              >
+                {v > 0 ? v : "—"}
+              </span>
+              <DotCluster count={v} accent={accent} />
+            </li>
+          );
+        })}
+      </ul>
+    </article>
+  );
+}
+
+/** "Her nokta bir akademisyen" — max 24 nokta; fazlası "+N" overflow. */
+function DotCluster({ count, accent }: { count: number; accent: string }) {
+  const MAX = 24;
+  const shown = Math.min(count, MAX);
+  const overflow = Math.max(0, count - MAX);
+  if (count === 0) return null;
+  return (
+    <div className="flex items-center flex-wrap gap-[3px]" aria-hidden>
+      {Array.from({ length: shown }).map((_, i) => (
+        <span
+          key={i}
+          className="w-1.5 h-1.5 rounded-full block flex-shrink-0"
+          style={{ background: accent }}
+        />
+      ))}
+      {overflow > 0 && (
+        <span className="ml-1 font-mono text-[9px] text-[color:var(--color-ink-500)] tabular-nums">
+          +{overflow}
+        </span>
+      )}
     </div>
   );
 }
