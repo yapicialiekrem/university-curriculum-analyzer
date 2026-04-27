@@ -126,7 +126,31 @@ TYPE SEÇENEKLERİ:
 
 UNIVERSITIES: Sorunun doğrudan ilgilendirdiği üniversitelerin **slug**
 listesi. Mevcut slug'lar veri klasöründeki JSON dosya adlarıyla eşleşir.
-ÖNEMLİ: Soruda ÜNİ ADI GEÇİYORSA mutlaka slug'ı yaz. Yaygın eşleşmeler:
+ÖNEMLİ: Soruda ÜNİ ADI GEÇİYORSA mutlaka slug'ı yaz.
+
+KRİTİK KURAL — bölüm ipucu varsa slug'a EKLENİR (-ybs / -yazılım):
+  Soruda "YBS" / "Yönetim Bilişim" geçerse → slug'a "-ybs" ekle:
+    "Yaşar YBS"        → "yasar-ybs"
+    "Gazi YBS"         → "gazi-ybs"
+    "Dokuz Eylül YBS"  → "deu-ybs"
+    "Marmara YBS"      → "marmara-ybs"
+    "Bilgi YBS"        → "bilgi-ybs"
+    "Başkent YBS"      → "baskent-ybs"
+    "Kadir Has YBS"    → "kadirhas-ybs"
+    "Medipol YBS"      → "medipol-ybs"
+    "İstanbul YBS"     → "istanbul-ybs"
+    "İstinye YBS"      → "istinye-ybs"
+  Soruda "Yazılım Müh" / "yazmuh" geçerse → slug'a "-yazılım" ekle:
+    "Ankara Yazılım"   → "ankara-yazılım"
+    "Atılım Yazılım"   → "atilim-yazılım"
+    "Yaşar Yazılım"    → "yasar-yazılım"
+    "Maltepe Yazılım"  → "maltepe-yazılım"
+    (vs. — yazılım klasöründeki diğerleri)
+  Soruda "BilMüh" / "Bilgisayar" / sadece üni adı varsa → slug suffix YOK:
+    "Yaşar"            → "yasar" (BilMüh dosyası)
+    "ODTÜ"             → "metu"
+
+YAYGIN BİLMÜH SLUG'LARI:
   ODTÜ / Orta Doğu Teknik / METU → "metu"
   Bilkent → "bilkent"
   İTÜ / İstanbul Teknik → "itu"
@@ -142,8 +166,26 @@ listesi. Mevcut slug'lar veri klasöründeki JSON dosya adlarıyla eşleşir.
   Gazi → "gazi"
   Atatürk → "ataturk"
   İstanbul → "istanbul"
+  Dokuz Eylül / DEÜ → "deu"
+  Yaşar → "yasar"
+  Bilgi / İstanbul Bilgi → "bilgi"
+  Kadir Has → "kadirhas"
+  Medipol → "medipol"
+  Özyeğin → "ozyegin"
+  Selçuk → "selcuk"
+  TOBB ETÜ → "tobb"
+  Yeditepe → "yeditepe"
+  Türk-Alman / TAÜ → "tau"
+  KTÜ / Karadeniz Teknik → "ktu"
+  GTÜ / Gebze Teknik → "gebze"
+  GSÜ / Galatasaray → "gsu"
+  İYTE / İzmir Yüksek Teknoloji → "iyte"
+  Erciyes → "erciyes"
+  Fırat → "fırat"
 Emin değilsen boş bırak: []. Yan yana iki üni varsa ikisini de ekle:
   "ODTÜ ve Bilkent" → ["metu", "bilkent"]
+  "Dokuz Eylül ile Bilkent BilMüh" → ["deu", "bilkent"]
+  "Yaşar YBS ile Gazi YBS" → ["yasar-ybs", "gazi-ybs"]
 
 METRIC: Eğer type="comparison" ise aşağıdaki metriklerden uygun olanı
 seç; başka durumda null:
