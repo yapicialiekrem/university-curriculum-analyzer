@@ -381,7 +381,34 @@ def _build_comparison(intent: Intent, resolved: list[dict]) -> dict:
 
     out: dict[str, Any] = {"slugs": slugs}
 
-    # 0) Her üni için temsili ders örnekleri — LLM citation üretebilsin diye.
+    # 0a) Her üni için specialization_depth + temel meta — comparison
+    # cevaplarında 'X kategorisinde kaç ders / kaç AKTS' gibi sorulara
+    # net sayı ile cevap verebilmek için kategori bazlı dağılım kritik.
+    try:
+        from analytics.loader import get_store
+    except ImportError:
+        from src.analytics.loader import get_store  # type: ignore
+    _store = get_store()
+    spec_per_uni = []
+    for r in resolved:
+        uni_doc = _store.get(r["slug"]) or {}
+        summary = uni_doc.get("_summary") or {}
+        spec_depth = summary.get("specialization_depth") or {}
+        spec_per_uni.append({
+            "university": r["name"],
+            "slug": r["slug"],
+            "department": uni_doc.get("department"),
+            "department_code": uni_doc.get("_department"),
+            "type": uni_doc.get("type"),
+            "language": uni_doc.get("language"),
+            "total_courses": summary.get("total_courses"),
+            "modernity_score": summary.get("modernity_score"),
+            "academic_staff": uni_doc.get("academic_staff") or {},
+            "specialization_depth": spec_depth,  # kategori → {required, elective, total, *_ects}
+        })
+    out["per_university"] = spec_per_uni
+
+    # 0b) Her üni için temsili ders örnekleri — LLM citation üretebilsin diye.
     # Kategori filter'ı varsa o kategorideki dersleri öne çıkar; yoksa AKTS
     # ağırlıklı top 5 zorunlu ders (her uni başına).
     engine = _get_engine()
