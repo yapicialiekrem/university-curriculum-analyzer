@@ -220,3 +220,6 @@ logs/
 # Lokal symlink'ler (src'den çalıştırmak için: ingest, uvicorn static)
 src/data
 src/static
+
+# academic interim report — contains personal data, keep local only
+Bitirme Projesi Ara Rapor.pdf
