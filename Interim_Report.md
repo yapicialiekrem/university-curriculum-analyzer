@@ -1,14 +1,10 @@
 # A Semantic Comparison and Evaluation System for Knowledge Graph and Artificial Intelligence-Based Informatics Education Curricula
 
-**Ali Ekrem Yapıcı** (), **Ceyda Yapar** (), **Berat Altun** ()
+**Ali Ekrem Yapıcı**, **Ceyda Yapar**, **Berat Altun**
 
 Department of Computer Engineering, Ege University, 35100 Bornova, İzmir
 
-Student e-mail: 
-
 **Advisor:** Prof. Dr. Murat Osman ÜNALIR
-
-Advisor e-mail: 
 
 **Submission Date:** February 25, 2026
 
