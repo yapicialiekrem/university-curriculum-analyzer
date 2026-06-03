@@ -9,34 +9,30 @@
 FAISS semantic index + Neo4j KG → FastAPI backend → Next.js 16 dashboard +
 hibrit AI asistan (8 intent, 5 tool).
 
-> 📊 **Sunum / juri için detaylı doküman:** [`SUNUM.md`](./SUNUM.md) — pipeline'ın
+> **Sunum / juri için detaylı doküman:** [`SUNUM.md`](./SUNUM.md) — pipeline'ın
 > baştan sona anlatımı, dosya yapısı, AI asistan iç işleyişi, demo akışı,
 > ölü kod tespiti.
 >
-> 📚 **Akademik ara rapor:** [`Interim_Report.md`](./Interim_Report.md) — literatür,
-> metodoloji, mimari kararlar.
->
-> 📋 **Yeni üni veri toplama prompt'u:** [`CLAUDE.md`](./CLAUDE.md) — LLM ile veri
+> **Yeni üni veri toplama prompt'u:** [`CLAUDE.md`](./CLAUDE.md) — LLM ile veri
 > toplarken kullanılan şema kuralları.
 
 ---
 
-## 📑 İçindekiler
+## İçindekiler
 
-1. [Mimari özet](#-mimari-özet)
-2. [Hızlı kurulum](#-hızlı-kurulum-i̇lk-defa)
-3. [Mevcut kurulumda çalıştırma](#-mevcut-kurulumda-çalıştırma)
-4. [Proje yapısı](#-proje-yapısı)
-5. [Knowledge Graph şeması](#-knowledge-graph-şeması)
-6. [Frontend — 3 katman + Chat](#-frontend--3-katman--chat)
-7. [API endpoint'leri](#-api-endpointleri)
-8. [Geliştirme & test](#-geliştirme--test)
-9. [Sık karşılaşılan sorunlar](#-sık-karşılaşılan-sorunlar)
-10. [Yeni üniversite ekleme](#-yeni-üniversite-ekleme)
+1. [Mimari özet](#mimari-özet)
+2. [Hızlı kurulum](#hızlı-kurulum-i̇lk-defa)
+3. [Mevcut kurulumda çalıştırma](#mevcut-kurulumda-çalıştırma)
+4. [Proje yapısı](#proje-yapısı)
+5. [Knowledge Graph şeması](#knowledge-graph-şeması)
+6. [Frontend — 3 katman + Chat](#frontend--3-katman--chat)
+7. [API endpoint'leri](#api-endpointleri)
+8. [Geliştirme & test](#geliştirme--test)
+9. [Yeni üniversite ekleme](#yeni-üniversite-ekleme)
 
 ---
 
-## 🏗 Mimari özet
+## Mimari özet
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
@@ -84,7 +80,7 @@ hibrit AI asistan (8 intent, 5 tool).
 
 ---
 
-## 🚀 Hızlı kurulum (ilk defa)
+## Hızlı kurulum (ilk defa)
 
 > Repo'yu yeni klonladıysan veya makinende hiç çalıştırmadıysan bu adımları
 > sırayla yap. **Toplam süre: ~30 dakika** (network hızına bağlı).
@@ -106,7 +102,7 @@ git clone https://github.com/yapicialiekrem/university-curriculum-analyzer.git
 cd university-curriculum-analyzer
 ```
 
-✅ `data/{bilgisayar,yazilim,ybs}/*.json` (51 dosya, enrichment ile zenginleştirilmiş)
+`data/{bilgisayar,yazilim,ybs}/*.json` (51 dosya, enrichment ile zenginleştirilmiş)
 zaten içinde — ayrıca veri indirmen gerekmez.
 
 ### 2. `.env` dosyasını oluştur
@@ -162,7 +158,7 @@ Bu adım:
 - 51 JSON dosyasını okur
 - Her ders için sentence-transformers ile embedding üretir
 - Neo4j'e University → Faculty → Department → Course hiyerarşisini yazar
-- ⏱ **Süre: 10-15 dakika** (RAM: ~2 GB, model ilk seferde ~80 MB inecek)
+- **Süre: 10-15 dakika** (RAM: ~2 GB, model ilk seferde ~80 MB inecek)
 
 ### 6. FAISS index'i build et (chat semantic arama için)
 
@@ -170,7 +166,7 @@ Bu adım:
 python -m src.embeddings.builder
 ```
 
-⏱ Süre: ~5-10 dakika. `src/embeddings/index/` altına yazar (~15 MB).
+Süre: ~5-10 dakika. `src/embeddings/index/` altına yazar (~15 MB).
 
 ### 7. Backend server'ı başlat
 
@@ -178,7 +174,7 @@ python -m src.embeddings.builder
 uvicorn src.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-✅ http://127.0.0.1:8000/docs — Swagger UI ile endpoint'leri test edebilirsin.
+http://127.0.0.1:8000/docs — Swagger UI ile endpoint'leri test edebilirsin.
 
 ### 8. Frontend kurulumu (yeni terminal)
 
@@ -190,14 +186,14 @@ npm run dev
 
 ### 9. Tarayıcıda aç
 
-🌐 **http://localhost:3000**
+**http://localhost:3000**
 
 İlk yüklemede dashboard `metu` (ODTÜ) ve `bilkent` üniversitelerini default
 karşılaştırır.
 
 ---
 
-## ⚡ Mevcut kurulumda çalıştırma
+## Mevcut kurulumda çalıştırma
 
 > Daha önce kurmuştun, sadece tekrar açıyorsun.
 
@@ -215,11 +211,11 @@ cd university-curriculum-analyzer/frontend
 npm run dev
 ```
 
-🌐 http://localhost:3000
+http://localhost:3000
 
 ---
 
-## 📁 Proje yapısı
+## Proje yapısı
 
 ```
 university-curriculum-analyzer/
@@ -242,7 +238,7 @@ university-curriculum-analyzer/
 │   ├── main.py                  FastAPI entry point + router include
 │   ├── config.py                .env okur, settings export
 │   ├── ingest.py                JSON → Neo4j veri yükleyici
-│   ├── comparison.py            ⭐ ComparisonEngine — 11 metrik için Cypher sorguları
+│   ├── comparison.py            ComparisonEngine — 11 metrik için Cypher sorguları
 │   │
 │   ├── api/                     HTTP endpoint'leri
 │   │   ├── universities.py      /api/v2/universities — liste, detay
@@ -257,7 +253,7 @@ university-curriculum-analyzer/
 │   │   ├── coverage.py          Ortak/farklı konu çıkarımı
 │   │   └── bloom.py             Bloom taksonomisi dağılımı
 │   │
-│   ├── chat/                    ⭐ LLM chat pipeline
+│   ├── chat/                    LLM chat pipeline
 │   │   ├── router.py            Soru → Intent (LLM #1, classify)
 │   │   ├── context.py           Intent → Neo4j/FAISS data (no LLM)
 │   │   ├── answer.py            Context → ChatResponse (LLM #2, generate)
@@ -268,7 +264,7 @@ university-curriculum-analyzer/
 │   ├── embeddings/              FAISS semantik arama
 │   │   ├── builder.py           Embedding hesapla → FAISS index'e yaz
 │   │   ├── search.py            Query → top-k benzer ders
-│   │   └── index/               🚫 git ignored (build sonrası oluşur)
+│   │   └── index/               git ignored (build sonrası oluşur)
 │   │
 │   └── enrichment/              JSON zenginleştirici (LLM ile çalışır)
 │       ├── enrich.py            Ham scraped → +bloom_levels, +categories
@@ -286,14 +282,14 @@ university-curriculum-analyzer/
         │   ├── layout.tsx       Root: fontlar, TopBar, ThemeProvider, OverlayProvider
         │   ├── page.tsx         "/" → LayerOne + LayerTwo + ChatPanel
         │   ├── deep-analysis/   "/deep-analysis" → LayerThree
-        │   └── globals.css      ⭐ Tasarım sistemi: tokens, .card, dark mode
+        │   └── globals.css      Tasarım sistemi: tokens, .card, dark mode
         │
         ├── components/
         │   ├── TopBar.tsx               Sticky nav + tema toggle
         │   ├── Section.tsx              Layer 2/3 kart wrapper (fade-up scroll)
         │   │
         │   ├── selectors/
-        │   │   ├── UniversityPicker.tsx   ⭐ Chip + replace mode + dept auto-fix
+        │   │   ├── UniversityPicker.tsx   Chip + replace mode + dept auto-fix
         │   │   └── DepartmentTabs.tsx     BilMüh / YazMüh / YBS sekmeleri
         │   │
         │   ├── cards/
@@ -323,12 +319,12 @@ university-curriculum-analyzer/
         └── lib/
             ├── api.ts                Backend fetch wrapper
             ├── types.ts              TypeScript ↔ Pydantic eşleşmeleri
-            ├── use-selection.ts      ⭐ URL state (a, b, c, dept)
+            ├── use-selection.ts      URL state (a, b, c, dept)
             ├── use-overlay.tsx       Chat → dashboard glow (30s TTL)
             └── use-theme.tsx         Light/dark/system tema
 ```
 
-### 🚫 Git'te olmayanlar (yeniden üretilir)
+### Git'te olmayanlar (yeniden üretilir)
 
 | Klasör/dosya | Boyut | Nasıl üretilir |
 |---|---|---|
@@ -342,7 +338,7 @@ university-curriculum-analyzer/
 
 ---
 
-## 🕸 Knowledge Graph şeması
+## Knowledge Graph şeması
 
 ### 9 düğüm tipi
 
@@ -376,7 +372,7 @@ Cypher örnekleri için: [`src/comparison.py`](src/comparison.py)
 
 ---
 
-## 🎨 Frontend — 3 katman + Chat
+## Frontend — 3 katman + Chat
 
 ### Katman 1 — İlk bakışta (`/`)
 - **CategoryRadar** — 10 eksende kategori bazlı kapsam (Recharts polish)
@@ -412,7 +408,7 @@ URL state ile paylaşılabilir: `/?a=metu&b=bilkent&c=bogazici&dept=bilmuh`
 
 ---
 
-## 🔌 API endpoint'leri
+## API endpoint'leri
 
 ### Karşılaştırma metrikleri (Neo4j → JSON)
 
@@ -473,7 +469,7 @@ Tam Swagger dokümantasyonu: http://localhost:8000/docs
 
 ---
 
-## 🛠 Geliştirme & test
+## Geliştirme & test
 
 ### Frontend dev
 
@@ -536,76 +532,7 @@ gh pr create        # veya GitHub web'den manuel
 
 ---
 
-## ⚠️ Sık karşılaşılan sorunlar
-
-### Site açılıyor ama tüm kartlar boş / "yüklenemedi"
-**Neden:** Backend (port 8000) ayakta değil veya Neo4j boş.
-
-**Çözüm:**
-```bash
-# Backend ayakta mı?
-curl -s http://127.0.0.1:8000/docs > /dev/null && echo "✓" || echo "✗ Başlat"
-
-# Neo4j dolu mu?
-docker exec unicurriculum-neo4j cypher-shell -u neo4j -p <şifre> \
-  "MATCH (u:University) RETURN count(u);"
-# 51'den az ise: python src/ingest.py
-```
-
-### `Connection refused` Neo4j'e
-**Çözüm:**
-```bash
-docker compose up -d neo4j
-docker compose logs neo4j | tail -20
-```
-
-### Dropdown'da çoğu üniversite yok
-**Neden:** Neo4j'e tüm 51 üniversite yüklenmemiş (ingest yarıda kalmış).
-
-**Çözüm:**
-```bash
-# Neo4j'i temizle
-docker exec -it unicurriculum-neo4j cypher-shell -u neo4j -p <şifre> \
-  "MATCH (n) DETACH DELETE n;"
-# Yeniden ingest
-python src/ingest.py
-```
-
-### Chat hata veriyor / generic cevap
-**Neden:** `.env`'de geçerli LLM key yok, veya quota dolmuş.
-
-**Çözüm:**
-- `.env`'deki `AZURE_OPENAI_*` / `OPENAI_API_KEY` / `OPENROUTER_API_KEY`'den
-  en az birini geçerli yap
-- `tail -f logs/llm.jsonl` ile hatayı görüntüle
-
-### `prereq` graph'ta hep "0 ders, 0 bağ"
-**Neden:** Neo4j'de REQUIRES ilişkisi yok (ingest tam çalışmamış olabilir).
-
-**Çözüm:**
-```bash
-# Cypher kontrolü
-MATCH ()-[r:REQUIRES]->() RETURN count(r);
-# 0 ise: ingest'i tekrar çalıştır
-```
-
-### Port 3000 / 8000 dolu
-```bash
-# Frontend için farklı port
-npm run dev -- -p 3001
-
-# Backend için farklı port
-uvicorn src.main:app --port 8001
-# Frontend'in api.ts'inde NEXT_PUBLIC_API_BASE'i güncelle
-```
-
-### `npm install` veya `pip install` çok yavaş
-- npm: `npm install --prefer-offline --no-audit`
-- pip: `pip install -r requirements.txt --prefer-binary`
-
----
-
-## ➕ Yeni üniversite ekleme
+## Yeni üniversite ekleme
 
 1. **JSON oluştur:** `CLAUDE.md`'deki şemaya uygun
    `data/<bolum>/<slug>.json` (örn. `data/bilgisayar/yeniuni.json`)
@@ -631,7 +558,7 @@ uvicorn src.main:app --port 8001
 
 ---
 
-## 📜 Lisans & Atıf
+## Lisans & Atıf
 
 Bitirme projesi olarak geliştirilmiştir.
 
@@ -641,15 +568,9 @@ Bitirme projesi olarak geliştirilmiştir.
 
 ---
 
-## 🔗 Dış bağlantılar
+## Dış bağlantılar
 
 - **GitHub:** https://github.com/yapicialiekrem/university-curriculum-analyzer
 - **Neo4j docs:** https://neo4j.com/docs/
 - **FastAPI docs:** https://fastapi.tiangolo.com/
 - **Next.js docs:** https://nextjs.org/docs
-
----
-
-> Proje hakkında: bkz. `Interim_Report.md` — ara raporda tasarım kararları,
-> veri toplama metodolojisi, mimari değerlendirme ve geleceğe yönelik
-> planlar yer alır.
