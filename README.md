@@ -1,52 +1,52 @@
 # UniCurriculum — University Curriculum Analyzer
 
-> Türkiye üniversitelerinin **Bilgisayar Mühendisliği**, **Yazılım Mühendisliği**
-> ve **Yönetim Bilişim Sistemleri** programlarının müfredatlarını yan yana
-> okumayı sağlayan editorial dashboard. LLM destekli sohbet, semantik konu
-> arama, Bloom taksonomisi analizi ve önkoşul ağı görselleştirmesi içerir.
+> An editorial dashboard for reading the **Computer Engineering**, **Software
+> Engineering** and **Management Information Systems** curricula of Turkish
+> universities side by side. Includes LLM-powered chat, semantic topic search,
+> Bloom-taxonomy analysis and prerequisite-graph visualization.
 
-**51 üniversite × 3 bölüm × 8721 ders.** Pipeline: JSON → LLM enrichment →
+**51 universities × 3 departments × 8721 courses.** Pipeline: JSON → LLM enrichment →
 FAISS semantic index + Neo4j KG → FastAPI backend → Next.js 16 dashboard +
-hibrit AI asistan (8 intent, 5 tool).
+hybrid AI assistant (8 intents, 5 tools).
 
-> **Sunum / juri için detaylı doküman:** [`SUNUM.md`](./SUNUM.md) — pipeline'ın
-> baştan sona anlatımı, dosya yapısı, AI asistan iç işleyişi, demo akışı,
-> ölü kod tespiti.
+> **Detailed document for the presentation / jury:** [`SUNUM.md`](./SUNUM.md) — an
+> end-to-end walkthrough of the pipeline, file structure, the AI assistant's
+> internals, the demo flow, and dead-code detection.
 >
-> **Yeni üni veri toplama prompt'u:** [`CLAUDE.md`](./CLAUDE.md) — LLM ile veri
-> toplarken kullanılan şema kuralları.
+> **New-university data-collection prompt:** [`CLAUDE.md`](./CLAUDE.md) — the schema
+> rules used when collecting data with an LLM.
 
 ---
 
-## İçindekiler
+## Contents
 
-1. [Mimari özet](#mimari-özet)
-2. [Hızlı kurulum](#hızlı-kurulum-i̇lk-defa)
-3. [Mevcut kurulumda çalıştırma](#mevcut-kurulumda-çalıştırma)
-4. [Proje yapısı](#proje-yapısı)
-5. [Knowledge Graph şeması](#knowledge-graph-şeması)
-6. [Frontend — 3 katman + Chat](#frontend--3-katman--chat)
-7. [API endpoint'leri](#api-endpointleri)
-8. [Geliştirme & test](#geliştirme--test)
-9. [Yeni üniversite ekleme](#yeni-üniversite-ekleme)
+1. [Architecture overview](#architecture-overview)
+2. [Quick setup](#quick-setup-first-time)
+3. [Running an existing setup](#running-an-existing-setup)
+4. [Project structure](#project-structure)
+5. [Knowledge Graph schema](#knowledge-graph-schema)
+6. [Frontend — 3 layers + Chat](#frontend--3-layers--chat)
+7. [API endpoints](#api-endpoints)
+8. [Development & testing](#development--testing)
+9. [Adding a new university](#adding-a-new-university)
 
 ---
 
-## Mimari özet
+## Architecture overview
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
 │                                                                          │
 │   data/{bilgisayar,yazilim,ybs}/<slug>.json                              │
-│   (51 üniversite, scraped + LLM-enriched JSON)                          │
+│   (51 universities, scraped + LLM-enriched JSON)                         │
 │                            │                                             │
 │                            │  python src/ingest.py                       │
 │                            ▼                                             │
-│   ┌────────────────────────────────┐    ┌──────────────────────────┐    │
-│   │  Neo4j Knowledge Graph         │    │  FAISS Index             │    │
-│   │  9 düğüm tipi, 10 ilişki       │    │  8721 ders embedding     │    │
-│   │  (University → Course)         │    │  (paraphrase-mLaBSE)     │    │
-│   └─────────────┬──────────────────┘    └────────┬─────────────────┘    │
+│   ┌────────────────────────────────┐    ┌──────────────────────────┐     │
+│   │  Neo4j Knowledge Graph         │    │  FAISS Index             │     │
+│   │  9 node types, 10 relations    │    │  8721 course embeddings  │     │
+│   │  (University → Course)         │    │  (paraphrase-mLaBSE)     │     │
+│   └─────────────┬──────────────────┘    └────────┬─────────────────┘     │
 │                 │                                │                       │
 │                 └────────────────┬───────────────┘                       │
 │                                  │                                       │
@@ -54,7 +54,7 @@ hibrit AI asistan (8 intent, 5 tool).
 │                    │  FastAPI Backend          │                         │
 │                    │  src/main.py + src/api/   │                         │
 │                    │  Port 8000                │                         │
-│                    │  - 11 compare endpoint    │                         │
+│                    │  - 11 compare endpoints   │                         │
 │                    │  - /api/chat (LLM)        │                         │
 │                    │  - /api/search (FAISS)    │                         │
 │                    └─────────────┬─────────────┘                         │
@@ -63,7 +63,7 @@ hibrit AI asistan (8 intent, 5 tool).
 │                    ┌──────────────────────────┐                          │
 │                    │  Next.js 16 Frontend     │                          │
 │                    │  frontend/  (Port 3000)  │                          │
-│                    │  - 3 katmanlı dashboard  │                          │
+│                    │  - 3-layer dashboard     │                          │
 │                    │  - LLM chat panel        │                          │
 │                    │  - Editorial design      │                          │
 │                    └──────────────────────────┘                          │
@@ -80,125 +80,124 @@ hibrit AI asistan (8 intent, 5 tool).
 
 ---
 
-## Hızlı kurulum (ilk defa)
+## Quick setup (first time)
 
-> Repo'yu yeni klonladıysan veya makinende hiç çalıştırmadıysan bu adımları
-> sırayla yap. **Toplam süre: ~30 dakika** (network hızına bağlı).
+> If you've just cloned the repo or never run it on your machine, follow these
+> steps in order. **Total time: ~30 minutes** (depending on network speed).
 
-### Önkoşullar
+### Prerequisites
 
 - **Node.js 20+** — https://nodejs.org/
 - **Python 3.11+** — `python3 --version`
 - **Docker Desktop** — https://www.docker.com/products/docker-desktop
-- **Bir LLM API anahtarı** (en az birinden):
-  - Azure OpenAI (primary, önerilen)
+- **An LLM API key** (at least one of):
+  - Azure OpenAI (primary, recommended)
   - OpenAI
-  - OpenRouter (ücretsiz fallback model'i var)
+  - OpenRouter (has a free fallback model)
 
-### 1. Repo'yu klonla
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/yapicialiekrem/university-curriculum-analyzer.git
 cd university-curriculum-analyzer
 ```
 
-`data/{bilgisayar,yazilim,ybs}/*.json` (51 dosya, enrichment ile zenginleştirilmiş)
-zaten içinde — ayrıca veri indirmen gerekmez.
+`data/{bilgisayar,yazilim,ybs}/*.json` (51 files, already enriched) is included —
+no extra data download needed.
 
-### 2. `.env` dosyasını oluştur
+### 2. Create the `.env` file
 
 ```bash
 cp .env.example .env
-# Sonra .env'i editör ile aç ve doldur:
+# Then open .env in an editor and fill it in:
 ```
 
-**Minimum ayarlar:**
+**Minimum settings:**
 ```bash
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=secret123        # Neo4j ilk açılışta belirlediğin şifre
+NEO4J_PASSWORD=secret123        # the password you set on Neo4j's first launch
 
-# Aşağıdakilerden EN AZ BİRİ:
+# AT LEAST ONE of the following:
 AZURE_OPENAI_ENDPOINT=https://<resource>.openai.azure.com/
 AZURE_OPENAI_API_KEY=...
 AZURE_OPENAI_DEPLOYMENT=...
 AZURE_OPENAI_API_VERSION=2025-03-01-preview
-# veya
+# or
 OPENAI_API_KEY=sk-...
-# veya
+# or
 OPENROUTER_API_KEY=sk-or-...
 ```
 
-### 3. Neo4j'i başlat
+### 3. Start Neo4j
 
 ```bash
 docker compose up -d neo4j
 ```
 
-İlk açılışta:
+On first launch:
 - http://localhost:7474 — Neo4j browser
-- Default: `neo4j` / `neo4j` ile login → yeni şifre belirle
-- Bu şifreyi `.env` içindeki `NEO4J_PASSWORD`'a yaz
+- Default: log in with `neo4j` / `neo4j` → set a new password
+- Write this password into `NEO4J_PASSWORD` in `.env`
 
-### 4. Python backend kurulumu
+### 4. Python backend setup
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate              # Windows: .venv\Scripts\activate
-pip install -r requirements.txt        # ~3-5 dakika
+pip install -r requirements.txt        # ~3-5 minutes
 ```
 
-### 5. Veriyi Neo4j'e yükle (ingest)
+### 5. Load data into Neo4j (ingest)
 
 ```bash
 python src/ingest.py
 ```
 
-Bu adım:
-- 51 JSON dosyasını okur
-- Her ders için sentence-transformers ile embedding üretir
-- Neo4j'e University → Faculty → Department → Course hiyerarşisini yazar
-- **Süre: 10-15 dakika** (RAM: ~2 GB, model ilk seferde ~80 MB inecek)
+This step:
+- Reads the 51 JSON files
+- Generates an embedding for each course with sentence-transformers
+- Writes the University → Faculty → Department → Course hierarchy into Neo4j
+- **Time: 10-15 minutes** (RAM: ~2 GB, the model downloads ~80 MB on first run)
 
-### 6. FAISS index'i build et (chat semantic arama için)
+### 6. Build the FAISS index (for chat semantic search)
 
 ```bash
 python -m src.embeddings.builder
 ```
 
-Süre: ~5-10 dakika. `src/embeddings/index/` altına yazar (~15 MB).
+Time: ~5-10 minutes. Writes under `src/embeddings/index/` (~15 MB).
 
-### 7. Backend server'ı başlat
+### 7. Start the backend server
 
 ```bash
 uvicorn src.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-http://127.0.0.1:8000/docs — Swagger UI ile endpoint'leri test edebilirsin.
+http://127.0.0.1:8000/docs — test the endpoints with Swagger UI.
 
-### 8. Frontend kurulumu (yeni terminal)
+### 8. Frontend setup (new terminal)
 
 ```bash
 cd frontend
-npm install                            # ~2 dakika, ~700 MB
+npm install                            # ~2 minutes, ~700 MB
 npm run dev
 ```
 
-### 9. Tarayıcıda aç
+### 9. Open in the browser
 
 **http://localhost:3000**
 
-İlk yüklemede dashboard `metu` (ODTÜ) ve `bilkent` üniversitelerini default
-karşılaştırır.
+On first load the dashboard compares `metu` (METU) and `bilkent` by default.
 
 ---
 
-## Mevcut kurulumda çalıştırma
+## Running an existing setup
 
-> Daha önce kurmuştun, sadece tekrar açıyorsun.
+> You've set it up before; you're just reopening it.
 
 ```bash
-# Terminal 1 — Neo4j (zaten çalışıyorsa atla)
+# Terminal 1 — Neo4j (skip if already running)
 docker compose up -d neo4j
 
 # Terminal 2 — Backend
@@ -215,134 +214,134 @@ http://localhost:3000
 
 ---
 
-## Proje yapısı
+## Project structure
 
 ```
 university-curriculum-analyzer/
 │
-├── README.md                    Bu dosya
-├── CLAUDE.md                    Claude Code için repo notları
-├── Interim_Report.md            Ara rapor (markdown)
-├── docker-compose.yml           Neo4j servisini başlatır
-├── requirements.txt             Python bağımlılıkları
-├── .env.example                 .env şablonu (kopyala, doldur)
+├── README.md                    This file
+├── CLAUDE.md                    Repo notes for Claude Code
+├── Interim_Report.md            Interim report (markdown)
+├── docker-compose.yml           Starts the Neo4j service
+├── requirements.txt             Python dependencies
+├── .env.example                 .env template (copy, fill in)
 │
-├── data/                        51 üniversitenin enriched JSON müfredatı
-│   ├── bilgisayar/              31 Bilgisayar Müh. programı
-│   ├── yazilim/                 10 Yazılım Müh. programı
-│   └── ybs/                     10 Yönetim Bilişim Sistemleri programı
+├── data/                        Enriched JSON curricula of 51 universities
+│   ├── bilgisayar/              31 Computer Engineering programs
+│   ├── yazilim/                 10 Software Engineering programs
+│   └── ybs/                     10 Management Information Systems programs
 │
-├── docs/                        Veri toplama rehberi (PDF)
+├── docs/                        Data-collection guide (PDF)
 │
 ├── src/                         Python BACKEND
 │   ├── main.py                  FastAPI entry point + router include
-│   ├── config.py                .env okur, settings export
-│   ├── ingest.py                JSON → Neo4j veri yükleyici
-│   ├── comparison.py            ComparisonEngine — 11 metrik için Cypher sorguları
+│   ├── config.py                Reads .env, exports settings
+│   ├── ingest.py                JSON → Neo4j data loader
+│   ├── comparison.py            ComparisonEngine — Cypher queries for 11 metrics
 │   │
-│   ├── api/                     HTTP endpoint'leri
-│   │   ├── universities.py      /api/v2/universities — liste, detay
+│   ├── api/                     HTTP endpoints
+│   │   ├── universities.py      /api/v2/universities — list, detail
 │   │   ├── compare_enriched.py  /api/v2/compare/* — radar, heatmap, coverage, bloom
-│   │   ├── chat.py              POST /api/chat — LLM destekli soru-cevap
-│   │   └── search.py            POST /api/search — FAISS semantik arama
+│   │   ├── chat.py              POST /api/chat — LLM-powered Q&A
+│   │   └── search.py            POST /api/search — FAISS semantic search
 │   │
-│   ├── analytics/               JSON-bazlı analiz katmanı (Neo4j gerektirmez)
+│   ├── analytics/               JSON-based analytics layer (no Neo4j required)
 │   │   ├── loader.py            JSON cache loader
-│   │   ├── radar.py             10 eksen kategori kapsamı
-│   │   ├── heatmap.py           Dönem × kategori AKTS matrisi
-│   │   ├── coverage.py          Ortak/farklı konu çıkarımı
-│   │   └── bloom.py             Bloom taksonomisi dağılımı
+│   │   ├── radar.py             10-axis category coverage
+│   │   ├── heatmap.py           Semester × category ECTS matrix
+│   │   ├── coverage.py          Shared/different topic extraction
+│   │   └── bloom.py             Bloom taxonomy distribution
 │   │
 │   ├── chat/                    LLM chat pipeline
-│   │   ├── router.py            Soru → Intent (LLM #1, classify)
+│   │   ├── router.py            Question → Intent (LLM #1, classify)
 │   │   ├── context.py           Intent → Neo4j/FAISS data (no LLM)
 │   │   ├── answer.py            Context → ChatResponse (LLM #2, generate)
 │   │   ├── prompts.py           ROUTER_PROMPT + ANSWER_PROMPT
 │   │   ├── llm.py               OpenAI/Azure/OpenRouter wrapper
 │   │   └── schemas.py           Pydantic: Intent, ChatResponse, Citation
 │   │
-│   ├── embeddings/              FAISS semantik arama
-│   │   ├── builder.py           Embedding hesapla → FAISS index'e yaz
-│   │   ├── search.py            Query → top-k benzer ders
-│   │   └── index/               git ignored (build sonrası oluşur)
+│   ├── embeddings/              FAISS semantic search
+│   │   ├── builder.py           Compute embeddings → write to FAISS index
+│   │   ├── search.py            Query → top-k similar courses
+│   │   └── index/               git ignored (created after build)
 │   │
-│   └── enrichment/              JSON zenginleştirici (LLM ile çalışır)
-│       ├── enrich.py            Ham scraped → +bloom_levels, +categories
-│       ├── aggregator.py        Üni özeti: modernity_score, specialization_depth
-│       ├── prompts.py           Enrichment LLM prompt'ları
+│   └── enrichment/              JSON enricher (LLM-powered)
+│       ├── enrich.py            Raw scraped → +bloom_levels, +categories
+│       ├── aggregator.py        University summary: modernity_score, specialization_depth
+│       ├── prompts.py           Enrichment LLM prompts
 │       └── llm_client.py        LLM wrapper
 │
 └── frontend/                    Next.js FRONTEND
-    ├── package.json             npm bağımlılıkları
-    ├── playwright.config.ts     E2E test ayarları
-    ├── tailwind.config (yok)    Tailwind 4 — config @theme directive ile globals.css'de
+    ├── package.json             npm dependencies
+    ├── playwright.config.ts     E2E test config
+    ├── tailwind.config (none)   Tailwind 4 — config via @theme directive in globals.css
     │
     └── src/
         ├── app/                 Next.js App Router
-        │   ├── layout.tsx       Root: fontlar, TopBar, ThemeProvider, OverlayProvider
+        │   ├── layout.tsx       Root: fonts, TopBar, ThemeProvider, OverlayProvider
         │   ├── page.tsx         "/" → LayerOne + LayerTwo + ChatPanel
         │   ├── deep-analysis/   "/deep-analysis" → LayerThree
-        │   └── globals.css      Tasarım sistemi: tokens, .card, dark mode
+        │   └── globals.css      Design system: tokens, .card, dark mode
         │
         ├── components/
-        │   ├── TopBar.tsx               Sticky nav + tema toggle
-        │   ├── Section.tsx              Layer 2/3 kart wrapper (fade-up scroll)
+        │   ├── TopBar.tsx               Sticky nav + theme toggle
+        │   ├── Section.tsx              Layer 2/3 card wrapper (fade-up scroll)
         │   │
         │   ├── selectors/
         │   │   ├── UniversityPicker.tsx   Chip + replace mode + dept auto-fix
-        │   │   └── DepartmentTabs.tsx     BilMüh / YazMüh / YBS sekmeleri
+        │   │   └── DepartmentTabs.tsx     CompEng / SoftEng / MIS tabs
         │   │
         │   ├── cards/
-        │   │   └── UniversityCard.tsx    4px accent + 80px güncellik + mini bar
+        │   │   └── UniversityCard.tsx    4px accent + 80px recency + mini bar
         │   │
         │   ├── chat/
         │   │   └── ChatPanel.tsx         Pill → modal + typewriter + overlay
         │   │
         │   ├── layers/
-        │   │   ├── LayerOne.tsx          1.x — Radar + 2 üni kartı
-        │   │   ├── LayerTwo.tsx          2.x — 6 detay bileşeni
-        │   │   └── LayerThree.tsx        3.x — Derin analiz (akademisyen)
+        │   │   ├── LayerOne.tsx          1.x — Radar + 2 university cards
+        │   │   ├── LayerTwo.tsx          2.x — 6 detail components
+        │   │   └── LayerThree.tsx        3.x — Deep analysis (academic)
         │   │
-        │   └── charts/                   Tüm görselleştirmeler
-        │       ├── CategoryRadar.tsx              1.1 — 10 eksen kapsam
-        │       ├── SemesterHeatmap.tsx            2.1 — Dönem × kategori
-        │       ├── CoverageTable.tsx              2.2 — Ortak/özel konu
-        │       ├── BloomDonut.tsx                 2.3 — Bloom dağılımı
-        │       ├── OutcomesHeatmap.tsx            2.4 — Program çıktı NLP
-        │       ├── StaffBars.tsx                  2.5 — Akademik kadro
-        │       ├── ResourcesDonut.tsx             2.6 — Kaynak dili
-        │       ├── CurriculumCoverageHeatmap.tsx  3.1 — Haftalık konu
-        │       ├── PrereqGraph.tsx                3.2 — Önkoşul ağı (ReactFlow)
-        │       ├── ResourcesTable.tsx             3.3 — Ortak kaynaklar
-        │       └── CourseSimilarity.tsx           3.4 — Embedding arama
+        │   └── charts/                   All visualizations
+        │       ├── CategoryRadar.tsx              1.1 — 10-axis coverage
+        │       ├── SemesterHeatmap.tsx            2.1 — Semester × category
+        │       ├── CoverageTable.tsx              2.2 — Shared/unique topics
+        │       ├── BloomDonut.tsx                 2.3 — Bloom distribution
+        │       ├── OutcomesHeatmap.tsx            2.4 — Program outcome NLP
+        │       ├── StaffBars.tsx                  2.5 — Academic staff
+        │       ├── ResourcesDonut.tsx             2.6 — Resource language
+        │       ├── CurriculumCoverageHeatmap.tsx  3.1 — Weekly topics
+        │       ├── PrereqGraph.tsx                3.2 — Prerequisite graph (ReactFlow)
+        │       ├── ResourcesTable.tsx             3.3 — Shared resources
+        │       └── CourseSimilarity.tsx           3.4 — Embedding search
         │
         └── lib/
             ├── api.ts                Backend fetch wrapper
-            ├── types.ts              TypeScript ↔ Pydantic eşleşmeleri
+            ├── types.ts              TypeScript ↔ Pydantic mappings
             ├── use-selection.ts      URL state (a, b, c, dept)
             ├── use-overlay.tsx       Chat → dashboard glow (30s TTL)
-            └── use-theme.tsx         Light/dark/system tema
+            └── use-theme.tsx         Light/dark/system theme
 ```
 
-### Git'te olmayanlar (yeniden üretilir)
+### Not in git (regenerated)
 
-| Klasör/dosya | Boyut | Nasıl üretilir |
+| Folder/file | Size | How to regenerate |
 |---|---|---|
 | `frontend/node_modules/` | ~570 MB | `npm install` |
 | `frontend/.next/` | ~240 MB | `npm run dev/build` |
 | `.venv/` | ~500 MB | `python -m venv .venv && pip install -r requirements.txt` |
 | `src/embeddings/index/` | ~15 MB | `python -m src.embeddings.builder` |
 | `Neo4j Docker volume` | ~500 MB | `python src/ingest.py` |
-| `.env` | <1 KB | `cp .env.example .env` (manuel doldur) |
-| `logs/` | değişken | Otomatik (runtime) |
+| `.env` | <1 KB | `cp .env.example .env` (fill in manually) |
+| `logs/` | variable | Automatic (runtime) |
 
 ---
 
-## Knowledge Graph şeması
+## Knowledge Graph schema
 
-### 9 düğüm tipi
+### 9 node types
 
-| Düğüm | Anahtar alan(lar) | Ek alanlar |
+| Node | Key field(s) | Extra fields |
 |---|---|---|
 | **University** | `name` | type, language, department_url |
 | **Faculty** | `name + university` | — |
@@ -354,7 +353,7 @@ university-curriculum-analyzer/
 | **ProgramOutcome** | `text + department + university` | embedding |
 | **AcademicStaff** | `department + university` | title, name |
 
-### 10 ilişki tipi
+### 10 relation types
 
 ```
 University ─[:HAS_FACULTY]──────→ Faculty
@@ -365,111 +364,111 @@ Department ─[:OFFERS]───────────→ Course
 Course     ─[:HAS_TYPE]─────────→ CourseType
 Course     ─[:HAS_OUTCOME]──────→ LearningOutcome
 Course     ─[:BELONGS_TO]───────→ Category
-Course     ─[:REQUIRES]─────────→ Course      (önkoşul, transitif)
+Course     ─[:REQUIRES]─────────→ Course      (prerequisite, transitive)
 ```
 
-Cypher örnekleri için: [`src/comparison.py`](src/comparison.py)
+For Cypher examples: [`src/comparison.py`](src/comparison.py)
 
 ---
 
-## Frontend — 3 katman + Chat
+## Frontend — 3 layers + Chat
 
-### Katman 1 — İlk bakışta (`/`)
-- **CategoryRadar** — 10 eksende kategori bazlı kapsam (Recharts polish)
-- **UniversityCard** ×2 — 4px accent + 80px güncellik skoru + uzmanlaşma mini bar
+### Layer 1 — At a glance (`/`)
+- **CategoryRadar** — category coverage across 10 axes (Recharts polish)
+- **UniversityCard** ×2 — 4px accent + 80px recency score + specialization mini bar
 
-### Katman 2 — Daha yakından (scroll, `/`)
-- **2.1 SemesterHeatmap** — 8 dönem × 10 kategori AKTS ısı haritası
-- **2.2 CoverageTable** — Kategori bazlı ortak/farklı konu özeti
-- **2.3 BloomDonut** — Bloom taksonomisi dağılımı (her üni ayrı donut)
-- **2.4 OutcomesHeatmap** — Program çıktıları semantik benzerliği
-- **2.5 StaffBars** — Akademik kadro nokta-cluster'ı
-- **2.6 ResourcesDonut** — İngilizce kaynak oranı
+### Layer 2 — A closer look (scroll, `/`)
+- **2.1 SemesterHeatmap** — 8 semesters × 10 categories ECTS heatmap
+- **2.2 CoverageTable** — category-level shared/different topic summary
+- **2.3 BloomDonut** — Bloom taxonomy distribution (a separate donut per university)
+- **2.4 OutcomesHeatmap** — semantic similarity of program outcomes
+- **2.5 StaffBars** — academic staff dot-cluster
+- **2.6 ResourcesDonut** — share of English resources
 
-### Katman 3 — Derin analiz (`/deep-analysis`)
-- **3.1 CurriculumCoverageHeatmap** — Haftalık konu eşlemesi
-- **3.2 PrereqGraph** — ReactFlow ile önkoşul ağı
-- **3.3 ResourcesTable** — Ortak ders kaynakları
-- **3.4 CourseSimilarity** — Embedding tabanlı arama UI
+### Layer 3 — Deep analysis (`/deep-analysis`)
+- **3.1 CurriculumCoverageHeatmap** — weekly topic mapping
+- **3.2 PrereqGraph** — prerequisite graph with ReactFlow
+- **3.3 ResourcesTable** — shared course resources
+- **3.4 CourseSimilarity** — embedding-based search UI
 
 ### Chat Panel
-- Sağ alt **pill** (kapalı) → tıklayınca **420×600 modal** (desktop) / **bottom sheet** (mobile)
-- `/` kısayolu ile odakla
-- **Typewriter streaming**, citations chip'leri, follow-up önerileri
-- LLM `dashboard_update` dönerse ilgili dashboard bileşeni 30 saniye **glow** olur
+- Bottom-right **pill** (closed) → on click, a **420×600 modal** (desktop) / **bottom sheet** (mobile)
+- Focus with the `/` shortcut
+- **Typewriter streaming**, citation chips, follow-up suggestions
+- If the LLM returns `dashboard_update`, the relevant dashboard component **glows** for 30 seconds
 
-### Tasarım sistemi
-- **Renk paleti:** ink + paper (NYT/Pudding tarzı sıcak palet) + 3 üniversite rengi
-- **Tipografi:** Fraunces (serif başlık) + Inter Tight (UI) + JetBrains Mono (sayı/kod)
+### Design system
+- **Color palette:** ink + paper (warm NYT/Pudding-style palette) + 3 university colors
+- **Typography:** Fraunces (serif headings) + Inter Tight (UI) + JetBrains Mono (numbers/code)
 - **Editorial scale:** text-3xl=40px, text-4xl=56px, text-5xl=80px
-- **Light/dark mode** + sistem tercihi otomatik
+- **Light/dark mode** + automatic system preference
 
-URL state ile paylaşılabilir: `/?a=metu&b=bilkent&c=bogazici&dept=bilmuh`
+Shareable via URL state: `/?a=metu&b=bilkent&c=bogazici&dept=bilmuh`
 
 ---
 
-## API endpoint'leri
+## API endpoints
 
-### Karşılaştırma metrikleri (Neo4j → JSON)
+### Comparison metrics (Neo4j → JSON)
 
-| Endpoint | Açıklama |
+| Endpoint | Description |
 |---|---|
-| `GET /api/v2/universities?department=bilmuh` | Bölüm bazlı üniversite listesi |
-| `GET /api/v2/universities/{slug}` | Üniversite özeti (modernity_score, specialization_depth) |
-| `GET /api/v2/compare/radar?a=metu&b=bilkent&c=...` | 10 eksen kategori kapsamı |
-| `GET /api/v2/compare/heatmap?a=&b=` | Dönem × kategori AKTS matrisi |
-| `GET /api/v2/compare/coverage?a=&b=` | Ortak/farklı konu çıkarımı |
-| `GET /api/v2/compare/bloom?a=&b=` | Bloom taksonomisi dağılımı |
-| `GET /api/compare/staff?u1=&u2=` | Akademik kadro karşılaştırma |
-| `GET /api/compare/program-outcomes?u1=&u2=` | Program çıktısı NLP eşleşmesi |
-| `GET /api/compare/curriculum-coverage?u1=&u2=` | Haftalık konu eşlemesi |
-| `GET /api/compare/prerequisites?u1=&u2=` | Önkoşul ağı |
-| `GET /api/compare/resources?u1=&u2=` | Ortak kaynaklar |
+| `GET /api/v2/universities?department=bilmuh` | Department-level university list |
+| `GET /api/v2/universities/{slug}` | University summary (modernity_score, specialization_depth) |
+| `GET /api/v2/compare/radar?a=metu&b=bilkent&c=...` | 10-axis category coverage |
+| `GET /api/v2/compare/heatmap?a=&b=` | Semester × category ECTS matrix |
+| `GET /api/v2/compare/coverage?a=&b=` | Shared/different topic extraction |
+| `GET /api/v2/compare/bloom?a=&b=` | Bloom taxonomy distribution |
+| `GET /api/compare/staff?u1=&u2=` | Academic staff comparison |
+| `GET /api/compare/program-outcomes?u1=&u2=` | Program outcome NLP matching |
+| `GET /api/compare/curriculum-coverage?u1=&u2=` | Weekly topic mapping |
+| `GET /api/compare/prerequisites?u1=&u2=` | Prerequisite graph |
+| `GET /api/compare/resources?u1=&u2=` | Shared resources |
 
-### Sohbet & arama
+### Chat & search
 
-| Endpoint | Method | Açıklama |
+| Endpoint | Method | Description |
 |---|---|---|
-| `/api/chat` | POST | LLM destekli soru-cevap (intent → context → answer) |
-| `/api/search` | POST | FAISS embedding tabanlı semantik ders arama |
+| `/api/chat` | POST | LLM-powered Q&A (intent → context → answer) |
+| `/api/search` | POST | FAISS embedding-based semantic course search |
 
-### Chat akışı
+### Chat flow
 
 ```
-Soru → router.py (LLM #1, classify intent)
+Question → router.py (LLM #1, classify intent)
               ↓
-         context.py (Neo4j veya FAISS, no LLM)
+         context.py (Neo4j or FAISS, no LLM)
               ↓
          answer.py (LLM #2, ChatResponse)
               ↓
          Frontend (text + citations + dashboard_update)
 ```
 
-#### Intent tipleri
+#### Intent types
 
-| Tip | Açıklama | Örnek |
+| Type | Description | Example |
 |---|---|---|
-| `deterministic` | Sayısal / filtrelenebilir | "ODTÜ'de kaç zorunlu ders var?" |
-| `comparison` | İki+ üniversite kıyası | "Bilkent ve ODTÜ'nün matematik yükünü karşılaştır" |
-| `semantic` | Konu bazlı arama | "Görüntü işleme dersleri" |
-| `detail` | Spesifik ders/üni | "CENG 483 nedir?" |
-| `general` | Sistem hakkında | "Bu veriler nasıl toplandı?" |
+| `deterministic` | Numeric / filterable | "How many required courses does METU have?" |
+| `comparison` | Comparison of 2+ universities | "Compare the math load of Bilkent and METU" |
+| `semantic` | Topic-based search | "Image processing courses" |
+| `detail` | Specific course/university | "What is CENG 483?" |
+| `general` | About the system | "How was this data collected?" |
 
-Her LLM çağrısı `logs/llm.jsonl`'e kaydedilir (tokens, latency, cost).
+Every LLM call is logged to `logs/llm.jsonl` (tokens, latency, cost).
 
-#### Curl örneği
+#### Curl example
 
 ```bash
 curl -X POST http://localhost:8000/api/chat \
   -H "Content-Type: application/json" \
-  -d '{"question":"Yapay zeka derslerinde hangi üniversite daha yoğun?"}'
+  -d '{"question":"Which university is more intensive in AI courses?"}'
 ```
 
-Tam Swagger dokümantasyonu: http://localhost:8000/docs
+Full Swagger documentation: http://localhost:8000/docs
 
 ---
 
-## Geliştirme & test
+## Development & testing
 
 ### Frontend dev
 
@@ -480,15 +479,15 @@ npm run lint       # ESLint
 npm run build      # Production build (.next/)
 ```
 
-### E2E testler (Playwright)
+### E2E tests (Playwright)
 
 ```bash
 cd frontend
 npm run test:e2e         # CI mode
-npm run test:e2e:ui      # Browser UI'ı ile
+npm run test:e2e:ui      # With browser UI
 ```
 
-Test'ler `frontend/tests/e2e/`'de.
+Tests are in `frontend/tests/e2e/`.
 
 ### Backend dev
 
@@ -505,70 +504,70 @@ tail -f logs/llm.jsonl
 ### Neo4j Cypher
 
 ```bash
-docker exec -it unicurriculum-neo4j cypher-shell -u neo4j -p <şifre>
+docker exec -it unicurriculum-neo4j cypher-shell -u neo4j -p <password>
 
 > MATCH (u:University) RETURN count(u) AS unis;
 > MATCH (c:Course) RETURN count(c) AS courses;
 > MATCH ()-[r:REQUIRES]->() RETURN count(r) AS prereqs;
 ```
 
-Beklenen değerler:
+Expected values:
 - `unis` ≥ 51
 - `courses` ≥ 8000
-- `prereqs` > 0 (önkoşul tanımı olan dersler için)
+- `prereqs` > 0 (for courses with a prerequisite defined)
 
-### Branch / PR akışı
+### Branch / PR flow
 
 ```bash
 git checkout main
 git pull
-git checkout -b feat/yeni-ozellik
-# ... kodla ...
+git checkout -b feat/new-feature
+# ... code ...
 git add -A
-git commit -m "feat(scope): açıklama"
-git push -u origin feat/yeni-ozellik
-gh pr create        # veya GitHub web'den manuel
+git commit -m "feat(scope): description"
+git push -u origin feat/new-feature
+gh pr create        # or manually from the GitHub web UI
 ```
 
 ---
 
-## Yeni üniversite ekleme
+## Adding a new university
 
-1. **JSON oluştur:** `CLAUDE.md`'deki şemaya uygun
-   `data/<bolum>/<slug>.json` (örn. `data/bilgisayar/yeniuni.json`)
+1. **Create JSON:** following the schema in `CLAUDE.md`,
+   `data/<dept>/<slug>.json` (e.g. `data/bilgisayar/yeniuni.json`)
 
-2. **Enrichment (opsiyonel ama önerilir):**
+2. **Enrichment (optional but recommended):**
    ```bash
    python -m src.enrichment.enrich data/bilgisayar/yeniuni.json
    ```
-   LLM ile bloom_levels, categories, weekly_topics ekler.
+   Adds bloom_levels, categories, weekly_topics via LLM.
 
-3. **Neo4j'e yükle:**
+3. **Load into Neo4j:**
    ```bash
    python src/ingest.py
    ```
 
-4. **FAISS index'i yenile:**
+4. **Rebuild the FAISS index:**
    ```bash
    python -m src.embeddings.builder
    ```
 
-5. **Frontend cache temizle:** Tarayıcıda hard refresh (Cmd+Shift+R) — SWR
-   60s dedupe yapıyor, ya bekle ya yenile.
+5. **Clear the frontend cache:** Hard refresh in the browser (Cmd+Shift+R) — SWR
+   dedupes for 60s, so either wait or refresh.
 
 ---
 
-## Lisans & Atıf
+## License & Citation
 
-Bitirme projesi olarak geliştirilmiştir.
+Developed as a graduation (capstone) project.
 
-- **Veri kaynağı:** Üniversitelerin resmi müfredat web sayfaları
-- **Embedding modeli:** [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+- **Data source:** universities' official curriculum web pages
+- **Embedding model:** [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 - **LLM:** Azure OpenAI / OpenAI / OpenRouter
 
 ---
 
-## Dış bağlantılar
+## External links
 
 - **GitHub:** https://github.com/yapicialiekrem/university-curriculum-analyzer
 - **Neo4j docs:** https://neo4j.com/docs/
